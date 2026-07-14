@@ -7,11 +7,19 @@ export function HeroSection() {
   return (
     <section className="relative flex min-h-[100dvh] items-center overflow-hidden">
       <div className="absolute inset-0 bg-navy">
-        <div className="absolute inset-0 bg-gradient-to-br from-navy-dark via-navy to-navy-light" />
-        <div className="absolute inset-0 opacity-30">
-          <div className="absolute top-1/4 left-1/4 h-48 w-48 rounded-full bg-accent/40 blur-3xl animate-pulse sm:h-96 sm:w-96" />
-          <div className="absolute bottom-1/4 right-1/4 h-48 w-48 rounded-full bg-accent-muted/20 blur-3xl animate-pulse sm:h-96 sm:w-96" />
-        </div>
+        <video
+          autoPlay
+          muted
+          loop
+          playsInline
+          preload="metadata"
+          className="absolute inset-0 h-full w-full object-cover"
+          aria-hidden="true"
+        >
+          <source src="/videos/hero.mp4" type="video/mp4" />
+        </video>
+        <div className="absolute inset-0 bg-gradient-to-r from-navy/75 via-navy/30 to-navy/10" />
+        <div className="absolute inset-0 bg-gradient-to-t from-navy/50 via-transparent to-transparent" />
       </div>
 
       <div className="container-custom relative z-10 pb-10 pt-20 sm:pb-16 sm:pt-24">
