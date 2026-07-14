@@ -10,7 +10,7 @@ export const metadata: Metadata = createMetadata({
 
 export default function DatenschutzPage() {
   return (
-    <div className="pt-32">
+    <div className="page-top">
       <div className="container-custom section-padding">
         <Breadcrumbs items={[{ label: "Startseite", href: "/" }, { label: "Datenschutz" }]} />
         <h1 className="text-3xl font-extrabold text-anthracite">Datenschutzerklärung</h1>

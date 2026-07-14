@@ -76,7 +76,7 @@ export function ContactForm({ className, source = "website", compact = false }: 
           <input
             id="name"
             {...register("name")}
-            className="w-full rounded-xl border border-gray-200 px-4 py-3 transition-colors focus:border-accent focus:outline-none focus:ring-2 focus:ring-accent/20"
+            className="w-full rounded-xl border border-gray-200 px-4 py-3 text-base transition-colors focus:border-accent focus:outline-none focus:ring-2 focus:ring-accent/20"
             placeholder="Ihr Name"
           />
           {errors.name && <p className="mt-1 text-sm text-red-500">{errors.name.message}</p>}
@@ -88,7 +88,7 @@ export function ContactForm({ className, source = "website", compact = false }: 
           <input
             id="company"
             {...register("company")}
-            className="w-full rounded-xl border border-gray-200 px-4 py-3 transition-colors focus:border-accent focus:outline-none focus:ring-2 focus:ring-accent/20"
+            className="w-full rounded-xl border border-gray-200 px-4 py-3 text-base transition-colors focus:border-accent focus:outline-none focus:ring-2 focus:ring-accent/20"
             placeholder="Ihre Firma"
           />
           {errors.company && <p className="mt-1 text-sm text-red-500">{errors.company.message}</p>}
@@ -101,7 +101,7 @@ export function ContactForm({ className, source = "website", compact = false }: 
             id="phone"
             type="tel"
             {...register("phone")}
-            className="w-full rounded-xl border border-gray-200 px-4 py-3 transition-colors focus:border-accent focus:outline-none focus:ring-2 focus:ring-accent/20"
+            className="w-full rounded-xl border border-gray-200 px-4 py-3 text-base transition-colors focus:border-accent focus:outline-none focus:ring-2 focus:ring-accent/20"
             placeholder="+49 ..."
           />
           {errors.phone && <p className="mt-1 text-sm text-red-500">{errors.phone.message}</p>}
@@ -114,7 +114,7 @@ export function ContactForm({ className, source = "website", compact = false }: 
             id="email"
             type="email"
             {...register("email")}
-            className="w-full rounded-xl border border-gray-200 px-4 py-3 transition-colors focus:border-accent focus:outline-none focus:ring-2 focus:ring-accent/20"
+            className="w-full rounded-xl border border-gray-200 px-4 py-3 text-base transition-colors focus:border-accent focus:outline-none focus:ring-2 focus:ring-accent/20"
             placeholder="ihre@email.de"
           />
           {errors.email && <p className="mt-1 text-sm text-red-500">{errors.email.message}</p>}
@@ -129,7 +129,7 @@ export function ContactForm({ className, source = "website", compact = false }: 
             id="message"
             {...register("message")}
             rows={4}
-            className="w-full rounded-xl border border-gray-200 px-4 py-3 transition-colors focus:border-accent focus:outline-none focus:ring-2 focus:ring-accent/20"
+            className="w-full rounded-xl border border-gray-200 px-4 py-3 text-base transition-colors focus:border-accent focus:outline-none focus:ring-2 focus:ring-accent/20"
             placeholder="Wie können wir Ihnen helfen?"
           />
         </div>
@@ -137,7 +137,7 @@ export function ContactForm({ className, source = "website", compact = false }: 
       {status === "error" && (
         <p className="text-sm text-red-500">Fehler beim Senden. Bitte versuchen Sie es erneut.</p>
       )}
-      <Button type="submit" size="lg" className="w-full sm:w-auto" disabled={status === "loading"}>
+      <Button type="submit" size="lg" className="w-full" disabled={status === "loading"}>
         {status === "loading" ? "Wird gesendet..." : "Kostenlose Potenzialanalyse sichern"}
       </Button>
     </form>

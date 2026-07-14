@@ -6,7 +6,7 @@ export function Footer() {
   return (
     <footer className="border-t border-navy-light bg-navy text-white">
       <div className="container-custom section-padding">
-        <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-4">
+        <div className="grid gap-10 sm:grid-cols-2 sm:gap-12 lg:grid-cols-4">
           <div>
             <Link href="/" className="inline-block rounded-xl bg-white p-3">
               <Image

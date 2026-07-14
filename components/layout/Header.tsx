@@ -50,7 +50,7 @@ export function Header() {
                 alt="Kestler Connect"
                 width={140}
                 height={48}
-                className="h-10 w-auto object-contain lg:h-12"
+                className="h-8 w-auto object-contain sm:h-10 lg:h-12"
                 priority
               />
             </Link>

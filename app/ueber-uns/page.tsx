@@ -30,7 +30,7 @@ const storySections = [
 
 export default function UeberUnsPage() {
   return (
-    <div className="pt-32">
+    <div className="page-top">
       <section className="bg-navy pb-16 pt-8">
         <div className="container-custom">
           <Breadcrumbs items={[{ label: "Startseite", href: "/" }, { label: "Über uns" }]} variant="dark" />

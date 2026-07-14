@@ -46,10 +46,10 @@ export default async function CategoryPage({
   if (!section) notFound();
 
   return (
-    <div className="pt-32">
+    <div className="page-top">
       <div className="container-custom section-padding">
         <Breadcrumbs items={createBreadcrumbsFromPath(path)} />
-        <h1 className="text-4xl font-extrabold text-anthracite lg:text-5xl">{section.title}</h1>
+        <h1 className="text-2xl font-extrabold text-anthracite sm:text-3xl lg:text-5xl">{section.title}</h1>
         <p className="mt-4 max-w-2xl text-lg text-gray-600">
           Professionelle {section.title}-Lösungen für Handwerk, Vereine und lokale Unternehmen.
         </p>

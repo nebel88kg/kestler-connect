@@ -38,14 +38,14 @@ export function ServicesGrid() {
     <section className="section-padding">
       <div className="container-custom">
         <ScrollReveal>
-          <div className="mb-16 text-center">
+          <div className="mb-10 text-center sm:mb-16">
             <p className="mb-3 text-sm font-semibold uppercase tracking-[0.15em] text-accent">
               Leistungen
             </p>
-            <h2 className="text-3xl font-extrabold text-navy lg:text-5xl">
+            <h2 className="text-2xl font-extrabold text-navy sm:text-3xl lg:text-5xl">
               Unsere Leistungen
             </h2>
-            <p className="mx-auto mt-4 max-w-2xl text-lg text-gray-600">
+            <p className="mx-auto mt-3 max-w-2xl text-base text-gray-600 sm:mt-4 sm:text-lg">
               Alles aus einer Hand – von der Strategie bis zur Umsetzung.
             </p>
           </div>

@@ -89,7 +89,7 @@ export default async function ReferenzDetailPage({
 
           <div>
             <ScrollReveal>
-              <div className="sticky top-28 rounded-2xl border border-gray-200 bg-gray-50 p-8">
+              <div className="lg:sticky lg:top-28 rounded-2xl border border-gray-200 bg-gray-50 p-4 sm:p-8">
                 <h3 className="text-lg font-bold text-anthracite">Ähnliche Ergebnisse für Ihr Unternehmen?</h3>
                 <p className="mt-2 text-sm text-gray-600">
                   Lassen Sie uns in einem kostenlosen Gespräch herausfinden, was für Sie möglich ist.

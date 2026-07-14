@@ -26,7 +26,7 @@ export function Accordion({ items, className }: AccordionProps) {
         >
           <button
             type="button"
-            className="flex w-full items-center justify-between px-6 py-5 text-left font-semibold text-anthracite transition-colors hover:bg-gray-50"
+            className="flex min-h-12 w-full items-center justify-between gap-3 px-4 py-4 text-left text-sm font-semibold text-anthracite transition-colors hover:bg-gray-50 sm:px-6 sm:text-base"
             onClick={() => setOpenIndex(openIndex === index ? null : index)}
             aria-expanded={openIndex === index}
           >
@@ -46,7 +46,7 @@ export function Accordion({ items, className }: AccordionProps) {
                 exit={{ height: 0, opacity: 0 }}
                 transition={{ duration: 0.3 }}
               >
-                <div className="border-t border-gray-100 px-6 py-5 text-gray-600 leading-relaxed">
+                <div className="border-t border-gray-100 px-4 py-4 text-sm leading-relaxed text-gray-600 sm:px-6 sm:py-5 sm:text-base">
                   {item.answer}
                 </div>
               </motion.div>

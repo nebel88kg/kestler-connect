@@ -10,8 +10,8 @@ export function Breadcrumbs({ items, variant = "light" }: BreadcrumbsProps) {
   const isDark = variant === "dark";
 
   return (
-    <nav aria-label="Breadcrumb" className="mb-8">
-      <ol className={`flex flex-wrap items-center gap-2 text-sm ${isDark ? "text-gray-400" : "text-gray-600"}`}>
+    <nav aria-label="Breadcrumb" className="mb-4 sm:mb-8">
+      <ol className={`flex flex-wrap items-center gap-x-1.5 gap-y-1 text-xs sm:gap-2 sm:text-sm ${isDark ? "text-gray-400" : "text-gray-600"}`}>
         {items.map((item, index) => (
           <li key={index} className="flex items-center gap-2">
             {index > 0 && <span className={isDark ? "text-gray-600" : "text-gray-400"}>/</span>}

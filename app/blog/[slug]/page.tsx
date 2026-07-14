@@ -61,7 +61,7 @@ export default async function BlogPostPage({
   if (!post) notFound();
 
   return (
-    <div className="pt-32">
+    <div className="page-top">
       <article className="container-custom section-padding">
         <Breadcrumbs items={createBreadcrumbsFromPath(`/blog/${slug}`)} />
 
@@ -69,7 +69,7 @@ export default async function BlogPostPage({
           <span className="mb-4 inline-block rounded-full bg-accent-light px-3 py-1 text-xs font-semibold text-accent">
             {post.category}
           </span>
-          <h1 className="text-3xl font-extrabold text-anthracite lg:text-5xl">{post.title}</h1>
+          <h1 className="text-2xl font-extrabold text-anthracite sm:text-3xl lg:text-5xl">{post.title}</h1>
           <div className="mt-4 flex items-center gap-3 text-sm text-gray-500">
             <time dateTime={post.date}>
               {new Date(post.date).toLocaleDateString("de-DE", {

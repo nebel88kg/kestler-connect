@@ -10,7 +10,7 @@ export function ContactCTA() {
             <p className="mb-3 text-sm font-semibold uppercase tracking-[0.15em] text-accent">
               Jetzt starten
             </p>
-            <h2 className="text-3xl font-extrabold text-white lg:text-5xl">
+            <h2 className="text-2xl font-extrabold text-white sm:text-3xl lg:text-5xl">
               Kostenlose Potenzialanalyse sichern
             </h2>
             <p className="mt-4 text-lg text-gray-400">
@@ -34,7 +34,7 @@ export function ContactCTA() {
           </ScrollReveal>
 
           <ScrollReveal delay={0.2}>
-            <div className="rounded-2xl bg-white p-8 shadow-2xl ring-1 ring-accent/20">
+            <div className="rounded-2xl bg-white p-4 shadow-2xl ring-1 ring-accent/20 sm:p-8">
               <ContactForm source="homepage-cta" compact />
             </div>
           </ScrollReveal>

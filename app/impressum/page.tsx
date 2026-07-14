@@ -11,7 +11,7 @@ export const metadata: Metadata = createMetadata({
 
 export default function ImpressumPage() {
   return (
-    <div className="pt-32">
+    <div className="page-top">
       <div className="container-custom section-padding">
         <Breadcrumbs items={[{ label: "Startseite", href: "/" }, { label: "Impressum" }]} />
         <h1 className="text-3xl font-extrabold text-anthracite">Impressum</h1>

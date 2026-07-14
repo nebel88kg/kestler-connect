@@ -45,10 +45,10 @@ export default async function BranchePage({
   if (!section) notFound();
 
   return (
-    <div className="pt-32">
+    <div className="page-top">
       <div className="container-custom section-padding">
         <Breadcrumbs items={createBreadcrumbsFromPath(path)} />
-        <h1 className="text-4xl font-extrabold text-anthracite lg:text-5xl">
+        <h1 className="text-2xl font-extrabold text-anthracite sm:text-3xl lg:text-5xl">
           Marketing für {section.title}
         </h1>
         <p className="mt-4 max-w-2xl text-lg text-gray-600">

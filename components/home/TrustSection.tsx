@@ -24,7 +24,7 @@ export function TrustSection() {
           <div className="mt-16 grid grid-cols-2 gap-8 lg:grid-cols-4">
             {stats.map((stat) => (
               <div key={stat.label} className="text-center">
-                <div className="text-3xl font-extrabold text-navy lg:text-4xl">
+                <div className="text-2xl font-extrabold text-navy sm:text-3xl lg:text-4xl">
                   <Counter end={stat.value} suffix={stat.suffix} prefix={stat.prefix} />
                 </div>
                 <p className="mt-2 text-sm text-gray-600">{stat.label}</p>

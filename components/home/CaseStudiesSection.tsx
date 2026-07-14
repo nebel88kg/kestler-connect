@@ -9,7 +9,7 @@ export function CaseStudiesSection() {
       <div className="container-custom">
         <ScrollReveal>
           <div className="mb-16 text-center">
-            <h2 className="text-3xl font-extrabold text-anthracite lg:text-5xl">
+            <h2 className="text-2xl font-extrabold text-anthracite sm:text-3xl lg:text-5xl">
               Referenzprojekte
             </h2>
             <p className="mx-auto mt-4 max-w-2xl text-lg text-gray-600">

@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components/layout/Header";
@@ -18,6 +18,13 @@ export const metadata: Metadata = createMetadata({
   description: siteConfig.description,
   path: "/",
 });
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  viewportFit: "cover",
+  themeColor: "#1a2332",
+};
 
 const organizationSchema = {
   "@context": "https://schema.org",

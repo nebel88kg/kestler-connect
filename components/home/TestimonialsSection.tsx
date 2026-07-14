@@ -28,7 +28,7 @@ export function TestimonialsSection() {
       <div className="container-custom">
         <ScrollReveal>
           <div className="mb-16 text-center">
-            <h2 className="text-3xl font-extrabold text-anthracite lg:text-5xl">
+            <h2 className="text-2xl font-extrabold text-anthracite sm:text-3xl lg:text-5xl">
               Kundenstimmen
             </h2>
             <p className="mx-auto mt-4 max-w-2xl text-lg text-gray-600">
@@ -41,7 +41,7 @@ export function TestimonialsSection() {
           {testimonials.map((t, i) => (
             <ScrollReveal key={t.name} delay={i * 0.1}>
               <Card>
-                <div className="mb-4 flex h-48 items-center justify-center rounded-xl bg-gray-100 text-gray-400">
+                <div className="mb-4 flex h-40 items-center justify-center rounded-xl bg-gray-100 text-gray-400 sm:h-48">
                   <div className="text-center">
                     <div className="text-4xl">▶</div>
                     <p className="mt-2 text-sm">Video-Testimonial</p>

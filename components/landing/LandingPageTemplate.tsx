@@ -32,14 +32,14 @@ export function LandingPageTemplate({ page }: LandingPageTemplateProps) {
     <>
       <JsonLd data={faqSchema} />
 
-      <section className="bg-navy pt-32 pb-20">
+      <section className="page-hero bg-navy">
         <div className="container-custom">
           <Breadcrumbs items={breadcrumbs} variant="dark" />
           <div className="max-w-3xl">
-            <h1 className="text-3xl font-extrabold text-white lg:text-5xl">
+            <h1 className="text-2xl font-extrabold leading-tight text-white sm:text-3xl lg:text-5xl">
               {page.hero.headline}
             </h1>
-            <p className="mt-6 text-lg text-gray-300 lg:text-xl">
+            <p className="mt-4 text-base leading-relaxed text-gray-300 sm:mt-6 sm:text-lg lg:text-xl">
               {page.hero.subheadline}
             </p>
             <div className="mt-8 flex flex-col gap-4 sm:flex-row">
@@ -142,7 +142,7 @@ export function LandingPageTemplate({ page }: LandingPageTemplateProps) {
               Unser Ablauf
             </h2>
           </ScrollReveal>
-          <div className="grid gap-6 md:grid-cols-5">
+          <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-5">
             {page.process.map((step, i) => (
               <ScrollReveal key={step.step} delay={i * 0.1}>
                 <div className="text-center">
@@ -192,7 +192,7 @@ export function LandingPageTemplate({ page }: LandingPageTemplateProps) {
               </Button>
             </ScrollReveal>
             <ScrollReveal delay={0.2}>
-              <div className="rounded-2xl bg-white p-8">
+              <div className="rounded-2xl bg-white p-4 sm:p-8">
                 <ContactForm source={page.slug} compact />
               </div>
             </ScrollReveal>
