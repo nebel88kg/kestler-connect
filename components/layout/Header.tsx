@@ -2,12 +2,12 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { mainNav } from "@/lib/navigation";
 import { Button } from "@/components/ui/Button";
 import { MegaMenu } from "./MegaMenu";
 import { MobileNav } from "./MobileNav";
+import { LogoText } from "./LogoText";
 import { cn } from "@/lib/utils";
 
 export function Header() {
@@ -44,16 +44,7 @@ export function Header() {
       >
         <div className="container-custom">
           <div className="flex h-16 items-center justify-between lg:h-20">
-            <Link href="/" className="flex items-center gap-3">
-              <Image
-                src="/images/logo.png"
-                alt="Kestler Connect"
-                width={140}
-                height={48}
-                className="h-8 w-auto object-contain sm:h-10 lg:h-12"
-                priority
-              />
-            </Link>
+            <LogoText variant={useLightStyle ? "dark" : "light"} />
 
             <nav className="hidden items-center gap-1 lg:flex">
               {mainNav.map((item) =>

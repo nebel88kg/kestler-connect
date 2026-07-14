@@ -22,33 +22,30 @@ export function HeroSection() {
         <div className="absolute inset-0 bg-gradient-to-t from-navy/50 via-transparent to-transparent" />
       </div>
 
-      <div className="container-custom relative z-10 pb-10 pt-20 sm:pb-16 sm:pt-24">
+      <div className="container-custom relative z-10 pb-14 pt-24 sm:pb-20 sm:pt-28 lg:pb-24 lg:pt-32">
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
           className="max-w-4xl"
         >
-          <p className="mb-3 text-xs font-semibold uppercase tracking-[0.12em] text-accent sm:mb-4 sm:text-sm sm:tracking-[0.2em]">
-            Verbindungen, die Wachstum schaffen
-          </p>
-          <h1 className="text-3xl font-extrabold leading-[1.15] text-white sm:text-5xl lg:text-6xl xl:text-7xl">
-            Mehr Anfragen.{" "}
-            <span className="text-accent">Mehr Mitarbeiter.</span>{" "}
-            Mehr Wachstum.
+          <h1 className="text-3xl font-extrabold leading-tight text-white sm:text-4xl lg:text-5xl xl:text-6xl">
+            <span className="block">Mehr Anfragen.</span>
+            <span className="block text-accent">Mehr Mitarbeiter.</span>
+            <span className="block">Mehr Wachstum.</span>
           </h1>
-          <p className="mt-4 max-w-2xl text-base leading-relaxed text-gray-300 sm:mt-6 sm:text-xl lg:text-2xl">
+          <p className="mt-3 max-w-xl text-sm leading-relaxed text-gray-300 sm:mt-4 sm:text-base">
             Performance-Marketing, Webseiten und Social Media für Handwerk, Vereine und lokale Unternehmen.
           </p>
-          <div className="mt-8 flex flex-col gap-3 sm:mt-10 sm:flex-row sm:gap-4">
-            <Button href="/kontakt" size="lg">
+          <div className="mt-8 flex flex-col items-center justify-center gap-3 sm:mt-10 sm:flex-row sm:gap-4 lg:mt-12">
+            <Button href="/kontakt" size="sm" className="sm:px-5 sm:py-2.5 sm:text-sm">
               Kostenloses Strategiegespräch
             </Button>
             <Button
               href="/referenzen"
               variant="outline"
-              size="lg"
-              className="border-accent text-accent hover:bg-accent hover:text-navy"
+              size="sm"
+              className="border-accent text-accent hover:bg-accent hover:text-navy sm:px-5 sm:py-2.5 sm:text-sm"
             >
               Referenzen ansehen
             </Button>
@@ -59,7 +56,7 @@ export function HeroSection() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 1, duration: 1 }}
-          className="mt-10 grid grid-cols-2 gap-2 sm:mt-16 sm:grid-cols-3 sm:gap-4 lg:grid-cols-6"
+          className="mt-14 grid grid-cols-2 gap-3 sm:mt-20 sm:grid-cols-3 sm:gap-4 lg:mt-24 lg:grid-cols-6"
         >
           {["Werbeanzeigen", "Webseiten", "Content", "Beratung", "Drohnen", "Reels"].map((item) => (
             <div

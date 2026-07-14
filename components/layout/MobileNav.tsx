@@ -2,9 +2,9 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import Image from "next/image";
 import { mainNav } from "@/lib/navigation";
 import { Button } from "@/components/ui/Button";
+import { LogoText } from "./LogoText";
 import { cn } from "@/lib/utils";
 
 interface MobileNavProps {
@@ -35,13 +35,7 @@ export function MobileNav({ isOpen, onClose }: MobileNavProps) {
       <div className="absolute inset-0 bg-black/60" onClick={onClose} aria-hidden="true" />
       <div className="absolute right-0 top-0 flex h-full w-[min(100%,20rem)] flex-col bg-white shadow-2xl safe-top safe-bottom">
         <div className="flex shrink-0 items-center justify-between border-b border-gray-100 px-4 py-3">
-          <Image
-            src="/images/logo.png"
-            alt="Kestler Connect"
-            width={120}
-            height={40}
-            className="h-9 w-auto object-contain"
-          />
+          <LogoText variant="dark" onClick={onClose} />
           <button
             type="button"
             onClick={onClose}
