@@ -30,19 +30,24 @@ export function ProcessSection() {
         </ScrollReveal>
 
         {/* Mobile & tablet: vertical timeline */}
-        <div className="space-y-6 lg:hidden">
+        <div className="space-y-0 lg:hidden">
           {steps.map((step, i) => (
             <ScrollReveal key={step.step} delay={i * 0.05}>
-              <div className="relative flex gap-4 border-l-2 border-accent/40 pl-5">
-                <motion.div
-                  initial={{ scale: 0 }}
-                  whileInView={{ scale: 1 }}
-                  viewport={{ once: true }}
-                  className="absolute -left-[1.15rem] flex h-9 w-9 items-center justify-center rounded-xl bg-accent text-sm font-bold text-navy shadow-md"
-                >
-                  {step.step}
-                </motion.div>
-                <div className="pt-0.5">
+              <div className="flex gap-4">
+                <div className="flex flex-col items-center">
+                  <motion.div
+                    initial={{ scale: 0 }}
+                    whileInView={{ scale: 1 }}
+                    viewport={{ once: true }}
+                    className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-accent text-sm font-bold text-navy shadow-md"
+                  >
+                    {step.step}
+                  </motion.div>
+                  {i < steps.length - 1 && (
+                    <div className="my-2 w-0.5 flex-1 min-h-[2rem] bg-accent/30" />
+                  )}
+                </div>
+                <div className={`min-w-0 flex-1 ${i < steps.length - 1 ? "pb-6" : "pb-1"}`}>
                   <h3 className="text-lg font-bold text-navy">{step.title}</h3>
                   <p className="mt-1 text-sm leading-relaxed text-gray-600 sm:text-base">
                     {step.description}
