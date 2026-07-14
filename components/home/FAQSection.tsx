@@ -1,0 +1,78 @@
+import { Accordion } from "@/components/ui/Accordion";
+import { ScrollReveal } from "@/components/ui/ScrollReveal";
+
+const faqItems = [
+  {
+    question: "Was kostet Online-Marketing?",
+    answer: "Die Kosten hängen von Ihren Zielen und der Branche ab. Für lokale Unternehmen rechnen wir mit 800–2.000 € monatlich (Agentur + Werbebudget). Wir erstellen gerne ein individuelles Angebot nach einem kostenlosen Strategiegespräch.",
+  },
+  {
+    question: "Wie lange dauert SEO?",
+    answer: "Erste Verbesserungen sind nach 4–8 Wochen sichtbar. Signifikante Rankings und nachhaltiger Traffic entstehen typischerweise nach 3–6 Monaten kontinuierlicher Arbeit.",
+  },
+  {
+    question: "Ab welchem Budget lohnen sich Google Ads?",
+    answer: "Für lokale Unternehmen empfehlen wir ein Mindest-Werbebudget von 500–800 € monatlich. Damit erreichen Sie genug Reichweite für aussagekräftige Ergebnisse und Optimierung.",
+  },
+  {
+    question: "Erstellt ihr auch Inhalte?",
+    answer: "Ja! Content-Produktion gehört zu unserem Kernangebot: Fotos, Videos, Reels, Anzeigen-Creatives und Texte – alles aus einer Hand.",
+  },
+  {
+    question: "Gibt es Vertragslaufzeiten?",
+    answer: "Wir arbeiten mit fairen Konditionen. Unser Ziel ist es, Sie durch Ergebnisse zu überzeugen – nicht durch lange Vertragsbindungen.",
+  },
+  {
+    question: "Für welche Branchen arbeitet ihr?",
+    answer: "Unser Fokus liegt auf Handwerk, Vereinen, Immobilien, Golfclubs und lokalen Unternehmen. Wir verstehen die Besonderheiten dieser Branchen.",
+  },
+  {
+    question: "Wie schnell sehe ich Ergebnisse?",
+    answer: "Google Ads und Meta Ads können innerhalb von 24–48 Stunden erste Anfragen bringen. SEO und Social Media brauchen 2–3 Monate für optimale Ergebnisse.",
+  },
+  {
+    question: "Brauche ich eine eigene Webseite?",
+    answer: "Ideal ja – eine professionelle Webseite ist die Basis für erfolgreiches Online-Marketing. Falls Sie noch keine haben, erstellen wir diese für Sie.",
+  },
+  {
+    question: "Wie läuft die Zusammenarbeit ab?",
+    answer: "Nach einem kostenlosen Strategiegespräch erstellen wir eine maßgeschneiderte Strategie. Sie erhalten monatliche Reports und haben einen festen Ansprechpartner.",
+  },
+  {
+    question: "Kann ich mein bestehendes Google Ads Konto nutzen?",
+    answer: "Ja, wir können Ihr bestehendes Konto übernehmen und optimieren oder ein neues professionell aufsetzen.",
+  },
+  {
+    question: "Was ist KI-SEO / ChatGPT Optimierung?",
+    answer: "Wir optimieren Ihre Inhalte so, dass Sie auch in KI-Suchmaschinen wie ChatGPT, Perplexity und Google AI Overviews gefunden werden.",
+  },
+  {
+    question: "Bietet ihr auch Social Recruiting an?",
+    answer: "Ja, Mitarbeitergewinnung über Social Media und Google Ads ist einer unserer Schwerpunkte – besonders für Handwerksbetriebe.",
+  },
+];
+
+export function FAQSection() {
+  return (
+    <section className="section-padding">
+      <div className="container-custom">
+        <ScrollReveal>
+          <div className="mb-16 text-center">
+            <h2 className="text-3xl font-extrabold text-anthracite lg:text-5xl">
+              Häufige Fragen
+            </h2>
+            <p className="mx-auto mt-4 max-w-2xl text-lg text-gray-600">
+              Antworten auf die wichtigsten Fragen.
+            </p>
+          </div>
+        </ScrollReveal>
+
+        <ScrollReveal delay={0.1}>
+          <div className="mx-auto max-w-3xl">
+            <Accordion items={faqItems} />
+          </div>
+        </ScrollReveal>
+      </div>
+    </section>
+  );
+}
