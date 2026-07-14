@@ -17,7 +17,10 @@ export function ProcessSection() {
       <div className="container-custom">
         <ScrollReveal>
           <div className="mb-16 text-center">
-            <h2 className="text-3xl font-extrabold text-anthracite lg:text-5xl">
+            <p className="mb-3 text-sm font-semibold uppercase tracking-[0.15em] text-accent">
+              Prozess
+            </p>
+            <h2 className="text-3xl font-extrabold text-navy lg:text-5xl">
               So arbeiten wir
             </h2>
             <p className="mx-auto mt-4 max-w-2xl text-lg text-gray-600">
@@ -27,7 +30,7 @@ export function ProcessSection() {
         </ScrollReveal>
 
         <div className="relative">
-          <div className="absolute left-8 top-0 hidden h-full w-0.5 bg-accent/20 lg:left-1/2 lg:block" />
+          <div className="absolute left-8 top-0 hidden h-full w-0.5 bg-accent/30 lg:left-1/2 lg:block" />
 
           <div className="space-y-8 lg:space-y-12">
             {steps.map((step, i) => (
@@ -38,11 +41,11 @@ export function ProcessSection() {
                       initial={{ scale: 0 }}
                       whileInView={{ scale: 1 }}
                       viewport={{ once: true }}
-                      className="mb-4 inline-flex h-16 w-16 items-center justify-center rounded-2xl bg-accent text-2xl font-bold text-white shadow-lg shadow-accent/30"
+                      className="mb-4 inline-flex h-16 w-16 items-center justify-center rounded-2xl bg-accent text-2xl font-bold text-navy shadow-lg shadow-accent/30"
                     >
                       {step.step}
                     </motion.div>
-                    <h3 className="text-xl font-bold text-anthracite">{step.title}</h3>
+                    <h3 className="text-xl font-bold text-navy">{step.title}</h3>
                     <p className="mt-2 text-gray-600">{step.description}</p>
                   </div>
                   <div className="hidden flex-1 lg:block" />

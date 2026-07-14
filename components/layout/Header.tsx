@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { mainNav } from "@/lib/navigation";
 import { Button } from "@/components/ui/Button";
@@ -37,23 +38,21 @@ export function Header() {
           "fixed top-0 left-0 right-0 z-40 transition-all duration-300",
           useLightStyle
             ? "bg-white/95 shadow-sm backdrop-blur-md"
-            : "bg-anthracite/60 backdrop-blur-md"
+            : "bg-navy/80 backdrop-blur-md"
         )}
         onMouseLeave={() => setMegaOpen(null)}
       >
         <div className="container-custom">
           <div className="flex h-16 items-center justify-between lg:h-20">
-            <Link
-              href="/"
-              className={cn(
-                "text-xl font-bold transition-colors lg:text-2xl",
-                useLightStyle ? "text-anthracite" : "text-white"
-              )}
-            >
-              Kestler{" "}
-              <span className={cn(useLightStyle ? "text-accent" : "text-blue-300")}>
-                Connect
-              </span>
+            <Link href="/" className="flex items-center gap-3">
+              <Image
+                src="/images/logo.png"
+                alt="Kestler Connect"
+                width={140}
+                height={48}
+                className="h-10 w-auto object-contain lg:h-12"
+                priority
+              />
             </Link>
 
             <nav className="hidden items-center gap-1 lg:flex">
@@ -68,12 +67,10 @@ export function Header() {
                       className={cn(
                         "flex items-center gap-1 px-3 py-2 text-sm font-medium transition-colors rounded-lg",
                         megaOpen === item.title
-                          ? useLightStyle
-                            ? "text-accent"
-                            : "text-white"
+                          ? "text-accent"
                           : useLightStyle
-                            ? "text-anthracite hover:text-accent"
-                            : "text-white/90 hover:text-white"
+                            ? "text-navy hover:text-accent"
+                            : "text-white/90 hover:text-accent"
                       )}
                       aria-expanded={megaOpen === item.title}
                     >
@@ -98,8 +95,8 @@ export function Header() {
                     className={cn(
                       "px-3 py-2 text-sm font-medium transition-colors rounded-lg",
                       useLightStyle
-                        ? "text-anthracite hover:text-accent"
-                        : "text-white/90 hover:text-white"
+                        ? "text-navy hover:text-accent"
+                        : "text-white/90 hover:text-accent"
                     )}
                   >
                     {item.title}
@@ -116,7 +113,7 @@ export function Header() {
                 type="button"
                 className={cn(
                   "flex h-10 w-10 items-center justify-center rounded-lg lg:hidden",
-                  useLightStyle ? "text-anthracite" : "text-white"
+                  useLightStyle ? "text-navy" : "text-white"
                 )}
                 onClick={() => setMobileOpen(true)}
                 aria-label="Menü öffnen"

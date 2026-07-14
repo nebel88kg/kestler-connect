@@ -8,28 +8,28 @@ const services = [
     description: "Gezielte Werbekampagnen mit messbarem ROI für Ihr Unternehmen.",
     items: ["Google Ads", "Meta Ads", "Leadgenerierung", "Mitarbeitergewinnung"],
     href: "/leistungen/google-ads",
-    color: "bg-blue-50",
+    color: "bg-accent-light border border-accent/20",
   },
   {
     title: "Social Media",
     description: "Professioneller Auftritt und Content, der Ihre Zielgruppe erreicht.",
     items: ["Content Produktion", "Reel Erstellung", "Community Management"],
     href: "/leistungen/social-media",
-    color: "bg-purple-50",
+    color: "bg-navy/5 border border-navy/10",
   },
   {
     title: "Webseiten",
     description: "Moderne Webseiten und Landingpages, die Besucher zu Kunden machen.",
     items: ["Webdesign", "Landingpages", "Conversion Optimierung"],
     href: "/leistungen/webseiten",
-    color: "bg-green-50",
+    color: "bg-accent-light/60 border border-accent/15",
   },
   {
     title: "SEO & KI-Sichtbarkeit",
     description: "Gefunden werden – bei Google, Maps und KI-Suchmaschinen.",
     items: ["SEO", "Local SEO", "ChatGPT Optimierung", "KI-Suchmaschinenoptimierung"],
     href: "/leistungen/seo",
-    color: "bg-amber-50",
+    color: "bg-navy/5 border border-navy/10",
   },
 ];
 
@@ -39,7 +39,10 @@ export function ServicesGrid() {
       <div className="container-custom">
         <ScrollReveal>
           <div className="mb-16 text-center">
-            <h2 className="text-3xl font-extrabold text-anthracite lg:text-5xl">
+            <p className="mb-3 text-sm font-semibold uppercase tracking-[0.15em] text-accent">
+              Leistungen
+            </p>
+            <h2 className="text-3xl font-extrabold text-navy lg:text-5xl">
               Unsere Leistungen
             </h2>
             <p className="mx-auto mt-4 max-w-2xl text-lg text-gray-600">
@@ -52,14 +55,14 @@ export function ServicesGrid() {
           {services.map((service, i) => (
             <ScrollReveal key={service.title} delay={i * 0.1}>
               <Link href={service.href}>
-                <Card className="h-full">
-                  <div className={`mb-4 inline-block rounded-xl ${service.color} px-4 py-2 text-sm font-semibold text-anthracite`}>
+                <Card className="h-full border-navy/10">
+                  <div className={`mb-4 inline-block rounded-xl ${service.color} px-4 py-2 text-sm font-semibold text-navy`}>
                     {service.title}
                   </div>
                   <p className="mb-4 text-gray-600">{service.description}</p>
                   <ul className="space-y-2">
                     {service.items.map((item) => (
-                      <li key={item} className="flex items-center gap-2 text-sm text-anthracite">
+                      <li key={item} className="flex items-center gap-2 text-sm text-navy">
                         <span className="text-accent">✓</span>
                         {item}
                       </li>

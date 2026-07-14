@@ -15,7 +15,7 @@ export const metadata: Metadata = createMetadata({
 export default function KontaktPage() {
   return (
     <div className="pt-32">
-      <section className="bg-anthracite pb-16 pt-8">
+      <section className="bg-navy pb-16 pt-8">
         <div className="container-custom">
           <Breadcrumbs items={[{ label: "Startseite", href: "/" }, { label: "Kontakt" }]} variant="dark" />
           <h1 className="text-3xl font-extrabold text-white lg:text-5xl">Kontakt</h1>

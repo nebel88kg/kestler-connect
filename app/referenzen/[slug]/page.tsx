@@ -37,7 +37,7 @@ export default async function ReferenzDetailPage({
 
   return (
     <div className="pt-32">
-      <section className="bg-anthracite pb-16 pt-8">
+      <section className="bg-navy pb-16 pt-8">
         <div className="container-custom">
           <Breadcrumbs items={createBreadcrumbsFromPath(`/referenzen/${slug}`)} variant="dark" />
           <span className="mb-4 inline-block rounded-full bg-accent/20 px-4 py-1 text-sm font-semibold text-accent">

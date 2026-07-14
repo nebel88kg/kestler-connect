@@ -1,11 +1,16 @@
 @import "tailwindcss";
 
 @theme {
-  --color-anthracite: #1a1a2e;
-  --color-anthracite-light: #2d2d44;
-  --color-accent: #2563eb;
-  --color-accent-hover: #1d4ed8;
-  --color-accent-light: #dbeafe;
+  /* Kestler Connect brand: dark navy + gold */
+  --color-navy: #1a2332;
+  --color-navy-light: #243044;
+  --color-navy-dark: #121a26;
+  --color-anthracite: #1a2332;
+  --color-anthracite-light: #243044;
+  --color-accent: #c4a052;
+  --color-accent-hover: #b08d3e;
+  --color-accent-light: #f5edd8;
+  --color-accent-muted: #d4bc82;
   --color-gray-50: #f9fafb;
   --color-gray-100: #f3f4f6;
   --color-gray-200: #e5e7eb;
@@ -40,5 +45,13 @@
 
   .text-gradient {
     @apply bg-gradient-to-r from-anthracite to-gray-600 bg-clip-text text-transparent;
+  }
+
+  .text-gold {
+    @apply text-accent;
+  }
+
+  .bg-brand-dark {
+    @apply bg-navy;
   }
 }

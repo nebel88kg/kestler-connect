@@ -32,7 +32,7 @@ export function LandingPageTemplate({ page }: LandingPageTemplateProps) {
     <>
       <JsonLd data={faqSchema} />
 
-      <section className="bg-anthracite pt-32 pb-20">
+      <section className="bg-navy pt-32 pb-20">
         <div className="container-custom">
           <Breadcrumbs items={breadcrumbs} variant="dark" />
           <div className="max-w-3xl">
@@ -51,7 +51,7 @@ export function LandingPageTemplate({ page }: LandingPageTemplateProps) {
                 variant="outline"
                 size="lg"
                 external
-                className="border-white text-white hover:bg-white hover:text-anthracite"
+                className="border-accent text-accent hover:bg-accent hover:text-navy"
               >
                 Termin buchen
               </Button>
@@ -146,7 +146,7 @@ export function LandingPageTemplate({ page }: LandingPageTemplateProps) {
             {page.process.map((step, i) => (
               <ScrollReveal key={step.step} delay={i * 0.1}>
                 <div className="text-center">
-                  <div className="mx-auto mb-4 flex h-14 w-14 items-center justify-center rounded-2xl bg-accent text-xl font-bold text-white">
+                  <div className="mx-auto mb-4 flex h-14 w-14 items-center justify-center rounded-2xl bg-accent text-xl font-bold text-navy">
                     {step.step}
                   </div>
                   <h3 className="font-bold text-anthracite">{step.title}</h3>
@@ -171,7 +171,7 @@ export function LandingPageTemplate({ page }: LandingPageTemplateProps) {
         </div>
       </section>
 
-      <section id="kontakt" className="section-padding bg-anthracite">
+      <section id="kontakt" className="section-padding bg-navy">
         <div className="container-custom">
           <div className="grid items-start gap-12 lg:grid-cols-2">
             <ScrollReveal>
@@ -186,7 +186,7 @@ export function LandingPageTemplate({ page }: LandingPageTemplateProps) {
                 variant="outline"
                 size="lg"
                 external
-                className="mt-6 border-white text-white hover:bg-white hover:text-anthracite"
+                className="mt-6 border-white text-white hover:bg-white hover:text-navy"
               >
                 Direkt bei Calendly buchen
               </Button>

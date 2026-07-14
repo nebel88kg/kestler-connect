@@ -13,7 +13,7 @@ export function StubPageTemplate({ page }: StubPageTemplateProps) {
 
   return (
     <>
-      <section className="bg-anthracite pt-32 pb-20">
+      <section className="bg-navy pt-32 pb-20">
         <div className="container-custom">
           <Breadcrumbs items={breadcrumbs} variant="dark" />
           <div className="max-w-3xl">
