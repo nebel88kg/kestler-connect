@@ -22,8 +22,8 @@ export default function ImpressumPage() {
             <p className="mt-2">
               Kestler Connect<br />
               Jascha Kestler<br />
-              Musterstraße 1<br />
-              12345 Musterstadt
+              Marienstr. 17<br />
+              47198 Duisburg
             </p>
           </section>
 
