@@ -37,15 +37,15 @@ export function HeroSection() {
           <p className="mt-3 max-w-xl text-sm leading-relaxed text-gray-300 sm:mt-4 sm:text-base">
             Performance-Marketing, Webseiten und Social Media für Handwerk, Vereine und lokale Unternehmen.
           </p>
-          <div className="mt-8 flex flex-col items-center justify-center gap-3 sm:mt-10 sm:flex-row sm:gap-4 lg:mt-12">
-            <Button href="/kontakt" size="sm" className="sm:px-5 sm:py-2.5 sm:text-sm">
+          <div className="mt-8 flex w-full flex-col gap-3 sm:mt-10 sm:w-auto sm:flex-row sm:gap-4 lg:mt-12">
+            <Button href="/kontakt" size="sm" className="w-full sm:w-auto sm:px-5 sm:py-2.5 sm:text-sm">
               Kostenloses Strategiegespräch
             </Button>
             <Button
               href="/referenzen"
               variant="outline"
               size="sm"
-              className="border-accent text-accent hover:bg-accent hover:text-navy sm:px-5 sm:py-2.5 sm:text-sm"
+              className="w-full border-accent text-accent hover:bg-accent hover:text-navy sm:w-auto sm:px-5 sm:py-2.5 sm:text-sm"
             >
               Referenzen ansehen
             </Button>
