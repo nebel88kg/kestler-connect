@@ -50,7 +50,6 @@ export function createBreadcrumbsFromPath(path: string): BreadcrumbItem[] {
   let currentPath = "";
   const labelMap: Record<string, string> = {
     leistungen: "Leistungen",
-    branchen: "Branchen",
     referenzen: "Referenzen",
     "ueber-uns": "Über uns",
     blog: "Blog",
@@ -60,10 +59,8 @@ export function createBreadcrumbsFromPath(path: string): BreadcrumbItem[] {
     "social-media": "Social Media",
     webseiten: "Webseiten",
     seo: "SEO",
-    handwerk: "Handwerk",
-    vereine: "Vereine",
-    immobilien: "Immobilien",
-    golfclubs: "Golfclubs",
+    leadgewinnung: "Leadgewinnung",
+    mitarbeitergewinnung: "Mitarbeitergewinnung",
   };
 
   for (const segment of segments) {

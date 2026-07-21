@@ -75,30 +75,29 @@ export function MobileNav({ isOpen, onClose }: MobileNavProps) {
                     </svg>
                   </button>
                   {expanded === item.title && (
-                    <div className="pb-3 pl-2">
-                      {item.children.map((section) => (
-                        <div key={section.href} className="mb-4 last:mb-2">
-                          <Link
-                            href={section.href}
-                            className="mb-2 block min-h-10 py-1 text-sm font-semibold text-navy"
-                            onClick={onClose}
-                          >
-                            {section.title}
-                          </Link>
-                          <div className="space-y-1 border-l-2 border-accent/30 pl-3">
-                            {section.children?.map((child) => (
-                              <Link
-                                key={child.href}
-                                href={child.href}
-                                className="block min-h-10 py-2 text-sm leading-snug text-gray-600"
-                                onClick={onClose}
-                              >
-                                {child.title}
-                              </Link>
-                            ))}
-                          </div>
-                        </div>
+                    <div className="space-y-1 pb-4">
+                      {item.children.map((child) => (
+                        <Link
+                          key={child.href}
+                          href={child.href}
+                          className="block rounded-xl px-3 py-2.5 transition-colors hover:bg-gray-50"
+                          onClick={onClose}
+                        >
+                          <span className="block text-sm font-semibold text-navy">{child.title}</span>
+                          {child.description && (
+                            <span className="mt-0.5 block text-xs leading-snug text-gray-500">
+                              {child.description}
+                            </span>
+                          )}
+                        </Link>
                       ))}
+                      <Link
+                        href={item.href}
+                        className="mt-1 block px-3 py-2 text-sm font-semibold text-accent"
+                        onClick={onClose}
+                      >
+                        Alle Leistungen ansehen →
+                      </Link>
                     </div>
                   )}
                 </>

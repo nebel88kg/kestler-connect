@@ -1,3 +1,7 @@
+"use client";
+
+import { useState } from "react";
+import { AnimatePresence, motion } from "framer-motion";
 import { Accordion } from "@/components/ui/Accordion";
 import { ScrollReveal } from "@/components/ui/ScrollReveal";
 
@@ -52,7 +56,13 @@ const faqItems = [
   },
 ];
 
+const VISIBLE_COUNT = 5;
+
 export function FAQSection() {
+  const [showAll, setShowAll] = useState(false);
+  const visibleItems = faqItems.slice(0, VISIBLE_COUNT);
+  const hiddenItems = faqItems.slice(VISIBLE_COUNT);
+
   return (
     <section className="section-padding">
       <div className="container-custom">
@@ -69,7 +79,36 @@ export function FAQSection() {
 
         <ScrollReveal delay={0.1}>
           <div className="mx-auto max-w-3xl">
-            <Accordion items={faqItems} />
+            <Accordion items={visibleItems} />
+
+            <AnimatePresence initial={false}>
+              {showAll && (
+                <motion.div
+                  initial={{ height: 0, opacity: 0 }}
+                  animate={{ height: "auto", opacity: 1 }}
+                  exit={{ height: 0, opacity: 0 }}
+                  transition={{ duration: 0.3 }}
+                  className="overflow-hidden"
+                >
+                  <div className="mt-3">
+                    <Accordion items={hiddenItems} />
+                  </div>
+                </motion.div>
+              )}
+            </AnimatePresence>
+
+            {hiddenItems.length > 0 && (
+              <div className="mt-6 text-center">
+                <button
+                  type="button"
+                  onClick={() => setShowAll((prev) => !prev)}
+                  className="text-sm font-semibold text-accent transition-colors hover:text-navy"
+                  aria-expanded={showAll}
+                >
+                  {showAll ? "Weniger anzeigen" : "Alle anzeigen"}
+                </button>
+              </div>
+            )}
           </div>
         </ScrollReveal>
       </div>

@@ -6,9 +6,6 @@ export const siteConfig = {
   phone: process.env.NEXT_PUBLIC_PHONE || "+491234567890",
   whatsapp: process.env.NEXT_PUBLIC_WHATSAPP || "491234567890",
   email: process.env.CONTACT_EMAIL || "info@kestler-connect.de",
-  calendlyUrl:
-    process.env.NEXT_PUBLIC_CALENDLY_URL ||
-    "https://calendly.com/kestler-connect/strategiegespraech",
 };
 
 export interface NavItem {
@@ -23,107 +20,185 @@ export interface NavSection {
   items: NavItem[];
 }
 
+export interface HubPageContent {
+  title: string;
+  href: string;
+  description: string;
+  highlights: string[];
+}
+
+/** Hub-Seiten inkl. kurzer Inhalte und nur echte Landingpages als children. */
+export const leistungenNav: NavItem = {
+  title: "Leistungen",
+  href: "/leistungen",
+  children: [
+    {
+      title: "Mitarbeitergewinnung",
+      href: "/leistungen/mitarbeitergewinnung",
+      description: "Fachkräfte und Bewerber aktiv ansprechen und gewinnen.",
+    },
+    {
+      title: "Leadgewinnung",
+      href: "/leistungen/leadgewinnung",
+      description: "Qualifizierte Anfragen über Ads und Landingpages.",
+    },
+    {
+      title: "Google Ads",
+      href: "/leistungen/google-ads",
+      description: "Suchanzeigen mit messbaren Anfragen und klarem ROI.",
+      children: [
+        {
+          title: "Google Ads für Handwerker",
+          href: "/leistungen/google-ads/google-ads-fuer-handwerker",
+          description: "Mehr Aufträge für Handwerksbetriebe über Google.",
+        },
+      ],
+    },
+    {
+      title: "Meta Ads",
+      href: "/leistungen/meta-ads",
+      description: "Facebook- und Instagram-Kampagnen für Leads und Reichweite.",
+      children: [
+        {
+          title: "Mitgliedergewinnung Golfclubs",
+          href: "/leistungen/meta-ads/mitgliedergewinnung-golfclubs",
+          description: "Neue Mitglieder für Golfclubs gewinnen.",
+        },
+      ],
+    },
+    {
+      title: "Social Media",
+      href: "/leistungen/social-media",
+      description: "Content, Reels und Betreuung, die Ihre Marke sichtbar macht.",
+    },
+    {
+      title: "Webseiten",
+      href: "/leistungen/webseiten",
+      description: "Webdesign und Landingpages, die Besucher zu Kunden machen.",
+    },
+    {
+      title: "SEO",
+      href: "/leistungen/seo",
+      description: "Gefunden werden bei Google, Maps und KI-Suche.",
+      children: [
+        {
+          title: "Local SEO",
+          href: "/leistungen/seo/local-seo",
+          description: "Lokale Sichtbarkeit in Google und Google Maps.",
+        },
+      ],
+    },
+  ],
+};
+
+export const leistungenHubContent: Record<string, HubPageContent> = {
+  "google-ads": {
+    title: "Google Ads",
+    href: "/leistungen/google-ads",
+    description:
+      "Wir schalten Suchanzeigen, die genau dann erscheinen, wenn potenzielle Kunden nach Ihrer Leistung suchen – mit transparentem Reporting und klarem ROI.",
+    highlights: [
+      "Lokale und nationale Kampagnen",
+      "Tracking von Anrufen und Formularen",
+      "Laufende Optimierung nach Kosten pro Anfrage",
+      "Landingpages, die aus Klicks Kunden machen",
+    ],
+  },
+  "meta-ads": {
+    title: "Meta Ads",
+    href: "/leistungen/meta-ads",
+    description:
+      "Mit Facebook- und Instagram-Anzeigen erreichen wir Ihre Zielgruppe dort, wo sie unterwegs ist – für Leads, Mitarbeiter und Markenbekanntheit.",
+    highlights: [
+      "Lead-Formulare direkt in Meta",
+      "Präzises Targeting nach Region und Interesse",
+      "Creatives und Videos aus einer Hand",
+      "Messbare Kosten pro Lead oder Bewerbung",
+    ],
+  },
+  "social-media": {
+    title: "Social Media",
+    href: "/leistungen/social-media",
+    description:
+      "Wir übernehmen Content, Reels und Betreuung – damit Ihr Auftritt professionell wirkt und regelmäßig Sichtbarkeit erzeugt.",
+    highlights: [
+      "Redaktionsplan und Content-Produktion",
+      "Reels und Kurzvideos für Reichweite",
+      "Community-Management",
+      "Abstimmung mit Ads und Website",
+    ],
+  },
+  webseiten: {
+    title: "Webseiten",
+    href: "/leistungen/webseiten",
+    description:
+      "Moderne Webseiten und Landingpages, die Vertrauen aufbauen und Anfragen generieren – klar, schnell und conversion-stark.",
+    highlights: [
+      "Webdesign mit Fokus auf Anfragen",
+      "Landingpages für Kampagnen",
+      "Mobile-first und schnell ladend",
+      "Conversion-Optimierung bestehender Seiten",
+    ],
+  },
+  seo: {
+    title: "SEO",
+    href: "/leistungen/seo",
+    description:
+      "Wir sorgen dafür, dass Sie bei Google, Maps und zunehmend auch in KI-Suchen gefunden werden – nachhaltig und lokal stark.",
+    highlights: [
+      "Local SEO und Google Unternehmensprofil",
+      "Technische und inhaltliche Optimierung",
+      "Branchenspezifische Keywords",
+      "Vorbereitung auf KI-Sichtbarkeit",
+    ],
+  },
+};
+
+/** Kurze Liste für Header, Mobile und Footer. */
+export const leistungenMenuItems: NavItem[] = [
+  {
+    title: "Mitarbeitergewinnung",
+    href: "/leistungen/mitarbeitergewinnung",
+    description: "Fachkräfte und Bewerber aktiv ansprechen und gewinnen.",
+  },
+  {
+    title: "Leadgewinnung",
+    href: "/leistungen/leadgewinnung",
+    description: "Qualifizierte Anfragen über Ads und Landingpages.",
+  },
+  {
+    title: "Google Ads",
+    href: "/leistungen/google-ads",
+    description: "Suchanzeigen mit messbarem ROI.",
+  },
+  {
+    title: "Meta Ads",
+    href: "/leistungen/meta-ads",
+    description: "Facebook- und Instagram-Kampagnen.",
+  },
+  {
+    title: "Social Media",
+    href: "/leistungen/social-media",
+    description: "Content, Reels und Betreuung.",
+  },
+  {
+    title: "Webseiten",
+    href: "/leistungen/webseiten",
+    description: "Websites und Landingpages, die konvertieren.",
+  },
+  {
+    title: "SEO",
+    href: "/leistungen/seo",
+    description: "Sichtbarkeit bei Google, Maps und KI.",
+  },
+];
+
 export const mainNav: NavItem[] = [
   { title: "Startseite", href: "/" },
   {
     title: "Leistungen",
     href: "/leistungen",
-    children: [
-      {
-        title: "Google Ads",
-        href: "/leistungen/google-ads",
-        children: [
-          { title: "Google Ads Agentur", href: "/leistungen/google-ads/google-ads-agentur" },
-          { title: "Google Ads für Handwerker", href: "/leistungen/google-ads/google-ads-fuer-handwerker" },
-          { title: "Google Ads Mitarbeitergewinnung", href: "/leistungen/google-ads/google-ads-mitarbeitergewinnung" },
-          { title: "Google Ads Vereine", href: "/leistungen/google-ads/google-ads-vereine" },
-          { title: "Google Ads lokale Unternehmen", href: "/leistungen/google-ads/google-ads-lokale-unternehmen" },
-        ],
-      },
-      {
-        title: "Meta Ads",
-        href: "/leistungen/meta-ads",
-        children: [
-          { title: "Meta Ads Agentur", href: "/leistungen/meta-ads/meta-ads-agentur" },
-          { title: "Facebook Ads", href: "/leistungen/meta-ads/facebook-ads" },
-          { title: "Instagram Ads", href: "/leistungen/meta-ads/instagram-ads" },
-          { title: "Mitarbeitergewinnung über Meta", href: "/leistungen/meta-ads/mitarbeitergewinnung-ueber-meta" },
-          { title: "Leadgenerierung über Meta", href: "/leistungen/meta-ads/leadgenerierung-ueber-meta" },
-        ],
-      },
-      {
-        title: "Social Media",
-        href: "/leistungen/social-media",
-        children: [
-          { title: "Social Media Betreuung", href: "/leistungen/social-media/social-media-betreuung" },
-          { title: "Content Produktion", href: "/leistungen/social-media/content-produktion" },
-          { title: "Reel Erstellung", href: "/leistungen/social-media/reel-erstellung" },
-          { title: "Social Recruiting", href: "/leistungen/social-media/social-recruiting" },
-        ],
-      },
-      {
-        title: "Webseiten",
-        href: "/leistungen/webseiten",
-        children: [
-          { title: "Webdesign", href: "/leistungen/webseiten/webdesign" },
-          { title: "Landingpages", href: "/leistungen/webseiten/landingpages" },
-          { title: "Conversion Optimierung", href: "/leistungen/webseiten/conversion-optimierung" },
-        ],
-      },
-      {
-        title: "SEO",
-        href: "/leistungen/seo",
-        children: [
-          { title: "SEO Agentur", href: "/leistungen/seo/seo-agentur" },
-          { title: "Local SEO", href: "/leistungen/seo/local-seo" },
-          { title: "SEO für Handwerker", href: "/leistungen/seo/seo-fuer-handwerker" },
-          { title: "SEO für Vereine", href: "/leistungen/seo/seo-fuer-vereine" },
-          { title: "KI SEO", href: "/leistungen/seo/ki-seo" },
-        ],
-      },
-    ],
-  },
-  {
-    title: "Branchen",
-    href: "/branchen",
-    children: [
-      {
-        title: "Handwerk",
-        href: "/branchen/handwerk",
-        children: [
-          { title: "Mitarbeiter gewinnen", href: "/branchen/handwerk/mitarbeiter-gewinnen" },
-          { title: "Neukunden gewinnen", href: "/branchen/handwerk/neukunden-gewinnen" },
-          { title: "Webseiten für Handwerker", href: "/branchen/handwerk/webseiten-fuer-handwerker" },
-        ],
-      },
-      {
-        title: "Vereine",
-        href: "/branchen/vereine",
-        children: [
-          { title: "Mitglieder gewinnen", href: "/branchen/vereine/mitglieder-gewinnen" },
-          { title: "Sponsoren gewinnen", href: "/branchen/vereine/sponsoren-gewinnen" },
-          { title: "Social Media für Vereine", href: "/branchen/vereine/social-media-fuer-vereine" },
-        ],
-      },
-      {
-        title: "Immobilien",
-        href: "/branchen/immobilien",
-        children: [
-          { title: "Leads für Makler", href: "/branchen/immobilien/leads-fuer-makler" },
-          { title: "Google Ads für Makler", href: "/branchen/immobilien/google-ads-fuer-makler" },
-          { title: "Webseiten für Makler", href: "/branchen/immobilien/webseiten-fuer-makler" },
-        ],
-      },
-      {
-        title: "Golfclubs",
-        href: "/branchen/golfclubs",
-        children: [
-          { title: "Mitgliedergewinnung", href: "/branchen/golfclubs/mitgliedergewinnung" },
-          { title: "Platzreifekurse vermarkten", href: "/branchen/golfclubs/platzreifekurse-vermarkten" },
-          { title: "Schnuppergolf Kampagnen", href: "/branchen/golfclubs/schnuppergolf-kampagnen" },
-        ],
-      },
-    ],
+    children: leistungenMenuItems,
   },
   { title: "Referenzen", href: "/referenzen" },
   { title: "Über uns", href: "/ueber-uns" },
@@ -134,22 +209,7 @@ export const mainNav: NavItem[] = [
 export const footerNav: NavSection[] = [
   {
     title: "Leistungen",
-    items: [
-      { title: "Google Ads", href: "/leistungen/google-ads" },
-      { title: "Meta Ads", href: "/leistungen/meta-ads" },
-      { title: "Social Media", href: "/leistungen/social-media" },
-      { title: "Webseiten", href: "/leistungen/webseiten" },
-      { title: "SEO", href: "/leistungen/seo" },
-    ],
-  },
-  {
-    title: "Branchen",
-    items: [
-      { title: "Handwerk", href: "/branchen/handwerk" },
-      { title: "Vereine", href: "/branchen/vereine" },
-      { title: "Immobilien", href: "/branchen/immobilien" },
-      { title: "Golfclubs", href: "/branchen/golfclubs" },
-    ],
+    items: leistungenMenuItems.map(({ title, href }) => ({ title, href })),
   },
   {
     title: "Unternehmen",
@@ -165,7 +225,7 @@ export const footerNav: NavSection[] = [
 function flattenNavItems(items: NavItem[]): NavItem[] {
   const result: NavItem[] = [];
   for (const item of items) {
-    if (item.href !== "/" && item.href !== "/leistungen" && item.href !== "/branchen") {
+    if (item.href !== "/" && item.href !== "/leistungen") {
       result.push({ title: item.title, href: item.href, description: item.description });
     }
     if (item.children) {
@@ -176,7 +236,10 @@ function flattenNavItems(items: NavItem[]): NavItem[] {
 }
 
 export function getAllNavUrls(): string[] {
-  const urls = flattenNavItems(mainNav).map((item) => item.href);
+  const urls = [
+    ...flattenNavItems(leistungenNav.children || []),
+    ...flattenNavItems(mainNav),
+  ].map((item) => item.href);
   return [...new Set(urls)];
 }
 
@@ -191,5 +254,6 @@ export function getNavItemByHref(href: string): NavItem | undefined {
     }
     return undefined;
   }
-  return search(mainNav);
+
+  return search([leistungenNav]) || search(mainNav);
 }

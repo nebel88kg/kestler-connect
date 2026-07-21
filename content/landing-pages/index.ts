@@ -105,68 +105,68 @@ export const googleAdsFuerHandwerker: LandingPage = {
   ],
 };
 
-export const leadgenerierungUeberMeta: LandingPage = {
-  slug: "leadgenerierung-ueber-meta",
-  path: "/leistungen/meta-ads/leadgenerierung-ueber-meta",
-  category: "meta-ads",
+export const leadgewinnung: LandingPage = {
+  slug: "leadgewinnung",
+  path: "/leistungen/leadgewinnung",
+  category: "leadgewinnung",
   meta: {
-    title: "Leadgenerierung über Meta Ads",
+    title: "Leadgewinnung",
     description:
-      "Qualifizierte Leads über Facebook und Instagram Ads. Professionelle Meta-Kampagnen für lokale Unternehmen und Handwerk.",
-    keywords: ["meta ads leads", "facebook leadgenerierung", "instagram ads leads"],
+      "Qualifizierte Anfragen für Ihr Unternehmen – mit Google Ads, Meta Ads und Landingpages. Messbar, planbar und ohne Streuverluste.",
+    keywords: ["leadgewinnung", "leads generieren", "anfragen gewinnen", "performance marketing"],
   },
   hero: {
-    headline: "Leadgenerierung über Meta – Ihre nächsten Kunden warten auf Facebook & Instagram",
+    headline: "Leadgewinnung – Anfragen, die zu Kunden werden",
     subheadline:
-      "Mit gezielten Meta Ads Kampagnen erreichen wir Ihre Wunschkunden dort, wo sie täglich Zeit verbringen.",
+      "Wir bringen qualifizierte Interessenten zu Ihnen: über die richtigen Kanäle, mit klaren Botschaften und Landingpages, die konvertieren.",
   },
   problem: {
-    title: "Warum klassische Werbung nicht mehr reicht",
+    title: "Kennen Sie das?",
     points: [
-      "Ihre Zielgruppe ist täglich auf Facebook und Instagram aktiv",
-      "Klassische Printwerbung erreicht junge Zielgruppen nicht mehr",
-      "Organische Reichweite auf Social Media reicht nicht für planbares Wachstum",
-      "Lead-Formulare selbst einrichten ist technisch aufwendig",
-      "Hohe Streukosten ohne präzises Targeting",
+      "Zu wenig planbare Anfragen trotz guter Leistung",
+      "Werbung ohne messbaren Erfolg oder zu hohe Kosten pro Lead",
+      "Website-Besucher, die abspringen, bevor sie Kontakt aufnehmen",
+      "Unklare Zuständigkeit: Wer kümmert sich um Kampagnen und Nachverfolgung?",
+      "Kein Überblick, welcher Kanal wirklich Aufträge bringt",
     ],
   },
   solution: {
-    title: "Meta Ads mit System statt Zufall",
+    title: "Leadgewinnung mit System",
     content:
-      "Wir entwickeln Meta Ads Kampagnen mit präzisem Targeting, professionellen Creatives und optimierten Lead-Formularen. Ihre Leads landen direkt in Ihrem CRM oder Postfach – ohne Umwege.",
+      "Wir verbinden Strategie, Kampagnen und Conversion: Google Ads und Meta Ads für Reichweite und Nachfrage, starke Landingpages und Formulare für die Anfrage, Tracking und Reporting für Transparenz. Sie sehen jederzeit Kosten, Qualität und Ergebnis – und skalieren, was funktioniert.",
   },
   benefits: [
-    { title: "Präzises Targeting", description: "Erreichen Sie genau die Menschen, die Ihre Leistung brauchen.", icon: "target" },
-    { title: "Lead-Formulare", description: "Native Meta-Formulare für maximale Conversion-Raten.", icon: "form" },
-    { title: "Video & Reels", description: "Professionelle Creatives, die im Feed auffallen.", icon: "video" },
-    { title: "Retargeting", description: "Website-Besucher und Interessenten erneut ansprechen.", icon: "refresh" },
-    { title: "Skalierbar", description: "Von 10 auf 100 Leads pro Monat – flexibel skalierbar.", icon: "scale" },
-    { title: "Transparent", description: "Kosten pro Lead immer im Blick.", icon: "chart" },
+    { title: "Kanalmix mit Fokus", description: "Google, Meta und Landingpages – abgestimmt auf Ihre Zielgruppe und Region.", icon: "target" },
+    { title: "Qualifizierte Anfragen", description: "Formulare und Targeting so gebaut, dass echte Interessenten ankommen.", icon: "form" },
+    { title: "Conversion-stark", description: "Seiten und Creatives, die aus Klicks Anfragen machen.", icon: "rocket" },
+    { title: "Messbar", description: "Kosten pro Lead, Quellen und ROI transparent im Blick.", icon: "chart" },
+    { title: "Skalierbar", description: "Erfolgreiche Kampagnen gezielt ausbauen – ohne Rätselraten.", icon: "scale" },
+    { title: "Alles aus einer Hand", description: "Strategie, Umsetzung und Optimierung bei einem Ansprechpartner.", icon: "star" },
   ],
   references: [
     { title: "Lokaler Dienstleister", slug: "handwerksbetrieb-shk", excerpt: "80 qualifizierte Leads in 2 Monaten zu unter 25 € pro Lead." },
-    { title: "Immobilienmakler", slug: "immobilienmakler-regional", excerpt: "45% mehr Besichtigungstermine durch Meta Lead-Kampagnen." },
+    { title: "Immobilienmakler", slug: "immobilienmakler-regional", excerpt: "45% mehr Besichtigungstermine durch Lead-Kampagnen." },
   ],
   process: [
-    { step: 1, title: "Zielgruppen-Analyse", description: "Wer sind Ihre idealen Kunden? Wo sind sie aktiv?" },
-    { step: 2, title: "Kampagnen-Setup", description: "Anzeigengruppen, Creatives und Lead-Formulare einrichten." },
-    { step: 3, title: "Launch", description: "Kampagnen starten und erste Daten sammeln." },
-    { step: 4, title: "Optimierung", description: "Creatives und Targeting basierend auf Performance verbessern." },
-    { step: 5, title: "Skalierung", description: "Erfolgreiche Kampagnen ausbauen für mehr Leads." },
+    { step: 1, title: "Analyse", description: "Ziele, Zielgruppe, bisherige Kanäle und Potenzial klären." },
+    { step: 2, title: "Setup", description: "Kampagnen, Landingpages und Tracking einrichten." },
+    { step: 3, title: "Launch", description: "Start mit ersten Anfragen und Datengrundlage." },
+    { step: 4, title: "Optimierung", description: "Creatives, Targeting und Conversion laufend verbessern." },
+    { step: 5, title: "Skalierung", description: "Budget und Reichweite dort erhöhen, wo die Qualität stimmt." },
   ],
   faq: [
-    { question: "Was kostet Leadgenerierung über Meta?", answer: "Die Agenturkosten starten ab 500 €/Monat plus Werbebudget. Wir empfehlen mindestens 300–500 € Werbebudget monatlich." },
-    { question: "Welche Branchen eignen sich für Meta Leads?", answer: "Besonders gut: Handwerk, Immobilien, Fitness, Beauty, lokale Dienstleister und Vereine." },
-    { question: "Wie qualifiziert sind die Leads?", answer: "Durch optimierte Formulare und gezieltes Targeting erreichen wir hohe Qualität. Sie definieren mit uns die Kriterien." },
-    { question: "Erstellt ihr auch die Werbebilder?", answer: "Ja, Content-Produktion und Creative-Erstellung gehören zu unserem Service." },
+    { question: "Was kostet Leadgewinnung?", answer: "Agenturkosten typischerweise ab 500 €/Monat plus Werbebudget. Das Budget richten wir nach Ihren Zielen und dem Markt aus." },
+    { question: "Google Ads, Meta Ads oder beides?", answer: "Das hängt von Ihrer Zielgruppe ab. Oft funktioniert eine Kombination am besten – wir empfehlen den sinnvollsten Einstieg." },
+    { question: "Wie qualifiziert sind die Leads?", answer: "Über Targeting, Formularfragen und Landingpage-Texte steuern wir Qualität. Kriterien legen wir gemeinsam fest." },
+    { question: "Wie schnell sehe ich Ergebnisse?", answer: "Erste Anfragen oft innerhalb weniger Tage nach Launch. Stabile Kosten und Qualität entstehen über laufende Optimierung." },
     { question: "Gibt es Mindestlaufzeiten?", answer: "Nein. Wir überzeugen durch Ergebnisse, nicht durch Vertragsbindung." },
   ],
 };
 
 export const mitgliedergewinnungGolf: LandingPage = {
-  slug: "mitgliedergewinnung",
-  path: "/branchen/golfclubs/mitgliedergewinnung",
-  category: "golfclubs",
+  slug: "mitgliedergewinnung-golfclubs",
+  path: "/leistungen/meta-ads/mitgliedergewinnung-golfclubs",
+  category: "meta-ads",
   meta: {
     title: "Mitgliedergewinnung für Golfclubs",
     description:
@@ -279,68 +279,68 @@ export const localSeo: LandingPage = {
   ],
 };
 
-export const mitarbeiterGewinnen: LandingPage = {
-  slug: "mitarbeiter-gewinnen",
-  path: "/branchen/handwerk/mitarbeiter-gewinnen",
-  category: "handwerk",
+export const mitarbeitergewinnung: LandingPage = {
+  slug: "mitarbeitergewinnung",
+  path: "/leistungen/mitarbeitergewinnung",
+  category: "mitarbeitergewinnung",
   meta: {
-    title: "Mitarbeiter gewinnen im Handwerk",
+    title: "Mitarbeitergewinnung",
     description:
-      "Fachkräfte und Mitarbeiter für Ihren Handwerksbetrieb gewinnen. Social Recruiting und Google Ads für die Mitarbeitergewinnung.",
-    keywords: ["mitarbeitergewinnung handwerk", "fachkräfte handwerk", "social recruiting handwerk"],
+      "Fachkräfte und Bewerber aktiv gewinnen – mit Social Recruiting, Google Ads und starkem Employer Branding. Für Handwerk, Vereine und lokale Unternehmen.",
+    keywords: ["mitarbeitergewinnung", "social recruiting", "fachkräfte finden", "employer branding"],
   },
   hero: {
-    headline: "Mitarbeiter gewinnen im Handwerk – Fachkräfte finden statt suchen",
+    headline: "Mitarbeitergewinnung – die richtigen Leute aktiv ansprechen",
     subheadline:
-      "Der Fachkräftemangel trifft jeden Handwerksbetrieb. Wir helfen Ihnen, die richtigen Mitarbeiter aktiv anzusprechen – mit Social Recruiting und gezielten Kampagnen.",
+      "Statt auf Bewerbungen zu warten, finden wir Fachkräfte und Talente dort, wo sie unterwegs sind – mit klarer Ansprache, starken Creatives und messbaren Kampagnen.",
   },
   problem: {
-    title: "Der Fachkräftemangel im Handwerk",
+    title: "Fachkräfte werden nicht von allein gefunden",
     points: [
-      "Stellenanzeigen auf Jobportalen bringen kaum Bewerbungen",
-      "Junio-Fachkräfte sind nicht auf klassischen Jobbörsen aktiv",
-      "Konkurrenz um Fachkräfte wird immer härter",
-      "Hohe Kosten für Personalvermittler ohne Garantie",
-      "Lange Vakanzzeiten bremsen Ihr Wachstum",
+      "Stellenanzeigen auf Jobportalen bringen kaum passende Bewerbungen",
+      "Gute Kandidaten sind oft nicht aktiv auf der Suche",
+      "Personalvermittler sind teuer – ohne Garantie auf Passung",
+      "Lange Vakanzen bremsen Aufträge und Wachstum",
+      "Ihr Betrieb wirkt online nicht als attraktiver Arbeitgeber",
     ],
   },
   solution: {
-    title: "Social Recruiting für Handwerk",
+    title: "Recruiting, das zu Ihnen passt",
     content:
-      "Wir erreichen Fachkräfte dort, wo sie sind: auf Facebook, Instagram und Google. Mit authentischen Videos, gezielten Anzeigen und optimierten Bewerbungsprozessen bringen wir qualifizierte Bewerber zu Ihnen.",
+      "Wir verbinden Employer Branding mit Social Recruiting und Google Ads: authentische Einblicke in Ihren Betrieb, gezielte Ansprache in der Region und ein Bewerbungsprozess, der einfach funktioniert. So kommen qualifizierte Bewerbungen – planbarer und oft günstiger als klassische Vermittlung.",
   },
   benefits: [
-    { title: "Social Recruiting", description: "Fachkräfte auf Social Media aktiv ansprechen.", icon: "social" },
-    { title: "Video-Bewerbung", description: "Authentische Einblicke in Ihren Betrieb überzeugen.", icon: "video" },
-    { title: "Google Ads Jobs", description: "Stellenanzeigen bei Google für aktive Jobsuchende.", icon: "search" },
-    { title: "Employer Branding", description: "Ihren Betrieb als attraktiven Arbeitgeber positionieren.", icon: "star" },
-    { title: "Schnelle Ergebnisse", description: "Erste Bewerbungen oft innerhalb der ersten Woche.", icon: "rocket" },
-    { title: "Branchenerfahrung", description: "Wir kennen die Herausforderungen des Handwerks.", icon: "wrench" },
+    { title: "Social Recruiting", description: "Bewerber auf Meta und Social Media aktiv ansprechen.", icon: "social" },
+    { title: "Google Ads Jobs", description: "Sichtbarkeit bei Menschen, die aktiv nach Stellen suchen.", icon: "search" },
+    { title: "Employer Branding", description: "Ihren Betrieb als Arbeitgeber klar und glaubwürdig positionieren.", icon: "star" },
+    { title: "Video & Content", description: "Team, Alltag und Kultur sichtbar machen – das überzeugt.", icon: "video" },
+    { title: "Schnelle Impulse", description: "Erste Bewerbungen oft schon in den ersten Wochen.", icon: "rocket" },
+    { title: "Messbar", description: "Kosten pro Bewerbung und Kanaltransparenz statt Bauchgefühl.", icon: "chart" },
   ],
   references: [
     { title: "SHK-Betrieb in NRW", slug: "handwerksbetrieb-shk", excerpt: "3 qualifizierte Fachkräfte in 6 Wochen über Social Recruiting." },
     { title: "Elektrobetrieb", slug: "handwerksbetrieb-elektro", excerpt: "Azubi-Kampagne mit 12 Bewerbungen in 4 Wochen." },
   ],
   process: [
-    { step: 1, title: "Bedarfsanalyse", description: "Welche Stellen, welches Profil, welche Region?" },
-    { step: 2, title: "Employer Branding", description: "Ihren Betrieb als Arbeitgeber positionieren." },
-    { step: 3, title: "Kampagnen-Setup", description: "Social Recruiting und Google Ads Kampagnen erstellen." },
-    { step: 4, title: "Bewerber-Management", description: "Bewerbungen qualifizieren und weiterleiten." },
-    { step: 5, title: "Optimierung", description: "Kampagnen laufend für bessere Bewerber optimieren." },
+    { step: 1, title: "Bedarfsanalyse", description: "Stellen, Profil, Region und Arbeitgeber-Stärken klären." },
+    { step: 2, title: "Positionierung", description: "Botschaften, Creatives und Bewerbungsstrecke aufsetzen." },
+    { step: 3, title: "Kampagnen-Launch", description: "Social Recruiting und ggf. Google Ads starten." },
+    { step: 4, title: "Bewerber-Flow", description: "Anfragen qualifizieren und an Sie weiterleiten." },
+    { step: 5, title: "Optimierung", description: "Ansprache und Kanäle für bessere Passung nachschärfen." },
   ],
   faq: [
-    { question: "Wie lange dauert es, Mitarbeiter zu finden?", answer: "Erste Bewerbungen oft innerhalb von 1–2 Wochen. Einstellung typischerweise nach 4–8 Wochen." },
-    { question: "Was kostet Mitarbeitergewinnung im Handwerk?", answer: "Ab 600 €/Monat Agenturkosten plus Werbebudget. Deutlich günstiger als Personalvermittler." },
-    { question: "Funktioniert Social Recruiting im Handwerk?", answer: "Ja, besonders für Positionen unter 45 Jahren. Authentische Videos Ihres Teams überzeugen." },
-    { question: "Erstellt ihr auch Stellenanzeigen?", answer: "Ja, Texte, Bilder und Videos für Ihre Recruiting-Kampagnen gehören zu unserem Service." },
-    { question: "Können wir auch Azubis gewinnen?", answer: "Absolut. Azubi-Kampagnen sind ein Schwerpunkt – mit speziellen Ansprachen für junge Talente." },
+    { question: "Wie lange dauert Mitarbeitergewinnung?", answer: "Erste Bewerbungen oft innerhalb von 1–2 Wochen. Bis zur Einstellung typischerweise einige Wochen – abhängig von Profil und Markt." },
+    { question: "Was kostet das?", answer: "Agenturkosten typischerweise ab 600 €/Monat plus Werbebudget. Oft günstiger als Personalvermittler mit Erfolgsprovision." },
+    { question: "Für wen eignet sich das?", answer: "Besonders für Handwerk, lokale Dienstleister, Vereine und Betriebe mit Fachkräfte- oder Azubi-Bedarf." },
+    { question: "Erstellt ihr Stellenanzeigen und Videos?", answer: "Ja – Texte, Bilder und Videos für Ihre Recruiting-Kampagnen gehören dazu." },
+    { question: "Geht das auch für Azubis?", answer: "Ja. Azubi-Kampagnen mit eigener Ansprache sind ein fester Bestandteil unseres Angebots." },
   ],
 };
 
 export const fullLandingPages: LandingPage[] = [
   googleAdsFuerHandwerker,
-  leadgenerierungUeberMeta,
+  leadgewinnung,
   mitgliedergewinnungGolf,
   localSeo,
-  mitarbeiterGewinnen,
+  mitarbeitergewinnung,
 ];

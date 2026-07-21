@@ -3,7 +3,7 @@ import { LogoSlider } from "@/components/ui/LogoSlider";
 import { ScrollReveal } from "@/components/ui/ScrollReveal";
 
 const stats = [
-  { value: 800000, prefix: "", suffix: " €+", label: "Werbebudget verwaltet" },
+  { value: 400000, prefix: "", suffix: " €+", label: "Werbebudget verwaltet" },
   { value: 1000, prefix: "", suffix: "+", label: "Leads generiert" },
   { value: 12, prefix: "", suffix: "+", label: "Unternehmen betreut" },
   { value: 5, prefix: "", suffix: "★", label: "Google Bewertungen" },

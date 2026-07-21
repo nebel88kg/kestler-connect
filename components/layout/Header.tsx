@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { mainNav } from "@/lib/navigation";
@@ -14,22 +14,43 @@ export function Header() {
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
   const [megaOpen, setMegaOpen] = useState<string | null>(null);
+  const closeTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
   const pathname = usePathname();
+  const isHomeHero = pathname === "/" && !scrolled;
+  const useLightStyle = !isHomeHero || megaOpen !== null;
 
-  const useLightStyle = scrolled || megaOpen !== null;
+  const openMenu = (title: string) => {
+    if (closeTimer.current) {
+      clearTimeout(closeTimer.current);
+      closeTimer.current = null;
+    }
+    setMegaOpen(title);
+  };
+
+  const scheduleClose = () => {
+    if (closeTimer.current) clearTimeout(closeTimer.current);
+    closeTimer.current = setTimeout(() => {
+      setMegaOpen(null);
+      closeTimer.current = null;
+    }, 150);
+  };
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 20);
     handleScroll();
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
+  }, [pathname]);
 
   useEffect(() => {
     setMegaOpen(null);
   }, [pathname]);
 
-  const openMegaItems = mainNav.find((item) => item.title === megaOpen)?.children;
+  useEffect(() => {
+    return () => {
+      if (closeTimer.current) clearTimeout(closeTimer.current);
+    };
+  }, []);
 
   return (
     <>
@@ -38,9 +59,8 @@ export function Header() {
           "fixed top-0 left-0 right-0 z-40 transition-all duration-300",
           useLightStyle
             ? "bg-white/95 shadow-sm backdrop-blur-md"
-            : "bg-navy/80 backdrop-blur-md"
+            : "bg-transparent"
         )}
-        onMouseLeave={() => setMegaOpen(null)}
       >
         <div className="container-custom">
           <div className="flex h-16 items-center justify-between lg:h-20">
@@ -51,7 +71,9 @@ export function Header() {
                 item.children ? (
                   <div
                     key={item.href}
-                    onMouseEnter={() => setMegaOpen(item.title)}
+                    className="relative"
+                    onMouseEnter={() => openMenu(item.title)}
+                    onMouseLeave={scheduleClose}
                   >
                     <button
                       type="button"
@@ -78,6 +100,14 @@ export function Header() {
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                       </svg>
                     </button>
+                    {megaOpen === item.title && (
+                      <MegaMenu
+                        items={item.children}
+                        isOpen={true}
+                        onClose={() => setMegaOpen(null)}
+                        overviewHref={item.href}
+                      />
+                    )}
                   </div>
                 ) : (
                   <Link
@@ -116,14 +146,6 @@ export function Header() {
             </div>
           </div>
         </div>
-
-        {openMegaItems && (
-          <MegaMenu
-            items={openMegaItems}
-            isOpen={true}
-            onClose={() => setMegaOpen(null)}
-          />
-        )}
       </header>
       <MobileNav isOpen={mobileOpen} onClose={() => setMobileOpen(false)} />
     </>

@@ -2,57 +2,49 @@
 
 import Link from "next/link";
 import type { NavItem } from "@/lib/navigation";
-import { cn } from "@/lib/utils";
 
 interface MegaMenuProps {
   items: NavItem[];
   isOpen: boolean;
   onClose: () => void;
+  overviewHref?: string;
 }
 
-export function MegaMenu({ items, isOpen, onClose }: MegaMenuProps) {
+export function MegaMenu({ items, isOpen, onClose, overviewHref = "/leistungen" }: MegaMenuProps) {
   if (!isOpen) return null;
 
   return (
-    <div
-      className="absolute inset-x-0 top-full border-t border-gray-100 bg-white shadow-xl"
-      onMouseLeave={onClose}
-    >
-      <div className="container-custom py-10">
-        <div
-          className={cn(
-            "grid gap-x-10 gap-y-8",
-            items.length <= 4
-              ? "grid-cols-2 md:grid-cols-4"
-              : "grid-cols-2 md:grid-cols-3 xl:grid-cols-5"
-          )}
-        >
-          {items.map((section) => (
-            <div key={section.title} className="min-w-0">
+    // pt-2 = unsichtbare Brücke ohne Hover-Lücke zum Trigger
+    <div className="absolute left-0 top-full z-50 w-[22rem] pt-2">
+      <div className="rounded-2xl border border-gray-100 bg-white p-2 shadow-xl">
+        <ul>
+          {items.map((item) => (
+            <li key={item.href}>
               <Link
-                href={section.href}
-                className="mb-3 block border-b border-gray-100 pb-2 text-sm font-bold uppercase tracking-wide text-anthracite transition-colors hover:text-accent"
+                href={item.href}
+                className="group block rounded-xl px-3 py-2.5 transition-colors hover:bg-navy/[0.04]"
                 onClick={onClose}
               >
-                {section.title}
+                <span className="block text-sm font-semibold text-navy group-hover:text-accent">
+                  {item.title}
+                </span>
+                {item.description && (
+                  <span className="mt-0.5 block text-xs leading-snug text-gray-500">
+                    {item.description}
+                  </span>
+                )}
               </Link>
-              {section.children && (
-                <ul className="space-y-2.5">
-                  {section.children.map((child) => (
-                    <li key={child.href}>
-                      <Link
-                        href={child.href}
-                        className="block text-sm leading-snug text-gray-600 transition-colors hover:text-accent"
-                        onClick={onClose}
-                      >
-                        {child.title}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              )}
-            </div>
+            </li>
           ))}
+        </ul>
+        <div className="mt-1 border-t border-gray-100 px-3 py-2.5">
+          <Link
+            href={overviewHref}
+            className="text-sm font-semibold text-accent transition-colors hover:text-navy"
+            onClick={onClose}
+          >
+            Alle Leistungen ansehen →
+          </Link>
         </div>
       </div>
     </div>

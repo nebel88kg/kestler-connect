@@ -47,8 +47,8 @@ const storySections = [
 
 export default function UeberUnsPage() {
   return (
-    <div className="page-top">
-      <section className="bg-navy pb-16 pt-8">
+    <>
+      <section className="page-hero bg-navy">
         <div className="container-custom">
           <Breadcrumbs items={[{ label: "Startseite", href: "/" }, { label: "Über uns" }]} variant="dark" />
           <h1 className="text-3xl font-extrabold text-white lg:text-5xl">Über mich</h1>
@@ -103,6 +103,6 @@ export default function UeberUnsPage() {
           </div>
         </ScrollReveal>
       </div>
-    </div>
+    </>
   );
 }

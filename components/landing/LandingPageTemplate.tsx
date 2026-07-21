@@ -8,7 +8,6 @@ import { ScrollReveal } from "@/components/ui/ScrollReveal";
 import { Breadcrumbs } from "@/components/seo/Breadcrumbs";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { createBreadcrumbsFromPath } from "@/lib/seo";
-import { siteConfig } from "@/lib/navigation";
 import Link from "next/link";
 
 interface LandingPageTemplateProps {
@@ -45,15 +44,6 @@ export function LandingPageTemplate({ page }: LandingPageTemplateProps) {
             <div className="mt-8 flex flex-col gap-4 sm:flex-row">
               <Button href="#kontakt" size="lg">
                 Kostenloses Strategiegespräch
-              </Button>
-              <Button
-                href={siteConfig.calendlyUrl}
-                variant="outline"
-                size="lg"
-                external
-                className="border-accent text-accent hover:bg-accent hover:text-navy"
-              >
-                Termin buchen
               </Button>
             </div>
           </div>
@@ -176,20 +166,11 @@ export function LandingPageTemplate({ page }: LandingPageTemplateProps) {
           <div className="grid items-start gap-12 lg:grid-cols-2">
             <ScrollReveal>
               <h2 className="text-2xl font-extrabold text-white lg:text-4xl">
-                Termin buchen
+                Sichern Sie sich jetzt Ihre kostenlose Potenzialanalyse.
               </h2>
               <p className="mt-4 text-gray-400">
-                Sichern Sie sich jetzt Ihre kostenlose Potenzialanalyse.
+                Schreiben Sie uns – wir melden uns innerhalb von 24 Stunden.
               </p>
-              <Button
-                href={siteConfig.calendlyUrl}
-                variant="outline"
-                size="lg"
-                external
-                className="mt-6 border-white text-white hover:bg-white hover:text-navy"
-              >
-                Direkt bei Calendly buchen
-              </Button>
             </ScrollReveal>
             <ScrollReveal delay={0.2}>
               <div className="rounded-2xl bg-white p-4 sm:p-8">

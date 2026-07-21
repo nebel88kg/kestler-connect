@@ -8,14 +8,14 @@ import { ScrollReveal } from "@/components/ui/ScrollReveal";
 
 export const metadata: Metadata = createMetadata({
   title: "Kontakt",
-  description: "Kontaktieren Sie Kestler Connect – per Formular, Telefon, WhatsApp oder Calendly.",
+  description: "Kontaktieren Sie Kestler Connect – per Formular, Telefon oder WhatsApp.",
   path: "/kontakt",
 });
 
 export default function KontaktPage() {
   return (
-    <div className="page-top">
-      <section className="bg-navy pb-10 pt-4 sm:pb-16 sm:pt-6">
+    <>
+      <section className="page-hero bg-navy">
         <div className="container-custom">
           <Breadcrumbs items={[{ label: "Startseite", href: "/" }, { label: "Kontakt" }]} variant="dark" />
           <h1 className="text-2xl font-extrabold text-white sm:text-3xl lg:text-5xl">Kontakt</h1>
@@ -61,16 +61,6 @@ export default function KontaktPage() {
               </div>
 
               <div className="rounded-2xl border border-gray-200 p-4 sm:p-6">
-                <h3 className="font-bold text-anthracite">Termin buchen</h3>
-                <p className="mt-2 text-sm text-gray-600">
-                  Buchen Sie direkt einen Termin für ein kostenloses Strategiegespräch.
-                </p>
-                <Button href={siteConfig.calendlyUrl} external className="mt-4 w-full sm:w-auto">
-                  Calendly öffnen
-                </Button>
-              </div>
-
-              <div className="rounded-2xl border border-gray-200 p-4 sm:p-6">
                 <h3 className="font-bold text-anthracite">E-Mail</h3>
                 <a
                   href={`mailto:${siteConfig.email}`}
@@ -83,6 +73,6 @@ export default function KontaktPage() {
           </ScrollReveal>
         </div>
       </div>
-    </div>
+    </>
   );
 }
