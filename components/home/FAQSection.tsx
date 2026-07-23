@@ -8,7 +8,7 @@ import { ScrollReveal } from "@/components/ui/ScrollReveal";
 const faqItems = [
   {
     question: "Was kostet Online-Marketing?",
-    answer: "Die Kosten hängen von Ihren Zielen und der Branche ab. Für lokale Unternehmen rechnen wir mit 800–2.000 € monatlich (Agentur + Werbebudget). Wir erstellen gerne ein individuelles Angebot nach einem kostenlosen Strategiegespräch.",
+    answer: "Die Kosten hängen von Ihren Zielen und der Branche ab. Für lokale Unternehmen rechnen wir mit 800–2.000 € monatlich (Agentur + Werbebudget). Für den Einstieg ohne großes Budget bieten wir auch kompakte Workshops an. Wir erstellen gerne ein individuelles Angebot nach einem kostenlosen Strategiegespräch.",
   },
   {
     question: "Wie lange dauert SEO?",
@@ -24,11 +24,15 @@ const faqItems = [
   },
   {
     question: "Gibt es Vertragslaufzeiten?",
-    answer: "Wir arbeiten mit fairen Konditionen. Unser Ziel ist es, Sie durch Ergebnisse zu überzeugen – nicht durch lange Vertragsbindungen.",
+    answer: "Beim laufenden Marketing arbeiten wir mit fairen Konditionen und ohne unnötige Bindung. Bei Website-Paketen auf monatlicher Basis gilt eine Mindestlaufzeit von 12 Monaten – dafür ist Hosting inklusive und die Einmalzahlung entfällt.",
   },
   {
     question: "Für welche Branchen arbeitet ihr?",
-    answer: "Unser Fokus liegt auf Handwerk, Vereinen, Immobilien, Golfclubs und lokalen Unternehmen. Wir verstehen die Besonderheiten dieser Branchen.",
+    answer: "Unser Fokus liegt auf Handwerk, Vereinen, Startups, Immobilien, Golfclubs sowie kleinen und mittelständischen Unternehmen vor Ort. Wir verstehen die Besonderheiten dieser Zielgruppen.",
+  },
+  {
+    question: "Bietet ihr auch Workshops an?",
+    answer: "Ja. Für Startups und junge Unternehmen gibt es kompakte Marketing-Workshops (5–6 Stunden) – ideal, wenn noch kein großes Budget für eine laufende Betreuung da ist. Für Vereine bieten wir eigene Workshops zu Marketing und Sponsoring an.",
   },
   {
     question: "Wie schnell sehe ich Ergebnisse?",
@@ -36,7 +40,11 @@ const faqItems = [
   },
   {
     question: "Brauche ich eine eigene Webseite?",
-    answer: "Ideal ja – eine professionelle Webseite ist die Basis für erfolgreiches Online-Marketing. Falls Sie noch keine haben, erstellen wir diese für Sie.",
+    answer: "Ideal ja – eine professionelle Webseite ist die Basis für erfolgreiches Online-Marketing. Falls Sie noch keine haben, erstellen wir diese für Sie – mit klaren Paketen (Basic, Standard, Premium), einmalig oder monatlich über 12 Monate inklusive Hosting.",
+  },
+  {
+    question: "Was kosten eure Webseiten?",
+    answer: "Basic ab 1.500 €, Standard ab 2.500 €, Premium ab 4.000 € (netto, einmalig). Optional Hosting & Wartung für 75 €/Monat. Alternativ monatliche Zahlung über 12 Monate Mindestlaufzeit – dann ist Hosting bereits eingerechnet. Details unter Leistungen → Webseiten.",
   },
   {
     question: "Wie läuft die Zusammenarbeit ab?",

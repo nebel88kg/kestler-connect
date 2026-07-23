@@ -9,6 +9,7 @@ import { Card } from "@/components/ui/Card";
 import { Breadcrumbs } from "@/components/seo/Breadcrumbs";
 import { ScrollReveal } from "@/components/ui/ScrollReveal";
 import { LandingPageTemplate } from "@/components/landing/LandingPageTemplate";
+import { WebsitePricing } from "@/components/pricing/WebsitePricing";
 
 const categories = [
   ...new Set([
@@ -80,10 +81,15 @@ export default async function CategoryPage({
           <p className="mt-4 max-w-2xl text-base leading-relaxed text-gray-300 sm:text-lg">
             {hub.description}
           </p>
-          <div className="mt-8">
+          <div className="mt-8 flex flex-col gap-3 sm:flex-row">
             <Button href="/kontakt" size="lg">
               Kostenloses Strategiegespräch
             </Button>
+            {category === "webseiten" && (
+              <Button href="#preise" variant="outline" size="lg">
+                Preise ansehen
+              </Button>
+            )}
           </div>
         </div>
       </section>
@@ -123,8 +129,12 @@ export default async function CategoryPage({
             </div>
           </ScrollReveal>
         )}
+      </div>
 
-        <ScrollReveal className="mt-14">
+      {category === "webseiten" && <WebsitePricing />}
+
+      <div className="container-custom pb-12 sm:pb-16 lg:pb-28">
+        <ScrollReveal>
           <div className="rounded-2xl bg-navy px-6 py-10 text-center sm:px-10">
             <h2 className="text-xl font-bold text-white sm:text-2xl">
               Passt {hub.title} zu Ihrem Ziel?

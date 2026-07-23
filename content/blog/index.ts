@@ -120,6 +120,10 @@ Ein professioneller Social Media Auftritt ist Ihr digitales Sponsoren-Portfolio.
 ## Fazit
 
 Mit 2–3 Posts pro Woche und gelegentlichen bezahlten Kampagnen können Vereine ihre Mitgliederzahlen und Sponsoring-Einnahmen deutlich steigern.
+
+## Workshop für Vereine
+
+Wenn Sie Marketing und Sponsoring systematischer angehen wollen, ohne gleich eine laufende Betreuung zu buchen: In unserem Workshop zu Marketing und Sponsoring für Vereine erarbeiten wir Positionierung, Kanäle und Sponsoren-Ansprache – praxisnah und umsetzbar.
     `.trim(),
   },
 ];

@@ -8,7 +8,7 @@ import { Button } from "@/components/ui/Button";
 export const metadata: Metadata = createMetadata({
   title: "Über Jascha Kestler",
   description:
-    "Jascha Kestler, Gründer von Kestler Connect. Vom Handwerk über Sport und Events bis ins digitale Marketing – bodenständig, direkt und mit Fokus auf echte Verbindungen und nachhaltiges Wachstum.",
+    "Jascha Kestler, Gründer von Kestler Connect. Wir wachsen mit kleinen und mittelständischen Unternehmen – vom ersten Impuls bis zur Skalierung. Bodenständig, direkt und mit Fokus auf echte Verbindungen.",
   path: "/ueber-uns",
 });
 
@@ -27,6 +27,14 @@ const storySections = [
       "Mich begeistert es, Potenziale sichtbar zu machen und Verbindungen zu schaffen, die Wachstum ermöglichen.",
       "Zu oft sehe ich Unternehmen, die hervorragende Arbeit leisten, aber nicht die Aufmerksamkeit erhalten, die sie verdienen. Genau hier setze ich an. Mit klaren Strategien, kreativen Ideen und dem Ziel, die richtigen Menschen zur richtigen Zeit zu erreichen.",
       "Für mich geht es nicht nur um Reichweite, Klicks oder Werbeanzeigen. Es geht darum, Verbindungen zwischen Unternehmen und ihren Kunden aufzubauen – Verbindungen, die Vertrauen schaffen, langfristig bestehen und echtes Wachstum ermöglichen.",
+    ],
+  },
+  {
+    title: "Unsere Mission",
+    paragraphs: [
+      "Wir wollen mit kleinen und mittelständischen Unternehmen zusammenwachsen – vom ersten Impuls bis zur Skalierung.",
+      "Manche Betriebe brauchen einen klaren Start: Sichtbarkeit, Struktur und die richtigen Kanäle. Andere sind bereit, das zu skalieren, was bereits funktioniert. Beides begleiten wir partnerschaftlich, praxisnah und mit dem Tempo, das zu Ihrem Unternehmen passt.",
+      "Ob Handwerk, lokaler Dienstleister oder wachsender Mittelstand: Unser Ziel ist nachhaltiges Wachstum – nicht kurzfristige Reichweite um jeden Preis.",
     ],
   },
   {

@@ -36,7 +36,7 @@ export function HeroSection() {
               <span className="block">Mehr Wachstum.</span>
             </h1>
             <p className="mt-3 max-w-xl text-sm leading-relaxed text-gray-300 sm:mt-4 sm:text-base">
-              Performance-Marketing, Webseiten und Social Media für Handwerk, Vereine und lokale Unternehmen.
+              Performance-Marketing, Webseiten und Social Media für Handwerk, Vereine und wachsende Unternehmen.
             </p>
             <div className="mt-8 flex w-full flex-col gap-3 sm:mt-10 sm:w-auto sm:flex-row sm:gap-4 lg:mt-12">
               <Button href="/kontakt" size="md" className="w-full sm:w-auto">

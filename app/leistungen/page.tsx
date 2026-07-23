@@ -10,7 +10,7 @@ import { Button } from "@/components/ui/Button";
 export const metadata: Metadata = createMetadata({
   title: "Leistungen",
   description:
-    "Mitarbeitergewinnung, Leadgewinnung, Google Ads, Meta Ads, Social Media, Webseiten und SEO von Kestler Connect.",
+    "Mitarbeitergewinnung, Leadgewinnung, Google Ads, Meta Ads, Social Media, Workshops, Webseiten und SEO von Kestler Connect.",
   path: "/leistungen",
 });
 
@@ -27,7 +27,7 @@ export default function LeistungenPage() {
             Unsere Leistungen
           </h1>
           <p className="mt-4 max-w-2xl text-base text-gray-300 sm:text-lg">
-            Klare Angebote für Wachstum: von Anfragen und Mitarbeitern bis zu Website und Sichtbarkeit.
+            Klare Angebote für Wachstum: von Anfragen und Mitarbeitern über Workshops bis zu Website und Sichtbarkeit.
           </p>
         </div>
       </section>

@@ -20,8 +20,8 @@ const services = [
   {
     title: "Webseiten",
     description: "Moderne Webseiten und Landingpages, die Besucher zu Kunden machen.",
-    items: ["Webdesign", "Landingpages", "Conversion Optimierung"],
-    href: "/leistungen/webseiten",
+    items: ["Webdesign", "Landingpages", "Pakete ab 1.500 €"],
+    href: "/leistungen/webseiten#preise",
     color: "bg-accent-light/60 border border-accent/15",
   },
   {
@@ -30,6 +30,13 @@ const services = [
     items: ["SEO", "Local SEO", "ChatGPT Optimierung", "KI-Suchmaschinenoptimierung"],
     href: "/leistungen/seo",
     color: "bg-navy/5 border border-navy/10",
+  },
+  {
+    title: "Workshops",
+    description: "Kompakte Formate für Startups und Vereine – ohne großes Marketing-Budget.",
+    items: ["Startup Marketing (5–6 Std.)", "Marketing & Sponsoring für Vereine"],
+    href: "/leistungen/workshops",
+    color: "bg-accent-light/60 border border-accent/15",
   },
 ];
 

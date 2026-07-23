@@ -1,7 +1,7 @@
 export const siteConfig = {
   name: "Kestler Connect",
   description:
-    "Performance-Marketing, Webseiten und Social Media für Handwerk, Vereine und lokale Unternehmen.",
+    "Performance-Marketing, Webseiten und Social Media für Handwerk, Vereine und wachsende kleine und mittelständische Unternehmen.",
   url: process.env.NEXT_PUBLIC_SITE_URL || "https://kestler-connect.de",
   phone: process.env.NEXT_PUBLIC_PHONE || "+491234567890",
   whatsapp: process.env.NEXT_PUBLIC_WHATSAPP || "491234567890",
@@ -72,6 +72,23 @@ export const leistungenNav: NavItem = {
       description: "Content, Reels und Betreuung, die Ihre Marke sichtbar macht.",
     },
     {
+      title: "Workshops",
+      href: "/leistungen/workshops",
+      description: "Kompakte Marketing-Workshops für Startups und Vereine.",
+      children: [
+        {
+          title: "Marketing-Workshop für Startups",
+          href: "/leistungen/workshops/marketing-workshop-startups",
+          description: "In 5–6 Stunden Klarheit und Handwerkszeug für den Start.",
+        },
+        {
+          title: "Marketing & Sponsoring für Vereine",
+          href: "/leistungen/workshops/marketing-sponsoring-vereine",
+          description: "Praxis-Workshop zu Sichtbarkeit, Mitgliedern und Sponsoren.",
+        },
+      ],
+    },
+    {
       title: "Webseiten",
       href: "/leistungen/webseiten",
       description: "Webdesign und Landingpages, die Besucher zu Kunden machen.",
@@ -128,6 +145,18 @@ export const leistungenHubContent: Record<string, HubPageContent> = {
       "Abstimmung mit Ads und Website",
     ],
   },
+  workshops: {
+    title: "Workshops",
+    href: "/leistungen/workshops",
+    description:
+      "Kompakte Formate für alle, die noch kein großes Marketing-Budget haben – aber Klarheit, Struktur und umsetzbare nächste Schritte brauchen.",
+    highlights: [
+      "5–6 Stunden praxisnah und ergebnisorientiert",
+      "Ideal für Startups und junge Unternehmen",
+      "Eigene Formate für Vereine zu Marketing und Sponsoring",
+      "Sofort anwendbares Handwerkszeug statt Theorie",
+    ],
+  },
   webseiten: {
     title: "Webseiten",
     href: "/leistungen/webseiten",
@@ -137,7 +166,9 @@ export const leistungenHubContent: Record<string, HubPageContent> = {
       "Webdesign mit Fokus auf Anfragen",
       "Landingpages für Kampagnen",
       "Mobile-first und schnell ladend",
-      "Conversion-Optimierung bestehender Seiten",
+      "Klare Pakete: Basic, Standard, Premium",
+      "Einmalzahlung oder monatlich über 12 Monate",
+      "Optional Hosting, Wartung & CMS-Zugang",
     ],
   },
   seo: {
@@ -180,6 +211,11 @@ export const leistungenMenuItems: NavItem[] = [
     title: "Social Media",
     href: "/leistungen/social-media",
     description: "Content, Reels und Betreuung.",
+  },
+  {
+    title: "Workshops",
+    href: "/leistungen/workshops",
+    description: "Kompakte Workshops für Startups und Vereine.",
   },
   {
     title: "Webseiten",

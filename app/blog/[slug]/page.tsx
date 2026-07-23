@@ -91,12 +91,27 @@ export default async function BlogPostPage({
 
         <ScrollReveal delay={0.2}>
           <div className="mx-auto mt-16 max-w-3xl rounded-2xl bg-gray-50 p-8 text-center">
-            <h2 className="text-xl font-bold text-anthracite">Fragen zu diesem Thema?</h2>
+            <h2 className="text-xl font-bold text-anthracite">
+              {post.slug === "social-media-fuer-vereine"
+                ? "Workshop zu Marketing & Sponsoring?"
+                : "Fragen zu diesem Thema?"}
+            </h2>
             <p className="mt-2 text-gray-600">
-              Wir beraten Sie gerne persönlich.
+              {post.slug === "social-media-fuer-vereine"
+                ? "In einem kompakten Workshop erarbeiten wir Sichtbarkeit, Mitgliedergewinnung und Sponsoren-Ansprache für Ihren Verein."
+                : "Wir beraten Sie gerne persönlich."}
             </p>
-            <Button href="/kontakt" className="mt-4">
-              Kostenloses Strategiegespräch
+            <Button
+              href={
+                post.slug === "social-media-fuer-vereine"
+                  ? "/leistungen/workshops/marketing-sponsoring-vereine"
+                  : "/kontakt"
+              }
+              className="mt-4"
+            >
+              {post.slug === "social-media-fuer-vereine"
+                ? "Zum Vereins-Workshop"
+                : "Kostenloses Strategiegespräch"}
             </Button>
           </div>
         </ScrollReveal>
