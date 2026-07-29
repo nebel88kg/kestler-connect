@@ -2,17 +2,12 @@
 
 const logos = [
   "Golfclub Raffelberg",
-  "SHK Meisterbetrieb",
-  "Elektro Schmidt",
-  "Immobilien Regional",
-  "Sportverein Musterstadt",
-  "Dachdecker Müller",
-  "Makler & Partner",
-  "TC Grün-Weiß",
+  "Start-Up School",
+  "Buddy's Duisburg",
 ];
 
 export function LogoSlider() {
-  const duplicated = [...logos, ...logos];
+  const duplicated = [...logos, ...logos, ...logos, ...logos];
 
   return (
     <div className="relative overflow-hidden">

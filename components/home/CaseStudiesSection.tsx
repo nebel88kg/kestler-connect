@@ -18,7 +18,7 @@ export function CaseStudiesSection() {
           </div>
         </ScrollReveal>
 
-        <div className="grid gap-6 md:grid-cols-2">
+        <div className="grid gap-6 md:grid-cols-3">
           {referenzen.map((ref, i) => (
             <ScrollReveal key={ref.slug} delay={i * 0.1}>
               <Link href={`/referenzen/${ref.slug}`}>

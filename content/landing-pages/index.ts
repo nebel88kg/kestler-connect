@@ -1,4 +1,5 @@
 import type { LandingPage } from "../types";
+import { hubLandingPages } from "./hubs";
 
 export const googleAdsFuerHandwerker: LandingPage = {
   slug: "google-ads-fuer-handwerker",
@@ -64,14 +65,14 @@ export const googleAdsFuerHandwerker: LandingPage = {
   ],
   references: [
     {
-      title: "SHK-Betrieb in NRW",
-      slug: "handwerksbetrieb-shk",
-      excerpt: "120% mehr Anfragen in 3 Monaten durch lokale Google Ads Kampagnen.",
+      title: "Golfclub Raffelberg",
+      slug: "golfclub-raffelberg",
+      excerpt: "Platzreife- und Schnuppergolf-Kurse sowie Firmenfeiern erfolgreich über Google Ads und Meta Ads beworben.",
     },
     {
-      title: "Elektrobetrieb Mitteldeutschland",
-      slug: "handwerksbetrieb-elektro",
-      excerpt: "Kosten pro Anfrage um 40% gesenkt durch Conversion-Optimierung.",
+      title: "Buddy's Duisburg",
+      slug: "buddys-duisburg",
+      excerpt: "Starke Reichweite und viele neue Anfragen für Events durch Meta und Google Ads.",
     },
   ],
   process: [
@@ -105,63 +106,7 @@ export const googleAdsFuerHandwerker: LandingPage = {
   ],
 };
 
-export const leadgewinnung: LandingPage = {
-  slug: "leadgewinnung",
-  path: "/leistungen/leadgewinnung",
-  category: "leadgewinnung",
-  meta: {
-    title: "Leadgewinnung",
-    description:
-      "Qualifizierte Anfragen für Ihr Unternehmen – mit Google Ads, Meta Ads und Landingpages. Messbar, planbar und ohne Streuverluste.",
-    keywords: ["leadgewinnung", "leads generieren", "anfragen gewinnen", "performance marketing"],
-  },
-  hero: {
-    headline: "Leadgewinnung – Anfragen, die zu Kunden werden",
-    subheadline:
-      "Wir bringen qualifizierte Interessenten zu Ihnen: über die richtigen Kanäle, mit klaren Botschaften und Landingpages, die konvertieren.",
-  },
-  problem: {
-    title: "Kennen Sie das?",
-    points: [
-      "Zu wenig planbare Anfragen trotz guter Leistung",
-      "Werbung ohne messbaren Erfolg oder zu hohe Kosten pro Lead",
-      "Website-Besucher, die abspringen, bevor sie Kontakt aufnehmen",
-      "Unklare Zuständigkeit: Wer kümmert sich um Kampagnen und Nachverfolgung?",
-      "Kein Überblick, welcher Kanal wirklich Aufträge bringt",
-    ],
-  },
-  solution: {
-    title: "Leadgewinnung mit System",
-    content:
-      "Wir verbinden Strategie, Kampagnen und Conversion: Google Ads und Meta Ads für Reichweite und Nachfrage, starke Landingpages und Formulare für die Anfrage, Tracking und Reporting für Transparenz. Sie sehen jederzeit Kosten, Qualität und Ergebnis – und skalieren, was funktioniert.",
-  },
-  benefits: [
-    { title: "Kanalmix mit Fokus", description: "Google, Meta und Landingpages – abgestimmt auf Ihre Zielgruppe und Region.", icon: "target" },
-    { title: "Qualifizierte Anfragen", description: "Formulare und Targeting so gebaut, dass echte Interessenten ankommen.", icon: "form" },
-    { title: "Conversion-stark", description: "Seiten und Creatives, die aus Klicks Anfragen machen.", icon: "rocket" },
-    { title: "Messbar", description: "Kosten pro Lead, Quellen und ROI transparent im Blick.", icon: "chart" },
-    { title: "Skalierbar", description: "Erfolgreiche Kampagnen gezielt ausbauen – ohne Rätselraten.", icon: "scale" },
-    { title: "Alles aus einer Hand", description: "Strategie, Umsetzung und Optimierung bei einem Ansprechpartner.", icon: "star" },
-  ],
-  references: [
-    { title: "Lokaler Dienstleister", slug: "handwerksbetrieb-shk", excerpt: "80 qualifizierte Leads in 2 Monaten zu unter 25 € pro Lead." },
-    { title: "Immobilienmakler", slug: "immobilienmakler-regional", excerpt: "45% mehr Besichtigungstermine durch Lead-Kampagnen." },
-  ],
-  process: [
-    { step: 1, title: "Analyse", description: "Ziele, Zielgruppe, bisherige Kanäle und Potenzial klären." },
-    { step: 2, title: "Setup", description: "Kampagnen, Landingpages und Tracking einrichten." },
-    { step: 3, title: "Launch", description: "Start mit ersten Anfragen und Datengrundlage." },
-    { step: 4, title: "Optimierung", description: "Creatives, Targeting und Conversion laufend verbessern." },
-    { step: 5, title: "Skalierung", description: "Budget und Reichweite dort erhöhen, wo die Qualität stimmt." },
-  ],
-  faq: [
-    { question: "Was kostet Leadgewinnung?", answer: "Agenturkosten typischerweise ab 500 €/Monat plus Werbebudget. Das Budget richten wir nach Ihren Zielen und dem Markt aus." },
-    { question: "Google Ads, Meta Ads oder beides?", answer: "Das hängt von Ihrer Zielgruppe ab. Oft funktioniert eine Kombination am besten – wir empfehlen den sinnvollsten Einstieg." },
-    { question: "Wie qualifiziert sind die Leads?", answer: "Über Targeting, Formularfragen und Landingpage-Texte steuern wir Qualität. Kriterien legen wir gemeinsam fest." },
-    { question: "Wie schnell sehe ich Ergebnisse?", answer: "Erste Anfragen oft innerhalb weniger Tage nach Launch. Stabile Kosten und Qualität entstehen über laufende Optimierung." },
-    { question: "Gibt es Mindestlaufzeiten?", answer: "Nein. Wir überzeugen durch Ergebnisse, nicht durch Vertragsbindung." },
-  ],
-};
+export { leadgewinnungHub as leadgewinnung } from "./hubs";
 
 export const mitgliedergewinnungGolf: LandingPage = {
   slug: "mitgliedergewinnung-golfclubs",
@@ -202,8 +147,8 @@ export const mitgliedergewinnungGolf: LandingPage = {
     { title: "Messbare Ergebnisse", description: "Anmeldungen und Schnupperanfragen transparent tracken.", icon: "chart" },
   ],
   references: [
-    { title: "Golfclub Raffelberg", slug: "golfclub-raffelberg", excerpt: "Erfolgreiche Mitgliedergewinnung und digitale Präsenz." },
-    { title: "Regionaler Golfclub", slug: "golfclub-regional", excerpt: "40% mehr Schnupperanfragen durch Meta-Kampagnen." },
+    { title: "Golfclub Raffelberg", slug: "golfclub-raffelberg", excerpt: "Professioneller Social-Media-Auftritt und erfolgreiche Mitgliedergewinnung durch Meta Ads und Google Ads." },
+    { title: "Buddy's Duisburg", slug: "buddys-duisburg", excerpt: "Moderner Auftritt und starke Event-Reichweite durch Social Media und Ads." },
   ],
   process: [
     { step: 1, title: "Club-Analyse", description: "Mitgliederstruktur, Zielgruppe und Wettbewerb analysieren." },
@@ -260,8 +205,8 @@ export const localSeo: LandingPage = {
     { title: "Langfristig", description: "Nachhaltige Sichtbarkeit ohne laufende Werbekosten.", icon: "trending" },
   ],
   references: [
-    { title: "SHK-Betrieb in NRW", slug: "handwerksbetrieb-shk", excerpt: "Position 1 bei 12 lokalen Keywords innerhalb von 4 Monaten." },
-    { title: "Lokaler Dienstleister", slug: "handwerksbetrieb-elektro", excerpt: "300% mehr Google Maps Aufrufe nach Local SEO Optimierung." },
+    { title: "Golfclub Raffelberg", slug: "golfclub-raffelberg", excerpt: "Stärkere digitale Sichtbarkeit und professioneller Auftritt auf allen Touchpoints." },
+    { title: "Start-Up School", slug: "start-up-school", excerpt: "Klare Content- und Performance-Strategie für nachhaltiges Wachstum." },
   ],
   process: [
     { step: 1, title: "Local Audit", description: "Analyse Ihrer aktuellen lokalen Sichtbarkeit." },
@@ -279,63 +224,7 @@ export const localSeo: LandingPage = {
   ],
 };
 
-export const mitarbeitergewinnung: LandingPage = {
-  slug: "mitarbeitergewinnung",
-  path: "/leistungen/mitarbeitergewinnung",
-  category: "mitarbeitergewinnung",
-  meta: {
-    title: "Mitarbeitergewinnung",
-    description:
-      "Fachkräfte und Bewerber aktiv gewinnen – mit Social Recruiting, Google Ads und starkem Employer Branding. Für Handwerk, Vereine und lokale Unternehmen.",
-    keywords: ["mitarbeitergewinnung", "social recruiting", "fachkräfte finden", "employer branding"],
-  },
-  hero: {
-    headline: "Mitarbeitergewinnung – die richtigen Leute aktiv ansprechen",
-    subheadline:
-      "Statt auf Bewerbungen zu warten, finden wir Fachkräfte und Talente dort, wo sie unterwegs sind – mit klarer Ansprache, starken Creatives und messbaren Kampagnen.",
-  },
-  problem: {
-    title: "Fachkräfte werden nicht von allein gefunden",
-    points: [
-      "Stellenanzeigen auf Jobportalen bringen kaum passende Bewerbungen",
-      "Gute Kandidaten sind oft nicht aktiv auf der Suche",
-      "Personalvermittler sind teuer – ohne Garantie auf Passung",
-      "Lange Vakanzen bremsen Aufträge und Wachstum",
-      "Ihr Betrieb wirkt online nicht als attraktiver Arbeitgeber",
-    ],
-  },
-  solution: {
-    title: "Recruiting, das zu Ihnen passt",
-    content:
-      "Wir verbinden Employer Branding mit Social Recruiting und Google Ads: authentische Einblicke in Ihren Betrieb, gezielte Ansprache in der Region und ein Bewerbungsprozess, der einfach funktioniert. So kommen qualifizierte Bewerbungen – planbarer und oft günstiger als klassische Vermittlung.",
-  },
-  benefits: [
-    { title: "Social Recruiting", description: "Bewerber auf Meta und Social Media aktiv ansprechen.", icon: "social" },
-    { title: "Google Ads Jobs", description: "Sichtbarkeit bei Menschen, die aktiv nach Stellen suchen.", icon: "search" },
-    { title: "Employer Branding", description: "Ihren Betrieb als Arbeitgeber klar und glaubwürdig positionieren.", icon: "star" },
-    { title: "Video & Content", description: "Team, Alltag und Kultur sichtbar machen – das überzeugt.", icon: "video" },
-    { title: "Schnelle Impulse", description: "Erste Bewerbungen oft schon in den ersten Wochen.", icon: "rocket" },
-    { title: "Messbar", description: "Kosten pro Bewerbung und Kanaltransparenz statt Bauchgefühl.", icon: "chart" },
-  ],
-  references: [
-    { title: "SHK-Betrieb in NRW", slug: "handwerksbetrieb-shk", excerpt: "3 qualifizierte Fachkräfte in 6 Wochen über Social Recruiting." },
-    { title: "Elektrobetrieb", slug: "handwerksbetrieb-elektro", excerpt: "Azubi-Kampagne mit 12 Bewerbungen in 4 Wochen." },
-  ],
-  process: [
-    { step: 1, title: "Bedarfsanalyse", description: "Stellen, Profil, Region und Arbeitgeber-Stärken klären." },
-    { step: 2, title: "Positionierung", description: "Botschaften, Creatives und Bewerbungsstrecke aufsetzen." },
-    { step: 3, title: "Kampagnen-Launch", description: "Social Recruiting und ggf. Google Ads starten." },
-    { step: 4, title: "Bewerber-Flow", description: "Anfragen qualifizieren und an Sie weiterleiten." },
-    { step: 5, title: "Optimierung", description: "Ansprache und Kanäle für bessere Passung nachschärfen." },
-  ],
-  faq: [
-    { question: "Wie lange dauert Mitarbeitergewinnung?", answer: "Erste Bewerbungen oft innerhalb von 1–2 Wochen. Bis zur Einstellung typischerweise einige Wochen – abhängig von Profil und Markt." },
-    { question: "Was kostet das?", answer: "Agenturkosten typischerweise ab 600 €/Monat plus Werbebudget. Oft günstiger als Personalvermittler mit Erfolgsprovision." },
-    { question: "Für wen eignet sich das?", answer: "Besonders für Handwerk, lokale Dienstleister, Vereine und Betriebe mit Fachkräfte- oder Azubi-Bedarf." },
-    { question: "Erstellt ihr Stellenanzeigen und Videos?", answer: "Ja – Texte, Bilder und Videos für Ihre Recruiting-Kampagnen gehören dazu." },
-    { question: "Geht das auch für Azubis?", answer: "Ja. Azubi-Kampagnen mit eigener Ansprache sind ein fester Bestandteil unseres Angebots." },
-  ],
-};
+export { mitarbeitergewinnungHub as mitarbeitergewinnung } from "./hubs";
 
 export const marketingWorkshopStartups: LandingPage = {
   slug: "marketing-workshop-startups",
@@ -406,14 +295,14 @@ export const marketingWorkshopStartups: LandingPage = {
   ],
   references: [
     {
-      title: "Lokaler Dienstleister",
-      slug: "handwerksbetrieb-shk",
-      excerpt: "Von unklarer Sichtbarkeit zu planbaren Anfragen – mit klarer Priorisierung der Kanäle.",
+      title: "Start-Up School",
+      slug: "start-up-school",
+      excerpt: "Social Media Content Planning und Performance Marketing mit klarer Strategie und eigener Ideenentwicklung.",
     },
     {
-      title: "Immobilienmakler Regional",
-      slug: "immobilienmakler-regional",
-      excerpt: "Starke Meta- und Content-Impulse, die sich auch für junge Unternehmen übertragen lassen.",
+      title: "Golfclub Raffelberg",
+      slug: "golfclub-raffelberg",
+      excerpt: "Von unklarem Auftritt zu professionellen Kanälen mit messbaren Kampagnenergebnissen.",
     },
   ],
   process: [
@@ -519,14 +408,14 @@ export const marketingSponsoringVereine: LandingPage = {
   ],
   references: [
     {
-      title: "Regionaler Sportverein",
-      slug: "verein-regional",
-      excerpt: "Mitgliedergewinnung und Sponsorenakquise über Social Media und klare Positionierung.",
-    },
-    {
       title: "Golfclub Raffelberg",
       slug: "golfclub-raffelberg",
       excerpt: "Digitale Mitgliedergewinnung und professionelle Online-Präsenz für Clubs und Vereine.",
+    },
+    {
+      title: "Buddy's Duisburg",
+      slug: "buddys-duisburg",
+      excerpt: "Events und Networking erfolgreich über Social Media sowie Meta und Google Ads beworben.",
     },
   ],
   process: [
@@ -564,11 +453,10 @@ export const marketingSponsoringVereine: LandingPage = {
 };
 
 export const fullLandingPages: LandingPage[] = [
+  ...hubLandingPages,
   googleAdsFuerHandwerker,
-  leadgewinnung,
   mitgliedergewinnungGolf,
   localSeo,
-  mitarbeitergewinnung,
   marketingWorkshopStartups,
   marketingSponsoringVereine,
 ];

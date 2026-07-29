@@ -42,6 +42,24 @@ export interface LandingPageFAQ {
   answer: string;
 }
 
+export interface LandingPageTextSection {
+  title: string;
+  paragraphs: string[];
+  points?: string[];
+}
+
+export interface LandingPagePricingRange {
+  label: string;
+  value: string;
+  note?: string;
+}
+
+export interface LandingPagePricing {
+  title: string;
+  paragraphs: string[];
+  ranges?: LandingPagePricingRange[];
+}
+
 export interface LandingPage {
   slug: string;
   path: string;
@@ -54,6 +72,12 @@ export interface LandingPage {
   references: LandingPageReference[];
   process: LandingPageProcessStep[];
   faq: LandingPageFAQ[];
+  /** Money-page sections – optional so niche child pages keep working */
+  intro?: LandingPageTextSection;
+  audience?: LandingPageTextSection;
+  results?: LandingPageTextSection;
+  pricing?: LandingPagePricing;
+  showWebsitePricing?: boolean;
 }
 
 export interface StubPage {
@@ -82,4 +106,6 @@ export interface BlogPost {
   category: string;
   readTime: string;
   content: string;
+  metaTitle?: string;
+  metaDescription?: string;
 }

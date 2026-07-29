@@ -22,7 +22,7 @@ export default function ReferenzenPage() {
           Echte Ergebnisse für echte Unternehmen – unsere Case Studies.
         </p>
 
-        <div className="mt-12 grid gap-6 md:grid-cols-2">
+        <div className="mt-12 grid gap-6 md:grid-cols-3">
           {referenzen.map((ref, i) => (
             <ScrollReveal key={ref.slug} delay={i * 0.1}>
               <Link href={`/referenzen/${ref.slug}`}>
