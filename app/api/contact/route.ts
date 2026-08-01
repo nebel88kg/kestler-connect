@@ -23,7 +23,7 @@ export async function POST(request: Request) {
 
     const { error } = await resend.emails.send({
       from,
-      to,
+      to: [to],
       replyTo: email,
       subject: `Neue Anfrage von ${name} (${company})`,
       text: [
@@ -42,7 +42,10 @@ export async function POST(request: Request) {
 
     if (error) {
       console.error("Resend error:", error);
-      return NextResponse.json({ error: "E-Mail konnte nicht gesendet werden" }, { status: 500 });
+      return NextResponse.json(
+        { error: "E-Mail konnte nicht gesendet werden", details: error },
+        { status: 500 }
+      );
     }
 
     return NextResponse.json({ success: true });
