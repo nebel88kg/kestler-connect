@@ -14,7 +14,7 @@ export async function POST(request: Request) {
 
     const to = process.env.CONTACT_EMAIL;
     const from =
-      process.env.CONTACT_FROM || "Kestler Connect <noreply@kestler-connect.de>";
+      process.env.CONTACT_FROM || "Kestler Connect <noreply@send.kestler-connect.de>";
 
     if (!process.env.RESEND_API_KEY || !to) {
       console.error("Missing RESEND_API_KEY or CONTACT_EMAIL");
