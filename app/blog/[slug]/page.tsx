@@ -138,6 +138,12 @@ const ctaBySlug: Record<
   string,
   { title: string; text: string; href: string; button: string }
 > = {
+  "was-macht-eine-social-media-agentur": {
+    title: "Social Media Agentur aus Duisburg",
+    text: "Wir übernehmen Strategie, Content und Betreuung – abgestimmt auf Ads und Website. Unverbindlich herausfinden, was für Sie sinnvoll ist.",
+    href: "/leistungen/social-media",
+    button: "Zur Social Media Agentur",
+  },
   "social-media-fuer-vereine": {
     title: "Workshop zu Marketing & Sponsoring?",
     text: "In einem kompakten Workshop erarbeiten wir Sichtbarkeit, Mitgliedergewinnung und Sponsoren-Ansprache für Ihren Verein.",
