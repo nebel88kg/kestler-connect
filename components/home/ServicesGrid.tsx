@@ -14,7 +14,7 @@ const services = [
     title: "Performance Marketing",
     description: "Gezielte Werbekampagnen mit messbarem ROI für Ihr Unternehmen.",
     items: ["Google Ads", "Meta Ads", "Leadgenerierung", "Mitarbeitergewinnung"],
-    href: "/leistungen/google-ads",
+    href: "/leistungen/performance-marketing",
     color: "bg-accent-light border border-accent/20",
   },
   {

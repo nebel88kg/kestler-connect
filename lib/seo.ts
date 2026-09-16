@@ -70,6 +70,7 @@ export function createBreadcrumbsFromPath(path: string): BreadcrumbItem[] {
     "ueber-uns": "Über uns",
     blog: "Blog",
     kontakt: "Kontakt",
+    "performance-marketing": "Performance Marketing",
     "google-ads": "Google Ads",
     "meta-ads": "Meta Ads",
     "social-media": "Social Media Agentur",

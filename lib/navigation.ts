@@ -49,6 +49,39 @@ export const leistungenNav: NavItem = {
       description: "Qualifizierte Anfragen über Ads und Landingpages.",
     },
     {
+      title: "Performance Marketing",
+      href: "/leistungen/performance-marketing",
+      description:
+        "Google Ads, Meta Ads, Leadgewinnung und Landingpages mit messbarem ROI.",
+      children: [
+        {
+          title: "Google Ads",
+          href: "/leistungen/google-ads",
+          description: "Suchanzeigen mit messbaren Anfragen und klarem ROI.",
+        },
+        {
+          title: "Meta Ads",
+          href: "/leistungen/meta-ads",
+          description: "Facebook- und Instagram-Kampagnen für Leads und Reichweite.",
+        },
+        {
+          title: "Leadgewinnung",
+          href: "/leistungen/leadgewinnung",
+          description: "Qualifizierte Anfragen über Ads und Landingpages.",
+        },
+        {
+          title: "Mitarbeitergewinnung",
+          href: "/leistungen/mitarbeitergewinnung",
+          description: "Fachkräfte und Bewerber aktiv ansprechen und gewinnen.",
+        },
+        {
+          title: "Webseiten & Landingpages",
+          href: "/leistungen/webseiten",
+          description: "Conversion-starke Seiten für Kampagnen und Anfragen.",
+        },
+      ],
+    },
+    {
       title: "Google Ads",
       href: "/leistungen/google-ads",
       description: "Suchanzeigen mit messbaren Anfragen und klarem ROI.",
@@ -115,6 +148,18 @@ export const leistungenNav: NavItem = {
 };
 
 export const leistungenHubContent: Record<string, HubPageContent> = {
+  "performance-marketing": {
+    title: "Performance Marketing",
+    href: "/leistungen/performance-marketing",
+    description:
+      "Als Performance-Marketing-Agentur steuern wir Google Ads, Meta Ads, Leadgewinnung und Landingpages – messbar, lokal und auf echten ROI ausgerichtet.",
+    highlights: [
+      "Google Ads und Meta Ads aus einer Hand",
+      "Leadgewinnung mit klaren Kosten pro Anfrage",
+      "Tracking von Anrufen und Formularen",
+      "Landingpages, die aus Klicks Kunden machen",
+    ],
+  },
   "google-ads": {
     title: "Google Ads",
     href: "/leistungen/google-ads",
@@ -202,6 +247,11 @@ export const leistungenMenuItems: NavItem[] = [
     title: "Leadgewinnung",
     href: "/leistungen/leadgewinnung",
     description: "Qualifizierte Anfragen über Ads und Landingpages.",
+  },
+  {
+    title: "Performance Marketing",
+    href: "/leistungen/performance-marketing",
+    description: "Google Ads, Meta Ads und Leadgewinnung mit ROI.",
   },
   {
     title: "Google Ads",
