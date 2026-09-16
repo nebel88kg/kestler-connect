@@ -19,8 +19,9 @@ const services = [
   },
   {
     title: "Website-Erstellung",
-    description: "Moderne Webseiten und Landingpages, die Besucher zu Kunden machen.",
-    items: ["Webdesign", "Landingpages", "Pakete ab 1.500 €"],
+    description:
+      "Website erstellen lassen in Duisburg – Homepages und Landingpages für Handwerk, Vereine und KMU.",
+    items: ["Webdesign Duisburg", "Landingpages", "Pakete ab 1.500 €"],
     href: "/leistungen/webseiten#preise",
     color: "bg-accent-light/60 border border-accent/15",
   },
