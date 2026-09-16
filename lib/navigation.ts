@@ -114,6 +114,18 @@ export const leistungenNav: NavItem = {
       title: "Social Media Agentur",
       href: "/leistungen/social-media",
       description: "Social-Media-Agentur: Content, Reels und Betreuung, die Ihre Marke sichtbar macht.",
+      children: [
+        {
+          title: "Performance Marketing",
+          href: "/leistungen/performance-marketing",
+          description: "Google & Meta Ads mit messbarem ROI – aus einer Hand.",
+        },
+        {
+          title: "Webseiten",
+          href: "/leistungen/webseiten",
+          description: "Website erstellen lassen – conversion-stark für Anfragen.",
+        },
+      ],
     },
     {
       title: "Workshops",
@@ -136,6 +148,18 @@ export const leistungenNav: NavItem = {
       title: "Webseiten",
       href: "/leistungen/webseiten",
       description: "Website erstellen lassen – Webdesign Duisburg für Handwerk und Vereine.",
+      children: [
+        {
+          title: "Social Media Agentur",
+          href: "/leistungen/social-media",
+          description: "Content und Betreuung – passend zur Website.",
+        },
+        {
+          title: "Performance Marketing",
+          href: "/leistungen/performance-marketing",
+          description: "Ads und Landingpages, die auf die Website einzahlen.",
+        },
+      ],
     },
     {
       title: "SEO",
