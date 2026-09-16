@@ -77,7 +77,12 @@ export const leistungenNav: NavItem = {
         {
           title: "Webseiten & Landingpages",
           href: "/leistungen/webseiten",
-          description: "Conversion-starke Seiten für Kampagnen und Anfragen.",
+          description: "Website erstellen lassen – conversion-stark für Kampagnen.",
+        },
+        {
+          title: "Social Media Agentur",
+          href: "/leistungen/social-media",
+          description: "Organischer Content und Betreuung – Ads-ready aus einer Hand.",
         },
       ],
     },
@@ -130,7 +135,7 @@ export const leistungenNav: NavItem = {
     {
       title: "Webseiten",
       href: "/leistungen/webseiten",
-      description: "Webdesign und Landingpages, die Besucher zu Kunden machen.",
+      description: "Website erstellen lassen – Webdesign Duisburg für Handwerk und Vereine.",
     },
     {
       title: "SEO",
@@ -212,13 +217,13 @@ export const leistungenHubContent: Record<string, HubPageContent> = {
     title: "Webseiten",
     href: "/leistungen/webseiten",
     description:
-      "Moderne Webseiten und Landingpages, die Vertrauen aufbauen und Anfragen generieren – klar, schnell und conversion-stark.",
+      "Website erstellen lassen in Duisburg: modernes Webdesign und Homepages für Handwerk, Vereine und KMU – conversion-stark und kampagnen-ready.",
     highlights: [
-      "Webdesign mit Fokus auf Anfragen",
+      "Webdesign Duisburg mit Fokus auf Anfragen",
+      "Homepages für Handwerk und Vereine",
       "Landingpages für Kampagnen",
       "Mobile-first und schnell ladend",
       "Klare Pakete: Basic, Standard, Premium",
-      "Einmalzahlung oder monatlich über 12 Monate",
       "Optional Hosting, Wartung & CMS-Zugang",
     ],
   },
@@ -276,7 +281,7 @@ export const leistungenMenuItems: NavItem[] = [
   {
     title: "Webseiten",
     href: "/leistungen/webseiten",
-    description: "Websites und Landingpages, die konvertieren.",
+    description: "Website erstellen lassen – Webdesign Duisburg.",
   },
   {
     title: "SEO",
