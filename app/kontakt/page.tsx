@@ -8,7 +8,8 @@ import { ScrollReveal } from "@/components/ui/ScrollReveal";
 
 export const metadata: Metadata = createMetadata({
   title: "Kontakt",
-  description: "Kontaktieren Sie Kestler Connect – per Formular, Telefon oder WhatsApp.",
+  description:
+    "Kontaktieren Sie Kestler Connect – Social-Media-Agentur und Performance Marketing aus Duisburg. Per Formular, Telefon oder WhatsApp.",
   path: "/kontakt",
 });
 
@@ -20,7 +21,8 @@ export default function KontaktPage() {
           <Breadcrumbs items={[{ label: "Startseite", href: "/" }, { label: "Kontakt" }]} variant="dark" />
           <h1 className="text-2xl font-extrabold text-white sm:text-3xl lg:text-5xl">Kontakt</h1>
           <p className="mt-3 max-w-2xl text-base text-gray-300 sm:mt-4 sm:text-lg">
-            Wir freuen uns auf Ihre Nachricht.
+            Social-Media-Agentur & Performance Marketing aus Duisburg – wir freuen uns auf Ihre
+            Nachricht.
           </p>
         </div>
       </section>
@@ -39,9 +41,22 @@ export default function KontaktPage() {
           <ScrollReveal delay={0.2}>
             <div className="space-y-6">
               <div className="rounded-2xl border border-gray-200 p-4 sm:p-6">
+                <h3 className="font-bold text-anthracite">Adresse</h3>
+                <p className="mt-2 text-gray-600">
+                  Kestler Connect
+                  <br />
+                  Jascha Kestler
+                  <br />
+                  {siteConfig.address.streetAddress}
+                  <br />
+                  {siteConfig.address.postalCode} {siteConfig.address.addressLocality}
+                </p>
+              </div>
+
+              <div className="rounded-2xl border border-gray-200 p-4 sm:p-6">
                 <h3 className="font-bold text-anthracite">Telefon</h3>
                 <a
-                  href={`tel:${siteConfig.phone}`}
+                  href={`tel:${siteConfig.phone.replace(/\s/g, "")}`}
                   className="mt-2 block text-accent hover:underline"
                 >
                   {siteConfig.phone}

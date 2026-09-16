@@ -14,8 +14,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = createMetadata({
-  title: siteConfig.name,
-  description: siteConfig.description,
+  title: "Social Media Agentur Duisburg | Ads & Websites | Kestler Connect",
+  description:
+    "Social-Media-Agentur Duisburg: Content & Betreuung. Performance Marketing und Website-Erstellung für Handwerk, Vereine und KMU – Kestler Connect.",
   path: "/",
 });
 
@@ -34,11 +35,18 @@ const organizationSchema = {
   url: siteConfig.url,
   telephone: siteConfig.phone,
   email: siteConfig.email,
+  image: `${siteConfig.url}/images/logo.png`,
   address: {
     "@type": "PostalAddress",
-    addressCountry: "DE",
+    streetAddress: siteConfig.address.streetAddress,
+    addressLocality: siteConfig.address.addressLocality,
+    postalCode: siteConfig.address.postalCode,
+    addressCountry: siteConfig.address.addressCountry,
   },
-  sameAs: [],
+  founder: {
+    "@type": "Person",
+    name: "Jascha Kestler",
+  },
 };
 
 export default function RootLayout({

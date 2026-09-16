@@ -7,6 +7,21 @@ import { ScrollReveal } from "@/components/ui/ScrollReveal";
 
 const faqItems = [
   {
+    question: "Was macht eine Social Media Agentur?",
+    answer:
+      "Eine Social Media Agentur plant, produziert und betreut Ihren Auftritt auf Kanälen wie Instagram und Facebook: Strategie, Redaktionsplan, Content, Reels und Community – damit Sie regelmäßig sichtbar und professionell wirken. Bei Kestler Connect in Duisburg gehört das zu unserem Kernangebot.",
+  },
+  {
+    question: "Social Media oder Ads zuerst?",
+    answer:
+      "Kommt auf Ihr Ziel an. Ohne professionellen Auftritt wirken Ads oft unglaubwürdig – dann lohnt Social Media zuerst oder parallel. Wenn Sie schnell planbare Anfragen brauchen und die Basis stimmt, starten viele mit Performance Marketing (Google/Meta Ads) und bauen organischen Content dazu. Im Strategiegespräch klären wir die sinnvolle Reihenfolge.",
+  },
+  {
+    question: "Brauche ich Website und Social gleichzeitig?",
+    answer:
+      "Ideal ja: Die Website ist Ihre vertrauenswürdige Basis für Anfragen und Ads; Social Media hält Marke und Reichweite lebendig. Beides aus einer Hand spart Abstimmung und sorgt für einheitliche Botschaften – besonders für Handwerk, Vereine und KMU.",
+  },
+  {
     question: "Was kostet Online-Marketing?",
     answer: "Die Kosten hängen von Ihren Zielen und der Branche ab. Für lokale Unternehmen rechnen wir mit 800–2.000 € monatlich (Agentur + Werbebudget). Für den Einstieg ohne großes Budget bieten wir auch kompakte Workshops an. Wir erstellen gerne ein individuelles Angebot nach einem kostenlosen Strategiegespräch.",
   },
