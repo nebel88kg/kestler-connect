@@ -17,7 +17,11 @@ export function createMetadata({
   noIndex = false,
 }: PageMetadataOptions): Metadata {
   const url = `${siteConfig.url}${path}`;
-  const fullTitle = title === siteConfig.name ? title : `${title} | ${siteConfig.name}`;
+  const fullTitle =
+    title === siteConfig.name || title.includes(siteConfig.name)
+      ? title
+      : `${title} | ${siteConfig.name}`;
+  const ogImage = `${siteConfig.url}/images/logo.png`;
 
   return {
     title: fullTitle,
@@ -33,6 +37,18 @@ export function createMetadata({
       siteName: siteConfig.name,
       locale: "de_DE",
       type: "website",
+      images: [
+        {
+          url: ogImage,
+          alt: siteConfig.name,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary",
+      title: fullTitle,
+      description,
+      images: [ogImage],
     },
     robots: noIndex ? { index: false, follow: false } : { index: true, follow: true },
   };
@@ -56,7 +72,7 @@ export function createBreadcrumbsFromPath(path: string): BreadcrumbItem[] {
     kontakt: "Kontakt",
     "google-ads": "Google Ads",
     "meta-ads": "Meta Ads",
-    "social-media": "Social Media",
+    "social-media": "Social Media Agentur",
     webseiten: "Webseiten",
     seo: "SEO",
     leadgewinnung: "Leadgewinnung",
