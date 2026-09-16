@@ -1,7 +1,13 @@
 import { NextResponse } from "next/server";
 import { Resend } from "resend";
 
-const resend = new Resend(process.env.RESEND_API_KEY);
+function getResendClient() {
+  const apiKey = process.env.RESEND_API_KEY;
+  if (!apiKey) {
+    return null;
+  }
+  return new Resend(apiKey);
+}
 
 export async function POST(request: Request) {
   try {
@@ -16,9 +22,11 @@ export async function POST(request: Request) {
     const from =
       process.env.CONTACT_FROM || "Kestler Connect <noreply@send.kestler-connect.de>";
 
-    if (!process.env.RESEND_API_KEY || !to) {
+    const resend = getResendClient();
+
+    if (!resend || !to) {
       console.error("Missing RESEND_API_KEY or CONTACT_EMAIL");
-      return NextResponse.json({ error: "E-Mail nicht konfiguriert" }, { status: 500 });
+      return NextResponse.json({ error: "E-Mail nicht konfiguriert" }, { status: 503 });
     }
 
     const { error } = await resend.emails.send({
