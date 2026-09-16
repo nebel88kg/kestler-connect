@@ -31,12 +31,13 @@ export function HeroSection() {
             className="max-w-4xl"
           >
             <h1 className="text-3xl font-extrabold leading-tight text-white sm:text-4xl lg:text-5xl xl:text-6xl">
-              <span className="block">Mehr Anfragen.</span>
-              <span className="block text-accent">Mehr Mitarbeiter.</span>
-              <span className="block">Mehr Wachstum.</span>
+              <span className="block">Social Media Agentur &amp;</span>
+              <span className="block text-accent">Performance Marketing</span>
+              <span className="block">aus Duisburg</span>
             </h1>
             <p className="mt-3 max-w-xl text-sm leading-relaxed text-gray-300 sm:mt-4 sm:text-base">
-              Performance-Marketing, Webseiten und Social Media für Handwerk, Vereine und wachsende Unternehmen.
+              Mehr Anfragen. Mehr Mitarbeiter. Mehr Wachstum. – für Handwerk, Vereine und
+              wachsende Unternehmen.
             </p>
             <div className="mt-8 flex w-full flex-col gap-3 sm:mt-10 sm:w-auto sm:flex-row sm:gap-4 lg:mt-12">
               <Button href="/kontakt" size="md" className="w-full sm:w-auto">

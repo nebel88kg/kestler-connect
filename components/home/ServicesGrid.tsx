@@ -4,6 +4,13 @@ import { ScrollReveal } from "@/components/ui/ScrollReveal";
 
 const services = [
   {
+    title: "Social Media Agentur",
+    description: "Professioneller Auftritt und Content, der Ihre Zielgruppe erreicht.",
+    items: ["Content Produktion", "Reel Erstellung", "Community Management"],
+    href: "/leistungen/social-media",
+    color: "bg-navy/5 border border-navy/10",
+  },
+  {
     title: "Performance Marketing",
     description: "Gezielte Werbekampagnen mit messbarem ROI für Ihr Unternehmen.",
     items: ["Google Ads", "Meta Ads", "Leadgenerierung", "Mitarbeitergewinnung"],
@@ -11,14 +18,7 @@ const services = [
     color: "bg-accent-light border border-accent/20",
   },
   {
-    title: "Social Media",
-    description: "Professioneller Auftritt und Content, der Ihre Zielgruppe erreicht.",
-    items: ["Content Produktion", "Reel Erstellung", "Community Management"],
-    href: "/leistungen/social-media",
-    color: "bg-navy/5 border border-navy/10",
-  },
-  {
-    title: "Webseiten",
+    title: "Website-Erstellung",
     description: "Moderne Webseiten und Landingpages, die Besucher zu Kunden machen.",
     items: ["Webdesign", "Landingpages", "Pakete ab 1.500 €"],
     href: "/leistungen/webseiten#preise",

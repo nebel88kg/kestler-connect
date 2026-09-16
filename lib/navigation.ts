@@ -1,11 +1,17 @@
 export const siteConfig = {
   name: "Kestler Connect",
   description:
-    "Performance-Marketing, Webseiten und Social Media für Handwerk, Vereine und wachsende kleine und mittelständische Unternehmen.",
-  url: process.env.NEXT_PUBLIC_SITE_URL || "https://kestler-connect.de",
-  phone: process.env.NEXT_PUBLIC_PHONE || "+491234567890",
-  whatsapp: process.env.NEXT_PUBLIC_WHATSAPP || "491234567890",
-  email: process.env.CONTACT_EMAIL || "info@kestler-connect.de",
+    "Social-Media-Agentur Duisburg – Performance Marketing und Website-Erstellung für Handwerk, Vereine und KMU.",
+  url: process.env.NEXT_PUBLIC_SITE_URL || "https://www.kestler-connect.de",
+  phone: process.env.NEXT_PUBLIC_PHONE || "+49 175 2665058",
+  whatsapp: process.env.NEXT_PUBLIC_WHATSAPP || "491752665058",
+  email: process.env.CONTACT_EMAIL || "Jascha@kestler-connect.de",
+  address: {
+    streetAddress: "Marienstr. 17",
+    addressLocality: "Duisburg",
+    postalCode: "47198",
+    addressCountry: "DE",
+  },
 };
 
 export interface NavItem {
@@ -67,9 +73,9 @@ export const leistungenNav: NavItem = {
       ],
     },
     {
-      title: "Social Media",
+      title: "Social Media Agentur",
       href: "/leistungen/social-media",
-      description: "Content, Reels und Betreuung, die Ihre Marke sichtbar macht.",
+      description: "Social-Media-Agentur: Content, Reels und Betreuung, die Ihre Marke sichtbar macht.",
     },
     {
       title: "Workshops",
@@ -134,10 +140,10 @@ export const leistungenHubContent: Record<string, HubPageContent> = {
     ],
   },
   "social-media": {
-    title: "Social Media",
+    title: "Social Media Agentur",
     href: "/leistungen/social-media",
     description:
-      "Wir übernehmen Content, Reels und Betreuung – damit Ihr Auftritt professionell wirkt und regelmäßig Sichtbarkeit erzeugt.",
+      "Als Social-Media-Agentur übernehmen wir Content, Reels und Betreuung – damit Ihr Auftritt professionell wirkt und regelmäßig Sichtbarkeit erzeugt.",
     highlights: [
       "Redaktionsplan und Content-Produktion",
       "Reels und Kurzvideos für Reichweite",
@@ -208,7 +214,7 @@ export const leistungenMenuItems: NavItem[] = [
     description: "Facebook- und Instagram-Kampagnen.",
   },
   {
-    title: "Social Media",
+    title: "Social Media Agentur",
     href: "/leistungen/social-media",
     description: "Content, Reels und Betreuung.",
   },
