@@ -18,7 +18,7 @@ export function Footer() {
             <Link href="/" className="inline-block rounded-xl bg-white p-3">
               <Image
                 src="/images/logo.png"
-                alt="Kestler Connect"
+                alt="Kestler Connect – Social-Media-Agentur Duisburg"
                 width={160}
                 height={56}
                 className="h-12 w-auto object-contain"
