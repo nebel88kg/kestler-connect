@@ -1,11 +1,17 @@
 export const siteConfig = {
   name: "Kestler Connect",
   description:
-    "Performance-Marketing, Webseiten und Social Media für Handwerk, Vereine und wachsende kleine und mittelständische Unternehmen.",
-  url: process.env.NEXT_PUBLIC_SITE_URL || "https://kestler-connect.de",
-  phone: process.env.NEXT_PUBLIC_PHONE || "+491234567890",
-  whatsapp: process.env.NEXT_PUBLIC_WHATSAPP || "491234567890",
-  email: process.env.CONTACT_EMAIL || "info@kestler-connect.de",
+    "Social-Media-Agentur Duisburg – Performance Marketing und Website-Erstellung für Handwerk, Vereine und KMU.",
+  url: process.env.NEXT_PUBLIC_SITE_URL || "https://www.kestler-connect.de",
+  phone: process.env.NEXT_PUBLIC_PHONE || "+49 175 2665058",
+  whatsapp: process.env.NEXT_PUBLIC_WHATSAPP || "491752665058",
+  email: process.env.CONTACT_EMAIL || "Jascha@kestler-connect.de",
+  address: {
+    streetAddress: "Marienstr. 17",
+    addressLocality: "Duisburg",
+    postalCode: "47198",
+    addressCountry: "DE",
+  },
 };
 
 export interface NavItem {
@@ -43,6 +49,39 @@ export const leistungenNav: NavItem = {
       description: "Qualifizierte Anfragen über Ads und Landingpages.",
     },
     {
+      title: "Performance Marketing",
+      href: "/leistungen/performance-marketing",
+      description:
+        "Google Ads, Meta Ads, Leadgewinnung und Landingpages mit messbarem ROI.",
+      children: [
+        {
+          title: "Google Ads",
+          href: "/leistungen/google-ads",
+          description: "Suchanzeigen mit messbaren Anfragen und klarem ROI.",
+        },
+        {
+          title: "Meta Ads",
+          href: "/leistungen/meta-ads",
+          description: "Facebook- und Instagram-Kampagnen für Leads und Reichweite.",
+        },
+        {
+          title: "Leadgewinnung",
+          href: "/leistungen/leadgewinnung",
+          description: "Qualifizierte Anfragen über Ads und Landingpages.",
+        },
+        {
+          title: "Mitarbeitergewinnung",
+          href: "/leistungen/mitarbeitergewinnung",
+          description: "Fachkräfte und Bewerber aktiv ansprechen und gewinnen.",
+        },
+        {
+          title: "Webseiten & Landingpages",
+          href: "/leistungen/webseiten",
+          description: "Conversion-starke Seiten für Kampagnen und Anfragen.",
+        },
+      ],
+    },
+    {
       title: "Google Ads",
       href: "/leistungen/google-ads",
       description: "Suchanzeigen mit messbaren Anfragen und klarem ROI.",
@@ -67,9 +106,9 @@ export const leistungenNav: NavItem = {
       ],
     },
     {
-      title: "Social Media",
+      title: "Social Media Agentur",
       href: "/leistungen/social-media",
-      description: "Content, Reels und Betreuung, die Ihre Marke sichtbar macht.",
+      description: "Social-Media-Agentur: Content, Reels und Betreuung, die Ihre Marke sichtbar macht.",
     },
     {
       title: "Workshops",
@@ -109,6 +148,18 @@ export const leistungenNav: NavItem = {
 };
 
 export const leistungenHubContent: Record<string, HubPageContent> = {
+  "performance-marketing": {
+    title: "Performance Marketing",
+    href: "/leistungen/performance-marketing",
+    description:
+      "Als Performance-Marketing-Agentur steuern wir Google Ads, Meta Ads, Leadgewinnung und Landingpages – messbar, lokal und auf echten ROI ausgerichtet.",
+    highlights: [
+      "Google Ads und Meta Ads aus einer Hand",
+      "Leadgewinnung mit klaren Kosten pro Anfrage",
+      "Tracking von Anrufen und Formularen",
+      "Landingpages, die aus Klicks Kunden machen",
+    ],
+  },
   "google-ads": {
     title: "Google Ads",
     href: "/leistungen/google-ads",
@@ -134,10 +185,10 @@ export const leistungenHubContent: Record<string, HubPageContent> = {
     ],
   },
   "social-media": {
-    title: "Social Media",
+    title: "Social Media Agentur",
     href: "/leistungen/social-media",
     description:
-      "Wir übernehmen Content, Reels und Betreuung – damit Ihr Auftritt professionell wirkt und regelmäßig Sichtbarkeit erzeugt.",
+      "Als Social-Media-Agentur übernehmen wir Content, Reels und Betreuung – damit Ihr Auftritt professionell wirkt und regelmäßig Sichtbarkeit erzeugt.",
     highlights: [
       "Redaktionsplan und Content-Produktion",
       "Reels und Kurzvideos für Reichweite",
@@ -198,6 +249,11 @@ export const leistungenMenuItems: NavItem[] = [
     description: "Qualifizierte Anfragen über Ads und Landingpages.",
   },
   {
+    title: "Performance Marketing",
+    href: "/leistungen/performance-marketing",
+    description: "Google Ads, Meta Ads und Leadgewinnung mit ROI.",
+  },
+  {
     title: "Google Ads",
     href: "/leistungen/google-ads",
     description: "Suchanzeigen mit messbarem ROI.",
@@ -208,7 +264,7 @@ export const leistungenMenuItems: NavItem[] = [
     description: "Facebook- und Instagram-Kampagnen.",
   },
   {
-    title: "Social Media",
+    title: "Social Media Agentur",
     href: "/leistungen/social-media",
     description: "Content, Reels und Betreuung.",
   },

@@ -20,26 +20,22 @@ export default function ImpressumPage() {
           <section>
             <h2 className="text-xl font-bold text-anthracite">Angaben gemäß § 5 TMG</h2>
             <p className="mt-2">
-              Kestler Connect<br />
-              Jascha Kestler<br />
-              Marienstr. 17<br />
-              47198 Duisburg
+              Kestler Connect
+              <br />
+              Jascha Kestler
+              <br />
+              {siteConfig.address.streetAddress}
+              <br />
+              {siteConfig.address.postalCode} {siteConfig.address.addressLocality}
             </p>
           </section>
 
           <section>
             <h2 className="text-xl font-bold text-anthracite">Kontakt</h2>
             <p className="mt-2">
-              Telefon: {siteConfig.phone}<br />
+              Telefon: {siteConfig.phone}
+              <br />
               E-Mail: {siteConfig.email}
-            </p>
-          </section>
-
-          <section>
-            <h2 className="text-xl font-bold text-anthracite">Umsatzsteuer-ID</h2>
-            <p className="mt-2">
-              Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz:<br />
-              DE XXX XXX XXX
             </p>
           </section>
 
