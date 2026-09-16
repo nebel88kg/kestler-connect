@@ -27,8 +27,8 @@ export const performanceMarketingHub: LandingPage = {
     paragraphs: [
       "Performance Marketing bedeutet Werbung, die sich an Ergebnissen messen lässt: Anfragen, Termine, Bewerbungen oder Buchungen – nicht nur an Klicks oder Reichweite. Jeder Euro soll nachvollziehbar wirken.",
       "Bei Kestler Connect verbinden wir dafür die Kanäle, die für lokale und regionale Unternehmen am stärksten greifen: [Google Ads](/leistungen/google-ads) für aktive Suchintention, [Meta Ads](/leistungen/meta-ads) für gezielte Ansprache auf Facebook und Instagram, strukturierte [Leadgewinnung](/leistungen/leadgewinnung) sowie Landingpages, die aus Traffic echte Kontakte machen.",
-      "Gerade Handwerk, Vereine und KMU im Ruhrgebiet brauchen keinen Agentur-Overhead mit unklaren KPIs. Sie brauchen planbare Anfragen, transparente Kosten pro Lead und jemanden, der Tracking, Creatives und Optimierung zusammenhält – aus Duisburg, mit direktem Ansprechpartner.",
-      "Performance Marketing ist kein einzelner Knopf. Es ist ein System aus Zieldefinition, Kanalwahl, Angebot, Seite, Tracking und Nachbearbeitung. Wenn eines dieser Glieder fehlt, verpufft Budget – unabhängig davon, wie groß die Agentur auftritt.",
+      "Als Social-Media-Agentur aus Duisburg denken wir Ads nie isoliert: Organischer Content über unsere [Social Media Agentur](/leistungen/social-media) und eine conversion-starke [Website](/leistungen/webseiten) machen Kampagnen glaubwürdiger und effizienter – aus einer Hand.",
+      "Gerade Handwerk, Vereine und KMU im Ruhrgebiet brauchen planbare Anfragen, transparente Kosten pro Lead und jemanden, der Tracking, Creatives und Optimierung zusammenhält.",
       "Deshalb starten wir mit Klarheit: Wen wollen Sie erreichen? Welches Angebot ist greifbar genug für eine Anfrage? Wie schnell können Sie reagieren? Erst danach skalieren wir Media-Budgets – dort, wo Qualität und Wirtschaftlichkeit stimmen.",
     ],
   },
@@ -36,8 +36,8 @@ export const performanceMarketingHub: LandingPage = {
     title: "Für wen eignet sich Performance Marketing?",
     paragraphs: [
       "Für Unternehmen und Organisationen, deren Wachstum an planbaren Anfragen hängt – und die wissen wollen, welcher Kanal wirklich Aufträge oder Mitglieder bringt.",
-      "Besonders stark wirkt Performance Marketing, wenn der Auftragswert die Kosten pro Lead klar übersteigt und Vertrieb, Service oder Vorstand Anfragen zeitnah bearbeiten können.",
-      "Auch wenn Sie bereits Ads geschaltet haben und unzufrieden sind: Oft fehlen Tracking, klare Angebote oder eine conversion-starke Seite. Dann lohnt ein strukturierter Neuaufbau mehr als einfach mehr Budget in denselben Aufbau zu stecken.",
+      "Besonders stark wirkt Performance Marketing, wenn der Auftragswert die Kosten pro Lead klar übersteigt und Anfragen zeitnah bearbeitet werden können.",
+      "Auch wenn Sie bereits Ads geschaltet haben und unzufrieden sind: Oft fehlen Tracking, klare Angebote oder eine conversion-starke Seite. Dann lohnt ein strukturierter Neuaufbau.",
     ],
     points: [
       "Handwerksbetriebe mit regionalem Einzugsgebiet",
@@ -63,7 +63,7 @@ export const performanceMarketingHub: LandingPage = {
   solution: {
     title: "Performance Marketing mit System",
     content:
-      "Wir verbinden Strategie, Kanäle und Conversion: [Google Ads](/leistungen/google-ads) und [Meta Ads](/leistungen/meta-ads) für Nachfrage, [Leadgewinnung](/leistungen/leadgewinnung) mit klaren Formularen, Landingpages für die Anfrage und Tracking für Transparenz – inklusive Abstimmung mit [Social Media](/leistungen/social-media) und [Webseiten](/leistungen/webseiten).",
+      "Wir verbinden Strategie, Kanäle und Conversion: [Google Ads](/leistungen/google-ads) und [Meta Ads](/leistungen/meta-ads) für Nachfrage, [Leadgewinnung](/leistungen/leadgewinnung) mit klaren Formularen, [Website & Landingpages](/leistungen/webseiten) für die Anfrage und Tracking für Transparenz – inklusive Abstimmung mit unserer [Social Media Agentur](/leistungen/social-media).",
   },
   benefits: [
     {
@@ -93,7 +93,7 @@ export const performanceMarketingHub: LandingPage = {
     {
       title: "Alles aus einer Hand",
       description:
-        "Strategie, Ads, Tracking und Landingpages bei einem Ansprechpartner – ohne Reibung zwischen Dienstleistern.",
+        "Ads, Social Media und Website bei einem Ansprechpartner – ohne Reibung zwischen Dienstleistern.",
       icon: "star",
     },
     {
@@ -107,10 +107,10 @@ export const performanceMarketingHub: LandingPage = {
     title: "Welche Ergebnisse sind realistisch?",
     paragraphs: [
       "Realistisch ist ein Aufbau: Ziele und Tracking zuerst, dann Launch, dann Optimierung von Kosten und Qualität. Innerhalb weniger Wochen entsteht oft ein belastbares Bild – vorausgesetzt, Angebot und Nachbearbeitung stimmen.",
-      "Wir optimieren nicht auf möglichst viele billige Kontakte, sondern auf Anfragen, mit denen Sie arbeiten können. Menge und Qualität balancieren wir branchenabhängig und laufend.",
-      "Praxisbeispiele: Beim [Golfclub Raffelberg](/referenzen/golfclub-raffelberg) entstanden über Ads und Content Anfragen zu Kursen und Firmenfeiern. Bei [Buddy's Duisburg](/referenzen/buddys-duisburg) sorgten Meta- und Google-Kampagnen für Reichweite und Event-Anfragen. Die [Start-Up School](/referenzen/start-up-school) zeigt, wie Performance Marketing mit Strategie und Iteration wirkt.",
-      "Ein oft unterschätzter Faktor ist die Reaktionszeit: Anfragen, die Tage liegen bleiben, verlieren Wert – unabhängig von der Kampagne. Deshalb gehört die Nachbearbeitung bei uns mit auf den Tisch.",
-      "Performance Marketing wirkt am stärksten als System: Ads, Landingpages, [SEO](/leistungen/seo) und organische Kanäle verstärken sich. Genau diese Verbindung steuern wir – nachvollziehbar und ohne Aktionismus.",
+      "Wir optimieren nicht auf möglichst viele billige Kontakte, sondern auf Anfragen, mit denen Sie arbeiten können.",
+      "Praxisbeispiele: Beim [Golfclub Raffelberg](/referenzen/golfclub-raffelberg) entstanden über Ads und Content Anfragen zu Kursen und Firmenfeiern. Bei [Buddy's Duisburg](/referenzen/buddys-duisburg) sorgten Meta- und Google-Kampagnen für Event-Anfragen. Die [Start-Up School](/referenzen/start-up-school) zeigt Performance Marketing mit klarer Iteration.",
+      "Performance Marketing wirkt am stärksten als System: Ads, [Website-Erstellung](/leistungen/webseiten), [SEO](/leistungen/seo) und organische Kanäle über unsere [Social Media Agentur](/leistungen/social-media) verstärken sich. Genau diese Verbindung steuern wir – nachvollziehbar und ohne Aktionismus.",
+      "Ein oft unterschätzter Faktor ist die Reaktionszeit: Anfragen, die Tage liegen bleiben, verlieren Wert. Deshalb gehört die Nachbearbeitung bei uns mit auf den Tisch.",
     ],
     points: [
       "Planbarere Anfragen statt Zufall",
@@ -152,8 +152,8 @@ export const performanceMarketingHub: LandingPage = {
     title: "Preise und Budgetempfehlungen",
     paragraphs: [
       "Performance Marketing besteht aus Agenturleistung plus Werbebudget. Die Agentur steuert Strategie, Umsetzung und Optimierung; das Media-Budget fließt an Google bzw. Meta.",
-      "Wir starten oft schlank, messen Kosten und Qualität und skalieren dann. So vermeiden Sie große Budgets ohne Lernkurve.",
-      "Wie viel Budget sinnvoll ist, hängt vom Auftragswert und Ihrer Kapazität ab: Mehr Leads bringen nichts, wenn Service oder Vertrieb überlastet sind. Tempo und Budget stimmen wir darauf ab.",
+      "Wir starten oft schlank, messen Kosten und Qualität und skalieren dann.",
+      "Wie viel Budget sinnvoll ist, hängt vom Auftragswert und Ihrer Kapazität ab: Mehr Leads bringen nichts, wenn Service oder Vertrieb überlastet sind.",
     ],
     ranges: [
       {
@@ -197,39 +197,39 @@ export const performanceMarketingHub: LandingPage = {
         "Der Fokus liegt auf messbaren Ergebnissen: Anfragen, Kosten pro Lead und ROI. Kampagnen werden laufend optimiert – statt einmaliger Schaltung ohne Nachsteuerung.",
     },
     {
+      question: "Social Media oder Ads zuerst?",
+      answer:
+        "Wenn der Auftritt unfertig wirkt, stärken wir zuerst oder parallel die [Social Media Agentur](/leistungen/social-media)-Basis. Für schnelle, messbare Anfragen starten viele mit Ads – ideal mit starker [Website](/leistungen/webseiten). Wir empfehlen die Reihenfolge nach Ziel und Ausgangslage.",
+    },
+    {
       question: "Google Ads, Meta Ads oder beides?",
       answer:
-        "Das hängt von Zielgruppe und Angebot ab. Google trifft vorhandene Nachfrage, Meta erzeugt und wärmt Interesse. Oft ist ein abgestimmter Mix wirtschaftlicher – Details auf unseren Seiten zu Google Ads und Meta Ads.",
+        "Das hängt von Zielgruppe und Angebot ab. Google trifft vorhandene Nachfrage, Meta erzeugt und wärmt Interesse. Oft ist ein abgestimmter Mix wirtschaftlicher.",
     },
     {
       question: "Brauche ich eine Landingpage?",
       answer:
-        "Für die meisten Kampagnen ja. Eine klare Landingpage mit Formular steigert die Conversion deutlich gegenüber einer allgemeinen Website-Startseite. Bei Bedarf erstellen wir passende Seiten mit.",
+        "Für die meisten Kampagnen ja. Eine klare Landingpage mit Formular steigert die Conversion deutlich. Bei Bedarf erstellen wir passende Seiten über unsere [Website-Erstellung](/leistungen/webseiten).",
     },
     {
       question: "Für welche Branchen eignet sich Performance Marketing in Duisburg?",
       answer:
-        "Besonders für Handwerk, lokale Dienstleistungen, Vereine/Clubs, Events und KMU mit regionalem Einzugsgebiet – überall dort, wo Anfragen planbar und nachbearbeitbar sein sollen.",
+        "Besonders für Handwerk, lokale Dienstleistungen, Vereine/Clubs, Events und KMU mit regionalem Einzugsgebiet.",
     },
     {
       question: "Wie schnell sehe ich erste Ergebnisse?",
       answer:
-        "Erste Anfragen entstehen oft innerhalb weniger Tage nach Launch. Stabile Kosten und Qualität brauchen typischerweise einige Wochen Lern- und Optimierungszeit mit ausreichend Daten.",
+        "Erste Anfragen entstehen oft innerhalb weniger Tage nach Launch. Stabile Kosten und Qualität brauchen typischerweise einige Wochen Optimierungszeit.",
     },
     {
       question: "Können bestehende Ads-Accounts übernommen werden?",
       answer:
-        "Ja. Wir auditieren bestehende Konten, stoppen Streuverluste und bauen auf dem auf, was funktioniert – oder setzen strukturiert neu auf, wenn der Altbestand unübersichtlich ist.",
-    },
-    {
-      question: "Wie hängt Performance Marketing mit Mitarbeitergewinnung zusammen?",
-      answer:
-        "Dieselben Prinzipien gelten für Recruiting-Kampagnen: klare Zielgruppe, starke Creatives, messbare Bewerbungen. Mehr dazu unter Mitarbeitergewinnung.",
+        "Ja. Wir auditieren bestehende Konten, stoppen Streuverluste und bauen auf dem auf, was funktioniert – oder setzen strukturiert neu auf.",
     },
     {
       question: "Gibt es Mindestlaufzeiten?",
       answer:
-        "Nein. Sinnvoll sind aber einige Wochen Lernzeit, bevor endgültige Schlüsse aus den Daten gezogen werden. Wir überzeugen durch Ergebnisse, nicht durch unnötige Bindung.",
+        "Nein. Sinnvoll sind aber einige Wochen Lernzeit, bevor endgültige Schlüsse aus den Daten gezogen werden.",
     },
   ],
 };
