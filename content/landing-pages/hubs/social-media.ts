@@ -5,21 +5,21 @@ export const socialMediaHub: LandingPage = {
   path: "/leistungen/social-media",
   category: "social-media",
   meta: {
-    title: "Social Media Betreuung – Content, Reels & Strategie",
+    title: "Social Media Agentur – Content, Reels & Strategie",
     description:
-      "Professionelle Social-Media-Betreuung mit Redaktionsplan, Content und Reels. Für Unternehmen, Vereine und Marken, die regelmäßig sichtbar sein wollen.",
-    keywords: ["social media betreuung", "social media agentur", "instagram betreuung", "content marketing"],
+      "Social-Media-Agentur Duisburg: professionelle Betreuung mit Redaktionsplan, Content und Reels. Für Unternehmen, Vereine und Marken, die regelmäßig sichtbar sein wollen.",
+    keywords: ["social media agentur", "social media betreuung", "instagram betreuung", "content marketing", "social media agentur duisburg"],
   },
   hero: {
-    headline: "Social Media – professionell, regelmäßig, ergebnisorientiert",
+    headline: "Social Media Agentur – professionell, regelmäßig, ergebnisorientiert",
     subheadline:
       "Wir übernehmen Strategie, Content und Betreuung – damit Ihr Auftritt modern wirkt und dauerhaft Sichtbarkeit erzeugt.",
   },
   intro: {
-    title: "Was bedeutet Social Media Betreuung?",
+    title: "Was macht unsere Social Media Agentur?",
     paragraphs: [
       "Social Media ist heute Visitenkarte, Vertriebskanal und Vertrauensaufbau zugleich. Potenzielle Kunden, Mitglieder, Sponsoren und Bewerber schauen sich an, wie Sie online auftreten – und ob regelmäßig etwas passiert.",
-      "Professionelle Betreuung heißt mehr als gelegentlich zu posten. Es geht um Positionierung, Redaktionsplan, Content-Formate (Feed, Stories, Reels), Community und die Abstimmung mit Ads und Website. Ohne System wirkt der Kanal zufällig – mit System wird er planbar.",
+      "Als Social-Media-Agentur liefern wir mehr als gelegentliche Posts. Es geht um Positionierung, Redaktionsplan, Content-Formate (Feed, Stories, Reels), Community und die Abstimmung mit Ads und Website. Ohne System wirkt der Kanal zufällig – mit System wird er planbar.",
       "Kestler Connect übernimmt genau das: klare Strategie, kreative Umsetzung und zuverlässige Betreuung. Nicht als Selbstzweck, sondern als Teil Ihrer Sichtbarkeit und Lead- bzw. Markenstrategie.",
       "Dabei unterscheiden sich die Formate deutlich in ihrer Funktion: Der Feed zeigt Ihre Positionierung und Ihr Angebot dauerhaft, Stories schaffen Nähe und Alltagseinblicke, Reels sorgen für Reichweite über die eigene Followerschaft hinaus. Eine gute Content-Strategie nutzt alle drei Formate bewusst, statt nur ein Format zu bedienen.",
       "Genauso wichtig wie die Produktion ist die Konsistenz: Ein einzelner viraler Beitrag verändert selten etwas nachhaltig. Erst regelmäßige, wiedererkennbare Inhalte über Wochen und Monate bauen echtes Vertrauen und eine wachsende, relevante Reichweite auf.",
@@ -31,7 +31,7 @@ export const socialMediaHub: LandingPage = {
     ],
   },
   audience: {
-    title: "Für wen eignet sich Social Media Betreuung?",
+    title: "Für wen eignet sich eine Social Media Agentur?",
     paragraphs: [
       "Für alle, die online professionell wirken wollen, aber intern keine Kapazität oder Expertise für kontinuierlichen Content haben – oder die merken, dass unregelmäßige Posts nicht mehr reichen.",
       "Besonders relevant ist Social Media für Unternehmen und Organisationen mit lokaler Zielgruppe, Events, visuellen Angeboten oder Recruiting-Bedarf. Auch Sponsoren und Partner erwarten inzwischen einen aktiven, glaubwürdigen Auftritt.",
