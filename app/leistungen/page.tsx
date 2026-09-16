@@ -10,7 +10,7 @@ import { Button } from "@/components/ui/Button";
 export const metadata: Metadata = createMetadata({
   title: "Leistungen",
   description:
-    "Mitarbeitergewinnung, Leadgewinnung, Google Ads, Meta Ads, Social Media, Workshops, Webseiten und SEO von Kestler Connect.",
+    "Social Media Agentur, Performance Marketing, Google Ads, Meta Ads, Leadgewinnung, Webseiten und SEO von Kestler Connect in Duisburg.",
   path: "/leistungen",
 });
 

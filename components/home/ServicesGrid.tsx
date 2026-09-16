@@ -4,23 +4,24 @@ import { ScrollReveal } from "@/components/ui/ScrollReveal";
 
 const services = [
   {
-    title: "Performance Marketing",
-    description: "Gezielte Werbekampagnen mit messbarem ROI für Ihr Unternehmen.",
-    items: ["Google Ads", "Meta Ads", "Leadgenerierung", "Mitarbeitergewinnung"],
-    href: "/leistungen/google-ads",
-    color: "bg-accent-light border border-accent/20",
-  },
-  {
-    title: "Social Media",
+    title: "Social Media Agentur",
     description: "Professioneller Auftritt und Content, der Ihre Zielgruppe erreicht.",
     items: ["Content Produktion", "Reel Erstellung", "Community Management"],
     href: "/leistungen/social-media",
     color: "bg-navy/5 border border-navy/10",
   },
   {
-    title: "Webseiten",
-    description: "Moderne Webseiten und Landingpages, die Besucher zu Kunden machen.",
-    items: ["Webdesign", "Landingpages", "Pakete ab 1.500 €"],
+    title: "Performance Marketing",
+    description: "Gezielte Werbekampagnen mit messbarem ROI für Ihr Unternehmen.",
+    items: ["Google Ads", "Meta Ads", "Leadgenerierung", "Mitarbeitergewinnung"],
+    href: "/leistungen/performance-marketing",
+    color: "bg-accent-light border border-accent/20",
+  },
+  {
+    title: "Website-Erstellung",
+    description:
+      "Website erstellen lassen in Duisburg – Homepages und Landingpages für Handwerk, Vereine und KMU.",
+    items: ["Webdesign Duisburg", "Landingpages", "Pakete ab 1.500 €"],
     href: "/leistungen/webseiten#preise",
     color: "bg-accent-light/60 border border-accent/15",
   },
