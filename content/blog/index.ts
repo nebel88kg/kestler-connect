@@ -1,6 +1,8 @@
 import type { BlogPost } from "../types";
+import { instagramReelsFuerHandwerk } from "./instagram-reels-fuer-handwerk";
 
 export const blogPosts: BlogPost[] = [
+  instagramReelsFuerHandwerk,
   {
     slug: "google-ads-vorteile",
     title:
