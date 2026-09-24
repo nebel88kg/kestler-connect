@@ -7,6 +7,7 @@ import { JsonLd } from "@/components/seo/JsonLd";
 import { GoogleTagManager } from "@/components/analytics/GoogleTagManager";
 import { siteConfig } from "@/lib/navigation";
 import { createMetadata } from "@/lib/seo";
+import { googleBusiness } from "@/lib/googleBusiness";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -28,9 +29,18 @@ export const viewport: Viewport = {
   themeColor: "#1a2332",
 };
 
+/** Google-Maps-Eintrag (Google Unternehmensprofil) als kanonische CID-URL. */
+const googleMapsCidUrl = `https://maps.google.com/?cid=${googleBusiness.cid}`;
+
+/**
+ * Hinweis: Bewusst ohne aggregateRating/review – Google wertet selbst
+ * eingebundene Bewertungen für LocalBusiness/Organization nicht als
+ * Rich-Result-berechtigt (Self-serving reviews).
+ */
 const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
+  "@id": `${siteConfig.url}/#organization`,
   name: siteConfig.name,
   description: siteConfig.description,
   url: siteConfig.url,
@@ -44,6 +54,8 @@ const organizationSchema = {
     postalCode: siteConfig.address.postalCode,
     addressCountry: siteConfig.address.addressCountry,
   },
+  hasMap: googleMapsCidUrl,
+  sameAs: [googleMapsCidUrl, googleBusiness.mapsUrl],
   areaServed: [
     { "@type": "City", name: "Duisburg" },
     { "@type": "AdministrativeArea", name: "Ruhrgebiet" },
