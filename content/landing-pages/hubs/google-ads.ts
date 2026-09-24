@@ -5,21 +5,22 @@ export const googleAdsHub: LandingPage = {
   path: "/leistungen/google-ads",
   category: "google-ads",
   meta: {
-    title: "Google Ads Agentur Duisburg",
+    title: "Google Ads Agentur Duisburg | Suchanzeigen mit ROI | Kestler Connect",
     description:
-      "Google Ads mit messbaren Anfragen und klarem ROI. Lokale Kampagnen, Tracking und laufende Optimierung für Handwerk, Dienstleister und Unternehmen in der Region.",
+      "Google Ads Agentur Duisburg: Suchanzeigen mit messbaren Anfragen und klarem ROI – für regionale und lokale Unternehmen in Duisburg, Ruhrgebiet und NRW.",
     keywords: [
-      "google ads",
+      "google ads duisburg",
       "google ads agentur duisburg",
+      "google ads agentur",
       "google werbung",
       "suchmaschinenwerbung",
       "sea agentur",
     ],
   },
   hero: {
-    headline: "Google Ads – Mehr Anfragen genau im richtigen Moment",
+    headline: "Google Ads Agentur Duisburg – Mehr Anfragen genau im richtigen Moment",
     subheadline:
-      "Wir schalten Suchanzeigen, die erscheinen, wenn potenzielle Kunden aktiv nach Ihrer Leistung suchen – mit transparentem Reporting und Fokus auf Kosten pro Anfrage.",
+      "Suchanzeigen für regionale und lokale Unternehmen: sichtbar, wenn potenzielle Kunden aktiv nach Ihrer Leistung suchen – mit transparentem Reporting und Fokus auf Kosten pro Anfrage.",
   },
   intro: {
     title: "Was ist Google Ads?",
@@ -27,7 +28,7 @@ export const googleAdsHub: LandingPage = {
       "Google Ads ist die Werbeplattform von Google. Unternehmen schalten dort Anzeigen, die oberhalb oder unterhalb der organischen Suchergebnisse erscheinen – genau dann, wenn jemand aktiv nach einer Leistung, einem Produkt oder einem Anbieter sucht.",
       "Der entscheidende Vorteil: Sie erreichen Menschen mit einer klaren Suchintention. Wer „Dachdecker Duisburg“, „Steuerberater Oberhausen“ oder „Google Ads Agentur Duisburg“ eingibt, möchte in der Regel nicht nur stöbern, sondern eine Lösung finden. Diese Kauf- bzw. Anfrageabsicht macht Google Ads zu einer der effektivsten und messbarsten Marketingmaßnahmen für lokale und regionale Unternehmen.",
       "Anders als bei klassischer Werbung zahlen Sie in der Regel nur, wenn jemand auf Ihre Anzeige klickt. Budget, Region, Keywords und Anzeigentexte steuern Sie gezielt – und sehen im Reporting, welche Kampagnen Anrufe, Formulare oder Käufe auslösen.",
-      "Bei Kestler Connect betreuen wir Google Ads nicht als „einmal einrichten und vergessen“, sondern als laufendes Performance-System: Keyword-Strategie, Landingpages, Conversion-Tracking und kontinuierliche Optimierung gehören dazu. Mehr Hintergrund finden Sie auch in unserem Beitrag zu den [Vorteilen von Google Ads](/blog/google-ads-vorteile).",
+      "Bei Kestler Connect betreuen wir Google Ads nicht als „einmal einrichten und vergessen“, sondern als laufendes Performance-System: Keyword-Strategie, Landingpages, Conversion-Tracking und kontinuierliche Optimierung gehören dazu – eingebettet in [Performance Marketing](/leistungen/performance-marketing), ergänzt durch [Meta Ads](/leistungen/meta-ads) und [Social Media Marketing](/leistungen/social-media). Mehr Hintergrund finden Sie auch in unserem Beitrag zu den [Vorteilen von Google Ads](/blog/google-ads-vorteile).",
       "Ein strukturierter Google Ads Account gliedert sich in Kampagnen, Anzeigengruppen und Keywords, die inhaltlich klar zueinander passen. Diese Struktur beeinflusst nicht nur die Übersichtlichkeit, sondern auch den sogenannten Qualitätsfaktor – ein Bewertungssystem von Google, das die Relevanz von Keyword, Anzeige und Landingpage berücksichtigt. Ein höherer Qualitätsfaktor kann niedrigere Klickpreise und bessere Positionen bedeuten. Deshalb setzen wir von Anfang an auf saubere Struktur statt auf schnell zusammengeklickte Kampagnen ohne System.",
       "Neben der klassischen Suchkampagne bietet Google Ads weitere Formate: Remarketing-Anzeigen für Besucher, die Ihre Seite bereits kannten, Anzeigen im Displaynetzwerk oder lokale Kampagnen, die auf Google Maps ausgespielt werden. Je nach Ziel und Budget kombinieren wir diese Formate, statt sich auf ein einzelnes Anzeigenformat zu verlassen – so schöpfen Sie das Potenzial der Plattform besser aus.",
     ],
@@ -41,11 +42,10 @@ export const googleAdsHub: LandingPage = {
       "Nicht ideal ist Google Ads dagegen, wenn es für eine Leistung praktisch kein Suchvolumen gibt oder der Auftragswert so gering ist, dass sich Klickpreise kaum rechnen. In solchen Fällen besprechen wir offen, ob [Meta Ads](/leistungen/meta-ads) oder organisches [SEO](/leistungen/seo) der sinnvollere erste Schritt sind.",
     ],
     points: [
-      "Handwerksbetriebe (SHK, Elektro, Dach, Bau, Garten)",
-      "Dienstleister und Beratungen mit klarem Suchvolumen",
-      "Ärzte, Zahnärzte, Kanzleien und regionale Praxen",
-      "Gastronomie, Events und Location-Betreiber",
-      "Golfclubs, Vereine und Freizeitangebote mit Buchungsangeboten",
+      "Regionale und lokale Unternehmen mit Suchvolumen in der Region",
+      "Dienstleister und Beratungen vor Ort",
+      "Praxen, Kanzleien und regionale Anbieter",
+      "Events, Locations und Freizeitangebote mit Buchungsziel",
       "Unternehmen, die SEO langfristig aufbauen und parallel sofort Anfragen brauchen",
       "Onlineshops mit klar abgrenzbaren Produktkategorien",
       "Betriebe mit saisonalem oder kurzfristigem Anfragen-Bedarf",
@@ -67,7 +67,7 @@ export const googleAdsHub: LandingPage = {
   solution: {
     title: "Unsere Google Ads Betreuung",
     content:
-      "Wir verbinden Keyword-Strategie, Anzeigen, Landingpages und Tracking zu einem System, das Anfragen messbar macht – und laufend nach Kosten und Qualität optimiert wird.",
+      "Wir verbinden Keyword-Strategie, Anzeigen, Landingpages und Tracking zu einem System, das Anfragen messbar macht – und laufend nach Kosten und Qualität optimiert wird. Sinnvoll verzahnt mit [Meta Ads](/leistungen/meta-ads), [Performance Marketing](/leistungen/performance-marketing) und [Social Media](/leistungen/social-media).",
   },
   benefits: [
     {
@@ -225,7 +225,12 @@ export const googleAdsHub: LandingPage = {
     {
       question: "Für welche Regionen schalten Sie?",
       answer:
-        "Schwerpunkt ist die Region Duisburg / Ruhrgebiet, aber auch darüber hinaus. Targeting kann auf Städte, PLZ-Gebiete oder individuelle Radien eingestellt werden – so vermeiden Sie Streuverluste außerhalb Ihres Einzugsgebiets.",
+        "Schwerpunkt ist Duisburg, das Ruhrgebiet und NRW – aber auch darüber hinaus. Targeting kann auf Städte, PLZ-Gebiete oder individuelle Radien eingestellt werden – so vermeiden Sie Streuverluste außerhalb Ihres Einzugsgebiets.",
+    },
+    {
+      question: "Google Ads oder Meta Ads für lokale Unternehmen?",
+      answer:
+        "Google Ads treffen aktive Suchende; [Meta Ads](/leistungen/meta-ads) erzeugen Nachfrage auf Facebook und Instagram. Viele regionale Betriebe nutzen beides abgestimmt – wir steuern den Mix über [Performance Marketing](/leistungen/performance-marketing).",
     },
     {
       question: "Was passiert, wenn eine Kampagne nicht wie erwartet läuft?",
