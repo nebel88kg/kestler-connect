@@ -8,27 +8,26 @@ export const webseitenHub: LandingPage = {
   meta: {
     title: "Website erstellen lassen | Webdesign Duisburg | Kestler Connect",
     description:
-      "Website erstellen lassen in Duisburg: modernes Webdesign und Homepages für Handwerk, Vereine und KMU – conversion-stark, mobil und kampagnen-ready. Klare Pakete ab 1.500 €.",
+      "Website erstellen lassen in Duisburg: modernes Webdesign und Homepages für regionale und lokale Unternehmen – conversion-stark, mobil und kampagnen-ready. Klare Pakete ab 1.500 €.",
     keywords: [
       "website erstellen lassen",
       "webdesign duisburg",
       "homepage erstellen",
-      "webseite handwerk",
       "landingpage",
-      "website vereine",
+      "website agentur duisburg",
     ],
   },
   hero: {
-    headline: "Website erstellen lassen – Webdesign Duisburg für Handwerk, Vereine & KMU",
+    headline: "Website erstellen lassen – Webdesign Duisburg für regionale & lokale Unternehmen",
     subheadline:
-      "Homepages und Landingpages, die Vertrauen aufbauen und Anfragen generieren – klar, schnell und conversion-stark.",
+      "Homepages und Landingpages, die Vertrauen aufbauen und Anfragen generieren – klar, schnell und conversion-stark. Ergänzend zu Social Media und Performance Marketing.",
   },
   intro: {
     title: "Website erstellen lassen: Was macht eine gute Unternehmens-Website aus?",
     paragraphs: [
       "Eine Website ist heute mehr als eine digitale Visitenkarte. Sie ist Vertrauensbeweis, Verkaufshilfe und oft der Ort, an dem aus Interesse eine Anfrage wird – besonders wenn Google Ads, Meta Ads oder SEO Traffic liefern.",
       "Wer in Duisburg und im Ruhrgebiet eine Website erstellen lassen möchte, braucht kein Design um des Designs willen: Die Seite soll mobil einwandfrei funktionieren, Ihr Angebot klar erklären und den nächsten Schritt offensichtlich machen – anrufen, Formular senden, Termin buchen.",
-      "Bei Kestler Connect verbinden wir Webdesign mit Marketing: Ob Homepage für Handwerk und Vereine oder Landingpages für Kampagnen – die Seite passt zu [Performance Marketing](/leistungen/performance-marketing) und unserer Arbeit als [Social-Media-Agentur](/leistungen/social-media). Alles aus einer Hand, ohne Medienbruch.",
+      "Bei Kestler Connect verbinden wir Webdesign mit Marketing: Ob Homepage für regionale und lokale Unternehmen oder Landingpages für Kampagnen – die Seite passt zu [Performance Marketing](/leistungen/performance-marketing), [Google Ads](/leistungen/google-ads), [Meta Ads](/leistungen/meta-ads) und unserer Arbeit als [Social-Media-Agentur](/leistungen/social-media). Alles aus einer Hand, ohne Medienbruch.",
       "Dazu gehört, dass wir jede Seite entlang eines klaren Besucherpfads aufbauen: Was soll ein Besucher als Erstes verstehen, welchen Einwand muss die Seite ausräumen, und welcher Call-to-Action passt zum Entscheidungsprozess? Diese Struktur entscheidet oft mehr über Anfragen als reine Optik.",
       "Technisch setzen wir auf moderne, wartungsarme Systeme, die schnell laden und sich erweitern lassen – etwa um neue Landingpages für Kampagnen oder zusätzliche Unterseiten, wenn Ihr Angebot wächst.",
       "Viele Websites scheitern nicht am Design, sondern an unklarer Struktur: Besucher finden Leistungen nicht, verstehen den Unterschied zum Wettbewerb nicht oder wissen nicht, wie sie Kontakt aufnehmen sollen. Wir bauen Seiten so, dass der Weg zur Anfrage kurz und logisch ist.",
@@ -40,15 +39,15 @@ export const webseitenHub: LandingPage = {
   audience: {
     title: "Für wen eignet sich Webdesign aus Duisburg?",
     paragraphs: [
-      "Für Handwerk, Vereine und KMU, deren aktuelle Seite veraltet wirkt, keine Anfragen bringt oder Kampagnen ausbremst. Auch wer neu startet oder Sponsoren, Bewerber und Kunden professionell überzeugen will, braucht eine moderne Basis.",
+      "Für regionale und lokale Unternehmen, deren aktuelle Seite veraltet wirkt, keine Anfragen bringt oder Kampagnen ausbremst. Auch wer neu startet oder Bewerber und Kunden professionell überzeugen will, braucht eine moderne Basis.",
       "Besonders kritisch wird eine schwache Website, sobald Werbebudget fließt: Jeder Klick kostet – und eine unklare Seite vernichtet diesen Einsatz.",
       "Auch Unternehmen mit funktionierender Website profitieren oft von zusätzlichen Landingpages für einzelne Leistungen – statt Besucher auf eine allgemeine Startseite zu schicken.",
       "Transparente Pakete helfen bei der Entscheidung: Sie sehen Umfang und Preis, bevor das Projekt startet. Wenn Sie unsicher zwischen Basic, Standard und Premium sind, klären wir im Gespräch, welches Paket zu Ihren Zielen passt.",
     ],
     points: [
-      "Handwerk und lokale Dienstleister",
+      "Regionale und lokale Unternehmen in Duisburg und Umgebung",
+      "Dienstleister und Handel vor Ort",
       "Startups und wachsende Unternehmen",
-      "Vereine, Clubs und Eventanbieter",
       "Unternehmen mit laufenden Ads-Kampagnen",
       "Betriebe, die Bewerber und Kunden parallel ansprechen",
       "Marken mit Relaunch- oder Repositionierungsbedarf",
@@ -114,7 +113,7 @@ export const webseitenHub: LandingPage = {
     title: "Welche Ergebnisse sind realistisch?",
     paragraphs: [
       "Eine starke Website allein ersetzt kein Marketing – aber sie entscheidet, wie viel aus Traffic wird. Realistisch sind: professionellerer Eindruck, höhere Abschlussraten bei Ads, mehr Formularanfragen und eine Basis, die SEO und Content trägt.",
-      "Kunden berichten häufig, dass Gespräche mit Sponsoren, Bewerbern und Interessenten leichter werden, sobald der Online-Auftritt modern und klar ist. Für Vereine und Clubs ist das oft ein direkter Hebel in der Sponsorengewinnung.",
+      "Kunden berichten häufig, dass Gespräche mit Partnern, Bewerbern und Interessenten leichter werden, sobald der Online-Auftritt modern und klar ist – ein direkter Hebel für Vertrauen und Anfragen.",
       "Unsere Referenzen zeigen, wie wichtig der Gesamteindruck ist: Beim [Golfclub Raffelberg](/referenzen/golfclub-raffelberg) gehört die digitale Präsenz zur erfolgreichen Ansprache von Interessenten. Bei [Buddy's](/referenzen/buddys-duisburg) und der [Start-Up School](/referenzen/start-up-school) zählt Professionalität im Auftritt ebenso wie laufendes Marketing.",
       "Wichtig ist die Wechselwirkung mit anderen Kanälen: Eine Website, die schnell lädt und klar strukturiert ist, senkt die Kosten pro Anfrage bei Ads spürbar. Deshalb denken wir Website-Erstellung zusammen mit [Performance Marketing](/leistungen/performance-marketing) und [Social Media](/leistungen/social-media) – aus einer Hand.",
       "Nach dem Launch beginnt die Lernphase: Welche Seiten werden gelesen? Wo springen Nutzer ab? Mit Tracking und optionaler Weiterbetreuung verbessern wir die Seite datenbasiert.",
