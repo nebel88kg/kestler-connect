@@ -20,156 +20,117 @@ export const performanceMarketingHub: LandingPage = {
   hero: {
     headline: "Performance Marketing Agentur Duisburg – messbare Anfragen statt Streuverlust",
     subheadline:
-      "Google Ads, Meta Ads, Leadgewinnung und Landingpages aus einer Hand – für regionale und lokale Unternehmen in Duisburg, im Ruhrgebiet und in NRW.",
+      "Google Ads, Meta Ads und Leadgewinnung aus einer Hand – für regionale und lokale Unternehmen in Duisburg und Umgebung.",
   },
   intro: {
     title: "Was ist Performance Marketing?",
     paragraphs: [
-      "Performance Marketing bedeutet Werbung, die sich an Ergebnissen messen lässt: Anfragen, Termine, Bewerbungen oder Buchungen – nicht nur an Klicks oder Reichweite. Jeder Euro soll nachvollziehbar wirken.",
-      "Bei Kestler Connect verbinden wir dafür die Kanäle, die für lokale und regionale Unternehmen am stärksten greifen: [Google Ads](/leistungen/google-ads) für aktive Suchintention, [Meta Ads](/leistungen/meta-ads) für gezielte Ansprache auf Facebook und Instagram, strukturierte [Leadgewinnung](/leistungen/leadgewinnung) sowie Landingpages, die aus Traffic echte Kontakte machen.",
-      "Als Social-Media-Agentur aus Duisburg denken wir Ads nie isoliert: Organischer Content über unsere [Social Media Agentur](/leistungen/social-media) und eine conversion-starke [Website](/leistungen/webseiten) machen Kampagnen glaubwürdiger und effizienter – aus einer Hand.",
-      "Gerade regionale und lokale Unternehmen im Ruhrgebiet brauchen planbare Anfragen, transparente Kosten pro Lead und jemanden, der Tracking, Creatives und Optimierung zusammenhält.",
-      "Deshalb starten wir mit Klarheit: Wen wollen Sie erreichen? Welches Angebot ist greifbar genug für eine Anfrage? Wie schnell können Sie reagieren? Erst danach skalieren wir Media-Budgets – dort, wo Qualität und Wirtschaftlichkeit stimmen.",
+      "Performance Marketing heißt: Werbung an Ergebnissen messen – Anfragen, Termine, Bewerbungen. Nicht nur an Klicks oder Reichweite.",
+      "Wir verbinden [Google Ads](/leistungen/google-ads), [Meta Ads](/leistungen/meta-ads), [Leadgewinnung](/leistungen/leadgewinnung) und Landingpages – abgestimmt mit [Social Media](/leistungen/social-media) und Ihrer [Website](/leistungen/webseiten).",
     ],
   },
   audience: {
     title: "Für wen eignet sich Performance Marketing?",
     paragraphs: [
-      "Für Unternehmen und Organisationen, deren Wachstum an planbaren Anfragen hängt – und die wissen wollen, welcher Kanal wirklich Aufträge oder Mitglieder bringt.",
-      "Besonders stark wirkt Performance Marketing, wenn der Auftragswert die Kosten pro Lead klar übersteigt und Anfragen zeitnah bearbeitet werden können.",
-      "Auch wenn Sie bereits Ads geschaltet haben und unzufrieden sind: Oft fehlen Tracking, klare Angebote oder eine conversion-starke Seite. Dann lohnt ein strukturierter Neuaufbau.",
+      "Für Unternehmen, deren Wachstum an planbaren Anfragen hängt – und die wissen wollen, welcher Kanal wirklich Aufträge bringt.",
     ],
     points: [
       "Regionale und lokale Unternehmen mit klarem Einzugsgebiet",
       "Lokale Dienstleister und Handel",
       "Betriebe mit Event-, Kurs- oder Mitgliederzielen",
       "KMU, die Leads und Mitarbeiter parallel gewinnen wollen",
-      "Unternehmen mit bestehendem Ads-Account ohne klare KPI",
       "Teams, die Google, Meta und Landingpages verzahnen wollen",
     ],
   },
   problem: {
     title: "Typische Herausforderungen ohne System",
     points: [
-      "Werbung ohne messbaren ROI – viel Aufwand, wenig Klarheit",
-      "Klicks und Reichweite, aber zu wenige brauchbare Anfragen",
-      "Google Ads und Meta Ads laufen getrennt, ohne gemeinsame Strategie",
+      "Werbung ohne messbaren ROI",
+      "Klicks, aber zu wenige brauchbare Anfragen",
+      "Google und Meta laufen getrennt ohne gemeinsame Strategie",
       "Website oder Landingpage bremst die Conversion",
-      "Kein zuverlässiges Tracking von Anrufen und Formularen",
       "Kosten pro Lead unbekannt oder zu hoch",
-      "Anfragen kommen unregelmäßig statt kontinuierlich",
     ],
   },
   solution: {
     title: "Performance Marketing mit System",
     content:
-      "Wir verbinden Strategie, Kanäle und Conversion: [Google Ads](/leistungen/google-ads) und [Meta Ads](/leistungen/meta-ads) für Nachfrage, [Leadgewinnung](/leistungen/leadgewinnung) mit klaren Formularen, [Website & Landingpages](/leistungen/webseiten) für die Anfrage und Tracking für Transparenz – inklusive Abstimmung mit unserer [Social Media Agentur](/leistungen/social-media).",
+      "Strategie, Kanäle und Conversion: [Google Ads](/leistungen/google-ads) und [Meta Ads](/leistungen/meta-ads) für Nachfrage, klare Lead-Formulare, conversion-starke Seiten und Tracking – inkl. Abstimmung mit [Social Media](/leistungen/social-media).",
   },
   benefits: [
     {
       title: "Kanalmix mit Fokus",
-      description:
-        "Google, Meta und Landingpages – abgestimmt auf Zielgruppe und Region statt Budget über alles zu streuen.",
+      description: "Google, Meta und Landingpages – abgestimmt auf Zielgruppe und Region.",
       icon: "target",
     },
     {
       title: "Messbarer ROI",
-      description:
-        "Kosten pro Lead, Quellen und Ergebnisse transparent im Reporting – als Basis für Budgetentscheidungen.",
+      description: "Kosten pro Lead und Quellen transparent im Reporting.",
       icon: "chart",
     },
     {
-      title: "Conversion-stark",
-      description:
-        "Seiten und Creatives, die aus Klicks Anfragen machen – nicht nur Traffic ohne Abschluss.",
+      title: "Schnelle Iterationen",
+      description: "Budgets und Creatives dort verstärken, wo Qualität stimmt.",
       icon: "rocket",
     },
     {
-      title: "Lokal stark",
-      description:
-        "Kampagnen für Duisburg und das Ruhrgebiet: Einzugsgebiet, Sprache und Angebote, die vor Ort funktionieren.",
+      title: "Conversion-Fokus",
+      description: "Anzeigen und Seiten so bauen, dass Traffic zu Anfragen wird.",
+      icon: "check",
+    },
+    {
+      title: "Lokale Expertise",
+      description: "Kampagnen für Duisburg, Ruhrgebiet und NRW – ohne Streuverlust.",
       icon: "map",
     },
     {
-      title: "Alles aus einer Hand",
-      description:
-        "Ads, Social Media und Website bei einem Ansprechpartner – ohne Reibung zwischen Dienstleistern.",
-      icon: "star",
-    },
-    {
-      title: "Skalierbar",
-      description:
-        "Erfolgreiche Setups werden gezielt ausgebaut – dort, wo Qualität und Wirtschaftlichkeit stimmen.",
-      icon: "scale",
+      title: "Ein Ansprechpartner",
+      description: "Ads, Social und Website aus einer Hand statt Agentur-Chaos.",
+      icon: "users",
     },
   ],
   results: {
     title: "Welche Ergebnisse sind realistisch?",
     paragraphs: [
-      "Realistisch ist ein Aufbau: Ziele und Tracking zuerst, dann Launch, dann Optimierung von Kosten und Qualität. Innerhalb weniger Wochen entsteht oft ein belastbares Bild – vorausgesetzt, Angebot und Nachbearbeitung stimmen.",
-      "Wir optimieren nicht auf möglichst viele billige Kontakte, sondern auf Anfragen, mit denen Sie arbeiten können.",
-      "Praxisbeispiele: Beim [Golfclub Raffelberg](/referenzen/golfclub-raffelberg) entstanden über Ads und Content Anfragen zu Kursen und Firmenfeiern. Bei [Buddy's Duisburg](/referenzen/buddys-duisburg) sorgten Meta- und Google-Kampagnen für Event-Anfragen. Die [Start-Up School](/referenzen/start-up-school) zeigt Performance Marketing mit klarer Iteration.",
-      "Performance Marketing wirkt am stärksten als System: Ads, [Website-Erstellung](/leistungen/webseiten), [SEO](/leistungen/seo) und organische Kanäle über unsere [Social Media Agentur](/leistungen/social-media) verstärken sich. Genau diese Verbindung steuern wir – nachvollziehbar und ohne Aktionismus.",
-      "Ein oft unterschätzter Faktor ist die Reaktionszeit: Anfragen, die Tage liegen bleiben, verlieren Wert. Deshalb gehört die Nachbearbeitung bei uns mit auf den Tisch.",
+      "Realistisch sind planbarere Anfragen, klarere Kosten pro Lead und Kampagnen, die Sie steuern statt nur „laufen lassen“.",
+      "Beispiele: [Golfclub Raffelberg](/referenzen/golfclub-raffelberg) – Kurse und Firmenfeiern über Ads. [SecPro Bildungszentrum](/referenzen/secpro-bildungszentrum) – Meta Ads plus Social. [DnM](/referenzen/dnm) – organische Sichtbarkeit als starke Basis.",
     ],
     points: [
-      "Planbarere Anfragen statt Zufall",
+      "Mehr qualifizierte Anfragen",
       "Transparente Kosten pro Lead",
-      "Klarheit über wirkungsvolle Kanäle",
-      "Bessere Auslastung von Terminen und Vertrieb",
-      "Skalierung erfolgreicher Kampagnen",
-      "Weniger Streuverlust im Werbebudget",
+      "Bessere Abstimmung Google + Meta",
+      "Stärkere Conversion auf der Seite",
+      "Klarer Reporting-Rhythmus",
     ],
   },
   process: [
-    {
-      step: 1,
-      title: "Analyse",
-      description: "Ziele, Zielgruppe, bisherige Kanäle und Tracking-Ist prüfen.",
-    },
-    {
-      step: 2,
-      title: "Strategie",
-      description: "Kanalmix, Angebote, KPIs und Landingpage-Ansatz festlegen.",
-    },
-    {
-      step: 3,
-      title: "Setup",
-      description: "Kampagnen, Tracking und Seiten professionell einrichten.",
-    },
-    {
-      step: 4,
-      title: "Optimierung",
-      description: "Creatives, Targeting und Conversion laufend verbessern.",
-    },
-    {
-      step: 5,
-      title: "Skalierung",
-      description: "Budget dort erhöhen, wo Qualität und ROI stimmen.",
-    },
+    { step: 1, title: "Analyse", description: "Ziele, Angebot, Tracking und Ist-Stand klären." },
+    { step: 2, title: "Strategie", description: "Kanalmix, Budgets und KPIs festlegen." },
+    { step: 3, title: "Setup", description: "Kampagnen, Creatives und Conversion-Tracking." },
+    { step: 4, title: "Optimierung", description: "Laufend testen und Budget sinnvoll umschichten." },
+    { step: 5, title: "Reporting", description: "Ergebnisse und nächste Schritte – verständlich." },
   ],
   pricing: {
     title: "Preise und Budgetempfehlungen",
     paragraphs: [
-      "Performance Marketing besteht aus Agenturleistung plus Werbebudget. Die Agentur steuert Strategie, Umsetzung und Optimierung; das Media-Budget fließt an Google bzw. Meta.",
-      "Wir starten oft schlank, messen Kosten und Qualität und skalieren dann.",
-      "Wie viel Budget sinnvoll ist, hängt vom Auftragswert und Ihrer Kapazität ab: Mehr Leads bringen nichts, wenn Service oder Vertrieb überlastet sind.",
+      "Agenturhonorar und Werbebudget trennen wir klar. Das Media-Budget hängt von Wettbewerb, Region und Ziel ab.",
+      "Viele lokale Unternehmen starten mit einem klaren Pilotbudget und skalieren, sobald Kosten pro Lead stimmen.",
     ],
     ranges: [
       {
-        label: "Agenturleistung",
-        value: "ab ca. 500 € / Monat",
-        note: "Je nach Kanalmix, Tracking und Optimierungsumfang.",
+        label: "Werbebudget (Orientierung)",
+        value: "ab ca. 500–1.500 € / Monat",
+        note: "Je nach Kanalmix und Wettbewerb in Ihrer Region.",
       },
       {
-        label: "Werbebudget",
-        value: "individuell",
-        note: "Richtet sich nach Ziel, Markt und gewünschter Lead-Menge.",
+        label: "Betreuung",
+        value: "monatliches Honorar",
+        note: "Abhängig von Kanälen, Accounts und Reporting-Tiefe.",
       },
       {
-        label: "Fokus",
-        value: "Kosten pro Lead & ROI",
-        note: "Wir optimieren auf Wirtschaftlichkeit, nicht nur auf Klicks.",
+        label: "Einstieg",
+        value: "Strategiegespräch",
+        note: "Kostenlos und unverbindlich – wir prüfen, ob Ads sinnvoll sind.",
       },
     ],
   },
@@ -177,64 +138,49 @@ export const performanceMarketingHub: LandingPage = {
     {
       title: "Golfclub Raffelberg",
       slug: "golfclub-raffelberg",
-      excerpt: "Viele neue Interessenten und gut gebuchte Kurse durch Meta Ads und Google Ads.",
+      excerpt: "Meta Ads und Google Ads für Kurse, Interessenten und Firmenfeiern.",
     },
     {
-      title: "Buddy's Duisburg",
-      slug: "buddys-duisburg",
-      excerpt: "Starke Reichweite und zahlreiche Anfragen für Events und Networking.",
+      title: "SecPro Bildungszentrum",
+      slug: "secpro-bildungszentrum",
+      excerpt: "Meta Ads und Social Media für Bildungsangebote.",
     },
     {
-      title: "Start-Up School",
-      slug: "start-up-school",
-      excerpt: "Performance Marketing mit klarer Strategie und messbarem Fortschritt.",
+      title: "DnM",
+      slug: "dnm",
+      excerpt: "SEO auf Google Seite 1 als starke Basis neben Social Media.",
     },
   ],
   faq: [
     {
-      question: "Was macht eine Performance Marketing Agentur anders als klassische Werbung?",
+      question: "Was ist Performance Marketing?",
       answer:
-        "Der Fokus liegt auf messbaren Ergebnissen: Anfragen, Kosten pro Lead und ROI. Kampagnen werden laufend optimiert – statt einmaliger Schaltung ohne Nachsteuerung.",
+        "Marketing, das sich an messbaren Ergebnissen orientiert – Anfragen, Buchungen, Bewerbungen – statt nur an Reichweite.",
     },
     {
-      question: "Social Media oder Ads zuerst?",
+      question: "Google Ads oder Meta Ads?",
       answer:
-        "Wenn der Auftritt unfertig wirkt, stärken wir zuerst oder parallel die [Social Media Agentur](/leistungen/social-media)-Basis. Für schnelle, messbare Anfragen starten viele mit Ads – ideal mit starker [Website](/leistungen/webseiten). Wir empfehlen die Reihenfolge nach Ziel und Ausgangslage.",
+        "[Google Ads](/leistungen/google-ads) treffen aktive Suche; [Meta Ads](/leistungen/meta-ads) erzeugen Nachfrage und Reichweite. Oft ist der Mix am stärksten.",
     },
     {
-      question: "Google Ads, Meta Ads oder beides?",
+      question: "Ab welchem Budget lohnt sich Performance Marketing?",
       answer:
-        "Das hängt von Zielgruppe und Angebot ab. Google trifft vorhandene Nachfrage, Meta erzeugt und wärmt Interesse. Oft ist ein abgestimmter Mix wirtschaftlicher.",
+        "Für lokale Unternehmen oft ab ca. 500–800 € Media-Budget plus Betreuung. Im Strategiegespräch prüfen wir, ob es sich rechnet.",
     },
     {
       question: "Brauche ich eine Landingpage?",
       answer:
-        "Für die meisten Kampagnen ja. Eine klare Landingpage mit Formular steigert die Conversion deutlich. Bei Bedarf erstellen wir passende Seiten über unsere [Website-Erstellung](/leistungen/webseiten).",
+        "Meist ja. Eine klare Seite erhöht die Conversion deutlich – wir erstellen oder optimieren sie bei Bedarf.",
     },
     {
-      question: "Für welche Branchen eignet sich Performance Marketing in Duisburg?",
+      question: "Wie schnell sehe ich Ergebnisse?",
       answer:
-        "Für regionale und lokale Unternehmen mit Einzugsgebiet in Duisburg, Ruhrgebiet oder NRW – etwa Dienstleister, Handel, Events und wachsende KMU. Branchenspezifische Kampagnen (z. B. Mitglieder oder Kurse) sind Beispiele, nicht die einzige Zielgruppe.",
+        "Ads können innerhalb weniger Tage erste Anfragen bringen. Stabile Kosten pro Lead brauchen oft 2–6 Wochen Optimierung.",
     },
     {
-      question: "Google Ads oder Meta Ads für lokale Betriebe?",
+      question: "Übernehmt ihr bestehende Accounts?",
       answer:
-        "Google Ads greifen vorhandene Suchnachfrage ab; Meta Ads erzeugen Sichtbarkeit und Leads auf Facebook und Instagram. Oft ist ein abgestimmter Mix über unsere [Google Ads](/leistungen/google-ads)- und [Meta Ads](/leistungen/meta-ads)-Betreuung am wirtschaftlichsten – ergänzt durch [Social Media Marketing](/leistungen/social-media).",
-    },
-    {
-      question: "Wie schnell sehe ich erste Ergebnisse?",
-      answer:
-        "Erste Anfragen entstehen oft innerhalb weniger Tage nach Launch. Stabile Kosten und Qualität brauchen typischerweise einige Wochen Optimierungszeit.",
-    },
-    {
-      question: "Können bestehende Ads-Accounts übernommen werden?",
-      answer:
-        "Ja. Wir auditieren bestehende Konten, stoppen Streuverluste und bauen auf dem auf, was funktioniert – oder setzen strukturiert neu auf.",
-    },
-    {
-      question: "Gibt es Mindestlaufzeiten?",
-      answer:
-        "Nein. Sinnvoll sind aber einige Wochen Lernzeit, bevor endgültige Schlüsse aus den Daten gezogen werden.",
+        "Ja. Wir analysieren Ist-Stand, bereinigen und optimieren – oder setzen bei Bedarf neu und sauber auf.",
     },
   ],
 };

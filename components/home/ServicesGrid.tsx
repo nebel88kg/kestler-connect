@@ -70,7 +70,7 @@ export function ServicesGrid() {
                     {service.title}
                   </div>
                   <p className="mb-4 text-gray-600">{service.description}</p>
-                  <ul className="space-y-2">
+                  <ul className="mb-4 space-y-2">
                     {service.items.map((item) => (
                       <li key={item} className="flex items-center gap-2 text-sm text-navy">
                         <span className="text-accent">✓</span>
@@ -78,11 +78,23 @@ export function ServicesGrid() {
                       </li>
                     ))}
                   </ul>
+                  <p className="text-sm font-semibold text-accent">Mehr erfahren →</p>
                 </Card>
               </Link>
             </ScrollReveal>
           ))}
         </div>
+
+        <ScrollReveal delay={0.2}>
+          <div className="mt-10 text-center">
+            <Link
+              href="/kontakt"
+              className="inline-flex items-center justify-center rounded-xl bg-accent px-6 py-3 text-sm font-bold text-navy transition-colors hover:bg-accent/90"
+            >
+              Kostenloses Strategiegespräch
+            </Link>
+          </div>
+        </ScrollReveal>
       </div>
     </section>
   );

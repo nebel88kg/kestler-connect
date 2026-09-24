@@ -5,225 +5,181 @@ export const workshopsHub: LandingPage = {
   path: "/leistungen/workshops",
   category: "workshops",
   meta: {
-    title: "Marketing Workshops Duisburg | Klarheit in wenigen Stunden | Kestler Connect",
+    title: "Marketing Workshops Duisburg | Startup & Sponsoring | Kestler Connect",
     description:
-      "Kompakte Marketing-Workshops in Duisburg für regionale und lokale Unternehmen sowie Startups – Struktur, Prioritäten und nächste Schritte ohne monatelange Agenturbindung.",
+      "Kompakte Marketing-Workshops in Duisburg: für Startups, lokale Unternehmen und Vereine – klare Strategie ohne großes Monatsbudget.",
     keywords: [
-      "marketing workshop duisburg",
       "marketing workshop",
-      "startup workshop",
-      "marketing workshop unternehmen",
+      "startup marketing workshop",
+      "marketing schulung duisburg",
+      "sponsoring workshop",
+      "social media workshop",
     ],
   },
   hero: {
     headline: "Marketing Workshops Duisburg – Klarheit in wenigen Stunden",
     subheadline:
-      "Kompakte Formate für regionale und lokale Unternehmen sowie Startups: Positionierung, Kanäle und umsetzbare nächste Schritte – ohne monatelange Agenturbindung.",
+      "Kompakte Formate für Startups, lokale Unternehmen und Vereine – Strategie und nächste Schritte ohne großes Monatsbudget.",
   },
   intro: {
-    title: "Was sind unsere Marketing-Workshops?",
+    title: "Warum ein Workshop statt sofortiger Betreuung?",
     paragraphs: [
-      "Nicht jedes regionale oder lokale Unternehmen braucht sofort eine laufende Full-Service-Betreuung. Manchmal fehlt zuerst Klarheit: Welche Kanäle lohnen sich? Was ist die Positionierung? Wie spreche ich Sponsoren an? Welche Maßnahmen haben Priorität?",
-      "Unsere Workshops sind praxisnahe Arbeitsformate – typischerweise fünf bis sechs Stunden – mit konkreten Ergebnissen statt Folienfriedhof. Sie gehen mit einer klaren Roadmap, priorisierten Maßnahmen und dem Gefühl, endlich zu wissen, was als Nächstes dran ist.",
-      "Aktuell bieten wir spezialisierte Formate für Startups und für Vereine (Marketing & Sponsoring). Danach können Sie selbst umsetzen – oder wir begleiten optional die Umsetzung.",
-      "Der Ablauf ist bewusst interaktiv statt frontal: Statt Ihnen eine fertige Strategie zu präsentieren, erarbeiten wir gemeinsam mit Ihnen und Ihrem Team die Antworten. So entsteht ein Ergebnis, hinter dem die gesamte Gruppe steht – und nicht nur eine externe Meinung, die im Nachhinein niemand konsequent umsetzt.",
-      "Ein Workshop ersetzt keine jahrelange Erfahrung im operativen Marketing, aber er schafft in kurzer Zeit das, wofür viele Teams sonst Monate brauchen: eine gemeinsame, begründete Entscheidungsgrundlage.",
-      "Workshops sind besonders dann wertvoll, wenn intern viele Meinungen existieren und Entscheidungen blockiert werden. In wenigen Stunden entsteht ein gemeinsamer Rahmen: Zielgruppe, Botschaft, Kanäle, Prioritäten.",
-      "Wir arbeiten mit konkreten Beispielen aus Ihrem Alltag – nicht mit generischen Folien. Am Ende haben Sie dokumentierte Ergebnisse, die sich direkt in Maßnahmen übersetzen lassen.",
-      "Für Vereine legen wir besonderen Wert auf Sponsoring-Logik: Mehrwert für Partner, Pakete, Ansprache und digitale Sichtbarkeit. Für Startups priorisieren wir knappe Ressourcen und schnelle Lernschleifen.",
-      "Ein Workshop eignet sich besonders, wenn Budget begrenzt ist, aber Entscheidungsdruck hoch. Statt monatelang in die falsche Richtung zu investieren, schaffen Sie in einem kompakten Format Orientierung. Das spart nicht nur Geld, sondern auch Nerven im Team.",
-      "Wir bringen Methodik und Branchenerfahrung mit – Sie bringen Wissen über Ihr Angebot, Ihre Mitglieder oder Kunden. Aus dieser Kombination entsteht ein Plan, der realistisch und umsetzbar ist. Optional begleiten wir danach die Umsetzung in Social Media, Ads, Website oder Sponsoring.",
-      "Wenn Sie unsicher sind, welches Format passt, klären wir das im Vorfeld: Startup-Workshop oder Vereins-Workshop zu Marketing und Sponsoring. Beide Formate sind praxisnah, aber auf unterschiedliche Herausforderungen zugeschnitten.",
+      "Nicht jedes Unternehmen startet mit Retainer. Ein Workshop schafft Orientierung: Kanäle, Prioritäten und ein realistischer Fahrplan.",
+      "Danach entscheiden Sie bewusst: selbst umsetzen, punktuell unterstützen lassen oder in laufende [Social Media](/leistungen/social-media)- bzw. [Performance](/leistungen/performance-marketing)-Betreuung wechseln.",
     ],
   },
   audience: {
     title: "Für wen eignen sich die Workshops?",
     paragraphs: [
-      "Für Teams und Vorstände, die Tempo brauchen und Budget bewusst einsetzen wollen. Ideal, wenn Marketing bisher nebenbei lief, zu viele Ideen parallel existieren oder Sponsoring und Sichtbarkeit strategischer werden sollen.",
-      "Auch Organisationen, die bereits einzelne Maßnahmen ausprobiert haben – etwa erste Ads oder unregelmäßigen Social-Media-Content – profitieren häufig von einem Workshop, um die bisherigen Erfahrungen einzuordnen und eine klare Priorität für die nächsten Monate festzulegen.",
-      "Am Ende des Workshops besitzen Sie nicht nur Notizen, sondern eine priorisierte Roadmap mit konkreten nächsten Schritten. Genau das unterscheidet unser Format von klassischen Vorträgen: Es geht um Entscheidungen und Umsetzung, nicht um Unterhaltung mit Folien. Viele Teilnehmer berichten danach von spürbar klareren internen Abstimmungen und weniger Diskussionen im Kreis.",
+      "Für Gründer, lokale Betriebe und Vereine, die Marketing verstehen und priorisieren wollen – bevor Budget in Zufallsmaßnahmen fließt.",
     ],
     points: [
-      "Startups und junge Unternehmen",
-      "Gründerteams ohne festes Marketing",
-      "Organisationen mit Sponsoring- oder Partnerschaftszielen",
-      "Organisationen vor einem Relaunch oder Wachstumsschritt",
-      "Teams, die vor Ads/Social erst Strategie klären wollen",
-      "Gruppen, die intern Alignment brauchen",
-      "Organisationen mit ersten Marketing-Erfahrungen, aber ohne klare Linie",
+      "Startups und junge Marken",
+      "Lokale Unternehmen ohne Marketing-Team",
+      "Vereine mit Sponsoring-Fragen",
+      "Betriebe vor dem ersten Ads-Budget",
+      "Teams, die intern mehr Klarheit brauchen",
     ],
   },
   problem: {
-    title: "Wenn Marketing im Kopf bleibt statt im Plan",
+    title: "Typische Ausgangslage",
     points: [
-      "Zu viele Ideen, keine klaren Prioritäten",
-      "Unklare Positionierung und Zielgruppe",
-      "Kanäle werden zufällig und unregelmäßig bespielt",
-      "Sponsorenansprache ohne erkennbares Konzept",
-      "Kein gemeinsames Verständnis im Team oder Vorstand",
-      "Angst vor teuren Fehlentscheidungen bei Ads oder Website",
-      "Diskussionen über Marketing enden immer wieder ohne Ergebnis",
+      "Zu viele Kanäle, keine Priorität",
+      "Unklar, ob Social, Ads oder Website zuerst",
+      "Budgetangst ohne Plan",
+      "Sponsoring ohne klare Gegenleistung",
+      "Umsetzung bleibt im Alltag liegen",
     ],
   },
   solution: {
-    title: "Workshop statt Dauerbaustelle",
+    title: "Kompakte Workshops mit klarem Output",
     content:
-      "In einem kompakten Format schaffen wir Orientierung, priorisieren Maßnahmen und machen die nächsten Schritte konkret – für lokale Unternehmen und Startups.",
+      "In wenigen Stunden erarbeiten wir Positionierung, Kanal-Fokus und nächste Schritte – praxisnah und auf Ihre Situation zugeschnitten.",
   },
   benefits: [
     {
-      title: "Schnell Klarheit",
-      description:
-        "In einem Tag Struktur statt monatelanger Unsicherheit und endloser interner Diskussionen ohne Ergebnis.",
-      icon: "rocket",
-    },
-    {
-      title: "Praxisnah",
-      description:
-        "Arbeit an Ihrem echten Angebot und Ihrer echten Zielgruppe – nicht an abstrakter Marketing-Theorie.",
-      icon: "wrench",
-    },
-    {
-      title: "Prioritäten",
-      description:
-        "Was zuerst, was später – mit nachvollziehbarer Begründung statt reinem Bauchgefühl.",
+      title: "Schnelle Klarheit",
+      description: "Prioritäten statt endloser Theorie.",
       icon: "target",
     },
     {
-      title: "Team-Alignment",
-      description:
-        "Alle Beteiligten sind nach dem Workshop auf einem Stand und ziehen an einem Strang.",
-      icon: "users",
-    },
-    {
-      title: "Umsetzbar",
-      description:
-        "Konkrete To-dos statt abstrakter Strategien – Sie wissen, wer was bis wann erledigt.",
+      title: "Praxisnah",
+      description: "Direkt auf Ihr Angebot und Ihre Region bezogen.",
       icon: "check",
     },
     {
-      title: "Optional weiter",
-      description:
-        "Danach selbst umsetzen oder Betreuung buchen – ganz ohne Verpflichtung zur Weiterarbeit mit uns.",
+      title: "Budget-fit",
+      description: "Ideal, wenn noch kein großes Monatsbudget da ist.",
       icon: "star",
+    },
+    {
+      title: "Fahrplan",
+      description: "Konkrete nächste Schritte für die kommenden Wochen.",
+      icon: "rocket",
+    },
+    {
+      title: "Optional Vertiefung",
+      description: "Danach Betreuung oder Ads gezielt anschließen.",
+      icon: "users",
+    },
+    {
+      title: "Sponsoring-Option",
+      description: "Eigene Formate für Vereine und Partnerschaften.",
+      icon: "social",
     },
   ],
   results: {
-    title: "Welche Ergebnisse sind realistisch?",
+    title: "Was nehmen Sie mit?",
     paragraphs: [
-      "Am Ende eines Workshops haben Sie typischerweise: geschärfte Positionierung, priorisierte Kanäle, grobe Botschaften und einen realistischen 30–90-Tage-Plan. Bei Vereinen zusätzlich Ansätze für Sponsoring-Pakete und Ansprache.",
-      "Ein Workshop ersetzt keine laufende Umsetzung – aber er verhindert teure Fehlstarts. Viele Teilnehmer nutzen ihn als Startpunkt für Social Media, Ads, Website oder Sponsorenarbeit.",
-      "Passende Vertiefungen: [Marketing-Workshop für Startups](/leistungen/workshops/marketing-workshop-startups) und [Marketing & Sponsoring für Vereine](/leistungen/workshops/marketing-sponsoring-vereine). Zum Thema Sponsoren auch der Blogbeitrag [Sponsoren finden](/blog/sponsoren-finden).",
-      "Bei der [Start-Up School](/referenzen/start-up-school) zeigt sich beispielhaft, wie wichtig eine klare Grundstrategie für die weitere Zusammenarbeit ist: Erst mit einer gemeinsamen Linie zu Positionierung und Kanälen lässt sich Content Planning und Performance Marketing sinnvoll aufbauen, statt einzelne Maßnahmen isoliert auszuprobieren.",
-      "Ein guter Workshop verändert die Gesprächsqualität im Team: Statt „Wir müssten mal Social Media machen“ gibt es priorisierte To-dos, Verantwortlichkeiten und ein realistisches Budgetbild.",
-      "Viele Teilnehmer nutzen den Workshop als Entscheidungshilfe, ob danach eine laufende Betreuung sinnvoll ist – und wenn ja, mit welchem Fokus. Das spart Geld und verhindert Aktionismus.",
-      "Viele Organisationen verlieren Zeit und Geld, weil Maßnahmen gestartet werden, bevor Ziele und Prioritäten klar sind. Ein Workshop kehrt diese Reihenfolge um: erst Verständnis und Fokus, dann Umsetzung. Das klingt simpel, spart in der Praxis jedoch oft Monate an Fehlversuchen. Sie erhalten ein gemeinsames Bild davon, was jetzt zählt – und was bewusst später kommt. Genau diese Klarheit macht Marketing planbar, auch mit begrenztem Budget.",
-      "Zusätzlich erhalten Sie nach dem Workshop eine kurze schriftliche Zusammenfassung der wichtigsten Entscheidungen und Prioritäten. So bleibt das Ergebnis nicht nur im Raum, sondern wird zum Arbeitsdokument für die nächsten Wochen.",
+      "Ein gemeinsames Verständnis von Positionierung, Kanälen und sinnvollen nächsten Maßnahmen – statt Bauchgefühl.",
+      "Referenzen wie [Golfclub Raffelberg](/referenzen/golfclub-raffelberg), [SecPro Bildungszentrum](/referenzen/secpro-bildungszentrum) und [DnM](/referenzen/dnm) zeigen, wie wichtig eine klare Linie vor dem Skalieren ist.",
     ],
     points: [
-      "Gemeinsames Verständnis von Ziel und Zielgruppe",
-      "Priorisierte Maßnahmenliste für die nächsten Monate",
-      "Klarheit über sinnvolle Kanäle und realistische Budgets",
-      "Bessere Sponsoring-Argumentation (Vereine)",
-      "Fundierte Entscheidung über eine mögliche weitere Betreuung",
+      "Klare Kanal-Prioritäten",
+      "Realistischer Umsetzungsplan",
+      "Besseres Gefühl für Budget und Timing",
+      "Weniger Streuverlust",
+      "Fundierte Entscheidung für oder gegen Retainer",
     ],
   },
   process: [
-    { step: 1, title: "Vorbereitung", description: "Kurzfragebogen und Ziele vor dem Termin." },
-    { step: 2, title: "Analyse", description: "Ist-Zustand, Wettbewerb und Chancen im Workshop." },
-    { step: 3, title: "Strategie", description: "Positionierung, Kanäle und Schwerpunkte schärfen." },
-    { step: 4, title: "Plan", description: "Konkrete nächste Schritte und Verantwortlichkeiten." },
-    { step: 5, title: "Follow-up", description: "Zusammenfassung und optionale Umsetzungsbegleitung." },
+    { step: 1, title: "Vorbereitung", description: "Kurzfragebogen und Ziele abstimmen." },
+    { step: 2, title: "Workshop", description: "5–6 Stunden intensives Arbeiten." },
+    { step: 3, title: "Prioritäten", description: "Kanäle und Maßnahmen festlegen." },
+    { step: 4, title: "Plan", description: "Nächste Schritte dokumentieren." },
+    { step: 5, title: "Optional", description: "Umsetzung oder Betreuung anschließen." },
   ],
   pricing: {
-    title: "Preise und Budgetempfehlungen",
+    title: "Preise und Formate",
     paragraphs: [
-      "Workshops kalkulieren wir als kompaktes Projekt – deutlich unter den Kosten einer mehrmonatigen Betreuung, dafür mit klarem Fokus auf Entscheidung und Plan.",
-      "Der genaue Preis hängt von Format, Teilnehmerzahl und Vorbereitungsumfang ab. In einem kurzen Gespräch nennen wir Ihnen eine transparente Einschätzung.",
-      "Für Vereine berücksichtigen wir dabei bewusst, dass Budgets oft begrenzter und ehrenamtlich verwaltet sind, als es bei klassischen Unternehmen der Fall ist. Wir sprechen realistische Optionen offen an, statt Pakete zu verkaufen, die nicht zur Vereinsstruktur passen.",
-      "Im Vergleich zu mehrmonatiger Agenturbetreuung ist ein Workshop ein bewusst schlankes Investment in Klarheit. Sie erhalten in kurzer Zeit Orientierung, ohne sich langfristig zu binden.",
-      "So wird aus dem Workshop ein echter Startpunkt für nachhaltiges Marketing – mit Klarheit, Fokus und umsetzbaren nächsten Schritten.",
+      "Workshops bieten wir als kompakte Tagungsformate an – transparent und ohne versteckte Retainer-Pflicht.",
+      "Im Strategiegespräch finden wir das passende Format: Startup-Marketing oder Marketing & Sponsoring.",
     ],
     ranges: [
       {
-        label: "Workshop-Tag",
-        value: "kompaktes Projektbudget",
-        note: "Typischerweise deutlich günstiger als laufende Monatsbetreuung.",
+        label: "Startup Marketing",
+        value: "5–6 Stunden",
+        note: "Positionierung, Kanäle, Fahrplan.",
       },
       {
-        label: "Teilnehmer",
-        value: "Team / Vorstand",
-        note: "Mehrere Personen aus dem Unternehmen oder Verein möglich.",
+        label: "Marketing & Sponsoring",
+        value: "auf Anfrage",
+        note: "Für Vereine und Partnerschaftslogik.",
       },
       {
         label: "Danach",
         value: "optional Betreuung",
-        note: "Social, Ads, Website oder Sponsoring-Umsetzung nach Bedarf.",
+        note: "Social, Ads oder Website – bewusst gewählt.",
       },
     ],
   },
   references: [
     {
-      title: "Start-Up School",
-      slug: "start-up-school",
-      excerpt: "Klare Strategie und praxisnahe Weiterentwicklung von Content und Performance.",
-    },
-    {
       title: "Golfclub Raffelberg",
       slug: "golfclub-raffelberg",
-      excerpt: "Professionelle Positionierung und digitale Maßnahmen mit messbarem Mehrwert.",
+      excerpt: "Klare Linie in Social Media und Ads – nachvollziehbar umgesetzt.",
     },
     {
-      title: "Buddy's Duisburg",
-      slug: "buddys-duisburg",
-      excerpt: "Unkomplizierte Zusammenarbeit und starke Event-Sichtbarkeit.",
+      title: "SecPro Bildungszentrum",
+      slug: "secpro-bildungszentrum",
+      excerpt: "Social Media und Meta Ads mit klarer Betreuungslogik.",
+    },
+    {
+      title: "DnM",
+      slug: "dnm",
+      excerpt: "SEO und Social mit Fokus auf Sichtbarkeit.",
     },
   ],
   faq: [
     {
+      question: "Für wen ist der Startup-Workshop?",
+      answer:
+        "Für Gründer und junge Unternehmen, die Marketing priorisieren wollen, bevor sie laufend Budget investieren.",
+    },
+    {
       question: "Wie lange dauert ein Workshop?",
       answer:
-        "Meist fünf bis sechs Stunden – kompakt, fokussiert und mit klaren Ergebnissen statt eines mehrtägigen Programms ohne konkreten Output.",
-    },
-    {
-      question: "Online oder vor Ort?",
-      answer:
-        "Beides ist möglich. Vor Ort ist oft intensiver für Teams und Vorstände, online spart dagegen Reisezeit und eignet sich gut für kürzere Formate.",
-    },
-    {
-      question: "Was müssen wir vorbereiten?",
-      answer:
-        "Einen Kurzfragebogen und idealerweise Zugang zu bestehenden Kanälen und Zahlen. Wir schicken die Punkte rechtzeitig vor dem Termin, damit der Workshop selbst effizient bleibt.",
+        "Typischerweise 5–6 Stunden – kompakt und ergebnisorientiert.",
     },
     {
       question: "Ist danach eine Betreuung Pflicht?",
       answer:
-        "Nein. Viele setzen die Ergebnisse selbst um. Wenn gewünscht, begleiten wir optional die nächsten Schritte – ganz ohne Verpflichtung, direkt im Anschluss ein größeres Paket zu buchen.",
+        "Nein. Sie können selbst umsetzen oder optional Betreuung, Ads oder Website beauftragen.",
     },
     {
-      question: "Welche Workshop-Formate gibt es?",
+      question: "Was ist der Sponsoring-Workshop?",
       answer:
-        "Aktuell: Startup-Marketing sowie Marketing & Sponsoring für Vereine. Details zu Inhalten und Ablauf finden Sie auf den jeweiligen Unterseiten.",
+        "Ein Format für Vereine und Organisationen, die Partnerschaften und Gegenleistungen klarer aufstellen wollen.",
     },
     {
-      question: "Für wie viele Teilnehmer eignet sich ein Workshop?",
+      question: "Online oder vor Ort?",
       answer:
-        "Meist funktioniert es am besten mit einem kleinen, entscheidungsfähigen Kreis – etwa dem Gründerteam oder dem Vorstand. So bleibt die Diskussion fokussiert und die Ergebnisse werden tatsächlich mitgetragen.",
+        "Beides möglich – wir stimmen Format und Ort im Vorgespräch ab.",
     },
     {
-      question: "Wie viele Personen sollten teilnehmen?",
+      question: "Was sollte ich vorbereiten?",
       answer:
-        "So viele, wie Entscheidungen mittragen müssen – ohne die Runde zu sprengen. Bei Startups oft Gründerteam, bei Vereinen Vorstand plus Marketing- oder Sponsoring-Verantwortliche. Wir nennen vorab eine sinnvolle Gruppengröße.",
-    },
-    {
-      question: "Was ist der Unterschied zu einer Beratung?",
-      answer:
-        "Ein Workshop ist ein kompaktes Arbeitsformat mit klarer Agenda und Ergebnisdokumentation. Beratung kann länger begleiten. Viele starten mit dem Workshop und entscheiden danach über optionale Umsetzung.",
-    },
-    {
-      question: "Können wir den Workshop remote machen?",
-      answer:
-        "Ja. Remote spart Reisezeit und funktioniert mit guter Vorbereitung sehr gut. Für stark diskursive Teams kann Vor-Ort intensiver sein – wir empfehlen das Format je nach Situation.",
+        "Kurze Infos zu Angebot, Zielgruppe und bisherigen Maßnahmen reichen. Den Rest erarbeiten wir gemeinsam.",
     },
   ],
 };
