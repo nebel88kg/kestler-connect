@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import Link from "next/link";
+import { bniLogo } from "@/lib/clientLogos";
 import { createMetadata } from "@/lib/seo";
 import { Breadcrumbs } from "@/components/seo/Breadcrumbs";
 import { ScrollReveal } from "@/components/ui/ScrollReveal";
@@ -53,6 +55,15 @@ const storySections = [
   },
 ];
 
+const leistungenLinks = [
+  { title: "Google Ads in Duisburg und Moers", href: "/leistungen/google-ads" },
+  { title: "Meta Ads Agentur Duisburg", href: "/leistungen/meta-ads" },
+  { title: "Social Media Agentur Duisburg", href: "/leistungen/social-media" },
+  { title: "Performance Marketing", href: "/leistungen/performance-marketing" },
+  { title: "SEO / Local SEO", href: "/leistungen/seo" },
+  { title: "Website erstellen lassen", href: "/leistungen/webseiten" },
+];
+
 export default function UeberUnsPage() {
   return (
     <>
@@ -62,12 +73,54 @@ export default function UeberUnsPage() {
           <h1 className="text-3xl font-extrabold text-white lg:text-5xl">Über mich</h1>
           <p className="mt-4 max-w-2xl text-lg text-gray-300">
             Social Media und Performance Marketing aus Duisburg – für regionale und lokale
-            Unternehmen. Verbindungen schaffen, die Wachstum ermöglichen.
+            Unternehmen in Duisburg, Moers und Umgebung. Persönlich, erreichbar, lokal vernetzt.
           </p>
         </div>
       </section>
 
       <div className="container-custom section-padding">
+        <ScrollReveal>
+          <div className="mb-12 grid gap-4 rounded-2xl border border-accent/20 bg-gray-50 p-6 sm:grid-cols-[140px_1fr] sm:items-center sm:p-8">
+            <div className="mx-auto flex h-24 w-36 items-center justify-center sm:mx-0">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src={bniLogo.src}
+                alt={bniLogo.alt}
+                className="max-h-24 w-auto max-w-full object-contain"
+              />
+            </div>
+            <div>
+              <p className="text-sm font-semibold uppercase tracking-[0.15em] text-accent">
+                Lokal verwurzelt
+              </p>
+              <p className="mt-1 text-lg font-bold text-navy">
+                BNI-Mitglied – lokal vernetzt für Empfehlungen und Wachstum.
+              </p>
+              <p className="mt-2 text-sm text-gray-600">
+                Zusätzlich Sponsoring u. a. für{" "}
+                <a
+                  href="https://share.google/lHKom5w9sywY5CYzV"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-semibold text-accent hover:underline"
+                >
+                  Reit- und Fahrverein Ziethen e.V.
+                </a>
+                , Paul Schröder (Boxer) und{" "}
+                <a
+                  href="https://tusbaerl.de"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-semibold text-accent hover:underline"
+                >
+                  TuS Baerl
+                </a>
+                .
+              </p>
+            </div>
+          </div>
+        </ScrollReveal>
+
         <div className="grid items-start gap-12 lg:grid-cols-2">
           <ScrollReveal>
             <div className="relative aspect-[4/5] overflow-hidden rounded-2xl">
@@ -101,7 +154,28 @@ export default function UeberUnsPage() {
         </div>
 
         <ScrollReveal>
-          <div className="mt-16 rounded-2xl bg-gray-50 p-8 text-center lg:p-12">
+          <div className="mt-16 rounded-2xl border border-accent/20 bg-white p-8 lg:p-10">
+            <h2 className="text-2xl font-bold text-anthracite">Leistungen aus einer Hand</h2>
+            <p className="mt-3 max-w-2xl text-gray-600">
+              Persönlich betreut aus Duisburg – für Unternehmen in Duisburg, Moers und dem Umkreis.
+            </p>
+            <ul className="mt-6 flex flex-wrap gap-3">
+              {leistungenLinks.map((item) => (
+                <li key={item.href}>
+                  <Link
+                    href={item.href}
+                    className="inline-flex rounded-full border border-accent/30 bg-accent-light/40 px-4 py-2 text-sm font-semibold text-navy transition-colors hover:bg-accent"
+                  >
+                    {item.title}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </ScrollReveal>
+
+        <ScrollReveal>
+          <div className="mt-12 rounded-2xl bg-gray-50 p-8 text-center lg:p-12">
             <h2 className="text-2xl font-bold text-anthracite">Bereit für den nächsten Schritt?</h2>
             <p className="mt-4 text-gray-600">
               Lassen Sie uns in einem unverbindlichen Gespräch herausfinden, wie ich Ihnen helfen kann.
