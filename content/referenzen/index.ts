@@ -8,23 +8,24 @@ export const referenzen: ReferenzCase[] = [
     client: "DnM – Dämmstoffe nach Maß",
     industry: "Dämmstoffe",
     excerpt:
-      "SEO auf Google Seite 1 und Social Media für DnM – Dämmstoffe nach Maß.",
+      "Social-Media-Videos, Leitfaden für LinkedIn und Instagram, SEO und SEA: DnM ist heute bei Google auf Seite 1 zu finden und hat so bereits neue Kunden gewonnen.",
     situation:
-      "DnM (Dämmstoffe nach Maß) wollte online besser gefunden werden und einen professionelleren Social-Media-Auftritt. Ziel war organische Sichtbarkeit bei Google – ergänzt durch regelmäßige Social-Media-Impulse.",
+      "DnM (Dämmstoffe nach Maß) wollte online besser gefunden werden und einen professionelleren Social-Media-Auftritt. Ziel war mehr Sichtbarkeit bei Google – über SEO und SEA – ergänzt durch Social-Media-Videos und eine klare Linie für LinkedIn und Instagram.",
     measures: [
-      "SEO-Maßnahmen mit Fokus auf lokale und produktrelevante Suchanfragen",
-      "Struktur und Inhalte der digitalen Präsenz für bessere Auffindbarkeit",
-      "Begleitende Social-Media-Betreuung mit klarer Linie",
-      "Abstimmung von organischer Suche und Social Content",
+      "Produktion von Social-Media-Videos",
+      "Klarer Leitfaden für LinkedIn und Instagram",
+      "SEO-Unterstützung: Struktur und Inhalte der digitalen Präsenz für bessere Auffindbarkeit bei Google",
+      "Unterstützung bei SEA mit Google Ads",
     ],
     results: [
-      "Sichtbarkeit auf Google Seite 1 für relevante Suchanfragen",
-      "Klarerer, professionellerer Auftritt in Social Media",
-      "Bessere digitale Basis für Anfragen und Weiterempfehlungen",
+      "Bei Google auf Seite 1 sichtbar",
+      "Dadurch bereits neue Kunden gewonnen",
+      "Klare Linie für LinkedIn und Instagram – mit eigenen Social-Media-Videos",
     ],
     testimonial: dnmTestimonial,
     relatedServices: [
       { title: "SEO / Local SEO", href: "/leistungen/seo" },
+      { title: "Google Ads in Duisburg und Moers", href: "/leistungen/google-ads" },
       { title: "Social Media Agentur Duisburg", href: "/leistungen/social-media" },
     ],
   },
