@@ -7,7 +7,7 @@ export const performanceMarketingHub: LandingPage = {
   meta: {
     title: "Performance Marketing Agentur Duisburg | Google & Meta Ads | Kestler Connect",
     description:
-      "Performance Marketing Agentur Duisburg: Google Ads, Meta Ads, Leadgewinnung und Landingpages mit messbarem ROI – für Handwerk, Vereine und KMU im Ruhrgebiet.",
+      "Performance Marketing Agentur Duisburg: Google Ads, Meta Ads, Leadgewinnung und Landingpages mit messbarem ROI – für regionale und lokale Unternehmen im Ruhrgebiet und NRW.",
     keywords: [
       "performance marketing agentur",
       "performance marketing duisburg",
@@ -20,7 +20,7 @@ export const performanceMarketingHub: LandingPage = {
   hero: {
     headline: "Performance Marketing Agentur Duisburg – messbare Anfragen statt Streuverlust",
     subheadline:
-      "Google Ads, Meta Ads, Leadgewinnung und Landingpages aus einer Hand – für Handwerk, Vereine und wachsende KMU in Duisburg und im Ruhrgebiet.",
+      "Google Ads, Meta Ads, Leadgewinnung und Landingpages aus einer Hand – für regionale und lokale Unternehmen in Duisburg, im Ruhrgebiet und in NRW.",
   },
   intro: {
     title: "Was ist Performance Marketing?",
@@ -28,7 +28,7 @@ export const performanceMarketingHub: LandingPage = {
       "Performance Marketing bedeutet Werbung, die sich an Ergebnissen messen lässt: Anfragen, Termine, Bewerbungen oder Buchungen – nicht nur an Klicks oder Reichweite. Jeder Euro soll nachvollziehbar wirken.",
       "Bei Kestler Connect verbinden wir dafür die Kanäle, die für lokale und regionale Unternehmen am stärksten greifen: [Google Ads](/leistungen/google-ads) für aktive Suchintention, [Meta Ads](/leistungen/meta-ads) für gezielte Ansprache auf Facebook und Instagram, strukturierte [Leadgewinnung](/leistungen/leadgewinnung) sowie Landingpages, die aus Traffic echte Kontakte machen.",
       "Als Social-Media-Agentur aus Duisburg denken wir Ads nie isoliert: Organischer Content über unsere [Social Media Agentur](/leistungen/social-media) und eine conversion-starke [Website](/leistungen/webseiten) machen Kampagnen glaubwürdiger und effizienter – aus einer Hand.",
-      "Gerade Handwerk, Vereine und KMU im Ruhrgebiet brauchen planbare Anfragen, transparente Kosten pro Lead und jemanden, der Tracking, Creatives und Optimierung zusammenhält.",
+      "Gerade regionale und lokale Unternehmen im Ruhrgebiet brauchen planbare Anfragen, transparente Kosten pro Lead und jemanden, der Tracking, Creatives und Optimierung zusammenhält.",
       "Deshalb starten wir mit Klarheit: Wen wollen Sie erreichen? Welches Angebot ist greifbar genug für eine Anfrage? Wie schnell können Sie reagieren? Erst danach skalieren wir Media-Budgets – dort, wo Qualität und Wirtschaftlichkeit stimmen.",
     ],
   },
@@ -40,9 +40,9 @@ export const performanceMarketingHub: LandingPage = {
       "Auch wenn Sie bereits Ads geschaltet haben und unzufrieden sind: Oft fehlen Tracking, klare Angebote oder eine conversion-starke Seite. Dann lohnt ein strukturierter Neuaufbau.",
     ],
     points: [
-      "Handwerksbetriebe mit regionalem Einzugsgebiet",
-      "Vereine, Clubs und Netzwerke mit Mitglieder- oder Eventzielen",
-      "Lokale Dienstleister und Beratungsangebote",
+      "Regionale und lokale Unternehmen mit klarem Einzugsgebiet",
+      "Lokale Dienstleister und Handel",
+      "Betriebe mit Event-, Kurs- oder Mitgliederzielen",
       "KMU, die Leads und Mitarbeiter parallel gewinnen wollen",
       "Unternehmen mit bestehendem Ads-Account ohne klare KPI",
       "Teams, die Google, Meta und Landingpages verzahnen wollen",
@@ -214,7 +214,12 @@ export const performanceMarketingHub: LandingPage = {
     {
       question: "Für welche Branchen eignet sich Performance Marketing in Duisburg?",
       answer:
-        "Besonders für Handwerk, lokale Dienstleistungen, Vereine/Clubs, Events und KMU mit regionalem Einzugsgebiet.",
+        "Für regionale und lokale Unternehmen mit Einzugsgebiet in Duisburg, Ruhrgebiet oder NRW – etwa Dienstleister, Handel, Events und wachsende KMU. Branchenspezifische Kampagnen (z. B. Mitglieder oder Kurse) sind Beispiele, nicht die einzige Zielgruppe.",
+    },
+    {
+      question: "Google Ads oder Meta Ads für lokale Betriebe?",
+      answer:
+        "Google Ads greifen vorhandene Suchnachfrage ab; Meta Ads erzeugen Sichtbarkeit und Leads auf Facebook und Instagram. Oft ist ein abgestimmter Mix über unsere [Google Ads](/leistungen/google-ads)- und [Meta Ads](/leistungen/meta-ads)-Betreuung am wirtschaftlichsten – ergänzt durch [Social Media Marketing](/leistungen/social-media).",
     },
     {
       question: "Wie schnell sehe ich erste Ergebnisse?",
