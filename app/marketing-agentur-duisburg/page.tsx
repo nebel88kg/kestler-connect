@@ -9,6 +9,7 @@ import { Breadcrumbs } from "@/components/seo/Breadcrumbs";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { Button } from "@/components/ui/Button";
 import { Card } from "@/components/ui/Card";
+import { Accordion } from "@/components/ui/Accordion";
 
 const PATH = "/marketing-agentur-duisburg";
 
@@ -378,28 +379,8 @@ export default function MarketingAgenturDuisburgPage() {
           <h2 className="mb-12 text-center text-2xl font-bold text-anthracite lg:text-4xl">
             Häufige Fragen – kurz beantwortet
           </h2>
-          {/* Native <details>: alle Antworten stehen im HTML (auch für Such- und KI-Crawler). */}
-          <div className="mx-auto max-w-3xl space-y-3">
-            {faqItems.map((item, index) => (
-              <details
-                key={item.question}
-                open={index === 0}
-                className="group overflow-hidden rounded-2xl border border-gray-200 bg-white"
-              >
-                <summary className="flex min-h-12 cursor-pointer list-none items-center justify-between gap-3 px-4 py-4 text-left text-sm font-semibold text-anthracite transition-colors hover:bg-gray-50 sm:px-6 sm:text-base [&::-webkit-details-marker]:hidden">
-                  <h3 className="pr-4">{item.question}</h3>
-                  <span
-                    className="flex h-6 w-6 shrink-0 items-center justify-center text-xl text-accent transition-transform group-open:rotate-45"
-                    aria-hidden="true"
-                  >
-                    +
-                  </span>
-                </summary>
-                <div className="border-t border-gray-100 px-4 py-4 text-sm leading-relaxed text-gray-600 sm:px-6 sm:py-5 sm:text-base">
-                  {item.answer}
-                </div>
-              </details>
-            ))}
+          <div className="mx-auto max-w-3xl">
+            <Accordion items={faqItems} headingLevel="h3" />
           </div>
         </div>
       </section>

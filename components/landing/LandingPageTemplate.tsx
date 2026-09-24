@@ -8,56 +8,13 @@ import { ScrollReveal } from "@/components/ui/ScrollReveal";
 import { Breadcrumbs } from "@/components/seo/Breadcrumbs";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { WebsitePricing } from "@/components/pricing/WebsitePricing";
-import { createBreadcrumbsFromPath } from "@/lib/seo";
+import { createBreadcrumbsFromPath, createFaqSchema } from "@/lib/seo";
+import { renderInline } from "@/lib/inlineMarkdown";
 import { leistungenNav } from "@/lib/navigation";
 import Link from "next/link";
-import type { ReactNode } from "react";
 
 interface LandingPageTemplateProps {
   page: LandingPage;
-}
-
-function renderInline(text: string): ReactNode[] {
-  const nodes: ReactNode[] = [];
-  const pattern = /(\[([^\]]+)\]\(([^)]+)\)|\*\*([^*]+)\*\*)/g;
-  let lastIndex = 0;
-  let match: RegExpExecArray | null;
-  let key = 0;
-
-  while ((match = pattern.exec(text)) !== null) {
-    if (match.index > lastIndex) {
-      nodes.push(text.slice(lastIndex, match.index));
-    }
-
-    if (match[2] && match[3]) {
-      const href = match[3];
-      const isInternal = href.startsWith("/");
-      nodes.push(
-        <Link
-          key={key++}
-          href={href}
-          className="font-semibold text-accent underline-offset-2 hover:underline"
-          {...(!isInternal ? { target: "_blank", rel: "noopener noreferrer" } : {})}
-        >
-          {match[2]}
-        </Link>
-      );
-    } else if (match[4]) {
-      nodes.push(
-        <strong key={key++} className="font-semibold text-anthracite">
-          {match[4]}
-        </strong>
-      );
-    }
-
-    lastIndex = match.index + match[0].length;
-  }
-
-  if (lastIndex < text.length) {
-    nodes.push(text.slice(lastIndex));
-  }
-
-  return nodes;
 }
 
 function TextSection({
@@ -116,15 +73,7 @@ export function LandingPageTemplate({ page }: LandingPageTemplateProps) {
   const related = navSection?.children || [];
   const relatedHubs = page.relatedHubs || [];
 
-  const faqSchema = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: page.faq.map((item) => ({
-      "@type": "Question",
-      name: item.question,
-      acceptedAnswer: { "@type": "Answer", text: item.answer },
-    })),
-  };
+  const faqSchema = createFaqSchema(page.faq);
 
   return (
     <>
