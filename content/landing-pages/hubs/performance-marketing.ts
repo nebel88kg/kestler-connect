@@ -5,12 +5,13 @@ export const performanceMarketingHub: LandingPage = {
   path: "/leistungen/performance-marketing",
   category: "performance-marketing",
   meta: {
-    title: "Performance Marketing Agentur Duisburg | Google & Meta Ads | Kestler Connect",
+    title: "Performance Marketing Duisburg & Moers | Google & Meta | Kestler Connect",
     description:
-      "Performance Marketing Agentur Duisburg: Google Ads, Meta Ads, Leadgewinnung und Landingpages mit messbarem ROI – für regionale und lokale Unternehmen im Ruhrgebiet und NRW.",
+      "Performance Marketing Agentur Duisburg und Moers: Google Ads, Meta Ads und Leadgewinnung mit messbarem ROI – Ruhrgebiet und NRW.",
     keywords: [
       "performance marketing agentur",
       "performance marketing duisburg",
+      "performance marketing moers",
       "google ads agentur",
       "meta ads agentur",
       "leadgewinnung",
@@ -18,28 +19,42 @@ export const performanceMarketingHub: LandingPage = {
     ],
   },
   hero: {
-    headline: "Performance Marketing Agentur Duisburg – messbare Anfragen statt Streuverlust",
+    headline: "Performance Marketing Duisburg & Moers – messbare Anfragen",
     subheadline:
-      "Google Ads, Meta Ads und Leadgewinnung aus einer Hand – für regionale und lokale Unternehmen in Duisburg und Umgebung.",
+      "Google Ads, Meta Ads und Leadgewinnung aus einer Hand – für regionale Unternehmen in Duisburg, Moers und dem Ruhrgebiet.",
   },
   intro: {
     title: "Was ist Performance Marketing?",
     paragraphs: [
       "Performance Marketing heißt: Werbung an Ergebnissen messen – Anfragen, Termine, Bewerbungen. Nicht nur an Klicks oder Reichweite.",
-      "Wir verbinden [Google Ads](/leistungen/google-ads), [Meta Ads](/leistungen/meta-ads), [Leadgewinnung](/leistungen/leadgewinnung) und Landingpages – abgestimmt mit [Social Media](/leistungen/social-media) und Ihrer [Website](/leistungen/webseiten).",
+      "Wir verbinden [Google Ads in Duisburg und Moers](/leistungen/google-ads), [Meta Ads](/leistungen/meta-ads), [Leadgewinnung](/leistungen/leadgewinnung) und Landingpages – abgestimmt mit [Social Media](/leistungen/social-media) und Ihrer [Website](/leistungen/webseiten).",
     ],
   },
   audience: {
     title: "Für wen eignet sich Performance Marketing?",
     paragraphs: [
-      "Für Unternehmen, deren Wachstum an planbaren Anfragen hängt – und die wissen wollen, welcher Kanal wirklich Aufträge bringt.",
+      "Für Unternehmen in Duisburg, Moers und Umgebung, deren Wachstum an planbaren Anfragen hängt – und die wissen wollen, welcher Kanal wirklich Aufträge bringt.",
     ],
     points: [
       "Regionale und lokale Unternehmen mit klarem Einzugsgebiet",
-      "Lokale Dienstleister und Handel",
+      "Lokale Dienstleister und Handel in Duisburg und Moers",
       "Betriebe mit Event-, Kurs- oder Mitgliederzielen",
       "KMU, die Leads und Mitarbeiter parallel gewinnen wollen",
       "Teams, die Google, Meta und Landingpages verzahnen wollen",
+    ],
+  },
+  serviceArea: {
+    title: "Einzugsgebiet – vor Ort & digital",
+    paragraphs: [
+      "Performance Marketing mit lokalem Fokus: Duisburg und Moers als Schwerpunkt, plus Umkreis im Ruhrgebiet und NRW.",
+    ],
+    points: [
+      "Duisburg",
+      "Moers",
+      "Oberhausen",
+      "Mülheim an der Ruhr",
+      "Krefeld",
+      "Düsseldorf / Ruhrgebiet & NRW",
     ],
   },
   problem: {
@@ -55,7 +70,7 @@ export const performanceMarketingHub: LandingPage = {
   solution: {
     title: "Performance Marketing mit System",
     content:
-      "Strategie, Kanäle und Conversion: [Google Ads](/leistungen/google-ads) und [Meta Ads](/leistungen/meta-ads) für Nachfrage, klare Lead-Formulare, conversion-starke Seiten und Tracking – inkl. Abstimmung mit [Social Media](/leistungen/social-media).",
+      "Strategie, Kanäle und Conversion: [Google Ads](/leistungen/google-ads) und [Meta Ads Agentur Duisburg](/leistungen/meta-ads) für Nachfrage, klare Lead-Formulare, conversion-starke Seiten und Tracking – inkl. Abstimmung mit [Social Media Agentur Duisburg](/leistungen/social-media).",
   },
   benefits: [
     {
@@ -80,7 +95,7 @@ export const performanceMarketingHub: LandingPage = {
     },
     {
       title: "Lokale Expertise",
-      description: "Kampagnen für Duisburg, Ruhrgebiet und NRW – ohne Streuverlust.",
+      description: "Kampagnen für Duisburg, Moers, Ruhrgebiet und NRW – ohne Streuverlust.",
       icon: "map",
     },
     {
@@ -134,6 +149,33 @@ export const performanceMarketingHub: LandingPage = {
       },
     ],
   },
+  relatedHubs: [
+    {
+      title: "Google Ads in Duisburg und Moers",
+      href: "/leistungen/google-ads",
+      description: "Suchanzeigen mit messbaren Anfragen.",
+    },
+    {
+      title: "Meta Ads Agentur Duisburg",
+      href: "/leistungen/meta-ads",
+      description: "Facebook- und Instagram-Kampagnen für Leads.",
+    },
+    {
+      title: "Social Media Agentur Duisburg",
+      href: "/leistungen/social-media",
+      description: "Content und Betreuung – Ads-ready.",
+    },
+    {
+      title: "SEO / Local SEO",
+      href: "/leistungen/seo",
+      description: "Organische Sichtbarkeit als langfristige Basis.",
+    },
+    {
+      title: "Website erstellen lassen",
+      href: "/leistungen/webseiten",
+      description: "Landingpages und Homepages für Conversion.",
+    },
+  ],
   references: [
     {
       title: "Golfclub Raffelberg",
@@ -160,7 +202,7 @@ export const performanceMarketingHub: LandingPage = {
     {
       question: "Google Ads oder Meta Ads?",
       answer:
-        "[Google Ads](/leistungen/google-ads) treffen aktive Suche; [Meta Ads](/leistungen/meta-ads) erzeugen Nachfrage und Reichweite. Oft ist der Mix am stärksten.",
+        "[Google Ads](/leistungen/google-ads) treffen aktive Suche; [Meta Ads](/leistungen/meta-ads) erzeugen Nachfrage und Reichweite. Oft ist der Mix am stärksten – lokal in Duisburg und Moers.",
     },
     {
       question: "Ab welchem Budget lohnt sich Performance Marketing?",
@@ -168,9 +210,9 @@ export const performanceMarketingHub: LandingPage = {
         "Für lokale Unternehmen oft ab ca. 500–800 € Media-Budget plus Betreuung. Im Strategiegespräch prüfen wir, ob es sich rechnet.",
     },
     {
-      question: "Brauche ich eine Landingpage?",
+      question: "Arbeitet ihr auch für Unternehmen in Moers?",
       answer:
-        "Meist ja. Eine klare Seite erhöht die Conversion deutlich – wir erstellen oder optimieren sie bei Bedarf.",
+        "Ja. Schwerpunkt ist Duisburg und Moers sowie der Umkreis im Ruhrgebiet – mit lokalem Targeting und klarem Reporting.",
     },
     {
       question: "Wie schnell sehe ich Ergebnisse?",
