@@ -129,27 +129,33 @@ export const workshopsHub: LandingPage = {
   faq: [
     {
       question: "Für wen ist der Startup-Workshop?",
-      answer: "Für Gründer und junge Unternehmen, die Marketing priorisieren wollen, bevor sie laufend Budget investieren.",
+      answer:
+        "Für Gründer und junge Unternehmen, die Marketing priorisieren wollen, bevor sie laufend Budget investieren.",
     },
     {
       question: "Wie lange dauert ein Workshop?",
-      answer: "Typischerweise 5–6 Stunden – kompakt und ergebnisorientiert.",
+      answer:
+        "Typischerweise 5–6 Stunden – kompakt und ergebnisorientiert.",
     },
     {
       question: "Ist danach eine Betreuung Pflicht?",
-      answer: "Nein. Sie können selbst umsetzen oder optional Betreuung, Ads oder Website beauftragen.",
+      answer:
+        "Nein. Sie können selbst umsetzen oder optional Betreuung, Ads oder Website beauftragen.",
     },
     {
       question: "Was ist der Sponsoring-Workshop?",
-      answer: "Ein Format für Vereine und Organisationen, die Partnerschaften und Gegenleistungen klarer aufstellen wollen.",
+      answer:
+        "Ein Format für Vereine und Organisationen, die Partnerschaften und Gegenleistungen klarer aufstellen wollen.",
     },
     {
       question: "Online oder vor Ort?",
-      answer: "Beides möglich – wir stimmen Format und Ort im Vorgespräch ab.",
+      answer:
+        "Beides möglich – wir stimmen Format und Ort im Vorgespräch ab.",
     },
     {
       question: "Was sollte ich vorbereiten?",
-      answer: "Kurze Infos zu Angebot, Zielgruppe und bisherigen Maßnahmen reichen. Den Rest erarbeiten wir gemeinsam.",
+      answer:
+        "Kurze Infos zu Angebot, Zielgruppe und bisherigen Maßnahmen reichen. Den Rest erarbeiten wir gemeinsam.",
     },
   ],
 };
