@@ -1,8 +1,35 @@
+const DEFAULT_SITE_URL = "https://www.kestler-connect.de";
+
+/**
+ * Normalisiert die öffentliche Site-URL (Canonical, Sitemap, robots, OG, JSON-LD):
+ * - Fallback auf https://www.kestler-connect.de, wenn nicht gesetzt oder ungültig
+ * - erzwingt https
+ * - Apex-Domain kestler-connect.de → www.kestler-connect.de
+ *   (die Apex-Domain leitet per 308 auf www weiter)
+ * - entfernt abschließende Slashes
+ */
+export function normalizeSiteUrl(raw: string | undefined): string {
+  const value = raw?.trim();
+  if (!value) return DEFAULT_SITE_URL;
+
+  try {
+    const hasScheme = /^[a-z][a-z\d+.-]*:\/\//i.test(value);
+    const parsed = new URL(hasScheme ? value : `https://${value}`);
+    const host =
+      parsed.hostname === "kestler-connect.de"
+        ? `www.kestler-connect.de${parsed.port ? `:${parsed.port}` : ""}`
+        : parsed.host;
+    return `https://${host}${parsed.pathname}`.replace(/\/+$/, "");
+  } catch {
+    return DEFAULT_SITE_URL;
+  }
+}
+
 export const siteConfig = {
   name: "Kestler Connect",
   description:
     "Social-Media-Agentur und Performance Marketing aus Duisburg für regionale und lokale Unternehmen – Google Ads, Meta Ads, Social Media Marketing und Website-Erstellung.",
-  url: process.env.NEXT_PUBLIC_SITE_URL || "https://www.kestler-connect.de",
+  url: normalizeSiteUrl(process.env.NEXT_PUBLIC_SITE_URL),
   phone: process.env.NEXT_PUBLIC_PHONE || "+49 175 2665058",
   whatsapp: process.env.NEXT_PUBLIC_WHATSAPP || "491752665058",
   email: process.env.CONTACT_EMAIL || "Jascha@kestler-connect.de",
