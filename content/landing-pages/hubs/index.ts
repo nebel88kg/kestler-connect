@@ -7,6 +7,7 @@ import { webseitenHub } from "./webseiten";
 import { workshopsHub } from "./workshops";
 import { leadgewinnungHub } from "./leadgewinnung";
 import { mitarbeitergewinnungHub } from "./mitarbeitergewinnung";
+import { performanceMarketingHub } from "./performance-marketing";
 
 export {
   googleAdsHub,
@@ -17,9 +18,11 @@ export {
   workshopsHub,
   leadgewinnungHub,
   mitarbeitergewinnungHub,
+  performanceMarketingHub,
 };
 
 export const hubLandingPages: LandingPage[] = [
+  performanceMarketingHub,
   googleAdsHub,
   metaAdsHub,
   socialMediaHub,

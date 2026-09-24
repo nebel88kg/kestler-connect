@@ -5,15 +5,21 @@ export const seoHub: LandingPage = {
   path: "/leistungen/seo",
   category: "seo",
   meta: {
-    title: "SEO Agentur – Sichtbarkeit bei Google & Maps",
+    title: "SEO Agentur Duisburg | Local SEO & Google Maps | Kestler Connect",
     description:
-      "SEO und Local SEO für nachhaltige Sichtbarkeit. Google Unternehmensprofil, lokale Keywords und Inhalte, die Anfragen bringen.",
-    keywords: ["seo agentur", "local seo", "suchmaschinenoptimierung", "google maps seo"],
+      "SEO Agentur Duisburg: Local SEO und nachhaltige Sichtbarkeit bei Google und Maps – für regionale und lokale Unternehmen in Duisburg und Umgebung.",
+    keywords: [
+      "seo agentur duisburg",
+      "local seo duisburg",
+      "seo agentur",
+      "suchmaschinenoptimierung",
+      "google maps seo",
+    ],
   },
   hero: {
-    headline: "SEO – nachhaltig gefunden werden",
+    headline: "SEO Agentur Duisburg – nachhaltig gefunden werden",
     subheadline:
-      "Wir stärken Ihre Sichtbarkeit bei Google, Maps und zunehmend auch in KI-Suchen – lokal relevant und auf Anfragen ausgerichtet.",
+      "Sichtbarkeit bei Google, Maps und KI-Suchen für regionale und lokale Unternehmen – lokal relevant und auf Anfragen ausgerichtet.",
   },
   intro: {
     title: "Was ist SEO?",
@@ -38,11 +44,10 @@ export const seoHub: LandingPage = {
       "Besonders lohnenswert ist SEO für Unternehmen, die über mehrere Jahre am Markt bleiben wollen. Während bezahlte Anzeigen sofort stoppen, sobald das Budget endet, bleibt organische Sichtbarkeit auch dann bestehen – sie wächst sogar häufig weiter, wenn kontinuierlich an Inhalten gearbeitet wird.",
     ],
     points: [
-      "Handwerk und lokale Dienstleister",
+      "Regionale und lokale Unternehmen in Duisburg und Umgebung",
+      "Lokale Dienstleister und Handel",
       "Praxen, Kanzleien und Beratungen",
-      "Gastronomie, Hotels und Locations",
-      "Vereine und Clubs mit digitalem Angebot",
-      "Unternehmen mit mehreren Standorten oder Einzugsgebieten",
+      "Standorte und Betriebe mit klarem Einzugsgebiet",
       "Marken, die Ads und organische Suche kombinieren wollen",
       "Unternehmen, die langfristig unabhängiger von Werbebudget werden wollen",
     ],

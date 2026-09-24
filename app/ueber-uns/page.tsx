@@ -6,9 +6,9 @@ import { ScrollReveal } from "@/components/ui/ScrollReveal";
 import { Button } from "@/components/ui/Button";
 
 export const metadata: Metadata = createMetadata({
-  title: "Über Jascha Kestler",
+  title: "Über uns – Social Media & Performance Marketing Duisburg",
   description:
-    "Jascha Kestler, Gründer von Kestler Connect. Wir wachsen mit kleinen und mittelständischen Unternehmen – vom ersten Impuls bis zur Skalierung. Bodenständig, direkt und mit Fokus auf echte Verbindungen.",
+    "Kestler Connect ist eine Social-Media- und Performance-Marketing-Agentur aus Duisburg für regionale und lokale Unternehmen – Social Media Marketing, Google Ads, Meta Ads und Website-Erstellung.",
   path: "/ueber-uns",
 });
 
@@ -16,9 +16,9 @@ const storySections = [
   {
     title: "Wer bin ich?",
     paragraphs: [
-      "Ich bin Jascha Kestler – Gründer von Kestler Connect.",
+      "Ich bin Jascha Kestler – Gründer von Kestler Connect, einer Social-Media- und Performance-Marketing-Agentur aus Duisburg für regionale und lokale Unternehmen.",
       "Mein Weg führte vom Handwerk über Sport, Sponsoring und Events bis in die Welt des digitalen Marketings. Genau diese Mischung prägt heute meine Arbeit: bodenständig, direkt und immer mit Blick auf das, was am Ende wirklich zählt – nachhaltiges Wachstum.",
-      "Ob Handwerksbetrieb, Verein oder lokales Unternehmen: Durch meine Erfahrungen in unterschiedlichen Branchen weiß ich, dass erfolgreiche Vermarktung immer mit echten Beziehungen beginnt. Denn hinter jeder Marke, jedem Unternehmen und jedem Verein stehen Menschen.",
+      "Ob lokaler Betrieb, regionales Unternehmen oder wachsender Mittelstand: Durch Erfahrungen in unterschiedlichen Branchen weiß ich, dass erfolgreiche Vermarktung mit echten Beziehungen beginnt. Denn hinter jeder Marke und jedem Unternehmen stehen Menschen.",
     ],
   },
   {
@@ -34,7 +34,7 @@ const storySections = [
     paragraphs: [
       "Wir wollen mit kleinen und mittelständischen Unternehmen zusammenwachsen – vom ersten Impuls bis zur Skalierung.",
       "Manche Betriebe brauchen einen klaren Start: Sichtbarkeit, Struktur und die richtigen Kanäle. Andere sind bereit, das zu skalieren, was bereits funktioniert. Beides begleiten wir partnerschaftlich, praxisnah und mit dem Tempo, das zu Ihrem Unternehmen passt.",
-      "Ob Handwerk, lokaler Dienstleister oder wachsender Mittelstand: Unser Ziel ist nachhaltiges Wachstum – nicht kurzfristige Reichweite um jeden Preis.",
+      "Ob lokaler Dienstleister, regionaler Betrieb oder wachsender Mittelstand: Unser Ziel ist nachhaltiges Wachstum – nicht kurzfristige Reichweite um jeden Preis.",
     ],
   },
   {
@@ -61,7 +61,8 @@ export default function UeberUnsPage() {
           <Breadcrumbs items={[{ label: "Startseite", href: "/" }, { label: "Über uns" }]} variant="dark" />
           <h1 className="text-3xl font-extrabold text-white lg:text-5xl">Über mich</h1>
           <p className="mt-4 max-w-2xl text-lg text-gray-300">
-            Verbindungen schaffen, die Wachstum ermöglichen – bodenständig, direkt und mit Blick auf das, was wirklich zählt.
+            Social Media und Performance Marketing aus Duisburg – für regionale und lokale
+            Unternehmen. Verbindungen schaffen, die Wachstum ermöglichen.
           </p>
         </div>
       </section>
@@ -72,7 +73,7 @@ export default function UeberUnsPage() {
             <div className="relative aspect-[4/5] overflow-hidden rounded-2xl">
               <Image
                 src="/images/JaschaKestler.JPG"
-                alt="Jascha Kestler – Gründer von Kestler Connect"
+                alt="Jascha Kestler – Gründer der Social-Media-Agentur Kestler Connect in Duisburg"
                 fill
                 className="object-cover"
                 sizes="(max-width: 1024px) 100vw, 50vw"

@@ -5,20 +5,25 @@ export const workshopsHub: LandingPage = {
   path: "/leistungen/workshops",
   category: "workshops",
   meta: {
-    title: "Marketing Workshops – für Startups & Vereine",
+    title: "Marketing Workshops Duisburg | Klarheit in wenigen Stunden | Kestler Connect",
     description:
-      "Kompakte Marketing-Workshops mit klaren Ergebnissen. Ideal für Startups und Vereine, die Struktur, Prioritäten und nächste Schritte brauchen.",
-    keywords: ["marketing workshop", "startup workshop", "vereinsmarketing", "sponsoring workshop"],
+      "Kompakte Marketing-Workshops in Duisburg für regionale und lokale Unternehmen sowie Startups – Struktur, Prioritäten und nächste Schritte ohne monatelange Agenturbindung.",
+    keywords: [
+      "marketing workshop duisburg",
+      "marketing workshop",
+      "startup workshop",
+      "marketing workshop unternehmen",
+    ],
   },
   hero: {
-    headline: "Workshops – Klarheit in wenigen Stunden",
+    headline: "Marketing Workshops Duisburg – Klarheit in wenigen Stunden",
     subheadline:
-      "Kompakte Formate für Startups und Vereine: Positionierung, Kanäle, Sponsoring und umsetzbare nächste Schritte – ohne monatelange Agenturbindung.",
+      "Kompakte Formate für regionale und lokale Unternehmen sowie Startups: Positionierung, Kanäle und umsetzbare nächste Schritte – ohne monatelange Agenturbindung.",
   },
   intro: {
     title: "Was sind unsere Marketing-Workshops?",
     paragraphs: [
-      "Nicht jedes Unternehmen oder jeder Verein braucht sofort eine laufende Full-Service-Betreuung. Manchmal fehlt zuerst Klarheit: Welche Kanäle lohnen sich? Was ist die Positionierung? Wie spreche ich Sponsoren an? Welche Maßnahmen haben Priorität?",
+      "Nicht jedes regionale oder lokale Unternehmen braucht sofort eine laufende Full-Service-Betreuung. Manchmal fehlt zuerst Klarheit: Welche Kanäle lohnen sich? Was ist die Positionierung? Wie spreche ich Sponsoren an? Welche Maßnahmen haben Priorität?",
       "Unsere Workshops sind praxisnahe Arbeitsformate – typischerweise fünf bis sechs Stunden – mit konkreten Ergebnissen statt Folienfriedhof. Sie gehen mit einer klaren Roadmap, priorisierten Maßnahmen und dem Gefühl, endlich zu wissen, was als Nächstes dran ist.",
       "Aktuell bieten wir spezialisierte Formate für Startups und für Vereine (Marketing & Sponsoring). Danach können Sie selbst umsetzen – oder wir begleiten optional die Umsetzung.",
       "Der Ablauf ist bewusst interaktiv statt frontal: Statt Ihnen eine fertige Strategie zu präsentieren, erarbeiten wir gemeinsam mit Ihnen und Ihrem Team die Antworten. So entsteht ein Ergebnis, hinter dem die gesamte Gruppe steht – und nicht nur eine externe Meinung, die im Nachhinein niemand konsequent umsetzt.",
@@ -41,7 +46,7 @@ export const workshopsHub: LandingPage = {
     points: [
       "Startups und junge Unternehmen",
       "Gründerteams ohne festes Marketing",
-      "Vereinsvorstände und Sponsoring-Verantwortliche",
+      "Organisationen mit Sponsoring- oder Partnerschaftszielen",
       "Organisationen vor einem Relaunch oder Wachstumsschritt",
       "Teams, die vor Ads/Social erst Strategie klären wollen",
       "Gruppen, die intern Alignment brauchen",
@@ -63,7 +68,7 @@ export const workshopsHub: LandingPage = {
   solution: {
     title: "Workshop statt Dauerbaustelle",
     content:
-      "In einem kompakten Format schaffen wir Orientierung, priorisieren Maßnahmen und machen die nächsten Schritte konkret – für Startups und Vereine.",
+      "In einem kompakten Format schaffen wir Orientierung, priorisieren Maßnahmen und machen die nächsten Schritte konkret – für lokale Unternehmen und Startups.",
   },
   benefits: [
     {

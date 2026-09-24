@@ -18,7 +18,7 @@ export function Footer() {
             <Link href="/" className="inline-block rounded-xl bg-white p-3">
               <Image
                 src="/images/logo.png"
-                alt="Kestler Connect"
+                alt="Kestler Connect – Social-Media-Agentur Duisburg"
                 width={160}
                 height={56}
                 className="h-12 w-auto object-contain"
@@ -28,12 +28,16 @@ export function Footer() {
               Verbindungen, die Wachstum schaffen.
             </p>
             <p className="mt-3 max-w-sm text-sm leading-relaxed text-gray-400">
-              Performance-Marketing, Webseiten und Social Media für Handwerk, Vereine und wachsende
-              Unternehmen.
+              {siteConfig.description}
             </p>
             <div className="mt-6 space-y-2 text-sm text-gray-400">
+              <p>
+                {siteConfig.address.streetAddress}
+                <br />
+                {siteConfig.address.postalCode} {siteConfig.address.addressLocality}
+              </p>
               <a
-                href={`tel:${siteConfig.phone}`}
+                href={`tel:${siteConfig.phone.replace(/\s/g, "")}`}
                 className="block transition-colors hover:text-accent"
               >
                 {siteConfig.phone}

@@ -5,15 +5,21 @@ export const leadgewinnungHub: LandingPage = {
   path: "/leistungen/leadgewinnung",
   category: "leadgewinnung",
   meta: {
-    title: "Leadgewinnung – qualifizierte Anfragen gewinnen",
+    title: "Leadgewinnung Duisburg | Qualifizierte Anfragen | Kestler Connect",
     description:
-      "Leadgewinnung mit Google Ads, Meta Ads und Landingpages. Messbar, planbar und auf echte Interessenten ausgerichtet.",
-    keywords: ["leadgewinnung", "leads generieren", "anfragen gewinnen", "performance marketing"],
+      "Leadgewinnung in Duisburg und Umgebung: Google Ads, Meta Ads und Landingpages für regionale und lokale Unternehmen – messbar und planbar.",
+    keywords: [
+      "leadgewinnung duisburg",
+      "leadgewinnung",
+      "leads generieren",
+      "anfragen gewinnen",
+      "performance marketing duisburg",
+    ],
   },
   hero: {
-    headline: "Leadgewinnung – Anfragen, die zu Kunden werden",
+    headline: "Leadgewinnung Duisburg – Anfragen, die zu Kunden werden",
     subheadline:
-      "Wir bringen qualifizierte Interessenten zu Ihnen: über die richtigen Kanäle, mit klaren Botschaften und Seiten, die konvertieren.",
+      "Für regionale und lokale Unternehmen: qualifizierte Interessenten über die richtigen Kanäle, mit klaren Botschaften und Seiten, die konvertieren.",
   },
   intro: {
     title: "Was ist Leadgewinnung?",
@@ -33,13 +39,14 @@ export const leadgewinnungHub: LandingPage = {
   audience: {
     title: "Für wen eignet sich Leadgewinnung?",
     paragraphs: [
-      "Für Unternehmen, deren Wachstum an planbaren Anfragen hängt: Beratungstermine, Angebotsanfragen, Kursbuchungen, Event-Interessenten oder Verkaufsgespräche.",
+      "Für regionale und lokale Unternehmen, deren Wachstum an planbaren Anfragen hängt: Beratungstermine, Angebotsanfragen, Kursbuchungen, Event-Interessenten oder Verkaufsgespräche.",
       "Besonders stark ist Leadgewinnung, wenn der Auftragswert die Kosten pro Lead klar übersteigt und Vertrieb oder Service Anfragen zeitnah bearbeiten können.",
       "Auch Unternehmen, die bereits vereinzelt Ads schalten, aber keinen klaren Überblick über Kosten pro Lead und Herkunft der Anfragen haben, profitieren von einem strukturierten Leadgewinnungs-Ansatz: Statt mehrerer unkoordinierter Maßnahmen entsteht ein zusammenhängendes System mit klarer Verantwortlichkeit.",
       "Wenn Sie bereits Ads geschaltet haben und unzufrieden sind, starten wir mit einem ehrlichen Audit: Was verbrennt Budget? Was fehlt beim Tracking? Welche Angebote und Seiten bremsen die Conversion? Daraus entsteht ein Verbesserungsplan mit klaren Hebeln – oft wirkungsvoller als einfach nur mehr Geld in denselben Aufbau zu stecken.",
     ],
     points: [
-      "Lokale Dienstleister und Handwerk",
+      "Regionale und lokale Unternehmen in Duisburg und Umgebung",
+      "Lokale Dienstleister und Handel",
       "Beratungsintensive Angebote mit Terminlogik",
       "Event- und Kursanbieter",
       "B2B- und B2C-Unternehmen mit klarem Einzugsgebiet",

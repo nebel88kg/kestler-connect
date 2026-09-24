@@ -4,23 +4,26 @@ import { ScrollReveal } from "@/components/ui/ScrollReveal";
 
 const services = [
   {
-    title: "Performance Marketing",
-    description: "Gezielte Werbekampagnen mit messbarem ROI für Ihr Unternehmen.",
-    items: ["Google Ads", "Meta Ads", "Leadgenerierung", "Mitarbeitergewinnung"],
-    href: "/leistungen/google-ads",
-    color: "bg-accent-light border border-accent/20",
-  },
-  {
-    title: "Social Media",
-    description: "Professioneller Auftritt und Content, der Ihre Zielgruppe erreicht.",
+    title: "Social Media Agentur",
+    description:
+      "Social Media Marketing aus Duisburg – Content und Betreuung, die Ihre Zielgruppe erreicht.",
     items: ["Content Produktion", "Reel Erstellung", "Community Management"],
     href: "/leistungen/social-media",
     color: "bg-navy/5 border border-navy/10",
   },
   {
-    title: "Webseiten",
-    description: "Moderne Webseiten und Landingpages, die Besucher zu Kunden machen.",
-    items: ["Webdesign", "Landingpages", "Pakete ab 1.500 €"],
+    title: "Performance Marketing",
+    description:
+      "Performance Marketing Duisburg – Google Ads und Meta Ads mit messbarem ROI.",
+    items: ["Google Ads", "Meta Ads", "Leadgenerierung", "Mitarbeitergewinnung"],
+    href: "/leistungen/performance-marketing",
+    color: "bg-accent-light border border-accent/20",
+  },
+  {
+    title: "Website-Erstellung",
+    description:
+      "Website erstellen lassen in Duisburg – Homepages und Landingpages für regionale und lokale Unternehmen.",
+    items: ["Webdesign Duisburg", "Landingpages", "Pakete ab 1.500 €"],
     href: "/leistungen/webseiten#preise",
     color: "bg-accent-light/60 border border-accent/15",
   },
@@ -33,8 +36,8 @@ const services = [
   },
   {
     title: "Workshops",
-    description: "Kompakte Formate für Startups und Vereine – ohne großes Marketing-Budget.",
-    items: ["Startup Marketing (5–6 Std.)", "Marketing & Sponsoring für Vereine"],
+    description: "Kompakte Formate für lokale Unternehmen und Startups – ohne großes Marketing-Budget.",
+    items: ["Startup Marketing (5–6 Std.)", "Marketing & Sponsoring Workshop"],
     href: "/leistungen/workshops",
     color: "bg-accent-light/60 border border-accent/15",
   },

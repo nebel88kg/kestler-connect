@@ -6,43 +6,48 @@ export const webseitenHub: LandingPage = {
   category: "webseiten",
   showWebsitePricing: true,
   meta: {
-    title: "Webseiten & Webdesign – conversion-stark und modern",
+    title: "Website erstellen lassen | Webdesign Duisburg | Kestler Connect",
     description:
-      "Moderne Webseiten und Landingpages, die Vertrauen aufbauen und Anfragen generieren. Klare Pakete: Basic, Standard, Premium.",
-    keywords: ["webdesign", "webseite erstellen lassen", "landingpage", "homepage agentur"],
+      "Website erstellen lassen in Duisburg: modernes Webdesign und Homepages für regionale und lokale Unternehmen – conversion-stark, mobil und kampagnen-ready. Klare Pakete ab 1.500 €.",
+    keywords: [
+      "website erstellen lassen",
+      "webdesign duisburg",
+      "homepage erstellen",
+      "landingpage",
+      "website agentur duisburg",
+    ],
   },
   hero: {
-    headline: "Webseiten, die Anfragen generieren",
+    headline: "Website erstellen lassen – Webdesign Duisburg für regionale & lokale Unternehmen",
     subheadline:
-      "Klar, schnell und conversion-stark – für Unternehmen, die online professionell wirken und aus Besuchern Kontakte machen wollen.",
+      "Homepages und Landingpages, die Vertrauen aufbauen und Anfragen generieren – klar, schnell und conversion-stark. Ergänzend zu Social Media und Performance Marketing.",
   },
   intro: {
-    title: "Was macht eine gute Unternehmens-Website aus?",
+    title: "Website erstellen lassen: Was macht eine gute Unternehmens-Website aus?",
     paragraphs: [
       "Eine Website ist heute mehr als eine digitale Visitenkarte. Sie ist Vertrauensbeweis, Verkaufshilfe und oft der Ort, an dem aus Interesse eine Anfrage wird – besonders wenn Google Ads, Meta Ads oder SEO Traffic liefern.",
-      "Gute Websites laden schnell, funktionieren mobil einwandfrei, erklären Ihr Angebot klar und machen den nächsten Schritt offensichtlich: anrufen, Formular senden, Termin buchen. Design ist dabei Mittel zum Zweck – nicht Selbstzweck.",
-      "Bei Kestler Connect bauen wir Webseiten und Landingpages mit Fokus auf Wirkung: Struktur, Botschaft, Vertrauen und Conversion. Ob Relaunch oder Neustart – das Ziel ist eine Seite, die zu Ihrem Marketing-System passt.",
-      "Dazu gehört auch, dass wir nicht einfach „schön“ gestalten, sondern jede Seite entlang eines klaren Besucherpfads aufbauen: Was soll ein Besucher als Erstes verstehen, welchen Einwand muss die Seite ausräumen, und welcher Call-to-Action passt zum jeweiligen Punkt im Entscheidungsprozess. Diese Struktur entscheidet oft mehr über die Anfragenzahl als reine Optik.",
-      "Technisch setzen wir auf moderne, wartungsarme Systeme, die schnell laden und sich einfach erweitern lassen – etwa um neue Landingpages für Kampagnen oder zusätzliche Unterseiten, wenn Ihr Angebot wächst.",
+      "Wer in Duisburg und im Ruhrgebiet eine Website erstellen lassen möchte, braucht kein Design um des Designs willen: Die Seite soll mobil einwandfrei funktionieren, Ihr Angebot klar erklären und den nächsten Schritt offensichtlich machen – anrufen, Formular senden, Termin buchen.",
+      "Bei Kestler Connect verbinden wir Webdesign mit Marketing: Ob Homepage für regionale und lokale Unternehmen oder Landingpages für Kampagnen – die Seite passt zu [Performance Marketing](/leistungen/performance-marketing), [Google Ads](/leistungen/google-ads), [Meta Ads](/leistungen/meta-ads) und unserer Arbeit als [Social-Media-Agentur](/leistungen/social-media). Alles aus einer Hand, ohne Medienbruch.",
+      "Dazu gehört, dass wir jede Seite entlang eines klaren Besucherpfads aufbauen: Was soll ein Besucher als Erstes verstehen, welchen Einwand muss die Seite ausräumen, und welcher Call-to-Action passt zum Entscheidungsprozess? Diese Struktur entscheidet oft mehr über Anfragen als reine Optik.",
+      "Technisch setzen wir auf moderne, wartungsarme Systeme, die schnell laden und sich erweitern lassen – etwa um neue Landingpages für Kampagnen oder zusätzliche Unterseiten, wenn Ihr Angebot wächst.",
       "Viele Websites scheitern nicht am Design, sondern an unklarer Struktur: Besucher finden Leistungen nicht, verstehen den Unterschied zum Wettbewerb nicht oder wissen nicht, wie sie Kontakt aufnehmen sollen. Wir bauen Seiten so, dass der Weg zur Anfrage kurz und logisch ist.",
-      "Technik und Inhalt gehören zusammen. Schnelle Ladezeiten, mobile Nutzbarkeit, saubere Meta-Daten und nachvollziehbare Texte sind keine „Extras“, sondern Voraussetzungen für Vertrauen und Conversion – besonders wenn Ads Traffic liefern.",
-      "Je nach Ziel empfehlen wir eine vollständige Unternehmenswebsite oder fokussierte Landingpages. Oft ist die Kombination am stärksten: Markenseite für Vertrauen, Landingpages für konkrete Kampagnen.",
-      "Wir gestalten Websites so, dass sie in realen Nutzungssituationen funktionieren: auf dem Smartphone zwischen Tür und Angel, auf dem Desktop im Vergleich mit Wettbewerbern, nach einem Klick aus einer Anzeige. Jede dieser Situationen braucht Klarheit und Vertrauen – und genau darauf optimieren wir Texte, Struktur und Technik.",
+      "Technik und Inhalt gehören zusammen. Schnelle Ladezeiten, mobile Nutzbarkeit, saubere Meta-Daten und nachvollziehbare Texte sind Voraussetzungen für Vertrauen und Conversion – besonders wenn Ads Traffic liefern.",
+      "Je nach Ziel empfehlen wir eine vollständige Unternehmenswebsite oder fokussierte Landingpages. Oft ist die Kombination am stärksten: Markenseite für Vertrauen, Landingpages für konkrete Kampagnen – abgestimmt auf Ads und Social Media.",
       "Nach dem Launch können wir die Seite weiterentwickeln: neue Landingpages, SEO-Inhalte, Tracking-Feinschliff oder Conversion-Tests. So wird Ihre Website zum aktiven Bestandteil Ihres Marketings statt zu einer einmaligen Broschüre im Netz.",
     ],
   },
   audience: {
-    title: "Für wen eignet sich eine neue Website?",
+    title: "Für wen eignet sich Webdesign aus Duisburg?",
     paragraphs: [
-      "Für Unternehmen und Organisationen, deren aktuelle Seite veraltet wirkt, keine Anfragen bringt oder Kampagnen ausbremst. Auch wer neu startet oder Sponsoren, Bewerber und Kunden professionell überzeugen will, braucht eine moderne Basis.",
+      "Für regionale und lokale Unternehmen, deren aktuelle Seite veraltet wirkt, keine Anfragen bringt oder Kampagnen ausbremst. Auch wer neu startet oder Bewerber und Kunden professionell überzeugen will, braucht eine moderne Basis.",
       "Besonders kritisch wird eine schwache Website, sobald Werbebudget fließt: Jeder Klick kostet – und eine unklare Seite vernichtet diesen Einsatz.",
-      "Auch Unternehmen, die bereits eine funktionierende Website haben, aber neue Kampagnen für einzelne Leistungen starten wollen, profitieren häufig von zusätzlichen, gezielten Landingpages – statt Besucher auf eine allgemeine Startseite zu schicken, auf der die passende Information erst gesucht werden muss.",
-      "Transparente Pakete helfen bei der Entscheidung: Sie sehen Umfang und Preis, bevor das Projekt startet. Wenn Sie unsicher zwischen Basic, Standard und Premium sind, klären wir im Gespräch, welches Paket zu Ihren Zielen und Inhalten passt – ohne Überverkauf.",
+      "Auch Unternehmen mit funktionierender Website profitieren oft von zusätzlichen Landingpages für einzelne Leistungen – statt Besucher auf eine allgemeine Startseite zu schicken.",
+      "Transparente Pakete helfen bei der Entscheidung: Sie sehen Umfang und Preis, bevor das Projekt startet. Wenn Sie unsicher zwischen Basic, Standard und Premium sind, klären wir im Gespräch, welches Paket zu Ihren Zielen passt.",
     ],
     points: [
-      "Handwerk und lokale Dienstleister",
+      "Regionale und lokale Unternehmen in Duisburg und Umgebung",
+      "Dienstleister und Handel vor Ort",
       "Startups und wachsende Unternehmen",
-      "Vereine, Clubs und Eventanbieter",
       "Unternehmen mit laufenden Ads-Kampagnen",
       "Betriebe, die Bewerber und Kunden parallel ansprechen",
       "Marken mit Relaunch- oder Repositionierungsbedarf",
@@ -64,7 +69,7 @@ export const webseitenHub: LandingPage = {
   solution: {
     title: "Websites mit Fokus auf Anfragen",
     content:
-      "Wir gestalten und entwickeln Seiten, die Vertrauen aufbauen und den Weg zur Kontaktaufnahme kurz machen – inklusive klarer Pakete und optionalem Hosting.",
+      "Wir gestalten und entwickeln Seiten, die Vertrauen aufbauen und den Weg zur Kontaktaufnahme kurz machen – inklusive klarer Pakete und optionalem Hosting. Sinnvoll verzahnt mit [Performance Marketing](/leistungen/performance-marketing) und unserer [Social Media Agentur](/leistungen/social-media): Ads bringen Traffic, Social baut Vertrauen, die Website macht daraus Anfragen.",
   },
   benefits: [
     {
@@ -108,12 +113,11 @@ export const webseitenHub: LandingPage = {
     title: "Welche Ergebnisse sind realistisch?",
     paragraphs: [
       "Eine starke Website allein ersetzt kein Marketing – aber sie entscheidet, wie viel aus Traffic wird. Realistisch sind: professionellerer Eindruck, höhere Abschlussraten bei Ads, mehr Formularanfragen und eine Basis, die SEO und Content trägt.",
-      "Kunden berichten häufig, dass Gespräche mit Sponsoren, Bewerbern und Interessenten leichter werden, sobald der Online-Auftritt modern und klar ist. Für Vereine und Clubs ist das oft ein direkter Hebel in der Sponsorengewinnung – siehe auch [Sponsoren finden](/blog/sponsoren-finden).",
+      "Kunden berichten häufig, dass Gespräche mit Partnern, Bewerbern und Interessenten leichter werden, sobald der Online-Auftritt modern und klar ist – ein direkter Hebel für Vertrauen und Anfragen.",
       "Unsere Referenzen zeigen, wie wichtig der Gesamteindruck ist: Beim [Golfclub Raffelberg](/referenzen/golfclub-raffelberg) gehört die digitale Präsenz zur erfolgreichen Ansprache von Interessenten. Bei [Buddy's](/referenzen/buddys-duisburg) und der [Start-Up School](/referenzen/start-up-school) zählt Professionalität im Auftritt ebenso wie laufendes Marketing.",
-      "Wichtig ist auch die Wechselwirkung mit anderen Kanälen: Eine Website, die schnell lädt und klar strukturiert ist, senkt die Kosten pro Anfrage bei [Google Ads](/leistungen/google-ads) und [Meta Ads](/leistungen/meta-ads) spürbar, weil weniger Besucher ohne Aktion abspringen. So zahlt sich eine gute Website häufig auch indirekt über geringere Werbekosten aus.",
-      "Nach dem Launch beginnt die Lernphase: Welche Seiten werden gelesen? Wo springen Nutzer ab? Welche Formulare konvertieren? Mit Tracking und optionaler Weiterbetreuung verbessern wir die Seite datenbasiert.",
-      "Für Vereine und Clubs ist eine moderne Website oft auch Sponsoring-Argument: professioneller Auftritt, Reichweite und klare Ansprechpartner. Mehr dazu im Beitrag [Sponsoren finden](/blog/sponsoren-finden).",
-      "Eine Website ist die Bühne, auf der Ihre Maßnahmen wirken. Ads bringen Traffic, SEO bringt Nachhaltigkeit, Social Media bringt Vertrauen – aber ohne klare Seite verpufft vieles davon. Deshalb prioritieren wir Verständlichkeit, Tempo und Conversion vor unnötigen Effekten. Das Ergebnis soll nicht nur gut aussehen, sondern im Alltag Anfragen erzeugen und Ihre Marke glaubwürdig repräsentieren.",
+      "Wichtig ist die Wechselwirkung mit anderen Kanälen: Eine Website, die schnell lädt und klar strukturiert ist, senkt die Kosten pro Anfrage bei Ads spürbar. Deshalb denken wir Website-Erstellung zusammen mit [Performance Marketing](/leistungen/performance-marketing) und [Social Media](/leistungen/social-media) – aus einer Hand.",
+      "Nach dem Launch beginnt die Lernphase: Welche Seiten werden gelesen? Wo springen Nutzer ab? Mit Tracking und optionaler Weiterbetreuung verbessern wir die Seite datenbasiert.",
+      "Eine Website ist die Bühne, auf der Ihre Maßnahmen wirken. Ads bringen Traffic, SEO bringt Nachhaltigkeit, Social Media bringt Vertrauen – ohne klare Seite verpufft vieles davon.",
     ],
     points: [
       "Mehr Vertrauen beim ersten Eindruck",
@@ -136,8 +140,8 @@ export const webseitenHub: LandingPage = {
     paragraphs: [
       "Für Webseiten arbeiten wir mit klaren Paketen – Basic, Standard und Premium. Sie können einmalig zahlen oder die Investition über 12 Monate monatlich verteilen. Optional gibt es Hosting, Wartung und CMS-Zugang.",
       "Die detaillierten Leistungen und Preise sehen Sie direkt unter diesem Abschnitt. Für individuelle Sonderprojekte erstellen wir gerne ein Angebot.",
-      "Welches Paket sinnvoll ist, hängt vom Umfang Ihrer Leistungen, der gewünschten Anzahl an Seiten und davon ab, ob Sie zusätzliche Landingpages für Kampagnen benötigen. Im Erstgespräch klären wir das konkret, damit Sie nicht für Funktionen zahlen, die Sie eigentlich nicht brauchen.",
-      "Die Paketpreise sind bewusst transparent. Wenn Ihr Projekt Sonderanforderungen hat – etwa komplexere Formulare, Mitgliederbereiche oder besondere Integrationen – sagen wir vorab klar, was Extra-Aufwand bedeutet.",
+      "Welches Paket sinnvoll ist, hängt vom Umfang Ihrer Leistungen, der gewünschten Anzahl an Seiten und davon ab, ob Sie zusätzliche Landingpages für Kampagnen benötigen. Im Erstgespräch klären wir das konkret.",
+      "Die Paketpreise sind bewusst transparent. Wenn Ihr Projekt Sonderanforderungen hat, sagen wir vorab klar, was Extra-Aufwand bedeutet.",
     ],
     ranges: [
       {
@@ -176,6 +180,16 @@ export const webseitenHub: LandingPage = {
   ],
   faq: [
     {
+      question: "Brauche ich Website und Social gleichzeitig?",
+      answer:
+        "Ideal ja. Die Website ist Ihre Basis für Vertrauen und Anfragen; Social Media hält Marke und Reichweite lebendig. Bei Kestler Connect bekommen Sie beides aus einer Hand – abgestimmt auf Ads und Ihre Ziele.",
+    },
+    {
+      question: "Was kostet es, eine Website erstellen zu lassen?",
+      answer:
+        "Unsere Pakete starten bei Basic ab 1.500 €, Standard ab 2.500 € und Premium ab 4.000 € (netto). Optional Hosting und monatliche Zahlung über 12 Monate. Details in der Preisübersicht auf dieser Seite.",
+    },
+    {
       question: "Wie lange dauert ein Website-Projekt?",
       answer:
         "Je nach Paket und Zulieferung der Inhalte typischerweise einige Wochen. Wir arbeiten mit klaren Meilensteinen und Korrekturrunden, damit der Zeitplan transparent bleibt.",
@@ -198,27 +212,17 @@ export const webseitenHub: LandingPage = {
     {
       question: "Baut ihr auch Landingpages für Ads?",
       answer:
-        "Ja. Speziell für Google Ads und Meta Ads sind conversion-starke Landingpages oft der größte Hebel, um aus Klicks tatsächlich Anfragen zu machen.",
+        "Ja. Speziell für Google Ads und Meta Ads sind conversion-starke Landingpages oft der größte Hebel, um aus Klicks tatsächlich Anfragen zu machen – passend zu unserem [Performance Marketing](/leistungen/performance-marketing).",
     },
     {
       question: "Was passiert nach dem Launch?",
       answer:
-        "Wir übergeben die Seite mit klarer Dokumentation. Optional übernehmen wir Hosting, Wartung und kleinere Anpassungen, damit Sie sich um technische Details keine Gedanken machen müssen.",
+        "Wir übergeben die Seite mit klarer Dokumentation. Optional übernehmen wir Hosting, Wartung und kleinere Anpassungen – oder begleiten Sie weiter mit Social Media und Ads.",
     },
     {
       question: "Was müssen wir an Inhalten liefern?",
       answer:
-        "Leistungen, Alleinstellung, Bilder und Kontaktdaten sind die Basis. Texte können wir je nach Paket mitübernehmen oder gemeinsam erarbeiten. Je klarer Ihre Inputs, desto schneller und treffsicherer wird das Ergebnis.",
-    },
-    {
-      question: "Arbeiten Sie mit CMS?",
-      answer:
-        "Je nach Paket und Bedarf. Wichtig ist, dass Sie relevante Inhalte später selbst pflegen können, ohne jedes Mal eine Agentur zu brauchen – sofern Sie das möchten. Hosting und Wartung sind optional zubuchbar.",
-    },
-    {
-      question: "Was passiert nach dem Go-Live?",
-      answer:
-        "Sie erhalten Übergabe und eine kurze Bugfix-Phase. Danach können Sie selbst weiterarbeiten oder uns für Optimierung, SEO und Kampagnen-Landingpages beauftragen. Die Website soll ein lebendiges System bleiben, kein einmaliges Projekt.",
+        "Leistungen, Alleinstellung, Bilder und Kontaktdaten sind die Basis. Texte können wir je nach Paket mitübernehmen oder gemeinsam erarbeiten.",
     },
   ],
 };

@@ -5,27 +5,28 @@ export const mitarbeitergewinnungHub: LandingPage = {
   path: "/leistungen/mitarbeitergewinnung",
   category: "mitarbeitergewinnung",
   meta: {
-    title: "Mitarbeitergewinnung & Social Recruiting",
+    title: "Mitarbeitergewinnung Duisburg | Social Recruiting | Kestler Connect",
     description:
-      "Fachkräfte und Bewerber aktiv gewinnen – mit Social Recruiting, Google Ads Jobs und starkem Employer Branding.",
+      "Mitarbeitergewinnung in Duisburg und Umgebung: Social Recruiting, Google Ads Jobs und Employer Branding für regionale und lokale Unternehmen.",
     keywords: [
+      "mitarbeitergewinnung duisburg",
+      "social recruiting duisburg",
       "mitarbeitergewinnung",
-      "social recruiting",
       "fachkräfte finden",
       "recruiting marketing",
     ],
   },
   hero: {
-    headline: "Mitarbeitergewinnung – Fachkräfte aktiv ansprechen",
+    headline: "Mitarbeitergewinnung Duisburg – Fachkräfte aktiv ansprechen",
     subheadline:
-      "Wir holen Bewerber dort ab, wo sie unterwegs sind: mit Social Recruiting, gezielten Kampagnen und einem Arbeitgeberauftritt, der überzeugt.",
+      "Für regionale und lokale Unternehmen: Bewerber dort abholen, wo sie unterwegs sind – mit Social Recruiting, gezielten Kampagnen und einem Arbeitgeberauftritt, der überzeugt.",
   },
   intro: {
     title: "Was bedeutet moderne Mitarbeitergewinnung?",
     paragraphs: [
       "Fachkräfte warten selten darauf, dass eine Stellenanzeige in einer Jobbörse erscheint. Viele sind passive Kandidaten – erreichbar über Social Media, gezielte Ads und einen glaubwürdigen Einblick in Ihren Betrieb.",
       "Moderne Mitarbeitergewinnung kombiniert Employer Branding, Social Recruiting (vor allem Meta) und bei Bedarf Google Ads für aktive Suchende. Dazu kommen klare Stellenbotschaften, starke Creatives und eine einfache Bewerbungsstrecke.",
-      "Kestler Connect hilft Unternehmen – besonders im Handwerk und bei regionalen Betrieben –, Bewerber aktiv anzusprechen statt nur auf Zufallseingänge zu hoffen.",
+      "Kestler Connect hilft regionalen und lokalen Unternehmen, Bewerber aktiv anzusprechen statt nur auf Zufallseingänge zu hoffen.",
       "Der Wettbewerb um Fachkräfte findet heute vor allem dort statt, wo Menschen ohnehin ihre Zeit verbringen: in sozialen Netzwerken, nicht nur auf Jobportalen. Wer dort nicht präsent ist, verpasst einen großen Teil der potenziellen Bewerber – selbst wenn die eigene Stellenanzeige inhaltlich gut ist.",
       "Ein weiterer wichtiger Baustein ist die Bewerbungsstrecke selbst: Lange Formulare, komplizierte Uploads oder unklare Ansprechpartner schrecken gerade jüngere Zielgruppen ab. Wir achten deshalb bewusst darauf, den Weg von der Anzeige bis zur Bewerbung so kurz und einfach wie möglich zu gestalten.",
       "Im Wettbewerb um Fachkräfte reicht „Stelle frei“ nicht mehr. Bewerber wollen wissen, wie der Alltag aussieht, was das Team ausmacht und warum sie gerade bei Ihnen arbeiten sollten. Recruiting-Marketing macht genau das sichtbar.",
@@ -44,8 +45,8 @@ export const mitarbeitergewinnungHub: LandingPage = {
       "Recruiting-Kampagnen lassen sich zudem regional sehr präzise steuern. Das ist entscheidend, wenn Pendelbereitschaft begrenzt ist oder Sie gezielt in bestimmten Stadtteilen und Umlandgemeinden suchen. So vermeiden Sie Streuverluste und sprechen Menschen an, für die Ihr Standort realistisch erreichbar ist.",
     ],
     points: [
-      "Handwerksbetriebe mit Fachkräfte- und Azubi-Bedarf",
-      "Regionale Dienstleister und Mittelstand",
+      "Regionale und lokale Unternehmen mit Fachkräftebedarf",
+      "Dienstleister und Mittelstand vor Ort",
       "Unternehmen mit mehreren offenen Rollen",
       "Betriebe, die Employer Branding aufbauen wollen",
       "Teams ohne interne Recruiting-Marketing-Kapazität",
@@ -182,7 +183,7 @@ export const mitarbeitergewinnungHub: LandingPage = {
   ],
   faq: [
     {
-      question: "Funktioniert Social Recruiting im Handwerk?",
+      question: "Funktioniert Social Recruiting für lokale Betriebe?",
       answer:
         "Ja – besonders gut. Fachkräfte und Azubis sind auf Meta erreichbar, wenn Alltag und Team authentisch gezeigt werden, statt austauschbarer Stockfotos und generischer Texte.",
     },

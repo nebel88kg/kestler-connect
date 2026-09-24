@@ -5,15 +5,22 @@ export const metaAdsHub: LandingPage = {
   path: "/leistungen/meta-ads",
   category: "meta-ads",
   meta: {
-    title: "Meta Ads Agentur – Facebook & Instagram Werbung",
+    title: "Meta Ads Agentur Duisburg | Facebook & Instagram Ads | Kestler Connect",
     description:
-      "Meta Ads für Leads, Events, Mitglieder und Markenbekanntheit. Präzises Targeting, starke Creatives und messbare Kosten pro Anfrage.",
-    keywords: ["meta ads", "facebook ads", "instagram ads", "meta werbung", "social ads"],
+      "Meta Ads Agentur Duisburg: Facebook- und Instagram-Anzeigen für Leads, Reichweite und Markenbekanntheit – für regionale und lokale Unternehmen.",
+    keywords: [
+      "meta ads duisburg",
+      "meta ads agentur duisburg",
+      "meta ads agentur",
+      "facebook ads",
+      "instagram ads",
+      "meta werbung",
+    ],
   },
   hero: {
-    headline: "Meta Ads – Zielgruppen erreichen, bevor sie googeln",
+    headline: "Meta Ads Agentur Duisburg – Zielgruppen erreichen, bevor sie googeln",
     subheadline:
-      "Mit Facebook- und Instagram-Anzeigen sprechen wir Menschen in Ihrer Region gezielt an – für Anfragen, Events, Mitglieder und Mitarbeiter.",
+      "Facebook- und Instagram-Anzeigen für regionale und lokale Unternehmen: gezielt Menschen in Ihrer Region ansprechen – für Anfragen, Events und Mitarbeiter.",
   },
   intro: {
     title: "Was sind Meta Ads?",
@@ -35,13 +42,13 @@ export const metaAdsHub: LandingPage = {
       "Auch Unternehmen, die noch relativ unbekannt sind oder ein neues Angebot einführen, profitieren stark von Meta Ads: Während Google Ads bestehende Nachfrage abgreift, kann Meta neue Nachfrage überhaupt erst erzeugen, indem Menschen auf ein Angebot aufmerksam werden, nach dem sie noch gar nicht gesucht haben.",
     ],
     points: [
-      "Lokale Dienstleister und Handwerk mit Lead- oder Terminziel",
-      "Gastronomie, Clubs und Eventlocations",
-      "Golfclubs und Vereine (Mitglieder, Kurse, Events)",
+      "Regionale und lokale Unternehmen mit Lead- oder Terminziel",
+      "Dienstleister und Handel vor Ort",
+      "Eventlocations und Freizeitangebote",
       "Immobilien und beratungsintensive Angebote",
       "Unternehmen mit Recruiting-Bedarf",
       "Marken, die Reichweite und Nachfrage parallel aufbauen wollen",
-      "Neue Angebote und Produkteinführungen ohne vorhandenes Suchvolumen",
+      "Neue Angebote ohne vorhandenes Suchvolumen",
     ],
   },
   problem: {
@@ -59,7 +66,7 @@ export const metaAdsHub: LandingPage = {
   solution: {
     title: "Meta Ads mit Fokus auf Ergebnis",
     content:
-      "Wir verbinden Angebot, Creative, Targeting und Tracking – damit aus Aufmerksamkeit messbare Anfragen, Anmeldungen oder Bewerbungen werden.",
+      "Wir verbinden Angebot, Creative, Targeting und Tracking – damit aus Aufmerksamkeit messbare Anfragen, Anmeldungen oder Bewerbungen werden. Abgestimmt mit [Google Ads](/leistungen/google-ads), [Performance Marketing](/leistungen/performance-marketing) und [Social Media Marketing](/leistungen/social-media).",
   },
   benefits: [
     {
@@ -171,9 +178,9 @@ export const metaAdsHub: LandingPage = {
   ],
   faq: [
     {
-      question: "Meta Ads oder Google Ads – was ist besser?",
+      question: "Meta Ads oder Google Ads – was ist besser für lokale Unternehmen?",
       answer:
-        "Unterschiedliche Stärken: Google trifft aktive Suchende, Meta erzeugt Nachfrage und Reichweite bei Menschen, die noch gar nicht aktiv gesucht haben. Oft ist die Kombination am erfolgreichsten, weil sich beide Kanäle gegenseitig verstärken.",
+        "Unterschiedliche Stärken: [Google Ads](/leistungen/google-ads) treffen aktive Suchende, Meta erzeugt Nachfrage und Reichweite bei Menschen, die noch nicht aktiv gesucht haben. Für Betriebe in Duisburg und Umgebung ist die Kombination oft am erfolgreichsten – gesteuert über [Performance Marketing](/leistungen/performance-marketing).",
     },
     {
       question: "Brauche ich viele Videos?",
@@ -213,7 +220,7 @@ export const metaAdsHub: LandingPage = {
     {
       question: "Können Meta Ads auch für Mitgliedergewinnung genutzt werden?",
       answer:
-        "Ja, besonders gut. Kurse, Schnupperangebote, Events und Mitgliedschaftsvorteile lassen sich emotional und regional ausspielen. Für Golfclubs haben wir dazu ein spezialisiertes Format unter Mitgliedergewinnung Golfclubs.",
+        "Ja. Kurse, Schnupperangebote, Events und Mitgliedschaftsvorteile lassen sich emotional und regional ausspielen – für lokale Betriebe und Organisationen mit klarer Zielgruppe in Duisburg und Umgebung.",
     },
   ],
 };
