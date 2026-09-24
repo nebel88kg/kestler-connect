@@ -1,9 +1,9 @@
 "use client";
 
 import { useState } from "react";
-import { AnimatePresence, motion } from "framer-motion";
 import { Accordion } from "@/components/ui/Accordion";
 import { ScrollReveal } from "@/components/ui/ScrollReveal";
+import { cn } from "@/lib/utils";
 
 const faqItems = [
   {
@@ -73,33 +73,36 @@ export function FAQSection() {
           <div className="mx-auto max-w-3xl">
             <Accordion items={visibleItems} />
 
-            <AnimatePresence initial={false}>
-              {showAll && (
-                <motion.div
-                  initial={{ height: 0, opacity: 0 }}
-                  animate={{ height: "auto", opacity: 1 }}
-                  exit={{ height: 0, opacity: 0 }}
-                  transition={{ duration: 0.3 }}
-                  className="overflow-hidden"
-                >
-                  <div className="mt-3">
-                    <Accordion items={hiddenItems} />
-                  </div>
-                </motion.div>
-              )}
-            </AnimatePresence>
-
             {hiddenItems.length > 0 && (
-              <div className="mt-6 text-center">
-                <button
-                  type="button"
-                  onClick={() => setShowAll((prev) => !prev)}
-                  className="text-sm font-semibold text-accent transition-colors hover:text-navy"
-                  aria-expanded={showAll}
+              <>
+                {/* Weitere Fragen bleiben im HTML – eingeklappt per CSS statt bedingtem Rendern. */}
+                <div
+                  id="faq-weitere-fragen"
+                  inert={!showAll}
+                  className={cn(
+                    "grid transition-[grid-template-rows,opacity] duration-300 ease-out",
+                    showAll ? "grid-rows-[1fr] opacity-100" : "grid-rows-[0fr] opacity-0"
+                  )}
                 >
-                  {showAll ? "Weniger anzeigen" : "Alle anzeigen"}
-                </button>
-              </div>
+                  <div className="min-h-0 overflow-hidden">
+                    <div className="mt-3">
+                      <Accordion items={hiddenItems} />
+                    </div>
+                  </div>
+                </div>
+
+                <div className="mt-6 text-center">
+                  <button
+                    type="button"
+                    onClick={() => setShowAll((prev) => !prev)}
+                    className="text-sm font-semibold text-accent transition-colors hover:text-navy"
+                    aria-expanded={showAll}
+                    aria-controls="faq-weitere-fragen"
+                  >
+                    {showAll ? "Weniger anzeigen" : "Alle anzeigen"}
+                  </button>
+                </div>
+              </>
             )}
           </div>
         </ScrollReveal>

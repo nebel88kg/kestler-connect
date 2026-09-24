@@ -2,6 +2,26 @@ import Link from "next/link";
 import Image from "next/image";
 import { footerNav, leistungenMenuItems, siteConfig } from "@/lib/navigation";
 
+function InstagramIcon() {
+  return (
+    <svg
+      viewBox="0 0 24 24"
+      className="h-5 w-5"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth={1.8}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      aria-hidden="true"
+      focusable="false"
+    >
+      <rect x="3" y="3" width="18" height="18" rx="5" />
+      <circle cx="12" cy="12" r="4" />
+      <circle cx="17.5" cy="6.5" r="0.75" fill="currentColor" stroke="none" />
+    </svg>
+  );
+}
+
 export function Footer() {
   const leistungen = footerNav.find((section) => section.title === "Leistungen")?.items
     ?? leistungenMenuItems.map(({ title, href }) => ({ title, href }));
@@ -49,6 +69,16 @@ export function Footer() {
                 {siteConfig.email}
               </a>
             </div>
+            <a
+              href={siteConfig.social.instagram}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Kestler Connect auf Instagram (öffnet in neuem Tab)"
+              className="mt-5 inline-flex items-center gap-2 text-sm text-gray-400 transition-colors hover:text-accent"
+            >
+              <InstagramIcon />
+              <span>Instagram</span>
+            </a>
           </div>
 
           <div className="lg:col-span-4">

@@ -7,7 +7,7 @@ export const googleBusiness = {
     "https://search.google.com/local/writereview?placeid=ChIJ0QjU-stZRmwRcO_AeFbjidw",
   /** Public Maps aggregate as of 2026-09-24; update when the count/rating changes. */
   rating: 5.0,
-  reviewCount: 5,
+  reviewCount: 7,
   /** Short public review snippets from the Maps listing (verbatim, truncated as shown). */
   reviewPreviews: [
     {

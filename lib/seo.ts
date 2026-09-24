@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { siteConfig } from "./navigation";
+import { stripInlineMarkdown } from "./inlineMarkdown";
 
 interface PageMetadataOptions {
   title: string;
@@ -54,6 +55,27 @@ export function createMetadata({
   };
 }
 
+export interface FaqSchemaItem {
+  question: string;
+  answer: string;
+}
+
+/**
+ * FAQPage-JSON-LD aus Frage/Antwort-Paaren. Inline-Markdown ([Text](/pfad), **fett**)
+ * wird entfernt, damit der JSON-LD-Text dem sichtbaren Text entspricht.
+ */
+export function createFaqSchema(items: FaqSchemaItem[]): Record<string, unknown> {
+  return {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: items.map((item) => ({
+      "@type": "Question",
+      name: stripInlineMarkdown(item.question),
+      acceptedAnswer: { "@type": "Answer", text: stripInlineMarkdown(item.answer) },
+    })),
+  };
+}
+
 export interface BreadcrumbItem {
   label: string;
   href?: string;
@@ -78,6 +100,7 @@ export function createBreadcrumbsFromPath(path: string): BreadcrumbItem[] {
     seo: "SEO",
     leadgewinnung: "Leadgewinnung",
     mitarbeitergewinnung: "Mitarbeitergewinnung",
+    "marketing-agentur-duisburg": "Marketing-Agentur Duisburg",
   };
 
   for (const segment of segments) {

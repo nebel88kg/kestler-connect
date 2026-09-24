@@ -39,6 +39,10 @@ export const siteConfig = {
     postalCode: "47198",
     addressCountry: "DE",
   },
+  /** Verifizierte Social-Media-Profile – nur bestätigte Profile eintragen. */
+  social: {
+    instagram: "https://www.instagram.com/kestler_connect/",
+  },
 };
 
 export interface NavItem {
@@ -363,6 +367,7 @@ export const footerNav: NavSection[] = [
     title: "Unternehmen",
     items: [
       { title: "Über uns", href: "/ueber-uns" },
+      { title: "Marketing-Agentur Duisburg", href: "/marketing-agentur-duisburg" },
       { title: "Referenzen", href: "/referenzen" },
       { title: "Blog", href: "/blog" },
       { title: "Kontakt", href: "/kontakt" },
