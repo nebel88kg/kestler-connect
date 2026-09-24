@@ -86,7 +86,7 @@ export const seoHub: LandingPage = {
     },
     {
       title: "Technische Basis",
-      description: "Schnelle, indexierbare Seiten ohne unnötige Ballast.",
+      description: "Schnelle, indexierbare Seiten ohne unnötigen Ballast.",
       icon: "rocket",
     },
     {
@@ -173,27 +173,33 @@ export const seoHub: LandingPage = {
   faq: [
     {
       question: "Wie lange dauert SEO?",
-      answer: "Erste Verbesserungen oft nach 4–8 Wochen. Signifikante Rankings typischerweise nach 3–6 Monaten kontinuierlicher Arbeit.",
+      answer:
+        "Erste Verbesserungen oft nach 4–8 Wochen. Signifikante Rankings typischerweise nach 3–6 Monaten kontinuierlicher Arbeit.",
     },
     {
       question: "SEO oder Google Ads?",
-      answer: "Ads wirken schnell, SEO nachhaltig. Viele lokale Unternehmen in Duisburg und Moers nutzen beides parallel.",
+      answer:
+        "Ads wirken schnell, SEO nachhaltig. Viele lokale Unternehmen in Duisburg und Moers nutzen beides parallel.",
     },
     {
       question: "Was ist Local SEO?",
-      answer: "Optimierung für regionale Suche und Google Maps – Unternehmensprofil, NAP-Daten, lokale Inhalte und Bewertungen.",
+      answer:
+        "Optimierung für regionale Suche und Google Maps – Unternehmensprofil, NAP-Daten, lokale Inhalte und Bewertungen.",
     },
     {
       question: "Betreut ihr SEO auch in Moers?",
-      answer: "Ja. Schwerpunkt ist Duisburg und Moers sowie der Umkreis – mit Local SEO statt dünnen Doorway-Seiten.",
+      answer:
+        "Ja. Schwerpunkt ist Duisburg und Moers sowie der Umkreis – mit Local SEO statt dünnen Doorway-Seiten.",
     },
     {
       question: "Garantiert ihr Rankings?",
-      answer: "Nein – seriös niemand. Wir arbeiten transparent an den Hebeln, die Rankings und Anfragen realistisch verbessern.",
+      answer:
+        "Nein – seriös niemand. Wir arbeiten transparent an den Hebeln, die Rankings und Anfragen realistisch verbessern.",
     },
     {
       question: "Was ist KI-Sichtbarkeit?",
-      answer: "Inhalte so aufbereiten, dass Sie auch in KI-Antworten und AI-Overviews besser auffindbar sind – ergänzend zu klassischem SEO.",
+      answer:
+        "Inhalte so aufbereiten, dass Sie auch in KI-Antworten und AI-Overviews besser auffindbar sind – ergänzend zu klassischem SEO.",
     },
   ],
 };
