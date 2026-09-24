@@ -7,9 +7,14 @@ import { ScrollReveal } from "@/components/ui/ScrollReveal";
 
 const faqItems = [
   {
-    question: "Was macht eine Social Media Agentur?",
+    question: "Was macht eine Social Media Agentur lokal?",
     answer:
-      "Eine Social Media Agentur plant, produziert und betreut Ihren Auftritt auf Kanälen wie Instagram und Facebook: Strategie, Redaktionsplan, Content, Reels und Community – damit Sie regelmäßig sichtbar und professionell wirken. Bei Kestler Connect in Duisburg gehört das zu unserem Kernangebot.",
+      "Eine Social Media Agentur vor Ort plant, produziert und betreut Ihren Auftritt auf Instagram und Facebook: Strategie, Redaktionsplan, Content, Reels und Community – abgestimmt auf Ihre Region und Zielgruppe. Bei Kestler Connect in Duisburg ist Social Media Marketing Kernangebot für regionale und lokale Unternehmen.",
+  },
+  {
+    question: "Google Ads oder Meta Ads – was eignet sich für lokale Unternehmen?",
+    answer:
+      "Google Ads trifft Menschen, die aktiv nach Ihrer Leistung suchen – ideal für planbare Anfragen. Meta Ads (Facebook/Instagram) erzeugen Sichtbarkeit und Leads bei passenden Zielgruppen in Ihrer Region, auch ohne aktive Suche. Viele Betriebe in Duisburg und Umgebung kombinieren beides sinnvoll; im Strategiegespräch klären wir den Mix.",
   },
   {
     question: "Social Media oder Ads zuerst?",
@@ -19,7 +24,7 @@ const faqItems = [
   {
     question: "Brauche ich Website und Social gleichzeitig?",
     answer:
-      "Ideal ja: Die Website ist Ihre vertrauenswürdige Basis für Anfragen und Ads; Social Media hält Marke und Reichweite lebendig. Beides aus einer Hand spart Abstimmung und sorgt für einheitliche Botschaften – besonders für Handwerk, Vereine und KMU.",
+      "Ideal ja: Die Website ist Ihre vertrauenswürdige Basis für Anfragen und Ads; Social Media hält Marke und Reichweite lebendig. Beides aus einer Hand spart Abstimmung und sorgt für einheitliche Botschaften – besonders für regionale und lokale Unternehmen.",
   },
   {
     question: "Was kostet Online-Marketing?",
@@ -43,11 +48,13 @@ const faqItems = [
   },
   {
     question: "Für welche Branchen arbeitet ihr?",
-    answer: "Unser Fokus liegt auf Handwerk, Vereinen, Startups, Immobilien, Golfclubs sowie kleinen und mittelständischen Unternehmen vor Ort. Wir verstehen die Besonderheiten dieser Zielgruppen.",
+    answer:
+      "Unser Fokus liegt auf regionalen und lokalen Unternehmen in Duisburg, im Ruhrgebiet und in NRW – vom lokalen Dienstleister bis zum wachsenden Mittelstand. Branchenerfahrung aus Projekten fließt ein, die Positionierung gilt aber für lokale Betriebe insgesamt.",
   },
   {
     question: "Bietet ihr auch Workshops an?",
-    answer: "Ja. Für Startups und junge Unternehmen gibt es kompakte Marketing-Workshops (5–6 Stunden) – ideal, wenn noch kein großes Budget für eine laufende Betreuung da ist. Für Vereine bieten wir eigene Workshops zu Marketing und Sponsoring an.",
+    answer:
+      "Ja. Für lokale Unternehmen und Startups gibt es kompakte Marketing-Workshops (5–6 Stunden) – ideal, wenn noch kein großes Budget für eine laufende Betreuung da ist. Spezielle Formate zu Marketing und Sponsoring sind optional verfügbar.",
   },
   {
     question: "Wie schnell sehe ich Ergebnisse?",
@@ -75,7 +82,8 @@ const faqItems = [
   },
   {
     question: "Bietet ihr auch Social Recruiting an?",
-    answer: "Ja, Mitarbeitergewinnung über Social Media und Google Ads ist einer unserer Schwerpunkte – besonders für Handwerksbetriebe.",
+    answer:
+      "Ja, Mitarbeitergewinnung über Social Media und Google Ads ist einer unserer Schwerpunkte – besonders für regionale und lokale Betriebe mit Fachkräftebedarf.",
   },
 ];
 
