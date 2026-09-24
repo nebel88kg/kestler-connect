@@ -5,40 +5,58 @@ export const mitarbeitergewinnungHub: LandingPage = {
   path: "/leistungen/mitarbeitergewinnung",
   category: "mitarbeitergewinnung",
   meta: {
-    title: "Mitarbeitergewinnung Duisburg | Recruiting Ads | Kestler Connect",
+    title: "Mitarbeiter finden Duisburg | Social Recruiting | Kestler Connect",
     description:
-      "Mitarbeitergewinnung über Social Media und Google Ads – für regionale und lokale Betriebe in Duisburg und Umgebung mit Fachkräftebedarf.",
+      "Mitarbeitergewinnung in Duisburg und Moers: Social Recruiting und Recruiting Ads auf Instagram, TikTok und Meta – für regionale Betriebe mit Fachkräftebedarf.",
     keywords: [
-      "mitarbeitergewinnung",
+      "mitarbeiter finden duisburg",
       "social recruiting",
-      "mitarbeiter finden",
       "recruiting ads",
+      "mitarbeitergewinnung moers",
+      "mitarbeitergewinnung",
+      "mitarbeiter finden",
       "fachkraefte gewinnen",
+      "instagram recruiting",
+      "tiktok recruiting",
     ],
   },
   hero: {
-    headline: "Mitarbeitergewinnung Duisburg – passende Bewerber statt Zufallstreffer",
+    headline: "Mitarbeiter finden in Duisburg & Moers – passende Bewerber statt Zufallstreffer",
     subheadline:
-      "Social Recruiting und Ads für regionale Betriebe – sichtbar als Arbeitgeber, gezielt in Ihrer Region.",
+      "Social Recruiting und Recruiting Ads für regionale Betriebe – sichtbar als Arbeitgeber, gezielt über Instagram, TikTok und Google.",
   },
   intro: {
-    title: "Mitarbeiter gewinnen über Social Media und Ads",
+    title: "Mitarbeiter gewinnen über Instagram, TikTok und Ads",
     paragraphs: [
-      "Klassische Stellenanzeigen reichen oft nicht. Über Meta Ads, Google und einen glaubwürdigen Arbeitgeber-Auftritt erreichen Sie Bewerber dort, wo sie unterwegs sind.",
+      "Klassische Stellenanzeigen reichen oft nicht. Über Meta Recruiting Ads (Instagram & Facebook), TikTok-Formate und Google erreichen Sie Bewerber dort, wo sie unterwegs sind – regional und messbar.",
       "Wir verbinden Recruiting-Kampagnen mit [Social Media](/leistungen/social-media) und klaren Landingpages – als Teil von [Performance Marketing](/leistungen/performance-marketing).",
     ],
   },
   audience: {
     title: "Für wen eignet sich Social Recruiting?",
     paragraphs: [
-      "Für Betriebe mit wiederkehrendem oder akutem Fachkräftebedarf, die regional Bewerber ansprechen und als Arbeitgeber sichtbar werden wollen.",
+      "Für regionale und lokale Unternehmen mit Fachkräftebedarf, die Bewerber in Duisburg, Moers und Umgebung ansprechen und als Arbeitgeber sichtbar werden wollen.",
     ],
     points: [
-      "Handwerk und lokale Dienstleister",
-      "Betriebe mit Fachkräftemangel",
+      "Regionale und lokale Unternehmen mit Fachkräftebedarf",
+      "Dienstleister, Handel und Betriebe vor Ort",
       "Unternehmen mit mehreren offenen Stellen",
       "Arbeitgeber, die ihr Profil professionalisieren wollen",
       "Teams ohne große HR-Marketing-Kapazität",
+    ],
+  },
+  serviceArea: {
+    title: "Einzugsgebiet – vor Ort & digital",
+    paragraphs: [
+      "Mitarbeitergewinnung und Recruiting Ads für Duisburg und Moers sowie den Umkreis – mit regionalem Targeting.",
+    ],
+    points: [
+      "Duisburg",
+      "Moers",
+      "Oberhausen",
+      "Mülheim an der Ruhr",
+      "Krefeld",
+      "Düsseldorf / Ruhrgebiet & NRW",
     ],
   },
   problem: {
@@ -54,7 +72,7 @@ export const mitarbeitergewinnungHub: LandingPage = {
   solution: {
     title: "Recruiting mit Marketing-System",
     content:
-      "Wir schärfen Ihre Arbeitgeber-Botschaft, schalten gezielte Ads, bauen einfache Bewerbungswege und sorgen für einen professionellen Auftritt parallel zur Kampagne.",
+      "Wir schärfen Ihre Arbeitgeber-Botschaft, schalten gezielte Recruiting Ads auf Instagram, TikTok/Meta und ggf. Google, bauen einfache Bewerbungswege und sorgen für einen professionellen Auftritt parallel zur Kampagne.",
   },
   benefits: [
     {
@@ -63,24 +81,24 @@ export const mitarbeitergewinnungHub: LandingPage = {
       icon: "map",
     },
     {
+      title: "Instagram & TikTok",
+      description: "Recruiting Ads und kurze Formate dort, wo Fachkräfte scrollen.",
+      icon: "social",
+    },
+    {
       title: "Klare Botschaft",
       description: "Warum bei Ihnen arbeiten – verständlich und greifbar.",
       icon: "target",
     },
     {
       title: "Schnelle Kampagnen",
-      description: "Ads können Stellen zeitnah sichtbar machen.",
+      description: "Meta Recruiting Ads können Stellen zeitnah sichtbar machen.",
       icon: "rocket",
     },
     {
       title: "Einfache Bewerbung",
       description: "Niedrige Hürden statt komplizierter Formulare.",
       icon: "check",
-    },
-    {
-      title: "Profil-Fit",
-      description: "Social Media als glaubwürdige Arbeitgeber-Bühne.",
-      icon: "social",
     },
     {
       title: "Messbarkeit",
@@ -113,7 +131,7 @@ export const mitarbeitergewinnungHub: LandingPage = {
     title: "Preise und Budgetempfehlungen",
     paragraphs: [
       "Recruiting-Ads brauchen Media-Budget plus Betreuung. Die Höhe hängt von Stelle, Region und Wettbewerb ab.",
-      "Oft sinnvoll: Kampagne plus laufender Social-Auftritt, damit Arbeitgebermarke und Ads zusammenpassen.",
+      "Oft sinnvoll: Kampagne plus laufender Social-Auftritt (Instagram/TikTok), damit Arbeitgebermarke und Ads zusammenpassen.",
     ],
     ranges: [
       {
@@ -133,6 +151,33 @@ export const mitarbeitergewinnungHub: LandingPage = {
       },
     ],
   },
+  relatedHubs: [
+    {
+      title: "Social Media Agentur Duisburg",
+      href: "/leistungen/social-media",
+      description: "Instagram und TikTok – glaubwürdiges Arbeitgeber-Profil.",
+    },
+    {
+      title: "Meta Ads Agentur Duisburg",
+      href: "/leistungen/meta-ads",
+      description: "Recruiting Ads auf Instagram und Facebook.",
+    },
+    {
+      title: "Google Ads in Duisburg und Moers",
+      href: "/leistungen/google-ads",
+      description: "Suchanzeigen, wenn Bewerber aktiv nach Jobs suchen.",
+    },
+    {
+      title: "Leadgewinnung",
+      href: "/leistungen/leadgewinnung",
+      description: "Anfragen gewinnen – gleiches System, anderes Ziel.",
+    },
+    {
+      title: "Website erstellen lassen",
+      href: "/leistungen/webseiten",
+      description: "Karriere-/Stellen-Landingpages mit klaren Bewerbungswegen.",
+    },
+  ],
   references: [
     {
       title: "SecPro Bildungszentrum",
@@ -154,12 +199,17 @@ export const mitarbeitergewinnungHub: LandingPage = {
     {
       question: "Was ist Social Recruiting?",
       answer:
-        "Mitarbeitergewinnung über Social Media und Ads – statt nur über klassische Jobbörsen.",
+        "Mitarbeitergewinnung über Social Media und Ads – statt nur über klassische Jobbörsen. Typisch: Instagram, TikTok-Formate und Meta Recruiting Ads.",
     },
     {
       question: "Welche Kanäle eignen sich?",
       answer:
-        "Häufig Meta Ads (Facebook/Instagram); je nach Zielgruppe auch Google. Wir wählen den Mix passend zur Stelle.",
+        "Häufig Meta Ads auf Instagram und Facebook; je nach Zielgruppe auch TikTok-Formate und Google. Wir wählen den Mix passend zur Stelle.",
+    },
+    {
+      question: "Funktioniert Recruiting über Instagram und TikTok?",
+      answer:
+        "Ja – besonders bei jüngeren Fachkräften und visuellen Arbeitgeber-Botschaften. Ads bringen Reichweite, ein starkes Profil macht Bewerbungen wahrscheinlicher.",
     },
     {
       question: "Wie schnell kommen Bewerbungen?",
@@ -169,12 +219,12 @@ export const mitarbeitergewinnungHub: LandingPage = {
     {
       question: "Brauchen wir ein starkes Profil?",
       answer:
-        "Ja. Ein unprofessionelles Profil senkt die Bewerbungsquote – deshalb lohnt parallele Social-Betreuung.",
+        "Ja. Ein unprofessionelles Profil senkt die Bewerbungsquote – deshalb lohnt parallele [Social-Media-Betreuung](/leistungen/social-media).",
     },
     {
       question: "Für welche Branchen?",
       answer:
-        "Besonders Handwerk, Dienstleistung und regionale Betriebe mit Fachkräftebedarf – aber grundsätzlich branchenübergreifend.",
+        "Für regionale und lokale Unternehmen mit Fachkräftebedarf – Dienstleistung, Handel, Produktion und verwandte Branchen; branchenübergreifend anpassbar.",
     },
     {
       question: "Könnt ihr Stellenanzeigen formulieren?",

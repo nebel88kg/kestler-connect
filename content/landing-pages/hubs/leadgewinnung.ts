@@ -5,33 +5,37 @@ export const leadgewinnungHub: LandingPage = {
   path: "/leistungen/leadgewinnung",
   category: "leadgewinnung",
   meta: {
-    title: "Leadgewinnung Duisburg | Mehr Anfragen | Kestler Connect",
+    title: "Mehr Anfragen & Kunden gewinnen Duisburg | Leadgewinnung | Kestler Connect",
     description:
-      "Leadgewinnung für regionale und lokale Unternehmen in Duisburg: Google Ads, Meta Ads und Landingpages – planbare Anfragen statt Zufall.",
+      "Mehr Anfragen und mehr Kunden gewinnen in Duisburg und Moers: Leadgenerierung über Google Ads, Meta Ads und Landingpages – planbar statt Zufall.",
     keywords: [
-      "leadgewinnung",
+      "mehr anfragen",
+      "mehr kunden gewinnen",
+      "kunden gewinnen duisburg",
+      "leadgenerierung",
       "leadgenerierung duisburg",
       "anfragen generieren",
+      "leadgewinnung",
       "leads generieren",
-      "customer acquisition",
+      "kunden gewinnen moers",
     ],
   },
   hero: {
-    headline: "Leadgewinnung Duisburg – planbare Anfragen statt Hoffnung",
+    headline: "Mehr Anfragen, mehr Kunden – Leadgewinnung in Duisburg & Moers",
     subheadline:
-      "Google Ads, Meta Ads und conversion-starke Seiten – damit aus Traffic echte Anfragen für Ihr regionales Unternehmen werden.",
+      "Anfragen generieren statt auf Zufall hoffen: Google Ads, Meta Ads und conversion-starke Seiten für regionale Unternehmen.",
   },
   intro: {
     title: "Was bedeutet Leadgewinnung?",
     paragraphs: [
-      "Leadgewinnung heißt: gezielt Interessenten gewinnen, die Kontakt aufnehmen – Anruf, Formular, Termin. Nicht nur Reichweite erzeugen.",
-      "Wir kombinieren dafür [Google Ads](/leistungen/google-ads), [Meta Ads](/leistungen/meta-ads), Landingpages und Tracking im Rahmen von [Performance Marketing](/leistungen/performance-marketing).",
+      "Leadgewinnung heißt: gezielt Interessenten gewinnen, die Kontakt aufnehmen – Anruf, Formular, Termin. Mehr Anfragen und mehr Kunden, nicht nur Reichweite.",
+      "Primäre Hebel sind [Google Ads / SEA](/leistungen/google-ads) und [Meta Ads](/leistungen/meta-ads) – ergänzt um Landingpages und Tracking im Rahmen von [Performance Marketing](/leistungen/performance-marketing).",
     ],
   },
   audience: {
     title: "Für wen eignet sich Leadgewinnung?",
     paragraphs: [
-      "Für Unternehmen mit klarem Angebot und Kapazität, Anfragen zeitnah zu bearbeiten – lokal und regional besonders stark.",
+      "Für regionale und lokale Unternehmen mit klarem Angebot und Kapazität, Anfragen zeitnah zu bearbeiten – besonders stark in Duisburg, Moers und Umgebung.",
     ],
     points: [
       "Dienstleister mit planbarem Auftragswert",
@@ -39,6 +43,20 @@ export const leadgewinnungHub: LandingPage = {
       "Lokale Betriebe mit Einzugsgebiet",
       "Teams, die Ads und Follow-up verbinden wollen",
       "Unternehmen mit bisher unklaren Kosten pro Lead",
+    ],
+  },
+  serviceArea: {
+    title: "Einzugsgebiet – vor Ort & digital",
+    paragraphs: [
+      "Leadgewinnung und Anfragen-Kampagnen für Duisburg und Moers sowie den Umkreis – mit lokalem Targeting statt Streuverlust.",
+    ],
+    points: [
+      "Duisburg",
+      "Moers",
+      "Oberhausen",
+      "Mülheim an der Ruhr",
+      "Krefeld",
+      "Düsseldorf / Ruhrgebiet & NRW",
     ],
   },
   problem: {
@@ -54,7 +72,7 @@ export const leadgewinnungHub: LandingPage = {
   solution: {
     title: "Leadgewinnung mit System",
     content:
-      "Wir schärfen Angebot und Zielgruppe, schalten die richtigen Kanäle, bauen conversion-starke Seiten und messen, was wirklich Anfragen bringt.",
+      "Wir schärfen Angebot und Zielgruppe, schalten die richtigen Kanäle – vor allem SEA/Google Ads und Meta Ads –, bauen conversion-starke Seiten und messen, was wirklich Anfragen bringt.",
   },
   benefits: [
     {
@@ -64,7 +82,7 @@ export const leadgewinnungHub: LandingPage = {
     },
     {
       title: "Kanalmix",
-      description: "Google und Meta dort einsetzen, wo Nachfrage entsteht.",
+      description: "Google Ads und Meta dort einsetzen, wo Nachfrage entsteht.",
       icon: "rocket",
     },
     {
@@ -133,6 +151,38 @@ export const leadgewinnungHub: LandingPage = {
       },
     ],
   },
+  relatedHubs: [
+    {
+      title: "Google Ads / SEA",
+      href: "/leistungen/google-ads",
+      description: "Werbung bei Google schalten – wenn Kunden aktiv suchen.",
+    },
+    {
+      title: "Meta Ads Agentur Duisburg",
+      href: "/leistungen/meta-ads",
+      description: "Facebook- und Instagram-Ads für Leads in der Region.",
+    },
+    {
+      title: "Social Media Agentur Duisburg",
+      href: "/leistungen/social-media",
+      description: "Organischer Content, der Ads glaubwürdig macht.",
+    },
+    {
+      title: "Website erstellen lassen",
+      href: "/leistungen/webseiten",
+      description: "Conversion-starke Seiten für Ihre Kampagnen.",
+    },
+    {
+      title: "Performance Marketing",
+      href: "/leistungen/performance-marketing",
+      description: "Google und Meta aus einer Hand mit messbarem ROI.",
+    },
+    {
+      title: "Mitarbeitergewinnung",
+      href: "/leistungen/mitarbeitergewinnung",
+      description: "Recruiting Ads, wenn Sie Bewerber statt Kunden suchen.",
+    },
+  ],
   references: [
     {
       title: "Golfclub Raffelberg",
@@ -151,6 +201,16 @@ export const leadgewinnungHub: LandingPage = {
     },
   ],
   faq: [
+    {
+      question: "Wie bekomme ich mehr Anfragen?",
+      answer:
+        "Mit klarem Angebot, messbaren Kampagnen und conversion-starken Seiten. Primär über [Google Ads](/leistungen/google-ads) (aktive Suche) und [Meta Ads](/leistungen/meta-ads) (gezielte Ansprache) – plus schnellem Follow-up.",
+    },
+    {
+      question: "Google Ads oder Social für mehr Kunden?",
+      answer:
+        "Google Ads trifft Menschen, die aktiv suchen; Meta und Social erzeugen Nachfrage und Sichtbarkeit. Oft ist der Mix am stärksten – wir prüfen, was zu Ihrem Angebot passt.",
+    },
     {
       question: "Was ist ein Lead?",
       answer:
@@ -174,7 +234,7 @@ export const leadgewinnungHub: LandingPage = {
     {
       question: "Brauche ich eine Landingpage?",
       answer:
-        "In den meisten Fällen ja – sie steigert Conversion und Lead-Qualität deutlich.",
+        "In den meisten Fällen ja – sie steigert Conversion und Lead-Qualität deutlich. Siehe auch [Website erstellen lassen](/leistungen/webseiten).",
     },
     {
       question: "Was passiert nach dem Lead?",

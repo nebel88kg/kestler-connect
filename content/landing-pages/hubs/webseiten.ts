@@ -5,21 +5,24 @@ export const webseitenHub: LandingPage = {
   path: "/leistungen/webseiten",
   category: "webseiten",
   meta: {
-    title: "Website erstellen lassen Duisburg | Webdesign | Kestler Connect",
+    title: "Website erstellen lassen Duisburg | Webdesign Moers | Kestler Connect",
     description:
-      "Website erstellen lassen in Duisburg: klare Homepages und Landingpages für regionale und lokale Unternehmen – conversion-stark und ads-ready.",
+      "Website erstellen lassen in Duisburg und Moers: Webdesign und Homepage erstellen lassen für regionale Unternehmen – conversion-stark und ads-ready.",
     keywords: [
       "website erstellen lassen duisburg",
       "webdesign duisburg",
+      "webdesign moers",
+      "homepage erstellen lassen",
       "homepage erstellen",
       "landingpage",
       "webseite agentur duisburg",
+      "website erstellen lassen moers",
     ],
   },
   hero: {
-    headline: "Website erstellen lassen in Duisburg – klar, schnell, anfrageorientiert",
+    headline: "Website erstellen lassen in Duisburg & Moers – klar, schnell, anfrageorientiert",
     subheadline:
-      "Homepages und Landingpages für regionale und lokale Unternehmen – damit Besucher und Ads zu Anfragen werden.",
+      "Webdesign und Homepages für regionale und lokale Unternehmen – damit Besucher und Ads zu Anfragen werden.",
   },
   intro: {
     title: "Warum eine starke Website entscheidend ist",
@@ -39,6 +42,20 @@ export const webseitenHub: LandingPage = {
       "Betriebe ohne mobile-freundliche Seite",
       "Anbieter mit klaren Leistungsangeboten",
       "Organisationen, die Anfragen statt Image brauchen",
+    ],
+  },
+  serviceArea: {
+    title: "Einzugsgebiet – vor Ort & digital",
+    paragraphs: [
+      "Website-Erstellung und Webdesign für Duisburg und Moers sowie den Umkreis – Abstimmung hybrid vor Ort und digital.",
+    ],
+    points: [
+      "Duisburg",
+      "Moers",
+      "Oberhausen",
+      "Mülheim an der Ruhr",
+      "Krefeld",
+      "Düsseldorf / Ruhrgebiet & NRW",
     ],
   },
   problem: {
@@ -134,6 +151,38 @@ export const webseitenHub: LandingPage = {
     ],
   },
   showWebsitePricing: true,
+  relatedHubs: [
+    {
+      title: "Google Ads in Duisburg und Moers",
+      href: "/leistungen/google-ads",
+      description: "Suchanzeigen, die auf Ihre Website einzahlen.",
+    },
+    {
+      title: "Meta Ads Agentur Duisburg",
+      href: "/leistungen/meta-ads",
+      description: "Facebook- und Instagram-Ads mit passenden Landingpages.",
+    },
+    {
+      title: "Social Media Agentur Duisburg",
+      href: "/leistungen/social-media",
+      description: "Content und Betreuung – Ads-ready aus einer Hand.",
+    },
+    {
+      title: "SEO / Local SEO",
+      href: "/leistungen/seo",
+      description: "Organische Sichtbarkeit auf der neuen Website.",
+    },
+    {
+      title: "Leadgewinnung",
+      href: "/leistungen/leadgewinnung",
+      description: "Mehr Anfragen über Ads und conversion-starke Seiten.",
+    },
+    {
+      title: "Performance Marketing",
+      href: "/leistungen/performance-marketing",
+      description: "Google Ads und Meta Ads mit messbarem ROI.",
+    },
+  ],
   references: [
     {
       title: "Golfclub Raffelberg",
@@ -171,6 +220,16 @@ export const webseitenHub: LandingPage = {
       question: "Passt die Seite zu Ads?",
       answer:
         "Ja – wir bauen conversion-stark und können Landingpages speziell für Kampagnen anlegen.",
+    },
+    {
+      question: "Bietet ihr Webdesign in Duisburg und Moers an?",
+      answer:
+        "Ja. Schwerpunkt ist Duisburg und Moers sowie der Umkreis. Abstimmung und Launch hybrid vor Ort und digital – mit Fokus auf Anfragen statt reinem Image.",
+    },
+    {
+      question: "Was bedeutet ads-ready Website?",
+      answer:
+        "Eine Seite mit klarem Angebot, starken CTAs und Tracking – abgestimmt auf [Google Ads](/leistungen/google-ads) und [Meta Ads](/leistungen/meta-ads), damit aus Klicks Anfragen werden.",
     },
     {
       question: "Könnt ihr Texte schreiben?",
