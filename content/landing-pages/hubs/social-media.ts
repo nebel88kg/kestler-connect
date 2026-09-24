@@ -186,31 +186,38 @@ export const socialMediaHub: LandingPage = {
   faq: [
     {
       question: "Was macht eine Social Media Agentur lokal?",
-      answer: "Strategie, Redaktionsplan, Content, Reels, TikTok-Formate und Community – abgestimmt auf Ihre Region. Bei Kestler Connect in Duisburg ist Social Media Marketing Schwerpunkt für Unternehmen in Duisburg, Moers und Umgebung.",
+      answer:
+        "Strategie, Redaktionsplan, Content, Reels, TikTok-Formate und Community – abgestimmt auf Ihre Region. Bei Kestler Connect in Duisburg ist Social Media Marketing Schwerpunkt für Unternehmen in Duisburg, Moers und Umgebung.",
     },
     {
       question: "Betreut ihr Instagram und TikTok?",
-      answer: "Ja. Schwerpunkt Instagram (Feed, Stories, Reels) und TikTok bzw. Shorts-Style-Formate – organisch und als Basis für Ads. Facebook je nach Zielgruppe dazu.",
+      answer:
+        "Ja. Schwerpunkt Instagram (Feed, Stories, Reels) und TikTok bzw. Shorts-Style-Formate – organisch und als Basis für Ads. Facebook je nach Zielgruppe dazu.",
     },
     {
       question: "Social Media oder Ads zuerst?",
-      answer: "Ohne glaubwürdigen Auftritt wirken Ads oft schwach – dann Social Media zuerst oder parallel. Bei schnellem Anfragebedarf und solider Basis starten viele mit [Performance Marketing](/leistungen/performance-marketing).",
+      answer:
+        "Ohne glaubwürdigen Auftritt wirken Ads oft schwach – dann Social Media zuerst oder parallel. Bei schnellem Anfragebedarf und solider Basis starten viele mit [Performance Marketing](/leistungen/performance-marketing).",
     },
     {
       question: "Welche Kanäle betreut ihr?",
-      answer: "Schwerpunkt Instagram und TikTok; je nach Zielgruppe auch Facebook und LinkedIn. Wir empfehlen bewusst die Kanäle, die zu Ihrem Angebot passen.",
+      answer:
+        "Schwerpunkt Instagram und TikTok; je nach Zielgruppe auch Facebook und LinkedIn. Wir empfehlen bewusst die Kanäle, die zu Ihrem Angebot passen.",
     },
     {
       question: "Müsst ihr vor Ort in Moers oder Duisburg sein?",
-      answer: "Beides möglich: Shootings und Abstimmung vor Ort, Produktion und Publishing digital – hybrid, wie es zu Ihrem Betrieb passt.",
+      answer:
+        "Beides möglich: Shootings und Abstimmung vor Ort, Produktion und Publishing digital – hybrid, wie es zu Ihrem Betrieb passt.",
     },
     {
       question: "Bringt Social Media direkt Anfragen?",
-      answer: "Manchmal ja, oft indirekt über Vertrauen und Reichweite. Mit Meta Ads und einer starken Website wird der Effekt deutlich größer – siehe [Leadgewinnung](/leistungen/leadgewinnung).",
+      answer:
+        "Manchmal ja, oft indirekt über Vertrauen und Reichweite. Mit Meta Ads und einer starken Website wird der Effekt deutlich größer – siehe [Leadgewinnung](/leistungen/leadgewinnung).",
     },
     {
       question: "Was ist der Unterschied zwischen Betreuung und Ads?",
-      answer: "Betreuung meint organischen Content und Community. Ads sind bezahlte Reichweite. Beides verstärkt sich – deshalb bieten wir beides aus einer Hand.",
+      answer:
+        "Betreuung meint organischen Content und Community. Ads sind bezahlte Reichweite. Beides verstärkt sich – deshalb bieten wir beides aus einer Hand.",
     },
   ],
 };
