@@ -1,9 +1,9 @@
 "use client";
 
 const logos = [
+  "DnM",
+  "SecPro Bildungszentrum",
   "Golfclub Raffelberg",
-  "Start-Up School",
-  "Buddy's Duisburg",
 ];
 
 export function LogoSlider() {
