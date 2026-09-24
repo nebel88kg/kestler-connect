@@ -6,7 +6,7 @@ const services = [
   {
     title: "Social Media Agentur",
     description:
-      "Social Media Marketing aus Duisburg – Content und Betreuung, die Ihre Zielgruppe erreicht.",
+      "Social Media Agentur Duisburg & Moers – Content und Betreuung, die Ihre Zielgruppe erreicht.",
     items: ["Content Produktion", "Reel Erstellung", "Community Management"],
     href: "/leistungen/social-media",
     color: "bg-navy/5 border border-navy/10",
@@ -14,7 +14,7 @@ const services = [
   {
     title: "Performance Marketing",
     description:
-      "Performance Marketing Duisburg – Google Ads und Meta Ads mit messbarem ROI.",
+      "Performance Marketing Duisburg & Moers – Google Ads und Meta Ads mit messbarem ROI.",
     items: ["Google Ads", "Meta Ads", "Leadgenerierung", "Mitarbeitergewinnung"],
     href: "/leistungen/performance-marketing",
     color: "bg-accent-light border border-accent/20",
@@ -29,7 +29,7 @@ const services = [
   },
   {
     title: "SEO & KI-Sichtbarkeit",
-    description: "Gefunden werden – bei Google, Maps und KI-Suchmaschinen.",
+    description: "Local SEO für Duisburg, Moers und Umgebung – gefunden bei Google, Maps und KI.",
     items: ["SEO", "Local SEO", "ChatGPT Optimierung", "KI-Suchmaschinenoptimierung"],
     href: "/leistungen/seo",
     color: "bg-navy/5 border border-navy/10",
@@ -56,7 +56,19 @@ export function ServicesGrid() {
               Unsere Leistungen
             </h2>
             <p className="mx-auto mt-3 max-w-2xl text-base text-gray-600 sm:mt-4 sm:text-lg">
-              Alles aus einer Hand – von der Strategie bis zur Umsetzung.
+              Alles aus einer Hand – von der Strategie bis zur Umsetzung.{" "}
+              <Link href="/leistungen/google-ads" className="font-semibold text-accent hover:underline">
+                Google Ads in Duisburg und Moers
+              </Link>
+              {", "}
+              <Link href="/leistungen/meta-ads" className="font-semibold text-accent hover:underline">
+                Meta Ads Agentur Duisburg
+              </Link>
+              {" und "}
+              <Link href="/leistungen/social-media" className="font-semibold text-accent hover:underline">
+                Social Media Agentur Duisburg
+              </Link>
+              .
             </p>
           </div>
         </ScrollReveal>
