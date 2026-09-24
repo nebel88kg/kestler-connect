@@ -9,7 +9,7 @@ export const wasKostetGoogleAds: BlogPost = {
   category: "Google Ads",
   readTime: "8 Min.",
   content: `
-Google Ads ist eines der effektivsten Werkzeuge für lokale Unternehmen und Handwerksbetriebe. Doch die Frage "Was kostet Google Ads?" lässt sich nicht mit einer einfachen Zahl beantworten.
+Google Ads ist eines der effektivsten Werkzeuge für lokale und regionale Unternehmen. Doch die Frage "Was kostet Google Ads?" lässt sich nicht mit einer einfachen Zahl beantworten.
 
 ## Die zwei Kostenblöcke
 
@@ -17,17 +17,17 @@ Bei Google Ads unterscheiden Sie zwischen **Werbebudget** (das geht direkt an Go
 
 ### Werbebudget
 
-Für lokale Handwerksbetriebe empfehlen wir ein monatliches Werbebudget von **500–1.500 €**. In größeren Städten mit mehr Wettbewerb kann es auch mehr sein.
+Für lokale Unternehmen bewegen sich Media-Budgets oft in einer typischen Marktorientierung von **500–1.500 €** monatlich. In größeren Städten mit mehr Wettbewerb kann es auch mehr sein.
 
 ### Agenturkosten
 
-Professionelle Betreuung kostet typischerweise **300–800 €/Monat**, abhängig vom Umfang und der Anzahl der Kampagnen.
+Professionelle Betreuung kalkulieren wir individuell nach Umfang und Kampagnenzahl — im Strategiegespräch erhalten Sie eine klare Einschätzung ohne Pauschalversprechen.
 
 ## Was beeinflusst die Kosten?
 
-- **Branche und Wettbewerb**: SHK und Elektro sind günstiger als Anwalt oder Immobilien
+- **Branche und Wettbewerb**: Manche Gewerke und Dienstleister sind günstiger als stark umkämpfte Branchen (z. B. Recht oder Immobilien)
 - **Region**: München ist teurer als ländliche Gebiete
-- **Keywords**: "Heizung Notdienst" kostet mehr als "Gartenpflege"
+- **Keywords**: Dringlichkeits- und Notdienst-Suchanfragen kosten oft mehr als allgemeine Pflegeleistungen
 - **Qualität der Landingpage**: Bessere Seiten = niedrigere Klickkosten
 
 ## Wann lohnt sich Google Ads?
@@ -39,7 +39,7 @@ Google Ads lohnt sich, wenn:
 
 ## Fazit
 
-Rechnen Sie mit **800–2.000 € Gesamtkosten monatlich** für einen professionell betreuten Google Ads Account im Handwerk. Die Investition amortisiert sich oft schon mit 2–3 zusätzlichen Aufträgen.
+Gesamtkosten aus Media-Budget und Betreuung hängen stark von Branche und Wettbewerb ab. Ob sich der Einsatz rechnet, prüfen wir gemeinsam anhand Ihres Auftragswerts — unverbindlich im Strategiegespräch.
 
 **Möchten Sie wissen, was Google Ads für Ihr Unternehmen kostet?** Buchen Sie ein kostenloses Strategiegespräch mit Kestler Connect.
   `.trim(),
