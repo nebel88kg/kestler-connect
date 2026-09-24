@@ -131,30 +131,6 @@ export const googleAdsHub: LandingPage = {
     { step: 4, title: "Optimierung", description: "Gebote, Texte und Negativ-Keywords." },
     { step: 5, title: "Reporting", description: "Ergebnisse und nächste Schritte." },
   ],
-  pricing: {
-    title: "Preise und Budgetempfehlungen",
-    paragraphs: [
-      "Für lokale Unternehmen in Duisburg und Moers empfehlen wir oft ab ca. 500–800 € Media-Budget monatlich – plus Betreuung.",
-      "Höhe hängt von Wettbewerb, Region und Angebot ab. Im Strategiegespräch klären wir eine realistische Startgröße.",
-    ],
-    ranges: [
-      {
-        label: "Media-Budget",
-        value: "ab ca. 500–800 € / Monat",
-        note: "Lokaler Einstieg – skalierbar bei guten Kosten pro Lead.",
-      },
-      {
-        label: "Betreuung",
-        value: "monatliches Honorar",
-        note: "Setup, Optimierung und Reporting inklusive Abstimmung.",
-      },
-      {
-        label: "Kombi",
-        value: "Google + Meta",
-        note: "Oft sinnvoll über [Performance Marketing](/leistungen/performance-marketing).",
-      },
-    ],
-  },
   relatedHubs: [
     {
       title: "Leadgewinnung",
@@ -207,43 +183,35 @@ export const googleAdsHub: LandingPage = {
   faq: [
     {
       question: "Was bedeutet SEA?",
-      answer:
-        "SEA steht für Search Engine Advertising – Suchmaschinenwerbung. Bei Google heißt das praktisch: Google Ads. Sie zahlen für Klicks auf Anzeigen, die erscheinen, wenn jemand nach Ihrer Leistung sucht.",
+      answer: "SEA steht für Search Engine Advertising – Suchmaschinenwerbung. Bei Google heißt das praktisch: Google Ads. Sie zahlen für Klicks auf Anzeigen, die erscheinen, wenn jemand nach Ihrer Leistung sucht.",
     },
     {
       question: "Kann ich bei euch Werbung schalten lassen?",
-      answer:
-        "Ja. Als Ads-Agentur richten wir Kampagnen ein, steuern Budgets und optimieren laufend – Sie schalten Werbung bei Google, wir übernehmen Setup, Texte, Targeting und Reporting.",
+      answer: "Ja. Als Ads-Agentur richten wir Kampagnen ein, steuern Budgets und optimieren laufend – Sie schalten Werbung bei Google, wir übernehmen Setup, Texte, Targeting und Reporting.",
     },
     {
       question: "Ab welchem Budget lohnen sich Google Ads?",
-      answer:
-        "Für lokale Unternehmen in Duisburg und Moers oft ab 500–800 € Media-Budget monatlich. Darunter wird Optimierung schwierig.",
+      answer: "Ein sinnvolles Media-Budget hängt von Branche und Zielgebiet ab. Im Strategiegespräch klären wir eine realistische Startgröße.",
     },
     {
       question: "Betreut ihr Google Ads auch in Moers und Umgebung?",
-      answer:
-        "Ja. Schwerpunkt ist Duisburg und Moers sowie der Umkreis (u. a. Oberhausen, Mülheim, Krefeld). Targeting und Reporting bleiben lokal und nachvollziehbar.",
+      answer: "Ja. Schwerpunkt ist Duisburg und Moers sowie der Umkreis (u. a. Oberhausen, Mülheim, Krefeld). Targeting und Reporting bleiben lokal und nachvollziehbar.",
     },
     {
       question: "Wie schnell kommen Anfragen?",
-      answer:
-        "Nach Go-live oft innerhalb von 24–48 Stunden erste Signale. Stabile Ergebnisse typischerweise nach wenigen Wochen.",
+      answer: "Nach Go-live oft innerhalb von 24–48 Stunden erste Signale. Stabile Ergebnisse typischerweise nach wenigen Wochen.",
     },
     {
       question: "Google Ads oder SEO?",
-      answer:
-        "Google Ads bringt sofort Sichtbarkeit; [SEO](/leistungen/seo) wirkt nachhaltiger. Viele kombinieren beides sinnvoll.",
+      answer: "Google Ads bringt sofort Sichtbarkeit; [SEO](/leistungen/seo) wirkt nachhaltiger. Viele kombinieren beides sinnvoll.",
     },
     {
       question: "Brauche ich eine Landingpage?",
-      answer:
-        "Ideal ja. Eine passende Seite steigert Conversion und Qualitätsfaktor – wir erstellen oder optimieren sie.",
+      answer: "Ideal ja. Eine passende Seite steigert Conversion und Qualitätsfaktor – wir erstellen oder optimieren sie.",
     },
     {
       question: "Was kostet die Betreuung?",
-      answer:
-        "Abhängig von Account-Umfang und Zielen. Im kostenlosen Strategiegespräch erhalten Sie eine klare Einschätzung.",
+      answer: "Abhängig von Account-Umfang und Zielen – im Strategiegespräch erhalten Sie eine klare Einschätzung.",
     },
   ],
 };
