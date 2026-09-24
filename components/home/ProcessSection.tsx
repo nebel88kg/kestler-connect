@@ -4,10 +4,10 @@ import { ScrollReveal } from "@/components/ui/ScrollReveal";
 import { motion } from "framer-motion";
 
 const steps = [
-  { step: 1, title: "Analyse", description: "Wir verstehen Ihr Unternehmen, Ihre Zielgruppe und den Markt." },
-  { step: 2, title: "Strategie", description: "Maßgeschneiderte Marketing-Strategie mit klaren Zielen." },
-  { step: 3, title: "Umsetzung", description: "Professionelle Umsetzung aller Maßnahmen." },
-  { step: 4, title: "Optimierung", description: "Laufende Verbesserung für maximale Ergebnisse." },
+  { step: 1, title: "Analyse", description: "Ziele, Ist-Stand und Chancen – klar und ohne Fachchinesisch." },
+  { step: 2, title: "Strategie", description: "Maßgeschneiderter Plan mit messbaren Zielen und Prioritäten." },
+  { step: 3, title: "Umsetzung", description: "Fester Ansprechpartner – Ads, Social und Website aus einer Hand." },
+  { step: 4, title: "Optimierung", description: "Laufende Verbesserung dort, wo Kosten und Qualität stimmen." },
   { step: 5, title: "Reporting", description: "Transparente Berichte – Sie wissen immer, was läuft." },
 ];
 
@@ -24,12 +24,11 @@ export function ProcessSection() {
               So arbeiten wir
             </h2>
             <p className="mx-auto mt-3 max-w-2xl text-base text-gray-600 sm:mt-4 sm:text-lg">
-              Ein klarer Prozess für messbare Ergebnisse.
+              Klarer Ablauf, Erreichbarkeit und Reporting – ohne erfundene Garantien.
             </p>
           </div>
         </ScrollReveal>
 
-        {/* Mobile & tablet: vertical timeline */}
         <div className="space-y-0 lg:hidden">
           {steps.map((step, i) => (
             <ScrollReveal key={step.step} delay={i * 0.05}>
@@ -58,7 +57,6 @@ export function ProcessSection() {
           ))}
         </div>
 
-        {/* Desktop: alternating layout */}
         <div className="relative hidden lg:block">
           <div className="absolute left-1/2 top-0 h-full w-0.5 -translate-x-1/2 bg-accent/30" />
           <div className="space-y-12">
