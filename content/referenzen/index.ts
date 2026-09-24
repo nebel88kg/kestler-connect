@@ -1,4 +1,5 @@
 import type { ReferenzCase } from "../types";
+import { dnmTestimonial } from "../testimonials";
 
 export const referenzen: ReferenzCase[] = [
   {
@@ -21,6 +22,7 @@ export const referenzen: ReferenzCase[] = [
       "Klarerer, professionellerer Auftritt in Social Media",
       "Bessere digitale Basis für Anfragen und Weiterempfehlungen",
     ],
+    testimonial: dnmTestimonial,
     relatedServices: [
       { title: "SEO / Local SEO", href: "/leistungen/seo" },
       { title: "Social Media Agentur Duisburg", href: "/leistungen/social-media" },
