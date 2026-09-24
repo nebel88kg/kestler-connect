@@ -18,7 +18,7 @@ export function ReviewsCTA() {
             </h2>
             <p className="mt-4 text-base leading-relaxed text-gray-600 sm:text-lg">
               Kurzer Einblick in unsere öffentlichen Google-Bewertungen. Die ganze Liste
-              findest du mit einem Klick auf dem Maps-Eintrag.
+              finden Sie mit einem Klick auf dem Maps-Eintrag.
             </p>
             <div className="mt-6 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
               <Button href={googleBusiness.mapsUrl} external size="md">
