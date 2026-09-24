@@ -24,12 +24,12 @@ const faqItems = [
   {
     question: "Was kostet Online-Marketing?",
     answer:
-      "Typisch für lokale Unternehmen: ca. 800–2.000 € monatlich (Agentur + Werbebudget). Für den Einstieg gibt es auch Workshops. Individuelles Angebot nach dem Strategiegespräch.",
+      "Die Investition hängt von Kanälen und Zielen ab. Im Strategiegespräch erhalten Sie eine transparente Einschätzung – für den Einstieg gibt es auch Workshops.",
   },
   {
     question: "Ab welchem Budget lohnen sich Google Ads?",
     answer:
-      "Für lokale Unternehmen empfehlen wir oft 500–800 € Media-Budget monatlich – plus Betreuung für aussagekräftige Optimierung.",
+      "Ob und mit welchem Media-Budget Google Ads für Sie sinnvoll sind, klären wir im Strategiegespräch – abhängig von Branche und Zielgebiet.",
   },
   {
     question: "Wie lange dauert SEO?",
