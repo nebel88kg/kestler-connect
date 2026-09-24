@@ -54,6 +54,24 @@ export function createMetadata({
   };
 }
 
+export interface FaqSchemaItem {
+  question: string;
+  answer: string;
+}
+
+/** FAQPage-JSON-LD aus Frage/Antwort-Paaren (Antworten als reiner Text). */
+export function createFaqSchema(items: FaqSchemaItem[]): Record<string, unknown> {
+  return {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: items.map((item) => ({
+      "@type": "Question",
+      name: item.question,
+      acceptedAnswer: { "@type": "Answer", text: item.answer },
+    })),
+  };
+}
+
 export interface BreadcrumbItem {
   label: string;
   href?: string;
@@ -78,6 +96,7 @@ export function createBreadcrumbsFromPath(path: string): BreadcrumbItem[] {
     seo: "SEO",
     leadgewinnung: "Leadgewinnung",
     mitarbeitergewinnung: "Mitarbeitergewinnung",
+    "marketing-agentur-duisburg": "Marketing-Agentur Duisburg",
   };
 
   for (const segment of segments) {
