@@ -93,7 +93,7 @@ export const seoHub: LandingPage = {
     title: "Welche Ergebnisse sind realistisch?",
     paragraphs: [
       "SEO braucht Zeit: erste Impulse oft nach Wochen, spürbare Rankings typischerweise nach wenigen Monaten kontinuierlicher Arbeit.",
-      "Praxis: Bei [DnM](/referenzen/dnm) lag der Fokus auf Sichtbarkeit auf Google Seite 1 – ergänzt durch Social Media. [Golfclub Raffelberg](/referenzen/golfclub-raffelberg) und [SecPro Bildungszentrum](/referenzen/secpro-bildungszentrum) zeigen, wie digitale Präsenz und Ads zusammenspielen.",
+      "Praxis: Bei [DnM – Dämmstoffe nach Maß](/referenzen/dnm) lag der Fokus auf Sichtbarkeit auf Google Seite 1 – ergänzt durch Social Media. [Golfclub Raffelberg](/referenzen/golfclub-raffelberg) und [SecPro Bildungszentrum](/referenzen/secpro-bildungszentrum) zeigen, wie digitale Präsenz und Ads zusammenspielen.",
     ],
     points: [
       "Bessere Auffindbarkeit bei relevanten Suchen",
@@ -136,9 +136,9 @@ export const seoHub: LandingPage = {
   },
   references: [
     {
-      title: "DnM",
+      title: "DnM – Dämmstoffe nach Maß",
       slug: "dnm",
-      excerpt: "SEO-Maßnahmen mit Sichtbarkeit auf Google Seite 1.",
+      excerpt: "SEO mit Sichtbarkeit auf Google Seite 1 – plus Social Media.",
     },
     {
       title: "Golfclub Raffelberg",
