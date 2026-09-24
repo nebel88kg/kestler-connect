@@ -1,5 +1,4 @@
 import { HeroSection } from "@/components/home/HeroSection";
-import { TrustBar } from "@/components/home/TrustBar";
 import { TrustSection } from "@/components/home/TrustSection";
 import { AboutSection } from "@/components/home/AboutSection";
 import { ServicesGrid } from "@/components/home/ServicesGrid";
@@ -15,7 +14,6 @@ export default function HomePage() {
   return (
     <>
       <HeroSection />
-      <TrustBar />
       <TrustSection />
       <AboutSection />
       <ServicesGrid />
