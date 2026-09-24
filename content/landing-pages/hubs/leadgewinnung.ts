@@ -179,35 +179,43 @@ export const leadgewinnungHub: LandingPage = {
   faq: [
     {
       question: "Wie bekomme ich mehr Anfragen?",
-      answer: "Mit klarem Angebot, messbaren Kampagnen und conversion-starken Seiten. Primär über [Google Ads](/leistungen/google-ads) (aktive Suche) und [Meta Ads](/leistungen/meta-ads) (gezielte Ansprache) – plus schnellem Follow-up.",
+      answer:
+        "Mit klarem Angebot, messbaren Kampagnen und conversion-starken Seiten. Primär über [Google Ads](/leistungen/google-ads) (aktive Suche) und [Meta Ads](/leistungen/meta-ads) (gezielte Ansprache) – plus schnellem Follow-up.",
     },
     {
       question: "Google Ads oder Social für mehr Kunden?",
-      answer: "Google Ads trifft Menschen, die aktiv suchen; Meta und Social erzeugen Nachfrage und Sichtbarkeit. Oft ist der Mix am stärksten – wir prüfen, was zu Ihrem Angebot passt.",
+      answer:
+        "Google Ads trifft Menschen, die aktiv suchen; Meta und Social erzeugen Nachfrage und Sichtbarkeit. Oft ist der Mix am stärksten – wir prüfen, was zu Ihrem Angebot passt.",
     },
     {
       question: "Was ist ein Lead?",
-      answer: "Ein Kontakt mit Kauf- oder Anfrageinteresse – z. B. Formular, Anruf oder Terminbuchung.",
+      answer:
+        "Ein Kontakt mit Kauf- oder Anfrageinteresse – z. B. Formular, Anruf oder Terminbuchung.",
     },
     {
       question: "Welcher Kanal eignet sich?",
-      answer: "Google für aktive Suche, Meta für gezielte Ansprache. Oft ist der Mix am wirksamsten.",
+      answer:
+        "Google für aktive Suche, Meta für gezielte Ansprache. Oft ist der Mix am wirksamsten.",
     },
     {
       question: "Wie schnell kommen Leads?",
-      answer: "Mit Ads oft innerhalb weniger Tage erste Kontakte. Qualität und Kosten stabilisieren sich über Wochen.",
+      answer:
+        "Mit Ads oft innerhalb weniger Tage erste Kontakte. Qualität und Kosten stabilisieren sich über Wochen.",
     },
     {
       question: "Was kostet ein Lead?",
-      answer: "Stark branchenabhängig. Wir machen Kosten transparent und optimieren auf brauchbare Anfragen.",
+      answer:
+        "Stark branchenabhängig. Wir machen Kosten transparent und optimieren auf brauchbare Anfragen – ohne Pauschalpreise; die Einschätzung klären wir im Strategiegespräch.",
     },
     {
       question: "Brauche ich eine Landingpage?",
-      answer: "In den meisten Fällen ja – sie steigert Conversion und Lead-Qualität deutlich. Siehe auch [Website erstellen lassen](/leistungen/webseiten).",
+      answer:
+        "In den meisten Fällen ja – sie steigert Conversion und Lead-Qualität deutlich. Siehe auch [Website erstellen lassen](/leistungen/webseiten).",
     },
     {
       question: "Was passiert nach dem Lead?",
-      answer: "Schnelles Follow-up ist entscheidend. Wir helfen, Prozesse so zu setzen, dass Anfragen nicht liegen bleiben.",
+      answer:
+        "Schnelles Follow-up ist entscheidend. Wir helfen, Prozesse so zu setzen, dass Anfragen nicht liegen bleiben.",
     },
   ],
 };
