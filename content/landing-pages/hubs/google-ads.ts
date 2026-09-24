@@ -5,41 +5,57 @@ export const googleAdsHub: LandingPage = {
   path: "/leistungen/google-ads",
   category: "google-ads",
   meta: {
-    title: "Google Ads Agentur Duisburg | Suchanzeigen mit ROI | Kestler Connect",
+    title: "Google Ads Agentur Duisburg & Moers | Suchanzeigen | Kestler Connect",
     description:
-      "Google Ads Agentur Duisburg: Suchanzeigen mit messbaren Anfragen und klarem ROI – für regionale und lokale Unternehmen in Duisburg, Ruhrgebiet und NRW.",
+      "Google Ads Agentur Duisburg und Moers: Suchanzeigen mit messbaren Anfragen und klarem ROI – für regionale Unternehmen im Ruhrgebiet und NRW.",
     keywords: [
       "google ads duisburg",
+      "google ads moers",
       "google ads agentur duisburg",
+      "google ads agentur moers",
       "google ads agentur",
-      "google werbung",
+      "google werbung ruhrgebiet",
       "suchmaschinenwerbung",
       "sea agentur",
     ],
   },
   hero: {
-    headline: "Google Ads Agentur Duisburg – Mehr Anfragen genau im richtigen Moment",
+    headline: "Google Ads in Duisburg und Moers – Anfragen im richtigen Moment",
     subheadline:
-      "Suchanzeigen für regionale und lokale Unternehmen – sichtbar, wenn Kunden aktiv suchen, mit Fokus auf Kosten pro Anfrage.",
+      "Suchanzeigen für regionale und lokale Unternehmen in Duisburg, Moers und Umgebung – sichtbar, wenn Kunden aktiv suchen, mit Fokus auf Kosten pro Anfrage.",
   },
   intro: {
     title: "Was ist Google Ads?",
     paragraphs: [
-      "Google Ads zeigt Ihre Anzeige, wenn jemand aktiv nach Ihrer Leistung sucht – ideal für planbare, intentionstarke Anfragen vor Ort.",
+      "Google Ads zeigt Ihre Anzeige, wenn jemand aktiv nach Ihrer Leistung sucht – ideal für planbare Anfragen in Duisburg, Moers und dem Ruhrgebiet.",
       "Bei Kestler Connect betreuen wir Google Ads als laufendes System: Keywords, Landingpages, Tracking und Optimierung – eingebettet in [Performance Marketing](/leistungen/performance-marketing), ergänzt durch [Meta Ads](/leistungen/meta-ads) und [Social Media](/leistungen/social-media).",
     ],
   },
   audience: {
     title: "Für wen eignet sich Google Ads?",
     paragraphs: [
-      "Wenn Menschen Ihre Leistung aktiv googeln und der Auftragswert die Akquisitionskosten klar übersteigt – besonders stark für lokale und regionale Anbieter.",
+      "Wenn Menschen Ihre Leistung aktiv googeln und der Auftragswert die Akquisitionskosten klar übersteigt – besonders stark für Anbieter in Duisburg, Moers und dem Umkreis.",
     ],
     points: [
-      "Regionale und lokale Unternehmen mit Suchvolumen",
+      "Regionale und lokale Unternehmen in Duisburg, Moers und Umgebung",
       "Dienstleister und Beratungen vor Ort",
       "Praxen, Kanzleien und regionale Anbieter",
       "Events und Freizeitangebote mit Buchungsziel",
       "Unternehmen, die parallel zu SEO sofort Anfragen brauchen",
+    ],
+  },
+  serviceArea: {
+    title: "Einzugsgebiet – vor Ort & digital",
+    paragraphs: [
+      "Wir betreuen Google Ads für Unternehmen in Duisburg und Moers sowie dem näheren Umkreis – hybrid vor Ort und remote, mit lokalem Targeting statt Streuverlust.",
+    ],
+    points: [
+      "Duisburg",
+      "Moers",
+      "Oberhausen",
+      "Mülheim an der Ruhr",
+      "Krefeld",
+      "Düsseldorf / Ruhrgebiet & NRW",
     ],
   },
   problem: {
@@ -55,7 +71,7 @@ export const googleAdsHub: LandingPage = {
   solution: {
     title: "Google Ads mit Fokus auf Anfragen",
     content:
-      "Wir strukturieren Kampagnen sauber, steuern lokal, messen Anrufe und Formulare und optimieren laufend – abgestimmt auf [Meta Ads](/leistungen/meta-ads), [SEO](/leistungen/seo) und Ihre [Website](/leistungen/webseiten).",
+      "Wir strukturieren Kampagnen sauber, steuern lokal in Duisburg und Moers, messen Anrufe und Formulare und optimieren laufend – abgestimmt auf [Meta Ads](/leistungen/meta-ads), [SEO](/leistungen/seo) und Ihre [Website](/leistungen/webseiten).",
   },
   benefits: [
     {
@@ -65,7 +81,7 @@ export const googleAdsHub: LandingPage = {
     },
     {
       title: "Lokale Steuerung",
-      description: "Budgets und Regionen klar begrenzen – weniger Streuverlust.",
+      description: "Budgets für Duisburg, Moers und Umkreis klar begrenzen – weniger Streuverlust.",
       icon: "map",
     },
     {
@@ -113,7 +129,7 @@ export const googleAdsHub: LandingPage = {
   pricing: {
     title: "Preise und Budgetempfehlungen",
     paragraphs: [
-      "Für lokale Unternehmen empfehlen wir oft ab ca. 500–800 € Media-Budget monatlich – plus Betreuung.",
+      "Für lokale Unternehmen in Duisburg und Moers empfehlen wir oft ab ca. 500–800 € Media-Budget monatlich – plus Betreuung.",
       "Höhe hängt von Wettbewerb, Region und Angebot ab. Im Strategiegespräch klären wir eine realistische Startgröße.",
     ],
     ranges: [
@@ -134,6 +150,33 @@ export const googleAdsHub: LandingPage = {
       },
     ],
   },
+  relatedHubs: [
+    {
+      title: "Meta Ads Agentur Duisburg",
+      href: "/leistungen/meta-ads",
+      description: "Facebook- und Instagram-Ads für Leads in Duisburg, Moers und Umgebung.",
+    },
+    {
+      title: "Social Media Agentur Duisburg",
+      href: "/leistungen/social-media",
+      description: "Content und Betreuung – Ads-ready aus einer Hand.",
+    },
+    {
+      title: "Performance Marketing",
+      href: "/leistungen/performance-marketing",
+      description: "Google Ads und Meta Ads mit messbarem ROI.",
+    },
+    {
+      title: "SEO / Local SEO",
+      href: "/leistungen/seo",
+      description: "Organische Sichtbarkeit in Duisburg, Moers und dem Ruhrgebiet.",
+    },
+    {
+      title: "Website erstellen lassen",
+      href: "/leistungen/webseiten",
+      description: "Conversion-starke Seiten für Ihre Kampagnen.",
+    },
+  ],
   references: [
     {
       title: "DnM",
@@ -155,7 +198,12 @@ export const googleAdsHub: LandingPage = {
     {
       question: "Ab welchem Budget lohnen sich Google Ads?",
       answer:
-        "Für lokale Unternehmen oft ab 500–800 € Media-Budget monatlich. Darunter wird Optimierung schwierig.",
+        "Für lokale Unternehmen in Duisburg und Moers oft ab 500–800 € Media-Budget monatlich. Darunter wird Optimierung schwierig.",
+    },
+    {
+      question: "Betreut ihr Google Ads auch in Moers und Umgebung?",
+      answer:
+        "Ja. Schwerpunkt ist Duisburg und Moers sowie der Umkreis (u. a. Oberhausen, Mülheim, Krefeld). Targeting und Reporting bleiben lokal und nachvollziehbar.",
     },
     {
       question: "Wie schnell kommen Anfragen?",
@@ -171,11 +219,6 @@ export const googleAdsHub: LandingPage = {
       question: "Brauche ich eine Landingpage?",
       answer:
         "Ideal ja. Eine passende Seite steigert Conversion und Qualitätsfaktor – wir erstellen oder optimieren sie.",
-    },
-    {
-      question: "Könnt ihr mein bestehendes Konto übernehmen?",
-      answer:
-        "Ja. Wir übernehmen und optimieren oder setzen bei Bedarf neu und sauber auf.",
     },
     {
       question: "Was kostet die Betreuung?",
