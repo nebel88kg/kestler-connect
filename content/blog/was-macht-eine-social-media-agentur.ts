@@ -4,23 +4,23 @@ export const wasMachtEineSocialMediaAgentur: BlogPost = {
   slug: "was-macht-eine-social-media-agentur",
   title: "Was macht eine Social Media Agentur? Leistungen, Ablauf und wann sie sich lohnt",
   excerpt:
-    "Was macht eine Social Media Agentur konkret? Wir erklären Leistungen, typischen Ablauf und für wen Betreuung sinnvoll ist – praxisnah für Handwerk, Vereine und KMU.",
+    "Was macht eine Social Media Agentur konkret? Wir erklären Leistungen, typischen Ablauf und für wen Betreuung sinnvoll ist – praxisnah für regionale und lokale Unternehmen.",
   metaTitle: "Was macht eine Social Media Agentur? | Erklärung & Leistungen",
   metaDescription:
-    "Was macht eine Social Media Agentur? Content, Reels, Strategie und Betreuung erklärt – plus Wann sich eine Agentur für Handwerk, Vereine und KMU lohnt.",
+    "Was macht eine Social Media Agentur? Content, Reels, Strategie und Betreuung erklärt – plus Wann sich eine Agentur für regionale und lokale Unternehmen lohnt.",
   date: "2026-09-16",
   category: "Social Media",
   readTime: "10 Min.",
   content: `
-Viele Unternehmen und Vereine wissen: Social Media ist wichtig. Weniger klar ist oft, was eine Social Media Agentur eigentlich genau macht – und wo der Unterschied zwischen gelegentlichem Posten und professioneller Betreuung liegt.
+Viele Unternehmen wissen: Social Media ist wichtig. Weniger klar ist oft, was eine Social Media Agentur eigentlich genau macht – und wo der Unterschied zwischen gelegentlichem Posten und professioneller Betreuung liegt.
 
-In diesem Beitrag erklären wir praxisnah, welche Leistungen dahinterstecken, wie die Zusammenarbeit typischerweise abläuft und wann sich eine Social Media Agentur für Handwerk, Vereine, Gastronomie und KMU wirklich lohnt.
+In diesem Beitrag erklären wir praxisnah, welche Leistungen dahinterstecken, wie die Zusammenarbeit typischerweise abläuft und wann sich eine Social Media Agentur für regionale und lokale Unternehmen, Gastronomie und KMU wirklich lohnt.
 
 ## Kurzantwort: Was macht eine Social Media Agentur?
 
 Eine Social Media Agentur plant, produziert und betreut Ihren Auftritt auf Kanälen wie Instagram und Facebook. Dazu gehören Strategie, Redaktionsplan, Content (Feed, Stories, Reels), Community-Impulse und die Abstimmung mit Werbung und Website.
 
-Ziel ist nicht „möglichst viele Posts“, sondern ein professioneller, wiedererkennbarer Auftritt, der Vertrauen aufbaut und – je nach Ziel – Reichweite, Anfragen, Mitglieder oder Bewerber unterstützt.
+Ziel ist nicht „möglichst viele Posts“, sondern ein professioneller, wiedererkennbarer Auftritt, der Vertrauen aufbaut und – je nach Ziel – Reichweite, Anfragen oder Bewerber unterstützt.
 
 Bei Kestler Connect in Duisburg ist genau das unser Schwerpunkt: Wir sind primär [Social-Media-Agentur](/leistungen/social-media) und verbinden Content bei Bedarf mit [Performance Marketing](/leistungen/performance-marketing) und [Website-Erstellung](/leistungen/webseiten).
 
@@ -34,7 +34,7 @@ Typische Auslöser für eine Zusammenarbeit:
 - Es gibt keine klare Bildsprache oder Botschaft
 - Reels und aktuelle Formate werden nicht genutzt
 - Ads laufen, aber das organische Profil überzeugt nicht
-- Sponsoren, Bewerber oder Kunden erwarten einen aktiven Kanal
+- Kunden, Partner oder Bewerber erwarten einen aktiven Kanal
 - Intern fehlt Kapazität für Planung und Produktion
 
 Eine Agentur übernimmt dann die Systematik: Planung, Produktion, Veröffentlichung und Feinschliff – mit einem festen Ansprechpartner statt Zufallsposten.
@@ -43,7 +43,7 @@ Eine Agentur übernimmt dann die Systematik: Planung, Produktion, Veröffentlich
 
 ### 1. Strategie und Positionierung
 
-Bevor Content entsteht, klären wir Ziele und Zielgruppe: Mehr Anfragen? Mitglieder? Arbeitgebermarke? Sponsoren-Sichtbarkeit?
+Bevor Content entsteht, klären wir Ziele und Zielgruppe: Mehr Anfragen? Arbeitgebermarke? Lokale Bekanntheit?
 
 Daraus entstehen Tonalität, Content-Säulen und die Entscheidung, welche Kanäle wirklich Sinn ergeben – statt überall gleichzeitig präsent zu sein.
 
@@ -57,7 +57,7 @@ So bleibt der Kanal konsistent, ohne dass Sie jeden Beitrag im Alltag neu erfind
 
 Dazu gehören Texte, Visuals, Reels und oft auch Shootings vor Ort. Gute Inhalte zeigen Angebot, Alltag, Team und Mehrwert – nicht nur Werbeslogans.
 
-Gerade für Handwerk, Vereine und Events wirkt Authentizität stärker als Hochglanz ohne Substanz.
+Gerade für lokale Unternehmen und Events wirkt Authentizität stärker als Hochglanz ohne Substanz.
 
 ### 4. Publishing und Community
 
@@ -94,10 +94,10 @@ Details und Paketlogik finden Sie auf unserer Leistungsseite zur [Social Media A
 
 Besonders sinnvoll ist professionelle Betreuung für:
 
-- Handwerksbetriebe mit lokaler Zielgruppe oder Recruiting-Bedarf
-- Vereine und Clubs, die Mitglieder und Sponsoren ansprechen
-- Gastronomie, Events und Freizeitangebote mit visuellem Angebot
+- Regionale und lokale Unternehmen mit Kunden vor Ort oder im Einzugsgebiet
 - KMU, die online professionell wirken wollen, aber kein internes Team haben
+- Gastronomie, Events und Freizeitangebote mit visuellem Angebot
+- Betriebe mit Recruiting-Bedarf, die Arbeitgebermarke sichtbar machen wollen
 
 Weniger sinnvoll ist es, wenn niemand Freigaben geben kann, das Angebot unklar ist oder Social Media nur „weil alle es machen“ betrieben werden soll – ohne Ziel.
 
@@ -132,7 +132,7 @@ Wer diese Punkte klärt, holt aus Betreuung deutlich mehr heraus.
 
 Was macht eine Social Media Agentur? Sie macht aus sporadischem Posten ein System: Strategie, Content, Kontinuität und die Verbindung zu Ads und Website.
 
-Für Handwerk, Vereine und KMU in Duisburg und im Ruhrgebiet heißt das vor allem: professioneller wirken, regelmäßig sichtbar sein und Marketing-Kanäle sinnvoll verzahnen – statt Social Media als Dauerbaustelle im Alltag mitzuschleppen.
+Für regionale und lokale Unternehmen in Duisburg und im Ruhrgebiet heißt das vor allem: professioneller wirken, regelmäßig sichtbar sein und Marketing-Kanäle sinnvoll verzahnen – statt Social Media als Dauerbaustelle im Alltag mitzuschleppen.
 
 Wenn Sie prüfen möchten, ob Betreuung für Ihr Unternehmen sinnvoll ist, sprechen Sie uns gerne an. Wir schauen uns Ist-Zustand und Ziele an und empfehlen den nächsten Schritt – unverbindlich.
 
@@ -156,6 +156,6 @@ Ideal ja. Die Website ist Basis für Vertrauen und Anfragen; Social Media hält 
 
 **Für welche Branchen eignet sich eine Social Media Agentur?**
 
-Besonders für Handwerk, Vereine, Events/Gastronomie und lokale KMU – überall dort, wo Vertrauen, Sichtbarkeit und ein aktiver Auftritt zählen.
+Besonders für regionale und lokale KMU, Events/Gastronomie und Dienstleister vor Ort – überall dort, wo Vertrauen, Sichtbarkeit und ein aktiver Auftritt zählen.
   `.trim(),
 };

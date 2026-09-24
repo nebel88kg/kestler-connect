@@ -129,30 +129,6 @@ export const socialMediaHub: LandingPage = {
     { step: 4, title: "Publishing", description: "Veröffentlichung und Community-Impulse." },
     { step: 5, title: "Optimierung", description: "Was performt, wird ausgebaut – inkl. Reporting." },
   ],
-  pricing: {
-    title: "Preise und Budgetempfehlungen",
-    paragraphs: [
-      "Social-Media-Betreuung kalkulieren wir nach Kanälen, Frequenz, Reels-/TikTok-Anteil und Community-Umfang.",
-      "Viele starten mit einem monatlichen Retainer und erweitern bei Bedarf um Meta Ads oder intensivere Produktion.",
-    ],
-    ranges: [
-      {
-        label: "Betreuung (Orientierung)",
-        value: "ab ca. 500–1.200 € / Monat",
-        note: "Je nach Frequenz, Kanälen und Produktionsaufwand.",
-      },
-      {
-        label: "Mit Ads-Kombi",
-        value: "oft sinnvoll gebündelt",
-        note: "Social Content + Meta Ads aus einer Hand spart Abstimmung.",
-      },
-      {
-        label: "Einstieg",
-        value: "Strategie + Pilotmonat",
-        note: "Strukturierter Start, Justierung nach ersten Ergebnissen.",
-      },
-    ],
-  },
   relatedHubs: [
     {
       title: "Meta Ads Agentur Duisburg",

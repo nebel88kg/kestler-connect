@@ -109,30 +109,6 @@ export const workshopsHub: LandingPage = {
     { step: 4, title: "Plan", description: "Nächste Schritte dokumentieren." },
     { step: 5, title: "Optional", description: "Umsetzung oder Betreuung anschließen." },
   ],
-  pricing: {
-    title: "Preise und Formate",
-    paragraphs: [
-      "Workshops bieten wir als kompakte Tagungsformate an – transparent und ohne versteckte Retainer-Pflicht.",
-      "Im Strategiegespräch finden wir das passende Format: Startup-Marketing oder Marketing & Sponsoring.",
-    ],
-    ranges: [
-      {
-        label: "Startup Marketing",
-        value: "5–6 Stunden",
-        note: "Positionierung, Kanäle, Fahrplan.",
-      },
-      {
-        label: "Marketing & Sponsoring",
-        value: "auf Anfrage",
-        note: "Für Vereine und Partnerschaftslogik.",
-      },
-      {
-        label: "Danach",
-        value: "optional Betreuung",
-        note: "Social, Ads oder Website – bewusst gewählt.",
-      },
-    ],
-  },
   references: [
     {
       title: "Golfclub Raffelberg",

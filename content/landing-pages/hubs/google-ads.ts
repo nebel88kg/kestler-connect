@@ -131,30 +131,6 @@ export const googleAdsHub: LandingPage = {
     { step: 4, title: "Optimierung", description: "Gebote, Texte und Negativ-Keywords." },
     { step: 5, title: "Reporting", description: "Ergebnisse und nächste Schritte." },
   ],
-  pricing: {
-    title: "Preise und Budgetempfehlungen",
-    paragraphs: [
-      "Für lokale Unternehmen in Duisburg und Moers empfehlen wir oft ab ca. 500–800 € Media-Budget monatlich – plus Betreuung.",
-      "Höhe hängt von Wettbewerb, Region und Angebot ab. Im Strategiegespräch klären wir eine realistische Startgröße.",
-    ],
-    ranges: [
-      {
-        label: "Media-Budget",
-        value: "ab ca. 500–800 € / Monat",
-        note: "Lokaler Einstieg – skalierbar bei guten Kosten pro Lead.",
-      },
-      {
-        label: "Betreuung",
-        value: "monatliches Honorar",
-        note: "Setup, Optimierung und Reporting inklusive Abstimmung.",
-      },
-      {
-        label: "Kombi",
-        value: "Google + Meta",
-        note: "Oft sinnvoll über [Performance Marketing](/leistungen/performance-marketing).",
-      },
-    ],
-  },
   relatedHubs: [
     {
       title: "Leadgewinnung",
@@ -218,7 +194,7 @@ export const googleAdsHub: LandingPage = {
     {
       question: "Ab welchem Budget lohnen sich Google Ads?",
       answer:
-        "Für lokale Unternehmen in Duisburg und Moers oft ab 500–800 € Media-Budget monatlich. Darunter wird Optimierung schwierig.",
+        "Ein sinnvolles Media-Budget hängt von Wettbewerb, Region und Zielen ab. Im Strategiegespräch klären wir, ob und in welcher Höhe sich der Einstieg lohnt.",
     },
     {
       question: "Betreut ihr Google Ads auch in Moers und Umgebung?",
@@ -243,7 +219,7 @@ export const googleAdsHub: LandingPage = {
     {
       question: "Was kostet die Betreuung?",
       answer:
-        "Abhängig von Account-Umfang und Zielen. Im kostenlosen Strategiegespräch erhalten Sie eine klare Einschätzung.",
+        "Abhängig von Account-Umfang und Zielen – im Strategiegespräch erhalten Sie eine klare Einschätzung ohne Pauschalversprechen.",
     },
   ],
 };

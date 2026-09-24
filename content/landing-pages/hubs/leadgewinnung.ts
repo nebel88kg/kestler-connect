@@ -127,30 +127,6 @@ export const leadgewinnungHub: LandingPage = {
     { step: 4, title: "Optimierung", description: "Qualität und Kosten verbessern." },
     { step: 5, title: "Skalierung", description: "Budget dort erhöhen, wo es wirkt." },
   ],
-  pricing: {
-    title: "Preise und Budgetempfehlungen",
-    paragraphs: [
-      "Leadgewinnung braucht Media-Budget und Betreuung. Die Höhe hängt von Wettbewerb und Ziel ab.",
-      "Im Strategiegespräch prüfen wir, ob sich die Kosten pro Lead für Ihr Angebot rechnen.",
-    ],
-    ranges: [
-      {
-        label: "Media-Budget",
-        value: "ab ca. 500–1.500 € / Monat",
-        note: "Orientierung für lokale Kampagnen.",
-      },
-      {
-        label: "Betreuung",
-        value: "monatliches Honorar",
-        note: "Strategie, Setup, Optimierung, Reporting.",
-      },
-      {
-        label: "Landingpage",
-        value: "optional dazu",
-        note: "Oft der Hebel für bessere Conversion.",
-      },
-    ],
-  },
   relatedHubs: [
     {
       title: "Google Ads / SEA",
@@ -229,7 +205,7 @@ export const leadgewinnungHub: LandingPage = {
     {
       question: "Was kostet ein Lead?",
       answer:
-        "Stark branchenabhängig. Wir machen Kosten transparent und optimieren auf brauchbare Anfragen.",
+        "Stark branchenabhängig. Wir machen Kosten transparent und optimieren auf brauchbare Anfragen – ohne Pauschalpreise; die Einschätzung klären wir im Strategiegespräch.",
     },
     {
       question: "Brauche ich eine Landingpage?",
