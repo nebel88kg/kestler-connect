@@ -1,10 +1,13 @@
 "use client";
 
-const logos = [
-  "DnM – Dämmstoffe nach Maß",
-  "SecPro Bildungszentrum",
-  "Golfclub Raffelberg",
-];
+import {
+  dnmLogo,
+  secproLogo,
+  raffelbergLogo,
+  startupSchoolLogo,
+} from "@/lib/clientLogos";
+
+const logos = [dnmLogo, secproLogo, raffelbergLogo, startupSchoolLogo];
 
 export function LogoSlider() {
   const duplicated = [...logos, ...logos, ...logos, ...logos];
@@ -16,10 +19,17 @@ export function LogoSlider() {
       <div className="flex animate-scroll gap-12 whitespace-nowrap">
         {duplicated.map((logo, i) => (
           <div
-            key={i}
-            className="flex h-16 min-w-[180px] items-center justify-center rounded-xl border border-accent/20 bg-white px-6 text-sm font-semibold text-navy shadow-sm"
+            key={`${logo.file}-${i}`}
+            className="flex h-16 min-w-[180px] items-center justify-center rounded-xl border border-accent/20 bg-white px-6 shadow-sm"
           >
-            {logo}
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src={logo.src}
+              alt={logo.alt}
+              width={140}
+              height={48}
+              className="h-10 w-auto max-w-[140px] object-contain"
+            />
           </div>
         ))}
       </div>
