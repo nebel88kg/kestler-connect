@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { notFound } from "next/navigation";
 import { referenzen, getReferenzBySlug } from "@/content/referenzen";
 import { createMetadata, createBreadcrumbsFromPath } from "@/lib/seo";
@@ -85,6 +86,26 @@ export default async function ReferenzDetailPage({
                 </ul>
               </section>
             </ScrollReveal>
+
+            {ref.relatedServices && ref.relatedServices.length > 0 && (
+              <ScrollReveal>
+                <section>
+                  <h2 className="text-2xl font-bold text-anthracite">Passende Leistungen</h2>
+                  <ul className="mt-4 flex flex-wrap gap-3">
+                    {ref.relatedServices.map((svc) => (
+                      <li key={svc.href}>
+                        <Link
+                          href={svc.href}
+                          className="inline-flex rounded-full border border-accent/30 bg-accent-light/40 px-4 py-2 text-sm font-semibold text-navy transition-colors hover:bg-accent hover:text-navy"
+                        >
+                          {svc.title}
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                </section>
+              </ScrollReveal>
+            )}
           </div>
 
           <div>

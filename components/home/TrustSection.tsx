@@ -9,6 +9,25 @@ const stats = [
   { value: 5, prefix: "", suffix: "★", label: "Google Bewertungen" },
 ];
 
+const trustPoints = [
+  {
+    title: "Fester Ansprechpartner",
+    description: "Direkte Abstimmung mit Jascha – ohne anonyme Agentur-Schleife.",
+  },
+  {
+    title: "Transparente Reports",
+    description: "Sie sehen, was läuft: Kanäle, Kosten und nächste Schritte.",
+  },
+  {
+    title: "Erreichbarkeit",
+    description: "Standort Duisburg, hybrid vor Ort und digital – auch Moers und Umkreis.",
+  },
+  {
+    title: "Kostenloses Strategiegespräch",
+    description: "Unverbindlich prüfen, ob Ads, Social oder SEO für Sie Sinn ergeben.",
+  },
+];
+
 export function TrustSection() {
   return (
     <section className="section-padding bg-gray-50">
@@ -20,7 +39,21 @@ export function TrustSection() {
           <LogoSlider />
         </ScrollReveal>
 
-        <ScrollReveal delay={0.2}>
+        <ScrollReveal delay={0.15}>
+          <div className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+            {trustPoints.map((point) => (
+              <div
+                key={point.title}
+                className="rounded-xl border border-accent/20 bg-white p-5 text-center sm:text-left"
+              >
+                <h3 className="text-sm font-bold text-navy sm:text-base">{point.title}</h3>
+                <p className="mt-2 text-sm leading-relaxed text-gray-600">{point.description}</p>
+              </div>
+            ))}
+          </div>
+        </ScrollReveal>
+
+        <ScrollReveal delay={0.25}>
           <div className="mt-16 grid grid-cols-2 gap-8 lg:grid-cols-4">
             {stats.map((stat) => (
               <div key={stat.label} className="text-center">

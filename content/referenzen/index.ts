@@ -21,6 +21,10 @@ export const referenzen: ReferenzCase[] = [
       "Klarerer, professionellerer Auftritt in Social Media",
       "Bessere digitale Basis für Anfragen und Weiterempfehlungen",
     ],
+    relatedServices: [
+      { title: "SEO / Local SEO", href: "/leistungen/seo" },
+      { title: "Social Media Agentur Duisburg", href: "/leistungen/social-media" },
+    ],
   },
   {
     slug: "secpro-bildungszentrum",
@@ -41,6 +45,10 @@ export const referenzen: ReferenzCase[] = [
       "Professioneller, regelmäßiger Social-Media-Auftritt",
       "Gezielte Reichweite über Meta Ads",
       "Klarere Wahrnehmung der Bildungsangebote online",
+    ],
+    relatedServices: [
+      { title: "Social Media Agentur Duisburg", href: "/leistungen/social-media" },
+      { title: "Meta Ads Agentur Duisburg", href: "/leistungen/meta-ads" },
     ],
   },
   {
@@ -63,6 +71,11 @@ export const referenzen: ReferenzCase[] = [
       "Kurse und Schnupperangebote gut gebucht",
       "Mehr Interessenten und Anfragen für Firmenfeiern",
       "Zuverlässige, nachvollziehbare Zusammenarbeit",
+    ],
+    relatedServices: [
+      { title: "Social Media Agentur Duisburg", href: "/leistungen/social-media" },
+      { title: "Google Ads in Duisburg und Moers", href: "/leistungen/google-ads" },
+      { title: "Meta Ads Agentur Duisburg", href: "/leistungen/meta-ads" },
     ],
   },
 ];

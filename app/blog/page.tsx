@@ -12,6 +12,13 @@ export const metadata: Metadata = createMetadata({
   path: "/blog",
 });
 
+const relatedServices = [
+  { title: "Google Ads in Duisburg und Moers", href: "/leistungen/google-ads" },
+  { title: "Meta Ads Agentur Duisburg", href: "/leistungen/meta-ads" },
+  { title: "Social Media Agentur Duisburg", href: "/leistungen/social-media" },
+  { title: "SEO / Local SEO", href: "/leistungen/seo" },
+];
+
 export default function BlogPage() {
   return (
     <div className="page-top">
@@ -42,6 +49,27 @@ export default function BlogPage() {
             </ScrollReveal>
           ))}
         </div>
+
+        <ScrollReveal>
+          <div className="mt-16 rounded-2xl border border-accent/20 bg-gray-50 p-6 sm:p-8">
+            <h2 className="text-xl font-bold text-anthracite">Leistungen vertiefen</h2>
+            <p className="mt-2 text-sm text-gray-600">
+              Von Wissen zu Umsetzung – die wichtigsten Angebote für Duisburg und Moers.
+            </p>
+            <ul className="mt-4 flex flex-wrap gap-3">
+              {relatedServices.map((svc) => (
+                <li key={svc.href}>
+                  <Link
+                    href={svc.href}
+                    className="inline-flex rounded-full border border-accent/30 bg-white px-4 py-2 text-sm font-semibold text-navy transition-colors hover:bg-accent"
+                  >
+                    {svc.title}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </ScrollReveal>
       </div>
     </div>
   );

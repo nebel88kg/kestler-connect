@@ -5,41 +5,56 @@ export const socialMediaHub: LandingPage = {
   path: "/leistungen/social-media",
   category: "social-media",
   meta: {
-    title: "Social Media Agentur Duisburg | Social Media Marketing | Kestler Connect",
+    title: "Social Media Agentur Duisburg & Moers | Marketing | Kestler Connect",
     description:
-      "Social-Media-Agentur Duisburg: Social Media Marketing mit Redaktionsplan, Content und Reels – für regionale und lokale Unternehmen in Duisburg und Umgebung.",
+      "Social-Media-Agentur Duisburg und Moers: Redaktionsplan, Content und Reels – für regionale Unternehmen im Ruhrgebiet und NRW.",
     keywords: [
       "social media agentur duisburg",
+      "social media agentur moers",
       "social media marketing duisburg",
       "social media agentur",
       "social media betreuung",
-      "instagram betreuung",
+      "instagram betreuung ruhrgebiet",
       "content marketing",
     ],
   },
   hero: {
-    headline: "Social Media Agentur Duisburg – professionell, regelmäßig, ergebnisorientiert",
+    headline: "Social Media Agentur Duisburg & Moers – professionell und regelmäßig",
     subheadline:
-      "Social Media Marketing für regionale und lokale Unternehmen: Strategie, Content und Betreuung – damit Sichtbarkeit zu Anfragen wird.",
+      "Social Media Marketing für regionale Unternehmen in Duisburg, Moers und Umgebung: Strategie, Content und Betreuung – damit Sichtbarkeit zu Anfragen wird.",
   },
   intro: {
     title: "Was macht unsere Social Media Agentur?",
     paragraphs: [
-      "Als Social-Media-Agentur in Duisburg liefern wir Strategie, Redaktionsplan, Content und Reels – nicht gelegentliche Posts. Ziel: ein professioneller Auftritt, der Marke und Anfragen stärkt.",
+      "Als Social-Media-Agentur in Duisburg liefern wir Strategie, Redaktionsplan, Content und Reels – auch für Unternehmen in Moers und dem Umkreis. Ziel: ein professioneller Auftritt, der Marke und Anfragen stärkt.",
       "Aus einer Hand denken wir Social Media zusammen mit [Performance Marketing](/leistungen/performance-marketing) und [Website-Erstellung](/leistungen/webseiten): organischer Content baut Vertrauen, Ads bringen Reichweite, die Website macht daraus Anfragen.",
     ],
   },
   audience: {
     title: "Für wen eignet sich eine Social Media Agentur?",
     paragraphs: [
-      "Für regionale und lokale Unternehmen, die online professionell wirken wollen, aber intern keine Kapazität für kontinuierlichen Content haben – oder Ads mit einem glaubwürdigen Profil verzahnen möchten.",
+      "Für regionale und lokale Unternehmen in Duisburg, Moers und Umgebung, die online professionell wirken wollen, aber intern keine Kapazität für kontinuierlichen Content haben.",
     ],
     points: [
-      "Regionale und lokale Unternehmen in Duisburg und Umgebung",
+      "Regionale und lokale Unternehmen in Duisburg, Moers und Umgebung",
       "Dienstleister und Handel vor Ort",
       "Betriebe mit Events, visuellen Angeboten oder Recruiting-Bedarf",
       "Unternehmen, die Ads mit organischem Content verzahnen wollen",
       "Organisationen mit Sponsoring- oder Partnerschaftsanspruch",
+    ],
+  },
+  serviceArea: {
+    title: "Einzugsgebiet – vor Ort & digital",
+    paragraphs: [
+      "Social-Media-Betreuung mit lokalem Gespür: Duisburg und Moers als Schwerpunkt, plus Umkreis im Ruhrgebiet und NRW.",
+    ],
+    points: [
+      "Duisburg",
+      "Moers",
+      "Oberhausen",
+      "Mülheim an der Ruhr",
+      "Krefeld",
+      "Düsseldorf / Ruhrgebiet & NRW",
     ],
   },
   problem: {
@@ -55,7 +70,7 @@ export const socialMediaHub: LandingPage = {
   solution: {
     title: "Social Media mit Plan – aus einer Hand",
     content:
-      "Wir entwickeln Strategie und Redaktionsplan, produzieren Inhalte und betreuen Ihre Kanäle – abgestimmt auf [Performance Marketing](/leistungen/performance-marketing) und Ihre [Website](/leistungen/webseiten).",
+      "Wir entwickeln Strategie und Redaktionsplan, produzieren Inhalte und betreuen Ihre Kanäle – abgestimmt auf [Meta Ads Agentur Duisburg](/leistungen/meta-ads), [Performance Marketing](/leistungen/performance-marketing) und Ihre [Website](/leistungen/webseiten).",
   },
   benefits: [
     {
@@ -134,6 +149,33 @@ export const socialMediaHub: LandingPage = {
       },
     ],
   },
+  relatedHubs: [
+    {
+      title: "Meta Ads Agentur Duisburg",
+      href: "/leistungen/meta-ads",
+      description: "Bezahlte Reichweite, die zum organischen Auftritt passt.",
+    },
+    {
+      title: "Google Ads in Duisburg und Moers",
+      href: "/leistungen/google-ads",
+      description: "Suchanzeigen für intentionstarke Anfragen.",
+    },
+    {
+      title: "Performance Marketing",
+      href: "/leistungen/performance-marketing",
+      description: "Ads und Leadgewinnung mit messbarem ROI.",
+    },
+    {
+      title: "SEO / Local SEO",
+      href: "/leistungen/seo",
+      description: "Gefunden werden bei Google und Maps.",
+    },
+    {
+      title: "Website erstellen lassen",
+      href: "/leistungen/webseiten",
+      description: "Die Basis, die aus Reichweite Anfragen macht.",
+    },
+  ],
   references: [
     {
       title: "SecPro Bildungszentrum",
@@ -155,12 +197,12 @@ export const socialMediaHub: LandingPage = {
     {
       question: "Was macht eine Social Media Agentur lokal?",
       answer:
-        "Strategie, Redaktionsplan, Content, Reels und Community – abgestimmt auf Ihre Region. Bei Kestler Connect in Duisburg ist Social Media Marketing Schwerpunkt für lokale Unternehmen.",
+        "Strategie, Redaktionsplan, Content, Reels und Community – abgestimmt auf Ihre Region. Bei Kestler Connect in Duisburg ist Social Media Marketing Schwerpunkt für Unternehmen in Duisburg, Moers und Umgebung.",
     },
     {
       question: "Social Media oder Ads zuerst?",
       answer:
-        "Ohne glaubwürdigen Auftritt wirken Ads oft schwach – dann Social Media zuerst oder parallel. Bei schnellem Anfragebedarf und solider Basis starten viele mit [Performance Marketing](/leistungen/performance-marketing). Die Reihenfolge klären wir im Strategiegespräch.",
+        "Ohne glaubwürdigen Auftritt wirken Ads oft schwach – dann Social Media zuerst oder parallel. Bei schnellem Anfragebedarf und solider Basis starten viele mit [Performance Marketing](/leistungen/performance-marketing).",
     },
     {
       question: "Welche Kanäle betreut ihr?",
@@ -168,9 +210,9 @@ export const socialMediaHub: LandingPage = {
         "Schwerpunkt Instagram und Facebook; je nach Zielgruppe auch LinkedIn. Wir empfehlen bewusst die Kanäle, die zu Ihrem Angebot passen.",
     },
     {
-      question: "Müssen wir selbst Content liefern?",
+      question: "Müsst ihr vor Ort in Moers oder Duisburg sein?",
       answer:
-        "Idealerweise Impulse und Freigaben. Produktion und Umsetzung können wir weitgehend übernehmen – inklusive Shootings vor Ort nach Absprache.",
+        "Beides möglich: Shootings und Abstimmung vor Ort, Produktion und Publishing digital – hybrid, wie es zu Ihrem Betrieb passt.",
     },
     {
       question: "Bringt Social Media direkt Anfragen?",

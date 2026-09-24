@@ -114,6 +114,7 @@ export function LandingPageTemplate({ page }: LandingPageTemplateProps) {
 
   const navSection = leistungenNav.children?.find((child) => child.href === page.path);
   const related = navSection?.children || [];
+  const relatedHubs = page.relatedHubs || [];
 
   const faqSchema = {
     "@context": "https://schema.org",
@@ -169,7 +170,15 @@ export function LandingPageTemplate({ page }: LandingPageTemplateProps) {
         </section>
       )}
 
-      <section className={`section-padding ${page.audience ? "" : "bg-gray-50"}`}>
+      {page.serviceArea && (
+        <section className={`section-padding ${page.audience ? "" : "bg-gray-50"}`}>
+          <div className="container-custom">
+            <TextSection section={page.serviceArea} />
+          </div>
+        </section>
+      )}
+
+      <section className={`section-padding ${page.serviceArea ? "bg-gray-50" : page.audience ? "" : "bg-gray-50"}`}>
         <div className="container-custom">
           <ScrollReveal>
             <h2 className="text-2xl font-bold text-anthracite lg:text-4xl">
@@ -296,8 +305,38 @@ export function LandingPageTemplate({ page }: LandingPageTemplateProps) {
 
       {page.showWebsitePricing && <WebsitePricing />}
 
-      {related.length > 0 && (
+      {relatedHubs.length > 0 && (
         <section className="section-padding bg-gray-50">
+          <div className="container-custom">
+            <ScrollReveal>
+              <h2 className="text-2xl font-bold text-anthracite lg:text-4xl">
+                Weitere Leistungen
+              </h2>
+              <p className="mt-2 text-gray-600">
+                Starkes Zusammenspiel – die passenden Kanäle aus einer Hand.
+              </p>
+            </ScrollReveal>
+            <div className="mt-8 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+              {relatedHubs.map((hub, i) => (
+                <ScrollReveal key={hub.href} delay={i * 0.05}>
+                  <Link href={hub.href}>
+                    <Card className="h-full">
+                      <h3 className="text-lg font-bold text-anthracite">{hub.title}</h3>
+                      {hub.description && (
+                        <p className="mt-2 text-sm text-gray-600">{hub.description}</p>
+                      )}
+                      <p className="mt-3 text-sm font-semibold text-accent">Mehr erfahren →</p>
+                    </Card>
+                  </Link>
+                </ScrollReveal>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {related.length > 0 && (
+        <section className={`section-padding ${relatedHubs.length > 0 ? "" : "bg-gray-50"}`}>
           <div className="container-custom">
             <ScrollReveal>
               <h2 className="text-2xl font-bold text-anthracite lg:text-4xl">Vertiefen</h2>
