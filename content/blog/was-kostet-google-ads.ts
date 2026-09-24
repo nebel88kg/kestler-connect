@@ -17,7 +17,7 @@ Bei Google Ads unterscheiden Sie zwischen **Werbebudget** (das geht direkt an Go
 
 ### Werbebudget
 
-Für lokale Unternehmen bewegen sich Media-Budgets oft in einer typischen Marktorientierung von **500–1.500 €** monatlich. In größeren Städten mit mehr Wettbewerb kann es auch mehr sein.
+Für lokale und regionale Unternehmen bewegen sich Media-Budgets oft in einer typischen Marktorientierung von **500–1.500 €** monatlich. In größeren Städten mit mehr Wettbewerb kann es auch mehr sein.
 
 ### Agenturkosten
 
