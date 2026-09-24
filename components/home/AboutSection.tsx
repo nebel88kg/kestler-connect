@@ -15,9 +15,16 @@ export function AboutSection() {
               Kestler Connect – Social Media &amp; Performance Marketing aus Duisburg
             </h2>
             <p className="mt-4 text-base leading-relaxed text-gray-600 sm:text-lg">
-              Social Media Marketing, Google Ads und Meta Ads für regionale und lokale
-              Unternehmen in Duisburg und Umgebung – Website und SEO als starke Basis,
-              wenn Sichtbarkeit zu Anfragen werden soll.
+              Social Media Marketing,{" "}
+              <Link href="/leistungen/google-ads" className="font-semibold text-accent hover:underline">
+                Google Ads
+              </Link>{" "}
+              und{" "}
+              <Link href="/leistungen/meta-ads" className="font-semibold text-accent hover:underline">
+                Meta Ads
+              </Link>{" "}
+              für regionale und lokale Unternehmen in Duisburg, Moers und Umgebung – Website und SEO
+              als starke Basis, wenn Sichtbarkeit zu Anfragen werden soll.
             </p>
             <div className="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row sm:gap-4">
               <Button href="/ueber-uns" variant="outline" size="md">
@@ -30,7 +37,7 @@ export function AboutSection() {
                 href="/leistungen/social-media"
                 className="text-sm font-semibold text-accent transition-colors hover:text-navy"
               >
-                Social Media Agentur →
+                Social Media Agentur Duisburg →
               </Link>
             </div>
           </div>

@@ -13,7 +13,7 @@ export function CaseStudiesSection() {
               Referenzprojekte
             </h2>
             <p className="mx-auto mt-4 max-w-2xl text-lg text-gray-600">
-              Echte Ergebnisse für echte Unternehmen.
+              Echte Ergebnisse für echte Unternehmen – Dämmstoffe, Bildung und Golf.
             </p>
           </div>
         </ScrollReveal>
@@ -29,7 +29,7 @@ export function CaseStudiesSection() {
                   <h3 className="text-xl font-bold text-anthracite">{ref.title}</h3>
                   <p className="mt-2 text-gray-600">{ref.excerpt}</p>
                   <ul className="mt-4 space-y-1">
-                    {ref.results.slice(0, 2).map((result) => (
+                    {ref.results.slice(0, 3).map((result) => (
                       <li key={result} className="flex items-start gap-2 text-sm text-gray-600">
                         <span className="mt-0.5 text-accent">✓</span>
                         {result}
