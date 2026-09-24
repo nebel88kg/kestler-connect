@@ -5,28 +5,32 @@ export const socialMediaHub: LandingPage = {
   path: "/leistungen/social-media",
   category: "social-media",
   meta: {
-    title: "Social Media Agentur Duisburg & Moers | Marketing | Kestler Connect",
+    title: "Social Media Agentur Duisburg & Moers | Instagram & TikTok | Kestler Connect",
     description:
-      "Social-Media-Agentur Duisburg und Moers: Redaktionsplan, Content und Reels – für regionale Unternehmen im Ruhrgebiet und NRW.",
+      "Social-Media-Agentur Duisburg und Moers: Instagram und TikTok – Redaktionsplan, Reels, Shorts-Formate und Ads – für regionale Unternehmen im Ruhrgebiet und NRW.",
     keywords: [
       "social media agentur duisburg",
       "social media agentur moers",
       "social media marketing duisburg",
       "social media agentur",
       "social media betreuung",
+      "instagram agentur duisburg",
+      "instagram marketing duisburg",
+      "tiktok agentur",
+      "tiktok marketing",
       "instagram betreuung ruhrgebiet",
       "content marketing",
     ],
   },
   hero: {
-    headline: "Social Media Agentur Duisburg & Moers – professionell und regelmäßig",
+    headline: "Social Media Agentur Duisburg & Moers – Instagram und TikTok mit Plan",
     subheadline:
-      "Social Media Marketing für regionale Unternehmen in Duisburg, Moers und Umgebung: Strategie, Content und Betreuung – damit Sichtbarkeit zu Anfragen wird.",
+      "Social Media Marketing für regionale Unternehmen: Strategie, Content, Reels und TikTok-Formate – organisch und mit Ads, damit Sichtbarkeit zu Anfragen wird.",
   },
   intro: {
     title: "Was macht unsere Social Media Agentur?",
     paragraphs: [
-      "Als Social-Media-Agentur in Duisburg liefern wir Strategie, Redaktionsplan, Content und Reels – auch für Unternehmen in Moers und dem Umkreis. Ziel: ein professioneller Auftritt, der Marke und Anfragen stärkt.",
+      "Als Social-Media-Agentur in Duisburg liefern wir Strategie, Redaktionsplan und Content für Instagram und TikTok – Reels, Shorts-Style-Formate und Stories inklusive. Auch für Unternehmen in Moers und dem Umkreis. Ziel: ein professioneller Auftritt, der Marke und Anfragen stärkt.",
       "Aus einer Hand denken wir Social Media zusammen mit [Performance Marketing](/leistungen/performance-marketing) und [Website-Erstellung](/leistungen/webseiten): organischer Content baut Vertrauen, Ads bringen Reichweite, die Website macht daraus Anfragen.",
     ],
   },
@@ -63,14 +67,14 @@ export const socialMediaHub: LandingPage = {
       "Unregelmäßige Posts und veraltete Profile",
       "Keine klare Botschaft oder visuelle Linie",
       "Zu wenig Zeit im Alltag für Content",
-      "Reels und aktuelle Formate werden nicht genutzt",
+      "Reels und TikTok-Formate werden nicht genutzt",
       "Ads laufen, aber der organische Auftritt wirkt unprofessionell",
     ],
   },
   solution: {
     title: "Social Media mit Plan – aus einer Hand",
     content:
-      "Wir entwickeln Strategie und Redaktionsplan, produzieren Inhalte und betreuen Ihre Kanäle – abgestimmt auf [Meta Ads Agentur Duisburg](/leistungen/meta-ads), [Performance Marketing](/leistungen/performance-marketing) und Ihre [Website](/leistungen/webseiten).",
+      "Wir entwickeln Strategie und Redaktionsplan, produzieren Inhalte für Instagram und TikTok und betreuen Ihre Kanäle – abgestimmt auf [Meta Ads Agentur Duisburg](/leistungen/meta-ads), [Performance Marketing](/leistungen/performance-marketing) und Ihre [Website](/leistungen/webseiten).",
   },
   benefits: [
     {
@@ -79,8 +83,8 @@ export const socialMediaHub: LandingPage = {
       icon: "target",
     },
     {
-      title: "Regelmäßiger Content",
-      description: "Planbare Sichtbarkeit mit Feed, Stories und Reels.",
+      title: "Instagram & TikTok",
+      description: "Feed, Stories, Reels und Shorts-Style-Formate – organisch und ads-ready.",
       icon: "social",
     },
     {
@@ -95,7 +99,7 @@ export const socialMediaHub: LandingPage = {
     },
     {
       title: "Ads-ready",
-      description: "Inhalte, die sich auch für Meta Ads eignen.",
+      description: "Inhalte, die sich auch für Meta Ads und kurze Video-Ads eignen.",
       icon: "rocket",
     },
     {
@@ -121,14 +125,14 @@ export const socialMediaHub: LandingPage = {
   process: [
     { step: 1, title: "Kick-off", description: "Ziele, Zielgruppe, Kanäle und Tonalität klären." },
     { step: 2, title: "Strategie", description: "Redaktionsplan, Formate und Content-Säulen festlegen." },
-    { step: 3, title: "Produktion", description: "Beiträge, Reels und Visuals erstellen." },
+    { step: 3, title: "Produktion", description: "Beiträge, Reels und TikTok-Formate erstellen." },
     { step: 4, title: "Publishing", description: "Veröffentlichung und Community-Impulse." },
     { step: 5, title: "Optimierung", description: "Was performt, wird ausgebaut – inkl. Reporting." },
   ],
   pricing: {
     title: "Preise und Budgetempfehlungen",
     paragraphs: [
-      "Social-Media-Betreuung kalkulieren wir nach Kanälen, Frequenz, Reels-Anteil und Community-Umfang.",
+      "Social-Media-Betreuung kalkulieren wir nach Kanälen, Frequenz, Reels-/TikTok-Anteil und Community-Umfang.",
       "Viele starten mit einem monatlichen Retainer und erweitern bei Bedarf um Meta Ads oder intensivere Produktion.",
     ],
     ranges: [
@@ -159,6 +163,16 @@ export const socialMediaHub: LandingPage = {
       title: "Google Ads in Duisburg und Moers",
       href: "/leistungen/google-ads",
       description: "Suchanzeigen für intentionstarke Anfragen.",
+    },
+    {
+      title: "Leadgewinnung",
+      href: "/leistungen/leadgewinnung",
+      description: "Mehr Anfragen über Ads und conversion-starke Seiten.",
+    },
+    {
+      title: "Mitarbeitergewinnung",
+      href: "/leistungen/mitarbeitergewinnung",
+      description: "Social Recruiting über Instagram, TikTok und Meta Ads.",
     },
     {
       title: "Performance Marketing",
@@ -197,7 +211,12 @@ export const socialMediaHub: LandingPage = {
     {
       question: "Was macht eine Social Media Agentur lokal?",
       answer:
-        "Strategie, Redaktionsplan, Content, Reels und Community – abgestimmt auf Ihre Region. Bei Kestler Connect in Duisburg ist Social Media Marketing Schwerpunkt für Unternehmen in Duisburg, Moers und Umgebung.",
+        "Strategie, Redaktionsplan, Content, Reels, TikTok-Formate und Community – abgestimmt auf Ihre Region. Bei Kestler Connect in Duisburg ist Social Media Marketing Schwerpunkt für Unternehmen in Duisburg, Moers und Umgebung.",
+    },
+    {
+      question: "Betreut ihr Instagram und TikTok?",
+      answer:
+        "Ja. Schwerpunkt Instagram (Feed, Stories, Reels) und TikTok bzw. Shorts-Style-Formate – organisch und als Basis für Ads. Facebook je nach Zielgruppe dazu.",
     },
     {
       question: "Social Media oder Ads zuerst?",
@@ -207,7 +226,7 @@ export const socialMediaHub: LandingPage = {
     {
       question: "Welche Kanäle betreut ihr?",
       answer:
-        "Schwerpunkt Instagram und Facebook; je nach Zielgruppe auch LinkedIn. Wir empfehlen bewusst die Kanäle, die zu Ihrem Angebot passen.",
+        "Schwerpunkt Instagram und TikTok; je nach Zielgruppe auch Facebook und LinkedIn. Wir empfehlen bewusst die Kanäle, die zu Ihrem Angebot passen.",
     },
     {
       question: "Müsst ihr vor Ort in Moers oder Duisburg sein?",
@@ -217,7 +236,7 @@ export const socialMediaHub: LandingPage = {
     {
       question: "Bringt Social Media direkt Anfragen?",
       answer:
-        "Manchmal ja, oft indirekt über Vertrauen und Reichweite. Mit Meta Ads und einer starken Website wird der Effekt deutlich größer.",
+        "Manchmal ja, oft indirekt über Vertrauen und Reichweite. Mit Meta Ads und einer starken Website wird der Effekt deutlich größer – siehe [Leadgewinnung](/leistungen/leadgewinnung).",
     },
     {
       question: "Was ist der Unterschied zwischen Betreuung und Ads?",

@@ -5,30 +5,35 @@ export const googleAdsHub: LandingPage = {
   path: "/leistungen/google-ads",
   category: "google-ads",
   meta: {
-    title: "Google Ads Agentur Duisburg & Moers | Suchanzeigen | Kestler Connect",
+    title: "Google Ads & SEA Agentur Duisburg | Werbung schalten | Kestler Connect",
     description:
-      "Google Ads Agentur Duisburg und Moers: Suchanzeigen mit messbaren Anfragen und klarem ROI – für regionale Unternehmen im Ruhrgebiet und NRW.",
+      "SEA / Google Ads Agentur Duisburg und Moers: Werbung bei Google schalten mit messbaren Anfragen und klarem ROI – für regionale Unternehmen im Ruhrgebiet und NRW.",
     keywords: [
       "google ads duisburg",
       "google ads moers",
       "google ads agentur duisburg",
       "google ads agentur moers",
       "google ads agentur",
+      "ads agentur",
+      "sea agentur duisburg",
+      "sea agentur",
+      "werbung schalten",
+      "google werbung schalten",
+      "online werbung schalten",
       "google werbung ruhrgebiet",
       "suchmaschinenwerbung",
-      "sea agentur",
     ],
   },
   hero: {
-    headline: "Google Ads in Duisburg und Moers – Anfragen im richtigen Moment",
+    headline: "SEA & Google Ads in Duisburg und Moers – Werbung schalten, die Anfragen bringt",
     subheadline:
-      "Suchanzeigen für regionale und lokale Unternehmen in Duisburg, Moers und Umgebung – sichtbar, wenn Kunden aktiv suchen, mit Fokus auf Kosten pro Anfrage.",
+      "Suchmaschinenwerbung für regionale Unternehmen: Werbung bei Google schalten, wenn Kunden aktiv suchen – mit Fokus auf Kosten pro Anfrage.",
   },
   intro: {
-    title: "Was ist Google Ads?",
+    title: "Was ist Google Ads / SEA?",
     paragraphs: [
-      "Google Ads zeigt Ihre Anzeige, wenn jemand aktiv nach Ihrer Leistung sucht – ideal für planbare Anfragen in Duisburg, Moers und dem Ruhrgebiet.",
-      "Bei Kestler Connect betreuen wir Google Ads als laufendes System: Keywords, Landingpages, Tracking und Optimierung – eingebettet in [Performance Marketing](/leistungen/performance-marketing), ergänzt durch [Meta Ads](/leistungen/meta-ads) und [Social Media](/leistungen/social-media).",
+      "SEA (Search Engine Advertising) ist Suchmaschinenwerbung: Google Ads zeigt Ihre Anzeige, wenn jemand aktiv nach Ihrer Leistung sucht – ideal, um planbar Werbung bei Google zu schalten und Anfragen in Duisburg, Moers und dem Ruhrgebiet zu gewinnen.",
+      "Bei Kestler Connect betreuen wir Google Ads als Ads-Agentur-System: Keywords, Landingpages, Tracking und Optimierung – eingebettet in [Performance Marketing](/leistungen/performance-marketing), ergänzt durch [Meta Ads](/leistungen/meta-ads) und [Social Media](/leistungen/social-media).",
     ],
   },
   audience: {
@@ -152,6 +157,11 @@ export const googleAdsHub: LandingPage = {
   },
   relatedHubs: [
     {
+      title: "Leadgewinnung",
+      href: "/leistungen/leadgewinnung",
+      description: "Mehr Anfragen und Kunden über Google Ads und Meta Ads.",
+    },
+    {
       title: "Meta Ads Agentur Duisburg",
       href: "/leistungen/meta-ads",
       description: "Facebook- und Instagram-Ads für Leads in Duisburg, Moers und Umgebung.",
@@ -195,6 +205,16 @@ export const googleAdsHub: LandingPage = {
     },
   ],
   faq: [
+    {
+      question: "Was bedeutet SEA?",
+      answer:
+        "SEA steht für Search Engine Advertising – Suchmaschinenwerbung. Bei Google heißt das praktisch: Google Ads. Sie zahlen für Klicks auf Anzeigen, die erscheinen, wenn jemand nach Ihrer Leistung sucht.",
+    },
+    {
+      question: "Kann ich bei euch Werbung schalten lassen?",
+      answer:
+        "Ja. Als Ads-Agentur richten wir Kampagnen ein, steuern Budgets und optimieren laufend – Sie schalten Werbung bei Google, wir übernehmen Setup, Texte, Targeting und Reporting.",
+    },
     {
       question: "Ab welchem Budget lohnen sich Google Ads?",
       answer:
