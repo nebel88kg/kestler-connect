@@ -4,225 +4,183 @@ export const webseitenHub: LandingPage = {
   slug: "webseiten",
   path: "/leistungen/webseiten",
   category: "webseiten",
-  showWebsitePricing: true,
   meta: {
-    title: "Website erstellen lassen | Webdesign Duisburg | Kestler Connect",
+    title: "Website erstellen lassen Duisburg | Webdesign | Kestler Connect",
     description:
-      "Website erstellen lassen in Duisburg: modernes Webdesign und Homepages für regionale und lokale Unternehmen – conversion-stark, mobil und kampagnen-ready. Klare Pakete ab 1.500 €.",
+      "Website erstellen lassen in Duisburg: klare Homepages und Landingpages für regionale und lokale Unternehmen – conversion-stark und ads-ready.",
     keywords: [
-      "website erstellen lassen",
+      "website erstellen lassen duisburg",
       "webdesign duisburg",
       "homepage erstellen",
       "landingpage",
-      "website agentur duisburg",
+      "webseite agentur duisburg",
     ],
   },
   hero: {
-    headline: "Website erstellen lassen – Webdesign Duisburg für regionale & lokale Unternehmen",
+    headline: "Website erstellen lassen in Duisburg – klar, schnell, anfrageorientiert",
     subheadline:
-      "Homepages und Landingpages, die Vertrauen aufbauen und Anfragen generieren – klar, schnell und conversion-stark. Ergänzend zu Social Media und Performance Marketing.",
+      "Homepages und Landingpages für regionale und lokale Unternehmen – damit Besucher und Ads zu Anfragen werden.",
   },
   intro: {
-    title: "Website erstellen lassen: Was macht eine gute Unternehmens-Website aus?",
+    title: "Warum eine starke Website entscheidend ist",
     paragraphs: [
-      "Eine Website ist heute mehr als eine digitale Visitenkarte. Sie ist Vertrauensbeweis, Verkaufshilfe und oft der Ort, an dem aus Interesse eine Anfrage wird – besonders wenn Google Ads, Meta Ads oder SEO Traffic liefern.",
-      "Wer in Duisburg und im Ruhrgebiet eine Website erstellen lassen möchte, braucht kein Design um des Designs willen: Die Seite soll mobil einwandfrei funktionieren, Ihr Angebot klar erklären und den nächsten Schritt offensichtlich machen – anrufen, Formular senden, Termin buchen.",
-      "Bei Kestler Connect verbinden wir Webdesign mit Marketing: Ob Homepage für regionale und lokale Unternehmen oder Landingpages für Kampagnen – die Seite passt zu [Performance Marketing](/leistungen/performance-marketing), [Google Ads](/leistungen/google-ads), [Meta Ads](/leistungen/meta-ads) und unserer Arbeit als [Social-Media-Agentur](/leistungen/social-media). Alles aus einer Hand, ohne Medienbruch.",
-      "Dazu gehört, dass wir jede Seite entlang eines klaren Besucherpfads aufbauen: Was soll ein Besucher als Erstes verstehen, welchen Einwand muss die Seite ausräumen, und welcher Call-to-Action passt zum Entscheidungsprozess? Diese Struktur entscheidet oft mehr über Anfragen als reine Optik.",
-      "Technisch setzen wir auf moderne, wartungsarme Systeme, die schnell laden und sich erweitern lassen – etwa um neue Landingpages für Kampagnen oder zusätzliche Unterseiten, wenn Ihr Angebot wächst.",
-      "Viele Websites scheitern nicht am Design, sondern an unklarer Struktur: Besucher finden Leistungen nicht, verstehen den Unterschied zum Wettbewerb nicht oder wissen nicht, wie sie Kontakt aufnehmen sollen. Wir bauen Seiten so, dass der Weg zur Anfrage kurz und logisch ist.",
-      "Technik und Inhalt gehören zusammen. Schnelle Ladezeiten, mobile Nutzbarkeit, saubere Meta-Daten und nachvollziehbare Texte sind Voraussetzungen für Vertrauen und Conversion – besonders wenn Ads Traffic liefern.",
-      "Je nach Ziel empfehlen wir eine vollständige Unternehmenswebsite oder fokussierte Landingpages. Oft ist die Kombination am stärksten: Markenseite für Vertrauen, Landingpages für konkrete Kampagnen – abgestimmt auf Ads und Social Media.",
-      "Nach dem Launch können wir die Seite weiterentwickeln: neue Landingpages, SEO-Inhalte, Tracking-Feinschliff oder Conversion-Tests. So wird Ihre Website zum aktiven Bestandteil Ihres Marketings statt zu einer einmaligen Broschüre im Netz.",
+      "Ihre Website ist Vertrauensbasis und Conversion-Punkt: Hier entscheiden Interessenten, ob sie anrufen oder abspringen – besonders bei Ads und Social Traffic.",
+      "Wir bauen Seiten, die zu [Google Ads](/leistungen/google-ads), [Meta Ads](/leistungen/meta-ads) und [Social Media](/leistungen/social-media) passen: klarer Nutzen, starke CTAs, mobil zuerst.",
     ],
   },
   audience: {
-    title: "Für wen eignet sich Webdesign aus Duisburg?",
+    title: "Für wen eignet sich eine neue Website?",
     paragraphs: [
-      "Für regionale und lokale Unternehmen, deren aktuelle Seite veraltet wirkt, keine Anfragen bringt oder Kampagnen ausbremst. Auch wer neu startet oder Bewerber und Kunden professionell überzeugen will, braucht eine moderne Basis.",
-      "Besonders kritisch wird eine schwache Website, sobald Werbebudget fließt: Jeder Klick kostet – und eine unklare Seite vernichtet diesen Einsatz.",
-      "Auch Unternehmen mit funktionierender Website profitieren oft von zusätzlichen Landingpages für einzelne Leistungen – statt Besucher auf eine allgemeine Startseite zu schicken.",
-      "Transparente Pakete helfen bei der Entscheidung: Sie sehen Umfang und Preis, bevor das Projekt startet. Wenn Sie unsicher zwischen Basic, Standard und Premium sind, klären wir im Gespräch, welches Paket zu Ihren Zielen passt.",
+      "Für Unternehmen mit veralteter Seite, schwacher Conversion oder ohne professionellen Online-Auftritt – besonders wenn Ads oder SEO geplant sind.",
     ],
     points: [
-      "Regionale und lokale Unternehmen in Duisburg und Umgebung",
-      "Dienstleister und Handel vor Ort",
-      "Startups und wachsende Unternehmen",
-      "Unternehmen mit laufenden Ads-Kampagnen",
-      "Betriebe, die Bewerber und Kunden parallel ansprechen",
-      "Marken mit Relaunch- oder Repositionierungsbedarf",
-      "Unternehmen, die zusätzliche Landingpages für einzelne Angebote brauchen",
+      "Lokale Dienstleister und KMU",
+      "Unternehmen mit Ads-Plänen",
+      "Betriebe ohne mobile-freundliche Seite",
+      "Anbieter mit klaren Leistungsangeboten",
+      "Organisationen, die Anfragen statt Image brauchen",
     ],
   },
   problem: {
-    title: "Typische Website-Probleme",
+    title: "Wenn die Website Anfragen ausbremst",
     points: [
-      "Veraltetes Design und unprofessioneller Eindruck",
-      "Unklare Leistungen und fehlende Call-to-Actions",
-      "Schlechte Mobile-Nutzung und langsame Ladezeiten",
-      "Keine eigenen Landingpages für Kampagnen",
-      "Formular oder Kontaktwege sind umständlich gestaltet",
-      "SEO-Basis fehlt – Seiten sind schwer auffindbar",
-      "Inhalte sind seit Jahren nicht mehr aktualisiert worden",
+      "Veraltetes Design ohne klare Botschaft",
+      "Keine oder schwache Call-to-Actions",
+      "Langsam oder nicht mobil optimiert",
+      "Ads liefern Traffic – aber keine Anfragen",
+      "Unklare Leistungen und Kontaktwege",
     ],
   },
   solution: {
-    title: "Websites mit Fokus auf Anfragen",
+    title: "Websites, die zum Marketing passen",
     content:
-      "Wir gestalten und entwickeln Seiten, die Vertrauen aufbauen und den Weg zur Kontaktaufnahme kurz machen – inklusive klarer Pakete und optionalem Hosting. Sinnvoll verzahnt mit [Performance Marketing](/leistungen/performance-marketing) und unserer [Social Media Agentur](/leistungen/social-media): Ads bringen Traffic, Social baut Vertrauen, die Website macht daraus Anfragen.",
+      "Wir erstellen Homepages und Landingpages mit klarem Angebot, starken CTAs und technischer Basis – abgestimmt auf SEO, Ads und Ihren Auftritt. Pakete und Preise finden Sie weiter unten.",
   },
   benefits: [
     {
       title: "Conversion-Fokus",
-      description:
-        "Struktur und Texte, die konsequent auf Anfragen ausgerichtet sind – nicht nur hübsche Optik ohne klares Ziel.",
-      icon: "rocket",
-    },
-    {
-      title: "Modern & mobil",
-      description:
-        "Schnell, responsive und zeitgemäß – auf dem Smartphone genauso überzeugend wie am Desktop.",
-      icon: "check",
-    },
-    {
-      title: "Kampagnen-ready",
-      description:
-        "Eigene Landingpages für Google Ads und Meta Ads, damit jeder Klick auf die passende Botschaft trifft.",
+      description: "Seiten, die auf Anfragen und Termine ausgelegt sind.",
       icon: "target",
     },
     {
-      title: "SEO-Grundsetup",
-      description:
-        "Meta-Angaben, Sitemap und technische Basis sind inklusive, damit Ihre Seite von Anfang an auffindbar ist.",
-      icon: "search",
+      title: "Ads-ready",
+      description: "Passende Landingpages für Google und Meta Ads.",
+      icon: "rocket",
     },
     {
-      title: "Klare Pakete",
-      description:
-        "Basic, Standard oder Premium – transparent kalkuliert nach Umfang, ohne versteckte Zusatzkosten.",
+      title: "Klarer Aufbau",
+      description: "Leistungen, Vertrauen und Kontakt auf einen Blick.",
+      icon: "check",
+    },
+    {
+      title: "Mobil zuerst",
+      description: "Schnell und bedienbar auf dem Smartphone.",
       icon: "star",
     },
     {
-      title: "Optional Hosting",
-      description:
-        "Wartung und Betrieb aus einer Hand möglich, damit Sie sich um Updates und Sicherheit keine Gedanken machen müssen.",
-      icon: "shield",
+      title: "SEO-Basis",
+      description: "Saubere Struktur als Fundament für Sichtbarkeit.",
+      icon: "chart",
+    },
+    {
+      title: "Aus einer Hand",
+      description: "Website und laufendes Marketing ohne Medienbruch.",
+      icon: "users",
     },
   ],
   results: {
     title: "Welche Ergebnisse sind realistisch?",
     paragraphs: [
-      "Eine starke Website allein ersetzt kein Marketing – aber sie entscheidet, wie viel aus Traffic wird. Realistisch sind: professionellerer Eindruck, höhere Abschlussraten bei Ads, mehr Formularanfragen und eine Basis, die SEO und Content trägt.",
-      "Kunden berichten häufig, dass Gespräche mit Partnern, Bewerbern und Interessenten leichter werden, sobald der Online-Auftritt modern und klar ist – ein direkter Hebel für Vertrauen und Anfragen.",
-      "Unsere Referenzen zeigen, wie wichtig der Gesamteindruck ist: Beim [Golfclub Raffelberg](/referenzen/golfclub-raffelberg) gehört die digitale Präsenz zur erfolgreichen Ansprache von Interessenten. Bei [Buddy's](/referenzen/buddys-duisburg) und der [Start-Up School](/referenzen/start-up-school) zählt Professionalität im Auftritt ebenso wie laufendes Marketing.",
-      "Wichtig ist die Wechselwirkung mit anderen Kanälen: Eine Website, die schnell lädt und klar strukturiert ist, senkt die Kosten pro Anfrage bei Ads spürbar. Deshalb denken wir Website-Erstellung zusammen mit [Performance Marketing](/leistungen/performance-marketing) und [Social Media](/leistungen/social-media) – aus einer Hand.",
-      "Nach dem Launch beginnt die Lernphase: Welche Seiten werden gelesen? Wo springen Nutzer ab? Mit Tracking und optionaler Weiterbetreuung verbessern wir die Seite datenbasiert.",
-      "Eine Website ist die Bühne, auf der Ihre Maßnahmen wirken. Ads bringen Traffic, SEO bringt Nachhaltigkeit, Social Media bringt Vertrauen – ohne klare Seite verpufft vieles davon.",
+      "Eine gute Website macht Marketing effizienter: mehr Anfragen aus demselben Traffic und ein glaubwürdiger erster Eindruck.",
+      "Referenzen wie [Golfclub Raffelberg](/referenzen/golfclub-raffelberg), [DnM](/referenzen/dnm) und [SecPro Bildungszentrum](/referenzen/secpro-bildungszentrum) zeigen, wie wichtig ein professioneller Gesamteindruck für Ads und Social ist.",
     ],
     points: [
-      "Mehr Vertrauen beim ersten Eindruck",
-      "Bessere Conversion aus Ads und organischem Traffic",
-      "Klarere Darstellung von Angebot und Mehrwert",
-      "Fundament für SEO, Content und Kampagnen",
-      "Weniger Erklärungsbedarf im Vertrieb",
-      "Geringere Streuverluste bei laufenden Ads-Kampagnen",
+      "Klarerer Auftritt und Vertrauen",
+      "Bessere Conversion aus Ads und Social",
+      "Schnellere Orientierung für Interessenten",
+      "Solidere Basis für SEO",
+      "Weniger Reibung im Vertrieb",
     ],
   },
   process: [
-    { step: 1, title: "Briefing", description: "Ziele, Zielgruppe, Inhalte und Wettbewerb klären." },
-    { step: 2, title: "Konzept", description: "Struktur, Botschaften und Seitenaufbau festlegen." },
-    { step: 3, title: "Design & Bau", description: "Visuelles Design und technische Umsetzung." },
-    { step: 4, title: "Feinschliff", description: "Korrekturen, Tracking und Go-Live-Vorbereitung." },
-    { step: 5, title: "Launch", description: "Veröffentlichung, Übergabe und optionale Betreuung." },
+    { step: 1, title: "Briefing", description: "Ziele, Angebote und Zielgruppe klären." },
+    { step: 2, title: "Konzept", description: "Struktur, Texte und CTA-Logik." },
+    { step: 3, title: "Design & Bau", description: "Umsetzung mobil und conversion-stark." },
+    { step: 4, title: "Launch", description: "Tracking, Formulare und Go-live." },
+    { step: 5, title: "Weiter", description: "Optional Ads, SEO und Social anbinden." },
   ],
   pricing: {
-    title: "Preise und Budgetempfehlungen",
+    title: "Preise und Pakete",
     paragraphs: [
-      "Für Webseiten arbeiten wir mit klaren Paketen – Basic, Standard und Premium. Sie können einmalig zahlen oder die Investition über 12 Monate monatlich verteilen. Optional gibt es Hosting, Wartung und CMS-Zugang.",
-      "Die detaillierten Leistungen und Preise sehen Sie direkt unter diesem Abschnitt. Für individuelle Sonderprojekte erstellen wir gerne ein Angebot.",
-      "Welches Paket sinnvoll ist, hängt vom Umfang Ihrer Leistungen, der gewünschten Anzahl an Seiten und davon ab, ob Sie zusätzliche Landingpages für Kampagnen benötigen. Im Erstgespräch klären wir das konkret.",
-      "Die Paketpreise sind bewusst transparent. Wenn Ihr Projekt Sonderanforderungen hat, sagen wir vorab klar, was Extra-Aufwand bedeutet.",
+      "Wir arbeiten mit klaren Website-Paketen – einmalig oder monatlich über 12 Monate inklusive Hosting.",
+      "Details und Leistungsübersicht finden Sie in der Preisübersicht auf dieser Seite.",
     ],
     ranges: [
       {
         label: "Basic",
         value: "ab 1.500 €",
-        note: "Klare Präsenz für den Start – bis 5 Seiten.",
+        note: "Kompakte Homepage für den Einstieg.",
       },
       {
         label: "Standard",
         value: "ab 2.500 €",
-        note: "Für Unternehmen mit klarer Lead-Zielsetzung.",
+        note: "Erweiterte Struktur für wachsende Angebote.",
       },
       {
         label: "Premium",
         value: "ab 4.000 €",
-        note: "Mehr Umfang, Feinschliff und Anforderungen.",
+        note: "Umfangreichere Seiten und Conversion-Fokus.",
       },
     ],
   },
+  showWebsitePricing: true,
   references: [
     {
       title: "Golfclub Raffelberg",
       slug: "golfclub-raffelberg",
-      excerpt: "Professionelle digitale Präsenz als Basis für Anfragen und Sichtbarkeit.",
+      excerpt: "Professioneller digitaler Auftritt als Basis für Ads und Anfragen.",
     },
     {
-      title: "Start-Up School",
-      slug: "start-up-school",
-      excerpt: "Klarer Auftritt und Marketing, das zusammenpasst.",
+      title: "DnM",
+      slug: "dnm",
+      excerpt: "SEO-Sichtbarkeit auf Google Seite 1 – digitale Basis zählt.",
     },
     {
-      title: "Buddy's Duisburg",
-      slug: "buddys-duisburg",
-      excerpt: "Moderner Eindruck, der Events und Marke unterstützt.",
+      title: "SecPro Bildungszentrum",
+      slug: "secpro-bildungszentrum",
+      excerpt: "Social Media und Meta Ads brauchen einen glaubwürdigen Auftritt.",
     },
   ],
   faq: [
     {
+      question: "Was kostet eine Website?",
+      answer:
+        "Basic ab 1.500 €, Standard ab 2.500 €, Premium ab 4.000 € (netto, einmalig). Optional monatlich über 12 Monate inklusive Hosting.",
+    },
+    {
+      question: "Wie lange dauert die Erstellung?",
+      answer:
+        "Je nach Umfang oft wenige Wochen – abhängig von Feedback und Content-Lieferung.",
+    },
+    {
+      question: "Ist Hosting inklusive?",
+      answer:
+        "Beim monatlichen Modell über 12 Monate ja. Einmalig optional Hosting & Wartung dazu buchbar.",
+    },
+    {
+      question: "Passt die Seite zu Ads?",
+      answer:
+        "Ja – wir bauen conversion-stark und können Landingpages speziell für Kampagnen anlegen.",
+    },
+    {
+      question: "Könnt ihr Texte schreiben?",
+      answer:
+        "Ja. Wir formulieren klar und anfrageorientiert – abgestimmt auf Ihre Leistungen.",
+    },
+    {
       question: "Brauche ich Website und Social gleichzeitig?",
       answer:
-        "Ideal ja. Die Website ist Ihre Basis für Vertrauen und Anfragen; Social Media hält Marke und Reichweite lebendig. Bei Kestler Connect bekommen Sie beides aus einer Hand – abgestimmt auf Ads und Ihre Ziele.",
-    },
-    {
-      question: "Was kostet es, eine Website erstellen zu lassen?",
-      answer:
-        "Unsere Pakete starten bei Basic ab 1.500 €, Standard ab 2.500 € und Premium ab 4.000 € (netto). Optional Hosting und monatliche Zahlung über 12 Monate. Details in der Preisübersicht auf dieser Seite.",
-    },
-    {
-      question: "Wie lange dauert ein Website-Projekt?",
-      answer:
-        "Je nach Paket und Zulieferung der Inhalte typischerweise einige Wochen. Wir arbeiten mit klaren Meilensteinen und Korrekturrunden, damit der Zeitplan transparent bleibt.",
-    },
-    {
-      question: "Können wir monatlich zahlen?",
-      answer:
-        "Ja. Die Pakete lassen sich über 12 Monate monatlich kalkulieren. Details finden Sie in der Preisübersicht weiter unten auf dieser Seite.",
-    },
-    {
-      question: "Übernehmt ihr auch Texte?",
-      answer:
-        "Ja, je nach Paket und Absprache. Gute Texte sind entscheidend für Conversion und SEO – wir strukturieren sie so, dass sie sowohl Besucher als auch Suchmaschinen überzeugen.",
-    },
-    {
-      question: "Ist SEO inklusive?",
-      answer:
-        "Ein SEO-Grundsetup gehört dazu – etwa saubere Meta-Angaben, Sitemap und technische Basis. Laufende SEO-Betreuung ist optional über unsere [SEO-Leistung](/leistungen/seo).",
-    },
-    {
-      question: "Baut ihr auch Landingpages für Ads?",
-      answer:
-        "Ja. Speziell für Google Ads und Meta Ads sind conversion-starke Landingpages oft der größte Hebel, um aus Klicks tatsächlich Anfragen zu machen – passend zu unserem [Performance Marketing](/leistungen/performance-marketing).",
-    },
-    {
-      question: "Was passiert nach dem Launch?",
-      answer:
-        "Wir übergeben die Seite mit klarer Dokumentation. Optional übernehmen wir Hosting, Wartung und kleinere Anpassungen – oder begleiten Sie weiter mit Social Media und Ads.",
-    },
-    {
-      question: "Was müssen wir an Inhalten liefern?",
-      answer:
-        "Leistungen, Alleinstellung, Bilder und Kontaktdaten sind die Basis. Texte können wir je nach Paket mitübernehmen oder gemeinsam erarbeiten.",
+        "Ideal ja: Website als Basis, Social für Reichweite und Vertrauen. Beides aus einer Hand spart Abstimmung.",
     },
   ],
 };
