@@ -127,30 +127,6 @@ export const mitarbeitergewinnungHub: LandingPage = {
     { step: 4, title: "Optimierung", description: "Botschaften und Targeting schärfen." },
     { step: 5, title: "Reporting", description: "Bewerbungen und Learnings." },
   ],
-  pricing: {
-    title: "Preise und Budgetempfehlungen",
-    paragraphs: [
-      "Recruiting-Ads brauchen Media-Budget plus Betreuung. Die Höhe hängt von Stelle, Region und Wettbewerb ab.",
-      "Oft sinnvoll: Kampagne plus laufender Social-Auftritt (Instagram/TikTok), damit Arbeitgebermarke und Ads zusammenpassen.",
-    ],
-    ranges: [
-      {
-        label: "Media-Budget",
-        value: "projekt- oder monatsweise",
-        note: "Abhängig von Dringlichkeit und Anzahl Stellen.",
-      },
-      {
-        label: "Betreuung",
-        value: "Setup + Optimierung",
-        note: "Creatives, Targeting und Reporting inklusive.",
-      },
-      {
-        label: "Kombi Social",
-        value: "empfohlen",
-        note: "Glaubwürdiges Profil erhöht die Bewerbungsquote.",
-      },
-    ],
-  },
   relatedHubs: [
     {
       title: "Social Media Agentur Duisburg",
@@ -198,38 +174,31 @@ export const mitarbeitergewinnungHub: LandingPage = {
   faq: [
     {
       question: "Was ist Social Recruiting?",
-      answer:
-        "Mitarbeitergewinnung über Social Media und Ads – statt nur über klassische Jobbörsen. Typisch: Instagram, TikTok-Formate und Meta Recruiting Ads.",
+      answer: "Mitarbeitergewinnung über Social Media und Ads – statt nur über klassische Jobbörsen. Typisch: Instagram, TikTok-Formate und Meta Recruiting Ads.",
     },
     {
       question: "Welche Kanäle eignen sich?",
-      answer:
-        "Häufig Meta Ads auf Instagram und Facebook; je nach Zielgruppe auch TikTok-Formate und Google. Wir wählen den Mix passend zur Stelle.",
+      answer: "Häufig Meta Ads auf Instagram und Facebook; je nach Zielgruppe auch TikTok-Formate und Google. Wir wählen den Mix passend zur Stelle.",
     },
     {
       question: "Funktioniert Recruiting über Instagram und TikTok?",
-      answer:
-        "Ja – besonders bei jüngeren Fachkräften und visuellen Arbeitgeber-Botschaften. Ads bringen Reichweite, ein starkes Profil macht Bewerbungen wahrscheinlicher.",
+      answer: "Ja – besonders bei jüngeren Fachkräften und visuellen Arbeitgeber-Botschaften. Ads bringen Reichweite, ein starkes Profil macht Bewerbungen wahrscheinlicher.",
     },
     {
       question: "Wie schnell kommen Bewerbungen?",
-      answer:
-        "Oft innerhalb weniger Tage erste Reaktionen. Qualität hängt stark von Botschaft, Region und Stelle ab.",
+      answer: "Oft innerhalb weniger Tage erste Reaktionen. Qualität hängt stark von Botschaft, Region und Stelle ab.",
     },
     {
       question: "Brauchen wir ein starkes Profil?",
-      answer:
-        "Ja. Ein unprofessionelles Profil senkt die Bewerbungsquote – deshalb lohnt parallele [Social-Media-Betreuung](/leistungen/social-media).",
+      answer: "Ja. Ein unprofessionelles Profil senkt die Bewerbungsquote – deshalb lohnt parallele [Social-Media-Betreuung](/leistungen/social-media).",
     },
     {
       question: "Für welche Branchen?",
-      answer:
-        "Für regionale und lokale Unternehmen mit Fachkräftebedarf – Dienstleistung, Handel, Produktion und verwandte Branchen; branchenübergreifend anpassbar.",
+      answer: "Für regionale und lokale Unternehmen mit Fachkräftebedarf – Dienstleistung, Handel, Produktion und verwandte Branchen; branchenübergreifend anpassbar.",
     },
     {
       question: "Könnt ihr Stellenanzeigen formulieren?",
-      answer:
-        "Ja. Wir schreiben klar, benefit-orientiert und an Bewerber adressiert – nicht nur an HR-Standards.",
+      answer: "Ja. Wir schreiben klar, benefit-orientiert und an Bewerber adressiert – nicht nur an HR-Standards.",
     },
   ],
 };
