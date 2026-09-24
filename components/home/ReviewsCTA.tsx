@@ -1,12 +1,9 @@
 import { Button } from "@/components/ui/Button";
 import { Card } from "@/components/ui/Card";
 import { ScrollReveal } from "@/components/ui/ScrollReveal";
+import { googleBusiness } from "@/lib/googleBusiness";
 
-/**
- * Kundenbewertungen / Google-Bewertungen CTA.
- * TODO (Jascha): Google Business / Maps Review-Link hier einfügen, sobald verfügbar.
- * Keinen erfundenen Maps-URL verwenden.
- */
+/** Kundenbewertungen / Google-Bewertungen CTA. */
 export function ReviewsCTA() {
   return (
     <section className="section-padding bg-gray-50">
@@ -20,15 +17,18 @@ export function ReviewsCTA() {
               Vertrauen entsteht durch echte Erfahrungen
             </h2>
             <p className="mt-4 text-base leading-relaxed text-gray-600 sm:text-lg">
-              Eine echte Stimme von Golfclub Raffelberg – und ein klarer nächster Schritt
-              für Sie. Google-Bewertungen folgen, sobald der Link hinterlegt ist.
+              Eine echte Stimme von Golfclub Raffelberg – und unsere Google-Bewertungen
+              für alle, die noch mehr Einblicke möchten.
             </p>
-            <div className="mt-6 flex flex-col gap-3 sm:flex-row">
-              <Button href="/kontakt" size="md">
-                Kostenloses Strategiegespräch
+            <div className="mt-6 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
+              <Button href={googleBusiness.mapsUrl} external size="md">
+                Google-Bewertungen ansehen
               </Button>
-              <Button href="/referenzen" variant="outline" size="md">
-                Referenzen ansehen
+              <Button href={googleBusiness.writeReviewUrl} external variant="outline" size="md">
+                Bewertung schreiben
+              </Button>
+              <Button href="/kontakt" variant="ghost" size="md">
+                Strategiegespräch
               </Button>
             </div>
           </ScrollReveal>
