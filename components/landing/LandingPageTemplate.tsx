@@ -97,6 +97,17 @@ function TextSection({
   );
 }
 
+
+function MidCTA({ label = "Kostenloses Strategiegespräch" }: { label?: string }) {
+  return (
+    <div className="mt-10 flex justify-center">
+      <Button href="#kontakt" size="lg">
+        {label}
+      </Button>
+    </div>
+  );
+}
+
 export function LandingPageTemplate({ page }: LandingPageTemplateProps) {
   const breadcrumbs = createBreadcrumbsFromPath(page.path);
   const isMoneyPage = Boolean(page.intro || page.audience || page.results || page.pricing);
@@ -172,6 +183,7 @@ export function LandingPageTemplate({ page }: LandingPageTemplateProps) {
                 </li>
               ))}
             </ul>
+            <MidCTA />
           </ScrollReveal>
         </div>
       </section>
@@ -208,6 +220,11 @@ export function LandingPageTemplate({ page }: LandingPageTemplateProps) {
                 </Card>
               </ScrollReveal>
             ))}
+          </div>
+          <div className="mt-10 flex justify-center">
+            <Button href="#kontakt" size="lg">
+              Kostenloses Strategiegespräch
+            </Button>
           </div>
         </div>
       </section>
