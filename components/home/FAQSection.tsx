@@ -9,81 +9,42 @@ const faqItems = [
   {
     question: "Was macht eine Social Media Agentur lokal?",
     answer:
-      "Eine Social Media Agentur vor Ort plant, produziert und betreut Ihren Auftritt auf Instagram und Facebook: Strategie, Redaktionsplan, Content, Reels und Community – abgestimmt auf Ihre Region und Zielgruppe. Bei Kestler Connect in Duisburg ist Social Media Marketing Kernangebot für regionale und lokale Unternehmen.",
+      "Strategie, Redaktionsplan, Content, Reels und Community – abgestimmt auf Ihre Region. Bei Kestler Connect in Duisburg ist Social Media Marketing Kernangebot für lokale Unternehmen.",
   },
   {
-    question: "Google Ads oder Meta Ads – was eignet sich für lokale Unternehmen?",
+    question: "Google Ads oder Meta Ads – was eignet sich?",
     answer:
-      "Google Ads trifft Menschen, die aktiv nach Ihrer Leistung suchen – ideal für planbare Anfragen. Meta Ads (Facebook/Instagram) erzeugen Sichtbarkeit und Leads bei passenden Zielgruppen in Ihrer Region, auch ohne aktive Suche. Viele Betriebe in Duisburg und Umgebung kombinieren beides sinnvoll; im Strategiegespräch klären wir den Mix.",
+      "Google Ads trifft aktive Suche – ideal für planbare Anfragen. Meta Ads erzeugen Sichtbarkeit und Leads auf Facebook/Instagram. Viele Betriebe kombinieren beides; den Mix klären wir im Strategiegespräch.",
   },
   {
     question: "Social Media oder Ads zuerst?",
     answer:
-      "Kommt auf Ihr Ziel an. Ohne professionellen Auftritt wirken Ads oft unglaubwürdig – dann lohnt Social Media zuerst oder parallel. Wenn Sie schnell planbare Anfragen brauchen und die Basis stimmt, starten viele mit Performance Marketing (Google/Meta Ads) und bauen organischen Content dazu. Im Strategiegespräch klären wir die sinnvolle Reihenfolge.",
-  },
-  {
-    question: "Brauche ich Website und Social gleichzeitig?",
-    answer:
-      "Ideal ja: Die Website ist Ihre vertrauenswürdige Basis für Anfragen und Ads; Social Media hält Marke und Reichweite lebendig. Beides aus einer Hand spart Abstimmung und sorgt für einheitliche Botschaften – besonders für regionale und lokale Unternehmen.",
+      "Ohne glaubwürdigen Auftritt wirken Ads oft schwach – dann Social Media zuerst oder parallel. Bei schnellem Anfragebedarf und solider Basis starten viele mit Performance Marketing.",
   },
   {
     question: "Was kostet Online-Marketing?",
-    answer: "Die Kosten hängen von Ihren Zielen und der Branche ab. Für lokale Unternehmen rechnen wir mit 800–2.000 € monatlich (Agentur + Werbebudget). Für den Einstieg ohne großes Budget bieten wir auch kompakte Workshops an. Wir erstellen gerne ein individuelles Angebot nach einem kostenlosen Strategiegespräch.",
-  },
-  {
-    question: "Wie lange dauert SEO?",
-    answer: "Erste Verbesserungen sind nach 4–8 Wochen sichtbar. Signifikante Rankings und nachhaltiger Traffic entstehen typischerweise nach 3–6 Monaten kontinuierlicher Arbeit.",
+    answer:
+      "Typisch für lokale Unternehmen: ca. 800–2.000 € monatlich (Agentur + Werbebudget). Für den Einstieg gibt es auch Workshops. Individuelles Angebot nach dem Strategiegespräch.",
   },
   {
     question: "Ab welchem Budget lohnen sich Google Ads?",
-    answer: "Für lokale Unternehmen empfehlen wir ein Mindest-Werbebudget von 500–800 € monatlich. Damit erreichen Sie genug Reichweite für aussagekräftige Ergebnisse und Optimierung.",
-  },
-  {
-    question: "Erstellt ihr auch Inhalte?",
-    answer: "Ja! Content-Produktion gehört zu unserem Kernangebot: Fotos, Videos, Reels, Anzeigen-Creatives und Texte – alles aus einer Hand.",
-  },
-  {
-    question: "Gibt es Vertragslaufzeiten?",
-    answer: "Beim laufenden Marketing arbeiten wir mit fairen Konditionen und ohne unnötige Bindung. Bei Website-Paketen auf monatlicher Basis gilt eine Mindestlaufzeit von 12 Monaten – dafür ist Hosting inklusive und die Einmalzahlung entfällt.",
-  },
-  {
-    question: "Für welche Branchen arbeitet ihr?",
     answer:
-      "Unser Fokus liegt auf regionalen und lokalen Unternehmen in Duisburg, im Ruhrgebiet und in NRW – vom lokalen Dienstleister bis zum wachsenden Mittelstand. Branchenerfahrung aus Projekten fließt ein, die Positionierung gilt aber für lokale Betriebe insgesamt.",
+      "Für lokale Unternehmen empfehlen wir oft 500–800 € Media-Budget monatlich – plus Betreuung für aussagekräftige Optimierung.",
   },
   {
-    question: "Bietet ihr auch Workshops an?",
+    question: "Wie lange dauert SEO?",
     answer:
-      "Ja. Für lokale Unternehmen und Startups gibt es kompakte Marketing-Workshops (5–6 Stunden) – ideal, wenn noch kein großes Budget für eine laufende Betreuung da ist. Spezielle Formate zu Marketing und Sponsoring sind optional verfügbar.",
-  },
-  {
-    question: "Wie schnell sehe ich Ergebnisse?",
-    answer: "Google Ads und Meta Ads können innerhalb von 24–48 Stunden erste Anfragen bringen. SEO und Social Media brauchen 2–3 Monate für optimale Ergebnisse.",
-  },
-  {
-    question: "Brauche ich eine eigene Webseite?",
-    answer: "Ideal ja – eine professionelle Webseite ist die Basis für erfolgreiches Online-Marketing. Falls Sie noch keine haben, erstellen wir diese für Sie – mit klaren Paketen (Basic, Standard, Premium), einmalig oder monatlich über 12 Monate inklusive Hosting.",
+      "Erste Impulse oft nach 4–8 Wochen. Signifikante Rankings typischerweise nach 3–6 Monaten kontinuierlicher Arbeit.",
   },
   {
     question: "Was kosten eure Webseiten?",
-    answer: "Basic ab 1.500 €, Standard ab 2.500 €, Premium ab 4.000 € (netto, einmalig). Optional Hosting & Wartung für 75 €/Monat. Alternativ monatliche Zahlung über 12 Monate Mindestlaufzeit – dann ist Hosting bereits eingerechnet. Details unter Leistungen → Webseiten.",
+    answer:
+      "Basic ab 1.500 €, Standard ab 2.500 €, Premium ab 4.000 € (netto). Optional monatlich über 12 Monate inklusive Hosting. Details unter Leistungen → Webseiten.",
   },
   {
     question: "Wie läuft die Zusammenarbeit ab?",
-    answer: "Nach einem kostenlosen Strategiegespräch erstellen wir eine maßgeschneiderte Strategie. Sie erhalten monatliche Reports und haben einen festen Ansprechpartner.",
-  },
-  {
-    question: "Kann ich mein bestehendes Google Ads Konto nutzen?",
-    answer: "Ja, wir können Ihr bestehendes Konto übernehmen und optimieren oder ein neues professionell aufsetzen.",
-  },
-  {
-    question: "Was ist KI-SEO / ChatGPT Optimierung?",
-    answer: "Wir optimieren Ihre Inhalte so, dass Sie auch in KI-Suchmaschinen wie ChatGPT, Perplexity und Google AI Overviews gefunden werden.",
-  },
-  {
-    question: "Bietet ihr auch Social Recruiting an?",
     answer:
-      "Ja, Mitarbeitergewinnung über Social Media und Google Ads ist einer unserer Schwerpunkte – besonders für regionale und lokale Betriebe mit Fachkräftebedarf.",
+      "Nach dem kostenlosen Strategiegespräch folgt eine klare Strategie. Sie haben einen festen Ansprechpartner und erhalten nachvollziehbare Reports.",
   },
 ];
 
