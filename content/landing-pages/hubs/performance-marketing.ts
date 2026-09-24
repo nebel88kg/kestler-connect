@@ -125,30 +125,6 @@ export const performanceMarketingHub: LandingPage = {
     { step: 4, title: "Optimierung", description: "Laufend testen und Budget sinnvoll umschichten." },
     { step: 5, title: "Reporting", description: "Ergebnisse und nächste Schritte – verständlich." },
   ],
-  pricing: {
-    title: "Preise und Budgetempfehlungen",
-    paragraphs: [
-      "Agenturhonorar und Werbebudget trennen wir klar. Das Media-Budget hängt von Wettbewerb, Region und Ziel ab.",
-      "Viele lokale Unternehmen starten mit einem klaren Pilotbudget und skalieren, sobald Kosten pro Lead stimmen.",
-    ],
-    ranges: [
-      {
-        label: "Werbebudget (Orientierung)",
-        value: "ab ca. 500–1.500 € / Monat",
-        note: "Je nach Kanalmix und Wettbewerb in Ihrer Region.",
-      },
-      {
-        label: "Betreuung",
-        value: "monatliches Honorar",
-        note: "Abhängig von Kanälen, Accounts und Reporting-Tiefe.",
-      },
-      {
-        label: "Einstieg",
-        value: "Strategiegespräch",
-        note: "Kostenlos und unverbindlich – wir prüfen, ob Ads sinnvoll sind.",
-      },
-    ],
-  },
   relatedHubs: [
     {
       title: "Google Ads in Duisburg und Moers",
@@ -207,7 +183,7 @@ export const performanceMarketingHub: LandingPage = {
     {
       question: "Ab welchem Budget lohnt sich Performance Marketing?",
       answer:
-        "Für lokale Unternehmen oft ab ca. 500–800 € Media-Budget plus Betreuung. Im Strategiegespräch prüfen wir, ob es sich rechnet.",
+        "Für lokale Unternehmen richten wir Media-Budget und Betreuung nach Wettbewerb und Zielen aus. Im Strategiegespräch prüfen wir, ob es sich rechnet.",
     },
     {
       question: "Arbeitet ihr auch für Unternehmen in Moers?",

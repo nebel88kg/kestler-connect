@@ -127,30 +127,6 @@ export const mitarbeitergewinnungHub: LandingPage = {
     { step: 4, title: "Optimierung", description: "Botschaften und Targeting schärfen." },
     { step: 5, title: "Reporting", description: "Bewerbungen und Learnings." },
   ],
-  pricing: {
-    title: "Preise und Budgetempfehlungen",
-    paragraphs: [
-      "Recruiting-Ads brauchen Media-Budget plus Betreuung. Die Höhe hängt von Stelle, Region und Wettbewerb ab.",
-      "Oft sinnvoll: Kampagne plus laufender Social-Auftritt (Instagram/TikTok), damit Arbeitgebermarke und Ads zusammenpassen.",
-    ],
-    ranges: [
-      {
-        label: "Media-Budget",
-        value: "projekt- oder monatsweise",
-        note: "Abhängig von Dringlichkeit und Anzahl Stellen.",
-      },
-      {
-        label: "Betreuung",
-        value: "Setup + Optimierung",
-        note: "Creatives, Targeting und Reporting inklusive.",
-      },
-      {
-        label: "Kombi Social",
-        value: "empfohlen",
-        note: "Glaubwürdiges Profil erhöht die Bewerbungsquote.",
-      },
-    ],
-  },
   relatedHubs: [
     {
       title: "Social Media Agentur Duisburg",
