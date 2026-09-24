@@ -172,27 +172,33 @@ export const performanceMarketingHub: LandingPage = {
   faq: [
     {
       question: "Was ist Performance Marketing?",
-      answer: "Marketing, das sich an messbaren Ergebnissen orientiert – Anfragen, Buchungen, Bewerbungen – statt nur an Reichweite.",
+      answer:
+        "Marketing, das sich an messbaren Ergebnissen orientiert – Anfragen, Buchungen, Bewerbungen – statt nur an Reichweite.",
     },
     {
       question: "Google Ads oder Meta Ads?",
-      answer: "[Google Ads](/leistungen/google-ads) treffen aktive Suche; [Meta Ads](/leistungen/meta-ads) erzeugen Nachfrage und Reichweite. Oft ist der Mix am stärksten – lokal in Duisburg und Moers.",
+      answer:
+        "[Google Ads](/leistungen/google-ads) treffen aktive Suche; [Meta Ads](/leistungen/meta-ads) erzeugen Nachfrage und Reichweite. Oft ist der Mix am stärksten – lokal in Duisburg und Moers.",
     },
     {
       question: "Ab welchem Budget lohnt sich Performance Marketing?",
-      answer: "Ob sich Performance Marketing für Ihr Angebot rechnet, prüfen wir im Strategiegespräch – inkl. grober Budget-Orientierung.",
+      answer:
+        "Für lokale Unternehmen richten wir Media-Budget und Betreuung nach Wettbewerb und Zielen aus. Im Strategiegespräch prüfen wir, ob es sich rechnet.",
     },
     {
       question: "Arbeitet ihr auch für Unternehmen in Moers?",
-      answer: "Ja. Schwerpunkt ist Duisburg und Moers sowie der Umkreis im Ruhrgebiet – mit lokalem Targeting und klarem Reporting.",
+      answer:
+        "Ja. Schwerpunkt ist Duisburg und Moers sowie der Umkreis im Ruhrgebiet – mit lokalem Targeting und klarem Reporting.",
     },
     {
       question: "Wie schnell sehe ich Ergebnisse?",
-      answer: "Ads können innerhalb weniger Tage erste Anfragen bringen. Stabile Kosten pro Lead brauchen oft 2–6 Wochen Optimierung.",
+      answer:
+        "Ads können innerhalb weniger Tage erste Anfragen bringen. Stabile Kosten pro Lead brauchen oft 2–6 Wochen Optimierung.",
     },
     {
       question: "Übernehmt ihr bestehende Accounts?",
-      answer: "Ja. Wir analysieren Ist-Stand, bereinigen und optimieren – oder setzen bei Bedarf neu und sauber auf.",
+      answer:
+        "Ja. Wir analysieren Ist-Stand, bereinigen und optimieren – oder setzen bei Bedarf neu und sauber auf.",
     },
   ],
 };
