@@ -12,7 +12,8 @@ const stats = [
 const trustPoints = [
   {
     title: "Fester Ansprechpartner",
-    description: "Direkte Abstimmung mit Jascha – ohne anonyme Agentur-Schleife.",
+    description:
+      "Direkte Abstimmung mit Ihrem festen Ansprechpartner – ohne anonyme Agentur-Schleife.",
   },
   {
     title: "Transparente Reports",
