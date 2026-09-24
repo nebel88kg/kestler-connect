@@ -109,30 +109,6 @@ export const workshopsHub: LandingPage = {
     { step: 4, title: "Plan", description: "Nächste Schritte dokumentieren." },
     { step: 5, title: "Optional", description: "Umsetzung oder Betreuung anschließen." },
   ],
-  pricing: {
-    title: "Preise und Formate",
-    paragraphs: [
-      "Workshops bieten wir als kompakte Tagungsformate an – transparent und ohne versteckte Retainer-Pflicht.",
-      "Im Strategiegespräch finden wir das passende Format: Startup-Marketing oder Marketing & Sponsoring.",
-    ],
-    ranges: [
-      {
-        label: "Startup Marketing",
-        value: "5–6 Stunden",
-        note: "Positionierung, Kanäle, Fahrplan.",
-      },
-      {
-        label: "Marketing & Sponsoring",
-        value: "auf Anfrage",
-        note: "Für Vereine und Partnerschaftslogik.",
-      },
-      {
-        label: "Danach",
-        value: "optional Betreuung",
-        note: "Social, Ads oder Website – bewusst gewählt.",
-      },
-    ],
-  },
   references: [
     {
       title: "Golfclub Raffelberg",
@@ -153,33 +129,27 @@ export const workshopsHub: LandingPage = {
   faq: [
     {
       question: "Für wen ist der Startup-Workshop?",
-      answer:
-        "Für Gründer und junge Unternehmen, die Marketing priorisieren wollen, bevor sie laufend Budget investieren.",
+      answer: "Für Gründer und junge Unternehmen, die Marketing priorisieren wollen, bevor sie laufend Budget investieren.",
     },
     {
       question: "Wie lange dauert ein Workshop?",
-      answer:
-        "Typischerweise 5–6 Stunden – kompakt und ergebnisorientiert.",
+      answer: "Typischerweise 5–6 Stunden – kompakt und ergebnisorientiert.",
     },
     {
       question: "Ist danach eine Betreuung Pflicht?",
-      answer:
-        "Nein. Sie können selbst umsetzen oder optional Betreuung, Ads oder Website beauftragen.",
+      answer: "Nein. Sie können selbst umsetzen oder optional Betreuung, Ads oder Website beauftragen.",
     },
     {
       question: "Was ist der Sponsoring-Workshop?",
-      answer:
-        "Ein Format für Vereine und Organisationen, die Partnerschaften und Gegenleistungen klarer aufstellen wollen.",
+      answer: "Ein Format für Vereine und Organisationen, die Partnerschaften und Gegenleistungen klarer aufstellen wollen.",
     },
     {
       question: "Online oder vor Ort?",
-      answer:
-        "Beides möglich – wir stimmen Format und Ort im Vorgespräch ab.",
+      answer: "Beides möglich – wir stimmen Format und Ort im Vorgespräch ab.",
     },
     {
       question: "Was sollte ich vorbereiten?",
-      answer:
-        "Kurze Infos zu Angebot, Zielgruppe und bisherigen Maßnahmen reichen. Den Rest erarbeiten wir gemeinsam.",
+      answer: "Kurze Infos zu Angebot, Zielgruppe und bisherigen Maßnahmen reichen. Den Rest erarbeiten wir gemeinsam.",
     },
   ],
 };
