@@ -10,6 +10,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const staticPages = [
     "/",
     "/leistungen",
+    "/marketing-agentur-duisburg",
     "/referenzen",
     "/ueber-uns",
     "/blog",

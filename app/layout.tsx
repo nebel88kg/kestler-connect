@@ -55,7 +55,7 @@ const organizationSchema = {
     addressCountry: siteConfig.address.addressCountry,
   },
   hasMap: googleMapsCidUrl,
-  sameAs: [googleMapsCidUrl, googleBusiness.mapsUrl],
+  sameAs: [googleMapsCidUrl, googleBusiness.mapsUrl, siteConfig.social.instagram],
   areaServed: [
     { "@type": "City", name: "Duisburg" },
     { "@type": "AdministrativeArea", name: "Ruhrgebiet" },
