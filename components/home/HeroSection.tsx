@@ -36,8 +36,8 @@ export function HeroSection() {
               <span className="block">aus Duisburg</span>
             </h1>
             <p className="mt-3 max-w-xl text-sm leading-relaxed text-gray-300 sm:mt-4 sm:text-base">
-              Mehr Anfragen. Mehr Mitarbeiter. Mehr Wachstum. – für Handwerk, Vereine und
-              wachsende Unternehmen.
+              Mehr Anfragen. Mehr Sichtbarkeit. Mehr Wachstum. – für regionale und lokale
+              Unternehmen in Duisburg und Umgebung.
             </p>
             <div className="mt-8 flex w-full flex-col gap-3 sm:mt-10 sm:w-auto sm:flex-row sm:gap-4 lg:mt-12">
               <Button href="/kontakt" size="md" className="w-full sm:w-auto">
