@@ -126,30 +126,6 @@ export const seoHub: LandingPage = {
     { step: 4, title: "Ausbau", description: "Weitere Seiten und Optimierungen." },
     { step: 5, title: "Monitoring", description: "Rankings, Traffic und nächste Schritte." },
   ],
-  pricing: {
-    title: "Preise und Budgetempfehlungen",
-    paragraphs: [
-      "SEO kalkulieren wir nach Wettbewerb, Ist-Stand der Website und gewünschtem Tempo.",
-      "Oft sinnvoll: laufende monatliche Arbeit statt einmaligem „SEO-Paket“ ohne Nachsorge.",
-    ],
-    ranges: [
-      {
-        label: "Local SEO Einstieg",
-        value: "monatliche Betreuung",
-        note: "Profil, Inhalte und lokale Signale zuerst.",
-      },
-      {
-        label: "Mit Website-Relaunch",
-        value: "oft kombiniert",
-        note: "Technische und inhaltliche Basis über [Webseiten](/leistungen/webseiten).",
-      },
-      {
-        label: "Kombi Ads + SEO",
-        value: "kurz- und langfristig",
-        note: "Ads für sofort, SEO für Substanz.",
-      },
-    ],
-  },
   relatedHubs: [
     {
       title: "Google Ads in Duisburg und Moers",
@@ -197,33 +173,27 @@ export const seoHub: LandingPage = {
   faq: [
     {
       question: "Wie lange dauert SEO?",
-      answer:
-        "Erste Verbesserungen oft nach 4–8 Wochen. Signifikante Rankings typischerweise nach 3–6 Monaten kontinuierlicher Arbeit.",
+      answer: "Erste Verbesserungen oft nach 4–8 Wochen. Signifikante Rankings typischerweise nach 3–6 Monaten kontinuierlicher Arbeit.",
     },
     {
       question: "SEO oder Google Ads?",
-      answer:
-        "Ads wirken schnell, SEO nachhaltig. Viele lokale Unternehmen in Duisburg und Moers nutzen beides parallel.",
+      answer: "Ads wirken schnell, SEO nachhaltig. Viele lokale Unternehmen in Duisburg und Moers nutzen beides parallel.",
     },
     {
       question: "Was ist Local SEO?",
-      answer:
-        "Optimierung für regionale Suche und Google Maps – Unternehmensprofil, NAP-Daten, lokale Inhalte und Bewertungen.",
+      answer: "Optimierung für regionale Suche und Google Maps – Unternehmensprofil, NAP-Daten, lokale Inhalte und Bewertungen.",
     },
     {
       question: "Betreut ihr SEO auch in Moers?",
-      answer:
-        "Ja. Schwerpunkt ist Duisburg und Moers sowie der Umkreis – mit Local SEO statt dünnen Doorway-Seiten.",
+      answer: "Ja. Schwerpunkt ist Duisburg und Moers sowie der Umkreis – mit Local SEO statt dünnen Doorway-Seiten.",
     },
     {
       question: "Garantiert ihr Rankings?",
-      answer:
-        "Nein – seriös niemand. Wir arbeiten transparent an den Hebeln, die Rankings und Anfragen realistisch verbessern.",
+      answer: "Nein – seriös niemand. Wir arbeiten transparent an den Hebeln, die Rankings und Anfragen realistisch verbessern.",
     },
     {
       question: "Was ist KI-Sichtbarkeit?",
-      answer:
-        "Inhalte so aufbereiten, dass Sie auch in KI-Antworten und AI-Overviews besser auffindbar sind – ergänzend zu klassischem SEO.",
+      answer: "Inhalte so aufbereiten, dass Sie auch in KI-Antworten und AI-Overviews besser auffindbar sind – ergänzend zu klassischem SEO.",
     },
   ],
 };
