@@ -9,7 +9,7 @@ import { ScrollReveal } from "@/components/ui/ScrollReveal";
 export const metadata: Metadata = createMetadata({
   title: "Kontakt",
   description:
-    "Kontaktieren Sie Kestler Connect – Social-Media-Agentur und Performance Marketing aus Duisburg. Per Formular, Telefon oder WhatsApp.",
+    "Kontaktieren Sie Kestler Connect – Social-Media-Agentur und Performance Marketing aus Duisburg für regionale und lokale Unternehmen. Per Formular, Telefon oder WhatsApp.",
   path: "/kontakt",
 });
 
@@ -21,8 +21,8 @@ export default function KontaktPage() {
           <Breadcrumbs items={[{ label: "Startseite", href: "/" }, { label: "Kontakt" }]} variant="dark" />
           <h1 className="text-2xl font-extrabold text-white sm:text-3xl lg:text-5xl">Kontakt</h1>
           <p className="mt-3 max-w-2xl text-base text-gray-300 sm:mt-4 sm:text-lg">
-            Social-Media-Agentur & Performance Marketing aus Duisburg – wir freuen uns auf Ihre
-            Nachricht.
+            Social-Media-Agentur & Performance Marketing aus Duisburg für regionale und lokale
+            Unternehmen – wir freuen uns auf Ihre Nachricht.
           </p>
         </div>
       </section>
