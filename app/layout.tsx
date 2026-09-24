@@ -4,6 +4,7 @@ import "./globals.css";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { JsonLd } from "@/components/seo/JsonLd";
+import { GoogleTagManager } from "@/components/analytics/GoogleTagManager";
 import { siteConfig } from "@/lib/navigation";
 import { createMetadata } from "@/lib/seo";
 
@@ -49,6 +50,7 @@ export default function RootLayout({
   return (
     <html lang="de">
       <body className={`${inter.variable} font-sans`}>
+        <GoogleTagManager />
         <JsonLd data={organizationSchema} />
         <Header />
         <main>{children}</main>
