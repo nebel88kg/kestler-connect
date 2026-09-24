@@ -5,21 +5,22 @@ export const socialMediaHub: LandingPage = {
   path: "/leistungen/social-media",
   category: "social-media",
   meta: {
-    title: "Social Media Agentur – Content, Reels & Strategie",
+    title: "Social Media Agentur Duisburg | Social Media Marketing | Kestler Connect",
     description:
-      "Social-Media-Agentur Duisburg: professionelle Betreuung mit Redaktionsplan, Content und Reels. Für Unternehmen, Vereine und Marken, die regelmäßig sichtbar sein wollen.",
+      "Social-Media-Agentur Duisburg: Social Media Marketing mit Redaktionsplan, Content und Reels – für regionale und lokale Unternehmen in Duisburg und Umgebung.",
     keywords: [
+      "social media agentur duisburg",
+      "social media marketing duisburg",
       "social media agentur",
       "social media betreuung",
       "instagram betreuung",
       "content marketing",
-      "social media agentur duisburg",
     ],
   },
   hero: {
-    headline: "Social Media Agentur – professionell, regelmäßig, ergebnisorientiert",
+    headline: "Social Media Agentur Duisburg – professionell, regelmäßig, ergebnisorientiert",
     subheadline:
-      "Wir übernehmen Strategie, Content und Betreuung – damit Ihr Auftritt modern wirkt und dauerhaft Sichtbarkeit erzeugt.",
+      "Social Media Marketing für regionale und lokale Unternehmen: Strategie, Content und Betreuung – damit Ihr Auftritt modern wirkt und dauerhaft Sichtbarkeit erzeugt.",
   },
   intro: {
     title: "Was macht unsere Social Media Agentur?",
@@ -33,24 +34,23 @@ export const socialMediaHub: LandingPage = {
       "Social Media ist für viele Unternehmen der sichtbarste Teil der Marke. Wer unregelmäßig postet oder nur Werbebotschaften teilt, wirkt schnell unglaubwürdig. Wer kontinuierlich Mehrwert und Persönlichkeit zeigt, baut Vertrauen auf – bei Kunden, Bewerbern und Partnern.",
       "Gerade Reels und Kurzformate verlangen Planung, Produktion und eine klare Linie. Genau das übernehmen wir, damit Social Media nicht zur Dauerbaustelle im Alltag wird.",
       "In der Praxis bedeutet das: weniger Stress im Alltag, ein konsistenter Auftritt und Inhalte, die zu Ihrer Marke passen – mit einem festen Ansprechpartner statt anonymer Agenturprozesse.",
-      "Ob Unternehmen, Verein oder wachsende Marke: Social Media bleibt nur dann wirksam, wenn Strategie, Produktion und Veröffentlichung zusammengehören. Genau diese Verbindung ist unser Anspruch.",
+      "Ob lokales Unternehmen oder wachsende Marke: Social Media bleibt nur dann wirksam, wenn Strategie, Produktion und Veröffentlichung zusammengehören. Genau diese Verbindung ist unser Anspruch.",
     ],
   },
   audience: {
     title: "Für wen eignet sich eine Social Media Agentur?",
     paragraphs: [
-      "Für alle, die online professionell wirken wollen, aber intern keine Kapazität oder Expertise für kontinuierlichen Content haben – oder die merken, dass unregelmäßige Posts nicht mehr reichen.",
-      "Besonders relevant ist Social Media für Unternehmen und Organisationen mit lokaler Zielgruppe, Events, visuellen Angeboten oder Recruiting-Bedarf. Auch Sponsoren und Partner erwarten einen aktiven, glaubwürdigen Auftritt.",
-      "Auch wenn Sie bereits Google Ads oder Meta Ads schalten, lohnt sich eine professionelle organische Präsenz: Interessenten schauen sich fast immer zuerst das Profil an, bevor sie eine Anfrage stellen.",
+      "Für regionale und lokale Unternehmen, die online professionell wirken wollen, aber intern keine Kapazität oder Expertise für kontinuierlichen Content haben – oder die merken, dass unregelmäßige Posts nicht mehr reichen.",
+      "Besonders relevant ist Social Media für Betriebe mit lokaler Zielgruppe in Duisburg, im Ruhrgebiet und in NRW – etwa Dienstleister, Handel, Events oder Recruiting. Auch Partner und Sponsoren erwarten oft einen aktiven, glaubwürdigen Auftritt.",
+      "Auch wenn Sie bereits [Google Ads](/leistungen/google-ads) oder [Meta Ads](/leistungen/meta-ads) schalten, lohnt sich eine professionelle organische Präsenz: Interessenten schauen sich fast immer zuerst das Profil an, bevor sie eine Anfrage stellen.",
     ],
     points: [
-      "Lokale Unternehmen und Dienstleister",
-      "Gastronomie, Events und Freizeitangebote",
-      "Golfclubs, Vereine und Netzwerke",
+      "Regionale und lokale Unternehmen in Duisburg und Umgebung",
+      "Dienstleister und Handel vor Ort",
+      "Betriebe mit Events, visuellen Angeboten oder Recruiting-Bedarf",
       "Startups und wachsende Marken",
-      "Betriebe mit Fokus auf Employer Branding",
-      "Organisationen, die Ads mit organischem Content verzahnen wollen",
-      "Unternehmen mit Sponsoring- oder Partnerschaftsanspruch",
+      "Unternehmen, die Ads mit organischem Content verzahnen wollen",
+      "Organisationen mit Sponsoring- oder Partnerschaftsanspruch",
     ],
   },
   problem: {
@@ -178,9 +178,14 @@ export const socialMediaHub: LandingPage = {
   ],
   faq: [
     {
-      question: "Was macht eine Social Media Agentur?",
+      question: "Was macht eine Social Media Agentur lokal?",
       answer:
-        "Eine Social Media Agentur übernimmt Strategie, Redaktionsplan, Content-Produktion, Reels und Community-Management – damit Ihr Auftritt regelmäßig, professionell und zielgerichtet wirkt. Bei Kestler Connect in Duisburg ist das unser Schwerpunkt.",
+        "Eine Social Media Agentur vor Ort übernimmt Strategie, Redaktionsplan, Content-Produktion, Reels und Community-Management – abgestimmt auf Ihre Region und Zielgruppe. Bei Kestler Connect in Duisburg ist Social Media Marketing Schwerpunkt für regionale und lokale Unternehmen.",
+    },
+    {
+      question: "Google Ads oder Meta Ads – was passt zu lokalem Social Media?",
+      answer:
+        "Organisches Social Media baut Vertrauen und Marke. [Google Ads](/leistungen/google-ads) treffen aktive Suche; [Meta Ads](/leistungen/meta-ads) verstärken Reichweite auf Facebook und Instagram. Über [Performance Marketing](/leistungen/performance-marketing) verzahnen wir beides mit Ihrer Betreuung.",
     },
     {
       question: "Social Media oder Ads zuerst?",
