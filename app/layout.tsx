@@ -14,9 +14,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = createMetadata({
-  title: "Social Media Agentur Duisburg | Ads & Websites | Kestler Connect",
+  title: "Social Media Agentur Duisburg | Performance Marketing | Kestler Connect",
   description:
-    "Social-Media-Agentur Duisburg: Content & Betreuung. Performance Marketing und Website-Erstellung für Handwerk, Vereine und KMU – Kestler Connect.",
+    "Social-Media-Agentur und Performance Marketing aus Duisburg für regionale und lokale Unternehmen: Social Media Marketing, Google Ads, Meta Ads und Website-Erstellung.",
   path: "/",
 });
 
@@ -43,6 +43,19 @@ const organizationSchema = {
     postalCode: siteConfig.address.postalCode,
     addressCountry: siteConfig.address.addressCountry,
   },
+  areaServed: [
+    { "@type": "City", name: "Duisburg" },
+    { "@type": "AdministrativeArea", name: "Ruhrgebiet" },
+    { "@type": "AdministrativeArea", name: "Nordrhein-Westfalen" },
+  ],
+  knowsAbout: [
+    "Social Media Marketing",
+    "Social-Media-Agentur",
+    "Performance Marketing",
+    "Google Ads",
+    "Meta Ads",
+    "Website-Erstellung",
+  ],
   founder: {
     "@type": "Person",
     name: "Jascha Kestler",
