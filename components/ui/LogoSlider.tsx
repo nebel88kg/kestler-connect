@@ -1,7 +1,7 @@
 "use client";
 
 const logos = [
-  "DnM",
+  "DnM – Dämmstoffe nach Maß",
   "SecPro Bildungszentrum",
   "Golfclub Raffelberg",
 ];

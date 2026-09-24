@@ -3,15 +3,15 @@ import type { ReferenzCase } from "../types";
 export const referenzen: ReferenzCase[] = [
   {
     slug: "dnm",
-    title: "DnM",
-    client: "DnM",
-    industry: "Lokal / Region",
+    title: "DnM – Dämmstoffe nach Maß",
+    client: "DnM – Dämmstoffe nach Maß",
+    industry: "Dämmstoffe",
     excerpt:
-      "SEO-Sichtbarkeit auf Google Seite 1 und begleitende Social-Media-Arbeit für ein regionales Unternehmen.",
+      "SEO auf Google Seite 1 und Social Media für DnM – Dämmstoffe nach Maß.",
     situation:
-      "DnM wollte online besser gefunden werden und zugleich einen professionelleren Social-Media-Auftritt. Ziel war mehr organische Sichtbarkeit bei Google – ergänzt durch regelmäßige Social-Media-Impulse.",
+      "DnM (Dämmstoffe nach Maß) wollte online besser gefunden werden und einen professionelleren Social-Media-Auftritt. Ziel war organische Sichtbarkeit bei Google – ergänzt durch regelmäßige Social-Media-Impulse.",
     measures: [
-      "SEO-Maßnahmen mit Fokus auf lokale und relevante Suchanfragen",
+      "SEO-Maßnahmen mit Fokus auf lokale und produktrelevante Suchanfragen",
       "Struktur und Inhalte der digitalen Präsenz für bessere Auffindbarkeit",
       "Begleitende Social-Media-Betreuung mit klarer Linie",
       "Abstimmung von organischer Suche und Social Content",
