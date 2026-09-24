@@ -241,7 +241,44 @@ export function LandingPageTemplate({ page }: LandingPageTemplateProps) {
       {page.results && (
         <section className="section-padding">
           <div className="container-custom">
-            <TextSection section={page.results} />
+            <ScrollReveal>
+              <h2 className="text-2xl font-bold text-anthracite lg:text-4xl">
+                {page.results.title}
+              </h2>
+              {page.results.paragraphs.slice(0, 1).map((paragraph) => (
+                <p
+                  key={paragraph.slice(0, 48)}
+                  className="mt-6 max-w-3xl text-lg leading-relaxed text-gray-600"
+                >
+                  {renderInline(paragraph)}
+                </p>
+              ))}
+              {(page.results.paragraphs.length > 1 ||
+                (page.results.points && page.results.points.length > 0)) && (
+                <div className="mx-auto mt-8 max-w-3xl">
+                  <Accordion
+                    items={[
+                      ...(page.results.paragraphs.length > 1
+                        ? [
+                            {
+                              question: "Mehr zu typischen Ergebnissen",
+                              answer: page.results.paragraphs.slice(1).join(" "),
+                            },
+                          ]
+                        : []),
+                      ...(page.results.points && page.results.points.length > 0
+                        ? [
+                            {
+                              question: "Woran Sie Fortschritt erkennen",
+                              answer: page.results.points.join(" · "),
+                            },
+                          ]
+                        : []),
+                    ]}
+                  />
+                </div>
+              )}
+            </ScrollReveal>
           </div>
         </section>
       )}
