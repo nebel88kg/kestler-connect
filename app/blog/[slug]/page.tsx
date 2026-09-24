@@ -5,8 +5,10 @@ import type { ReactNode } from "react";
 import { blogPosts, getBlogPostBySlug } from "@/content/blog";
 import { createMetadata, createBreadcrumbsFromPath } from "@/lib/seo";
 import { Breadcrumbs } from "@/components/seo/Breadcrumbs";
+import { JsonLd } from "@/components/seo/JsonLd";
 import { ScrollReveal } from "@/components/ui/ScrollReveal";
 import { Button } from "@/components/ui/Button";
+import { siteConfig } from "@/lib/navigation";
 
 export function generateStaticParams() {
   return blogPosts.map((post) => ({ slug: post.slug }));
@@ -138,6 +140,24 @@ const ctaBySlug: Record<
   string,
   { title: string; text: string; href: string; button: string }
 > = {
+  "mehr-anfragen-bekommen": {
+    title: "Mehr Anfragen aus der Region?",
+    text: "Wir prüfen Website, Ads und Leadwege – und zeigen den nächsten sinnvollen Schritt für Ihr Unternehmen.",
+    href: "/leistungen/leadgewinnung",
+    button: "Zur Leadgewinnung",
+  },
+  "werbung-schalten-google-ads": {
+    title: "Google Ads professionell schalten",
+    text: "Lokale Suchkampagnen mit klarer Messung – Setup, Optimierung und Reporting aus Duisburg.",
+    href: "/leistungen/google-ads",
+    button: "Zu Google Ads",
+  },
+  "instagram-tiktok-fuer-unternehmen": {
+    title: "Instagram & Kurzvideo für Ihr Unternehmen",
+    text: "Content, Reels und Ads-ready Betreuung – abgestimmt auf regionale Ziele.",
+    href: "/leistungen/social-media",
+    button: "Zur Social Media Agentur",
+  },
   "was-macht-eine-social-media-agentur": {
     title: "Social Media Agentur aus Duisburg",
     text: "Wir übernehmen Strategie, Content und Betreuung – abgestimmt auf Ads und Website. Unverbindlich herausfinden, was für Sie sinnvoll ist.",
@@ -180,8 +200,32 @@ export default async function BlogPostPage({
     button: "Kostenloses Strategiegespräch",
   };
 
+  const blogPostingSchema = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    headline: post.title,
+    description: post.metaDescription || post.excerpt,
+    datePublished: post.date,
+    dateModified: post.date,
+    author: {
+      "@type": "Organization",
+      name: siteConfig.name,
+      url: siteConfig.url,
+    },
+    publisher: {
+      "@type": "Organization",
+      name: siteConfig.name,
+      url: siteConfig.url,
+    },
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": `${siteConfig.url}/blog/${slug}`,
+    },
+  };
+
   return (
     <div className="page-top">
+      <JsonLd data={blogPostingSchema} />
       <article className="container-custom section-padding">
         <Breadcrumbs items={createBreadcrumbsFromPath(`/blog/${slug}`)} />
 
