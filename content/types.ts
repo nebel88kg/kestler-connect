@@ -60,6 +60,12 @@ export interface LandingPagePricing {
   ranges?: LandingPagePricingRange[];
 }
 
+export interface LandingPageRelatedHub {
+  title: string;
+  href: string;
+  description?: string;
+}
+
 export interface LandingPage {
   slug: string;
   path: string;
@@ -78,6 +84,10 @@ export interface LandingPage {
   results?: LandingPageTextSection;
   pricing?: LandingPagePricing;
   showWebsitePricing?: boolean;
+  /** Compact Einzugsgebiet / Vor Ort & digital block */
+  serviceArea?: LandingPageTextSection;
+  /** Sibling hub links with descriptive anchors */
+  relatedHubs?: LandingPageRelatedHub[];
 }
 
 export interface StubPage {
@@ -96,6 +106,8 @@ export interface ReferenzCase {
   measures: string[];
   results: string[];
   image?: string;
+  /** Related leistungen for internal linking */
+  relatedServices?: { title: string; href: string }[];
 }
 
 export interface BlogPost {
