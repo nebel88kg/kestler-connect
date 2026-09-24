@@ -5,41 +5,56 @@ export const metaAdsHub: LandingPage = {
   path: "/leistungen/meta-ads",
   category: "meta-ads",
   meta: {
-    title: "Meta Ads Agentur Duisburg | Facebook & Instagram Ads | Kestler Connect",
+    title: "Meta Ads Agentur Duisburg & Moers | Facebook & Instagram | Kestler Connect",
     description:
-      "Meta Ads Agentur Duisburg: Facebook- und Instagram-Ads für Leads, Reichweite und Buchungen – für regionale und lokale Unternehmen.",
+      "Meta Ads Agentur Duisburg und Moers: Facebook- und Instagram-Ads für Leads, Reichweite und Buchungen – regional im Ruhrgebiet und NRW.",
     keywords: [
       "meta ads duisburg",
+      "meta ads moers",
       "meta ads agentur",
       "facebook ads duisburg",
-      "instagram ads",
+      "instagram ads moers",
       "facebook werbung",
-      "instagram werbung",
+      "instagram werbung ruhrgebiet",
     ],
   },
   hero: {
-    headline: "Meta Ads Agentur Duisburg – Reichweite und Anfragen auf Facebook & Instagram",
+    headline: "Meta Ads Agentur Duisburg & Moers – Reichweite und Anfragen",
     subheadline:
-      "Facebook- und Instagram-Ads für regionale und lokale Unternehmen – gezielt, messbar und abgestimmt auf Ihren Social-Media-Auftritt.",
+      "Facebook- und Instagram-Ads für regionale Unternehmen in Duisburg, Moers und Umgebung – gezielt, messbar und abgestimmt auf Ihren Social-Media-Auftritt.",
   },
   intro: {
     title: "Was sind Meta Ads?",
     paragraphs: [
-      "Meta Ads sind bezahlte Anzeigen auf Facebook und Instagram. Sie erreichen Menschen nach Interesse, Ort und Verhalten – auch ohne aktive Suche.",
+      "Meta Ads sind bezahlte Anzeigen auf Facebook und Instagram. Sie erreichen Menschen nach Interesse, Ort und Verhalten – ideal für Duisburg, Moers und das Ruhrgebiet.",
       "Wir verknüpfen Meta Ads mit [Social Media Betreuung](/leistungen/social-media) und [Performance Marketing](/leistungen/performance-marketing), damit Creatives, Profil und Landingpage zusammenpassen.",
     ],
   },
   audience: {
     title: "Für wen eignen sich Meta Ads?",
     paragraphs: [
-      "Für Unternehmen, die Zielgruppen in der Region sichtbar ansprechen wollen – Leads, Buchungen, Events, Kurse oder Bewerber.",
+      "Für Unternehmen in Duisburg, Moers und Umgebung, die Zielgruppen in der Region sichtbar ansprechen wollen – Leads, Buchungen, Events, Kurse oder Bewerber.",
     ],
     points: [
-      "Lokale Dienstleister und Handel",
+      "Lokale Dienstleister und Handel in Duisburg und Moers",
       "Bildung, Kurse und Freizeitangebote",
       "Events, Locations und Gastronomie",
       "Betriebe mit Recruiting-Bedarf",
       "Unternehmen mit starkem Visual-/Story-Potenzial",
+    ],
+  },
+  serviceArea: {
+    title: "Einzugsgebiet – vor Ort & digital",
+    paragraphs: [
+      "Meta Ads mit lokalem Targeting für Duisburg, Moers und den Umkreis – Betreuung hybrid vor Ort und digital.",
+    ],
+    points: [
+      "Duisburg",
+      "Moers",
+      "Oberhausen",
+      "Mülheim an der Ruhr",
+      "Krefeld",
+      "Düsseldorf / Ruhrgebiet & NRW",
     ],
   },
   problem: {
@@ -55,12 +70,12 @@ export const metaAdsHub: LandingPage = {
   solution: {
     title: "Meta Ads mit klarem Ziel",
     content:
-      "Wir definieren Ziel und Angebot, bauen Kampagnen und Creatives, messen Leads und optimieren laufend – abgestimmt auf [Social Media](/leistungen/social-media), [Google Ads](/leistungen/google-ads) und Ihre [Website](/leistungen/webseiten).",
+      "Wir definieren Ziel und Angebot, bauen Kampagnen und Creatives, messen Leads und optimieren laufend – abgestimmt auf [Social Media](/leistungen/social-media), [Google Ads in Duisburg und Moers](/leistungen/google-ads) und Ihre [Website](/leistungen/webseiten).",
   },
   benefits: [
     {
       title: "Präzises Targeting",
-      description: "Region, Interessen und Lookalikes statt Streuschüssen.",
+      description: "Region, Interessen und Lookalikes – Duisburg, Moers und Umkreis statt Streuschüssen.",
       icon: "target",
     },
     {
@@ -113,7 +128,7 @@ export const metaAdsHub: LandingPage = {
   pricing: {
     title: "Preise und Budgetempfehlungen",
     paragraphs: [
-      "Media-Budget und Betreuung trennen wir klar. Für lokale Kampagnen starten viele mit einem überschaubaren Testbudget.",
+      "Media-Budget und Betreuung trennen wir klar. Für lokale Kampagnen in Duisburg und Moers starten viele mit einem überschaubaren Testbudget.",
       "Sinnvoll ist oft die Kombi aus Meta Ads und laufender Social-Media-Betreuung – Creatives und Profil verstärken sich.",
     ],
     ranges: [
@@ -134,6 +149,33 @@ export const metaAdsHub: LandingPage = {
       },
     ],
   },
+  relatedHubs: [
+    {
+      title: "Google Ads in Duisburg und Moers",
+      href: "/leistungen/google-ads",
+      description: "Suchanzeigen, wenn Kunden aktiv suchen.",
+    },
+    {
+      title: "Social Media Agentur Duisburg",
+      href: "/leistungen/social-media",
+      description: "Organischer Content, der Ads glaubwürdig macht.",
+    },
+    {
+      title: "Performance Marketing",
+      href: "/leistungen/performance-marketing",
+      description: "Google und Meta aus einer Hand.",
+    },
+    {
+      title: "SEO / Local SEO",
+      href: "/leistungen/seo",
+      description: "Nachhaltige Sichtbarkeit neben bezahlter Reichweite.",
+    },
+    {
+      title: "Website erstellen lassen",
+      href: "/leistungen/webseiten",
+      description: "Landingpages, die aus Klicks Anfragen machen.",
+    },
+  ],
   references: [
     {
       title: "SecPro Bildungszentrum",
@@ -155,7 +197,12 @@ export const metaAdsHub: LandingPage = {
     {
       question: "Meta Ads oder Google Ads?",
       answer:
-        "Meta erzeugt Nachfrage und Sichtbarkeit; Google trifft aktive Suche. Oft ist der Mix über [Performance Marketing](/leistungen/performance-marketing) am stärksten.",
+        "Meta erzeugt Nachfrage und Sichtbarkeit; Google trifft aktive Suche. Oft ist der Mix über [Performance Marketing](/leistungen/performance-marketing) am stärksten – besonders lokal in Duisburg und Moers.",
+    },
+    {
+      question: "Betreut ihr Meta Ads auch für Moers und den Umkreis?",
+      answer:
+        "Ja. Wir steuern Kampagnen für Duisburg, Moers und umliegende Städte – mit klarem regionalem Targeting.",
     },
     {
       question: "Brauche ich ein professionelles Profil?",
@@ -171,11 +218,6 @@ export const metaAdsHub: LandingPage = {
       question: "Wie schnell wirken Meta Ads?",
       answer:
         "Erste Daten oft innerhalb weniger Tage. Stabile Lead-Kosten brauchen in der Regel eine kurze Lern- und Testphase.",
-    },
-    {
-      question: "Müsst ihr Creatives liefern?",
-      answer:
-        "Können wir. Starke Creatives sind bei Meta entscheidend – Text, Bild und Video aus einer Hand.",
     },
     {
       question: "Ab welchem Budget starten?",
