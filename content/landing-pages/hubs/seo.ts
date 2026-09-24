@@ -86,7 +86,7 @@ export const seoHub: LandingPage = {
     },
     {
       title: "Technische Basis",
-      description: "Schnelle, indexierbare Seiten ohne unnötige Ballast.",
+      description: "Schnelle, indexierbare Seiten ohne unnötigen Ballast.",
       icon: "rocket",
     },
     {
@@ -126,30 +126,6 @@ export const seoHub: LandingPage = {
     { step: 4, title: "Ausbau", description: "Weitere Seiten und Optimierungen." },
     { step: 5, title: "Monitoring", description: "Rankings, Traffic und nächste Schritte." },
   ],
-  pricing: {
-    title: "Preise und Budgetempfehlungen",
-    paragraphs: [
-      "SEO kalkulieren wir nach Wettbewerb, Ist-Stand der Website und gewünschtem Tempo.",
-      "Oft sinnvoll: laufende monatliche Arbeit statt einmaligem „SEO-Paket“ ohne Nachsorge.",
-    ],
-    ranges: [
-      {
-        label: "Local SEO Einstieg",
-        value: "monatliche Betreuung",
-        note: "Profil, Inhalte und lokale Signale zuerst.",
-      },
-      {
-        label: "Mit Website-Relaunch",
-        value: "oft kombiniert",
-        note: "Technische und inhaltliche Basis über [Webseiten](/leistungen/webseiten).",
-      },
-      {
-        label: "Kombi Ads + SEO",
-        value: "kurz- und langfristig",
-        note: "Ads für sofort, SEO für Substanz.",
-      },
-    ],
-  },
   relatedHubs: [
     {
       title: "Google Ads in Duisburg und Moers",

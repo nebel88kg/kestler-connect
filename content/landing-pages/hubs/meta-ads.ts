@@ -125,30 +125,6 @@ export const metaAdsHub: LandingPage = {
     { step: 4, title: "Optimierung", description: "Tests, Budgets und Zielgruppen schärfen." },
     { step: 5, title: "Reporting", description: "Ergebnisse und Ableitungen." },
   ],
-  pricing: {
-    title: "Preise und Budgetempfehlungen",
-    paragraphs: [
-      "Media-Budget und Betreuung trennen wir klar. Für lokale Kampagnen in Duisburg und Moers starten viele mit einem überschaubaren Testbudget.",
-      "Sinnvoll ist oft die Kombi aus Meta Ads und laufender Social-Media-Betreuung – Creatives und Profil verstärken sich.",
-    ],
-    ranges: [
-      {
-        label: "Media-Budget",
-        value: "ab ca. 400–1.000 € / Monat",
-        note: "Abhängig von Ziel, Region und Wettbewerb.",
-      },
-      {
-        label: "Betreuung",
-        value: "monatliches Honorar",
-        note: "Setup, Creatives, Optimierung und Reporting.",
-      },
-      {
-        label: "Kombi Social + Ads",
-        value: "oft effizienter",
-        note: "Weniger Abstimmung, konsistente Botschaften.",
-      },
-    ],
-  },
   relatedHubs: [
     {
       title: "Google Ads in Duisburg und Moers",
@@ -222,7 +198,7 @@ export const metaAdsHub: LandingPage = {
     {
       question: "Ab welchem Budget starten?",
       answer:
-        "Lokal oft ab einigen hundert Euro Media-Budget monatlich. Wir prüfen im Strategiegespräch, ob es sich rechnet.",
+        "Lokal starten viele mit einem überschaubaren Testbudget. Ob es sich rechnet und welche Höhe sinnvoll ist, klären wir im Strategiegespräch.",
     },
   ],
 };
