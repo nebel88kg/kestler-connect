@@ -125,30 +125,6 @@ export const performanceMarketingHub: LandingPage = {
     { step: 4, title: "Optimierung", description: "Laufend testen und Budget sinnvoll umschichten." },
     { step: 5, title: "Reporting", description: "Ergebnisse und nächste Schritte – verständlich." },
   ],
-  pricing: {
-    title: "Preise und Budgetempfehlungen",
-    paragraphs: [
-      "Agenturhonorar und Werbebudget trennen wir klar. Das Media-Budget hängt von Wettbewerb, Region und Ziel ab.",
-      "Viele lokale Unternehmen starten mit einem klaren Pilotbudget und skalieren, sobald Kosten pro Lead stimmen.",
-    ],
-    ranges: [
-      {
-        label: "Werbebudget (Orientierung)",
-        value: "ab ca. 500–1.500 € / Monat",
-        note: "Je nach Kanalmix und Wettbewerb in Ihrer Region.",
-      },
-      {
-        label: "Betreuung",
-        value: "monatliches Honorar",
-        note: "Abhängig von Kanälen, Accounts und Reporting-Tiefe.",
-      },
-      {
-        label: "Einstieg",
-        value: "Strategiegespräch",
-        note: "Kostenlos und unverbindlich – wir prüfen, ob Ads sinnvoll sind.",
-      },
-    ],
-  },
   relatedHubs: [
     {
       title: "Google Ads in Duisburg und Moers",
@@ -196,33 +172,27 @@ export const performanceMarketingHub: LandingPage = {
   faq: [
     {
       question: "Was ist Performance Marketing?",
-      answer:
-        "Marketing, das sich an messbaren Ergebnissen orientiert – Anfragen, Buchungen, Bewerbungen – statt nur an Reichweite.",
+      answer: "Marketing, das sich an messbaren Ergebnissen orientiert – Anfragen, Buchungen, Bewerbungen – statt nur an Reichweite.",
     },
     {
       question: "Google Ads oder Meta Ads?",
-      answer:
-        "[Google Ads](/leistungen/google-ads) treffen aktive Suche; [Meta Ads](/leistungen/meta-ads) erzeugen Nachfrage und Reichweite. Oft ist der Mix am stärksten – lokal in Duisburg und Moers.",
+      answer: "[Google Ads](/leistungen/google-ads) treffen aktive Suche; [Meta Ads](/leistungen/meta-ads) erzeugen Nachfrage und Reichweite. Oft ist der Mix am stärksten – lokal in Duisburg und Moers.",
     },
     {
       question: "Ab welchem Budget lohnt sich Performance Marketing?",
-      answer:
-        "Für lokale Unternehmen oft ab ca. 500–800 € Media-Budget plus Betreuung. Im Strategiegespräch prüfen wir, ob es sich rechnet.",
+      answer: "Ob sich Performance Marketing für Ihr Angebot rechnet, prüfen wir im Strategiegespräch – inkl. grober Budget-Orientierung.",
     },
     {
       question: "Arbeitet ihr auch für Unternehmen in Moers?",
-      answer:
-        "Ja. Schwerpunkt ist Duisburg und Moers sowie der Umkreis im Ruhrgebiet – mit lokalem Targeting und klarem Reporting.",
+      answer: "Ja. Schwerpunkt ist Duisburg und Moers sowie der Umkreis im Ruhrgebiet – mit lokalem Targeting und klarem Reporting.",
     },
     {
       question: "Wie schnell sehe ich Ergebnisse?",
-      answer:
-        "Ads können innerhalb weniger Tage erste Anfragen bringen. Stabile Kosten pro Lead brauchen oft 2–6 Wochen Optimierung.",
+      answer: "Ads können innerhalb weniger Tage erste Anfragen bringen. Stabile Kosten pro Lead brauchen oft 2–6 Wochen Optimierung.",
     },
     {
       question: "Übernehmt ihr bestehende Accounts?",
-      answer:
-        "Ja. Wir analysieren Ist-Stand, bereinigen und optimieren – oder setzen bei Bedarf neu und sauber auf.",
+      answer: "Ja. Wir analysieren Ist-Stand, bereinigen und optimieren – oder setzen bei Bedarf neu und sauber auf.",
     },
   ],
 };
