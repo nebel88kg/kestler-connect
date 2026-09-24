@@ -125,30 +125,6 @@ export const metaAdsHub: LandingPage = {
     { step: 4, title: "Optimierung", description: "Tests, Budgets und Zielgruppen schärfen." },
     { step: 5, title: "Reporting", description: "Ergebnisse und Ableitungen." },
   ],
-  pricing: {
-    title: "Preise und Budgetempfehlungen",
-    paragraphs: [
-      "Media-Budget und Betreuung trennen wir klar. Für lokale Kampagnen in Duisburg und Moers starten viele mit einem überschaubaren Testbudget.",
-      "Sinnvoll ist oft die Kombi aus Meta Ads und laufender Social-Media-Betreuung – Creatives und Profil verstärken sich.",
-    ],
-    ranges: [
-      {
-        label: "Media-Budget",
-        value: "ab ca. 400–1.000 € / Monat",
-        note: "Abhängig von Ziel, Region und Wettbewerb.",
-      },
-      {
-        label: "Betreuung",
-        value: "monatliches Honorar",
-        note: "Setup, Creatives, Optimierung und Reporting.",
-      },
-      {
-        label: "Kombi Social + Ads",
-        value: "oft effizienter",
-        note: "Weniger Abstimmung, konsistente Botschaften.",
-      },
-    ],
-  },
   relatedHubs: [
     {
       title: "Google Ads in Duisburg und Moers",
@@ -196,33 +172,27 @@ export const metaAdsHub: LandingPage = {
   faq: [
     {
       question: "Meta Ads oder Google Ads?",
-      answer:
-        "Meta erzeugt Nachfrage und Sichtbarkeit; Google trifft aktive Suche. Oft ist der Mix über [Performance Marketing](/leistungen/performance-marketing) am stärksten – besonders lokal in Duisburg und Moers.",
+      answer: "Meta erzeugt Nachfrage und Sichtbarkeit; Google trifft aktive Suche. Oft ist der Mix über [Performance Marketing](/leistungen/performance-marketing) am stärksten – besonders lokal in Duisburg und Moers.",
     },
     {
       question: "Betreut ihr Meta Ads auch für Moers und den Umkreis?",
-      answer:
-        "Ja. Wir steuern Kampagnen für Duisburg, Moers und umliegende Städte – mit klarem regionalem Targeting.",
+      answer: "Ja. Wir steuern Kampagnen für Duisburg, Moers und umliegende Städte – mit klarem regionalem Targeting.",
     },
     {
       question: "Brauche ich ein professionelles Profil?",
-      answer:
-        "Ja – Interessenten prüfen oft zuerst Instagram/Facebook. Deshalb bieten wir Ads und [Social Media Betreuung](/leistungen/social-media) zusammen an.",
+      answer: "Ja – Interessenten prüfen oft zuerst Instagram/Facebook. Deshalb bieten wir Ads und [Social Media Betreuung](/leistungen/social-media) zusammen an.",
     },
     {
       question: "Welche Ziele eignen sich?",
-      answer:
-        "Leads, Event-Anmeldungen, Kursbuchungen, Reichweite mit klarem nächsten Schritt oder Recruiting – je nach Angebot.",
+      answer: "Leads, Event-Anmeldungen, Kursbuchungen, Reichweite mit klarem nächsten Schritt oder Recruiting – je nach Angebot.",
     },
     {
       question: "Wie schnell wirken Meta Ads?",
-      answer:
-        "Erste Daten oft innerhalb weniger Tage. Stabile Lead-Kosten brauchen in der Regel eine kurze Lern- und Testphase.",
+      answer: "Erste Daten oft innerhalb weniger Tage. Stabile Lead-Kosten brauchen in der Regel eine kurze Lern- und Testphase.",
     },
     {
       question: "Ab welchem Budget starten?",
-      answer:
-        "Lokal oft ab einigen hundert Euro Media-Budget monatlich. Wir prüfen im Strategiegespräch, ob es sich rechnet.",
+      answer: "Ob und mit welchem Media-Budget Meta Ads für Sie sinnvoll sind, klären wir im Strategiegespräch.",
     },
   ],
 };
