@@ -96,6 +96,22 @@ export interface StubPage {
   description: string;
 }
 
+export interface Testimonial {
+  /** Zitat – wörtlich wie vom Kunden freigegeben */
+  quote: string;
+  /** Optionale Kurzfassung für Karten; sonst wird das volle Zitat gezeigt */
+  excerpt?: string;
+  /** Firma, z. B. "DnM – Dämmstoffe nach Maß" */
+  company: string;
+  /** Optional – nachtragen, sobald Name/Position freigegeben sind */
+  name?: string;
+  role?: string;
+  /** Optionales Kundenlogo (statisches Asset unter /public) */
+  logo?: { src: string; alt: string };
+  /** Slug der zugehörigen Referenz unter /referenzen */
+  referenzSlug?: string;
+}
+
 export interface ReferenzCase {
   slug: string;
   title: string;
@@ -106,6 +122,8 @@ export interface ReferenzCase {
   measures: string[];
   results: string[];
   image?: string;
+  /** Freigegebene Kundenstimme zur Referenz */
+  testimonial?: Testimonial;
   /** Related leistungen for internal linking */
   relatedServices?: { title: string; href: string }[];
 }

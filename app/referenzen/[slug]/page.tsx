@@ -6,6 +6,7 @@ import { createMetadata, createBreadcrumbsFromPath } from "@/lib/seo";
 import { Breadcrumbs } from "@/components/seo/Breadcrumbs";
 import { Button } from "@/components/ui/Button";
 import { ScrollReveal } from "@/components/ui/ScrollReveal";
+import { getTestimonialAttribution } from "@/content/testimonials";
 
 export function generateStaticParams() {
   return referenzen.map((ref) => ({ slug: ref.slug }));
@@ -35,6 +36,9 @@ export default async function ReferenzDetailPage({
   const { slug } = await params;
   const ref = getReferenzBySlug(slug);
   if (!ref) notFound();
+
+  const testimonial = ref.testimonial;
+  const attribution = testimonial ? getTestimonialAttribution(testimonial) : null;
 
   return (
     <>
@@ -86,6 +90,40 @@ export default async function ReferenzDetailPage({
                 </ul>
               </section>
             </ScrollReveal>
+
+            {testimonial && attribution && (
+              <ScrollReveal>
+                <section>
+                  <h2 className="text-2xl font-bold text-anthracite">Das sagt unser Kunde</h2>
+                  <figure className="mt-4 rounded-2xl border-l-4 border-accent bg-navy p-6 sm:p-8">
+                    <blockquote className="text-base italic leading-relaxed text-white sm:text-lg">
+                      <p>&ldquo;{testimonial.quote}&rdquo;</p>
+                    </blockquote>
+                    <figcaption className="mt-6 flex items-center gap-4">
+                      {testimonial.logo && (
+                        <span className="flex h-12 w-28 shrink-0 items-center justify-center rounded-lg bg-white px-3">
+                          {/* eslint-disable-next-line @next/next/no-img-element */}
+                          <img
+                            src={testimonial.logo.src}
+                            alt={testimonial.logo.alt}
+                            width={96}
+                            height={36}
+                            loading="lazy"
+                            className="h-9 w-auto max-w-[96px] object-contain"
+                          />
+                        </span>
+                      )}
+                      <span className="min-w-0">
+                        <span className="block font-semibold text-white">{attribution.primary}</span>
+                        {attribution.secondary && (
+                          <span className="block text-sm text-gray-300">{attribution.secondary}</span>
+                        )}
+                      </span>
+                    </figcaption>
+                  </figure>
+                </section>
+              </ScrollReveal>
+            )}
 
             {ref.relatedServices && ref.relatedServices.length > 0 && (
               <ScrollReveal>

@@ -1,56 +1,72 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 import { Card } from "@/components/ui/Card";
 import { ScrollReveal } from "@/components/ui/ScrollReveal";
+import { testimonials, getTestimonialAttribution } from "@/content/testimonials";
+import type { Testimonial } from "@/content/types";
 
-const testimonials = [
-  {
-    name: "Max",
-    role: "Golfmanager",
-    company: "Golfclub Raffelberg",
-    excerpt:
-      "Seit Jascha unser Social Media übernommen hat, hat sich unser gesamter Auftritt deutlich professionalisiert. Besonders beeindruckt hat uns die Kombination aus Meta Ads und Google Ads – unsere Kurse waren innerhalb kurzer Zeit sehr gut gebucht.",
-    quote:
-      "Ich kann Kestler Connect uneingeschränkt weiterempfehlen. Seit Jascha unser Social Media übernommen hat, hat sich unser gesamter Auftritt deutlich professionalisiert. Durch regelmäßige Reels, kreative Inhalte und eine klare Strategie wirken unsere Kanäle heute deutlich moderner und erreichen wesentlich mehr Menschen. Besonders beeindruckt hat uns die Kombination aus Meta Ads und Google Ads. Unsere Platzreife- und Schnuppergolf-Kurse waren innerhalb kurzer Zeit sehr gut gebucht und wir konnten viele neue Interessenten für den Golfsport gewinnen. Zusätzlich wurden Google Ads für unsere Firmenfeiern geschaltet, die ebenfalls für eine hervorragende Resonanz und zahlreiche Anfragen gesorgt haben. Was uns besonders gefällt, ist die zuverlässige Zusammenarbeit, die schnelle Umsetzung und dass jede Maßnahme nachvollziehbar und zielorientiert ist. Man merkt einfach, dass hier nicht nur Werbung gemacht wird, sondern dass ein echtes Konzept dahinter steckt. Vielen Dank für die großartige Zusammenarbeit. Wir freuen uns auf viele weitere gemeinsame Projekte!",
-  },
-];
-
-function TestimonialCard({
-  name,
-  role,
-  company,
-  excerpt,
-  quote,
-}: (typeof testimonials)[number]) {
+function TestimonialCard({ testimonial }: { testimonial: Testimonial }) {
   const [open, setOpen] = useState(false);
+  const { quote, excerpt, logo, referenzSlug } = testimonial;
+  const hasMore = Boolean(excerpt && excerpt !== quote);
+  const { primary, secondary } = getTestimonialAttribution(testimonial);
 
   return (
     <Card className="flex h-full flex-col">
       <p className="flex-1 text-sm italic leading-relaxed text-gray-600 sm:text-base">
-        &ldquo;{open ? quote : excerpt}&rdquo;
+        &ldquo;{hasMore && !open ? excerpt : quote}&rdquo;
       </p>
-      <button
-        type="button"
-        onClick={() => setOpen((prev) => !prev)}
-        aria-expanded={open}
-        className="mt-4 self-start text-sm font-semibold text-accent transition-colors hover:text-navy"
-      >
-        {open ? "Weniger anzeigen" : "Weiterlesen"}
-      </button>
-      <div className="mt-4 border-t border-gray-100 pt-4">
-        <p className="font-semibold text-anthracite">{name}</p>
-        <p className="text-sm text-gray-500">
-          {role ? `${role}, ` : ""}
-          {company}
-        </p>
+      {hasMore && (
+        <button
+          type="button"
+          onClick={() => setOpen((prev) => !prev)}
+          aria-expanded={open}
+          className="mt-4 self-start text-sm font-semibold text-accent transition-colors hover:text-navy"
+        >
+          {open ? "Weniger anzeigen" : "Weiterlesen"}
+        </button>
+      )}
+      <div className="mt-4 flex items-center gap-4 border-t border-gray-100 pt-4">
+        {logo && (
+          <span className="flex h-12 w-24 shrink-0 items-center justify-center rounded-lg border border-accent/20 bg-white px-2">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src={logo.src}
+              alt={logo.alt}
+              width={80}
+              height={36}
+              loading="lazy"
+              className="h-9 w-auto max-w-[80px] object-contain"
+            />
+          </span>
+        )}
+        <div className="min-w-0">
+          <p className="font-semibold text-anthracite">{primary}</p>
+          {secondary && <p className="text-sm text-gray-500">{secondary}</p>}
+          {referenzSlug && (
+            <Link
+              href={`/referenzen/${referenzSlug}`}
+              className="mt-1 inline-block text-sm font-semibold text-accent transition-colors hover:text-navy"
+            >
+              Case Study ansehen →
+            </Link>
+          )}
+        </div>
       </div>
     </Card>
   );
 }
 
 export function TestimonialsSection() {
-  const single = testimonials.length === 1;
+  const count = testimonials.length;
+  const gridClass =
+    count === 1
+      ? "mx-auto grid max-w-2xl gap-6"
+      : count === 2
+        ? "mx-auto grid max-w-5xl gap-6 md:grid-cols-2"
+        : "grid gap-6 md:grid-cols-2 lg:grid-cols-3";
 
   return (
     <section className="section-padding">
@@ -66,16 +82,10 @@ export function TestimonialsSection() {
           </div>
         </ScrollReveal>
 
-        <div
-          className={
-            single
-              ? "mx-auto grid max-w-2xl gap-6"
-              : "grid gap-6 md:grid-cols-2 lg:grid-cols-3"
-          }
-        >
+        <div className={gridClass}>
           {testimonials.map((t, i) => (
             <ScrollReveal key={t.company} delay={i * 0.1}>
-              <TestimonialCard {...t} />
+              <TestimonialCard testimonial={t} />
             </ScrollReveal>
           ))}
         </div>
