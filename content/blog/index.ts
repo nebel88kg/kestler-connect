@@ -8,8 +8,10 @@ import { sponsorenFinden } from "./sponsoren-finden";
 import { wasKostetGoogleAds } from "./was-kostet-google-ads";
 import { mitarbeitergewinnungImHandwerk } from "./mitarbeitergewinnung-im-handwerk";
 import { socialMediaFuerVereine } from "./social-media-fuer-vereine";
+import { metaAdsFuerLokaleUnternehmen } from "./meta-ads-fuer-lokale-unternehmen";
 
 export const blogPosts: BlogPost[] = [
+  metaAdsFuerLokaleUnternehmen,
   mehrAnfragenBekommen,
   werbungSchaltenGoogleAds,
   instagramTiktokFuerUnternehmen,
