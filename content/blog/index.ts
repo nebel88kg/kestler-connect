@@ -9,8 +9,10 @@ import { wasKostetGoogleAds } from "./was-kostet-google-ads";
 import { mitarbeitergewinnungImHandwerk } from "./mitarbeitergewinnung-im-handwerk";
 import { socialMediaFuerVereine } from "./social-media-fuer-vereine";
 import { metaAdsFuerLokaleUnternehmen } from "./meta-ads-fuer-lokale-unternehmen";
+import { performanceMarketingDuisburg } from "./performance-marketing-duisburg";
 
 export const blogPosts: BlogPost[] = [
+  performanceMarketingDuisburg,
   metaAdsFuerLokaleUnternehmen,
   mehrAnfragenBekommen,
   werbungSchaltenGoogleAds,
