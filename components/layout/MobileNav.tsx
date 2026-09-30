@@ -2,7 +2,8 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import { mainNav } from "@/lib/navigation";
+import { mainNav, siteConfig } from "@/lib/navigation";
+import { splitLeistungen } from "@/lib/serviceMenu";
 import { Button } from "@/components/ui/Button";
 import { LogoText } from "./LogoText";
 import { cn } from "@/lib/utils";
@@ -14,6 +15,7 @@ interface MobileNavProps {
 
 export function MobileNav({ isOpen, onClose }: MobileNavProps) {
   const [expanded, setExpanded] = useState<string | null>(null);
+  const [showMore, setShowMore] = useState(false);
 
   useEffect(() => {
     if (!isOpen) return;
@@ -25,10 +27,15 @@ export function MobileNav({ isOpen, onClose }: MobileNavProps) {
   }, [isOpen]);
 
   useEffect(() => {
-    if (!isOpen) setExpanded(null);
+    if (!isOpen) {
+      setExpanded(null);
+      setShowMore(false);
+    }
   }, [isOpen]);
 
   if (!isOpen) return null;
+
+  const tel = siteConfig.phone.replace(/\s/g, "");
 
   return (
     <div className="fixed inset-0 z-50 lg:hidden">
@@ -49,75 +56,123 @@ export function MobileNav({ isOpen, onClose }: MobileNavProps) {
         </div>
 
         <nav className="flex-1 overflow-y-auto overscroll-contain px-4 py-2">
-          {mainNav.map((item) => (
-            <div key={item.href} className="border-b border-gray-100 last:border-0">
-              {item.children ? (
-                <>
-                  <button
-                    type="button"
-                    className="flex min-h-12 w-full items-center justify-between py-3 text-left font-medium text-navy"
-                    onClick={() =>
-                      setExpanded(expanded === item.title ? null : item.title)
-                    }
-                    aria-expanded={expanded === item.title}
-                  >
-                    {item.title}
-                    <svg
-                      className={cn(
-                        "h-5 w-5 shrink-0 text-accent transition-transform",
-                        expanded === item.title && "rotate-180"
-                      )}
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
+          {mainNav.map((item) => {
+            const { core, more } = item.children
+              ? splitLeistungen(item.children)
+              : { core: [], more: [] };
+            const primary = item.children ? (core.length > 0 ? core : item.children) : [];
+            const extra = item.children && core.length > 0 ? more : [];
+
+            return (
+              <div key={item.href} className="border-b border-gray-100 last:border-0">
+                {item.children ? (
+                  <>
+                    <button
+                      type="button"
+                      className="flex min-h-12 w-full items-center justify-between py-3 text-left font-medium text-navy"
+                      onClick={() => setExpanded(expanded === item.title ? null : item.title)}
+                      aria-expanded={expanded === item.title}
                     >
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                    </svg>
-                  </button>
-                  {expanded === item.title && (
-                    <div className="space-y-1 pb-4">
-                      {item.children.map((child) => (
+                      {item.title}
+                      <svg
+                        className={cn(
+                          "h-5 w-5 shrink-0 text-accent-dark transition-transform",
+                          expanded === item.title && "rotate-180"
+                        )}
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                      </svg>
+                    </button>
+                    {expanded === item.title && (
+                      <div className="space-y-1 pb-4">
+                        {primary.map((child) => (
+                          <Link
+                            key={child.href}
+                            href={child.href}
+                            className="block rounded-xl px-3 py-2.5 transition-colors hover:bg-gray-50"
+                            onClick={onClose}
+                          >
+                            <span className="block text-sm font-semibold text-navy">{child.title}</span>
+                            {child.description && (
+                              <span className="mt-0.5 block text-xs leading-snug text-gray-600">
+                                {child.description}
+                              </span>
+                            )}
+                          </Link>
+                        ))}
+                        {extra.length > 0 && (
+                          <div className="px-1">
+                            <button
+                              type="button"
+                              className="flex min-h-11 w-full items-center justify-between rounded-xl px-2 text-left text-sm font-semibold text-navy hover:bg-gray-50"
+                              onClick={() => setShowMore((prev) => !prev)}
+                              aria-expanded={showMore}
+                            >
+                              Weitere Leistungen
+                              <span aria-hidden="true" className="text-accent-dark">
+                                {showMore ? "−" : "+"}
+                              </span>
+                            </button>
+                            {showMore &&
+                              extra.map((child) => (
+                                <Link
+                                  key={child.href}
+                                  href={child.href}
+                                  className="block rounded-lg px-2 py-2 text-sm text-gray-700 hover:bg-gray-50"
+                                  onClick={onClose}
+                                >
+                                  {child.title}
+                                </Link>
+                              ))}
+                          </div>
+                        )}
                         <Link
-                          key={child.href}
-                          href={child.href}
-                          className="block rounded-xl px-3 py-2.5 transition-colors hover:bg-gray-50"
+                          href={item.href}
+                          className="mt-1 block px-3 py-2 text-sm font-semibold text-accent-dark"
                           onClick={onClose}
                         >
-                          <span className="block text-sm font-semibold text-navy">{child.title}</span>
-                          {child.description && (
-                            <span className="mt-0.5 block text-xs leading-snug text-gray-500">
-                              {child.description}
-                            </span>
-                          )}
+                          Alle Leistungen ansehen →
                         </Link>
-                      ))}
-                      <Link
-                        href={item.href}
-                        className="mt-1 block px-3 py-2 text-sm font-semibold text-accent"
-                        onClick={onClose}
-                      >
-                        Alle Leistungen ansehen →
-                      </Link>
-                    </div>
-                  )}
-                </>
-              ) : (
-                <Link
-                  href={item.href}
-                  className="flex min-h-12 items-center py-3 font-medium text-navy"
-                  onClick={onClose}
-                >
-                  {item.title}
-                </Link>
-              )}
-            </div>
-          ))}
+                      </div>
+                    )}
+                  </>
+                ) : (
+                  <Link
+                    href={item.href}
+                    className="flex min-h-12 items-center py-3 font-medium text-navy"
+                    onClick={onClose}
+                  >
+                    {item.title}
+                  </Link>
+                )}
+              </div>
+            );
+          })}
         </nav>
 
-        <div className="shrink-0 border-t border-gray-100 p-4">
+        <div className="shrink-0 space-y-2 border-t border-gray-100 p-4">
           <Button href="/kontakt" className="w-full" size="md" onClick={onClose}>
-            Kostenloses Strategiegespräch
+            Kostenloses Erstgespräch
           </Button>
+          <div className="grid grid-cols-2 gap-2">
+            <a
+              href={`tel:${tel}`}
+              className="flex min-h-11 items-center justify-center rounded-full border border-navy/20 text-sm font-semibold text-navy"
+            >
+              Anrufen
+            </a>
+            <a
+              href={`https://wa.me/${siteConfig.whatsapp}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex min-h-11 items-center justify-center rounded-full border border-navy/20 text-sm font-semibold text-navy"
+            >
+              WhatsApp
+            </a>
+          </div>
         </div>
       </div>
     </div>
