@@ -3,11 +3,13 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
+import { StickyContactBar } from "@/components/layout/StickyContactBar";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { GoogleTagManager } from "@/components/analytics/GoogleTagManager";
 import { siteConfig } from "@/lib/navigation";
 import { createMetadata } from "@/lib/seo";
 import { googleBusiness } from "@/lib/googleBusiness";
+import { linkedinUrl } from "@/lib/profiles";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -15,10 +17,12 @@ const inter = Inter({
   display: "swap",
 });
 
+const agencyDescription =
+  "Online-Marketing-Agentur aus Duisburg: Social Media, Google Ads, Meta Ads, SEO und Webseiten für regionale und lokale Unternehmen in Duisburg, im Ruhrgebiet und am Niederrhein.";
+
 export const metadata: Metadata = createMetadata({
-  title: "Social Media Agentur Duisburg | Performance Marketing | Kestler Connect",
-  description:
-    "Social-Media-Agentur und Performance Marketing aus Duisburg für regionale und lokale Unternehmen: Social Media Marketing, Google Ads, Meta Ads und Website-Erstellung.",
+  title: "Online-Marketing-Agentur Duisburg | Kestler Connect",
+  description: `${agencyDescription} Kostenloses Erstgespräch.`,
   path: "/",
 });
 
@@ -42,7 +46,7 @@ const organizationSchema = {
   "@type": "LocalBusiness",
   "@id": `${siteConfig.url}/#organization`,
   name: siteConfig.name,
-  description: siteConfig.description,
+  description: agencyDescription,
   url: siteConfig.url,
   telephone: siteConfig.phone,
   email: siteConfig.email,
@@ -55,18 +59,27 @@ const organizationSchema = {
     addressCountry: siteConfig.address.addressCountry,
   },
   hasMap: googleMapsCidUrl,
-  sameAs: [googleMapsCidUrl, googleBusiness.mapsUrl, siteConfig.social.instagram],
+  sameAs: [googleMapsCidUrl, googleBusiness.mapsUrl, siteConfig.social.instagram, linkedinUrl],
   areaServed: [
     { "@type": "City", name: "Duisburg" },
+    { "@type": "City", name: "Moers" },
+    { "@type": "City", name: "Krefeld" },
+    { "@type": "City", name: "Oberhausen" },
+    { "@type": "City", name: "Essen" },
+    { "@type": "City", name: "Mülheim an der Ruhr" },
+    { "@type": "City", name: "Düsseldorf" },
     { "@type": "AdministrativeArea", name: "Ruhrgebiet" },
+    { "@type": "AdministrativeArea", name: "Niederrhein" },
     { "@type": "AdministrativeArea", name: "Nordrhein-Westfalen" },
   ],
   knowsAbout: [
+    "Online-Marketing",
     "Social Media Marketing",
     "Social-Media-Agentur",
-    "Performance Marketing",
     "Google Ads",
     "Meta Ads",
+    "SEO",
+    "Local SEO",
     "Website-Erstellung",
   ],
   founder: {
@@ -88,6 +101,7 @@ export default function RootLayout({
         <Header />
         <main>{children}</main>
         <Footer />
+        <StickyContactBar />
       </body>
     </html>
   );

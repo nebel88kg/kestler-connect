@@ -55,7 +55,7 @@ Dadurch vermeiden Sie Streuverluste und investieren Ihr Werbebudget gezielt in p
 
 ### 2. Sofort sichtbar bei Google
 
-Während Suchmaschinenoptimierung (SEO) häufig mehrere Monate benötigt, können Google Ads bereits wenige Stunden nach Kampagnenstart erste Besucher auf Ihre Website bringen.
+Während Suchmaschinenoptimierung (SEO) häufig mehrere Monate benötigt, können Google Ads nach dem Kampagnenstart schnell erste Besucher auf Ihre Website bringen.
 
 Gerade neue Unternehmen profitieren von dieser sofortigen Sichtbarkeit.
 
@@ -65,13 +65,7 @@ Wenn Sie langfristig auch organisch gefunden werden möchten, empfehlen wir zus�
 
 Ein weiterer großer Vorteil besteht darin, dass Sie Ihr Budget jederzeit selbst bestimmen.
 
-Egal ob:
-
-- 10 Euro täglich
-- 30 Euro täglich
-- 100 Euro täglich
-
-Sie entscheiden selbst, wie viel investiert wird.
+Sie entscheiden selbst, wie viel investiert wird – das Budget lässt sich jederzeit anpassen.
 
 Außerdem bezahlen Sie nur dann, wenn tatsächlich jemand auf Ihre Anzeige klickt.
 
@@ -230,11 +224,11 @@ In Kombination mit einer professionellen Website, einer durchdachten SEO-Strateg
 
 **Was kostet Google Ads?**
 
-Das Budget bestimmen Sie selbst. Bereits mit kleinen Budgets können erste Ergebnisse erzielt werden. Die tatsächlichen Kosten hängen von Ihrer Branche, dem Wettbewerb und den gewählten Keywords ab.
+Das Budget bestimmen Sie selbst. Die tatsächlichen Kosten hängen von Ihrer Branche, dem Wettbewerb und den gewählten Keywords ab.
 
 **Wie schnell wirken Google Ads?**
 
-In den meisten Fällen können Anzeigen bereits wenige Stunden nach der Freigabe sichtbar sein. Erste Anfragen sind häufig innerhalb weniger Tage möglich.
+Nach der Freigabe können Anzeigen schnell sichtbar sein. Wann erste Anfragen eintreffen, hängt von Branche, Wettbewerb und Budget ab.
 
 **Lohnt sich Google Ads für kleine Unternehmen?**
 

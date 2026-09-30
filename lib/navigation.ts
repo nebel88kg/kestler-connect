@@ -28,7 +28,7 @@ export function normalizeSiteUrl(raw: string | undefined): string {
 export const siteConfig = {
   name: "Kestler Connect",
   description:
-    "Social-Media-Agentur und Performance Marketing aus Duisburg für regionale und lokale Unternehmen – Google Ads, Meta Ads, Social Media Marketing und Website-Erstellung.",
+    "Online-Marketing-Agentur aus Duisburg für regionale und lokale Unternehmen im Ruhrgebiet und am Niederrhein – Social Media, Google Ads, Meta Ads, SEO und Webseiten.",
   url: normalizeSiteUrl(process.env.NEXT_PUBLIC_SITE_URL),
   phone: process.env.NEXT_PUBLIC_PHONE || "+49 175 2665058",
   whatsapp: process.env.NEXT_PUBLIC_WHATSAPP || "491752665058",

@@ -3,6 +3,7 @@ import { siteConfig } from "@/lib/navigation";
 import { getAllContentPaths } from "@/lib/content";
 import { referenzen } from "@/content/referenzen";
 import { blogPosts } from "@/content/blog";
+import { locations } from "@/content/locations";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = siteConfig.url;
@@ -11,6 +12,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/",
     "/leistungen",
     "/marketing-agentur-duisburg",
+    "/einzugsgebiet",
     "/referenzen",
     "/ueber-uns",
     "/blog",
@@ -22,8 +24,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const contentUrls = getAllContentPaths();
   const referenzUrls = referenzen.map((r) => `/referenzen/${r.slug}`);
   const blogUrls = blogPosts.map((p) => `/blog/${p.slug}`);
+  const locationUrls = locations.map((l) => `/einzugsgebiet/${l.slug}`);
 
-  const allUrls = [...new Set([...staticPages, ...contentUrls, ...referenzUrls, ...blogUrls])];
+  const allUrls = [
+    ...new Set([...staticPages, ...contentUrls, ...referenzUrls, ...blogUrls, ...locationUrls]),
+  ];
 
   return allUrls.map((path) => ({
     url: `${baseUrl}${path}`,

@@ -16,7 +16,7 @@ export function LocalRootsSection() {
       <div className="container-custom">
         <ScrollReveal>
           <div className="mb-10 text-center">
-            <p className="mb-3 text-sm font-semibold uppercase tracking-[0.15em] text-accent">
+            <p className="mb-3 text-sm font-semibold uppercase tracking-[0.15em] text-accent-dark">
               Lokal verwurzelt
             </p>
             <h2 className="text-2xl font-extrabold text-navy sm:text-3xl lg:text-4xl">
@@ -41,6 +41,9 @@ export function LocalRootsSection() {
                   <img
                     src={bniLogo.src}
                     alt={bniLogo.alt}
+                    width={200}
+                    height={80}
+                    loading="lazy"
                     className="max-h-20 w-auto max-w-full object-contain"
                   />
                 </div>
@@ -57,13 +60,13 @@ export function LocalRootsSection() {
           <div className="md:col-span-3">
             <ScrollReveal delay={0.1}>
               <div className="flex h-full flex-col justify-center rounded-2xl border border-accent/20 bg-gray-50 p-6 md:p-8">
-                <p className="text-sm font-semibold uppercase tracking-[0.15em] text-accent">
+                <p className="text-sm font-semibold uppercase tracking-[0.15em] text-accent-dark">
                   Sponsoring &amp; Partnerschaften
                 </p>
                 <ul className="mt-4 space-y-3">
                   {sponsors.map((item) => (
                     <li key={item.name} className="flex items-start gap-3 text-navy">
-                      <span className="mt-1 text-accent" aria-hidden>
+                      <span className="mt-1 text-accent-dark" aria-hidden>
                         ✓
                       </span>
                       {"href" in item && item.href ? (
@@ -71,7 +74,7 @@ export function LocalRootsSection() {
                           href={item.href}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="font-medium text-navy underline-offset-2 hover:text-accent hover:underline"
+                          className="font-medium text-navy underline-offset-2 hover:text-accent-dark hover:underline"
                         >
                           {item.name}
                         </a>

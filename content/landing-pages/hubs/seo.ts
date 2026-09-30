@@ -108,7 +108,7 @@ export const seoHub: LandingPage = {
   results: {
     title: "Welche Ergebnisse sind realistisch?",
     paragraphs: [
-      "SEO braucht Zeit: erste Impulse oft nach Wochen, spürbare Rankings typischerweise nach wenigen Monaten kontinuierlicher Arbeit.",
+      "SEO braucht Zeit: Erste Signale zeigen sich oft nach einigen Wochen; abhängig von Wettbewerb und Ausgangslage. Garantien für Platzierungen geben wir nicht.",
       "Praxis: Bei [DnM – Dämmstoffe nach Maß](/referenzen/dnm) lag der Fokus auf Sichtbarkeit auf Google Seite 1 – ergänzt durch Social Media. [Golfclub Raffelberg](/referenzen/golfclub-raffelberg) und [SecPro Bildungszentrum](/referenzen/secpro-bildungszentrum) zeigen, wie digitale Präsenz und Ads zusammenspielen.",
     ],
     points: [
@@ -174,7 +174,7 @@ export const seoHub: LandingPage = {
     {
       question: "Wie lange dauert SEO?",
       answer:
-        "Erste Verbesserungen oft nach 4–8 Wochen. Signifikante Rankings typischerweise nach 3–6 Monaten kontinuierlicher Arbeit.",
+        "Erste Signale zeigen sich oft nach einigen Wochen. Wie schnell und wie weit sich Rankings verbessern, hängt von Wettbewerb und Ausgangslage ab. Garantien für Platzierungen geben wir nicht.",
     },
     {
       question: "SEO oder Google Ads?",
@@ -189,7 +189,7 @@ export const seoHub: LandingPage = {
     {
       question: "Betreut ihr SEO auch in Moers?",
       answer:
-        "Ja. Schwerpunkt ist Duisburg und Moers sowie der Umkreis – mit Local SEO statt dünnen Doorway-Seiten.",
+        "Ja. Schwerpunkt ist Duisburg und Moers sowie der Umkreis – mit Local SEO statt dünner Doorway-Seiten. Mehr unter [Einzugsgebiet](/einzugsgebiet).",
     },
     {
       question: "Garantiert ihr Rankings?",

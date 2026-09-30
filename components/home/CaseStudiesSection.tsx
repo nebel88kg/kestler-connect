@@ -23,7 +23,7 @@ export function CaseStudiesSection() {
             <ScrollReveal key={ref.slug} delay={i * 0.1}>
               <Link href={`/referenzen/${ref.slug}`}>
                 <Card>
-                  <span className="mb-3 inline-block rounded-full bg-accent-light px-3 py-1 text-xs font-semibold text-accent">
+                  <span className="mb-3 inline-block rounded-full bg-accent-light px-3 py-1 text-xs font-semibold text-accent-dark">
                     {ref.industry}
                   </span>
                   <h3 className="text-xl font-bold text-anthracite">{ref.title}</h3>
@@ -31,12 +31,12 @@ export function CaseStudiesSection() {
                   <ul className="mt-4 space-y-1">
                     {ref.results.slice(0, 3).map((result) => (
                       <li key={result} className="flex items-start gap-2 text-sm text-gray-600">
-                        <span className="mt-0.5 text-accent">✓</span>
+                        <span className="mt-0.5 text-accent-dark">✓</span>
                         {result}
                       </li>
                     ))}
                   </ul>
-                  <p className="mt-4 text-sm font-semibold text-accent">
+                  <p className="mt-4 text-sm font-semibold text-accent-dark">
                     Case Study lesen →
                   </p>
                 </Card>

@@ -8,9 +8,9 @@ import { ScrollReveal } from "@/components/ui/ScrollReveal";
 import { Button } from "@/components/ui/Button";
 
 export const metadata: Metadata = createMetadata({
-  title: "Über uns – Social Media & Performance Marketing Duisburg",
+  title: "Über uns – Online-Marketing-Agentur Duisburg",
   description:
-    "Kestler Connect ist eine Social-Media- und Performance-Marketing-Agentur aus Duisburg für regionale und lokale Unternehmen – Social Media Marketing, Google Ads, Meta Ads und Website-Erstellung.",
+    "Kestler Connect ist eine Online-Marketing-Agentur aus Duisburg für regionale und lokale Unternehmen – Social Media Marketing, Google Ads, Meta Ads und Website-Erstellung.",
   path: "/ueber-uns",
 });
 
@@ -18,7 +18,7 @@ const storySections = [
   {
     title: "Wer bin ich?",
     paragraphs: [
-      "Ich bin Jascha Kestler – Gründer von Kestler Connect, einer Social-Media- und Performance-Marketing-Agentur aus Duisburg für regionale und lokale Unternehmen.",
+      "Ich bin Jascha Kestler – Gründer von Kestler Connect, einer Online-Marketing-Agentur aus Duisburg für regionale und lokale Unternehmen.",
       "Mein Weg führte vom Handwerk über Sport, Sponsoring und Events bis in die Welt des digitalen Marketings. Genau diese Mischung prägt heute meine Arbeit: bodenständig, direkt und immer mit Blick auf das, was am Ende wirklich zählt – nachhaltiges Wachstum.",
       "Ob lokaler Betrieb, regionales Unternehmen oder wachsender Mittelstand: Durch Erfahrungen in unterschiedlichen Branchen weiß ich, dass erfolgreiche Vermarktung mit echten Beziehungen beginnt. Denn hinter jeder Marke und jedem Unternehmen stehen Menschen.",
     ],
@@ -56,10 +56,9 @@ const storySections = [
 ];
 
 const leistungenLinks = [
+  { title: "Social Media Agentur Duisburg", href: "/leistungen/social-media" },
   { title: "Google Ads in Duisburg und Moers", href: "/leistungen/google-ads" },
   { title: "Meta Ads Agentur Duisburg", href: "/leistungen/meta-ads" },
-  { title: "Social Media Agentur Duisburg", href: "/leistungen/social-media" },
-  { title: "Performance Marketing", href: "/leistungen/performance-marketing" },
   { title: "SEO / Local SEO", href: "/leistungen/seo" },
   { title: "Website erstellen lassen", href: "/leistungen/webseiten" },
 ];
@@ -72,8 +71,8 @@ export default function UeberUnsPage() {
           <Breadcrumbs items={[{ label: "Startseite", href: "/" }, { label: "Über uns" }]} variant="dark" />
           <h1 className="text-3xl font-extrabold text-white lg:text-5xl">Über mich</h1>
           <p className="mt-4 max-w-2xl text-lg text-gray-300">
-            Social Media und Performance Marketing aus Duisburg – für regionale und lokale
-            Unternehmen in Duisburg, Moers und Umgebung. Persönlich, erreichbar, lokal vernetzt.
+            Online-Marketing aus Duisburg – für regionale und lokale
+            Unternehmen im Ruhrgebiet und am Niederrhein. Persönlich, erreichbar, lokal vernetzt.
           </p>
         </div>
       </section>
@@ -90,7 +89,7 @@ export default function UeberUnsPage() {
               />
             </div>
             <div>
-              <p className="text-sm font-semibold uppercase tracking-[0.15em] text-accent">
+              <p className="text-sm font-semibold uppercase tracking-[0.15em] text-accent-dark">
                 Lokal verwurzelt
               </p>
               <p className="mt-1 text-lg font-bold text-navy">
@@ -102,7 +101,7 @@ export default function UeberUnsPage() {
                   href="https://share.google/lHKom5w9sywY5CYzV"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="font-semibold text-accent hover:underline"
+                  className="font-semibold text-accent-dark hover:underline"
                 >
                   Reit- und Fahrverein Ziethen e.V.
                 </a>
@@ -111,7 +110,7 @@ export default function UeberUnsPage() {
                   href="https://tusbaerl.de"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="font-semibold text-accent hover:underline"
+                  className="font-semibold text-accent-dark hover:underline"
                 >
                   TuS Baerl
                 </a>
@@ -126,7 +125,7 @@ export default function UeberUnsPage() {
             <div className="relative aspect-[4/5] overflow-hidden rounded-2xl">
               <Image
                 src="/images/JaschaKestler.JPG"
-                alt="Jascha Kestler – Gründer der Social-Media-Agentur Kestler Connect in Duisburg"
+                alt="Jascha Kestler – Gründer der Online-Marketing-Agentur Kestler Connect in Duisburg"
                 fill
                 className="object-cover"
                 sizes="(max-width: 1024px) 100vw, 50vw"
@@ -155,9 +154,13 @@ export default function UeberUnsPage() {
 
         <ScrollReveal>
           <div className="mt-16 rounded-2xl border border-accent/20 bg-white p-8 lg:p-10">
-            <h2 className="text-2xl font-bold text-anthracite">Leistungen aus einer Hand</h2>
+            <h2 className="text-2xl font-bold text-anthracite">Unsere Leistungen</h2>
             <p className="mt-3 max-w-2xl text-gray-600">
-              Persönlich betreut aus Duisburg – für Unternehmen in Duisburg, Moers und dem Umkreis.
+              Persönlich betreut aus Duisburg – für Unternehmen in Duisburg, dem Ruhrgebiet und am Niederrhein.{" "}
+              <Link href="/einzugsgebiet" className="font-semibold text-accent-dark hover:underline">
+                Zum Einzugsgebiet
+              </Link>
+              .
             </p>
             <ul className="mt-6 flex flex-wrap gap-3">
               {leistungenLinks.map((item) => (
@@ -181,7 +184,7 @@ export default function UeberUnsPage() {
               Lassen Sie uns in einem unverbindlichen Gespräch herausfinden, wie ich Ihnen helfen kann.
             </p>
             <Button href="/kontakt" size="lg" className="mt-6">
-              Kostenloses Strategiegespräch
+              Kostenloses Erstgespräch
             </Button>
           </div>
         </ScrollReveal>

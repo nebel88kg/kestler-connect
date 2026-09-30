@@ -1,6 +1,8 @@
 import { NextResponse } from "next/server";
 import { Resend } from "resend";
 
+const EMAIL_PATTERN = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
 function getResendClient() {
   const apiKey = process.env.RESEND_API_KEY;
   if (!apiKey) {
@@ -9,12 +11,35 @@ function getResendClient() {
   return new Resend(apiKey);
 }
 
+/** Einzeilige Felder: Zeilenumbrüche entfernen (Header-Injection), Länge begrenzen. */
+function singleLine(value: unknown, max: number): string {
+  return typeof value === "string" ? value.replace(/[\r\n\t]+/g, " ").trim().slice(0, max) : "";
+}
+
+function multiLine(value: unknown, max: number): string {
+  return typeof value === "string" ? value.replace(/\r\n/g, "\n").trim().slice(0, max) : "";
+}
+
 export async function POST(request: Request) {
   try {
     const body = await request.json();
-    const { name, company, phone, email, message, source } = body;
 
-    if (!name || !company || !phone || !email) {
+    // Honeypot: Bots füllen das versteckte Feld aus – still verwerfen.
+    if (singleLine(body?.website, 200) !== "") {
+      return NextResponse.json({ success: true });
+    }
+
+    const name = singleLine(body?.name, 120);
+    const company = singleLine(body?.company, 160);
+    const phone = singleLine(body?.phone, 60);
+    const email = singleLine(body?.email, 200);
+    const message = multiLine(body?.message, 3000);
+    const source = singleLine(body?.source, 80) || "website";
+
+    const hasValidEmail = EMAIL_PATTERN.test(email);
+    const hasPhone = phone.length >= 6;
+
+    if (name.length < 2 || (!hasValidEmail && !hasPhone)) {
       return NextResponse.json({ error: "Pflichtfelder fehlen" }, { status: 400 });
     }
 
@@ -32,16 +57,16 @@ export async function POST(request: Request) {
     const { error } = await resend.emails.send({
       from,
       to: [to],
-      replyTo: email,
-      subject: `Neue Anfrage von ${name} (${company})`,
+      replyTo: hasValidEmail ? email : undefined,
+      subject: company ? `Neue Anfrage von ${name} (${company})` : `Neue Anfrage von ${name}`,
       text: [
         "Neue Kontaktanfrage über die Website",
         "",
         `Name: ${name}`,
-        `Firma: ${company}`,
-        `Telefon: ${phone}`,
-        `E-Mail: ${email}`,
-        `Quelle: ${source || "website"}`,
+        ...(company ? [`Firma: ${company}`] : []),
+        `Telefon: ${phone || "(nicht angegeben)"}`,
+        `E-Mail: ${email || "(nicht angegeben)"}`,
+        `Quelle: ${source}`,
         "",
         "Nachricht:",
         message || "(keine Nachricht)",
@@ -50,10 +75,7 @@ export async function POST(request: Request) {
 
     if (error) {
       console.error("Resend error:", error);
-      return NextResponse.json(
-        { error: "E-Mail konnte nicht gesendet werden", details: error },
-        { status: 500 }
-      );
+      return NextResponse.json({ error: "E-Mail konnte nicht gesendet werden" }, { status: 500 });
     }
 
     return NextResponse.json({ success: true });

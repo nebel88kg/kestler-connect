@@ -2,9 +2,9 @@ import type { BlogPost } from "../types";
 
 export const wasKostetGoogleAds: BlogPost = {
   slug: "was-kostet-google-ads",
-  title: "Was kostet Google Ads? Ein ehrlicher Überblick für 2026",
+  title: "Was kostet Google Ads? Ein ehrlicher Überblick",
   excerpt:
-    "Google Ads Kosten transparent erklärt: Was Sie wirklich investieren müssen und wann sich Werbung auf Google lohnt.",
+    "Google-Ads-Kosten verständlich erklärt: Woraus sie sich zusammensetzen und wann sich Werbung auf Google lohnt.",
   date: "2026-03-01",
   category: "Google Ads",
   readTime: "8 Min.",
@@ -17,16 +17,16 @@ Bei Google Ads unterscheiden Sie zwischen **Werbebudget** (das geht direkt an Go
 
 ### Werbebudget
 
-Für lokale und regionale Unternehmen bewegen sich Media-Budgets oft in einer typischen Marktorientierung von **500–1.500 €** monatlich. In größeren Städten mit mehr Wettbewerb kann es auch mehr sein.
+Das Media-Budget bestimmen Sie selbst. Wie viel sinnvoll ist, hängt von Branche, Region, Wettbewerb und Ihren Zielen ab. In größeren Städten mit mehr Wettbewerb kann mehr nötig sein als in ländlichen Gebieten.
 
 ### Agenturkosten
 
-Professionelle Betreuung kalkulieren wir individuell nach Umfang und Kampagnenzahl — im Strategiegespräch erhalten Sie eine klare Einschätzung ohne Pauschalversprechen.
+Professionelle Betreuung kalkulieren wir individuell nach Umfang und Kampagnenzahl — im Erstgespräch erhalten Sie eine klare Einschätzung ohne Pauschalversprechen.
 
 ## Was beeinflusst die Kosten?
 
 - **Branche und Wettbewerb**: Manche Gewerke und Dienstleister sind günstiger als stark umkämpfte Branchen (z. B. Recht oder Immobilien)
-- **Region**: München ist teurer als ländliche Gebiete
+- **Region**: Große Städte sind meist umkämpfter als ländliche Gebiete
 - **Keywords**: Dringlichkeits- und Notdienst-Suchanfragen kosten oft mehr als allgemeine Pflegeleistungen
 - **Qualität der Landingpage**: Bessere Seiten = niedrigere Klickkosten
 
@@ -39,8 +39,8 @@ Google Ads lohnt sich, wenn:
 
 ## Fazit
 
-Gesamtkosten aus Media-Budget und Betreuung hängen stark von Branche und Wettbewerb ab. Ob sich der Einsatz rechnet, prüfen wir gemeinsam anhand Ihres Auftragswerts — unverbindlich im Strategiegespräch.
+Gesamtkosten aus Media-Budget und Betreuung hängen stark von Branche und Wettbewerb ab. Ob sich der Einsatz rechnet, prüfen wir gemeinsam anhand Ihres Auftragswerts — unverbindlich im Erstgespräch.
 
-**Möchten Sie wissen, was Google Ads für Ihr Unternehmen kostet?** Buchen Sie ein kostenloses Strategiegespräch mit Kestler Connect.
+**Möchten Sie wissen, was Google Ads für Ihr Unternehmen kostet?** Buchen Sie ein kostenloses Erstgespräch mit Kestler Connect.
   `.trim(),
 };

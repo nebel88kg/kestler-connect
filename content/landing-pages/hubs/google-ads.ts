@@ -194,7 +194,7 @@ export const googleAdsHub: LandingPage = {
     {
       question: "Ab welchem Budget lohnen sich Google Ads?",
       answer:
-        "Ein sinnvolles Media-Budget hängt von Wettbewerb, Region und Zielen ab. Im Strategiegespräch klären wir, ob und in welcher Höhe sich der Einstieg lohnt.",
+        "Ein sinnvolles Media-Budget hängt von Wettbewerb, Region und Zielen ab. Im Erstgespräch klären wir, ob und in welcher Höhe sich der Einstieg lohnt.",
     },
     {
       question: "Betreut ihr Google Ads auch in Moers und Umgebung?",
@@ -204,7 +204,7 @@ export const googleAdsHub: LandingPage = {
     {
       question: "Wie schnell kommen Anfragen?",
       answer:
-        "Nach Go-live oft innerhalb von 24–48 Stunden erste Signale. Stabile Ergebnisse typischerweise nach wenigen Wochen.",
+        "Nach dem Go-live zeigen sich oft schon nach kurzer Zeit erste Signale. Stabile Ergebnisse brauchen laufende Optimierung; abhängig von Wettbewerb, Budget und Ausgangslage.",
     },
     {
       question: "Google Ads oder SEO?",
@@ -219,7 +219,7 @@ export const googleAdsHub: LandingPage = {
     {
       question: "Was kostet die Betreuung?",
       answer:
-        "Abhängig von Account-Umfang und Zielen – im Strategiegespräch erhalten Sie eine klare Einschätzung ohne Pauschalversprechen.",
+        "Abhängig von Account-Umfang und Zielen – im Erstgespräch erhalten Sie eine klare Einschätzung ohne Pauschalversprechen.",
     },
   ],
 };

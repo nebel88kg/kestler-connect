@@ -7,13 +7,13 @@ export const mitgliedergewinnungGolf: LandingPage = {
   meta: {
     title: "Mitgliedergewinnung für Golfclubs",
     description:
-      "Neue Golf-Mitglieder gewinnen mit gezielten Marketing-Kampagnen. Erfahrung mit Golfclub Raffelberg und weiteren Clubs.",
+      "Neue Golf-Mitglieder gewinnen mit gezielten Marketing-Kampagnen. Zusammenarbeit u. a. mit dem Golfclub Raffelberg.",
     keywords: ["golfclub mitglieder gewinnen", "golf marketing", "golfclub werbung"],
   },
   hero: {
-    headline: "Mitgliedergewinnung für Golfclubs – Volle Mitgliederkontingente",
+    headline: "Mitgliedergewinnung für Golfclubs",
     subheadline:
-      "Neue Mitglieder für Golfclubs – mit Meta Ads, Google Ads und Social Media, erprobt u. a. beim Golfclub Raffelberg.",
+      "Neue Mitglieder für Golfclubs – mit Meta Ads, Google Ads und Social Media, u. a. umgesetzt für den Golfclub Raffelberg.",
   },
   problem: {
     title: "Herausforderungen für Golfclubs",
@@ -31,9 +31,9 @@ export const mitgliedergewinnungGolf: LandingPage = {
       "Wir kombinieren Google Ads, Meta Ads und Social Media Content – von Schnuppergolf bis Platzreife – gezielt für Golfer in Ihrer Region.",
   },
   benefits: [
-    { title: "Golf-Branchenexpertise", description: "Erfahrung mit Golfclub Raffelberg und weiteren Clubs.", icon: "golf" },
+    { title: "Golf-Erfahrung", description: "Zusammenarbeit mit dem Golfclub Raffelberg.", icon: "golf" },
     { title: "Zielgruppen-Targeting", description: "Erreichen Sie Golfer und Interessenten in Ihrer Region.", icon: "target" },
-    { title: "Schnuppergolf-Kampagnen", description: "Bewährte Kampagnen für Schnupperangebote und Events.", icon: "flag" },
+    { title: "Schnuppergolf-Kampagnen", description: "Kampagnen für Schnupperangebote und Events.", icon: "flag" },
     { title: "Social Media Präsenz", description: "Professioneller Auftritt auf Instagram und Facebook.", icon: "social" },
     { title: "Platzreife-Marketing", description: "Gezielte Kampagnen für Platzreifekurse und Jugendförderung.", icon: "education" },
     { title: "Messbare Ergebnisse", description: "Anmeldungen und Schnupperanfragen transparent tracken.", icon: "chart" },
@@ -44,16 +44,16 @@ export const mitgliedergewinnungGolf: LandingPage = {
   ],
   process: [
     { step: 1, title: "Club-Analyse", description: "Mitgliederstruktur, Zielgruppe und Wettbewerb analysieren." },
-    { step: 2, title: "Kampagnen-Strategie", description: "Maßgeschneiderte Strategie für Ihren Club entwickeln." },
-    { step: 3, title: "Content & Creatives", description: "Professionelle Bilder, Videos und Anzeigen erstellen." },
+    { step: 2, title: "Kampagnen-Strategie", description: "Passende Strategie für Ihren Club entwickeln." },
+    { step: 3, title: "Content & Creatives", description: "Bilder, Videos und Anzeigen erstellen." },
     { step: 4, title: "Kampagnen-Launch", description: "Google Ads, Meta Ads und Social Media starten." },
-    { step: 5, title: "Optimierung", description: "Laufende Anpassung für maximale Mitgliedergewinnung." },
+    { step: 5, title: "Optimierung", description: "Laufende Anpassung anhand der Ergebnisse." },
   ],
   faq: [
-    { question: "Wie gewinnen Golfclubs neue Mitglieder online?", answer: "Durch die Kombination aus Google Ads für aktive Suchende, Meta Ads für Interessenten und professionellem Social Media Content." },
-    { question: "Was kostet Marketing für einen Golfclub?", answer: "Je nach Umfang ab 800 €/Monat für Agenturleistungen plus Werbebudget. Wir erstellen gerne ein individuelles Angebot." },
-    { question: "Habt ihr Erfahrung mit Golfclubs?", answer: "Ja, unter anderem mit dem Golfclub Raffelberg. Wir verstehen die Besonderheiten der Golfbranche." },
-    { question: "Können wir Schnuppergolf-Aktionen bewerben?", answer: "Absolut. Schnuppergolf-Kampagnen sind einer unserer bewährtesten Ansätze für die Mitgliedergewinnung." },
-    { question: "Wie lange dauert es bis zum ersten Erfolg?", answer: "Erste Anfragen oft innerhalb der ersten 2 Wochen. Optimale Ergebnisse nach 2–3 Monaten kontinuierlicher Kampagnen." },
+    { question: "Wie gewinnen Golfclubs neue Mitglieder online?", answer: "Durch die Kombination aus Google Ads für aktive Suchende, Meta Ads für Interessenten und professionellem Social-Media-Content." },
+    { question: "Was kostet Marketing für einen Golfclub?", answer: "Das hängt von Zielen, Umfang und Werbebudget ab. Im kostenlosen Erstgespräch klären wir, was für Ihren Club sinnvoll ist, und erstellen gern ein individuelles Angebot." },
+    { question: "Habt ihr Erfahrung mit Golfclubs?", answer: "Ja, unter anderem mit dem Golfclub Raffelberg. Wir kennen die Besonderheiten von Kursen, Schnupperangeboten und Mitgliedergewinnung." },
+    { question: "Können wir Schnuppergolf-Aktionen bewerben?", answer: "Ja. Schnuppergolf-Aktionen lassen sich gut mit Meta Ads und Social Media bewerben." },
+    { question: "Wie lange dauert es bis zum ersten Erfolg?", answer: "Das hängt von Angebot, Region und Budget ab. Nach dem Start werten wir die Ergebnisse laufend aus und optimieren die Kampagnen entsprechend." },
   ],
 };

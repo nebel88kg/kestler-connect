@@ -80,9 +80,9 @@ export function Header() {
                       className={cn(
                         "flex items-center gap-1 px-3 py-2 text-sm font-medium transition-colors rounded-lg",
                         megaOpen === item.title
-                          ? "text-accent"
+                          ? "text-accent-dark"
                           : useLightStyle
-                            ? "text-navy hover:text-accent"
+                            ? "text-navy hover:text-accent-dark"
                             : "text-white/90 hover:text-accent"
                       )}
                       aria-expanded={megaOpen === item.title}
@@ -116,7 +116,7 @@ export function Header() {
                     className={cn(
                       "px-3 py-2 text-sm font-medium transition-colors rounded-lg",
                       useLightStyle
-                        ? "text-navy hover:text-accent"
+                        ? "text-navy hover:text-accent-dark"
                         : "text-white/90 hover:text-accent"
                     )}
                   >
@@ -128,7 +128,7 @@ export function Header() {
 
             <div className="flex items-center gap-3">
               <Button href="/kontakt" size="sm" className="hidden sm:inline-flex">
-                Strategiegespräch
+                Kostenloses Erstgespräch
               </Button>
               <button
                 type="button"

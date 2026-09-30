@@ -7,13 +7,13 @@ export const localSeo: LandingPage = {
   meta: {
     title: "Local SEO – Lokal gefunden werden",
     description:
-      "Local SEO für lokale Unternehmen und Handwerk. Bei Google Maps und lokalen Suchanfragen ganz oben erscheinen.",
+      "Local SEO für lokale Unternehmen und Handwerk: Google Unternehmensprofil, Google Maps und lokale Suchanfragen gezielt verbessern.",
     keywords: ["local seo", "lokale seo", "google maps optimierung"],
   },
   hero: {
     headline: "Local SEO – Werden Sie in Ihrer Region gefunden",
     subheadline:
-      "Wenn jemand in Ihrer Stadt sucht, sollen Sie erscheinen – Local SEO für Google und Maps.",
+      "Wenn jemand in Ihrer Stadt sucht, sollen Sie sichtbar sein – Local SEO für Google und Maps.",
   },
   problem: {
     title: "Ohne Local SEO verlieren Sie Kunden",
@@ -28,18 +28,18 @@ export const localSeo: LandingPage = {
   solution: {
     title: "Local SEO mit System",
     content:
-      "Wir optimieren Google Business Profil, Website und lokale Signale – für mehr Sichtbarkeit und Anrufe aus Ihrer Region.",
+      "Local SEO macht Ihr Unternehmen bei Suchen mit Ortsbezug sichtbarer. Wir optimieren Google Business Profil, Website und lokale Signale – für mehr Sichtbarkeit und Anrufe aus Ihrer Region.",
   },
   benefits: [
-    { title: "Google Maps", description: "Top-Platzierungen in der lokalen Pack-Liste.", icon: "map" },
-    { title: "Business Profil", description: "Vollständig optimiertes Google Business Profil.", icon: "building" },
+    { title: "Google Maps", description: "Bessere Chancen in der lokalen Kartenansicht.", icon: "map" },
+    { title: "Business Profil", description: "Vollständig gepflegtes Google Business Profil.", icon: "building" },
     { title: "Bewertungsmanagement", description: "Strategien für mehr und bessere Google-Bewertungen.", icon: "star" },
-    { title: "Lokale Keywords", description: "Webseite optimiert für 'Leistung + Stadt' Suchanfragen.", icon: "search" },
+    { title: "Lokale Keywords", description: "Webseite optimiert für „Leistung + Stadt“-Suchanfragen.", icon: "search" },
     { title: "NAP-Konsistenz", description: "Einheitliche Unternehmensdaten im gesamten Web.", icon: "check" },
-    { title: "Langfristig", description: "Nachhaltige Sichtbarkeit ohne laufende Werbekosten.", icon: "trending" },
+    { title: "Langfristig", description: "Organische Sichtbarkeit als Ergänzung zu bezahlter Werbung.", icon: "trending" },
   ],
   references: [
-    { title: "DnM", slug: "dnm", excerpt: "SEO-Maßnahmen mit Sichtbarkeit auf Google Seite 1." },
+    { title: "DnM", slug: "dnm", excerpt: "SEO und SEA – laut Kunde heute bei Google auf Seite 1." },
     { title: "Golfclub Raffelberg", slug: "golfclub-raffelberg", excerpt: "Professioneller digitaler Auftritt als Basis für Anfragen." },
   ],
   process: [
@@ -50,10 +50,18 @@ export const localSeo: LandingPage = {
     { step: 5, title: "Monitoring", description: "Rankings und Sichtbarkeit kontinuierlich überwachen." },
   ],
   faq: [
-    { question: "Wie lange dauert Local SEO?", answer: "Erste Verbesserungen nach 4–8 Wochen. Signifikante Rankings nach 3–6 Monaten." },
-    { question: "Brauche ich eine Webseite für Local SEO?", answer: "Ja, eine optimierte Webseite ist Grundvoraussetzung für nachhaltiges Local SEO." },
-    { question: "Was ist der Unterschied zu Google Ads?", answer: "Local SEO ist langfristig und kostenlos nach der Optimierung. Google Ads bringt sofortige Ergebnisse gegen laufende Kosten." },
-    { question: "Optimiert ihr auch Google Business Profile?", answer: "Ja, das Google Business Profil ist ein zentraler Bestandteil unserer Local SEO Strategie." },
-    { question: "Für welche Branchen eignet sich Local SEO?", answer: "Ideal für alle lokalen Unternehmen: Handwerk, Gastronomie, Ärzte, Anwälte, Golfclubs und mehr." },
+    {
+      question: "Wie lange dauert Local SEO?",
+      answer:
+        "Erste Signale zeigen sich oft nach einigen Wochen. Wie schnell und wie weit sich Ihre Sichtbarkeit verbessert, hängt von Wettbewerb und Ausgangslage ab. Garantien für Platzierungen geben wir nicht.",
+    },
+    { question: "Brauche ich eine Webseite für Local SEO?", answer: "Ja, eine gepflegte Webseite ist eine wichtige Grundlage für nachhaltiges Local SEO." },
+    {
+      question: "Was ist der Unterschied zu Google Ads?",
+      answer:
+        "Local SEO zielt auf organische Sichtbarkeit und braucht Zeit. Google Ads schaltet bezahlte Anzeigen und kann schneller Sichtbarkeit bringen – gegen laufende Werbekosten.",
+    },
+    { question: "Optimiert ihr auch Google Business Profile?", answer: "Ja, das Google Business Profil ist ein zentraler Bestandteil unserer Local-SEO-Strategie." },
+    { question: "Für welche Branchen eignet sich Local SEO?", answer: "Für Unternehmen mit lokalem Kundenkreis, zum Beispiel Handwerk, Gastronomie, Praxen, Kanzleien und Golfclubs." },
   ],
 };

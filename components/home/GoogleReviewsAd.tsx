@@ -91,7 +91,7 @@ export function GoogleReviewsAd() {
         ))}
       </ul>
 
-      <p className="mt-4 text-center text-sm font-semibold text-accent transition group-hover:underline">
+      <p className="mt-4 text-center text-sm font-semibold text-accent-dark transition group-hover:underline">
         Auf Google Maps öffnen →
       </p>
     </a>

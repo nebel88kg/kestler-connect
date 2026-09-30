@@ -9,6 +9,8 @@
   --color-anthracite-light: #243044;
   --color-accent: #c4a052;
   --color-accent-hover: #b08d3e;
+  /* Dunkleres Gold für Text auf hellem Grund (Kontrast >= 4,5:1 auf Weiß) */
+  --color-accent-dark: #8a6a1f;
   --color-accent-light: #f5edd8;
   --color-accent-muted: #d4bc82;
   --color-gray-50: #f9fafb;
@@ -80,5 +82,24 @@
 
   .touch-target {
     @apply min-h-11 min-w-11;
+  }
+}
+
+/*
+ * Hero-Einblendung nur per Transform (kein opacity: 0), damit der Hero-Text
+ * sofort gerendert wird und nicht auf Hydration wartet (LCP).
+ */
+@keyframes hero-rise {
+  from {
+    transform: translateY(24px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .animate-hero-rise {
+    animation: hero-rise 0.7s ease-out both;
   }
 }
