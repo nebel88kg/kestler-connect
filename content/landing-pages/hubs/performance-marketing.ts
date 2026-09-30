@@ -5,9 +5,9 @@ export const performanceMarketingHub: LandingPage = {
   path: "/leistungen/performance-marketing",
   category: "performance-marketing",
   meta: {
-    title: "Performance Marketing Duisburg & Moers | Google & Meta | Kestler Connect",
+    title: "Performance Marketing Duisburg, Ruhrgebiet & Niederrhein | Kestler Connect",
     description:
-      "Performance Marketing Agentur Duisburg und Moers: Google Ads, Meta Ads und Leadgewinnung mit messbarem ROI – Ruhrgebiet und NRW.",
+      "Performance Marketing Agentur für Duisburg, Ruhrgebiet & Niederrhein: Google Ads, Meta Ads und Leadgewinnung mit messbarem ROI.",
     keywords: [
       "performance marketing agentur",
       "performance marketing duisburg",
@@ -19,7 +19,7 @@ export const performanceMarketingHub: LandingPage = {
     ],
   },
   hero: {
-    headline: "Performance Marketing Duisburg & Moers – messbare Anfragen",
+    headline: "Performance Marketing Duisburg, Ruhrgebiet & Niederrhein – messbare Anfragen",
     subheadline:
       "Google Ads, Meta Ads und Leadgewinnung aus einer Hand – für regionale Unternehmen in Duisburg, Moers und dem Ruhrgebiet.",
   },
@@ -166,7 +166,7 @@ export const performanceMarketingHub: LandingPage = {
     {
       title: "DnM",
       slug: "dnm",
-      excerpt: "SEO auf Google Seite 1 als starke Basis neben Social Media.",
+      excerpt: "SEO – laut Kundenaussage heute bei Google auf Seite 1 – als starke Basis neben Social Media.",
     },
   ],
   faq: [
