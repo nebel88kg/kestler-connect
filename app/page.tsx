@@ -2,27 +2,33 @@ import { HeroSection } from "@/components/home/HeroSection";
 import { TrustSection } from "@/components/home/TrustSection";
 import { AboutSection } from "@/components/home/AboutSection";
 import { ServicesGrid } from "@/components/home/ServicesGrid";
-import { LocalRootsSection } from "@/components/home/LocalRootsSection";
 import { ProcessSection } from "@/components/home/ProcessSection";
 import { TestimonialsSection } from "@/components/home/TestimonialsSection";
 import { CaseStudiesSection } from "@/components/home/CaseStudiesSection";
+import { LocalRootsSection } from "@/components/home/LocalRootsSection";
 import { ReviewsCTA } from "@/components/home/ReviewsCTA";
 import { FAQSection } from "@/components/home/FAQSection";
 import { ContactCTA } from "@/components/home/ContactCTA";
+import { JsonLd } from "@/components/seo/JsonLd";
+import { SectionCTA } from "@/components/ui/SectionCTA";
+import { createFaqSchema } from "@/lib/seo";
+import { homeFaq } from "@/content/home-faq";
 
 export default function HomePage() {
   return (
     <>
+      <JsonLd data={createFaqSchema(homeFaq)} />
       <HeroSection />
       <TrustSection />
       <AboutSection />
       <ServicesGrid />
-      <LocalRootsSection />
       <ProcessSection />
       <TestimonialsSection />
       <CaseStudiesSection />
-      <ReviewsCTA />
+      <SectionCTA />
+      <LocalRootsSection />
       <FAQSection />
+      <ReviewsCTA />
       <ContactCTA />
     </>
   );

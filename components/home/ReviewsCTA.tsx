@@ -10,25 +10,22 @@ export function ReviewsCTA() {
       <div className="container-custom">
         <div className="grid items-center gap-8 lg:grid-cols-2">
           <ScrollReveal>
-            <p className="mb-3 text-sm font-semibold uppercase tracking-[0.15em] text-accent">
+            <p className="mb-3 text-sm font-semibold uppercase tracking-[0.15em] text-accent-dark">
               Google-Bewertungen
             </p>
             <h2 className="text-2xl font-extrabold text-navy sm:text-3xl lg:text-4xl">
-              5,0 Sterne – echte Stimmen von Kunden
+              Das sagen Kunden auf Google
             </h2>
             <p className="mt-4 text-base leading-relaxed text-gray-600 sm:text-lg">
-              Kurzer Einblick in unsere öffentlichen Google-Bewertungen. Die ganze Liste
-              finden Sie mit einem Klick auf dem Maps-Eintrag.
+              Ein Einblick in unsere öffentlichen Google-Bewertungen. Die ganze Liste finden Sie auf dem
+              Maps-Eintrag.
             </p>
             <div className="mt-6 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
-              <Button href={googleBusiness.mapsUrl} external size="md">
+              <Button href="/kontakt" size="md">
+                Kostenloses Erstgespräch
+              </Button>
+              <Button href={googleBusiness.mapsUrl} external variant="outline" size="md">
                 Alle Google-Bewertungen
-              </Button>
-              <Button href={googleBusiness.writeReviewUrl} external variant="outline" size="md">
-                Bewertung schreiben
-              </Button>
-              <Button href="/kontakt" variant="ghost" size="md">
-                Strategiegespräch
               </Button>
             </div>
           </ScrollReveal>

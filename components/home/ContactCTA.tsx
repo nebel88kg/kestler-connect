@@ -1,7 +1,10 @@
 import { ContactForm } from "@/components/ui/ContactForm";
 import { ScrollReveal } from "@/components/ui/ScrollReveal";
+import { siteConfig } from "@/lib/navigation";
 
 export function ContactCTA() {
+  const tel = siteConfig.phone.replace(/\s/g, "");
+
   return (
     <section className="section-padding bg-navy">
       <div className="container-custom">
@@ -11,26 +14,44 @@ export function ContactCTA() {
               Jetzt starten
             </p>
             <h2 className="text-2xl font-extrabold text-white sm:text-3xl lg:text-5xl">
-              Kostenlose Potenzialanalyse sichern
+              Kostenloses Erstgespräch anfragen
             </h2>
-            <p className="mt-4 text-lg text-gray-400">
-              Erfahren Sie in einem unverbindlichen Gespräch, wie wir Ihr Unternehmen online voranbringen können.
+            <p className="mt-4 text-lg text-gray-300">
+              Schildern Sie uns kurz Ihr Vorhaben – wir melden uns zeitnah, unverbindlich und ohne Verpflichtung.
             </p>
             <ul className="mt-8 space-y-3">
               {[
-                "Individuelle Analyse Ihrer aktuellen Situation",
-                "Konkrete Handlungsempfehlungen",
-                "Transparente Kostenaufstellung",
+                "Einschätzung Ihrer aktuellen Situation",
+                "Empfehlung für sinnvolle nächste Schritte",
                 "Keine Verpflichtung",
               ].map((item) => (
-                <li key={item} className="flex items-center gap-3 text-gray-300">
-                  <span className="flex h-6 w-6 items-center justify-center rounded-full bg-accent text-xs font-bold text-navy">
+                <li key={item} className="flex items-center gap-3 text-gray-200">
+                  <span
+                    className="flex h-6 w-6 items-center justify-center rounded-full bg-accent text-xs font-bold text-navy"
+                    aria-hidden="true"
+                  >
                     ✓
                   </span>
                   {item}
                 </li>
               ))}
             </ul>
+            <p className="mt-8 text-gray-200">
+              Lieber direkt?{" "}
+              <a href={`tel:${tel}`} className="font-semibold text-white underline underline-offset-2">
+                {siteConfig.phone}
+              </a>{" "}
+              oder{" "}
+              <a
+                href={`https://wa.me/${siteConfig.whatsapp}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-semibold text-white underline underline-offset-2"
+              >
+                WhatsApp
+              </a>
+              .
+            </p>
           </ScrollReveal>
 
           <ScrollReveal delay={0.2}>

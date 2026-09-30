@@ -17,10 +17,12 @@ const inter = Inter({
   display: "swap",
 });
 
+const agencyDescription =
+  "Online-Marketing-Agentur aus Duisburg: Social Media, Google Ads, Meta Ads, SEO und Webseiten für regionale und lokale Unternehmen in Duisburg, im Ruhrgebiet und am Niederrhein.";
+
 export const metadata: Metadata = createMetadata({
   title: "Online-Marketing-Agentur Duisburg | Kestler Connect",
-  description:
-    "Online-Marketing-Agentur aus Duisburg: Social Media, Google Ads, Meta Ads, SEO und Webseiten für regionale und lokale Unternehmen in Duisburg, im Ruhrgebiet und am Niederrhein. Kostenloses Erstgespräch.",
+  description: `${agencyDescription} Kostenloses Erstgespräch.`,
   path: "/",
 });
 
@@ -44,7 +46,7 @@ const organizationSchema = {
   "@type": "LocalBusiness",
   "@id": `${siteConfig.url}/#organization`,
   name: siteConfig.name,
-  description: siteConfig.description,
+  description: agencyDescription,
   url: siteConfig.url,
   telephone: siteConfig.phone,
   email: siteConfig.email,
@@ -62,6 +64,10 @@ const organizationSchema = {
     { "@type": "City", name: "Duisburg" },
     { "@type": "City", name: "Moers" },
     { "@type": "City", name: "Krefeld" },
+    { "@type": "City", name: "Oberhausen" },
+    { "@type": "City", name: "Essen" },
+    { "@type": "City", name: "Mülheim an der Ruhr" },
+    { "@type": "City", name: "Düsseldorf" },
     { "@type": "AdministrativeArea", name: "Ruhrgebiet" },
     { "@type": "AdministrativeArea", name: "Niederrhein" },
     { "@type": "AdministrativeArea", name: "Nordrhein-Westfalen" },
