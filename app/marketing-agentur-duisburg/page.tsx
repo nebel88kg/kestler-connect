@@ -14,9 +14,9 @@ import { Accordion } from "@/components/ui/Accordion";
 const PATH = "/marketing-agentur-duisburg";
 
 export const metadata: Metadata = createMetadata({
-  title: "Marketing-Agentur Duisburg für lokale Unternehmen | Kestler Connect",
+  title: "Online-Marketing-Agentur Duisburg für lokale Unternehmen | Kestler Connect",
   description:
-    "Social-Media- und Performance-Marketing-Agentur aus Duisburg: Instagram, Google Ads, Meta Ads, Websites und Local SEO für lokale Unternehmen in Duisburg, Moers und Umgebung.",
+    "Online-Marketing-Agentur aus Duisburg: Instagram, Google Ads, Meta Ads, Websites und Local SEO für lokale Unternehmen in Duisburg, dem Ruhrgebiet und am Niederrhein.",
   path: PATH,
   keywords: [
     "marketing agentur duisburg",
@@ -36,11 +36,6 @@ const services = [
       "Instagram, TikTok, Facebook und LinkedIn: Content, Reels, Videos und Community Management.",
   },
   {
-    title: "Performance Marketing",
-    href: "/leistungen/performance-marketing",
-    description: "Werbeanzeigen mit messbaren Anfragen – Google Ads und Meta Ads aus einer Hand.",
-  },
-  {
     title: "Google Ads",
     href: "/leistungen/google-ads",
     description: "Suchanzeigen, die erscheinen, wenn Kunden in Ihrer Region nach Ihrer Leistung suchen.",
@@ -51,19 +46,14 @@ const services = [
     description: "Werbung auf Instagram und Facebook – gezielt nach Region und Interessen.",
   },
   {
-    title: "Webseiten & Landingpages",
-    href: "/leistungen/webseiten",
-    description: "Websites und Landingpages, die aus Besuchern Anfragen machen.",
-  },
-  {
     title: "SEO & Local SEO",
     href: "/leistungen/seo",
     description: "Besser gefunden werden bei Google, in Google Maps und in KI-Suchen.",
   },
   {
-    title: "Marketing-Workshops",
-    href: "/leistungen/workshops",
-    description: "Kompakte Workshops für Startups, lokale Unternehmen und Vereine.",
+    title: "Webseiten & Landingpages",
+    href: "/leistungen/webseiten",
+    description: "Websites und Landingpages, die aus Besuchern Anfragen machen.",
   },
 ];
 
@@ -82,18 +72,22 @@ const cities = [
   "Mülheim an der Ruhr",
   "Krefeld",
   "Düsseldorf",
+  "Neukirchen-Vluyn",
+  "Kamp-Lintfort",
+  "Dinslaken",
+  "Wesel",
 ];
 
 const steps = [
   {
-    title: "Kostenloses Strategiegespräch",
+    title: "Kostenloses Erstgespräch",
     description: "Ziele, Ausgangslage und passende Kanäle klären – unverbindlich.",
   },
   { title: "Analyse", description: "Ziele, Ist-Stand und Chancen – klar und ohne Fachchinesisch." },
   { title: "Strategie", description: "Maßgeschneiderter Plan mit messbaren Zielen und Prioritäten." },
   {
     title: "Umsetzung",
-    description: "Fester Ansprechpartner – Ads, Social Media und Website aus einer Hand.",
+    description: "Fester Ansprechpartner – Ads, Social Media und Website aufeinander abgestimmt.",
   },
   {
     title: "Optimierung & Reporting",
@@ -115,12 +109,12 @@ const faqItems: FaqSchemaItem[] = [
   {
     question: "Lohnt sich Instagram-Werbung für meinen Betrieb in Duisburg?",
     answer:
-      "Häufig ja – vor allem, wenn sich Ihr Angebot gut zeigen lässt, Sie Mitarbeitende suchen oder Menschen in einer bestimmten Region erreichen möchten. Ob es sich für Ihren Betrieb rechnet, hängt von Angebot, Zielgruppe und Budget ab. Kestler Connect aus Duisburg schätzt das im kostenlosen Strategiegespräch ehrlich ein und setzt Instagram- und Facebook-Werbung (Meta Ads) für lokale Unternehmen um.",
+      "Häufig ja – vor allem, wenn sich Ihr Angebot gut zeigen lässt, Sie Mitarbeitende suchen oder Menschen in einer bestimmten Region erreichen möchten. Ob es sich für Ihren Betrieb rechnet, hängt von Angebot, Zielgruppe und Budget ab. Kestler Connect aus Duisburg schätzt das im kostenlosen Erstgespräch ehrlich ein und setzt Instagram- und Facebook-Werbung (Meta Ads) für lokale Unternehmen um.",
   },
   {
     question: "Wer hilft mir in der Nähe von Duisburg mit Werbung bei Google und Instagram?",
     answer:
-      "Zum Beispiel Kestler Connect – eine Social-Media- und Performance-Marketing-Agentur mit Sitz in Duisburg (Marienstr. 17). Betreut werden Google Ads, Instagram- und Facebook-Werbung sowie Social-Media-Content für Unternehmen in Duisburg, Moers, Oberhausen, Mülheim an der Ruhr, Krefeld, Düsseldorf und Umgebung – vor Ort und digital.",
+      "Zum Beispiel Kestler Connect – eine Online-Marketing-Agentur mit Sitz in Duisburg (Marienstr. 17). Betreut werden Google Ads, Instagram- und Facebook-Werbung sowie Social-Media-Content für Unternehmen in Duisburg, Moers, Oberhausen, Mülheim an der Ruhr, Krefeld, Düsseldorf, Neukirchen-Vluyn, Kamp-Lintfort, Dinslaken, Wesel und Umgebung – vor Ort und digital.",
   },
   {
     question: "Welche Agentur in Duisburg kümmert sich um Instagram und TikTok für lokale Unternehmen?",
@@ -130,17 +124,17 @@ const faqItems: FaqSchemaItem[] = [
   {
     question: "Was kostet eine Social-Media-Agentur in Duisburg?",
     answer:
-      "Das hängt vom Umfang ab – etwa von der Zahl der Kanäle, der Menge an Content und davon, ob zusätzlich Werbeanzeigen geschaltet werden. Kestler Connect nennt deshalb keine Pauschalpreise, sondern erstellt nach einem kostenlosen Erstgespräch ein individuelles Angebot. Für den Einstieg mit kleinem Budget gibt es kompakte Marketing-Workshops.",
+      "Das hängt vom Umfang ab – etwa von der Zahl der Kanäle, der Menge an Content und davon, ob zusätzlich Werbeanzeigen geschaltet werden. Kestler Connect nennt deshalb keine Pauschalpreise, sondern erstellt nach einem kostenlosen Erstgespräch ein individuelles Angebot.",
   },
   {
     question: "Wie werde ich bei Google in meiner Stadt besser gefunden?",
     answer:
-      "Mit Local SEO: einem gepflegten Google-Unternehmensprofil, einer Website, die auf Suchen wie „Leistung + Stadt“ ausgerichtet ist, und echten Google-Bewertungen. Google-Suchanzeigen sorgen zusätzlich sofort für Sichtbarkeit. Kestler Connect in Duisburg unterstützt bei Local SEO, Website und Google Ads – DnM – Dämmstoffe nach Maß ist nach SEO- und SEA-Unterstützung heute bei Google auf Seite 1 zu finden.",
+      "Mit Local SEO: einem gepflegten Google-Unternehmensprofil, einer Website, die auf Suchen wie „Leistung + Stadt“ ausgerichtet ist, und echten Google-Bewertungen. Google-Suchanzeigen sorgen zusätzlich sofort für Sichtbarkeit. Kestler Connect in Duisburg unterstützt bei Local SEO, Website und Google Ads – laut Kundenaussage ist DnM – Dämmstoffe nach Maß nach SEO- und SEA-Unterstützung bei Google auf Seite 1 zu finden.",
   },
   {
     question: "Kann ich Social Media, Werbung und Website von einer Agentur bekommen?",
     answer:
-      "Ja – das spart Abstimmungsaufwand, weil Inhalte, Anzeigen und Website aufeinander aufbauen. Kestler Connect in Duisburg bietet Social Media Marketing, Google Ads, Meta Ads, Webseiten und Landingpages sowie Local SEO aus einer Hand, mit festem Ansprechpartner.",
+      "Ja – das spart Abstimmungsaufwand, weil Inhalte, Anzeigen und Website aufeinander aufbauen. Kestler Connect in Duisburg bietet Social Media Marketing, Google Ads, Meta Ads, Webseiten und Landingpages sowie Local SEO mit festem Ansprechpartner.",
   },
 ];
 
@@ -162,19 +156,19 @@ export default function MarketingAgenturDuisburgPage() {
           />
           <div className="max-w-3xl">
             <h1 className="text-2xl font-extrabold leading-tight text-white sm:text-3xl lg:text-5xl">
-              Marketing-Agentur in Duisburg für lokale Unternehmen
+              Online-Marketing-Agentur in Duisburg für lokale Unternehmen
             </h1>
             <p className="mt-4 text-base leading-relaxed text-gray-300 sm:mt-6 sm:text-lg lg:text-xl">
-              Kestler Connect ist eine Social-Media- und Performance-Marketing-Agentur aus
-              Duisburg für regionale und lokale Unternehmen in Duisburg, Moers und Umgebung.
+              Kestler Connect ist eine Online-Marketing-Agentur aus
+              Duisburg für regionale und lokale Unternehmen in Duisburg, im Ruhrgebiet und am Niederrhein.
             </p>
             <p className="mt-3 text-base leading-relaxed text-gray-400 sm:text-lg">
-              Schwerpunkte: Social Media Marketing, Google Ads, Meta Ads, Webseiten und Local SEO
-              – aus einer Hand, mit festem Ansprechpartner.
+              Schwerpunkte: Social Media Marketing, Google Ads, Meta Ads, SEO und Webseiten
+              – mit festem Ansprechpartner.
             </p>
             <div className="mt-8 flex flex-col gap-4 sm:flex-row">
               <Button href="/kontakt" size="lg">
-                Kostenloses Strategiegespräch
+                Kostenloses Erstgespräch
               </Button>
               <Button
                 href="/leistungen"
@@ -196,30 +190,35 @@ export default function MarketingAgenturDuisburgPage() {
           </h2>
           <dl className="mt-8 grid gap-4 sm:grid-cols-2">
             <div className="rounded-xl border border-accent/20 bg-accent-light/30 p-4">
-              <dt className="text-sm font-semibold uppercase tracking-wide text-accent">Was</dt>
+              <dt className="text-sm font-semibold uppercase tracking-wide text-accent-dark">Was</dt>
               <dd className="mt-1 text-anthracite">
-                Social-Media- und Performance-Marketing-Agentur
+                Online-Marketing-Agentur
               </dd>
             </div>
             <div className="rounded-xl border border-accent/20 bg-accent-light/30 p-4">
-              <dt className="text-sm font-semibold uppercase tracking-wide text-accent">Sitz</dt>
+              <dt className="text-sm font-semibold uppercase tracking-wide text-accent-dark">Sitz</dt>
               <dd className="mt-1 text-anthracite">
                 {siteConfig.address.streetAddress}, {siteConfig.address.postalCode}{" "}
                 {siteConfig.address.addressLocality}
               </dd>
             </div>
             <div className="rounded-xl border border-accent/20 bg-accent-light/30 p-4">
-              <dt className="text-sm font-semibold uppercase tracking-wide text-accent">Gründer</dt>
+              <dt className="text-sm font-semibold uppercase tracking-wide text-accent-dark">Gründer</dt>
               <dd className="mt-1 text-anthracite">Jascha Kestler</dd>
             </div>
             <div className="rounded-xl border border-accent/20 bg-accent-light/30 p-4">
-              <dt className="text-sm font-semibold uppercase tracking-wide text-accent">
+              <dt className="text-sm font-semibold uppercase tracking-wide text-accent-dark">
                 Einzugsgebiet
               </dt>
-              <dd className="mt-1 text-anthracite">Duisburg, Moers und Umgebung</dd>
+              <dd className="mt-1 text-anthracite">
+                Duisburg, Ruhrgebiet und Niederrhein –{" "}
+                <Link href="/einzugsgebiet" className="font-semibold text-accent-dark underline-offset-2 hover:underline">
+                  alle Orte
+                </Link>
+              </dd>
             </div>
             <div className="rounded-xl border border-accent/20 bg-accent-light/30 p-4">
-              <dt className="text-sm font-semibold uppercase tracking-wide text-accent">
+              <dt className="text-sm font-semibold uppercase tracking-wide text-accent-dark">
                 Google-Bewertungen
               </dt>
               <dd className="mt-1 text-anthracite">
@@ -227,14 +226,14 @@ export default function MarketingAgenturDuisburgPage() {
                   href={googleBusiness.mapsUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="font-semibold text-accent underline-offset-2 hover:underline"
+                  className="font-semibold text-accent-dark underline-offset-2 hover:underline"
                 >
                   {ratingLabel} Sterne aus {googleBusiness.reviewCount} Bewertungen
                 </a>
               </dd>
             </div>
             <div className="rounded-xl border border-accent/20 bg-accent-light/30 p-4">
-              <dt className="text-sm font-semibold uppercase tracking-wide text-accent">Netzwerk</dt>
+              <dt className="text-sm font-semibold uppercase tracking-wide text-accent-dark">Netzwerk</dt>
               <dd className="mt-1 text-anthracite">
                 BNI-Mitglied, Sponsor lokaler Vereine
               </dd>
@@ -258,7 +257,7 @@ export default function MarketingAgenturDuisburgPage() {
                 <Card className="h-full">
                   <h3 className="text-lg font-bold text-anthracite">{service.title}</h3>
                   <p className="mt-2 text-sm text-gray-600">{service.description}</p>
-                  <p className="mt-3 text-sm font-semibold text-accent">Mehr erfahren →</p>
+                  <p className="mt-3 text-sm font-semibold text-accent-dark">Mehr erfahren →</p>
                 </Card>
               </Link>
             ))}
@@ -279,7 +278,7 @@ export default function MarketingAgenturDuisburgPage() {
             <ul className="mt-6 space-y-3">
               {audiences.map((item) => (
                 <li key={item} className="flex items-start gap-3 text-anthracite">
-                  <span className="mt-0.5 text-accent" aria-hidden="true">
+                  <span className="mt-0.5 text-accent-dark" aria-hidden="true">
                     ✓
                   </span>
                   <span>{item}</span>
@@ -292,8 +291,11 @@ export default function MarketingAgenturDuisburgPage() {
               Gibt es eine Marketing-Agentur in meiner Nähe?
             </h2>
             <p className="mt-4 text-lg leading-relaxed text-gray-600">
-              Kestler Connect sitzt in Duisburg und betreut Unternehmen in Duisburg, Moers und
-              Umgebung – vor Ort und digital.
+              Kestler Connect sitzt in Duisburg und betreut Unternehmen im Ruhrgebiet und am Niederrhein – vor Ort und digital. Mehr dazu im{" "}
+              <Link href="/einzugsgebiet" className="font-semibold text-accent-dark underline-offset-2 hover:underline">
+                Einzugsgebiet
+              </Link>
+              .
             </p>
             <ul className="mt-6 grid grid-cols-2 gap-3">
               {cities.map((city) => (
@@ -344,7 +346,7 @@ export default function MarketingAgenturDuisburgPage() {
               — {dnmTestimonial.company},{" "}
               <Link
                 href="/referenzen/dnm"
-                className="font-semibold text-accent underline-offset-2 hover:underline"
+                className="font-semibold text-accent-dark underline-offset-2 hover:underline"
               >
                 zur Case Study
               </Link>
@@ -356,7 +358,7 @@ export default function MarketingAgenturDuisburgPage() {
                 <Card className="h-full">
                   <h3 className="text-lg font-bold text-anthracite">{ref.title}</h3>
                   <p className="mt-2 text-gray-600">{ref.excerpt}</p>
-                  <p className="mt-4 text-sm font-semibold text-accent">Mehr erfahren →</p>
+                  <p className="mt-4 text-sm font-semibold text-accent-dark">Mehr erfahren →</p>
                 </Card>
               </Link>
             ))}
@@ -365,7 +367,7 @@ export default function MarketingAgenturDuisburgPage() {
             Alle Projekte unter{" "}
             <Link
               href="/referenzen"
-              className="font-semibold text-accent underline-offset-2 hover:underline"
+              className="font-semibold text-accent-dark underline-offset-2 hover:underline"
             >
               Referenzen
             </Link>
@@ -391,7 +393,7 @@ export default function MarketingAgenturDuisburgPage() {
             Wie erreiche ich Kestler Connect?
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-gray-300">
-            Im kostenlosen Strategiegespräch klären wir, welche Kanäle zu Ihrem Betrieb passen –
+            Im kostenlosen Erstgespräch klären wir, welche Kanäle zu Ihrem Betrieb passen –
             unverbindlich.
           </p>
           <div className="mt-6 flex flex-col items-center justify-center gap-2 text-gray-300 sm:flex-row sm:gap-6">
@@ -406,7 +408,7 @@ export default function MarketingAgenturDuisburgPage() {
             </a>
           </div>
           <Button href="/kontakt" size="lg" className="mt-8">
-            Kostenloses Strategiegespräch
+            Kostenloses Erstgespräch
           </Button>
         </div>
       </section>
