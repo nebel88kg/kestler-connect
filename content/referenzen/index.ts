@@ -8,7 +8,7 @@ export const referenzen: ReferenzCase[] = [
     client: "DnM – Dämmstoffe nach Maß",
     industry: "Dämmstoffe",
     excerpt:
-      "Social-Media-Videos, Leitfaden für LinkedIn und Instagram, SEO und SEA: DnM ist heute bei Google auf Seite 1 zu finden und hat so bereits neue Kunden gewonnen.",
+      "Social-Media-Videos, Leitfaden für LinkedIn und Instagram, SEO und SEA: laut Kundenaussage ist DnM heute bei Google auf Seite 1 zu finden und hat so bereits neue Kunden gewonnen.",
     situation:
       "DnM (Dämmstoffe nach Maß) wollte online besser gefunden werden und einen professionelleren Social-Media-Auftritt. Ziel war mehr Sichtbarkeit bei Google – über SEO und SEA – ergänzt durch Social-Media-Videos und eine klare Linie für LinkedIn und Instagram.",
     measures: [
@@ -18,8 +18,8 @@ export const referenzen: ReferenzCase[] = [
       "Unterstützung bei SEA mit Google Ads",
     ],
     results: [
-      "Bei Google auf Seite 1 sichtbar",
-      "Dadurch bereits neue Kunden gewonnen",
+      "Laut Kundenaussage bei Google auf Seite 1 sichtbar",
+      "Laut Kundenaussage dadurch bereits neue Kunden gewonnen",
       "Klare Linie für LinkedIn und Instagram – mit eigenen Social-Media-Videos",
     ],
     testimonial: dnmTestimonial,
