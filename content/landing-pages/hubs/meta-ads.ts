@@ -5,9 +5,9 @@ export const metaAdsHub: LandingPage = {
   path: "/leistungen/meta-ads",
   category: "meta-ads",
   meta: {
-    title: "Meta Ads Agentur Duisburg & Moers | Facebook & Instagram | Kestler Connect",
+    title: "Meta Ads Agentur Duisburg, Ruhrgebiet & Niederrhein | Kestler Connect",
     description:
-      "Meta Ads Agentur Duisburg und Moers: Facebook- und Instagram-Ads für Leads, Reichweite und Buchungen – regional im Ruhrgebiet und NRW.",
+      "Meta Ads Agentur für Duisburg, Ruhrgebiet & Niederrhein: Facebook- und Instagram-Ads für Leads, Reichweite und Buchungen – regional ausgespielt.",
     keywords: [
       "meta ads duisburg",
       "meta ads moers",
@@ -19,7 +19,7 @@ export const metaAdsHub: LandingPage = {
     ],
   },
   hero: {
-    headline: "Meta Ads Agentur Duisburg & Moers – Reichweite und Anfragen",
+    headline: "Meta Ads Agentur Duisburg, Ruhrgebiet & Niederrhein – Reichweite und Anfragen",
     subheadline:
       "Facebook- und Instagram-Ads für regionale Unternehmen in Duisburg, Moers und Umgebung – gezielt, messbar und abgestimmt auf Ihren Social-Media-Auftritt.",
   },
@@ -166,7 +166,7 @@ export const metaAdsHub: LandingPage = {
     {
       title: "DnM",
       slug: "dnm",
-      excerpt: "Social Media begleitend zur Sichtbarkeit auf Google Seite 1.",
+      excerpt: "Social Media begleitend zur Sichtbarkeit bei Google – laut Kundenaussage auf Seite 1.",
     },
   ],
   faq: [
@@ -198,7 +198,7 @@ export const metaAdsHub: LandingPage = {
     {
       question: "Ab welchem Budget starten?",
       answer:
-        "Lokal starten viele mit einem überschaubaren Testbudget. Ob es sich rechnet und welche Höhe sinnvoll ist, klären wir im Strategiegespräch.",
+        "Lokal starten viele mit einem überschaubaren Testbudget. Ob es sich rechnet und welche Höhe sinnvoll ist, klären wir im Erstgespräch.",
     },
   ],
 };
