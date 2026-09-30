@@ -19,7 +19,7 @@ const variants: Record<ButtonVariant, string> = {
     "bg-navy text-white hover:bg-navy-light",
   ghost: "text-anthracite hover:bg-gray-100",
   outline:
-    "border-2 border-accent text-accent hover:bg-accent hover:text-navy",
+    "border-2 border-accent-dark text-accent-dark hover:bg-accent-dark hover:text-white",
 };
 
 const sizes: Record<ButtonSize, string> = {

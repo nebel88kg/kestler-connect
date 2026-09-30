@@ -83,10 +83,15 @@ export default async function CategoryPage({
           </p>
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
             <Button href="/kontakt" size="lg">
-              Kostenloses Strategiegespräch
+              Kostenloses Erstgespräch
             </Button>
             {category === "webseiten" && (
-              <Button href="#preise" variant="outline" size="lg">
+              <Button
+                href="#preise"
+                variant="outline"
+                size="lg"
+                className="border-accent text-accent hover:bg-accent hover:text-navy"
+              >
                 Preise ansehen
               </Button>
             )}
@@ -103,7 +108,7 @@ export default async function CategoryPage({
                 key={item}
                 className="flex items-start gap-3 rounded-2xl border border-navy/10 bg-navy/[0.03] px-4 py-4 text-navy"
               >
-                <span className="mt-0.5 text-accent">✓</span>
+                <span className="mt-0.5 text-accent-dark">✓</span>
                 <span className="text-sm sm:text-base">{item}</span>
               </li>
             ))}
@@ -122,7 +127,7 @@ export default async function CategoryPage({
                     {child.description && (
                       <p className="mt-2 text-sm text-gray-600">{child.description}</p>
                     )}
-                    <p className="mt-3 text-sm font-semibold text-accent">Mehr erfahren →</p>
+                    <p className="mt-3 text-sm font-semibold text-accent-dark">Mehr erfahren →</p>
                   </Card>
                 </Link>
               ))}

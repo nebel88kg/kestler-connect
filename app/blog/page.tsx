@@ -34,7 +34,7 @@ export default function BlogPage() {
             <ScrollReveal key={post.slug} delay={i * 0.1}>
               <Link href={`/blog/${post.slug}`}>
                 <Card className="h-full">
-                  <span className="mb-3 inline-block rounded-full bg-accent-light px-3 py-1 text-xs font-semibold text-accent">
+                  <span className="mb-3 inline-block rounded-full bg-accent-light px-3 py-1 text-xs font-semibold text-accent-dark">
                     {post.category}
                   </span>
                   <h2 className="text-lg font-bold text-anthracite">{post.title}</h2>
@@ -54,7 +54,7 @@ export default function BlogPage() {
           <div className="mt-16 rounded-2xl border border-accent/20 bg-gray-50 p-6 sm:p-8">
             <h2 className="text-xl font-bold text-anthracite">Leistungen vertiefen</h2>
             <p className="mt-2 text-sm text-gray-600">
-              Von Wissen zu Umsetzung – die wichtigsten Angebote für Duisburg und Moers.
+              Von Wissen zu Umsetzung – die wichtigsten Angebote für Duisburg, das Ruhrgebiet und den Niederrhein.
             </p>
             <ul className="mt-4 flex flex-wrap gap-3">
               {relatedServices.map((svc) => (

@@ -27,12 +27,12 @@ export default function ReferenzenPage() {
             <ScrollReveal key={ref.slug} delay={i * 0.1}>
               <Link href={`/referenzen/${ref.slug}`}>
                 <Card>
-                  <span className="mb-3 inline-block rounded-full bg-accent-light px-3 py-1 text-xs font-semibold text-accent">
+                  <span className="mb-3 inline-block rounded-full bg-accent-light px-3 py-1 text-xs font-semibold text-accent-dark">
                     {ref.industry}
                   </span>
                   <h2 className="text-xl font-bold text-anthracite">{ref.title}</h2>
                   <p className="mt-2 text-gray-600">{ref.excerpt}</p>
-                  <p className="mt-4 text-sm font-semibold text-accent">Case Study lesen →</p>
+                  <p className="mt-4 text-sm font-semibold text-accent-dark">Case Study lesen →</p>
                 </Card>
               </Link>
             </ScrollReveal>
