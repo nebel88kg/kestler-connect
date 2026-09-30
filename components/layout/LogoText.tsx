@@ -23,7 +23,8 @@ export function LogoText({
       )}
     >
       <span className={variant === "light" ? "text-white" : "text-navy"}>KESTLER</span>{" "}
-      <span className="text-accent">CONNECT</span>
+      {/* Auf hellem Grund etwas dunkleres Gold (Kontrast) */}
+      <span className={variant === "light" ? "text-accent" : "text-accent-dark"}>CONNECT</span>
     </span>
   );
 

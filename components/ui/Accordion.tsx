@@ -53,7 +53,7 @@ export function Accordion({
             <motion.span
               initial={false}
               animate={{ rotate: isOpen ? 45 : 0 }}
-              className="flex h-6 w-6 shrink-0 items-center justify-center text-accent text-xl"
+              className="flex h-6 w-6 shrink-0 items-center justify-center text-accent-dark text-xl"
               aria-hidden="true"
             >
               +

@@ -28,7 +28,7 @@ export function renderInline(text: string): ReactNode[] {
           <Link
             key={key++}
             href={href}
-            className="font-semibold text-accent underline-offset-2 hover:underline"
+            className="font-semibold text-accent-dark underline underline-offset-2 hover:text-navy"
           >
             {label}
           </Link>
@@ -40,7 +40,7 @@ export function renderInline(text: string): ReactNode[] {
             href={href}
             target="_blank"
             rel="noopener noreferrer"
-            className="font-semibold text-accent underline-offset-2 hover:underline"
+            className="font-semibold text-accent-dark underline underline-offset-2 hover:text-navy"
           >
             {label}
           </a>
