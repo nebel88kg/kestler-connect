@@ -4,58 +4,79 @@ import { Card } from "@/components/ui/Card";
 import { Accordion } from "@/components/ui/Accordion";
 import { BenefitIcon } from "@/components/ui/BenefitIcon";
 import { ContactForm } from "@/components/ui/ContactForm";
+import { MoreDetails } from "@/components/ui/MoreDetails";
+import { ReviewBadge } from "@/components/ui/ReviewBadge";
 import { ScrollReveal } from "@/components/ui/ScrollReveal";
 import { Breadcrumbs } from "@/components/seo/Breadcrumbs";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { WebsitePricing } from "@/components/pricing/WebsitePricing";
 import { createBreadcrumbsFromPath, createFaqSchema } from "@/lib/seo";
 import { renderInline } from "@/lib/inlineMarkdown";
-import { leistungenNav } from "@/lib/navigation";
+import { leistungenNav, siteConfig } from "@/lib/navigation";
 import Link from "next/link";
 
 interface LandingPageTemplateProps {
   page: LandingPage;
 }
 
+/** Erster Absatz sichtbar (direkte Antwort), der Rest klappt auf. */
 function TextSection({
   section,
-  tone = "default",
+  showAreaLink = false,
 }: {
   section: LandingPageTextSection;
-  tone?: "default" | "muted";
+  showAreaLink?: boolean;
 }) {
+  const [first, ...rest] = section.paragraphs;
+  const points = section.points ?? [];
+  const hasMore = rest.length > 0 || points.length > 0;
+
   return (
     <ScrollReveal>
       <h2 className="text-2xl font-bold text-anthracite lg:text-4xl">{section.title}</h2>
-      <div className="mt-6 max-w-3xl space-y-4">
-        {section.paragraphs.map((paragraph) => (
-          <p
-            key={paragraph.slice(0, 48)}
-            className={`text-lg leading-relaxed ${tone === "muted" ? "text-gray-600" : "text-gray-600"}`}
+      {first && (
+        <p className="mt-4 max-w-3xl text-lg leading-relaxed text-gray-700">{renderInline(first)}</p>
+      )}
+      {hasMore && (
+        <MoreDetails summary="Mehr erfahren" className="mt-6 max-w-3xl">
+          {rest.length > 0 && (
+            <div className="space-y-3">
+              {rest.map((paragraph) => (
+                <p key={paragraph.slice(0, 48)} className="leading-relaxed">
+                  {renderInline(paragraph)}
+                </p>
+              ))}
+            </div>
+          )}
+          {points.length > 0 && (
+            <ul className={`space-y-2 ${rest.length > 0 ? "mt-4" : ""}`}>
+              {points.map((point) => (
+                <li key={point} className="flex items-start gap-3">
+                  <span className="mt-0.5 text-accent-dark" aria-hidden="true">
+                    ✓
+                  </span>
+                  <span>{renderInline(point)}</span>
+                </li>
+              ))}
+            </ul>
+          )}
+        </MoreDetails>
+      )}
+      {showAreaLink && (
+        <p className="mt-4">
+          <Link
+            href="/einzugsgebiet"
+            className="text-sm font-semibold text-accent-dark underline underline-offset-2 hover:text-navy"
           >
-            {renderInline(paragraph)}
-          </p>
-        ))}
-      </div>
-      {section.points && section.points.length > 0 && (
-        <ul className="mt-8 grid gap-3 md:grid-cols-2">
-          {section.points.map((point) => (
-            <li
-              key={point}
-              className="flex items-start gap-3 rounded-xl border border-accent/20 bg-accent-light/30 p-4 text-anthracite"
-            >
-              <span className="mt-0.5 text-accent">✓</span>
-              <span>{renderInline(point)}</span>
-            </li>
-          ))}
-        </ul>
+            Alle Orte im Einzugsgebiet →
+          </Link>
+        </p>
       )}
     </ScrollReveal>
   );
 }
 
-
-function MidCTA({ label = "Kostenloses Strategiegespräch" }: { label?: string }) {
+function MidCTA({ label = "Kostenloses Erstgespräch" }: { label?: string }) {
   return (
     <div className="mt-10 flex justify-center">
       <Button href="#kontakt" size="lg">
@@ -68,12 +89,14 @@ function MidCTA({ label = "Kostenloses Strategiegespräch" }: { label?: string }
 export function LandingPageTemplate({ page }: LandingPageTemplateProps) {
   const breadcrumbs = createBreadcrumbsFromPath(page.path);
   const isMoneyPage = Boolean(page.intro || page.audience || page.results || page.pricing);
+  const tel = siteConfig.phone.replace(/\s/g, "");
 
   const navSection = leistungenNav.children?.find((child) => child.href === page.path);
   const related = navSection?.children || [];
   const relatedHubs = page.relatedHubs || [];
 
   const faqSchema = createFaqSchema(page.faq);
+  const hasAudienceBlock = Boolean(page.audience || page.serviceArea);
 
   return (
     <>
@@ -86,19 +109,30 @@ export function LandingPageTemplate({ page }: LandingPageTemplateProps) {
             <h1 className="text-2xl font-extrabold leading-tight text-white sm:text-3xl lg:text-5xl">
               {page.hero.headline}
             </h1>
-            <p className="mt-4 text-base leading-relaxed text-gray-300 sm:mt-6 sm:text-lg lg:text-xl">
+            <p className="mt-4 text-base leading-relaxed text-gray-200 sm:mt-6 sm:text-lg lg:text-xl">
               {page.hero.subheadline}
             </p>
             <div className="mt-8 flex flex-col gap-4 sm:flex-row">
               <Button href="#kontakt" size="lg">
-                Kostenloses Strategiegespräch
+                Kostenloses Erstgespräch
               </Button>
               {page.showWebsitePricing && (
-                <Button href="#preise" variant="outline" size="lg" className="border-accent text-accent hover:bg-accent hover:text-navy">
+                <Button
+                  href="#preise"
+                  variant="outline"
+                  size="lg"
+                  className="border-accent text-accent hover:bg-accent hover:text-navy"
+                >
                   Preise ansehen
                 </Button>
               )}
             </div>
+            <p className="mt-4 text-sm text-gray-200">
+              Kostenlos &amp; unverbindlich ·{" "}
+              <a href={`tel:${tel}`} className="font-semibold text-white underline underline-offset-2">
+                {siteConfig.phone}
+              </a>
+            </p>
           </div>
         </div>
       </section>
@@ -107,36 +141,30 @@ export function LandingPageTemplate({ page }: LandingPageTemplateProps) {
         <section className="section-padding">
           <div className="container-custom">
             <TextSection section={page.intro} />
+            <MidCTA />
           </div>
         </section>
       )}
 
-      {page.audience && (
+      {hasAudienceBlock && (
         <section className="section-padding bg-gray-50">
-          <div className="container-custom">
-            <TextSection section={page.audience} />
+          <div className="container-custom space-y-12">
+            {page.audience && <TextSection section={page.audience} />}
+            {page.serviceArea && <TextSection section={page.serviceArea} showAreaLink />}
           </div>
         </section>
       )}
 
-      {page.serviceArea && (
-        <section className={`section-padding ${page.audience ? "" : "bg-gray-50"}`}>
-          <div className="container-custom">
-            <TextSection section={page.serviceArea} />
-          </div>
-        </section>
-      )}
-
-      <section className={`section-padding ${page.serviceArea ? "bg-gray-50" : page.audience ? "" : "bg-gray-50"}`}>
+      <section className={`section-padding ${hasAudienceBlock ? "" : "bg-gray-50"}`}>
         <div className="container-custom">
           <ScrollReveal>
-            <h2 className="text-2xl font-bold text-anthracite lg:text-4xl">
-              {page.problem.title}
-            </h2>
+            <h2 className="text-2xl font-bold text-anthracite lg:text-4xl">{page.problem.title}</h2>
             <ul className="mt-8 grid gap-4 md:grid-cols-2">
               {page.problem.points.map((point) => (
                 <li key={point} className="flex items-start gap-3 rounded-xl border border-gray-200 bg-white p-4">
-                  <span className="mt-0.5 text-red-500">✕</span>
+                  <span className="mt-0.5 text-red-600" aria-hidden="true">
+                    ✕
+                  </span>
                   <span className="text-gray-700">{point}</span>
                 </li>
               ))}
@@ -147,13 +175,11 @@ export function LandingPageTemplate({ page }: LandingPageTemplateProps) {
       </section>
 
       {!isMoneyPage && (
-        <section className="section-padding">
+        <section className="section-padding bg-gray-50">
           <div className="container-custom">
             <ScrollReveal>
-              <h2 className="text-2xl font-bold text-anthracite lg:text-4xl">
-                {page.solution.title}
-              </h2>
-              <p className="mt-6 max-w-3xl text-lg leading-relaxed text-gray-600">
+              <h2 className="text-2xl font-bold text-anthracite lg:text-4xl">{page.solution.title}</h2>
+              <p className="mt-6 max-w-3xl text-lg leading-relaxed text-gray-700">
                 {renderInline(page.solution.content)}
               </p>
             </ScrollReveal>
@@ -161,12 +187,10 @@ export function LandingPageTemplate({ page }: LandingPageTemplateProps) {
         </section>
       )}
 
-      <section className="section-padding bg-gray-50">
+      <section className={`section-padding ${isMoneyPage ? "bg-gray-50" : ""}`}>
         <div className="container-custom">
           <ScrollReveal>
-            <h2 className="mb-12 text-center text-2xl font-bold text-anthracite lg:text-4xl">
-              Ihre Vorteile
-            </h2>
+            <h2 className="mb-12 text-center text-2xl font-bold text-anthracite lg:text-4xl">Ihre Vorteile</h2>
           </ScrollReveal>
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
             {page.benefits.map((benefit, i) => (
@@ -179,11 +203,7 @@ export function LandingPageTemplate({ page }: LandingPageTemplateProps) {
               </ScrollReveal>
             ))}
           </div>
-          <div className="mt-10 flex justify-center">
-            <Button href="#kontakt" size="lg">
-              Kostenloses Strategiegespräch
-            </Button>
-          </div>
+          <MidCTA />
         </div>
       </section>
 
@@ -191,21 +211,17 @@ export function LandingPageTemplate({ page }: LandingPageTemplateProps) {
         <section className="section-padding">
           <div className="container-custom">
             <ScrollReveal>
-              <h2 className="text-2xl font-bold text-anthracite lg:text-4xl">
-                {page.results.title}
-              </h2>
+              <h2 className="text-2xl font-bold text-anthracite lg:text-4xl">{page.results.title}</h2>
               {page.results.paragraphs.slice(0, 1).map((paragraph) => (
-                <p
-                  key={paragraph.slice(0, 48)}
-                  className="mt-6 max-w-3xl text-lg leading-relaxed text-gray-600"
-                >
+                <p key={paragraph.slice(0, 48)} className="mt-6 max-w-3xl text-lg leading-relaxed text-gray-700">
                   {renderInline(paragraph)}
                 </p>
               ))}
               {(page.results.paragraphs.length > 1 ||
                 (page.results.points && page.results.points.length > 0)) && (
-                <div className="mx-auto mt-8 max-w-3xl">
+                <div className="mt-8 max-w-3xl">
                   <Accordion
+                    defaultOpenIndex={null}
                     items={[
                       ...(page.results.paragraphs.length > 1
                         ? [
@@ -252,19 +268,18 @@ export function LandingPageTemplate({ page }: LandingPageTemplateProps) {
               </ScrollReveal>
             ))}
           </div>
+          <MidCTA />
         </div>
       </section>
 
       {page.pricing && (
-        <section className="section-padding">
+        <section className="section-padding bg-gray-50">
           <div className="container-custom">
             <ScrollReveal>
-              <h2 className="text-2xl font-bold text-anthracite lg:text-4xl">
-                {page.pricing.title}
-              </h2>
+              <h2 className="text-2xl font-bold text-anthracite lg:text-4xl">{page.pricing.title}</h2>
               <div className="mt-6 max-w-3xl space-y-4">
                 {page.pricing.paragraphs.map((paragraph) => (
-                  <p key={paragraph.slice(0, 48)} className="text-lg leading-relaxed text-gray-600">
+                  <p key={paragraph.slice(0, 48)} className="text-lg leading-relaxed text-gray-700">
                     {renderInline(paragraph)}
                   </p>
                 ))}
@@ -273,13 +288,9 @@ export function LandingPageTemplate({ page }: LandingPageTemplateProps) {
                 <div className="mt-10 grid gap-4 md:grid-cols-3">
                   {page.pricing.ranges.map((range) => (
                     <Card key={range.label} hover={false}>
-                      <p className="text-sm font-semibold uppercase tracking-wide text-accent">
-                        {range.label}
-                      </p>
+                      <p className="text-sm font-semibold uppercase tracking-wide text-accent-dark">{range.label}</p>
                       <p className="mt-2 text-xl font-bold text-anthracite">{range.value}</p>
-                      {range.note && (
-                        <p className="mt-2 text-sm text-gray-600">{range.note}</p>
-                      )}
+                      {range.note && <p className="mt-2 text-sm text-gray-600">{range.note}</p>}
                     </Card>
                   ))}
                 </div>
@@ -291,79 +302,64 @@ export function LandingPageTemplate({ page }: LandingPageTemplateProps) {
 
       {page.showWebsitePricing && <WebsitePricing />}
 
-      {relatedHubs.length > 0 && (
-        <section className="section-padding bg-gray-50">
-          <div className="container-custom">
-            <ScrollReveal>
-              <h2 className="text-2xl font-bold text-anthracite lg:text-4xl">
-                Weitere Leistungen
-              </h2>
-              <p className="mt-2 text-gray-600">
-                Starkes Zusammenspiel – die passenden Kanäle aus einer Hand.
-              </p>
-            </ScrollReveal>
-            <div className="mt-8 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
-              {relatedHubs.map((hub, i) => (
-                <ScrollReveal key={hub.href} delay={i * 0.05}>
-                  <Link href={hub.href}>
-                    <Card className="h-full">
-                      <h3 className="text-lg font-bold text-anthracite">{hub.title}</h3>
-                      {hub.description && (
-                        <p className="mt-2 text-sm text-gray-600">{hub.description}</p>
-                      )}
-                      <p className="mt-3 text-sm font-semibold text-accent">Mehr erfahren →</p>
-                    </Card>
-                  </Link>
-                </ScrollReveal>
-              ))}
-            </div>
-          </div>
-        </section>
-      )}
-
-      {related.length > 0 && (
-        <section className={`section-padding ${relatedHubs.length > 0 ? "" : "bg-gray-50"}`}>
-          <div className="container-custom">
-            <ScrollReveal>
-              <h2 className="text-2xl font-bold text-anthracite lg:text-4xl">Vertiefen</h2>
-              <p className="mt-2 text-gray-600">
-                Ausgewählte Schwerpunkte zu dieser Leistung.
-              </p>
-            </ScrollReveal>
-            <div className="mt-8 grid gap-4 md:grid-cols-2">
-              {related.map((child, i) => (
-                <ScrollReveal key={child.href} delay={i * 0.05}>
-                  <Link href={child.href}>
-                    <Card className="h-full">
-                      <h3 className="text-lg font-bold text-anthracite">{child.title}</h3>
+      {(relatedHubs.length > 0 || related.length > 0) && (
+        <section className="section-padding">
+          <div className="container-custom max-w-4xl space-y-4">
+            {related.length > 0 && (
+              <MoreDetails summary="Vertiefen: Schwerpunkte zu dieser Leistung">
+                <div className="grid gap-3 md:grid-cols-2">
+                  {related.map((child) => (
+                    <Link
+                      key={child.href}
+                      href={child.href}
+                      className="rounded-xl border border-gray-200 p-4 transition-colors hover:border-accent-dark"
+                    >
+                      <span className="block font-bold text-anthracite">{child.title}</span>
                       {child.description && (
-                        <p className="mt-2 text-sm text-gray-600">{child.description}</p>
+                        <span className="mt-1 block text-sm text-gray-600">{child.description}</span>
                       )}
-                      <p className="mt-3 text-sm font-semibold text-accent">Mehr erfahren →</p>
-                    </Card>
-                  </Link>
-                </ScrollReveal>
-              ))}
-            </div>
+                      <span className="mt-2 block text-sm font-semibold text-accent-dark">Mehr erfahren →</span>
+                    </Link>
+                  ))}
+                </div>
+              </MoreDetails>
+            )}
+            {relatedHubs.length > 0 && (
+              <MoreDetails summary="Passende Ergänzungen">
+                <div className="grid gap-3 md:grid-cols-2">
+                  {relatedHubs.map((hub) => (
+                    <Link
+                      key={hub.href}
+                      href={hub.href}
+                      className="rounded-xl border border-gray-200 p-4 transition-colors hover:border-accent-dark"
+                    >
+                      <span className="block font-bold text-anthracite">{hub.title}</span>
+                      {hub.description && (
+                        <span className="mt-1 block text-sm text-gray-600">{hub.description}</span>
+                      )}
+                      <span className="mt-2 block text-sm font-semibold text-accent-dark">Mehr erfahren →</span>
+                    </Link>
+                  ))}
+                </div>
+              </MoreDetails>
+            )}
           </div>
         </section>
       )}
 
-      <section className="section-padding">
+      <section className="section-padding bg-gray-50">
         <div className="container-custom">
           <ScrollReveal>
-            <h2 className="mb-12 text-center text-2xl font-bold text-anthracite lg:text-4xl">
-              Referenzen
-            </h2>
+            <h2 className="mb-12 text-center text-2xl font-bold text-anthracite lg:text-4xl">Referenzen</h2>
           </ScrollReveal>
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
             {page.references.map((ref, i) => (
               <ScrollReveal key={ref.slug} delay={i * 0.1}>
                 <Link href={`/referenzen/${ref.slug}`}>
-                  <Card>
+                  <Card className="h-full">
                     <h3 className="text-lg font-bold text-anthracite">{ref.title}</h3>
                     <p className="mt-2 text-gray-600">{ref.excerpt}</p>
-                    <p className="mt-4 text-sm font-semibold text-accent">Mehr erfahren →</p>
+                    <p className="mt-4 text-sm font-semibold text-accent-dark">Mehr erfahren →</p>
                   </Card>
                 </Link>
               </ScrollReveal>
@@ -372,12 +368,10 @@ export function LandingPageTemplate({ page }: LandingPageTemplateProps) {
         </div>
       </section>
 
-      <section className="section-padding bg-gray-50">
+      <section className="section-padding">
         <div className="container-custom">
           <ScrollReveal>
-            <h2 className="mb-12 text-center text-2xl font-bold text-anthracite lg:text-4xl">
-              Häufige Fragen
-            </h2>
+            <h2 className="mb-12 text-center text-2xl font-bold text-anthracite lg:text-4xl">Häufige Fragen</h2>
           </ScrollReveal>
           <div className="mx-auto max-w-3xl">
             <Accordion items={page.faq} />
@@ -390,11 +384,30 @@ export function LandingPageTemplate({ page }: LandingPageTemplateProps) {
           <div className="grid items-start gap-12 lg:grid-cols-2">
             <ScrollReveal>
               <h2 className="text-2xl font-extrabold text-white lg:text-4xl">
-                Sichern Sie sich jetzt Ihre kostenlose Potenzialanalyse.
+                Kostenloses Erstgespräch anfragen
               </h2>
-              <p className="mt-4 text-gray-400">
-                Schreiben Sie uns – wir melden uns innerhalb von 24 Stunden.
+              <p className="mt-4 text-gray-200">
+                Schreiben Sie uns kurz, worum es geht – wir melden uns zeitnah. Kostenlos und unverbindlich.
               </p>
+              <p className="mt-4 text-gray-200">
+                Lieber direkt?{" "}
+                <a href={`tel:${tel}`} className="font-semibold text-white underline underline-offset-2">
+                  {siteConfig.phone}
+                </a>{" "}
+                oder{" "}
+                <a
+                  href={`https://wa.me/${siteConfig.whatsapp}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-semibold text-white underline underline-offset-2"
+                >
+                  WhatsApp
+                </a>
+                .
+              </p>
+              <div className="mt-6">
+                <ReviewBadge tone="dark" />
+              </div>
             </ScrollReveal>
             <ScrollReveal delay={0.2}>
               <div className="rounded-2xl bg-white p-4 sm:p-8">
