@@ -7,9 +7,9 @@ export const beiGoogleUndKiGefundenWerden: BlogPost = {
   excerpt:
     "Wie finden potenzielle Kunden Ihr Unternehmen bei Google, Google Maps und in KI-Antworten wie ChatGPT? Die wichtigsten Hebel für Betriebe in Duisburg, Moers und Umgebung – verständlich erklärt.",
   metaTitle:
-    "Bei Google & KI gefunden werden | Local SEO für Duisburg & Moers",
+    "Bei Google & KI gefunden werden | Local SEO im Ruhrgebiet & Niederrhein",
   metaDescription:
-    "Wie werden lokale Unternehmen bei Google, Google Maps und in KI-Tools gefunden? Praxisnaher Leitfaden zu Local SEO, Unternehmensprofil, Website und Ads für Duisburg und Moers.",
+    "Wie werden lokale Unternehmen bei Google, Google Maps und in KI-Tools gefunden? Praxisnaher Leitfaden zu Local SEO, Unternehmensprofil, Website und Ads für Duisburg, das Ruhrgebiet und den Niederrhein.",
   date: "2026-09-30",
   category: "SEO & Sichtbarkeit",
   readTime: "9 Min.",
