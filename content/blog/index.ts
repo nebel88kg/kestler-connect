@@ -10,8 +10,10 @@ import { mitarbeitergewinnungImHandwerk } from "./mitarbeitergewinnung-im-handwe
 import { socialMediaFuerVereine } from "./social-media-fuer-vereine";
 import { metaAdsFuerLokaleUnternehmen } from "./meta-ads-fuer-lokale-unternehmen";
 import { performanceMarketingDuisburg } from "./performance-marketing-duisburg";
+import { googleAdsAgenturDuisburg } from "./google-ads-agentur-duisburg";
 
 export const blogPosts: BlogPost[] = [
+  googleAdsAgenturDuisburg,
   performanceMarketingDuisburg,
   metaAdsFuerLokaleUnternehmen,
   mehrAnfragenBekommen,
