@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 const steps = [
   { step: 1, title: "Analyse", description: "Ziele, Ist-Stand und Chancen – klar und ohne Fachchinesisch." },
   { step: 2, title: "Strategie", description: "Maßgeschneiderter Plan mit messbaren Zielen und Prioritäten." },
-  { step: 3, title: "Umsetzung", description: "Fester Ansprechpartner – Ads, Social und Website aus einer Hand." },
+  { step: 3, title: "Umsetzung", description: "Feste Ansprechperson – Ads, Social Media und Website abgestimmt." },
   { step: 4, title: "Optimierung", description: "Laufende Verbesserung dort, wo Kosten und Qualität stimmen." },
   { step: 5, title: "Reporting", description: "Transparente Berichte – Sie wissen immer, was läuft." },
 ];
@@ -17,14 +17,14 @@ export function ProcessSection() {
       <div className="container-custom">
         <ScrollReveal>
           <div className="mb-10 text-center sm:mb-16">
-            <p className="mb-3 text-sm font-semibold uppercase tracking-[0.15em] text-accent">
+            <p className="mb-3 text-sm font-semibold uppercase tracking-[0.15em] text-accent-dark">
               Prozess
             </p>
             <h2 className="text-2xl font-extrabold text-navy sm:text-3xl lg:text-5xl">
               So arbeiten wir
             </h2>
             <p className="mx-auto mt-3 max-w-2xl text-base text-gray-600 sm:mt-4 sm:text-lg">
-              Klarer Ablauf, Erreichbarkeit und Reporting – ohne erfundene Garantien.
+              Klarer Ablauf, feste Ansprechperson und nachvollziehbares Reporting.
             </p>
           </div>
         </ScrollReveal>

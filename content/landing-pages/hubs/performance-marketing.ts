@@ -107,7 +107,7 @@ export const performanceMarketingHub: LandingPage = {
   results: {
     title: "Welche Ergebnisse sind realistisch?",
     paragraphs: [
-      "Realistisch sind planbarere Anfragen, klarere Kosten pro Lead und Kampagnen, die Sie steuern statt nur „laufen lassen“.",
+      "Realistisch sind planbarere Anfragen, klarere Kosten pro Lead und Kampagnen, die Sie steuern statt nur “laufen lassen“.",
       "Beispiele: [Golfclub Raffelberg](/referenzen/golfclub-raffelberg) – Kurse und Firmenfeiern über Ads. [SecPro Bildungszentrum](/referenzen/secpro-bildungszentrum) – Meta Ads plus Social. [DnM](/referenzen/dnm) – organische Sichtbarkeit als starke Basis.",
     ],
     points: [
@@ -183,7 +183,7 @@ export const performanceMarketingHub: LandingPage = {
     {
       question: "Ab welchem Budget lohnt sich Performance Marketing?",
       answer:
-        "Für lokale Unternehmen richten wir Media-Budget und Betreuung nach Wettbewerb und Zielen aus. Im Strategiegespräch prüfen wir, ob es sich rechnet.",
+        "Für lokale Unternehmen richten wir Media-Budget und Betreuung nach Wettbewerb und Zielen aus. Im Erstgespräch prüfen wir, ob es sich rechnet.",
     },
     {
       question: "Arbeitet ihr auch für Unternehmen in Moers?",
@@ -193,7 +193,7 @@ export const performanceMarketingHub: LandingPage = {
     {
       question: "Wie schnell sehe ich Ergebnisse?",
       answer:
-        "Ads können innerhalb weniger Tage erste Anfragen bringen. Stabile Kosten pro Lead brauchen oft 2–6 Wochen Optimierung.",
+        "Ads können nach dem Start schnell erste Signale liefern. Stabile Kosten pro Lead brauchen laufende Optimierung; abhängig von Wettbewerb, Budget und Ausgangslage.",
     },
     {
       question: "Übernehmt ihr bestehende Accounts?",
