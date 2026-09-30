@@ -7,7 +7,7 @@ export const leadgewinnungHub: LandingPage = {
   meta: {
     title: "Mehr Anfragen & Kunden gewinnen Duisburg | Leadgewinnung | Kestler Connect",
     description:
-      "Mehr Anfragen und mehr Kunden gewinnen in Duisburg und Moers: Leadgenerierung über Google Ads, Meta Ads und Landingpages – planbar statt Zufall.",
+      "Mehr Anfragen und mehr Kunden gewinnen in Duisburg, im Ruhrgebiet und am Niederrhein: Leadgenerierung über Google Ads, Meta Ads und Landingpages – planbar statt Zufall.",
     keywords: [
       "mehr anfragen",
       "mehr kunden gewinnen",
@@ -21,7 +21,7 @@ export const leadgewinnungHub: LandingPage = {
     ],
   },
   hero: {
-    headline: "Mehr Anfragen, mehr Kunden – Leadgewinnung in Duisburg & Moers",
+    headline: "Mehr Anfragen, mehr Kunden – Leadgewinnung in Duisburg, Ruhrgebiet & Niederrhein",
     subheadline:
       "Anfragen generieren statt auf Zufall hoffen: Google Ads, Meta Ads und conversion-starke Seiten für regionale Unternehmen.",
   },
@@ -173,7 +173,7 @@ export const leadgewinnungHub: LandingPage = {
     {
       title: "DnM",
       slug: "dnm",
-      excerpt: "Organische Sichtbarkeit auf Google Seite 1 als Lead-Basis.",
+      excerpt: "Laut Kundenaussage organische Sichtbarkeit auf Google Seite 1 als Lead-Basis.",
     },
   ],
   faq: [

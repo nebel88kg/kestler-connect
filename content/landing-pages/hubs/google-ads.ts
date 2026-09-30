@@ -7,7 +7,7 @@ export const googleAdsHub: LandingPage = {
   meta: {
     title: "Google Ads & SEA Agentur Duisburg | Werbung schalten | Kestler Connect",
     description:
-      "SEA / Google Ads Agentur Duisburg und Moers: Werbung bei Google schalten mit messbaren Anfragen und klarem ROI – für regionale Unternehmen im Ruhrgebiet und NRW.",
+      "SEA / Google Ads Agentur für Duisburg, Ruhrgebiet & Niederrhein: Werbung bei Google schalten mit messbaren Anfragen und klarem ROI – für regionale Unternehmen.",
     keywords: [
       "google ads duisburg",
       "google ads moers",
@@ -25,7 +25,7 @@ export const googleAdsHub: LandingPage = {
     ],
   },
   hero: {
-    headline: "SEA & Google Ads in Duisburg und Moers – Werbung schalten, die Anfragen bringt",
+    headline: "SEA & Google Ads in Duisburg, Ruhrgebiet & Niederrhein – Werbung schalten, die Anfragen bringt",
     subheadline:
       "Suchmaschinenwerbung für regionale Unternehmen: Werbung bei Google schalten, wenn Kunden aktiv suchen – mit Fokus auf Kosten pro Anfrage.",
   },
@@ -114,7 +114,7 @@ export const googleAdsHub: LandingPage = {
     title: "Welche Ergebnisse sind realistisch?",
     paragraphs: [
       "Realistisch sind mehr qualifizierte Anfragen aus der Suche und transparente Kosten pro Lead – sofern Angebot und Seite stimmen.",
-      "Praxis: Beim [Golfclub Raffelberg](/referenzen/golfclub-raffelberg) unterstützten Google Ads Kurse und Firmenfeiern. Bei [DnM](/referenzen/dnm) stärkt organische Sichtbarkeit auf Google Seite 1 die digitale Basis. [SecPro Bildungszentrum](/referenzen/secpro-bildungszentrum) zeigt, wie bezahlte Reichweite und Social greifen.",
+      "Praxis: Beim [Golfclub Raffelberg](/referenzen/golfclub-raffelberg) unterstützten Google Ads Kurse und Firmenfeiern. Bei [DnM](/referenzen/dnm) steht laut Kundenaussage die organische Sichtbarkeit auf Google Seite 1 für eine starke digitale Basis. [SecPro Bildungszentrum](/referenzen/secpro-bildungszentrum) zeigt, wie bezahlte Reichweite und Social greifen.",
     ],
     points: [
       "Mehr Anfragen aus aktiver Suche",
@@ -167,7 +167,7 @@ export const googleAdsHub: LandingPage = {
     {
       title: "DnM",
       slug: "dnm",
-      excerpt: "SEO auf Google Seite 1 – starke organische Basis neben Ads.",
+      excerpt: "SEO und SEA – laut Kundenaussage heute bei Google auf Seite 1, starke organische Basis neben Ads.",
     },
     {
       title: "Golfclub Raffelberg",
