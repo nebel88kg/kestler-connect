@@ -115,7 +115,7 @@ Oft ist die Kombination am stärksten: Social Media für Vertrauen und Wiedererk
 
 Die Kosten hängen von Kanälen, Frequenz, Reels-Anteil und Produktionsaufwand ab. Viele Unternehmen starten mit einem monatlichen Retainer für Planung und Content und erweitern bei Bedarf um Ads.
 
-Orientierungswerte und typische Setups beschreiben wir auf der [Social-Media-Leistungsseite](/leistungen/social-media). Im Strategiegespräch klären wir, was zu Ihrem Ziel und Budget passt – ohne Überverkauf.
+Orientierungswerte und typische Setups beschreiben wir auf der [Social-Media-Leistungsseite](/leistungen/social-media). Im Erstgespräch klären wir, was zu Ihrem Ziel und Budget passt – ohne Überverkauf.
 
 ## Häufige Fehler ohne Agentur (oder mit falschem Setup)
 
