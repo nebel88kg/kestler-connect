@@ -23,7 +23,7 @@ function TestimonialCard({ testimonial }: { testimonial: Testimonial }) {
           type="button"
           onClick={() => setOpen((prev) => !prev)}
           aria-expanded={open}
-          className="mt-4 self-start text-sm font-semibold text-accent transition-colors hover:text-navy"
+          className="mt-4 self-start text-sm font-semibold text-accent-dark transition-colors hover:text-navy"
         >
           {open ? "Weniger anzeigen" : "Weiterlesen"}
         </button>
@@ -48,7 +48,7 @@ function TestimonialCard({ testimonial }: { testimonial: Testimonial }) {
           {referenzSlug && (
             <Link
               href={`/referenzen/${referenzSlug}`}
-              className="mt-1 inline-block text-sm font-semibold text-accent transition-colors hover:text-navy"
+              className="mt-1 inline-block text-sm font-semibold text-accent-dark transition-colors hover:text-navy"
             >
               Case Study ansehen →
             </Link>
