@@ -200,12 +200,12 @@ export const leadgewinnungHub: LandingPage = {
     {
       question: "Wie schnell kommen Leads?",
       answer:
-        "Mit Ads oft innerhalb weniger Tage erste Kontakte. Qualität und Kosten stabilisieren sich über Wochen.",
+        "Mit Ads sind erste Kontakte oft schnell möglich. Qualität und Kosten stabilisieren sich durch laufende Optimierung; abhängig von Wettbewerb und Ausgangslage.",
     },
     {
       question: "Was kostet ein Lead?",
       answer:
-        "Stark branchenabhängig. Wir machen Kosten transparent und optimieren auf brauchbare Anfragen – ohne Pauschalpreise; die Einschätzung klären wir im Strategiegespräch.",
+        "Stark branchenabhängig. Wir machen Kosten transparent und optimieren auf brauchbare Anfragen – ohne Pauschalpreise; die Einschätzung klären wir im Erstgespräch.",
     },
     {
       question: "Brauche ich eine Landingpage?",
