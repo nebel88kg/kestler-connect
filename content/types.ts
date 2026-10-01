@@ -66,6 +66,40 @@ export interface LandingPageRelatedHub {
   description?: string;
 }
 
+/**
+ * Konfiguration der schlanken Conversion-Landingpage (Google-Ads-Traffic).
+ * Ist `conversion` gesetzt, rendert `ConversionLandingTemplate` statt des Standard-Templates.
+ */
+export interface LandingPageConversion {
+  /** 2–3 kurze Nutzenpunkte im Hero (nur ab sm sichtbar, damit das Formular mobil oben bleibt) */
+  heroPoints: string[];
+  /** Text der CTA-Buttons und des Absende-Buttons */
+  ctaLabel: string;
+  /** Überschrift der Formular-Karte */
+  formTitle: string;
+  /** Platzhalter im Feld Branche / Anliegen */
+  formTopicPlaceholder: string;
+  offer: {
+    title: string;
+    intro: string;
+    items: string[];
+    closing: string;
+  };
+  proof: {
+    title: string;
+    /** Fakten aus content/referenzen (Golfclub Raffelberg) – nur belegte Inhalte */
+    referenceFacts: string[];
+    /** Wörtlicher Auszug aus der freigegebenen Raffelberg-Kundenstimme (content/testimonials.ts) */
+    referenceQuote: string;
+    /** Autoren aus lib/googleBusiness.ts (reviewPreviews), die angezeigt werden dürfen */
+    reviewAuthors: string[];
+  };
+  /** Optionaler, sichtbarer Leistungsumfang */
+  scope?: { title: string; intro?: string; items: string[] };
+  /** Typische Probleme sichtbar statt im Aufklapper */
+  showProblemsInline?: boolean;
+}
+
 export interface LandingPage {
   slug: string;
   path: string;
@@ -88,6 +122,8 @@ export interface LandingPage {
   serviceArea?: LandingPageTextSection;
   /** Sibling hub links with descriptive anchors */
   relatedHubs?: LandingPageRelatedHub[];
+  /** Schlanke Conversion-Variante (Mini-Formular im Hero, Angebot, Proof) */
+  conversion?: LandingPageConversion;
 }
 
 export interface StubPage {

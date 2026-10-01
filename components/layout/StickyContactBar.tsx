@@ -5,6 +5,9 @@ import { usePathname } from "next/navigation";
 import { siteConfig } from "@/lib/navigation";
 import { trackEvent } from "@/lib/tracking";
 
+/** Conversion-Landingpages: "Anfrage" springt zum Mini-Formular statt auf /kontakt (weniger Absprünge). */
+const conversionLandingPaths = ["/leistungen/google-ads", "/leistungen/meta-ads", "/leistungen/social-media"];
+
 /** Feste Schnellkontakt-Leiste – nur auf Mobilgeräten (unter lg), nicht auf /kontakt. */
 export function StickyContactBar() {
   const pathname = usePathname();
@@ -13,6 +16,9 @@ export function StickyContactBar() {
   const tel = siteConfig.phone.replace(/\s/g, "");
   const linkClass =
     "flex min-h-12 items-center justify-center rounded-full border border-white/25 px-3 text-sm font-semibold text-white transition-colors hover:border-accent";
+  const requestClass =
+    "flex min-h-12 items-center justify-center rounded-full bg-accent px-3 text-sm font-bold text-navy transition-colors hover:bg-accent-hover";
+  const isConversionLanding = conversionLandingPaths.includes(pathname);
 
   return (
     <>
@@ -35,12 +41,15 @@ export function StickyContactBar() {
           >
             WhatsApp
           </a>
-          <Link
-            href="/kontakt"
-            className="flex min-h-12 items-center justify-center rounded-full bg-accent px-3 text-sm font-bold text-navy transition-colors hover:bg-accent-hover"
-          >
-            Anfrage
-          </Link>
+          {isConversionLanding ? (
+            <a href="#anfrage" className={requestClass}>
+              Anfrage
+            </a>
+          ) : (
+            <Link href="/kontakt" className={requestClass}>
+              Anfrage
+            </Link>
+          )}
         </div>
       </nav>
     </>

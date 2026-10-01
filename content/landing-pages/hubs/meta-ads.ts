@@ -5,9 +5,9 @@ export const metaAdsHub: LandingPage = {
   path: "/leistungen/meta-ads",
   category: "meta-ads",
   meta: {
-    title: "Meta Ads Agentur Duisburg, Ruhrgebiet & Niederrhein | Kestler Connect",
+    title: "Meta Ads Agentur Duisburg: Facebook- & Instagram-Werbung, die Anfragen bringt",
     description:
-      "Meta Ads Agentur für Duisburg, Ruhrgebiet & Niederrhein: Facebook- und Instagram-Ads für Leads, Reichweite und Buchungen – regional ausgespielt.",
+      "Meta Ads Agentur in Duisburg: Facebook- und Instagram-Werbung, die Anfragen bringt – regional ausgespielt und messbar. Kostenloses 30-Minuten-Erstgespräch mit Einschätzung.",
     keywords: [
       "meta ads duisburg",
       "meta ads moers",
@@ -19,15 +19,49 @@ export const metaAdsHub: LandingPage = {
     ],
   },
   hero: {
-    headline: "Meta Ads Agentur Duisburg, Ruhrgebiet & Niederrhein – Reichweite und Anfragen",
+    headline: "Meta Ads Agentur Duisburg: Facebook- & Instagram-Werbung, die Anfragen bringt",
     subheadline:
-      "Facebook- und Instagram-Ads für regionale Unternehmen in Duisburg, Moers und Umgebung – gezielt, messbar und abgestimmt auf Ihren Social-Media-Auftritt.",
+      "Wir bauen Ihre Kampagnen, messen jede Anfrage und optimieren laufend – regional und abgestimmt auf Ihren Auftritt.",
+  },
+  conversion: {
+    heroPoints: [
+      "Gezielte Ausspielung nach Region, Interessen und Verhalten",
+      "Anzeigen und Creatives, die zu Ihrer Marke passen",
+      "Messung der Anfragen und laufende Optimierung",
+    ],
+    ctaLabel: "Kostenloses Erstgespräch sichern",
+    formTitle: "Kostenloses Erstgespräch sichern",
+    formTopicPlaceholder: "z. B. Ihre Branche oder Ihr Anliegen",
+    offer: {
+      title: "Kostenloses 30-Minuten-Erstgespräch + Einschätzung",
+      intro:
+        "In 30 Minuten klären wir, ob und wie Meta Ads für Ihr Unternehmen Sinn ergeben – ehrlich, konkret und ohne Verkaufsdruck.",
+      items: [
+        "Einschätzung Ihrer Ausgangslage (Angebot, Zielgruppe, Region, Auftritt)",
+        "Was für Ihr Unternehmen sinnvoll ist – und was nicht",
+        "Die nächsten Schritte, konkret und umsetzbar",
+        "Ehrliche Budgetorientierung",
+      ],
+      closing: "Absolut unverbindlich – danach entscheiden Sie frei, ob und wie es weitergeht.",
+    },
+    proof: {
+      title: "Echte Referenz, echte Stimmen",
+      referenceFacts: [
+        "Meta Ads und Google Ads für Kurse und Schnupperangebote",
+        "Strategische Social-Media-Betreuung mit Reels und Content-Plan",
+        "Laufende Optimierung mit klaren Zielen",
+      ],
+      referenceQuote:
+        "Besonders beeindruckt hat uns die Kombination aus Meta Ads und Google Ads. Unsere Platzreife- und Schnuppergolf-Kurse waren innerhalb kurzer Zeit sehr gut gebucht und wir konnten viele neue Interessenten für den Golfsport gewinnen.",
+      reviewAuthors: ["K.M.P."],
+    },
+    showProblemsInline: true,
   },
   intro: {
     title: "Was sind Meta Ads?",
     paragraphs: [
       "Meta Ads sind bezahlte Anzeigen auf Facebook und Instagram. Sie erreichen Menschen nach Interesse, Ort und Verhalten – ideal für Duisburg, Moers und das Ruhrgebiet.",
-      "Wir verknüpfen Meta Ads mit [Social Media Betreuung](/leistungen/social-media) und [Performance Marketing](/leistungen/performance-marketing), damit Creatives, Profil und Landingpage zusammenpassen.",
+      "Wir verknüpfen Meta Ads mit Ihrem Social-Media-Auftritt und Ihrer Landingpage, damit Creatives, Profil und Seite zusammenpassen.",
     ],
   },
   audience: {
@@ -58,7 +92,7 @@ export const metaAdsHub: LandingPage = {
     ],
   },
   problem: {
-    title: "Typische Meta-Ads-Probleme",
+    title: "Kommt Ihnen das bekannt vor?",
     points: [
       "Reichweite ohne brauchbare Anfragen",
       "Creatives, die nicht zur Marke passen",
@@ -70,7 +104,7 @@ export const metaAdsHub: LandingPage = {
   solution: {
     title: "Meta Ads mit klarem Ziel",
     content:
-      "Wir definieren Ziel und Angebot, bauen Kampagnen und Creatives, messen Leads und optimieren laufend – abgestimmt auf [Social Media](/leistungen/social-media), [Google Ads in Duisburg und Moers](/leistungen/google-ads) und Ihre [Website](/leistungen/webseiten).",
+      "Wir definieren Ziel und Angebot, bauen Kampagnen und Creatives, messen Leads und optimieren laufend.",
   },
   benefits: [
     {
@@ -107,8 +141,8 @@ export const metaAdsHub: LandingPage = {
   results: {
     title: "Welche Ergebnisse sind realistisch?",
     paragraphs: [
-      "Realistisch sind mehr Reichweite bei der richtigen Zielgruppe und Anfragen, wenn Angebot und Follow-up stimmen.",
-      "Praxis: [SecPro Bildungszentrum](/referenzen/secpro-bildungszentrum) – Social Media plus Meta Ads. [Golfclub Raffelberg](/referenzen/golfclub-raffelberg) – Kurse und Interessenten über Meta und Google. [DnM](/referenzen/dnm) – Social begleitend zur SEO-Sichtbarkeit.",
+      "Realistisch sind mehr Reichweite bei der richtigen Zielgruppe und Anfragen, wenn Angebot und Follow-up stimmen. Garantien geben wir nicht.",
+      "Praxis: Beim Golfclub Raffelberg liefen Meta Ads und Google Ads für Kurse und Schnupperangebote.",
     ],
     points: [
       "Gezieltere Reichweite in der Region",
@@ -125,65 +159,33 @@ export const metaAdsHub: LandingPage = {
     { step: 4, title: "Optimierung", description: "Tests, Budgets und Zielgruppen schärfen." },
     { step: 5, title: "Reporting", description: "Ergebnisse und Ableitungen." },
   ],
-  relatedHubs: [
-    {
-      title: "Google Ads in Duisburg und Moers",
-      href: "/leistungen/google-ads",
-      description: "Suchanzeigen, wenn Kunden aktiv suchen.",
-    },
-    {
-      title: "Social Media Agentur Duisburg",
-      href: "/leistungen/social-media",
-      description: "Organischer Content, der Ads glaubwürdig macht.",
-    },
-    {
-      title: "Performance Marketing",
-      href: "/leistungen/performance-marketing",
-      description: "Google und Meta aus einer Hand.",
-    },
-    {
-      title: "SEO / Local SEO",
-      href: "/leistungen/seo",
-      description: "Nachhaltige Sichtbarkeit neben bezahlter Reichweite.",
-    },
-    {
-      title: "Website erstellen lassen",
-      href: "/leistungen/webseiten",
-      description: "Landingpages, die aus Klicks Anfragen machen.",
-    },
-  ],
   references: [
-    {
-      title: "SecPro Bildungszentrum",
-      slug: "secpro-bildungszentrum",
-      excerpt: "Social-Media-Betreuung und Meta Ads für Bildungsangebote.",
-    },
     {
       title: "Golfclub Raffelberg",
       slug: "golfclub-raffelberg",
       excerpt: "Meta Ads und Google Ads für Kurse und Mitgliedergewinnung.",
     },
-    {
-      title: "DnM",
-      slug: "dnm",
-      excerpt: "Social Media begleitend zur Sichtbarkeit bei Google – laut Kundenaussage auf Seite 1.",
-    },
   ],
   faq: [
     {
-      question: "Meta Ads oder Google Ads?",
+      question: "Wie läuft das kostenlose 30-Minuten-Erstgespräch ab?",
       answer:
-        "Meta erzeugt Nachfrage und Sichtbarkeit; Google trifft aktive Suche. Oft ist der Mix über [Performance Marketing](/leistungen/performance-marketing) am stärksten – besonders lokal in Duisburg und Moers.",
+        "Wir sprechen über Ihre Ausgangslage und Ziele, Sie erhalten eine ehrliche Einschätzung, was für Ihr Unternehmen sinnvoll ist, sowie die nächsten Schritte und eine Budgetorientierung. Das Gespräch ist absolut unverbindlich – danach entscheiden Sie frei.",
     },
     {
-      question: "Betreut ihr Meta Ads auch für Moers und den Umkreis?",
+      question: "Meta Ads oder Google Ads?",
+      answer:
+        "Meta erzeugt Nachfrage und Sichtbarkeit; Google trifft aktive Suche. Oft ist der Mix am stärksten – im Erstgespräch klären wir, was für Sie sinnvoll ist.",
+    },
+    {
+      question: "Betreuen Sie Meta Ads auch für Moers und den Umkreis?",
       answer:
         "Ja. Wir steuern Kampagnen für Duisburg, Moers und umliegende Städte – mit klarem regionalem Targeting.",
     },
     {
       question: "Brauche ich ein professionelles Profil?",
       answer:
-        "Ja – Interessenten prüfen oft zuerst Instagram/Facebook. Deshalb bieten wir Ads und [Social Media Betreuung](/leistungen/social-media) zusammen an.",
+        "Ja – Interessenten prüfen oft zuerst Instagram/Facebook. Deshalb bieten wir Ads und Social Media Betreuung zusammen an.",
     },
     {
       question: "Welche Ziele eignen sich?",
@@ -198,7 +200,7 @@ export const metaAdsHub: LandingPage = {
     {
       question: "Ab welchem Budget starten?",
       answer:
-        "Lokal starten viele mit einem überschaubaren Testbudget. Ob es sich rechnet und welche Höhe sinnvoll ist, klären wir im Erstgespräch.",
+        "Budget und Betreuung richten sich nach Ziel, Branche und Umfang – im kostenlosen Erstgespräch bekommen Sie eine ehrliche Budgetorientierung.",
     },
   ],
 };
