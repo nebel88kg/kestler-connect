@@ -38,15 +38,14 @@ export const socialMediaHub: LandingPage = {
     formTitle: "Jetzt kostenlos anfragen",
     formTopicPlaceholder: "z. B. Gastronomie, Praxis, Handwerk – oder Ihr Anliegen",
     offer: {
-      title: "Kostenloses Erstgespräch + Social-Media-Leitfaden für Ihr Unternehmen",
-      intro:
-        "Wir schauen gemeinsam auf Ihren Auftritt und Ihre Ziele – ehrlich und ohne Verkaufsdruck. Zusätzlich erhalten Sie nach dem Gespräch einen kostenlosen, auf Ihr Unternehmen abgestimmten Social-Media-Leitfaden.",
+      title: "Kostenloses Strategiegespräch + Leitfaden: Das bekommen Sie",
+      intro: "Wir schauen gemeinsam auf Ihren Auftritt und Ihre Ziele – ehrlich und ohne Verkaufsdruck.",
       items: [
-        "Einschätzung Ihrer Ausgangslage: Kanäle, Auftritt und Zielgruppe",
-        "Klare Empfehlung, welche Kanäle und Formate für Ihr Unternehmen sinnvoll sind",
-        "Die nächsten Schritte – konkret und umsetzbar",
+        "Einschätzung Ihrer Ausgangslage",
+        "Was für Ihr Unternehmen sinnvoll ist",
+        "Nächste Schritte – konkret und umsetzbar",
         "Ehrliche Budgetorientierung",
-        "Kostenloser, auf Ihr Unternehmen abgestimmter Social-Media-Leitfaden – den erhalten Sie nach dem Gespräch",
+        "Kostenloser, auf Ihr Unternehmen abgestimmter Social-Media-Leitfaden – erhalten Sie nach dem Gespräch",
       ],
       closing: "Absolut unverbindlich – danach entscheiden Sie frei, ob und wie es weitergeht.",
     },

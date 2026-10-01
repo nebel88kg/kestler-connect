@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 import type { LandingPage, LandingPageTextSection } from "@/content/types";
 import { Accordion } from "@/components/ui/Accordion";
@@ -10,6 +9,7 @@ import { MoreDetails } from "@/components/ui/MoreDetails";
 import { ReviewBadge } from "@/components/ui/ReviewBadge";
 import { ScrollReveal } from "@/components/ui/ScrollReveal";
 import { TrackedContactLink } from "@/components/ui/TrackedContactLink";
+import { FounderPhoto } from "@/components/landing/FounderPhoto";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { createFaqSchema } from "@/lib/seo";
 import { renderInline } from "@/lib/inlineMarkdown";
@@ -81,8 +81,8 @@ function ProblemList({ points }: { points: string[] }) {
  *
  * heroLayout "form" (Standard, Google Ads / Meta Ads): Hero mit CTA + Mini-Formular, Angebot, Proof,
  *   Budget-Hinweis, Aufklapper, Abschluss-Formular.
- * heroLayout "proof" (Social Media): Hero mit CTA + Jascha-Foto + Kundenzitat, EIN Formular im
- *   Gesprächs-Block unten (Angebot + Formular zusammen), kurze Seite.
+ * heroLayout "proof" (Social Media): Hero mit CTA + Jascha-Foto + Kundenzitat (kein Formular),
+ *   direkt danach der Angebots-Block "Das bekommen Sie" MIT dem einzigen Formular, danach kurze Inhalte.
  *
  * In beiden Varianten: nur reale Inhalte, keine Preise/Laufzeiten, weiterführende Links nur ganz unten.
  */
@@ -156,16 +156,7 @@ export function ConversionLandingTemplate({ page }: { page: LandingPage }) {
             {proofLayout ? (
               <div className="rounded-2xl bg-white p-5 shadow-xl sm:p-6">
                 <div className="flex items-center gap-4 lg:block">
-                  <div className="relative h-20 w-20 shrink-0 overflow-hidden rounded-full lg:aspect-[5/4] lg:h-auto lg:w-full lg:rounded-xl">
-                    <Image
-                      src="/images/JaschaKestler.JPG"
-                      alt="Jascha Kestler – Gründer der Online-Marketing-Agentur Kestler Connect in Duisburg"
-                      fill
-                      priority
-                      className="object-cover object-top"
-                      sizes="(max-width: 1024px) 80px, 40vw"
-                    />
-                  </div>
+                  <FounderPhoto variant="hero" priority />
                   <div className="lg:mt-4">
                     <p className="font-bold text-anthracite">Jascha Kestler</p>
                     <p className="text-sm text-gray-600">Gründer, Kestler Connect – Ihr fester Ansprechpartner</p>
@@ -196,7 +187,63 @@ export function ConversionLandingTemplate({ page }: { page: LandingPage }) {
         </div>
       </section>
 
-      {/* 5./6. Angebot (nur Variante "form"; bei "proof" steckt das Angebot im Gesprächs-Block unten) */}
+      {/* 2. (proof) Angebots-Block mit dem einzigen Formular, direkt nach dem Hero */}
+      {proofLayout && (
+        <section id="kontakt" className="section-padding scroll-mt-16">
+          <div className="container-custom">
+            <ScrollReveal>
+              <div className="rounded-3xl border border-accent/30 bg-accent-light/40 p-5 sm:p-8 lg:p-10">
+                <div className="grid items-start gap-8 lg:grid-cols-2 lg:gap-12">
+                  <div>
+                    <p className="text-sm font-semibold uppercase tracking-[0.15em] text-accent-dark">
+                      Ihr nächster Schritt
+                    </p>
+                    <h2 className="mt-2 text-2xl font-bold text-anthracite lg:text-3xl">{c.offer.title}</h2>
+                    <p className="mt-3 text-gray-700">{c.offer.intro}</p>
+                    <CheckList items={c.offer.items} className="mt-5 space-y-2 text-gray-800" />
+                    <p className="mt-5 font-semibold text-anthracite">{c.offer.closing}</p>
+                    <p className="mt-3 text-sm text-gray-700">{BUDGET_NOTE}</p>
+                    <p className="mt-4 text-sm text-gray-700">
+                      Lieber direkt?{" "}
+                      <TrackedContactLink
+                        kind="phone"
+                        href={`tel:${tel}`}
+                        placement="landing_offer"
+                        className="font-semibold text-anthracite underline underline-offset-2"
+                      >
+                        {siteConfig.phone}
+                      </TrackedContactLink>{" "}
+                      oder{" "}
+                      <TrackedContactLink
+                        kind="whatsapp"
+                        href={waHref}
+                        placement="landing_offer"
+                        className="font-semibold text-anthracite underline underline-offset-2"
+                      >
+                        WhatsApp
+                      </TrackedContactLink>
+                      .
+                    </p>
+                  </div>
+                  {/* Einziges Formular der Seite; id="anfrage" bedient auch die mobile StickyContactBar. */}
+                  <div id="anfrage" className="scroll-mt-20 rounded-2xl bg-white p-5 shadow-sm sm:p-6">
+                    <h3 className="text-xl font-bold text-anthracite">{c.formTitle}</h3>
+                    <p className="mb-4 mt-1 text-sm text-gray-600">Nur drei Angaben – wir melden uns zeitnah.</p>
+                    <LeadMiniForm
+                      source={`${page.slug}-kontakt`}
+                      submitLabel={c.ctaLabel}
+                      offer={c.offer.title}
+                      topicPlaceholder={c.formTopicPlaceholder}
+                    />
+                  </div>
+                </div>
+              </div>
+            </ScrollReveal>
+          </div>
+        </section>
+      )}
+
+      {/* 5./6. Angebot (Variante "form") */}
       {!proofLayout && (
         <section className="section-padding">
           <div className="container-custom">
@@ -306,15 +353,7 @@ export function ConversionLandingTemplate({ page }: { page: LandingPage }) {
                 <div className="space-y-6">
                   <Card hover={false}>
                     <div className="flex items-center gap-4">
-                      <div className="relative h-24 w-24 shrink-0 overflow-hidden rounded-full">
-                        <Image
-                          src="/images/JaschaKestler.JPG"
-                          alt="Jascha Kestler – Gründer der Online-Marketing-Agentur Kestler Connect in Duisburg"
-                          fill
-                          className="object-cover object-top"
-                          sizes="96px"
-                        />
-                      </div>
+                      <FounderPhoto variant="circle" />
                       <div>
                         <p className="font-bold text-anthracite">Jascha Kestler</p>
                         <p className="text-sm text-gray-600">Gründer, Kestler Connect</p>
@@ -368,7 +407,7 @@ export function ConversionLandingTemplate({ page }: { page: LandingPage }) {
         </div>
       </section>
 
-      {/* 4. Budget-Hinweis – keine Preise, keine Laufzeiten (bei "proof" im Gesprächs-Block) */}
+      {/* 4. Budget-Hinweis – keine Preise, keine Laufzeiten (bei "proof" im Angebots-Block) */}
       {!proofLayout && (
         <section className="pb-12 sm:pb-16 lg:pb-20">
           <div className="container-custom">
@@ -411,72 +450,45 @@ export function ConversionLandingTemplate({ page }: { page: LandingPage }) {
         </div>
       </section>
 
-      {/* Gesprächs-/CTA-Block mit Formular */}
-      <section id="kontakt" className="section-padding scroll-mt-16 bg-navy">
-        <div className="container-custom">
-          <div className="grid items-start gap-10 lg:grid-cols-2 lg:gap-14">
-            <ScrollReveal>
-              {proofLayout ? (
-                <>
-                  <p className="text-sm font-semibold uppercase tracking-[0.15em] text-accent">Ihr nächster Schritt</p>
-                  <h2 className="mt-2 text-2xl font-extrabold text-white lg:text-4xl">{c.offer.title}</h2>
-                  <p className="mt-4 text-gray-200">{c.offer.intro}</p>
-                  <ul className="mt-5 space-y-2 text-gray-100">
-                    {c.offer.items.map((item) => (
-                      <li key={item} className="flex items-start gap-3">
-                        <span className="mt-0.5 text-accent" aria-hidden="true">
-                          ✓
-                        </span>
-                        <span>{item}</span>
-                      </li>
-                    ))}
-                  </ul>
-                  <p className="mt-5 font-semibold text-white">{c.offer.closing}</p>
-                  <p className="mt-3 text-sm text-gray-300">{BUDGET_NOTE}</p>
-                </>
-              ) : (
-                <>
-                  <h2 className="text-2xl font-extrabold text-white lg:text-4xl">{c.offer.title}</h2>
-                  <p className="mt-4 text-gray-200">{c.offer.closing}</p>
-                </>
-              )}
-              <p className="mt-4 text-gray-200">
-                Lieber direkt?{" "}
-                <TrackedContactLink kind="phone" href={`tel:${tel}`} placement="landing_footer" className={linkClass}>
-                  {siteConfig.phone}
-                </TrackedContactLink>{" "}
-                oder{" "}
-                <TrackedContactLink kind="whatsapp" href={waHref} placement="landing_footer" className={linkClass}>
-                  WhatsApp
-                </TrackedContactLink>
-                .
-              </p>
-              <div className="mt-6">
-                <ReviewBadge tone="dark" />
-              </div>
-            </ScrollReveal>
-            <ScrollReveal delay={0.15}>
-              {/* Bei "proof" ist dies das einzige Formular; id="anfrage" bedient auch die mobile StickyContactBar. */}
-              <div id={proofLayout ? "anfrage" : undefined} className="scroll-mt-20 rounded-2xl bg-white p-5 sm:p-8">
-                {proofLayout && (
-                  <>
-                    <h3 className="text-xl font-bold text-anthracite">{c.formTitle}</h3>
-                    <p className="mb-4 mt-1 text-sm text-gray-600">Nur drei Angaben – wir melden uns zeitnah.</p>
-                  </>
-                )}
-                <LeadMiniForm
-                  source={`${page.slug}-kontakt`}
-                  submitLabel={c.ctaLabel}
-                  offer={c.offer.title}
-                  topicPlaceholder={c.formTopicPlaceholder}
-                />
-              </div>
-            </ScrollReveal>
+      {/* Abschluss-Formular (nur Variante "form"; bei "proof" gibt es nur das eine Formular oben) */}
+      {!proofLayout && (
+        <section id="kontakt" className="section-padding scroll-mt-16 bg-navy">
+          <div className="container-custom">
+            <div className="grid items-start gap-10 lg:grid-cols-2 lg:gap-14">
+              <ScrollReveal>
+                <h2 className="text-2xl font-extrabold text-white lg:text-4xl">{c.offer.title}</h2>
+                <p className="mt-4 text-gray-200">{c.offer.closing}</p>
+                <p className="mt-4 text-gray-200">
+                  Lieber direkt?{" "}
+                  <TrackedContactLink kind="phone" href={`tel:${tel}`} placement="landing_footer" className={linkClass}>
+                    {siteConfig.phone}
+                  </TrackedContactLink>{" "}
+                  oder{" "}
+                  <TrackedContactLink kind="whatsapp" href={waHref} placement="landing_footer" className={linkClass}>
+                    WhatsApp
+                  </TrackedContactLink>
+                  .
+                </p>
+                <div className="mt-6">
+                  <ReviewBadge tone="dark" />
+                </div>
+              </ScrollReveal>
+              <ScrollReveal delay={0.15}>
+                <div className="rounded-2xl bg-white p-5 sm:p-8">
+                  <LeadMiniForm
+                    source={`${page.slug}-kontakt`}
+                    submitLabel={c.ctaLabel}
+                    offer={c.offer.title}
+                    topicPlaceholder={c.formTopicPlaceholder}
+                  />
+                </div>
+              </ScrollReveal>
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
+      )}
 
-      {/* 2. Weiterführende Links – nur ganz unten, eingeklappt */}
+      {/* Weiterführende Links – nur ganz unten, eingeklappt */}
       <section className="py-8 sm:py-10">
         <div className="container-custom max-w-4xl">
           <MoreDetails summary="Weiterführende Informationen">
