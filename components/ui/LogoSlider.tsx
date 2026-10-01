@@ -5,9 +5,23 @@ import {
   secproLogo,
   raffelbergLogo,
   startupSchoolLogo,
+  buddysDuisburgLogo,
 } from "@/lib/clientLogos";
 
-const logos = [dnmLogo, secproLogo, raffelbergLogo, startupSchoolLogo];
+type SliderLogo = {
+  src: string;
+  alt: string;
+  file: string;
+  darkBackground?: boolean;
+};
+
+const logos: SliderLogo[] = [
+  dnmLogo,
+  secproLogo,
+  raffelbergLogo,
+  startupSchoolLogo,
+  buddysDuisburgLogo,
+];
 
 export function LogoSlider() {
   const duplicated = [...logos, ...logos, ...logos, ...logos];
@@ -20,7 +34,9 @@ export function LogoSlider() {
         {duplicated.map((logo, i) => (
           <div
             key={`${logo.file}-${i}`}
-            className="flex h-16 min-w-[180px] items-center justify-center rounded-xl border border-accent/20 bg-white px-6 shadow-sm"
+            className={`flex h-16 min-w-[180px] items-center justify-center overflow-hidden rounded-xl border px-6 shadow-sm ${
+              logo.darkBackground ? "border-black bg-black" : "border-accent/20 bg-white"
+            }`}
           >
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
