@@ -12,15 +12,16 @@ interface FounderPhotoProps {
 }
 
 /**
- * Jascha-Foto (/images/JaschaKestler.JPG, 1066×1600, Hochformat).
- * Das Gesicht liegt bei ca. 19–49 % der Bildhöhe (Augen ~33 %) und leicht rechts der Mitte (~52 %); oben ist viel
- * Hintergrund. Mit `object-cover` und der Standardposition oben/mittig rutscht das Gesicht aus dem Ausschnitt.
+ * Jascha-Foto (/images/JaschaKestler.JPG, 1066×1600, Hochformat 2:3).
+ * Gemessen: Kopf liegt bei ca. 19–50 % der Bildhöhe (Mitte ~35 %), horizontal bei ca. 53 %; darüber viel Hintergrund.
+ * Mit `object-cover` und mittiger/oberer Standardposition rutscht das Gesicht bei flachen Rahmen aus dem Ausschnitt.
  *
- * - Quadratischer Rahmen: object-position 50 % 22 % → Kopf + Schultern, Gesicht leicht über der Mitte.
- * - Kleiner runder Ausschnitt: zusätzlich 1,4× vergrößert (Ursprung am Gesicht), damit das Gesicht den Kreis füllt
- *   und mittig sitzt.
+ * - Quadratischer Rahmen (Hero ab lg): object-position 50 % 10 % → sichtbarer Bereich ca. 3–70 % der Bildhöhe,
+ *   Kopf + Schultern, Gesicht etwa in der Mitte. (Auf Über uns: 4:5-Rahmen mit Standardposition – dort passt das ohne Anpassung.)
+ * - Kleiner runder Ausschnitt: object-position 50 % 5 % plus 1,4× Zoom (Ursprung am Gesicht), damit das Gesicht
+ *   den Kreis füllt und mittig sitzt.
  */
-const squareClasses = "object-cover object-[50%_22%]";
+const squareClasses = "object-cover object-[50%_10%]";
 const circleZoomClasses = "object-[50%_5%] origin-[52%_48%] scale-[1.4] -translate-x-[2%]";
 
 export function FounderPhoto({ variant, className, priority = false }: FounderPhotoProps) {
