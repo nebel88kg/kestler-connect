@@ -5,9 +5,9 @@ export const seoHub: LandingPage = {
   path: "/leistungen/seo",
   category: "seo",
   meta: {
-    title: "SEO Agentur Duisburg, Ruhrgebiet & Niederrhein | Kestler Connect",
+    title: "SEO Agentur Duisburg, Ruhrgebiet & Niederrhein: Gefunden werden, wenn Kunden suchen",
     description:
-      "SEO Agentur für Duisburg, Ruhrgebiet & Niederrhein: Local SEO, Google-Sichtbarkeit und KI-Auffindbarkeit – für regionale Unternehmen.",
+      "SEO Agentur in Duisburg, Ruhrgebiet & Niederrhein: Local SEO und Sichtbarkeit bei Google und Google Maps für regionale Unternehmen. Kostenloses Erstgespräch mit Einschätzung.",
     keywords: [
       "seo agentur duisburg",
       "seo duisburg",
@@ -20,186 +20,161 @@ export const seoHub: LandingPage = {
     ],
   },
   hero: {
-    headline: "SEO Agentur Duisburg, Ruhrgebiet & Niederrhein – gefunden werden, wenn Kunden suchen",
+    headline: "SEO Agentur Duisburg, Ruhrgebiet & Niederrhein: Gefunden werden, wenn Kunden suchen",
     subheadline:
-      "Local SEO und nachhaltige Sichtbarkeit bei Google – für regionale Unternehmen in Duisburg, Moers und dem Ruhrgebiet.",
+      "Wir machen Ihr Unternehmen bei Google und Google Maps sichtbar – damit Kunden aus Ihrer Region Sie finden und anfragen.",
+  },
+  conversion: {
+    heroLayout: "proof",
+    openSections: true,
+    heroPoints: [
+      "Local SEO für Google und Google Maps",
+      "Klare Leistungsseiten und saubere Technik",
+      "Fester Ansprechpartner",
+    ],
+    ctaLabel: "Kostenloses Erstgespräch sichern",
+    formTitle: "Kostenloses Erstgespräch sichern",
+    formTopicPlaceholder: "z. B. Ihre Branche oder Ihr Anliegen",
+    offer: {
+      title: "Kostenloses Erstgespräch + Einschätzung",
+      intro: "Wir schauen gemeinsam, wie gut Sie bei Google und Google Maps heute gefunden werden – ehrlich und ohne Verkaufsdruck.",
+      items: [
+        "Einschätzung Ihrer Ausgangslage: Website, Google-Unternehmensprofil, Wettbewerb",
+        "Was für Ihr Unternehmen sinnvoll ist – und was nicht",
+        "Die nächsten Schritte, konkret und umsetzbar",
+        "Ehrliche Budgetorientierung",
+      ],
+      closing: "Absolut unverbindlich – danach entscheiden Sie frei, ob und wie es weitergeht.",
+    },
+    proof: {
+      title: "Echte Referenz, echte Stimmen",
+      referenceFacts: [
+        "Strategische Social-Media-Betreuung mit Reels und Content-Plan",
+        "Meta Ads und Google Ads für Kurse und Schnupperangebote",
+      ],
+      referenceQuote:
+        "Was uns besonders gefällt, ist die zuverlässige Zusammenarbeit, die schnelle Umsetzung und dass jede Maßnahme nachvollziehbar und zielorientiert ist. Man merkt einfach, dass hier nicht nur Werbung gemacht wird, sondern dass ein echtes Konzept dahinter steckt.",
+      reviewAuthors: [],
+    },
+    scope: {
+      title: "Das übernehmen wir für Sie",
+      intro: "Sie führen Ihr Unternehmen – wir sorgen dafür, dass Kunden Sie finden.",
+      items: [
+        "Local SEO: Google-Unternehmensprofil und Google Maps",
+        "Klare Leistungs- und Ortsseiten",
+        "Technische Basis: schnelle, gut auffindbare Seiten",
+        "Inhalte, die zu dem passen, was Ihre Kunden suchen",
+        "Vorbereitung auf KI-Sichtbarkeit",
+        "Regelmäßige Auswertung und nächste Schritte",
+      ],
+    },
+    showProblemsInline: true,
   },
   intro: {
-    title: "Was bedeutet SEO für lokale Unternehmen?",
+    title: "SEO kurz erklärt",
     paragraphs: [
-      "SEO macht Ihre Website und Ihr Unternehmen bei Google auffindbar – besonders wichtig für lokale Suchanfragen in Duisburg, Moers und Google Maps.",
-      "Wir verbinden [Local SEO](/leistungen/seo/local-seo) mit klaren Inhalten, technischer Basis und bei Bedarf [Google Ads](/leistungen/google-ads) sowie einer conversion-starken [Website](/leistungen/webseiten).",
+      "SEO sorgt dafür, dass Ihr Unternehmen bei Google gefunden wird – besonders bei lokalen Suchen und auf Google Maps.",
+      "Wir verbinden Local SEO, klare Inhalte und saubere Technik. Garantien für Platzierungen geben wir nicht.",
     ],
   },
   audience: {
-    title: "Für wen lohnt sich SEO?",
+    title: "Für wen sich SEO lohnt",
     paragraphs: [
-      "Für Unternehmen mit Suchvolumen in Duisburg, Moers und Umgebung, die langfristig unabhängiger von bezahlter Werbung werden wollen.",
+      "Wenn Kunden Sie über Google suchen und Sie langfristig weniger von bezahlter Werbung abhängig sein wollen.",
     ],
     points: [
-      "Lokale Dienstleister und Praxen in Duisburg und Moers",
+      "Lokale Dienstleister und Praxen",
       "Handel und regionale Anbieter",
-      "Unternehmen mit klaren Leistungsseiten",
-      "Betriebe, die Ads mit organischer Sichtbarkeit kombinieren",
-      "Marken, die auch in KI-Antworten auffindbar sein wollen",
+      "Unternehmen mit klaren Leistungsangeboten",
+      "Betriebe, die Anzeigen mit organischer Sichtbarkeit kombinieren",
     ],
   },
   serviceArea: {
-    title: "Einzugsgebiet – vor Ort & digital",
+    title: "Einzugsgebiet",
     paragraphs: [
-      "Local SEO und organische Sichtbarkeit für Duisburg, Moers und den Umkreis – mit klaren Orts- und Leistungssignalen.",
-    ],
-    points: [
-      "Duisburg",
-      "Moers",
-      "Oberhausen",
-      "Mülheim an der Ruhr",
-      "Krefeld",
-      "Düsseldorf / Ruhrgebiet & NRW",
+      "Wir betreuen Unternehmen in Duisburg, Moers, Oberhausen, Mülheim, Krefeld, Düsseldorf und im Ruhrgebiet – vor Ort oder digital.",
     ],
   },
   problem: {
-    title: "Wenn Sie online nicht gefunden werden",
+    title: "Kennen Sie das?",
     points: [
-      "Konkurrenz erscheint bei Google – Sie nicht",
-      "Google-Unternehmensprofil unvollständig oder vernachlässigt",
-      "Website ohne klare Leistungs- und Ortsseiten",
-      "Keine Strategie für Local SEO",
-      "Abhängigkeit nur von Ads ohne organische Basis",
+      "Wettbewerber erscheinen bei Google – Sie nicht",
+      "Das Google-Unternehmensprofil ist unvollständig",
+      "Die Website hat keine klaren Leistungsseiten",
+      "Es gibt keine Strategie für die lokale Suche",
+      "Ohne Anzeigen kommen kaum Anfragen",
     ],
   },
   solution: {
     title: "SEO mit lokalem Fokus",
-    content:
-      "Wir priorisieren die Suchanfragen, die Anfragen bringen: Technik, Inhalte, Local SEO und messbare Fortschritte – abgestimmt auf [Google Ads in Duisburg und Moers](/leistungen/google-ads), [Social Media](/leistungen/social-media) und Ihre Website.",
+    content: "Wir priorisieren die Suchanfragen, die Anfragen bringen: Technik, Inhalte und Local SEO.",
   },
   benefits: [
     {
       title: "Local SEO",
-      description: "Sichtbarkeit in Duisburg, Moers und auf Google Maps.",
+      description: "Sichtbarkeit bei Google und auf Google Maps.",
       icon: "map",
     },
     {
       title: "Klare Inhalte",
-      description: "Leistungsseiten, die Suchintention und Conversion verbinden.",
+      description: "Leistungsseiten, die zu den Suchen Ihrer Kunden passen.",
       icon: "check",
     },
     {
-      title: "Technische Basis",
-      description: "Schnelle, indexierbare Seiten ohne unnötigen Ballast.",
+      title: "Saubere Technik",
+      description: "Schnelle, gut auffindbare Seiten.",
       icon: "rocket",
     },
     {
-      title: "Nachhaltigkeit",
-      description: "Organische Sichtbarkeit als langfristiger Kanal.",
-      icon: "star",
-    },
-    {
-      title: "Messbare Fortschritte",
-      description: "Rankings, Traffic und Anfragen im Blick behalten.",
+      title: "Nachvollziehbar",
+      description: "Sie sehen, was sich verändert.",
       icon: "chart",
     },
-    {
-      title: "Kanal-Fit",
-      description: "SEO sinnvoll mit Google Ads und Social verzahnt.",
-      icon: "target",
-    },
   ],
-  results: {
-    title: "Welche Ergebnisse sind realistisch?",
-    paragraphs: [
-      "SEO braucht Zeit: Erste Signale zeigen sich oft nach einigen Wochen; abhängig von Wettbewerb und Ausgangslage. Garantien für Platzierungen geben wir nicht.",
-      "Praxis: Bei [DnM – Dämmstoffe nach Maß](/referenzen/dnm) lag der Fokus auf Sichtbarkeit bei Google; laut Kundenaussage ist DnM heute auf Seite 1 zu finden – ergänzt durch Social Media. [Golfclub Raffelberg](/referenzen/golfclub-raffelberg) und [SecPro Bildungszentrum](/referenzen/secpro-bildungszentrum) zeigen, wie digitale Präsenz und Ads zusammenspielen.",
-    ],
-    points: [
-      "Bessere Auffindbarkeit bei relevanten Suchen",
-      "Stärkeres Google-Unternehmensprofil",
-      "Klarere Leistungsseiten",
-      "Weniger reine Abhängigkeit von Ads",
-      "Nachvollziehbare Ranking- und Traffic-Entwicklung",
-    ],
-  },
   process: [
-    { step: 1, title: "Audit", description: "Website, Local Presence und Wettbewerb prüfen." },
-    { step: 2, title: "Prioritäten", description: "Keywords und Seiten mit Anfragepotenzial." },
+    { step: 1, title: "Audit", description: "Website, Profil und Wettbewerb prüfen." },
+    { step: 2, title: "Prioritäten", description: "Suchbegriffe und Seiten mit Potenzial." },
     { step: 3, title: "Umsetzung", description: "Technik, Inhalte und Local SEO." },
     { step: 4, title: "Ausbau", description: "Weitere Seiten und Optimierungen." },
-    { step: 5, title: "Monitoring", description: "Rankings, Traffic und nächste Schritte." },
-  ],
-  relatedHubs: [
-    {
-      title: "Google Ads in Duisburg und Moers",
-      href: "/leistungen/google-ads",
-      description: "Sofortige Sichtbarkeit neben organischem Wachstum.",
-    },
-    {
-      title: "Meta Ads Agentur Duisburg",
-      href: "/leistungen/meta-ads",
-      description: "Bezahlte Reichweite auf Facebook und Instagram.",
-    },
-    {
-      title: "Social Media Agentur Duisburg",
-      href: "/leistungen/social-media",
-      description: "Content und Markenauftritt als Vertrauenssignal.",
-    },
-    {
-      title: "Performance Marketing",
-      href: "/leistungen/performance-marketing",
-      description: "Google und Meta mit messbarem ROI.",
-    },
-    {
-      title: "Website erstellen lassen",
-      href: "/leistungen/webseiten",
-      description: "Technische und conversion-starke Basis für SEO.",
-    },
+    { step: 5, title: "Auswertung", description: "Entwicklung und nächste Schritte." },
   ],
   references: [
     {
-      title: "DnM – Dämmstoffe nach Maß",
-      slug: "dnm",
-      excerpt: "SEO – laut Kundenaussage heute bei Google auf Seite 1 – plus Social Media.",
-    },
-    {
       title: "Golfclub Raffelberg",
       slug: "golfclub-raffelberg",
-      excerpt: "Digitale Präsenz als Basis für Anfragen und Ads.",
-    },
-    {
-      title: "SecPro Bildungszentrum",
-      slug: "secpro-bildungszentrum",
-      excerpt: "Social Media und Meta Ads auf starker Online-Basis.",
+      excerpt: "Digitale Präsenz als Basis für Anfragen und Anzeigen.",
     },
   ],
   faq: [
     {
+      question: "Wie läuft das kostenlose Erstgespräch ab?",
+      answer:
+        "Wir besprechen Ihre Ausgangslage und Ziele. Sie erhalten eine ehrliche Einschätzung, die nächsten Schritte und eine Budgetorientierung. Alles ist unverbindlich – danach entscheiden Sie frei.",
+    },
+    {
+      question: "Was kostet SEO?",
+      answer:
+        "Budget und Betreuung richten sich nach Ziel, Branche und Umfang – im kostenlosen Erstgespräch bekommen Sie eine ehrliche Budgetorientierung.",
+    },
+    {
       question: "Wie lange dauert SEO?",
       answer:
-        "Erste Signale zeigen sich oft nach einigen Wochen. Wie schnell und wie weit sich Rankings verbessern, hängt von Wettbewerb und Ausgangslage ab. Garantien für Platzierungen geben wir nicht.",
+        "SEO braucht Zeit. Erste Signale zeigen sich oft nach einigen Wochen. Wie weit sich die Sichtbarkeit verbessert, hängt von Wettbewerb und Ausgangslage ab.",
+    },
+    {
+      question: "Garantieren Sie Platzierungen?",
+      answer:
+        "Nein. Das kann seriös niemand. Wir arbeiten an den Hebeln, die Sichtbarkeit und Anfragen realistisch verbessern.",
     },
     {
       question: "SEO oder Google Ads?",
       answer:
-        "Ads wirken schnell, SEO nachhaltig. Viele lokale Unternehmen in Duisburg und Moers nutzen beides parallel.",
+        "Anzeigen wirken schnell, SEO wirkt langfristig. Viele nutzen beides. Im Erstgespräch klären wir, was zu Ihnen passt.",
     },
     {
       question: "Was ist Local SEO?",
       answer:
-        "Optimierung für regionale Suche und Google Maps – Unternehmensprofil, NAP-Daten, lokale Inhalte und Bewertungen.",
-    },
-    {
-      question: "Betreut ihr SEO auch in Moers?",
-      answer:
-        "Ja. Schwerpunkt ist Duisburg und Moers sowie der Umkreis – mit Local SEO statt dünner Doorway-Seiten. Mehr unter [Einzugsgebiet](/einzugsgebiet).",
-    },
-    {
-      question: "Garantiert ihr Rankings?",
-      answer:
-        "Nein – seriös niemand. Wir arbeiten transparent an den Hebeln, die Rankings und Anfragen realistisch verbessern.",
-    },
-    {
-      question: "Was ist KI-Sichtbarkeit?",
-      answer:
-        "Inhalte so aufbereiten, dass Sie auch in KI-Antworten und AI-Overviews besser auffindbar sind – ergänzend zu klassischem SEO.",
+        "Optimierung für die regionale Suche und Google Maps: Unternehmensprofil, lokale Inhalte und Bewertungen.",
     },
   ],
 };

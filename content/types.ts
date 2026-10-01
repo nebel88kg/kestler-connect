@@ -78,6 +78,11 @@ export interface LandingPageConversion {
    *   die Seite ist kürzer (kein separater Vorteils-/Proof-/Budget-Block).
    */
   heroLayout?: "form" | "proof";
+  /**
+   * Kurze, sichtbare Textabschnitte (intro, audience, serviceArea) statt Aufklapper;
+   * FAQ als offene Frage-Antwort-Liste statt Accordion; kein Ergebnisse-Block.
+   */
+  openSections?: boolean;
   /** 2–3 kurze Nutzenpunkte im Hero (nur ab sm sichtbar, damit das Formular mobil oben bleibt) */
   heroPoints: string[];
   /** Text der CTA-Buttons und des Absende-Buttons */

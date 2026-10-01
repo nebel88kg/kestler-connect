@@ -29,9 +29,10 @@ export const googleAdsHub: LandingPage = {
     subheadline: "Wir richten Ihre Kampagnen ein, tracken jede Anfrage und optimieren laufend.",
   },
   conversion: {
+    openSections: true,
     heroPoints: [
-      "Kampagnen, die genau dann erscheinen, wenn jemand Ihre Leistung sucht",
-      "Tracking von Anrufen und Formularen statt nur Klicks",
+      "Ihre Anzeige erscheint, wenn jemand Ihre Leistung sucht",
+      "Wir messen Anrufe und Formulare – nicht nur Klicks",
       "Fester Ansprechpartner und laufende Optimierung",
     ],
     ctaLabel: "Kostenloses Erstgespräch sichern",
@@ -39,10 +40,9 @@ export const googleAdsHub: LandingPage = {
     formTopicPlaceholder: "z. B. Ihre Branche oder Ihr Anliegen",
     offer: {
       title: "Kostenloses 30-Minuten-Erstgespräch + Einschätzung",
-      intro:
-        "In 30 Minuten klären wir, ob und wie Google Ads für Ihr Unternehmen Sinn ergibt – ehrlich, konkret und ohne Verkaufsdruck.",
+      intro: "Wir klären, ob und wie Google Ads für Ihr Unternehmen sinnvoll sind – ehrlich und ohne Verkaufsdruck.",
       items: [
-        "Einschätzung Ihrer Ausgangslage (Angebot, Region, Wettbewerb, bisheriger Account)",
+        "Einschätzung Ihrer Ausgangslage",
         "Was für Ihr Unternehmen sinnvoll ist – und was nicht",
         "Die nächsten Schritte, konkret und umsetzbar",
         "Ehrliche Budgetorientierung",
@@ -63,79 +63,57 @@ export const googleAdsHub: LandingPage = {
     showProblemsInline: true,
   },
   intro: {
-    title: "Was ist Google Ads / SEA?",
+    title: "Google Ads kurz erklärt",
     paragraphs: [
-      "SEA (Search Engine Advertising) ist Suchmaschinenwerbung: Google Ads zeigt Ihre Anzeige, wenn jemand aktiv nach Ihrer Leistung sucht – ideal, um planbar Anfragen in Duisburg, Moers und dem Ruhrgebiet zu gewinnen.",
-      "Bei Kestler Connect betreuen wir Google Ads als System: Keywords, Landingpages, Tracking und laufende Optimierung.",
+      "Google Ads zeigt Ihre Anzeige genau dann, wenn jemand nach Ihrer Leistung sucht. So erreichen Sie Menschen, die schon Bedarf haben.",
+      "Wir übernehmen Aufbau, Tracking und laufende Optimierung. Sie sehen, welche Anfragen aus Ihrer Werbung kommen.",
     ],
   },
   audience: {
-    title: "Für wen eignet sich Google Ads?",
-    paragraphs: [
-      "Wenn Menschen Ihre Leistung aktiv googeln und der Auftragswert die Akquisitionskosten klar übersteigt – besonders stark für Anbieter in Duisburg, Moers und dem Umkreis.",
-    ],
+    title: "Für wen sich Google Ads lohnen",
+    paragraphs: ["Wenn Kunden Ihre Leistung googeln und ein Auftrag mehr wert ist als die Kosten für eine Anfrage."],
     points: [
-      "Regionale und lokale Unternehmen in Duisburg, Moers und Umgebung",
       "Dienstleister und Beratungen vor Ort",
       "Praxen, Kanzleien und regionale Anbieter",
       "Events und Freizeitangebote mit Buchungsziel",
-      "Unternehmen, die parallel zu SEO sofort Anfragen brauchen",
+      "Unternehmen, die schnell Anfragen brauchen",
     ],
   },
   serviceArea: {
-    title: "Einzugsgebiet – vor Ort & digital",
+    title: "Einzugsgebiet",
     paragraphs: [
-      "Wir betreuen Google Ads für Unternehmen in Duisburg und Moers sowie dem näheren Umkreis – hybrid vor Ort und remote, mit lokalem Targeting statt Streuverlust.",
-    ],
-    points: [
-      "Duisburg",
-      "Moers",
-      "Oberhausen",
-      "Mülheim an der Ruhr",
-      "Krefeld",
-      "Düsseldorf / Ruhrgebiet & NRW",
+      "Wir betreuen Unternehmen in Duisburg, Moers, Oberhausen, Mülheim, Krefeld, Düsseldorf und im Ruhrgebiet – vor Ort oder digital.",
     ],
   },
   problem: {
-    title: "Kommt Ihnen das bekannt vor?",
+    title: "Kennen Sie das?",
     points: [
-      "Hohe Klickkosten ohne brauchbare Anfragen",
-      "Unklare Keywords und Streuverlust",
-      "Keine oder unzuverlässige Conversion-Messung",
-      "Landingpage, die nicht zur Anzeige passt",
-      "Account ohne System – einmal eingerichtet, nie optimiert",
+      "Viele Klicks, aber kaum Anfragen",
+      "Keywords ohne klares Ziel",
+      "Anrufe und Formulare werden nicht gemessen",
+      "Die Seite passt nicht zur Anzeige",
+      "Einmal eingerichtet, nie optimiert",
     ],
   },
   solution: {
     title: "Google Ads mit Fokus auf Anfragen",
-    content:
-      "Wir strukturieren Kampagnen sauber, steuern lokal in Duisburg und Moers, messen Anrufe und Formulare und optimieren laufend.",
+    content: "Wir strukturieren Kampagnen sauber, messen Anrufe und Formulare und optimieren laufend.",
   },
   benefits: [
     {
-      title: "Suchintention nutzen",
-      description: "Anzeigen genau dann, wenn jemand aktiv nach Ihrer Leistung sucht.",
+      title: "Genau im richtigen Moment",
+      description: "Ihre Anzeige erscheint, wenn jemand aktiv sucht.",
       icon: "target",
     },
     {
-      title: "Lokale Steuerung",
-      description: "Budgets für Duisburg, Moers und Umkreis klar begrenzen – weniger Streuverlust.",
+      title: "Lokal gesteuert",
+      description: "Sie erreichen Menschen aus Ihrer Region – mit weniger Streuverlust.",
       icon: "map",
     },
     {
-      title: "Messbare Anfragen",
-      description: "Tracking von Anrufen und Formularen statt nur Klicks.",
+      title: "Messbar",
+      description: "Wir erfassen Anrufe und Formulare, nicht nur Klicks.",
       icon: "chart",
-    },
-    {
-      title: "Saubere Struktur",
-      description: "Kampagnen und Keywords, die Qualität und Kosten verbessern.",
-      icon: "check",
-    },
-    {
-      title: "Laufende Optimierung",
-      description: "Gebote, Texte und Negativ-Keywords kontinuierlich schärfen.",
-      icon: "rocket",
     },
     {
       title: "Fester Ansprechpartner",
@@ -143,25 +121,11 @@ export const googleAdsHub: LandingPage = {
       icon: "users",
     },
   ],
-  results: {
-    title: "Welche Ergebnisse sind realistisch?",
-    paragraphs: [
-      "Realistisch sind mehr qualifizierte Anfragen aus der Suche und transparente Kosten pro Lead – sofern Angebot und Seite stimmen. Garantien geben wir nicht.",
-      "Praxis: Beim Golfclub Raffelberg unterstützten Google Ads Kurse und Firmenfeiern.",
-    ],
-    points: [
-      "Mehr Anfragen aus aktiver Suche",
-      "Klarere Kosten pro Lead",
-      "Weniger irrelevante Klicks",
-      "Bessere Landingpage-Conversion",
-      "Nachvollziehbares Reporting",
-    ],
-  },
   process: [
     { step: 1, title: "Analyse", description: "Markt, Keywords und bisheriger Account." },
-    { step: 2, title: "Strategie", description: "Kampagnenstruktur und Conversion-Ziele." },
-    { step: 3, title: "Setup", description: "Anzeigen, Tracking und Landingpages." },
-    { step: 4, title: "Optimierung", description: "Gebote, Texte und Negativ-Keywords." },
+    { step: 2, title: "Strategie", description: "Kampagnen und Ziele festlegen." },
+    { step: 3, title: "Setup", description: "Anzeigen, Tracking und Seite." },
+    { step: 4, title: "Optimierung", description: "Gebote, Texte und Keywords schärfen." },
     { step: 5, title: "Reporting", description: "Ergebnisse und nächste Schritte." },
   ],
   references: [
@@ -175,47 +139,26 @@ export const googleAdsHub: LandingPage = {
     {
       question: "Wie läuft das kostenlose 30-Minuten-Erstgespräch ab?",
       answer:
-        "Wir sprechen über Ihre Ausgangslage und Ziele, Sie erhalten eine ehrliche Einschätzung, was für Ihr Unternehmen sinnvoll ist, sowie die nächsten Schritte und eine Budgetorientierung. Das Gespräch ist absolut unverbindlich – danach entscheiden Sie frei.",
-    },
-    {
-      question: "Was bedeutet SEA?",
-      answer:
-        "SEA steht für Search Engine Advertising – Suchmaschinenwerbung. Bei Google heißt das praktisch: Google Ads. Sie zahlen für Klicks auf Anzeigen, die erscheinen, wenn jemand nach Ihrer Leistung sucht.",
-    },
-    {
-      question: "Kann ich bei Ihnen Werbung schalten lassen?",
-      answer:
-        "Ja. Als Ads-Agentur richten wir Kampagnen ein, steuern Budgets und optimieren laufend – Sie schalten Werbung bei Google, wir übernehmen Setup, Texte, Targeting und Reporting.",
-    },
-    {
-      question: "Ab welchem Budget lohnen sich Google Ads?",
-      answer:
-        "Budget und Betreuung richten sich nach Ziel, Branche und Umfang – im kostenlosen Erstgespräch bekommen Sie eine ehrliche Budgetorientierung.",
-    },
-    {
-      question: "Betreuen Sie Google Ads auch in Moers und Umgebung?",
-      answer:
-        "Ja. Schwerpunkt ist Duisburg und Moers sowie der Umkreis (u. a. Oberhausen, Mülheim, Krefeld). Targeting und Reporting bleiben lokal und nachvollziehbar.",
-    },
-    {
-      question: "Wie schnell kommen Anfragen?",
-      answer:
-        "Nach dem Go-live zeigen sich oft schon nach kurzer Zeit erste Signale. Stabile Ergebnisse brauchen laufende Optimierung; abhängig von Wettbewerb, Budget und Ausgangslage.",
-    },
-    {
-      question: "Google Ads oder SEO?",
-      answer:
-        "Google Ads bringt sofort Sichtbarkeit; SEO wirkt nachhaltiger. Viele kombinieren beides sinnvoll – im Erstgespräch klären wir, was für Sie passt.",
-    },
-    {
-      question: "Brauche ich eine Landingpage?",
-      answer:
-        "Ideal ja. Eine passende Seite steigert Conversion und Qualitätsfaktor – wir erstellen oder optimieren sie.",
+        "Wir besprechen Ihre Ausgangslage und Ziele. Sie erhalten eine ehrliche Einschätzung, die nächsten Schritte und eine Budgetorientierung. Alles ist unverbindlich – danach entscheiden Sie frei.",
     },
     {
       question: "Was kostet die Betreuung?",
       answer:
         "Budget und Betreuung richten sich nach Ziel, Branche und Umfang – im kostenlosen Erstgespräch bekommen Sie eine ehrliche Budgetorientierung.",
+    },
+    {
+      question: "Wie schnell kommen Anfragen?",
+      answer:
+        "Nach dem Start zeigen sich oft erste Signale. Stabile Ergebnisse brauchen laufende Optimierung. Wie schnell, hängt von Wettbewerb, Budget und Ausgangslage ab.",
+    },
+    {
+      question: "Google Ads oder SEO?",
+      answer:
+        "Google Ads bringt schnell Sichtbarkeit, SEO wirkt langfristig. Viele kombinieren beides. Im Erstgespräch klären wir, was zu Ihnen passt.",
+    },
+    {
+      question: "Brauche ich eine eigene Seite für die Anzeigen?",
+      answer: "Eine passende Seite hilft, aus Klicks Anfragen zu machen. Wir erstellen oder verbessern sie bei Bedarf.",
     },
   ],
 };
