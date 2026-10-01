@@ -3,6 +3,7 @@ import Image from "next/image";
 import { footerNav, leistungenMenuItems, siteConfig } from "@/lib/navigation";
 import { splitLeistungen } from "@/lib/serviceMenu";
 import { linkedinUrl } from "@/lib/profiles";
+import { CookieSettingsButton } from "@/components/consent/CookieSettingsButton";
 
 function InstagramIcon() {
   return (
@@ -152,13 +153,14 @@ export function Footer() {
           <p className="text-sm text-gray-300">
             © {new Date().getFullYear()} Kestler Connect. Alle Rechte vorbehalten.
           </p>
-          <div className="flex gap-6 text-sm text-gray-300">
+          <div className="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm text-gray-300">
             <Link href="/impressum" className="transition-colors hover:text-accent">
               Impressum
             </Link>
             <Link href="/datenschutz" className="transition-colors hover:text-accent">
               Datenschutz
             </Link>
+            <CookieSettingsButton className="transition-colors hover:text-accent" />
           </div>
         </div>
       </div>

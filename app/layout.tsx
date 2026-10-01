@@ -6,6 +6,8 @@ import { Footer } from "@/components/layout/Footer";
 import { StickyContactBar } from "@/components/layout/StickyContactBar";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { GoogleTagManager } from "@/components/analytics/GoogleTagManager";
+import { CookieBanner } from "@/components/consent/CookieBanner";
+import { consentInitScript } from "@/lib/consentScript";
 import { siteConfig } from "@/lib/navigation";
 import { createMetadata } from "@/lib/seo";
 import { googleBusiness } from "@/lib/googleBusiness";
@@ -95,7 +97,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="de">
+      <head>
+        {/* Consent Mode v2: Default "denied" synchron im <head>, garantiert VOR dem GTM-Loader. */}
+        <script dangerouslySetInnerHTML={{ __html: consentInitScript }} />
+      </head>
       <body className={`${inter.variable} font-sans`}>
+        {/* Im DOM vor dem Header (Tab-Reihenfolge), visuell fixiert unten. */}
+        <CookieBanner />
         <GoogleTagManager />
         <JsonLd data={organizationSchema} />
         <Header />
