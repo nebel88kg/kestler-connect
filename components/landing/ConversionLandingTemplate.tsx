@@ -77,22 +77,30 @@ function ProblemList({ points }: { points: string[] }) {
 }
 
 /**
- * Schlanke Conversion-Landingpage für bezahlten Suchverkehr:
- * Hero mit CTA + Mini-Formular, Angebot, Proof (nur reale Inhalte), Budget-Hinweis ohne Preise,
- * lange Texte in Aufklappern, weiterführende Links nur ganz unten.
+ * Schlanke Conversion-Landingpage für bezahlten Suchverkehr.
+ *
+ * heroLayout "form" (Standard, Google Ads / Meta Ads): Hero mit CTA + Mini-Formular, Angebot, Proof,
+ *   Budget-Hinweis, Aufklapper, Abschluss-Formular.
+ * heroLayout "proof" (Social Media): Hero mit CTA + Jascha-Foto + Kundenzitat, EIN Formular im
+ *   Gesprächs-Block unten (Angebot + Formular zusammen), kurze Seite.
+ *
+ * In beiden Varianten: nur reale Inhalte, keine Preise/Laufzeiten, weiterführende Links nur ganz unten.
  */
 export function ConversionLandingTemplate({ page }: { page: LandingPage }) {
   const c = page.conversion;
   if (!c) return null;
 
+  const proofLayout = c.heroLayout === "proof";
   const tel = siteConfig.phone.replace(/\s/g, "");
   const waHref = `https://wa.me/${siteConfig.whatsapp}`;
   const faqSchema = createFaqSchema(page.faq);
   const reviews = googleBusiness.reviewPreviews.filter((review) => c.proof.reviewAuthors.includes(review.author));
   const attribution = getTestimonialAttribution(raffelbergTestimonial);
-  const contentBlocks = [page.intro, page.audience, page.serviceArea, page.results].filter(
-    (section): section is LandingPageTextSection => Boolean(section),
-  );
+  const attributionText = `${attribution.primary}${attribution.secondary ? `, ${attribution.secondary}` : ""}`;
+  const contentBlocks = (proofLayout
+    ? [page.intro, page.audience, page.serviceArea]
+    : [page.intro, page.audience, page.serviceArea, page.results]
+  ).filter((section): section is LandingPageTextSection => Boolean(section));
   const otherLinks = conversionLinks.filter((link) => link.href !== page.path);
   const linkClass = "font-semibold text-white underline underline-offset-2";
 
@@ -100,10 +108,12 @@ export function ConversionLandingTemplate({ page }: { page: LandingPage }) {
     <>
       <JsonLd data={faqSchema} />
 
-      {/* 1. Above the fold: H1, Subline, CTA + Mini-Formular */}
+      {/* 1. Above the fold: H1, Subline, CTA + (Mini-Formular ODER Foto/Zitat) */}
       <section className="page-hero bg-navy">
         <div className="container-custom">
-          <div className="grid items-start gap-8 lg:grid-cols-[1.1fr_0.9fr] lg:gap-14">
+          <div
+            className={`grid gap-8 lg:grid-cols-[1.1fr_0.9fr] lg:gap-14 ${proofLayout ? "items-center" : "items-start"}`}
+          >
             <div>
               <h1 className="text-2xl font-extrabold leading-tight text-white sm:text-3xl lg:text-5xl">
                 {page.hero.headline}
@@ -111,12 +121,20 @@ export function ConversionLandingTemplate({ page }: { page: LandingPage }) {
               <p className="mt-4 text-base leading-relaxed text-gray-200 sm:mt-6 sm:text-lg lg:text-xl">
                 {page.hero.subheadline}
               </p>
-              <CheckList
-                items={c.heroPoints}
-                className="mt-6 hidden space-y-2 text-base text-gray-100 sm:block [&_span:first-child]:text-accent"
-              />
+              {!proofLayout && (
+                <ul className="mt-6 hidden space-y-2 text-base text-gray-100 sm:block">
+                  {c.heroPoints.map((item) => (
+                    <li key={item} className="flex items-start gap-3">
+                      <span className="mt-0.5 text-accent" aria-hidden="true">
+                        ✓
+                      </span>
+                      <span>{item}</span>
+                    </li>
+                  ))}
+                </ul>
+              )}
               <div className="mt-6 sm:mt-8">
-                <Button href="#anfrage" size="lg" className="text-center">
+                <Button href={proofLayout ? "#kontakt" : "#anfrage"} size="lg" className="text-center">
                   {c.ctaLabel}
                 </Button>
               </div>
@@ -135,42 +153,73 @@ export function ConversionLandingTemplate({ page }: { page: LandingPage }) {
               </div>
             </div>
 
-            <div id="anfrage" className="scroll-mt-24 rounded-2xl bg-white p-5 shadow-xl sm:p-6">
-              <h2 className="text-xl font-bold text-anthracite">{c.formTitle}</h2>
-              <p className="mb-4 mt-1 text-sm text-gray-600">Nur drei Angaben – wir melden uns zeitnah.</p>
-              <LeadMiniForm
-                source={`${page.slug}-hero`}
-                submitLabel={c.ctaLabel}
-                offer={c.offer.title}
-                topicPlaceholder={c.formTopicPlaceholder}
-              />
-            </div>
+            {proofLayout ? (
+              <div className="rounded-2xl bg-white p-5 shadow-xl sm:p-6">
+                <div className="flex items-center gap-4 lg:block">
+                  <div className="relative h-20 w-20 shrink-0 overflow-hidden rounded-full lg:aspect-[5/4] lg:h-auto lg:w-full lg:rounded-xl">
+                    <Image
+                      src="/images/JaschaKestler.JPG"
+                      alt="Jascha Kestler – Gründer der Online-Marketing-Agentur Kestler Connect in Duisburg"
+                      fill
+                      priority
+                      className="object-cover object-top"
+                      sizes="(max-width: 1024px) 80px, 40vw"
+                    />
+                  </div>
+                  <div className="lg:mt-4">
+                    <p className="font-bold text-anthracite">Jascha Kestler</p>
+                    <p className="text-sm text-gray-600">Gründer, Kestler Connect – Ihr fester Ansprechpartner</p>
+                  </div>
+                </div>
+                <figure className="mt-4 border-t border-gray-100 pt-4">
+                  <blockquote className="text-sm leading-relaxed text-gray-800 sm:text-base">
+                    „{c.proof.referenceQuote}“
+                  </blockquote>
+                  <figcaption className="mt-2 text-xs text-gray-600">
+                    Auszug aus der Kundenstimme – {attributionText}
+                  </figcaption>
+                </figure>
+              </div>
+            ) : (
+              <div id="anfrage" className="scroll-mt-24 rounded-2xl bg-white p-5 shadow-xl sm:p-6">
+                <h2 className="text-xl font-bold text-anthracite">{c.formTitle}</h2>
+                <p className="mb-4 mt-1 text-sm text-gray-600">Nur drei Angaben – wir melden uns zeitnah.</p>
+                <LeadMiniForm
+                  source={`${page.slug}-hero`}
+                  submitLabel={c.ctaLabel}
+                  offer={c.offer.title}
+                  topicPlaceholder={c.formTopicPlaceholder}
+                />
+              </div>
+            )}
           </div>
         </div>
       </section>
 
-      {/* 5./6. Angebot */}
-      <section className="section-padding">
-        <div className="container-custom">
-          <ScrollReveal>
-            <div className="rounded-3xl border border-accent/30 bg-accent-light/40 p-6 sm:p-10 lg:p-12">
-              <p className="text-sm font-semibold uppercase tracking-[0.15em] text-accent-dark">Ihr nächster Schritt</p>
-              <h2 className="mt-2 text-2xl font-bold text-anthracite lg:text-4xl">{c.offer.title}</h2>
-              <p className="mt-4 max-w-3xl text-lg leading-relaxed text-gray-700">{c.offer.intro}</p>
-              <CheckList items={c.offer.items} className="mt-6 grid gap-3 text-gray-800 md:grid-cols-2" />
-              <p className="mt-6 text-lg font-semibold text-anthracite">{c.offer.closing}</p>
-              <div className="mt-6">
-                <Button href="#kontakt" size="lg" className="text-center">
-                  {c.ctaLabel}
-                </Button>
+      {/* 5./6. Angebot (nur Variante "form"; bei "proof" steckt das Angebot im Gesprächs-Block unten) */}
+      {!proofLayout && (
+        <section className="section-padding">
+          <div className="container-custom">
+            <ScrollReveal>
+              <div className="rounded-3xl border border-accent/30 bg-accent-light/40 p-6 sm:p-10 lg:p-12">
+                <p className="text-sm font-semibold uppercase tracking-[0.15em] text-accent-dark">Ihr nächster Schritt</p>
+                <h2 className="mt-2 text-2xl font-bold text-anthracite lg:text-4xl">{c.offer.title}</h2>
+                <p className="mt-4 max-w-3xl text-lg leading-relaxed text-gray-700">{c.offer.intro}</p>
+                <CheckList items={c.offer.items} className="mt-6 grid gap-3 text-gray-800 md:grid-cols-2" />
+                <p className="mt-6 text-lg font-semibold text-anthracite">{c.offer.closing}</p>
+                <div className="mt-6">
+                  <Button href="#kontakt" size="lg" className="text-center">
+                    {c.ctaLabel}
+                  </Button>
+                </div>
               </div>
-            </div>
-          </ScrollReveal>
-        </div>
-      </section>
+            </ScrollReveal>
+          </div>
+        </section>
+      )}
 
       {c.showProblemsInline && (
-        <section className="section-padding bg-gray-50">
+        <section className={`section-padding ${proofLayout ? "" : "bg-gray-50"}`}>
           <div className="container-custom">
             <ScrollReveal>
               <h2 className="mb-8 text-2xl font-bold text-anthracite lg:text-4xl">{page.problem.title}</h2>
@@ -181,7 +230,7 @@ export function ConversionLandingTemplate({ page }: { page: LandingPage }) {
       )}
 
       {c.scope && (
-        <section className={`section-padding ${c.showProblemsInline ? "" : "bg-gray-50"}`}>
+        <section className={`section-padding ${proofLayout ? "bg-gray-50" : c.showProblemsInline ? "" : "bg-gray-50"}`}>
           <div className="container-custom">
             <ScrollReveal>
               <h2 className="text-2xl font-bold text-anthracite lg:text-4xl">{c.scope.title}</h2>
@@ -199,98 +248,101 @@ export function ConversionLandingTemplate({ page }: { page: LandingPage }) {
         </section>
       )}
 
-      {/* Vorteile */}
-      <section className="section-padding">
-        <div className="container-custom">
-          <ScrollReveal>
-            <h2 className="mb-10 text-center text-2xl font-bold text-anthracite lg:text-4xl">Ihre Vorteile</h2>
-          </ScrollReveal>
-          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-            {page.benefits.map((benefit, i) => (
-              <ScrollReveal key={benefit.title} delay={i * 0.05}>
-                <Card hover={false} className="h-full">
-                  <BenefitIcon icon={benefit.icon} />
-                  <h3 className="mt-4 text-lg font-bold text-anthracite">{benefit.title}</h3>
-                  <p className="mt-2 text-gray-600">{benefit.description}</p>
-                </Card>
+      {/* Vorteile + Proof-Block (nur Variante "form"; bei "proof" steht der Proof im Hero) */}
+      {!proofLayout && (
+        <>
+          <section className="section-padding">
+            <div className="container-custom">
+              <ScrollReveal>
+                <h2 className="mb-10 text-center text-2xl font-bold text-anthracite lg:text-4xl">Ihre Vorteile</h2>
               </ScrollReveal>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* 3. Proof: nur Raffelberg, echte Google-Bewertungen, Jascha-Foto */}
-      <section className="section-padding bg-gray-50">
-        <div className="container-custom">
-          <ScrollReveal>
-            <h2 className="text-center text-2xl font-bold text-anthracite lg:text-4xl">{c.proof.title}</h2>
-          </ScrollReveal>
-          <div className="mt-10 grid gap-6 lg:grid-cols-3">
-            <Card hover={false} className="lg:col-span-2">
-              <div className="flex items-center gap-4">
-                <div className="flex h-16 w-16 shrink-0 items-center justify-center overflow-hidden rounded-xl border border-gray-200 bg-white p-1">
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
-                    src={raffelbergLogo.src}
-                    alt={raffelbergLogo.alt}
-                    width={56}
-                    height={56}
-                    className="max-h-full w-auto max-w-full object-contain"
-                  />
-                </div>
-                <div>
-                  <p className="text-sm font-semibold uppercase tracking-[0.15em] text-accent-dark">Referenz</p>
-                  <h3 className="text-xl font-bold text-anthracite">Golfclub Raffelberg</h3>
-                </div>
+              <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+                {page.benefits.map((benefit, i) => (
+                  <ScrollReveal key={benefit.title} delay={i * 0.05}>
+                    <Card hover={false} className="h-full">
+                      <BenefitIcon icon={benefit.icon} />
+                      <h3 className="mt-4 text-lg font-bold text-anthracite">{benefit.title}</h3>
+                      <p className="mt-2 text-gray-600">{benefit.description}</p>
+                    </Card>
+                  </ScrollReveal>
+                ))}
               </div>
-              <CheckList items={c.proof.referenceFacts} className="mt-5 space-y-2 text-gray-700" />
-              <figure className="mt-6 rounded-xl bg-gray-50 p-5">
-                <blockquote className="leading-relaxed text-gray-800">„{c.proof.referenceQuote}“</blockquote>
-                <figcaption className="mt-3 text-sm text-gray-600">
-                  Auszug aus der Kundenstimme – {attribution.primary}
-                  {attribution.secondary ? `, ${attribution.secondary}` : ""}
-                </figcaption>
-              </figure>
-            </Card>
+            </div>
+          </section>
 
-            <div className="space-y-6">
-              <Card hover={false}>
-                <div className="flex items-center gap-4">
-                  <div className="relative h-24 w-24 shrink-0 overflow-hidden rounded-full">
-                    <Image
-                      src="/images/JaschaKestler.JPG"
-                      alt="Jascha Kestler – Gründer der Online-Marketing-Agentur Kestler Connect in Duisburg"
-                      fill
-                      className="object-cover object-top"
-                      sizes="96px"
-                    />
+          {/* 3. Proof: nur Raffelberg, echte Google-Bewertungen, Jascha-Foto */}
+          <section className="section-padding bg-gray-50">
+            <div className="container-custom">
+              <ScrollReveal>
+                <h2 className="text-center text-2xl font-bold text-anthracite lg:text-4xl">{c.proof.title}</h2>
+              </ScrollReveal>
+              <div className="mt-10 grid gap-6 lg:grid-cols-3">
+                <Card hover={false} className="lg:col-span-2">
+                  <div className="flex items-center gap-4">
+                    <div className="flex h-16 w-16 shrink-0 items-center justify-center overflow-hidden rounded-xl border border-gray-200 bg-white p-1">
+                      {/* eslint-disable-next-line @next/next/no-img-element */}
+                      <img
+                        src={raffelbergLogo.src}
+                        alt={raffelbergLogo.alt}
+                        width={56}
+                        height={56}
+                        className="max-h-full w-auto max-w-full object-contain"
+                      />
+                    </div>
+                    <div>
+                      <p className="text-sm font-semibold uppercase tracking-[0.15em] text-accent-dark">Referenz</p>
+                      <h3 className="text-xl font-bold text-anthracite">Golfclub Raffelberg</h3>
+                    </div>
                   </div>
-                  <div>
-                    <p className="font-bold text-anthracite">Jascha Kestler</p>
-                    <p className="text-sm text-gray-600">Gründer, Kestler Connect</p>
-                  </div>
-                </div>
-                <p className="mt-4 text-sm leading-relaxed text-gray-700">
-                  Ihr fester Ansprechpartner: Im Erstgespräch sprechen Sie direkt mit mir – ohne Umweg über anonyme
-                  Agenturprozesse.
-                </p>
-              </Card>
-
-              <Card hover={false}>
-                <ReviewBadge />
-                {reviews.map((review) => (
-                  <figure key={review.author} className="mt-4">
-                    <blockquote className="text-sm leading-relaxed text-gray-800">„{review.text}“</blockquote>
-                    <figcaption className="mt-2 text-xs text-gray-600">
-                      {review.author} · {review.rating} von 5 Sternen · Google-Bewertung, laut Kundenaussage
+                  <CheckList items={c.proof.referenceFacts} className="mt-5 space-y-2 text-gray-700" />
+                  <figure className="mt-6 rounded-xl bg-gray-50 p-5">
+                    <blockquote className="leading-relaxed text-gray-800">„{c.proof.referenceQuote}“</blockquote>
+                    <figcaption className="mt-3 text-sm text-gray-600">
+                      Auszug aus der Kundenstimme – {attributionText}
                     </figcaption>
                   </figure>
-                ))}
-              </Card>
+                </Card>
+
+                <div className="space-y-6">
+                  <Card hover={false}>
+                    <div className="flex items-center gap-4">
+                      <div className="relative h-24 w-24 shrink-0 overflow-hidden rounded-full">
+                        <Image
+                          src="/images/JaschaKestler.JPG"
+                          alt="Jascha Kestler – Gründer der Online-Marketing-Agentur Kestler Connect in Duisburg"
+                          fill
+                          className="object-cover object-top"
+                          sizes="96px"
+                        />
+                      </div>
+                      <div>
+                        <p className="font-bold text-anthracite">Jascha Kestler</p>
+                        <p className="text-sm text-gray-600">Gründer, Kestler Connect</p>
+                      </div>
+                    </div>
+                    <p className="mt-4 text-sm leading-relaxed text-gray-700">
+                      Ihr fester Ansprechpartner: Im Erstgespräch sprechen Sie direkt mit mir – ohne Umweg über anonyme
+                      Agenturprozesse.
+                    </p>
+                  </Card>
+
+                  <Card hover={false}>
+                    <ReviewBadge />
+                    {reviews.map((review) => (
+                      <figure key={review.author} className="mt-4">
+                        <blockquote className="text-sm leading-relaxed text-gray-800">„{review.text}“</blockquote>
+                        <figcaption className="mt-2 text-xs text-gray-600">
+                          {review.author} · {review.rating} von 5 Sternen · Google-Bewertung, laut Kundenaussage
+                        </figcaption>
+                      </figure>
+                    ))}
+                  </Card>
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-      </section>
+          </section>
+        </>
+      )}
 
       {/* Ablauf */}
       <section className="section-padding">
@@ -316,22 +368,24 @@ export function ConversionLandingTemplate({ page }: { page: LandingPage }) {
         </div>
       </section>
 
-      {/* 4. Budget-Hinweis – keine Preise, keine Laufzeiten */}
-      <section className="pb-12 sm:pb-16 lg:pb-20">
-        <div className="container-custom">
-          <ScrollReveal>
-            <div className="rounded-2xl border border-gray-200 bg-white p-6 sm:p-8">
-              <h2 className="text-xl font-bold text-anthracite lg:text-2xl">Budget &amp; Betreuung</h2>
-              <p className="mt-3 max-w-3xl text-lg leading-relaxed text-gray-700">{BUDGET_NOTE}</p>
-              <div className="mt-5">
-                <Button href="#kontakt" size="md" className="text-center">
-                  {c.ctaLabel}
-                </Button>
+      {/* 4. Budget-Hinweis – keine Preise, keine Laufzeiten (bei "proof" im Gesprächs-Block) */}
+      {!proofLayout && (
+        <section className="pb-12 sm:pb-16 lg:pb-20">
+          <div className="container-custom">
+            <ScrollReveal>
+              <div className="rounded-2xl border border-gray-200 bg-white p-6 sm:p-8">
+                <h2 className="text-xl font-bold text-anthracite lg:text-2xl">Budget &amp; Betreuung</h2>
+                <p className="mt-3 max-w-3xl text-lg leading-relaxed text-gray-700">{BUDGET_NOTE}</p>
+                <div className="mt-5">
+                  <Button href="#kontakt" size="md" className="text-center">
+                    {c.ctaLabel}
+                  </Button>
+                </div>
               </div>
-            </div>
-          </ScrollReveal>
-        </div>
-      </section>
+            </ScrollReveal>
+          </div>
+        </section>
+      )}
 
       {/* Lange Texte in Aufklappern */}
       <section className="section-padding bg-gray-50">
@@ -357,13 +411,35 @@ export function ConversionLandingTemplate({ page }: { page: LandingPage }) {
         </div>
       </section>
 
-      {/* Abschluss-Formular */}
+      {/* Gesprächs-/CTA-Block mit Formular */}
       <section id="kontakt" className="section-padding scroll-mt-16 bg-navy">
         <div className="container-custom">
           <div className="grid items-start gap-10 lg:grid-cols-2 lg:gap-14">
             <ScrollReveal>
-              <h2 className="text-2xl font-extrabold text-white lg:text-4xl">{c.offer.title}</h2>
-              <p className="mt-4 text-gray-200">{c.offer.closing}</p>
+              {proofLayout ? (
+                <>
+                  <p className="text-sm font-semibold uppercase tracking-[0.15em] text-accent">Ihr nächster Schritt</p>
+                  <h2 className="mt-2 text-2xl font-extrabold text-white lg:text-4xl">{c.offer.title}</h2>
+                  <p className="mt-4 text-gray-200">{c.offer.intro}</p>
+                  <ul className="mt-5 space-y-2 text-gray-100">
+                    {c.offer.items.map((item) => (
+                      <li key={item} className="flex items-start gap-3">
+                        <span className="mt-0.5 text-accent" aria-hidden="true">
+                          ✓
+                        </span>
+                        <span>{item}</span>
+                      </li>
+                    ))}
+                  </ul>
+                  <p className="mt-5 font-semibold text-white">{c.offer.closing}</p>
+                  <p className="mt-3 text-sm text-gray-300">{BUDGET_NOTE}</p>
+                </>
+              ) : (
+                <>
+                  <h2 className="text-2xl font-extrabold text-white lg:text-4xl">{c.offer.title}</h2>
+                  <p className="mt-4 text-gray-200">{c.offer.closing}</p>
+                </>
+              )}
               <p className="mt-4 text-gray-200">
                 Lieber direkt?{" "}
                 <TrackedContactLink kind="phone" href={`tel:${tel}`} placement="landing_footer" className={linkClass}>
@@ -380,7 +456,14 @@ export function ConversionLandingTemplate({ page }: { page: LandingPage }) {
               </div>
             </ScrollReveal>
             <ScrollReveal delay={0.15}>
-              <div className="rounded-2xl bg-white p-5 sm:p-8">
+              {/* Bei "proof" ist dies das einzige Formular; id="anfrage" bedient auch die mobile StickyContactBar. */}
+              <div id={proofLayout ? "anfrage" : undefined} className="scroll-mt-20 rounded-2xl bg-white p-5 sm:p-8">
+                {proofLayout && (
+                  <>
+                    <h3 className="text-xl font-bold text-anthracite">{c.formTitle}</h3>
+                    <p className="mb-4 mt-1 text-sm text-gray-600">Nur drei Angaben – wir melden uns zeitnah.</p>
+                  </>
+                )}
                 <LeadMiniForm
                   source={`${page.slug}-kontakt`}
                   submitLabel={c.ctaLabel}

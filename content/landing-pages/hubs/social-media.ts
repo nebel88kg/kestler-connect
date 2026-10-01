@@ -28,6 +28,7 @@ export const socialMediaHub: LandingPage = {
       "Wir übernehmen Strategie, Redaktionsplan und Produktion für Instagram und TikTok – damit Sie regelmäßig sichtbar sind und aus Reichweite Anfragen werden.",
   },
   conversion: {
+    heroLayout: "proof",
     heroPoints: [
       "Strategie, Redaktionsplan und Content für Instagram & TikTok",
       "Reels, Stories und Kurzvideos – regelmäßig und aus einer Hand",
