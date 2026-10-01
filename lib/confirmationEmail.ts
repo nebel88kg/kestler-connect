@@ -5,17 +5,23 @@ import { siteConfig } from "@/lib/navigation";
  * Automatische Bestätigungsmail an Personen, die das Kontaktformular absenden.
  * Wird nur nach erfolgreichem Versand der internen Anfrage und nur für echte (Nicht-Honeypot-)Anfragen genutzt.
  *
+ * Zustellbarkeit (Transaktionsmail, kein Newsletter):
+ * - persönlicher Absendername, neutraler Betreff, sachlicher Text ohne Werbeton/Ausrufezeichen
+ * - Plain-Text ist der Hauptinhalt, HTML nur minimal (Absätze, keine Hintergründe/Buttons/Bilder)
+ * - nur Klartext-URLs (Website, Impressum), keine Tracking- oder Kurzlinks, kein tel:-Link
+ * - keine Zusatz-Header (kein Auto-Submitted, kein List-Unsubscribe)
+ *
  * Env (alle optional):
- * - CONFIRMATION_FROM  Absender-Override, Standard: "Jascha Kestler <jascha@send.kestler-connect.de>"
+ * - CONFIRMATION_FROM  Absender-Override, Standard: "Jascha Kestler | Kestler Connect <jascha@send.kestler-connect.de>"
  *                      (Subdomain send.kestler-connect.de ist in Resend verifiziert; ein anderer Absender
  *                      braucht eine in Resend verifizierte Domain)
  * - CONFIRMATION_EMAIL_ENABLED=false  schaltet die Bestätigungsmail ab (Kill-Switch)
  * Reply-To ist immer jascha@kestler-connect.de.
  */
 
-const DEFAULT_FROM = "Jascha Kestler <jascha@send.kestler-connect.de>";
+const DEFAULT_FROM = "Jascha Kestler | Kestler Connect <jascha@send.kestler-connect.de>";
 const REPLY_TO = "jascha@kestler-connect.de";
-export const CONFIRMATION_SUBJECT = "Danke für deine Anfrage – ich melde mich bei dir";
+export const CONFIRMATION_SUBJECT = "Deine Anfrage bei Kestler Connect";
 
 /** Strenge Prüfung (ASCII, genau eine Adresse, keine Steuerzeichen/Leerzeichen/Kommas/Klammern), max. 254 Zeichen. */
 const STRICT_EMAIL =
@@ -59,14 +65,24 @@ export function buildConfirmationEmail(name: string): { subject: string; text: s
   const safeName = displayName(name);
   const greeting = safeName ? `Hallo ${safeName},` : "Hallo,";
   const phone = siteConfig.phone;
-  const telHref = `tel:${phone.replace(/\s/g, "")}`;
   const siteUrl = siteConfig.url;
+  const impressumUrl = `${siteConfig.url}/impressum`;
   const { streetAddress, postalCode, addressLocality } = siteConfig.address;
+  const addressLine = `${streetAddress}, ${postalCode} ${addressLocality}`;
 
   const paragraphs = [
-    "vielen Dank für deine Anfrage – sie ist bei mir angekommen.",
-    "Ich melde mich innerhalb von 24 Stunden (Montag bis Freitag) bei dir. Dann sprechen wir in einem kostenlosen und unverbindlichen Strategiegespräch darüber, was für dein Unternehmen sinnvoll ist.",
-    `Wenn es eilt, erreichst du mich direkt unter ${phone}.`,
+    "vielen Dank für deine Anfrage. Sie ist bei mir angekommen.",
+    "Ich melde mich innerhalb von 24 Stunden (Montag bis Freitag) bei dir. Dann sprechen wir in einem kostenlosen und unverbindlichen Strategiegespräch darüber, worum es dir geht und was für dich sinnvoll ist.",
+    `Wenn es eilt, erreichst du mich unter ${phone}.`,
+  ];
+
+  const footerLines = [
+    "Jascha Kestler",
+    "Kestler Connect",
+    addressLine,
+    `Telefon: ${phone}`,
+    `Website: ${siteUrl}`,
+    `Impressum: ${impressumUrl}`,
   ];
 
   const text = [
@@ -74,35 +90,21 @@ export function buildConfirmationEmail(name: string): { subject: string; text: s
     "",
     ...paragraphs.flatMap((p) => [p, ""]),
     "Viele Grüße",
-    "Jascha Kestler",
+    "Jascha",
     "",
     "--",
-    "Jascha Kestler",
-    "Kestler Connect",
-    `${streetAddress}, ${postalCode} ${addressLocality}`,
-    `Telefon: ${phone}`,
-    siteUrl,
+    ...footerLines,
   ].join("\n");
 
+  // Minimales HTML: nur Absätze, systemnahe Schrift, keine Hintergründe, Buttons, Bilder oder Links (URLs als Klartext).
   const html = `<!doctype html>
 <html lang="de">
-  <body style="margin:0;padding:0;background:#ffffff;">
-    <div style="max-width:560px;margin:0 auto;padding:24px;font-family:Arial,Helvetica,sans-serif;font-size:16px;line-height:1.5;color:#1f2937;">
-      <p style="margin:0 0 16px;">${escapeHtml(greeting)}</p>
-      <p style="margin:0 0 16px;">${escapeHtml(paragraphs[0])}</p>
-      <p style="margin:0 0 16px;">${escapeHtml(paragraphs[1])}</p>
-      <p style="margin:0 0 16px;">Wenn es eilt, erreichst du mich direkt unter <a href="${escapeHtml(telHref)}" style="color:#1f2937;">${escapeHtml(phone)}</a>.</p>
-      <p style="margin:0 0 24px;">Viele Grüße<br>Jascha Kestler</p>
-      <hr style="border:0;border-top:1px solid #e5e7eb;margin:0 0 16px;">
-      <p style="margin:0;font-size:14px;line-height:1.5;color:#4b5563;">
-        <strong>Jascha Kestler</strong><br>
-        Kestler Connect<br>
-        ${escapeHtml(streetAddress)}, ${escapeHtml(postalCode)} ${escapeHtml(addressLocality)}<br>
-        Telefon: <a href="${escapeHtml(telHref)}" style="color:#4b5563;">${escapeHtml(phone)}</a><br>
-        <a href="${escapeHtml(siteUrl)}" style="color:#4b5563;">${escapeHtml(siteUrl)}</a>
-      </p>
-    </div>
-  </body>
+<body>
+<p>${escapeHtml(greeting)}</p>
+${paragraphs.map((p) => `<p>${escapeHtml(p)}</p>`).join("\n")}
+<p>Viele Grüße<br>Jascha</p>
+<p>--<br>${footerLines.map(escapeHtml).join("<br>\n")}</p>
+</body>
 </html>`;
 
   return { subject: CONFIRMATION_SUBJECT, text, html };
@@ -131,8 +133,6 @@ export async function sendConfirmationEmail(resend: Resend, params: { name: stri
       subject,
       text,
       html,
-      // Kennzeichnet die Mail als automatische Antwort (verhindert Auto-Reply-Schleifen).
-      headers: { "Auto-Submitted": "auto-replied" },
     });
 
     if (error) {
