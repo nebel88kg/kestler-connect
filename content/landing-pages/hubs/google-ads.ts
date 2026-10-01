@@ -5,9 +5,9 @@ export const googleAdsHub: LandingPage = {
   path: "/leistungen/google-ads",
   category: "google-ads",
   meta: {
-    title: "Google Ads & SEA Agentur Duisburg | Werbung schalten | Kestler Connect",
+    title: "Google Ads Agentur Duisburg: Mehr Anfragen statt teurer Klicks",
     description:
-      "SEA / Google Ads Agentur für Duisburg, Ruhrgebiet & Niederrhein: Werbung bei Google schalten mit messbaren Anfragen und klarem ROI – für regionale Unternehmen.",
+      "Google Ads Agentur in Duisburg: Wir richten Ihre Kampagnen ein, tracken jede Anfrage und optimieren laufend. Kostenloses 30-Minuten-Erstgespräch mit Einschätzung.",
     keywords: [
       "google ads duisburg",
       "google ads moers",
@@ -25,15 +25,48 @@ export const googleAdsHub: LandingPage = {
     ],
   },
   hero: {
-    headline: "SEA & Google Ads in Duisburg, Ruhrgebiet & Niederrhein – Werbung schalten, die Anfragen bringt",
-    subheadline:
-      "Suchmaschinenwerbung für regionale Unternehmen: Werbung bei Google schalten, wenn Kunden aktiv suchen – mit Fokus auf Kosten pro Anfrage.",
+    headline: "Google Ads Agentur Duisburg: Mehr Anfragen statt teurer Klicks",
+    subheadline: "Wir richten Ihre Kampagnen ein, tracken jede Anfrage und optimieren laufend.",
+  },
+  conversion: {
+    heroPoints: [
+      "Kampagnen, die genau dann erscheinen, wenn jemand Ihre Leistung sucht",
+      "Tracking von Anrufen und Formularen statt nur Klicks",
+      "Fester Ansprechpartner und laufende Optimierung",
+    ],
+    ctaLabel: "Kostenloses Erstgespräch sichern",
+    formTitle: "Kostenloses Erstgespräch sichern",
+    formTopicPlaceholder: "z. B. Ihre Branche oder Ihr Anliegen",
+    offer: {
+      title: "Kostenloses 30-Minuten-Erstgespräch + Einschätzung",
+      intro:
+        "In 30 Minuten klären wir, ob und wie Google Ads für Ihr Unternehmen Sinn ergibt – ehrlich, konkret und ohne Verkaufsdruck.",
+      items: [
+        "Einschätzung Ihrer Ausgangslage (Angebot, Region, Wettbewerb, bisheriger Account)",
+        "Was für Ihr Unternehmen sinnvoll ist – und was nicht",
+        "Die nächsten Schritte, konkret und umsetzbar",
+        "Ehrliche Budgetorientierung",
+      ],
+      closing: "Absolut unverbindlich – danach entscheiden Sie frei, ob und wie es weitergeht.",
+    },
+    proof: {
+      title: "Echte Referenz, echte Stimmen",
+      referenceFacts: [
+        "Meta Ads und Google Ads für Kurse und Schnupperangebote",
+        "Google Ads für Firmenfeiern und Event-Anfragen",
+        "Laufende Optimierung mit klaren Zielen",
+      ],
+      referenceQuote:
+        "Besonders beeindruckt hat uns die Kombination aus Meta Ads und Google Ads. Unsere Platzreife- und Schnuppergolf-Kurse waren innerhalb kurzer Zeit sehr gut gebucht und wir konnten viele neue Interessenten für den Golfsport gewinnen. Zusätzlich wurden Google Ads für unsere Firmenfeiern geschaltet, die ebenfalls für eine hervorragende Resonanz und zahlreiche Anfragen gesorgt haben.",
+      reviewAuthors: ["K.M.P.", "Linda B"],
+    },
+    showProblemsInline: true,
   },
   intro: {
     title: "Was ist Google Ads / SEA?",
     paragraphs: [
-      "SEA (Search Engine Advertising) ist Suchmaschinenwerbung: Google Ads zeigt Ihre Anzeige, wenn jemand aktiv nach Ihrer Leistung sucht – ideal, um planbar Werbung bei Google zu schalten und Anfragen in Duisburg, Moers und dem Ruhrgebiet zu gewinnen.",
-      "Bei Kestler Connect betreuen wir Google Ads als Ads-Agentur-System: Keywords, Landingpages, Tracking und Optimierung – eingebettet in [Performance Marketing](/leistungen/performance-marketing), ergänzt durch [Meta Ads](/leistungen/meta-ads) und [Social Media](/leistungen/social-media).",
+      "SEA (Search Engine Advertising) ist Suchmaschinenwerbung: Google Ads zeigt Ihre Anzeige, wenn jemand aktiv nach Ihrer Leistung sucht – ideal, um planbar Anfragen in Duisburg, Moers und dem Ruhrgebiet zu gewinnen.",
+      "Bei Kestler Connect betreuen wir Google Ads als System: Keywords, Landingpages, Tracking und laufende Optimierung.",
     ],
   },
   audience: {
@@ -64,7 +97,7 @@ export const googleAdsHub: LandingPage = {
     ],
   },
   problem: {
-    title: "Typische Google-Ads-Probleme",
+    title: "Kommt Ihnen das bekannt vor?",
     points: [
       "Hohe Klickkosten ohne brauchbare Anfragen",
       "Unklare Keywords und Streuverlust",
@@ -76,7 +109,7 @@ export const googleAdsHub: LandingPage = {
   solution: {
     title: "Google Ads mit Fokus auf Anfragen",
     content:
-      "Wir strukturieren Kampagnen sauber, steuern lokal in Duisburg und Moers, messen Anrufe und Formulare und optimieren laufend – abgestimmt auf [Meta Ads](/leistungen/meta-ads), [SEO](/leistungen/seo) und Ihre [Website](/leistungen/webseiten).",
+      "Wir strukturieren Kampagnen sauber, steuern lokal in Duisburg und Moers, messen Anrufe und Formulare und optimieren laufend.",
   },
   benefits: [
     {
@@ -105,16 +138,16 @@ export const googleAdsHub: LandingPage = {
       icon: "rocket",
     },
     {
-      title: "Kanal-Abstimmung",
-      description: "Google Ads passend zu Meta, SEO und Social Media.",
+      title: "Fester Ansprechpartner",
+      description: "Direkte Abstimmung statt anonymer Agenturprozesse.",
       icon: "users",
     },
   ],
   results: {
     title: "Welche Ergebnisse sind realistisch?",
     paragraphs: [
-      "Realistisch sind mehr qualifizierte Anfragen aus der Suche und transparente Kosten pro Lead – sofern Angebot und Seite stimmen.",
-      "Praxis: Beim [Golfclub Raffelberg](/referenzen/golfclub-raffelberg) unterstützten Google Ads Kurse und Firmenfeiern. Bei [DnM](/referenzen/dnm) steht laut Kundenaussage die organische Sichtbarkeit auf Google Seite 1 für eine starke digitale Basis. [SecPro Bildungszentrum](/referenzen/secpro-bildungszentrum) zeigt, wie bezahlte Reichweite und Social greifen.",
+      "Realistisch sind mehr qualifizierte Anfragen aus der Suche und transparente Kosten pro Lead – sofern Angebot und Seite stimmen. Garantien geben wir nicht.",
+      "Praxis: Beim Golfclub Raffelberg unterstützten Google Ads Kurse und Firmenfeiern.",
     ],
     points: [
       "Mehr Anfragen aus aktiver Suche",
@@ -131,73 +164,36 @@ export const googleAdsHub: LandingPage = {
     { step: 4, title: "Optimierung", description: "Gebote, Texte und Negativ-Keywords." },
     { step: 5, title: "Reporting", description: "Ergebnisse und nächste Schritte." },
   ],
-  relatedHubs: [
-    {
-      title: "Leadgewinnung",
-      href: "/leistungen/leadgewinnung",
-      description: "Mehr Anfragen und Kunden über Google Ads und Meta Ads.",
-    },
-    {
-      title: "Meta Ads Agentur Duisburg",
-      href: "/leistungen/meta-ads",
-      description: "Facebook- und Instagram-Ads für Leads in Duisburg, Moers und Umgebung.",
-    },
-    {
-      title: "Social Media Agentur Duisburg",
-      href: "/leistungen/social-media",
-      description: "Content und Betreuung – Ads-ready aus einer Hand.",
-    },
-    {
-      title: "Performance Marketing",
-      href: "/leistungen/performance-marketing",
-      description: "Google Ads und Meta Ads mit messbarem ROI.",
-    },
-    {
-      title: "SEO / Local SEO",
-      href: "/leistungen/seo",
-      description: "Organische Sichtbarkeit in Duisburg, Moers und dem Ruhrgebiet.",
-    },
-    {
-      title: "Website erstellen lassen",
-      href: "/leistungen/webseiten",
-      description: "Conversion-starke Seiten für Ihre Kampagnen.",
-    },
-  ],
   references: [
-    {
-      title: "DnM",
-      slug: "dnm",
-      excerpt: "SEO und SEA – laut Kundenaussage heute bei Google auf Seite 1, starke organische Basis neben Ads.",
-    },
     {
       title: "Golfclub Raffelberg",
       slug: "golfclub-raffelberg",
       excerpt: "Google Ads und Meta Ads für Kurse und Firmenfeiern.",
     },
-    {
-      title: "SecPro Bildungszentrum",
-      slug: "secpro-bildungszentrum",
-      excerpt: "Meta Ads und Social Media für Bildungsangebote.",
-    },
   ],
   faq: [
+    {
+      question: "Wie läuft das kostenlose 30-Minuten-Erstgespräch ab?",
+      answer:
+        "Wir sprechen über Ihre Ausgangslage und Ziele, Sie erhalten eine ehrliche Einschätzung, was für Ihr Unternehmen sinnvoll ist, sowie die nächsten Schritte und eine Budgetorientierung. Das Gespräch ist absolut unverbindlich – danach entscheiden Sie frei.",
+    },
     {
       question: "Was bedeutet SEA?",
       answer:
         "SEA steht für Search Engine Advertising – Suchmaschinenwerbung. Bei Google heißt das praktisch: Google Ads. Sie zahlen für Klicks auf Anzeigen, die erscheinen, wenn jemand nach Ihrer Leistung sucht.",
     },
     {
-      question: "Kann ich bei euch Werbung schalten lassen?",
+      question: "Kann ich bei Ihnen Werbung schalten lassen?",
       answer:
         "Ja. Als Ads-Agentur richten wir Kampagnen ein, steuern Budgets und optimieren laufend – Sie schalten Werbung bei Google, wir übernehmen Setup, Texte, Targeting und Reporting.",
     },
     {
       question: "Ab welchem Budget lohnen sich Google Ads?",
       answer:
-        "Ein sinnvolles Media-Budget hängt von Wettbewerb, Region und Zielen ab. Im Erstgespräch klären wir, ob und in welcher Höhe sich der Einstieg lohnt.",
+        "Budget und Betreuung richten sich nach Ziel, Branche und Umfang – im kostenlosen Erstgespräch bekommen Sie eine ehrliche Budgetorientierung.",
     },
     {
-      question: "Betreut ihr Google Ads auch in Moers und Umgebung?",
+      question: "Betreuen Sie Google Ads auch in Moers und Umgebung?",
       answer:
         "Ja. Schwerpunkt ist Duisburg und Moers sowie der Umkreis (u. a. Oberhausen, Mülheim, Krefeld). Targeting und Reporting bleiben lokal und nachvollziehbar.",
     },
@@ -209,7 +205,7 @@ export const googleAdsHub: LandingPage = {
     {
       question: "Google Ads oder SEO?",
       answer:
-        "Google Ads bringt sofort Sichtbarkeit; [SEO](/leistungen/seo) wirkt nachhaltiger. Viele kombinieren beides sinnvoll.",
+        "Google Ads bringt sofort Sichtbarkeit; SEO wirkt nachhaltiger. Viele kombinieren beides sinnvoll – im Erstgespräch klären wir, was für Sie passt.",
     },
     {
       question: "Brauche ich eine Landingpage?",
@@ -219,7 +215,7 @@ export const googleAdsHub: LandingPage = {
     {
       question: "Was kostet die Betreuung?",
       answer:
-        "Abhängig von Account-Umfang und Zielen – im Erstgespräch erhalten Sie eine klare Einschätzung ohne Pauschalversprechen.",
+        "Budget und Betreuung richten sich nach Ziel, Branche und Umfang – im kostenlosen Erstgespräch bekommen Sie eine ehrliche Budgetorientierung.",
     },
   ],
 };
