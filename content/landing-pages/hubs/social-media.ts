@@ -5,9 +5,9 @@ export const socialMediaHub: LandingPage = {
   path: "/leistungen/social-media",
   category: "social-media",
   meta: {
-    title: "Social Media Agentur Duisburg, Ruhrgebiet & Niederrhein | Kestler Connect",
+    title: "Social Media Agentur Duisburg: Regelmäßiger Content, der Kunden bringt",
     description:
-      "Social-Media-Agentur für Duisburg, Ruhrgebiet & Niederrhein: Instagram und TikTok – Redaktionsplan, Reels, Shorts-Formate und Ads – für regionale Unternehmen.",
+      "Social Media Agentur in Duisburg: Strategie, Redaktionsplan und regelmäßiger Content für Instagram und TikTok. Kostenloses Erstgespräch und individueller Social-Media-Leitfaden.",
     keywords: [
       "social media agentur duisburg",
       "social media agentur moers",
@@ -23,15 +23,63 @@ export const socialMediaHub: LandingPage = {
     ],
   },
   hero: {
-    headline: "Social Media Agentur Duisburg, Ruhrgebiet & Niederrhein – Instagram und TikTok mit Plan",
+    headline: "Social Media Agentur Duisburg: Regelmäßiger Content, der Kunden bringt",
     subheadline:
-      "Social Media Marketing für regionale Unternehmen: Strategie, Content, Reels und TikTok-Formate – organisch und mit Ads, damit Sichtbarkeit zu Anfragen wird.",
+      "Wir übernehmen Strategie, Redaktionsplan und Produktion für Instagram und TikTok – damit Sie regelmäßig sichtbar sind und aus Reichweite Anfragen werden.",
+  },
+  conversion: {
+    heroPoints: [
+      "Strategie, Redaktionsplan und Content für Instagram & TikTok",
+      "Reels, Stories und Kurzvideos – regelmäßig und aus einer Hand",
+      "Fester Ansprechpartner statt anonymer Agenturprozesse",
+    ],
+    ctaLabel: "Kostenloses Strategiegespräch + Leitfaden anfragen",
+    formTitle: "Jetzt kostenlos anfragen",
+    formTopicPlaceholder: "z. B. Gastronomie, Praxis, Handwerk – oder Ihr Anliegen",
+    offer: {
+      title: "Kostenloses Erstgespräch + Social-Media-Leitfaden für Ihr Unternehmen",
+      intro:
+        "Wir schauen gemeinsam auf Ihren Auftritt und Ihre Ziele – ehrlich und ohne Verkaufsdruck. Zusätzlich erhalten Sie nach dem Gespräch einen kostenlosen, auf Ihr Unternehmen abgestimmten Social-Media-Leitfaden.",
+      items: [
+        "Einschätzung Ihrer Ausgangslage: Kanäle, Auftritt und Zielgruppe",
+        "Klare Empfehlung, welche Kanäle und Formate für Ihr Unternehmen sinnvoll sind",
+        "Die nächsten Schritte – konkret und umsetzbar",
+        "Ehrliche Budgetorientierung",
+        "Kostenloser, auf Ihr Unternehmen abgestimmter Social-Media-Leitfaden – den erhalten Sie nach dem Gespräch",
+      ],
+      closing: "Absolut unverbindlich – danach entscheiden Sie frei, ob und wie es weitergeht.",
+    },
+    proof: {
+      title: "Echte Referenz, echte Stimmen",
+      referenceFacts: [
+        "Strategische Social-Media-Betreuung mit Reels und Content-Plan",
+        "Moderner, professioneller Social-Media-Auftritt",
+        "Meta Ads und Google Ads für Kurse und Schnupperangebote",
+      ],
+      referenceQuote:
+        "Seit Jascha unser Social Media übernommen hat, hat sich unser gesamter Auftritt deutlich professionalisiert. Durch regelmäßige Reels, kreative Inhalte und eine klare Strategie wirken unsere Kanäle heute deutlich moderner und erreichen wesentlich mehr Menschen.",
+      reviewAuthors: ["K.M.P."],
+    },
+    scope: {
+      title: "Das übernehmen wir für Sie",
+      intro: "Sie führen Ihr Unternehmen – wir sorgen dafür, dass Ihre Kanäle regelmäßig und professionell laufen.",
+      items: [
+        "Strategie: Positionierung, Zielgruppe, Tonalität und Content-Säulen",
+        "Redaktionsplan mit klaren Freigaben",
+        "Produktion von Beiträgen, Reels, Stories und TikTok-Formaten",
+        "Publishing und Community-Impulse",
+        "Auswertung: Was gut funktioniert, wird ausgebaut",
+        "Abstimmung mit Meta Ads und Ihrer Website",
+        "Shootings und Abstimmung vor Ort oder digital – wie es zu Ihrem Betrieb passt",
+      ],
+    },
+    showProblemsInline: true,
   },
   intro: {
     title: "Was macht unsere Social Media Agentur?",
     paragraphs: [
-      "Als Social-Media-Agentur in Duisburg liefern wir Strategie, Redaktionsplan und Content für Instagram und TikTok – Reels, Shorts-Style-Formate und Stories inklusive. Auch für Unternehmen in Moers und dem Umkreis. Ziel: ein professioneller Auftritt, der Marke und Anfragen stärkt.",
-      "Aus einer Hand denken wir Social Media zusammen mit [Performance Marketing](/leistungen/performance-marketing) und [Website-Erstellung](/leistungen/webseiten): organischer Content baut Vertrauen, Ads bringen Reichweite, die Website macht daraus Anfragen.",
+      "Als Social Media Agentur in Duisburg liefern wir Strategie, Redaktionsplan und Content für Instagram und TikTok – Reels, Shorts-Style-Formate und Stories inklusive. Auch für Unternehmen in Moers und dem Umkreis. Ziel: ein professioneller Auftritt, der Ihre Marke stärkt und Anfragen unterstützt.",
+      "Aus einer Hand denken wir Social Media zusammen mit Ads und Website: Organischer Content baut Vertrauen, Anzeigen bringen Reichweite, die Website macht daraus Anfragen.",
     ],
   },
   audience: {
@@ -62,7 +110,7 @@ export const socialMediaHub: LandingPage = {
     ],
   },
   problem: {
-    title: "Wenn Social Media zur Baustelle wird",
+    title: "Kommt Ihnen das bekannt vor?",
     points: [
       "Unregelmäßige Posts und veraltete Profile",
       "Keine klare Botschaft oder visuelle Linie",
@@ -74,7 +122,7 @@ export const socialMediaHub: LandingPage = {
   solution: {
     title: "Social Media mit Plan – aus einer Hand",
     content:
-      "Wir entwickeln Strategie und Redaktionsplan, produzieren Inhalte für Instagram und TikTok und betreuen Ihre Kanäle – abgestimmt auf [Meta Ads Agentur Duisburg](/leistungen/meta-ads), [Performance Marketing](/leistungen/performance-marketing) und Ihre [Website](/leistungen/webseiten).",
+      "Wir entwickeln Strategie und Redaktionsplan, produzieren Inhalte für Instagram und TikTok und betreuen Ihre Kanäle – abgestimmt auf Meta Ads und Ihre Website.",
   },
   benefits: [
     {
@@ -112,7 +160,7 @@ export const socialMediaHub: LandingPage = {
     title: "Welche Ergebnisse sind realistisch?",
     paragraphs: [
       "Social Media verändert, wie professionell Sie wahrgenommen werden und wie gut Ads und Website performen – selten über Nacht, aber spürbar mit System.",
-      "Praxis: Beim [Golfclub Raffelberg](/referenzen/golfclub-raffelberg) wurde der Auftritt professionalisiert und Kurse über Ads gebucht. Bei [SecPro Bildungszentrum](/referenzen/secpro-bildungszentrum) greifen Betreuung und Meta Ads ineinander. Bei [DnM](/referenzen/dnm) ergänzt Social Media die SEO-Sichtbarkeit.",
+      "Praxis: Beim Golfclub Raffelberg wurde der Social-Media-Auftritt professionalisiert – mit Reels, Content-Plan und klarer Strategie.",
     ],
     points: [
       "Professionellerer, modernerer Auftritt",
@@ -129,90 +177,53 @@ export const socialMediaHub: LandingPage = {
     { step: 4, title: "Publishing", description: "Veröffentlichung und Community-Impulse." },
     { step: 5, title: "Optimierung", description: "Was performt, wird ausgebaut – inkl. Reporting." },
   ],
-  relatedHubs: [
-    {
-      title: "Meta Ads Agentur Duisburg",
-      href: "/leistungen/meta-ads",
-      description: "Bezahlte Reichweite, die zum organischen Auftritt passt.",
-    },
-    {
-      title: "Google Ads in Duisburg und Moers",
-      href: "/leistungen/google-ads",
-      description: "Suchanzeigen für intentionstarke Anfragen.",
-    },
-    {
-      title: "Leadgewinnung",
-      href: "/leistungen/leadgewinnung",
-      description: "Mehr Anfragen über Ads und conversion-starke Seiten.",
-    },
-    {
-      title: "Mitarbeitergewinnung",
-      href: "/leistungen/mitarbeitergewinnung",
-      description: "Social Recruiting über Instagram, TikTok und Meta Ads.",
-    },
-    {
-      title: "Performance Marketing",
-      href: "/leistungen/performance-marketing",
-      description: "Ads und Leadgewinnung mit messbarem ROI.",
-    },
-    {
-      title: "SEO / Local SEO",
-      href: "/leistungen/seo",
-      description: "Gefunden werden bei Google und Maps.",
-    },
-    {
-      title: "Website erstellen lassen",
-      href: "/leistungen/webseiten",
-      description: "Die Basis, die aus Reichweite Anfragen macht.",
-    },
-  ],
   references: [
-    {
-      title: "SecPro Bildungszentrum",
-      slug: "secpro-bildungszentrum",
-      excerpt: "Social-Media-Betreuung und Meta Ads für Bildungsangebote.",
-    },
     {
       title: "Golfclub Raffelberg",
       slug: "golfclub-raffelberg",
       excerpt: "Social Media professionalisiert – mit Reels, Strategie und mehr Reichweite.",
     },
-    {
-      title: "DnM",
-      slug: "dnm",
-      excerpt: "Social Media begleitend zur SEO-Sichtbarkeit, die laut Kundenaussage auf Google Seite 1 liegt.",
-    },
   ],
   faq: [
+    {
+      question: "Wie läuft das kostenlose Erstgespräch ab?",
+      answer:
+        "Wir sprechen über Ihre Ausgangslage und Ziele, ich gebe Ihnen eine ehrliche Einschätzung, was für Ihr Unternehmen sinnvoll ist, und wir klären die nächsten Schritte sowie eine Budgetorientierung. Den kostenlosen, auf Ihr Unternehmen abgestimmten Social-Media-Leitfaden erhalten Sie nach dem Gespräch. Alles ist absolut unverbindlich – danach entscheiden Sie frei.",
+    },
     {
       question: "Was macht eine Social Media Agentur lokal?",
       answer:
         "Strategie, Redaktionsplan, Content, Reels, TikTok-Formate und Community – abgestimmt auf Ihre Region. Bei Kestler Connect in Duisburg ist Social Media Marketing Schwerpunkt für Unternehmen in Duisburg, Moers und Umgebung.",
     },
     {
-      question: "Betreut ihr Instagram und TikTok?",
+      question: "Betreuen Sie Instagram und TikTok?",
       answer:
         "Ja. Schwerpunkt Instagram (Feed, Stories, Reels) und TikTok bzw. Shorts-Style-Formate – organisch und als Basis für Ads. Facebook je nach Zielgruppe dazu.",
     },
     {
-      question: "Social Media oder Ads zuerst?",
-      answer:
-        "Ohne glaubwürdigen Auftritt wirken Ads oft schwach – dann Social Media zuerst oder parallel. Bei schnellem Anfragebedarf und solider Basis starten viele mit [Performance Marketing](/leistungen/performance-marketing).",
-    },
-    {
-      question: "Welche Kanäle betreut ihr?",
+      question: "Welche Kanäle betreuen Sie?",
       answer:
         "Schwerpunkt Instagram und TikTok; je nach Zielgruppe auch Facebook und LinkedIn. Wir empfehlen bewusst die Kanäle, die zu Ihrem Angebot passen.",
     },
     {
-      question: "Müsst ihr vor Ort in Moers oder Duisburg sein?",
+      question: "Was kostet die Social-Media-Betreuung?",
+      answer:
+        "Budget und Betreuung richten sich nach Ziel, Branche und Umfang – im kostenlosen Erstgespräch bekommen Sie eine ehrliche Budgetorientierung.",
+    },
+    {
+      question: "Social Media oder Ads zuerst?",
+      answer:
+        "Ohne glaubwürdigen Auftritt wirken Ads oft schwach – dann Social Media zuerst oder parallel. Bei schnellem Anfragebedarf und solider Basis starten viele mit Anzeigen. Im Erstgespräch klären wir, was für Sie sinnvoll ist.",
+    },
+    {
+      question: "Müssen Sie vor Ort in Moers oder Duisburg sein?",
       answer:
         "Beides möglich: Shootings und Abstimmung vor Ort, Produktion und Publishing digital – hybrid, wie es zu Ihrem Betrieb passt.",
     },
     {
       question: "Bringt Social Media direkt Anfragen?",
       answer:
-        "Manchmal ja, oft indirekt über Vertrauen und Reichweite. Mit Meta Ads und einer starken Website wird der Effekt deutlich größer – siehe [Leadgewinnung](/leistungen/leadgewinnung).",
+        "Manchmal ja, oft indirekt über Vertrauen und Reichweite. Mit Meta Ads und einer starken Website wird der Effekt deutlich größer.",
     },
     {
       question: "Was ist der Unterschied zwischen Betreuung und Ads?",

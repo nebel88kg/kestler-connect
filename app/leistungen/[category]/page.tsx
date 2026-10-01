@@ -9,6 +9,7 @@ import { Card } from "@/components/ui/Card";
 import { Breadcrumbs } from "@/components/seo/Breadcrumbs";
 import { ScrollReveal } from "@/components/ui/ScrollReveal";
 import { LandingPageTemplate } from "@/components/landing/LandingPageTemplate";
+import { ConversionLandingTemplate } from "@/components/landing/ConversionLandingTemplate";
 import { WebsitePricing } from "@/components/pricing/WebsitePricing";
 
 const categories = [
@@ -60,6 +61,10 @@ export default async function CategoryPage({
   const landingPage = getLandingPageByPath(path);
 
   if (landingPage) {
+    // Schlanke Conversion-Variante (Google-Ads-Traffic): nur wenn `conversion` im Content gesetzt ist.
+    if (landingPage.conversion) {
+      return <ConversionLandingTemplate page={landingPage} />;
+    }
     return <LandingPageTemplate page={landingPage} />;
   }
 
