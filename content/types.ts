@@ -71,6 +71,13 @@ export interface LandingPageRelatedHub {
  * Ist `conversion` gesetzt, rendert `ConversionLandingTemplate` statt des Standard-Templates.
  */
 export interface LandingPageConversion {
+  /**
+   * Aufbau des Heros:
+   * - "form" (Standard): Mini-Formular rechts im Hero.
+   * - "proof": Jascha-Foto + Kundenzitat rechts im Hero; das (einzige) Formular steht im Gesprächs-Block unten,
+   *   die Seite ist kürzer (kein separater Vorteils-/Proof-/Budget-Block).
+   */
+  heroLayout?: "form" | "proof";
   /** 2–3 kurze Nutzenpunkte im Hero (nur ab sm sichtbar, damit das Formular mobil oben bleibt) */
   heroPoints: string[];
   /** Text der CTA-Buttons und des Absende-Buttons */
