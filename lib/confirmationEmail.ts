@@ -6,12 +6,14 @@ import { siteConfig } from "@/lib/navigation";
  * Wird nur nach erfolgreichem Versand der internen Anfrage und nur für echte (Nicht-Honeypot-)Anfragen genutzt.
  *
  * Env (alle optional):
- * - CONFIRMATION_FROM  Absender, Standard: "Jascha Kestler <jascha@kestler-connect.de>"
- *                      (die Domain kestler-connect.de muss in Resend verifiziert sein)
+ * - CONFIRMATION_FROM  Absender-Override, Standard: "Jascha Kestler <jascha@send.kestler-connect.de>"
+ *                      (Subdomain send.kestler-connect.de ist in Resend verifiziert; ein anderer Absender
+ *                      braucht eine in Resend verifizierte Domain)
  * - CONFIRMATION_EMAIL_ENABLED=false  schaltet die Bestätigungsmail ab (Kill-Switch)
+ * Reply-To ist immer jascha@kestler-connect.de.
  */
 
-const DEFAULT_FROM = "Jascha Kestler <jascha@kestler-connect.de>";
+const DEFAULT_FROM = "Jascha Kestler <jascha@send.kestler-connect.de>";
 const REPLY_TO = "jascha@kestler-connect.de";
 export const CONFIRMATION_SUBJECT = "Danke für deine Anfrage – ich melde mich bei dir";
 
