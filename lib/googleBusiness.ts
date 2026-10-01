@@ -5,25 +5,25 @@ export const googleBusiness = {
   mapsUrl: "https://maps.app.goo.gl/eeTPebUitvhvrcS36",
   writeReviewUrl:
     "https://search.google.com/local/writereview?placeid=ChIJ0QjU-stZRmwRcO_AeFbjidw",
-  /** Public Maps aggregate as of 2026-09-24; update when the count/rating changes. */
+  /** Public Maps aggregate as of 2026-10-01; update when the count/rating changes. */
   rating: 5.0,
-  reviewCount: 7,
+  reviewCount: 6,
   /** Short public review snippets from the Maps listing (verbatim, truncated as shown). */
   reviewPreviews: [
+    {
+      author: "K.M.P.",
+      rating: 5,
+      text: "Haben gerade die Zusammenarbeit begonnen und ich bin sehr zufrieden👌🏻 Kreative Ideen, schnelle und faire Umsetzung. Weiter so. Klare Empfehlung!",
+    },
+    {
+      author: "Linda B",
+      rating: 5,
+      text: "Mega zufrieden mit der Google Ads Kampagne! Konstant ca. 5–6 Leads pro Tag und wirklich starke Ergebnisse. Professionelle Umsetzung, schnelle Kommunikation und klare Resultate. Absolute Empfehlung",
+    },
     {
       author: "Marco Tack",
       rating: 5,
       text: "Absolute Empfehlung! Joshua überzeugt nicht nur durch seine fachliche Kompetenz im Marketing, sondern vor allem durch seine offene, sympathische und professionelle Art. Er nimmt sich die Zeit, das …",
-    },
-    {
-      author: "Jemma Altrock",
-      rating: 5,
-      text: "Was soll ich sagen, einfach Marketing aufs nächste Level gebracht! Danke 🙏🏻 …",
-    },
-    {
-      author: "Start-up School",
-      rating: 5,
-      text: "Ich bin mit der Zusammenarbeit mit Jascha wirklich sehr zufrieden. Er kümmert sich um unser Social Media Content Planning und das Performance Marketing und bringt dabei nicht nur viel Fachwissen mit, …",
     },
   ],
 } as const;
