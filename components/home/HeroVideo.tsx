@@ -1,54 +1,50 @@
 "use client";
 
-import { useEffect, useState } from "react";
-import { heroPoster } from "@/lib/heroPoster";
-
-type NetworkInformation = { saveData?: boolean; effectiveType?: string };
-
-/** Video nur laden, wenn Viewport >= 768 px, keine reduzierte Bewegung, kein Datensparmodus. */
-function shouldPlayVideo(): boolean {
-  if (typeof window === "undefined") return false;
-  if (!window.matchMedia("(min-width: 768px)").matches) return false;
-  if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return false;
-  const conn = (navigator as Navigator & { connection?: NetworkInformation }).connection;
-  if (conn?.saveData) return false;
-  if (conn?.effectiveType && /^(slow-2g|2g|3g)$/.test(conn.effectiveType)) return false;
-  return true;
-}
+import { useEffect, useRef } from "react";
 
 /**
- * Hero-Hintergrund: Poster wird sofort (auch serverseitig) gerendert; das Video
- * (~3 MB) wird erst nach der Hydration und nur auf größeren Bildschirmen geladen.
- * Auf Mobilgeräten wird kein Video-Request ausgelöst.
+ * Hero-Hintergrund: Das Video steht sofort im HTML (auch serverseitig gerendert) und
+ * startet muted/autoplay/loop auf Desktop UND Mobil. Es gibt bewusst kein verpixeltes
+ * Mini-Poster mehr; bis das erste Frame geladen ist, zeigt der Hero den dunklen
+ * Navy-Hintergrund mit Verlauf. Nur "prefers-reduced-motion" stoppt das Video.
  */
 export function HeroVideo() {
-  const [play, setPlay] = useState(false);
+  const videoRef = useRef<HTMLVideoElement>(null);
 
   useEffect(() => {
-    setPlay(shouldPlayVideo());
+    const video = videoRef.current;
+    if (!video) return;
+    const mq = window.matchMedia("(prefers-reduced-motion: reduce)");
+
+    const apply = () => {
+      if (mq.matches) {
+        video.pause();
+        return;
+      }
+      // React setzt "muted" nicht zuverlässig als Property (iOS/Safari) – explizit setzen.
+      video.muted = true;
+      void video.play().catch(() => {
+        /* Autoplay blockiert (z. B. Stromsparmodus) – der dunkle Hintergrund bleibt stehen. */
+      });
+    };
+
+    apply();
+    mq.addEventListener("change", apply);
+    return () => mq.removeEventListener("change", apply);
   }, []);
 
   return (
-    <>
-      <div
-        className="absolute inset-0 bg-cover bg-center"
-        style={{ backgroundImage: `url(${heroPoster})` }}
-        aria-hidden="true"
-      />
-      {play && (
-        <video
-          autoPlay
-          muted
-          loop
-          playsInline
-          preload="metadata"
-          poster={heroPoster}
-          className="absolute inset-0 h-full w-full object-cover"
-          aria-hidden="true"
-        >
-          <source src="/videos/hero.mp4" type="video/mp4" />
-        </video>
-      )}
-    </>
+    <video
+      ref={videoRef}
+      autoPlay
+      muted
+      loop
+      playsInline
+      preload="auto"
+      className="absolute inset-0 h-full w-full object-cover"
+      aria-hidden="true"
+    >
+      <source src="/videos/hero.mp4#t=0.001" type="video/mp4" />
+    </video>
   );
 }

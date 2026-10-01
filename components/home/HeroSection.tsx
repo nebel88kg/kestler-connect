@@ -4,8 +4,8 @@ import { siteConfig } from "@/lib/navigation";
 
 /**
  * Server-Komponente: Der Hero-Text wird ohne Hydration-Wartezeit gerendert (LCP).
- * Optik (Video-Hintergrund, Verläufe, Layout) unverändert; das Video lädt nur auf
- * größeren Bildschirmen (siehe HeroVideo), mobil bleibt es beim Poster.
+ * Optik (Video-Hintergrund, Verläufe, Layout) unverändert; das Video steht sofort im
+ * HTML und startet auf Desktop und Mobil (siehe HeroVideo).
  */
 export function HeroSection() {
   const tel = siteConfig.phone.replace(/\s/g, "");
