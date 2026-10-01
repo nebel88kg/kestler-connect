@@ -6,7 +6,12 @@ import { siteConfig } from "@/lib/navigation";
 import { trackEvent } from "@/lib/tracking";
 
 /** Conversion-Landingpages: "Anfrage" springt zum Mini-Formular statt auf /kontakt (weniger Absprünge). */
-const conversionLandingPaths = ["/leistungen/google-ads", "/leistungen/meta-ads", "/leistungen/social-media"];
+const conversionLandingPaths = [
+  "/leistungen/google-ads",
+  "/leistungen/meta-ads",
+  "/leistungen/social-media",
+  "/leistungen/seo",
+];
 
 /** Feste Schnellkontakt-Leiste – nur auf Mobilgeräten (unter lg), nicht auf /kontakt. */
 export function StickyContactBar() {

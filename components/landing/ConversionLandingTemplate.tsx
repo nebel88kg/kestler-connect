@@ -76,21 +76,37 @@ function ProblemList({ points }: { points: string[] }) {
   );
 }
 
+/** Offene Frage-Antwort-Liste (kein Accordion); steht vollständig im HTML und entspricht dem FAQ-Schema. */
+function FaqList({ items }: { items: { question: string; answer: string }[] }) {
+  return (
+    <dl className="space-y-6">
+      {items.map((item) => (
+        <div key={item.question}>
+          <dt className="font-bold text-anthracite">{item.question}</dt>
+          <dd className="mt-1 leading-relaxed text-gray-700">{renderInline(item.answer)}</dd>
+        </div>
+      ))}
+    </dl>
+  );
+}
+
 /**
  * Schlanke Conversion-Landingpage für bezahlten Suchverkehr.
  *
  * heroLayout "form" (Standard, Google Ads / Meta Ads): Hero mit CTA + Mini-Formular, Angebot, Proof,
- *   Budget-Hinweis, Aufklapper, Abschluss-Formular.
- * heroLayout "proof" (Social Media): Hero mit CTA + Jascha-Foto + Kundenzitat (kein Formular),
- *   direkt danach der Angebots-Block "Das bekommen Sie" MIT dem einzigen Formular, danach kurze Inhalte.
+ *   Budget-Hinweis, FAQ, Abschluss-Formular.
+ * heroLayout "proof" (Social Media, SEO): Hero mit CTA + Jascha-Foto + Kundenzitat (kein Formular),
+ *   direkt danach der Angebots-Block MIT dem einzigen Formular, danach kurze Inhalte.
+ * openSections: kurze sichtbare Textabschnitte und offene FAQ statt Aufklapper.
  *
- * In beiden Varianten: nur reale Inhalte, keine Preise/Laufzeiten, weiterführende Links nur ganz unten.
+ * In allen Varianten: nur reale Inhalte, keine Preise/Laufzeiten, weiterführende Links nur ganz unten.
  */
 export function ConversionLandingTemplate({ page }: { page: LandingPage }) {
   const c = page.conversion;
   if (!c) return null;
 
   const proofLayout = c.heroLayout === "proof";
+  const openSections = Boolean(c.openSections);
   const tel = siteConfig.phone.replace(/\s/g, "");
   const waHref = `https://wa.me/${siteConfig.whatsapp}`;
   const faqSchema = createFaqSchema(page.faq);
@@ -295,10 +311,53 @@ export function ConversionLandingTemplate({ page }: { page: LandingPage }) {
         </section>
       )}
 
+      {/* Kurze, offene Textabschnitte (kein Aufklapper) */}
+      {openSections && (
+        <section className={`section-padding ${c.scope || !proofLayout ? "" : "bg-gray-50"}`}>
+          <div className="container-custom max-w-4xl">
+            <ScrollReveal>
+              {page.intro && (
+                <div>
+                  <h2 className="text-2xl font-bold text-anthracite lg:text-3xl">{page.intro.title}</h2>
+                  <div className="mt-4 space-y-3 text-lg leading-relaxed text-gray-700">
+                    {page.intro.paragraphs.map((paragraph) => (
+                      <p key={paragraph.slice(0, 48)}>{renderInline(paragraph)}</p>
+                    ))}
+                  </div>
+                </div>
+              )}
+              {page.audience && (
+                <div className="mt-10">
+                  <h2 className="text-2xl font-bold text-anthracite lg:text-3xl">{page.audience.title}</h2>
+                  {page.audience.paragraphs.map((paragraph) => (
+                    <p key={paragraph.slice(0, 48)} className="mt-4 text-lg leading-relaxed text-gray-700">
+                      {renderInline(paragraph)}
+                    </p>
+                  ))}
+                  {page.audience.points && page.audience.points.length > 0 && (
+                    <CheckList items={page.audience.points} className="mt-4 grid gap-2 text-gray-800 sm:grid-cols-2" />
+                  )}
+                </div>
+              )}
+              {page.serviceArea && (
+                <div className="mt-10">
+                  <h2 className="text-xl font-bold text-anthracite lg:text-2xl">{page.serviceArea.title}</h2>
+                  {page.serviceArea.paragraphs.map((paragraph) => (
+                    <p key={paragraph.slice(0, 48)} className="mt-3 leading-relaxed text-gray-700">
+                      {renderInline(paragraph)}
+                    </p>
+                  ))}
+                </div>
+              )}
+            </ScrollReveal>
+          </div>
+        </section>
+      )}
+
       {/* Vorteile + Proof-Block (nur Variante "form"; bei "proof" steht der Proof im Hero) */}
       {!proofLayout && (
         <>
-          <section className="section-padding">
+          <section className={`section-padding ${openSections ? "bg-gray-50" : ""}`}>
             <div className="container-custom">
               <ScrollReveal>
                 <h2 className="mb-10 text-center text-2xl font-bold text-anthracite lg:text-4xl">Ihre Vorteile</h2>
@@ -318,7 +377,7 @@ export function ConversionLandingTemplate({ page }: { page: LandingPage }) {
           </section>
 
           {/* 3. Proof: nur Raffelberg, echte Google-Bewertungen, Jascha-Foto */}
-          <section className="section-padding bg-gray-50">
+          <section className={`section-padding ${openSections ? "" : "bg-gray-50"}`}>
             <div className="container-custom">
               <ScrollReveal>
                 <h2 className="text-center text-2xl font-bold text-anthracite lg:text-4xl">{c.proof.title}</h2>
@@ -384,7 +443,7 @@ export function ConversionLandingTemplate({ page }: { page: LandingPage }) {
       )}
 
       {/* Ablauf */}
-      <section className="section-padding">
+      <section className={`section-padding ${proofLayout && openSections && c.scope ? "" : ""}`}>
         <div className="container-custom">
           <ScrollReveal>
             <h2 className="mb-10 text-center text-2xl font-bold text-anthracite lg:text-4xl">
@@ -426,26 +485,28 @@ export function ConversionLandingTemplate({ page }: { page: LandingPage }) {
         </section>
       )}
 
-      {/* Lange Texte in Aufklappern */}
+      {/* FAQ (und – nur ohne openSections – Aufklapper mit Langtexten) */}
       <section className="section-padding bg-gray-50">
         <div className="container-custom max-w-4xl">
-          <ScrollReveal>
-            <h2 className="mb-8 text-2xl font-bold text-anthracite lg:text-4xl">Mehr erfahren</h2>
-            <div className="space-y-3">
-              {contentBlocks.map((section) => (
-                <ContentBlock key={section.title} section={section} />
-              ))}
-              {!c.showProblemsInline && (
-                <MoreDetails summary={page.problem.title}>
-                  <ProblemList points={page.problem.points} />
-                </MoreDetails>
-              )}
-            </div>
-          </ScrollReveal>
+          {!openSections && (
+            <ScrollReveal>
+              <h2 className="mb-8 text-2xl font-bold text-anthracite lg:text-4xl">Mehr erfahren</h2>
+              <div className="space-y-3">
+                {contentBlocks.map((section) => (
+                  <ContentBlock key={section.title} section={section} />
+                ))}
+                {!c.showProblemsInline && (
+                  <MoreDetails summary={page.problem.title}>
+                    <ProblemList points={page.problem.points} />
+                  </MoreDetails>
+                )}
+              </div>
+            </ScrollReveal>
+          )}
 
-          <ScrollReveal className="mt-16">
+          <ScrollReveal className={openSections ? "" : "mt-16"}>
             <h2 className="mb-8 text-2xl font-bold text-anthracite lg:text-4xl">Häufige Fragen</h2>
-            <Accordion items={page.faq} />
+            {openSections ? <FaqList items={page.faq} /> : <Accordion items={page.faq} />}
           </ScrollReveal>
         </div>
       </section>
