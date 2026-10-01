@@ -75,6 +75,17 @@ export default function DatenschutzPage() {
               Rechtsgrundlage ist Ihre Einwilligung (Art. 6 Abs. 1 lit. a DSGVO, § 25 Abs. 1 TDDDG). Eine Übermittlung von Daten in die USA kann nicht ausgeschlossen werden; Google ist nach dem EU-US Data Privacy Framework zertifiziert. Weitere Informationen finden Sie in der Datenschutzerklärung von Google unter https://policies.google.com/privacy.
             </p>
           </section>
+
+          {/* TODO(Rechtsprüfung): Abschnitt 7 vor Livegang juristisch prüfen lassen. */}
+          <section id="vercel-analytics">
+            <h2 className="text-xl font-bold text-anthracite">7. Vercel Web Analytics und Speed Insights</h2>
+            <p className="mt-4 leading-relaxed">
+              Zur Reichweitenmessung und zur Analyse der Ladegeschwindigkeit nutzen wir Vercel Web Analytics und Vercel Speed Insights, Dienste der Vercel Inc., 340 S Lemon Ave #4133, Walnut, CA 91789, USA. Beide Dienste arbeiten ohne Cookies und ohne Speicherung von Informationen auf Ihrem Endgerät; es werden keine personenbezogenen Daten erfasst und kein Profil über Sie über mehrere Websites hinweg erstellt. Erfasst werden ausschließlich aggregierte, nicht auf Sie als Person zurückführbare Nutzungs- und Leistungsdaten (z. B. aufgerufene Seiten, Referrer, Land, Browser, Betriebssystem, Gerätetyp und Ladezeiten).
+            </p>
+            <p className="mt-4 leading-relaxed">
+              Rechtsgrundlage ist unser berechtigtes Interesse an einer bedarfsgerechten Gestaltung und technischen Optimierung unserer Website (Art. 6 Abs. 1 lit. f DSGVO). Da keine Informationen auf Ihrem Endgerät gespeichert oder aus ihm ausgelesen werden, ist hierfür keine Einwilligung über den Cookie-Banner erforderlich. Sie können der Verarbeitung jederzeit mit Wirkung für die Zukunft widersprechen, indem Sie uns über die im Impressum genannten Kontaktdaten kontaktieren. Weitere Informationen finden Sie in der Datenschutzerklärung von Vercel unter https://vercel.com/legal/privacy-policy.
+            </p>
+          </section>
         </div>
       </div>
     </div>
