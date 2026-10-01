@@ -5,9 +5,9 @@ export const seoHub: LandingPage = {
   path: "/leistungen/seo",
   category: "seo",
   meta: {
-    title: "SEO Agentur Duisburg & Moers | Local SEO | Kestler Connect",
+    title: "SEO Agentur Duisburg, Ruhrgebiet & Niederrhein | Kestler Connect",
     description:
-      "SEO Agentur Duisburg und Moers: Local SEO, Google-Sichtbarkeit und KI-Auffindbarkeit – für regionale Unternehmen im Ruhrgebiet und NRW.",
+      "SEO Agentur für Duisburg, Ruhrgebiet & Niederrhein: Local SEO, Google-Sichtbarkeit und KI-Auffindbarkeit – für regionale Unternehmen.",
     keywords: [
       "seo agentur duisburg",
       "seo duisburg",
@@ -20,7 +20,7 @@ export const seoHub: LandingPage = {
     ],
   },
   hero: {
-    headline: "SEO Agentur Duisburg & Moers – gefunden werden, wenn Kunden suchen",
+    headline: "SEO Agentur Duisburg, Ruhrgebiet & Niederrhein – gefunden werden, wenn Kunden suchen",
     subheadline:
       "Local SEO und nachhaltige Sichtbarkeit bei Google – für regionale Unternehmen in Duisburg, Moers und dem Ruhrgebiet.",
   },
@@ -109,7 +109,7 @@ export const seoHub: LandingPage = {
     title: "Welche Ergebnisse sind realistisch?",
     paragraphs: [
       "SEO braucht Zeit: Erste Signale zeigen sich oft nach einigen Wochen; abhängig von Wettbewerb und Ausgangslage. Garantien für Platzierungen geben wir nicht.",
-      "Praxis: Bei [DnM – Dämmstoffe nach Maß](/referenzen/dnm) lag der Fokus auf Sichtbarkeit auf Google Seite 1 – ergänzt durch Social Media. [Golfclub Raffelberg](/referenzen/golfclub-raffelberg) und [SecPro Bildungszentrum](/referenzen/secpro-bildungszentrum) zeigen, wie digitale Präsenz und Ads zusammenspielen.",
+      "Praxis: Bei [DnM – Dämmstoffe nach Maß](/referenzen/dnm) lag der Fokus auf Sichtbarkeit bei Google; laut Kundenaussage ist DnM heute auf Seite 1 zu finden – ergänzt durch Social Media. [Golfclub Raffelberg](/referenzen/golfclub-raffelberg) und [SecPro Bildungszentrum](/referenzen/secpro-bildungszentrum) zeigen, wie digitale Präsenz und Ads zusammenspielen.",
     ],
     points: [
       "Bessere Auffindbarkeit bei relevanten Suchen",
@@ -157,7 +157,7 @@ export const seoHub: LandingPage = {
     {
       title: "DnM – Dämmstoffe nach Maß",
       slug: "dnm",
-      excerpt: "SEO mit Sichtbarkeit auf Google Seite 1 – plus Social Media.",
+      excerpt: "SEO – laut Kundenaussage heute bei Google auf Seite 1 – plus Social Media.",
     },
     {
       title: "Golfclub Raffelberg",

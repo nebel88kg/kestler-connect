@@ -69,7 +69,7 @@ export default async function ReferenzDetailPage({
                 <ul className="mt-4 space-y-3">
                   {ref.measures.map((measure) => (
                     <li key={measure} className="flex items-start gap-3 text-gray-600">
-                      <span className="mt-0.5 text-accent">✓</span>
+                      <span className="mt-0.5 text-accent-dark">✓</span>
                       {measure}
                     </li>
                   ))}
@@ -83,7 +83,7 @@ export default async function ReferenzDetailPage({
                 <ul className="mt-4 space-y-3">
                   {ref.results.map((result) => (
                     <li key={result} className="flex items-start gap-3 rounded-xl border border-accent/20 bg-accent-light/30 p-4 text-anthracite font-medium">
-                      <span className="text-accent">★</span>
+                      <span className="text-accent-dark">★</span>
                       {result}
                     </li>
                   ))}
@@ -154,7 +154,7 @@ export default async function ReferenzDetailPage({
                   Lassen Sie uns in einem kostenlosen Gespräch herausfinden, was für Sie möglich ist.
                 </p>
                 <Button href="/kontakt" className="mt-6 w-full">
-                  Kostenloses Strategiegespräch
+                  Kostenloses Erstgespräch
                 </Button>
               </div>
             </ScrollReveal>

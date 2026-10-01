@@ -103,7 +103,7 @@ Professionelle Betreuung bedeutet vor allem: Struktur, Messung und laufende Opti
 5. Nach 2–4 Wochen auswerten: Kosten pro Anfrage, Qualität der Leads
 6. Skalieren oder nachschärfen – nicht blind Budget erhöhen
 
-Wenn Sie unsicher sind, ob SEA zu Ihrem Angebot passt, lohnt ein kurzes Strategiegespräch. Über [Kontakt](/kontakt) oder direkt über unsere [Google-Ads-Leistungsseite](/leistungen/google-ads).
+Wenn Sie unsicher sind, ob SEA zu Ihrem Angebot passt, lohnt ein kurzes Erstgespräch. Über [Kontakt](/kontakt) oder direkt über unsere [Google-Ads-Leistungsseite](/leistungen/google-ads).
 
 ## Fazit
 

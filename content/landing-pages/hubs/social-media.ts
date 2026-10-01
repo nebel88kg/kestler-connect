@@ -5,9 +5,9 @@ export const socialMediaHub: LandingPage = {
   path: "/leistungen/social-media",
   category: "social-media",
   meta: {
-    title: "Social Media Agentur Duisburg & Moers | Instagram & TikTok | Kestler Connect",
+    title: "Social Media Agentur Duisburg, Ruhrgebiet & Niederrhein | Kestler Connect",
     description:
-      "Social-Media-Agentur Duisburg und Moers: Instagram und TikTok – Redaktionsplan, Reels, Shorts-Formate und Ads – für regionale Unternehmen im Ruhrgebiet und NRW.",
+      "Social-Media-Agentur für Duisburg, Ruhrgebiet & Niederrhein: Instagram und TikTok – Redaktionsplan, Reels, Shorts-Formate und Ads – für regionale Unternehmen.",
     keywords: [
       "social media agentur duisburg",
       "social media agentur moers",
@@ -23,7 +23,7 @@ export const socialMediaHub: LandingPage = {
     ],
   },
   hero: {
-    headline: "Social Media Agentur Duisburg & Moers – Instagram und TikTok mit Plan",
+    headline: "Social Media Agentur Duisburg, Ruhrgebiet & Niederrhein – Instagram und TikTok mit Plan",
     subheadline:
       "Social Media Marketing für regionale Unternehmen: Strategie, Content, Reels und TikTok-Formate – organisch und mit Ads, damit Sichtbarkeit zu Anfragen wird.",
   },
@@ -180,7 +180,7 @@ export const socialMediaHub: LandingPage = {
     {
       title: "DnM",
       slug: "dnm",
-      excerpt: "Social Media begleitend zur SEO-Sichtbarkeit auf Google Seite 1.",
+      excerpt: "Social Media begleitend zur SEO-Sichtbarkeit, die laut Kundenaussage auf Google Seite 1 liegt.",
     },
   ],
   faq: [

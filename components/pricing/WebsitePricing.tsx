@@ -24,7 +24,7 @@ export function WebsitePricing() {
       <div className="container-custom">
         <ScrollReveal>
           <div className="mb-10 text-center sm:mb-12">
-            <p className="mb-3 text-sm font-semibold uppercase tracking-[0.15em] text-accent">
+            <p className="mb-3 text-sm font-semibold uppercase tracking-[0.15em] text-accent-dark">
               Preise
             </p>
             <h2 className="text-2xl font-extrabold text-navy sm:text-3xl lg:text-4xl">
@@ -111,7 +111,7 @@ export function WebsitePricing() {
                   )}
                 >
                   {pkg.highlighted && (
-                    <span className="mb-3 inline-flex w-fit rounded-full bg-accent/15 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-accent-hover">
+                    <span className="mb-3 inline-flex w-fit rounded-full bg-accent/15 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-accent-dark">
                       Beliebt
                     </span>
                   )}
@@ -160,7 +160,7 @@ export function WebsitePricing() {
                   <ul className="mt-5 flex-1 space-y-2.5">
                     {pkg.features.map((feature) => (
                       <li key={feature} className="flex items-start gap-2 text-sm text-gray-700">
-                        <span className="mt-0.5 text-accent" aria-hidden>
+                        <span className="mt-0.5 text-accent-dark" aria-hidden>
                           ✓
                         </span>
                         <span>{feature}</span>
@@ -172,7 +172,7 @@ export function WebsitePricing() {
                             key={`host-${feature}`}
                             className="flex items-start gap-2 text-sm text-gray-700"
                           >
-                            <span className="mt-0.5 text-accent" aria-hidden>
+                            <span className="mt-0.5 text-accent-dark" aria-hidden>
                               ✓
                             </span>
                             <span>{feature}</span>
@@ -204,7 +204,7 @@ export function WebsitePricing() {
             <ul className="mt-5 grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
               {hostingFeatures.map((feature) => (
                 <li key={feature} className="flex items-start gap-2 text-sm text-navy">
-                  <span className="text-accent" aria-hidden>
+                  <span className="text-accent-dark" aria-hidden>
                     ✓
                   </span>
                   {feature}

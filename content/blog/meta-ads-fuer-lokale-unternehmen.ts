@@ -136,7 +136,7 @@ Als [Social-Media-Agentur](/leistungen/social-media) mit Fokus auf [Performance 
 
 Das Mediabudget legen Sie fest – von kleinen Tagesbudgets bis zu größeren Kampagnenphasen. Zusätzlich kommen Einrichtung, Creatives, Tracking und laufende Optimierung. Was sich lohnt, hängt von Branche, Wettbewerb, Angebot und Ziel (Lead, Termin, Bewerbung) ab.
 
-Im Strategiegespräch klären wir, ob Meta Ads für Ihr Ziel sinnvoll sind, welches Budget realistisch ist und ob Google Ads, Website oder Social Media zuerst priorisiert werden sollten – ohne Überverkauf.
+Im Erstgespräch klären wir, ob Meta Ads für Ihr Ziel sinnvoll sind, welches Budget realistisch ist und ob Google Ads, Website oder Social Media zuerst priorisiert werden sollten – ohne Überverkauf.
 
 ## Fazit
 

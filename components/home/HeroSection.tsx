@@ -1,9 +1,11 @@
 import { Button } from "@/components/ui/Button";
+import { HeroVideo } from "@/components/home/HeroVideo";
 import { siteConfig } from "@/lib/navigation";
 
 /**
  * Server-Komponente: Der Hero-Text wird ohne Hydration-Wartezeit gerendert (LCP).
- * Optik (Video-Hintergrund, Verläufe, Layout) unverändert.
+ * Optik (Video-Hintergrund, Verläufe, Layout) unverändert; das Video lädt nur auf
+ * größeren Bildschirmen (siehe HeroVideo), mobil bleibt es beim Poster.
  */
 export function HeroSection() {
   const tel = siteConfig.phone.replace(/\s/g, "");
@@ -11,17 +13,7 @@ export function HeroSection() {
   return (
     <section className="relative h-[100dvh] overflow-hidden">
       <div className="absolute inset-0 bg-navy">
-        <video
-          autoPlay
-          muted
-          loop
-          playsInline
-          preload="metadata"
-          className="absolute inset-0 h-full w-full object-cover"
-          aria-hidden="true"
-        >
-          <source src="/videos/hero.mp4" type="video/mp4" />
-        </video>
+        <HeroVideo />
         <div className="absolute inset-0 bg-gradient-to-r from-navy/75 via-navy/30 to-navy/10" />
         <div className="absolute inset-0 bg-gradient-to-t from-navy/50 via-transparent to-transparent" />
       </div>

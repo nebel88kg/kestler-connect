@@ -7,7 +7,7 @@ export const mitarbeitergewinnungHub: LandingPage = {
   meta: {
     title: "Mitarbeiter finden Duisburg | Social Recruiting | Kestler Connect",
     description:
-      "Mitarbeitergewinnung in Duisburg und Moers: Social Recruiting und Recruiting Ads auf Instagram, TikTok und Meta – für regionale Betriebe mit Fachkräftebedarf.",
+      "Mitarbeitergewinnung in Duisburg, im Ruhrgebiet und am Niederrhein: Social Recruiting und Recruiting Ads auf Instagram, TikTok und Meta – für regionale Betriebe mit Fachkräftebedarf.",
     keywords: [
       "mitarbeiter finden duisburg",
       "social recruiting",
@@ -21,7 +21,7 @@ export const mitarbeitergewinnungHub: LandingPage = {
     ],
   },
   hero: {
-    headline: "Mitarbeiter finden in Duisburg & Moers – passende Bewerber statt Zufallstreffer",
+    headline: "Mitarbeiter finden in Duisburg, Ruhrgebiet & Niederrhein – passende Bewerber statt Zufallstreffer",
     subheadline:
       "Social Recruiting und Recruiting Ads für regionale Betriebe – sichtbar als Arbeitgeber, gezielt über Instagram, TikTok und Google.",
   },

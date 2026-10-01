@@ -49,7 +49,7 @@ function renderInline(text: string): ReactNode[] {
         <Link
           key={key++}
           href={href}
-          className="font-semibold text-accent underline-offset-2 hover:underline"
+          className="font-semibold text-accent-dark underline-offset-2 hover:underline"
           {...(!isInternal ? { target: "_blank", rel: "noopener noreferrer" } : {})}
         >
           {match[2]}
@@ -197,7 +197,7 @@ export default async function BlogPostPage({
     title: "Fragen zu diesem Thema?",
     text: "Wir beraten Sie gerne persönlich.",
     href: "/kontakt",
-    button: "Kostenloses Strategiegespräch",
+    button: "Kostenloses Erstgespräch",
   };
 
   const blogPostingSchema = {
@@ -230,7 +230,7 @@ export default async function BlogPostPage({
         <Breadcrumbs items={createBreadcrumbsFromPath(`/blog/${slug}`)} />
 
         <ScrollReveal>
-          <span className="mb-4 inline-block rounded-full bg-accent-light px-3 py-1 text-xs font-semibold text-accent">
+          <span className="mb-4 inline-block rounded-full bg-accent-light px-3 py-1 text-xs font-semibold text-accent-dark">
             {post.category}
           </span>
           <h1 className="text-2xl font-extrabold text-anthracite sm:text-3xl lg:text-5xl">
