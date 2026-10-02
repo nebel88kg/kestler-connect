@@ -11,8 +11,10 @@ import { socialMediaFuerVereine } from "./social-media-fuer-vereine";
 import { metaAdsFuerLokaleUnternehmen } from "./meta-ads-fuer-lokale-unternehmen";
 import { performanceMarketingDuisburg } from "./performance-marketing-duisburg";
 import { beiGoogleUndKiGefundenWerden } from "./bei-google-und-ki-gefunden-werden";
+import { googleAdsAgenturDuisburg } from "./google-ads-agentur-duisburg";
 
 export const blogPosts: BlogPost[] = [
+  googleAdsAgenturDuisburg,
   beiGoogleUndKiGefundenWerden,
   performanceMarketingDuisburg,
   metaAdsFuerLokaleUnternehmen,
