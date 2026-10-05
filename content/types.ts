@@ -2,6 +2,11 @@ export interface LandingPageMeta {
   title: string;
   description: string;
   keywords: string[];
+  /**
+   * true: `title` wird unverändert als <title>/OG-Title genutzt (kein Anhängen von " | Kestler Connect").
+   * Für Seiten, deren Title sonst über ~60 Zeichen läge.
+   */
+  absoluteTitle?: boolean;
 }
 
 export interface LandingPageHero {
