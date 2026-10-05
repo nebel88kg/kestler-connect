@@ -12,8 +12,10 @@ import { metaAdsFuerLokaleUnternehmen } from "./meta-ads-fuer-lokale-unternehmen
 import { performanceMarketingDuisburg } from "./performance-marketing-duisburg";
 import { beiGoogleUndKiGefundenWerden } from "./bei-google-und-ki-gefunden-werden";
 import { googleAdsAgenturDuisburg } from "./google-ads-agentur-duisburg";
+import { socialMediaFuerPflegedienste } from "./social-media-fuer-pflegedienste";
 
 export const blogPosts: BlogPost[] = [
+  socialMediaFuerPflegedienste,
   googleAdsAgenturDuisburg,
   beiGoogleUndKiGefundenWerden,
   performanceMarketingDuisburg,
