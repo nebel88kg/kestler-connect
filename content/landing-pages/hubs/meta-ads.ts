@@ -5,13 +5,21 @@ export const metaAdsHub: LandingPage = {
   path: "/leistungen/meta-ads",
   category: "meta-ads",
   meta: {
-    title: "Meta Ads Agentur Duisburg: Facebook- & Instagram-Werbung, die Anfragen bringt",
+    // 60 Zeichen, ohne angehängten Markennamen (absoluteTitle) – Suchanfragen laut Search Console:
+    // "instagram ads agentur", "facebook werbung agentur", "meta agentur".
+    title: "Instagram Ads Agentur Duisburg | Facebook Werbung Ruhrgebiet",
+    absoluteTitle: true,
     description:
-      "Meta Ads Agentur in Duisburg: Facebook- und Instagram-Werbung, die Anfragen bringt – regional ausgespielt und messbar. Kostenloses 30-Minuten-Erstgespräch mit Einschätzung.",
+      "Instagram Ads Agentur in Duisburg: Facebook Werbung & Meta Ads für Unternehmen im Ruhrgebiet – regional und messbar. Kostenloses Strategiegespräch sichern.",
     keywords: [
+      "instagram ads agentur",
+      "instagram ads agentur duisburg",
+      "facebook werbung agentur",
+      "facebook werbung duisburg",
+      "meta agentur",
+      "meta ads agentur",
       "meta ads duisburg",
       "meta ads moers",
-      "meta ads agentur",
       "facebook ads duisburg",
       "instagram ads moers",
       "facebook werbung",
@@ -19,9 +27,9 @@ export const metaAdsHub: LandingPage = {
     ],
   },
   hero: {
-    headline: "Meta Ads Agentur Duisburg: Facebook- & Instagram-Werbung, die Anfragen bringt",
+    headline: "Meta Ads Agentur Duisburg: Instagram Ads & Facebook Werbung, die Anfragen bringt",
     subheadline:
-      "Wir bauen Ihre Kampagnen, messen jede Anfrage und optimieren laufend – regional und passend zu Ihrem Auftritt.",
+      "Wir bauen Ihre Instagram- und Facebook-Kampagnen, messen jede Anfrage und optimieren laufend – für Unternehmen in Duisburg und im Ruhrgebiet.",
   },
   conversion: {
     openSections: true,
@@ -60,7 +68,7 @@ export const metaAdsHub: LandingPage = {
   intro: {
     title: "Meta Ads kurz erklärt",
     paragraphs: [
-      "Meta Ads sind bezahlte Anzeigen auf Facebook und Instagram. Sie erreichen Menschen nach Region, Interessen und Verhalten.",
+      "Als Instagram Ads Agentur in Duisburg schalten wir Instagram Ads und Facebook Werbung für Unternehmen im Ruhrgebiet. Sie erreichen Menschen nach Region, Interessen und Verhalten.",
       "Wir stimmen Anzeigen, Profil und Seite aufeinander ab. So wirkt Ihre Werbung stimmig und bringt Anfragen.",
     ],
   },
