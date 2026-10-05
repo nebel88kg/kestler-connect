@@ -38,6 +38,7 @@ export async function generateMetadata({
       description: landingPage.meta.description,
       path,
       keywords: landingPage.meta.keywords,
+      absoluteTitle: landingPage.meta.absoluteTitle,
     });
   }
 

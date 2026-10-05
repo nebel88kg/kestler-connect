@@ -8,6 +8,8 @@ interface PageMetadataOptions {
   path?: string;
   keywords?: string[];
   noIndex?: boolean;
+  /** true: Title unverändert übernehmen, ohne " | Kestler Connect" anzuhängen (z. B. wegen Title-Länge). */
+  absoluteTitle?: boolean;
 }
 
 export function createMetadata({
@@ -16,10 +18,11 @@ export function createMetadata({
   path = "",
   keywords = [],
   noIndex = false,
+  absoluteTitle = false,
 }: PageMetadataOptions): Metadata {
   const url = `${siteConfig.url}${path}`;
   const fullTitle =
-    title === siteConfig.name || title.includes(siteConfig.name)
+    absoluteTitle || title === siteConfig.name || title.includes(siteConfig.name)
       ? title
       : `${title} | ${siteConfig.name}`;
   const ogImage = `${siteConfig.url}/images/logo.png`;
