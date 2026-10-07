@@ -13,8 +13,10 @@ import { performanceMarketingDuisburg } from "./performance-marketing-duisburg";
 import { beiGoogleUndKiGefundenWerden } from "./bei-google-und-ki-gefunden-werden";
 import { googleAdsAgenturDuisburg } from "./google-ads-agentur-duisburg";
 import { socialMediaFuerPflegedienste } from "./social-media-fuer-pflegedienste";
+import { socialMediaFuerGastronomie } from "./social-media-fuer-gastronomie";
 
 export const blogPosts: BlogPost[] = [
+  socialMediaFuerGastronomie,
   socialMediaFuerPflegedienste,
   googleAdsAgenturDuisburg,
   beiGoogleUndKiGefundenWerden,
