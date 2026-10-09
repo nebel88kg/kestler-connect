@@ -14,8 +14,10 @@ import { beiGoogleUndKiGefundenWerden } from "./bei-google-und-ki-gefunden-werde
 import { googleAdsAgenturDuisburg } from "./google-ads-agentur-duisburg";
 import { socialMediaFuerPflegedienste } from "./social-media-fuer-pflegedienste";
 import { socialMediaFuerGastronomie } from "./social-media-fuer-gastronomie";
+import { socialMediaFuerHandwerksbetriebe } from "./social-media-fuer-handwerksbetriebe";
 
 export const blogPosts: BlogPost[] = [
+  socialMediaFuerHandwerksbetriebe,
   socialMediaFuerGastronomie,
   socialMediaFuerPflegedienste,
   googleAdsAgenturDuisburg,
