@@ -131,6 +131,111 @@ export const socialMediaHub: LandingPage = {
         },
       ],
       faq: [
+        {
+          question: "Was beinhaltet die kostenlose Analyse?",
+          answer:
+            "Ich schaue mir Ihre Social-Media-Kanäle und Ziele an. Im Strategiegespräch bekommen Sie eine ehrliche Einschätzung und konkrete nächste Schritte. Sie zahlen nichts, und es ist unverbindlich. Das Angebot gilt bis 31.10.2026.",
+        },
+      ],
+    },
+    // ── Ende OKTOBER-AKTION ─────────────────────────────────────────────────────────────────
+  },
+  intro: {
+    title: "Was macht eine Social Media Agentur für Sie?",
+    paragraphs: [
+      "Als Social Media Agentur aus Duisburg entwickeln wir Ihre Social-Media-Strategie, planen Inhalte und produzieren regelmäßig Content für Instagram, TikTok und Facebook – Reels, Stories und Beiträge inklusive.",
+      "Auf Wunsch denken wir Social Media mit Ads und Website zusammen: Content baut Vertrauen auf, Anzeigen bringen Reichweite, die Website macht daraus Anfragen.",
+    ],
+  },
+  audience: {
+    title: "Social Media für Handwerk, Vereine, Gastronomie & KMU",
+    paragraphs: [
+      "Für Betriebe und Organisationen, die online professionell wirken wollen, aber im Alltag keine Zeit für regelmäßigen Content haben.",
+    ],
+    points: [
+      "Handwerksbetriebe – Projekte zeigen, Vertrauen aufbauen, Fachkräfte ansprechen",
+      "Vereine – Mitglieder, Sponsoren und Veranstaltungen sichtbar machen",
+      "Gastronomie – Gerichte, Events und Atmosphäre zeigen",
+      "KMU, Dienstleister und Handel vor Ort",
+      "Betriebe, die neue Mitarbeitende gewinnen wollen",
+    ],
+  },
+  serviceArea: {
+    title: "Aus Duisburg – für Ruhrgebiet & Niederrhein",
+    paragraphs: [
+      "Kestler Connect sitzt in Duisburg. Als Social Media Agentur betreuen wir Betriebe vor Ort und digital – mit Shootings und Terminen in Duisburg, Moers, Krefeld, Oberhausen, Mülheim an der Ruhr, Dinslaken und Umgebung.",
+    ],
+    points: ["Duisburg", "Moers", "Krefeld", "Oberhausen", "Mülheim an der Ruhr", "Dinslaken"],
+  },
+  problem: {
+    title: "Kommt Ihnen das bekannt vor?",
+    points: [
+      "Unregelmäßige Posts und veraltete Profile",
+      "Keine klare Botschaft oder visuelle Linie",
+      "Zu wenig Zeit im Alltag für Content",
+      "Reels und TikTok-Formate werden nicht genutzt",
+      "Ads laufen, aber der organische Auftritt wirkt unprofessionell",
+    ],
+  },
+  solution: {
+    title: "Social Media mit Plan – aus einer Hand",
+    content:
+      "Wir entwickeln Strategie und Redaktionsplan, produzieren Inhalte für Instagram, TikTok und Facebook und betreuen Ihre Kanäle – auf Wunsch abgestimmt auf Ihre Anzeigen und Ihre Website.",
+  },
+  benefits: [
+    {
+      title: "Klare Strategie",
+      description: "Positionierung, Formate und Tonalität statt Zufallsposten.",
+      icon: "target",
+    },
+    {
+      title: "Instagram & TikTok",
+      description: "Feed, Stories, Reels und Shorts-Style-Formate – organisch und ads-ready.",
+      icon: "social",
+    },
+    {
+      title: "Professioneller Auftritt",
+      description: "Modern, konsistent und vertrauenswürdig für Kunden und Bewerber.",
+      icon: "star",
+    },
+    {
+      title: "Zeitersparnis",
+      description: "Planung und Produktion nach klaren Freigaben – ohne Dauerstress.",
+      icon: "check",
+    },
+    {
+      title: "Ads-ready",
+      description: "Inhalte, die sich auch für Meta Ads und kurze Video-Ads eignen.",
+      icon: "rocket",
+    },
+    {
+      title: "Fester Ansprechpartner",
+      description: "Direkte Abstimmung statt anonymer Agenturprozesse.",
+      icon: "users",
+    },
+  ],
+  // Dauerversion (3 Schritte). Während der Oktober-Aktion gilt conversion.promo.process.
+  process: [
+    { step: 1, title: "Kennenlernen", description: "Wir klären Ausgangslage, Ziele und Zielgruppe." },
+    {
+      step: 2,
+      title: "Strategiegespräch",
+      description: "Wir besprechen Kanäle, Formate und nächste Schritte. Unverbindlich.",
+    },
+    {
+      step: 3,
+      title: "Umsetzung & Betreuung",
+      description: "Redaktionsplan, Content-Produktion und Veröffentlichung. Was funktioniert, wird ausgebaut.",
+    },
+  ],
+  references: [
+    {
+      title: "Golfclub Raffelberg",
+      slug: "golfclub-raffelberg",
+      excerpt: "Social Media professionalisiert – mit Reels, Strategie und mehr Reichweite.",
+    },
+  ],
+  faq: [
     {
       question: "Was macht eine Social Media Agentur?",
       answer:
