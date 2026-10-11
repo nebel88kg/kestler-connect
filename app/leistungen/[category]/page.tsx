@@ -4,6 +4,7 @@ import Link from "next/link";
 import { createMetadata, createBreadcrumbsFromPath } from "@/lib/seo";
 import { leistungenHubContent, leistungenNav } from "@/lib/navigation";
 import { getLandingPageByPath } from "@/lib/content";
+import { getActivePromo } from "@/lib/promo";
 import { Button } from "@/components/ui/Button";
 import { Card } from "@/components/ui/Card";
 import { Breadcrumbs } from "@/components/seo/Breadcrumbs";
@@ -19,6 +20,12 @@ const categories = [
   ]),
 ];
 
+/**
+ * Stündliche Revalidierung (ISR), damit befristete Aktionen (conversion.promo) nach ihrem Enddatum
+ * ohne neuen Deploy aus HTML und Meta verschwinden. Ohne Promo ändert sich am Inhalt nichts.
+ */
+export const revalidate = 3600;
+
 export function generateStaticParams() {
   return categories.map((category) => ({ category }));
 }
@@ -33,9 +40,10 @@ export async function generateMetadata({
   const landingPage = getLandingPageByPath(path);
 
   if (landingPage) {
+    const promo = getActivePromo(landingPage.conversion?.promo);
     return createMetadata({
       title: landingPage.meta.title,
-      description: landingPage.meta.description,
+      description: promo?.metaDescription ?? landingPage.meta.description,
       path,
       keywords: landingPage.meta.keywords,
       absoluteTitle: landingPage.meta.absoluteTitle,

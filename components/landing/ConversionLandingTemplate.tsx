@@ -10,8 +10,10 @@ import { ReviewBadge } from "@/components/ui/ReviewBadge";
 import { ScrollReveal } from "@/components/ui/ScrollReveal";
 import { TrackedContactLink } from "@/components/ui/TrackedContactLink";
 import { FounderPhoto } from "@/components/landing/FounderPhoto";
+import { TimeLimitedPromo } from "@/components/landing/TimeLimitedPromo";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { createFaqSchema } from "@/lib/seo";
+import { getActivePromo } from "@/lib/promo";
 import { renderInline } from "@/lib/inlineMarkdown";
 import { siteConfig } from "@/lib/navigation";
 import { googleBusiness } from "@/lib/googleBusiness";
@@ -19,6 +21,13 @@ import { raffelbergLogo } from "@/lib/clientLogos";
 import { getTestimonialAttribution, raffelbergTestimonial } from "@/content/testimonials";
 
 /** Einheitlicher Budget-Hinweis – bewusst ohne Zahlen, Preise oder Laufzeiten. */
+/** Feste Tailwind-Klassen für die Ablauf-Spalten (dynamische Klassennamen würden nicht generiert). */
+const PROCESS_COLS: Record<number, string> = {
+  3: "lg:grid-cols-3",
+  4: "lg:grid-cols-4",
+  5: "lg:grid-cols-5",
+};
+
 const BUDGET_NOTE =
   "Budget und Betreuung richten sich nach Ziel, Branche und Umfang – im kostenlosen Erstgespräch bekommen Sie eine ehrliche Budgetorientierung.";
 
@@ -100,16 +109,28 @@ function FaqList({ items }: { items: { question: string; answer: string }[] }) {
  * openSections: kurze sichtbare Textabschnitte und offene FAQ statt Aufklapper.
  *
  * In allen Varianten: nur reale Inhalte, keine Preise/Laufzeiten, weiterführende Links nur ganz unten.
+ *
+ * conversion.promo (optional, befristet): Aktion mit Enddatum (z. B. Oktober-Aktion Social Media).
+ *   Solange aktiv, ersetzt sie ctaLabel/formTitle/heroPoints/offer/process und stellt FAQ voran;
+ *   danach rendert die Seite automatisch die Dauer-Inhalte (siehe lib/promo.ts).
  */
 export function ConversionLandingTemplate({ page }: { page: LandingPage }) {
   const c = page.conversion;
   if (!c) return null;
 
   const proofLayout = c.heroLayout === "proof";
+  // Befristete Aktion: nur solange aktiv (Server-Check bei Build/ISR + Client-Check in TimeLimitedPromo).
+  const promo = getActivePromo(c.promo);
+  const ctaLabel = promo?.ctaLabel ?? c.ctaLabel;
+  const formTitle = promo?.formTitle ?? c.formTitle;
+  const heroPoints = promo?.heroPoints ?? c.heroPoints;
+  const offer = promo?.offer ?? c.offer;
+  const processSteps = promo?.process ?? page.process;
+  const faqItems = promo?.faq ? [...promo.faq, ...page.faq] : page.faq;
   const openSections = Boolean(c.openSections);
   const tel = siteConfig.phone.replace(/\s/g, "");
   const waHref = `https://wa.me/${siteConfig.whatsapp}`;
-  const faqSchema = createFaqSchema(page.faq);
+  const faqSchema = createFaqSchema(faqItems);
   const reviews = googleBusiness.reviewPreviews.filter((review) => c.proof.reviewAuthors.includes(review.author));
   const attribution = getTestimonialAttribution(raffelbergTestimonial);
   const attributionText = `${attribution.primary}${attribution.secondary ? `, ${attribution.secondary}` : ""}`;
@@ -139,7 +160,7 @@ export function ConversionLandingTemplate({ page }: { page: LandingPage }) {
               </p>
               {!proofLayout && (
                 <ul className="mt-6 hidden space-y-2 text-base text-gray-100 sm:block">
-                  {c.heroPoints.map((item) => (
+                  {heroPoints.map((item) => (
                     <li key={item} className="flex items-start gap-3">
                       <span className="mt-0.5 text-accent" aria-hidden="true">
                         ✓
@@ -149,9 +170,16 @@ export function ConversionLandingTemplate({ page }: { page: LandingPage }) {
                   ))}
                 </ul>
               )}
+              {promo && (
+                <TimeLimitedPromo endsAt={promo.endsAt}>
+                  <p className="mt-5 rounded-xl border border-accent/50 bg-accent/10 px-4 py-3 text-sm font-semibold leading-snug text-white sm:mt-6 sm:text-base">
+                    {promo.text}
+                  </p>
+                </TimeLimitedPromo>
+              )}
               <div className="mt-6 sm:mt-8">
                 <Button href={proofLayout ? "#kontakt" : "#anfrage"} size="lg" className="text-center">
-                  {c.ctaLabel}
+                  {ctaLabel}
                 </Button>
               </div>
               <p className="mt-4 text-sm text-gray-200">
@@ -189,12 +217,12 @@ export function ConversionLandingTemplate({ page }: { page: LandingPage }) {
               </div>
             ) : (
               <div id="anfrage" className="scroll-mt-24 rounded-2xl bg-white p-5 shadow-xl sm:p-6">
-                <h2 className="text-xl font-bold text-anthracite">{c.formTitle}</h2>
+                <h2 className="text-xl font-bold text-anthracite">{formTitle}</h2>
                 <p className="mb-4 mt-1 text-sm text-gray-600">Nur drei Angaben – wir melden uns zeitnah.</p>
                 <LeadMiniForm
                   source={`${page.slug}-hero`}
-                  submitLabel={c.ctaLabel}
-                  offer={c.offer.title}
+                  submitLabel={ctaLabel}
+                  offer={offer.title}
                   topicPlaceholder={c.formTopicPlaceholder}
                 />
               </div>
@@ -214,10 +242,10 @@ export function ConversionLandingTemplate({ page }: { page: LandingPage }) {
                     <p className="text-sm font-semibold uppercase tracking-[0.15em] text-accent-dark">
                       Ihr nächster Schritt
                     </p>
-                    <h2 className="mt-2 text-2xl font-bold text-anthracite lg:text-3xl">{c.offer.title}</h2>
-                    <p className="mt-3 text-gray-700">{c.offer.intro}</p>
-                    <CheckList items={c.offer.items} className="mt-5 space-y-2 text-gray-800" />
-                    <p className="mt-5 font-semibold text-anthracite">{c.offer.closing}</p>
+                    <h2 className="mt-2 text-2xl font-bold text-anthracite lg:text-3xl">{offer.title}</h2>
+                    <p className="mt-3 text-gray-700">{offer.intro}</p>
+                    <CheckList items={offer.items} className="mt-5 space-y-2 text-gray-800" />
+                    <p className="mt-5 font-semibold text-anthracite">{offer.closing}</p>
                     <p className="mt-3 text-sm text-gray-700">{BUDGET_NOTE}</p>
                     <p className="mt-4 text-sm text-gray-700">
                       Lieber direkt?{" "}
@@ -243,12 +271,12 @@ export function ConversionLandingTemplate({ page }: { page: LandingPage }) {
                   </div>
                   {/* Einziges Formular der Seite; id="anfrage" bedient auch die mobile StickyContactBar. */}
                   <div id="anfrage" className="scroll-mt-20 rounded-2xl bg-white p-5 shadow-sm sm:p-6">
-                    <h3 className="text-xl font-bold text-anthracite">{c.formTitle}</h3>
+                    <h3 className="text-xl font-bold text-anthracite">{formTitle}</h3>
                     <p className="mb-4 mt-1 text-sm text-gray-600">Nur drei Angaben – wir melden uns zeitnah.</p>
                     <LeadMiniForm
                       source={`${page.slug}-kontakt`}
-                      submitLabel={c.ctaLabel}
-                      offer={c.offer.title}
+                      submitLabel={ctaLabel}
+                      offer={offer.title}
                       topicPlaceholder={c.formTopicPlaceholder}
                     />
                   </div>
@@ -266,13 +294,13 @@ export function ConversionLandingTemplate({ page }: { page: LandingPage }) {
             <ScrollReveal>
               <div className="rounded-3xl border border-accent/30 bg-accent-light/40 p-6 sm:p-10 lg:p-12">
                 <p className="text-sm font-semibold uppercase tracking-[0.15em] text-accent-dark">Ihr nächster Schritt</p>
-                <h2 className="mt-2 text-2xl font-bold text-anthracite lg:text-4xl">{c.offer.title}</h2>
-                <p className="mt-4 max-w-3xl text-lg leading-relaxed text-gray-700">{c.offer.intro}</p>
-                <CheckList items={c.offer.items} className="mt-6 grid gap-3 text-gray-800 md:grid-cols-2" />
-                <p className="mt-6 text-lg font-semibold text-anthracite">{c.offer.closing}</p>
+                <h2 className="mt-2 text-2xl font-bold text-anthracite lg:text-4xl">{offer.title}</h2>
+                <p className="mt-4 max-w-3xl text-lg leading-relaxed text-gray-700">{offer.intro}</p>
+                <CheckList items={offer.items} className="mt-6 grid gap-3 text-gray-800 md:grid-cols-2" />
+                <p className="mt-6 text-lg font-semibold text-anthracite">{offer.closing}</p>
                 <div className="mt-6">
                   <Button href="#kontakt" size="lg" className="text-center">
-                    {c.ctaLabel}
+                    {ctaLabel}
                   </Button>
                 </div>
               </div>
@@ -303,7 +331,7 @@ export function ConversionLandingTemplate({ page }: { page: LandingPage }) {
               <CheckList items={c.scope.items} className="mt-8 grid gap-4 text-gray-800 md:grid-cols-2" />
               <div className="mt-8">
                 <Button href="#kontakt" size="lg" className="text-center">
-                  {c.ctaLabel}
+                  {ctaLabel}
                 </Button>
               </div>
             </ScrollReveal>
@@ -450,8 +478,8 @@ export function ConversionLandingTemplate({ page }: { page: LandingPage }) {
               Ablauf der Zusammenarbeit
             </h2>
           </ScrollReveal>
-          <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-5">
-            {page.process.map((step, i) => (
+          <div className={`grid grid-cols-1 gap-6 sm:grid-cols-2 ${PROCESS_COLS[processSteps.length] ?? "lg:grid-cols-5"}`}>
+            {processSteps.map((step, i) => (
               <ScrollReveal key={step.step} delay={i * 0.08}>
                 <div className="text-center">
                   <div className="mx-auto mb-4 flex h-14 w-14 items-center justify-center rounded-2xl bg-accent text-xl font-bold text-navy">
@@ -476,7 +504,7 @@ export function ConversionLandingTemplate({ page }: { page: LandingPage }) {
                 <p className="mt-3 max-w-3xl text-lg leading-relaxed text-gray-700">{BUDGET_NOTE}</p>
                 <div className="mt-5">
                   <Button href="#kontakt" size="md" className="text-center">
-                    {c.ctaLabel}
+                    {ctaLabel}
                   </Button>
                 </div>
               </div>
@@ -506,7 +534,7 @@ export function ConversionLandingTemplate({ page }: { page: LandingPage }) {
 
           <ScrollReveal className={openSections ? "" : "mt-16"}>
             <h2 className="mb-8 text-2xl font-bold text-anthracite lg:text-4xl">Häufige Fragen</h2>
-            {openSections ? <FaqList items={page.faq} /> : <Accordion items={page.faq} />}
+            {openSections ? <FaqList items={faqItems} /> : <Accordion items={faqItems} />}
           </ScrollReveal>
         </div>
       </section>
@@ -517,8 +545,8 @@ export function ConversionLandingTemplate({ page }: { page: LandingPage }) {
           <div className="container-custom">
             <div className="grid items-start gap-10 lg:grid-cols-2 lg:gap-14">
               <ScrollReveal>
-                <h2 className="text-2xl font-extrabold text-white lg:text-4xl">{c.offer.title}</h2>
-                <p className="mt-4 text-gray-200">{c.offer.closing}</p>
+                <h2 className="text-2xl font-extrabold text-white lg:text-4xl">{offer.title}</h2>
+                <p className="mt-4 text-gray-200">{offer.closing}</p>
                 <p className="mt-4 text-gray-200">
                   Lieber direkt?{" "}
                   <TrackedContactLink kind="phone" href={`tel:${tel}`} placement="landing_footer" className={linkClass}>
@@ -538,8 +566,8 @@ export function ConversionLandingTemplate({ page }: { page: LandingPage }) {
                 <div className="rounded-2xl bg-white p-5 sm:p-8">
                   <LeadMiniForm
                     source={`${page.slug}-kontakt`}
-                    submitLabel={c.ctaLabel}
-                    offer={c.offer.title}
+                    submitLabel={ctaLabel}
+                    offer={offer.title}
                     topicPlaceholder={c.formTopicPlaceholder}
                   />
                 </div>
