@@ -5,6 +5,7 @@ import { Breadcrumbs } from "@/components/seo/Breadcrumbs";
 import { ContactForm } from "@/components/ui/ContactForm";
 import { ReviewBadge } from "@/components/ui/ReviewBadge";
 import { Button } from "@/components/ui/Button";
+import { GoogleMapEmbed } from "@/components/ui/GoogleMapEmbed";
 
 export const metadata: Metadata = createMetadata({
   title: "Kontakt & kostenloses Erstgespräch",
@@ -78,6 +79,7 @@ export default function KontaktPage() {
               <p className="mt-3 text-sm text-gray-600">
                 Für Unternehmen in Duisburg, im Ruhrgebiet und am Niederrhein – vor Ort und digital.
               </p>
+              <GoogleMapEmbed className="mt-4" />
             </div>
 
             <ReviewBadge />

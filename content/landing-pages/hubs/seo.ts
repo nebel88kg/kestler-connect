@@ -5,9 +5,9 @@ export const seoHub: LandingPage = {
   path: "/leistungen/seo",
   category: "seo",
   meta: {
-    title: "SEO Agentur Duisburg, Ruhrgebiet & Niederrhein: Gefunden werden, wenn Kunden suchen",
+    title: "SEO Agentur Duisburg, Ruhrgebiet & Niederrhein",
     description:
-      "SEO Agentur in Duisburg, Ruhrgebiet & Niederrhein: Local SEO und Sichtbarkeit bei Google und Google Maps für regionale Unternehmen. Kostenloses Erstgespräch mit Einschätzung.",
+      "SEO Agentur in Duisburg: Local SEO und Sichtbarkeit bei Google und Google Maps für Unternehmen im Ruhrgebiet & am Niederrhein. Kostenloses Erstgespräch.",
     keywords: [
       "seo agentur duisburg",
       "seo duisburg",

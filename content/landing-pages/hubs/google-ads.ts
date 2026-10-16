@@ -5,7 +5,8 @@ export const googleAdsHub: LandingPage = {
   path: "/leistungen/google-ads",
   category: "google-ads",
   meta: {
-    title: "Google Ads Agentur Duisburg: Mehr Anfragen statt teurer Klicks",
+    title: "Google Ads Agentur Duisburg: Anfragen statt teurer Klicks",
+    absoluteTitle: true,
     description:
       "Google Ads Agentur in Duisburg: Wir richten Ihre Kampagnen ein, tracken jede Anfrage und optimieren laufend. Kostenloses 30-Minuten-Erstgespräch mit Einschätzung.",
     keywords: [

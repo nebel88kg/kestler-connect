@@ -9,6 +9,7 @@ import { JsonLd } from "@/components/seo/JsonLd";
 import { ScrollReveal } from "@/components/ui/ScrollReveal";
 import { Button } from "@/components/ui/Button";
 import { siteConfig } from "@/lib/navigation";
+import { locations } from "@/content/locations";
 
 export function generateStaticParams() {
   return blogPosts.map((post) => ({ slug: post.slug }));
@@ -23,8 +24,11 @@ export async function generateMetadata({
   const post = getBlogPostBySlug(slug);
   if (!post) return {};
 
+  const title = post.metaTitle || post.title;
   return createMetadata({
-    title: post.metaTitle || post.title,
+    title,
+    // Lange Titel ohne angehängtes " | Kestler Connect", damit sie in den Suchergebnissen nicht abgeschnitten werden.
+    absoluteTitle: title.length + ` | ${siteConfig.name}`.length > 60,
     description: post.metaDescription || post.excerpt,
     path: `/blog/${slug}`,
   });
@@ -264,6 +268,32 @@ export default async function BlogPostPage({
             </Button>
           </div>
         </ScrollReveal>
+
+        <nav aria-label="Online-Marketing in Ihrer Region" className="mx-auto mt-10 max-w-3xl">
+          <h2 className="text-lg font-bold text-anthracite">Online-Marketing in Ihrer Region</h2>
+          <ul className="mt-3 flex flex-wrap gap-x-5 gap-y-2 text-sm">
+            <li>
+              <Link href="/marketing-agentur-duisburg" className="font-semibold text-accent-dark underline underline-offset-2">
+                Duisburg
+              </Link>
+            </li>
+            {locations.map((location) => (
+              <li key={location.slug}>
+                <Link
+                  href={`/einzugsgebiet/${location.slug}`}
+                  className="font-semibold text-accent-dark underline underline-offset-2"
+                >
+                  {location.name}
+                </Link>
+              </li>
+            ))}
+            <li>
+              <Link href="/blog" className="font-semibold text-accent-dark underline underline-offset-2">
+                Alle Artikel
+              </Link>
+            </li>
+          </ul>
+        </nav>
       </article>
     </div>
   );

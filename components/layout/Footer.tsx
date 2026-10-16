@@ -4,6 +4,7 @@ import { footerNav, leistungenMenuItems, siteConfig } from "@/lib/navigation";
 import { splitLeistungen } from "@/lib/serviceMenu";
 import { linkedinUrl } from "@/lib/profiles";
 import { CookieSettingsButton } from "@/components/consent/CookieSettingsButton";
+import { mapsProfileUrl, mapsRouteUrl } from "@/components/ui/GoogleMapEmbed";
 
 function InstagramIcon() {
   return (
@@ -69,6 +70,14 @@ export function Footer() {
                 {siteConfig.address.streetAddress}
                 <br />
                 {siteConfig.address.postalCode} {siteConfig.address.addressLocality}
+              </p>
+              <p className="flex flex-wrap gap-x-4">
+                <a href={mapsRouteUrl} target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 transition-colors hover:text-accent">
+                  Route planen
+                </a>
+                <a href={mapsProfileUrl} target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 transition-colors hover:text-accent">
+                  Bei Google ansehen
+                </a>
               </p>
               <a href={`tel:${tel}`} className="block transition-colors hover:text-accent">
                 {siteConfig.phone}
