@@ -5,47 +5,51 @@ export const socialMediaHub: LandingPage = {
   path: "/leistungen/social-media",
   category: "social-media",
   meta: {
-    title: "Social Media Agentur Duisburg: Regelmäßiger Content, der Kunden bringt",
+    title: "Social Media Agentur für Handwerk, Vereine & KMU",
     description:
-      "Social Media Agentur in Duisburg: Strategie, Redaktionsplan und regelmäßiger Content für Instagram und TikTok. Kostenloses Erstgespräch und individueller Social-Media-Leitfaden.",
+      "Social Media Agentur für Handwerk, Vereine, Gastronomie & KMU: Strategie, Content & Betreuung für Instagram, TikTok & Facebook. Kostenloses Strategiegespräch.",
     keywords: [
-      "social media agentur duisburg",
-      "social media agentur moers",
-      "social media marketing duisburg",
       "social media agentur",
       "social media betreuung",
+      "social media strategie unternehmen",
+      "social media content erstellen lassen",
+      "social media für handwerker",
+      "social media für vereine",
+      "social media gastronomie",
+      "social media agentur duisburg",
+      "social media agentur krefeld",
+      "social media agentur oberhausen",
+      "social media agentur moers",
+      "social media marketing duisburg",
       "instagram agentur duisburg",
-      "instagram marketing duisburg",
       "tiktok agentur",
-      "tiktok marketing",
-      "instagram betreuung ruhrgebiet",
-      "content marketing",
     ],
   },
   hero: {
-    headline: "Social Media Agentur Duisburg: Regelmäßiger Content, der Kunden bringt",
+    headline: "Social Media Agentur für Handwerk, Vereine & KMU",
     subheadline:
-      "Wir übernehmen Strategie, Redaktionsplan und Produktion für Instagram und TikTok – damit Sie regelmäßig sichtbar sind und aus Reichweite Anfragen werden.",
+      "Strategie, Content und Betreuung für Instagram, TikTok & Facebook – damit Ihr Betrieb regelmäßig sichtbar ist und aus Reichweite Anfragen werden. Mit festem Ansprechpartner aus Duisburg, für Ruhrgebiet & Niederrhein.",
   },
   conversion: {
-    heroLayout: "proof",
+    // Formular im Hero (Ads-Landingpage). Foto + Raffelberg-Zitat stehen weiter unten im Proof-Block.
+    heroLayout: "form",
+    openSections: true,
     heroPoints: [
-      "Strategie, Redaktionsplan und Content für Instagram & TikTok",
-      "Reels, Stories und Kurzvideos – regelmäßig und aus einer Hand",
+      "Kostenloses Strategiegespräch – unverbindlich",
+      "Strategie, Redaktionsplan und Content aus einer Hand",
       "Fester Ansprechpartner statt anonymer Agenturprozesse",
     ],
-    ctaLabel: "Kostenloses Strategiegespräch + Leitfaden anfragen",
-    formTitle: "Jetzt kostenlos anfragen",
-    formTopicPlaceholder: "z. B. Gastronomie, Praxis, Handwerk – oder Ihr Anliegen",
+    ctaLabel: "Kostenloses Strategiegespräch",
+    formTitle: "Jetzt kostenloses Strategiegespräch sichern",
+    formTopicPlaceholder: "z. B. Handwerk, Verein, Gastronomie – oder Ihr Anliegen",
     offer: {
-      title: "Kostenloses Strategiegespräch + Leitfaden: Das bekommen Sie",
-      intro: "Wir schauen gemeinsam auf Ihren Auftritt und Ihre Ziele – ehrlich und ohne Verkaufsdruck.",
+      title: "Kostenloses Strategiegespräch: Das bekommen Sie",
+      intro:
+        "Ich schaue mir Ihre Kanäle und Ziele an und sage Ihnen ehrlich, was funktioniert und was nicht – ohne Verkaufsdruck.",
       items: [
-        "Einschätzung Ihrer Ausgangslage",
-        "Was für Ihr Unternehmen sinnvoll ist",
-        "Nächste Schritte – konkret und umsetzbar",
+        "Einschätzung: Was passt zu Ihrem Betrieb und Ihrer Zielgruppe?",
+        "Konkrete nächste Schritte",
         "Ehrliche Budgetorientierung",
-        "Kostenloser, auf Ihr Unternehmen abgestimmter Social-Media-Leitfaden – erhalten Sie nach dem Gespräch",
       ],
       closing: "Absolut unverbindlich – danach entscheiden Sie frei, ob und wie es weitergeht.",
     },
@@ -62,52 +66,46 @@ export const socialMediaHub: LandingPage = {
     },
     scope: {
       title: "Das übernehmen wir für Sie",
-      intro: "Sie führen Ihr Unternehmen – wir sorgen dafür, dass Ihre Kanäle regelmäßig und professionell laufen.",
+      intro: "Sie kümmern sich um Ihren Betrieb – wir sorgen dafür, dass Ihre Kanäle regelmäßig und professionell laufen.",
       items: [
-        "Strategie: Positionierung, Zielgruppe, Tonalität und Content-Säulen",
+        "Social-Media-Strategie: Positionierung, Zielgruppe, Tonalität, Content-Säulen",
         "Redaktionsplan mit klaren Freigaben",
-        "Produktion von Beiträgen, Reels, Stories und TikTok-Formaten",
-        "Publishing und Community-Impulse",
-        "Auswertung: Was gut funktioniert, wird ausgebaut",
-        "Abstimmung mit Meta Ads und Ihrer Website",
-        "Shootings und Abstimmung vor Ort oder digital – wie es zu Ihrem Betrieb passt",
+        "Content erstellen lassen: Beiträge, Reels, Stories und TikTok-Formate",
+        "Laufende Social-Media-Betreuung: Veröffentlichen und Community",
+        "Auswertung: Was gut läuft, wird ausgebaut",
+        "Auf Wunsch abgestimmt mit Meta Ads, Google Ads und Ihrer Website",
+        "Shootings vor Ort oder Abstimmung digital – wie es zu Ihnen passt",
       ],
     },
     showProblemsInline: true,
+
   },
   intro: {
-    title: "Was macht unsere Social Media Agentur?",
+    title: "Was macht eine Social Media Agentur für Sie?",
     paragraphs: [
-      "Als Social Media Agentur in Duisburg liefern wir Strategie, Redaktionsplan und Content für Instagram und TikTok – Reels, Shorts-Style-Formate und Stories inklusive. Auch für Unternehmen in Moers und dem Umkreis. Ziel: ein professioneller Auftritt, der Ihre Marke stärkt und Anfragen unterstützt.",
-      "Aus einer Hand denken wir Social Media zusammen mit Ads und Website: Organischer Content baut Vertrauen, Anzeigen bringen Reichweite, die Website macht daraus Anfragen.",
+      "Als Social Media Agentur aus Duisburg entwickeln wir Ihre Social-Media-Strategie, planen Inhalte und produzieren regelmäßig Content für Instagram, TikTok und Facebook – Reels, Stories und Beiträge inklusive.",
+      "Auf Wunsch denken wir Social Media mit Ads und Website zusammen: Content baut Vertrauen auf, Anzeigen bringen Reichweite, die Website macht daraus Anfragen.",
     ],
   },
   audience: {
-    title: "Für wen eignet sich eine Social Media Agentur?",
+    title: "Social Media für Handwerk, Vereine, Gastronomie & KMU",
     paragraphs: [
-      "Für regionale und lokale Unternehmen in Duisburg, Moers und Umgebung, die online professionell wirken wollen, aber intern keine Kapazität für kontinuierlichen Content haben.",
+      "Für Betriebe und Organisationen, die online professionell wirken wollen, aber im Alltag keine Zeit für regelmäßigen Content haben.",
     ],
     points: [
-      "Regionale und lokale Unternehmen in Duisburg, Moers und Umgebung",
-      "Dienstleister und Handel vor Ort",
-      "Betriebe mit Events, visuellen Angeboten oder Recruiting-Bedarf",
-      "Unternehmen, die Ads mit organischem Content verzahnen wollen",
-      "Organisationen mit Sponsoring- oder Partnerschaftsanspruch",
+      "Handwerksbetriebe – Projekte zeigen, Vertrauen aufbauen, Fachkräfte ansprechen",
+      "Vereine – Mitglieder, Sponsoren und Veranstaltungen sichtbar machen",
+      "Gastronomie – Gerichte, Events und Atmosphäre zeigen",
+      "KMU, Dienstleister und Handel vor Ort",
+      "Betriebe, die neue Mitarbeitende gewinnen wollen",
     ],
   },
   serviceArea: {
-    title: "Einzugsgebiet – vor Ort & digital",
+    title: "Aus Duisburg – für Ruhrgebiet & Niederrhein",
     paragraphs: [
-      "Social-Media-Betreuung mit lokalem Gespür: Duisburg und Moers als Schwerpunkt, plus Umkreis im Ruhrgebiet und NRW.",
+      "Kestler Connect sitzt in Duisburg. Als Social Media Agentur betreuen wir Betriebe vor Ort und digital – mit Shootings und Terminen in Duisburg, Moers, Krefeld, Oberhausen, Mülheim an der Ruhr, Dinslaken und Umgebung.",
     ],
-    points: [
-      "Duisburg",
-      "Moers",
-      "Oberhausen",
-      "Mülheim an der Ruhr",
-      "Krefeld",
-      "Düsseldorf / Ruhrgebiet & NRW",
-    ],
+    points: ["Duisburg", "Moers", "Krefeld", "Oberhausen", "Mülheim an der Ruhr", "Dinslaken"],
   },
   problem: {
     title: "Kommt Ihnen das bekannt vor?",
@@ -122,7 +120,7 @@ export const socialMediaHub: LandingPage = {
   solution: {
     title: "Social Media mit Plan – aus einer Hand",
     content:
-      "Wir entwickeln Strategie und Redaktionsplan, produzieren Inhalte für Instagram und TikTok und betreuen Ihre Kanäle – abgestimmt auf Meta Ads und Ihre Website.",
+      "Wir entwickeln Strategie und Redaktionsplan, produzieren Inhalte für Instagram, TikTok und Facebook und betreuen Ihre Kanäle – auf Wunsch abgestimmt auf Ihre Anzeigen und Ihre Website.",
   },
   benefits: [
     {
@@ -156,26 +154,19 @@ export const socialMediaHub: LandingPage = {
       icon: "users",
     },
   ],
-  results: {
-    title: "Welche Ergebnisse sind realistisch?",
-    paragraphs: [
-      "Social Media verändert, wie professionell Sie wahrgenommen werden und wie gut Ads und Website performen – selten über Nacht, aber spürbar mit System.",
-      "Praxis: Beim Golfclub Raffelberg wurde der Social-Media-Auftritt professionalisiert – mit Reels, Content-Plan und klarer Strategie.",
-    ],
-    points: [
-      "Professionellerer, modernerer Auftritt",
-      "Mehr Kontinuität und Reichweite",
-      "Bessere Basis für Meta Ads",
-      "Weniger Aufwand intern",
-      "Klarere Markenwirkung",
-    ],
-  },
+  // Ablauf in 3 Schritten
   process: [
-    { step: 1, title: "Kick-off", description: "Ziele, Zielgruppe, Kanäle und Tonalität klären." },
-    { step: 2, title: "Strategie", description: "Redaktionsplan, Formate und Content-Säulen festlegen." },
-    { step: 3, title: "Produktion", description: "Beiträge, Reels und TikTok-Formate erstellen." },
-    { step: 4, title: "Publishing", description: "Veröffentlichung und Community-Impulse." },
-    { step: 5, title: "Optimierung", description: "Was performt, wird ausgebaut – inkl. Reporting." },
+    { step: 1, title: "Kennenlernen", description: "Wir klären Ausgangslage, Ziele und Zielgruppe." },
+    {
+      step: 2,
+      title: "Strategiegespräch",
+      description: "Wir besprechen Kanäle, Formate und nächste Schritte. Unverbindlich.",
+    },
+    {
+      step: 3,
+      title: "Umsetzung & Betreuung",
+      description: "Redaktionsplan, Content-Produktion und Veröffentlichung. Was funktioniert, wird ausgebaut.",
+    },
   ],
   references: [
     {
@@ -186,49 +177,34 @@ export const socialMediaHub: LandingPage = {
   ],
   faq: [
     {
-      question: "Wie läuft das kostenlose Erstgespräch ab?",
+      question: "Was macht eine Social Media Agentur?",
       answer:
-        "Wir sprechen über Ihre Ausgangslage und Ziele, ich gebe Ihnen eine ehrliche Einschätzung, was für Ihr Unternehmen sinnvoll ist, und wir klären die nächsten Schritte sowie eine Budgetorientierung. Den kostenlosen, auf Ihr Unternehmen abgestimmten Social-Media-Leitfaden erhalten Sie nach dem Gespräch. Alles ist absolut unverbindlich – danach entscheiden Sie frei.",
+        "Sie übernimmt Strategie, Redaktionsplan, Content-Produktion und Betreuung Ihrer Kanäle. So sind Sie regelmäßig und professionell sichtbar, ohne selbst Zeit dafür aufzubringen.",
     },
     {
-      question: "Was macht eine Social Media Agentur lokal?",
+      question: "Wie läuft das kostenlose Strategiegespräch ab?",
       answer:
-        "Strategie, Redaktionsplan, Content, Reels, TikTok-Formate und Community – abgestimmt auf Ihre Region. Bei Kestler Connect in Duisburg ist Social Media Marketing Schwerpunkt für Unternehmen in Duisburg, Moers und Umgebung.",
+        "Wir sprechen über Ihre Ausgangslage und Ziele. Sie bekommen eine ehrliche Einschätzung, konkrete nächste Schritte und eine Budgetorientierung. Alles ist unverbindlich.",
     },
     {
-      question: "Betreuen Sie Instagram und TikTok?",
+      question: "Für welche Branchen arbeiten Sie?",
       answer:
-        "Ja. Schwerpunkt Instagram (Feed, Stories, Reels) und TikTok bzw. Shorts-Style-Formate – organisch und als Basis für Ads. Facebook je nach Zielgruppe dazu.",
+        "Für Handwerksbetriebe, Vereine, Gastronomie und KMU aus Dienstleistung und Handel – vor allem in Duisburg, im Ruhrgebiet und am Niederrhein.",
     },
     {
       question: "Welche Kanäle betreuen Sie?",
       answer:
-        "Schwerpunkt Instagram und TikTok; je nach Zielgruppe auch Facebook und LinkedIn. Wir empfehlen bewusst die Kanäle, die zu Ihrem Angebot passen.",
+        "Schwerpunkt sind Instagram und TikTok, je nach Zielgruppe auch Facebook und LinkedIn. Wir empfehlen nur Kanäle, die zu Ihrem Angebot passen.",
     },
     {
       question: "Was kostet die Social-Media-Betreuung?",
       answer:
-        "Budget und Betreuung richten sich nach Ziel, Branche und Umfang – im kostenlosen Erstgespräch bekommen Sie eine ehrliche Budgetorientierung.",
+        "Budget und Betreuung richten sich nach Ziel, Branche und Umfang. Im kostenlosen Gespräch bekommen Sie eine ehrliche Budgetorientierung.",
     },
     {
-      question: "Social Media oder Ads zuerst?",
+      question: "Arbeiten Sie vor Ort oder digital?",
       answer:
-        "Ohne glaubwürdigen Auftritt wirken Ads oft schwach – dann Social Media zuerst oder parallel. Bei schnellem Anfragebedarf und solider Basis starten viele mit Anzeigen. Im Erstgespräch klären wir, was für Sie sinnvoll ist.",
-    },
-    {
-      question: "Müssen Sie vor Ort in Moers oder Duisburg sein?",
-      answer:
-        "Beides möglich: Shootings und Abstimmung vor Ort, Produktion und Publishing digital – hybrid, wie es zu Ihrem Betrieb passt.",
-    },
-    {
-      question: "Bringt Social Media direkt Anfragen?",
-      answer:
-        "Manchmal ja, oft indirekt über Vertrauen und Reichweite. Mit Meta Ads und einer starken Website wird der Effekt deutlich größer.",
-    },
-    {
-      question: "Was ist der Unterschied zwischen Betreuung und Ads?",
-      answer:
-        "Betreuung meint organischen Content und Community. Ads sind bezahlte Reichweite. Beides verstärkt sich – deshalb bieten wir beides aus einer Hand.",
+        "Beides: Shootings und Termine vor Ort in Duisburg, im Ruhrgebiet und am Niederrhein, Planung und Veröffentlichung digital.",
     },
   ],
 };

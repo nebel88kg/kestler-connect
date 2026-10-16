@@ -19,6 +19,13 @@ import { raffelbergLogo } from "@/lib/clientLogos";
 import { getTestimonialAttribution, raffelbergTestimonial } from "@/content/testimonials";
 
 /** Einheitlicher Budget-Hinweis – bewusst ohne Zahlen, Preise oder Laufzeiten. */
+/** Feste Tailwind-Klassen für die Ablauf-Spalten (dynamische Klassennamen würden nicht generiert). */
+const PROCESS_COLS: Record<number, string> = {
+  3: "lg:grid-cols-3",
+  4: "lg:grid-cols-4",
+  5: "lg:grid-cols-5",
+};
+
 const BUDGET_NOTE =
   "Budget und Betreuung richten sich nach Ziel, Branche und Umfang – im kostenlosen Erstgespräch bekommen Sie eine ehrliche Budgetorientierung.";
 
@@ -450,7 +457,7 @@ export function ConversionLandingTemplate({ page }: { page: LandingPage }) {
               Ablauf der Zusammenarbeit
             </h2>
           </ScrollReveal>
-          <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-5">
+          <div className={`grid grid-cols-1 gap-6 sm:grid-cols-2 ${PROCESS_COLS[page.process.length] ?? "lg:grid-cols-5"}`}>
             {page.process.map((step, i) => (
               <ScrollReveal key={step.step} delay={i * 0.08}>
                 <div className="text-center">
