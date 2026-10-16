@@ -4,7 +4,9 @@ import { CONSENT_COOKIE, CONSENT_KEY, CONSENT_MAX_AGE_DAYS } from "@/lib/consent
  * Inline-Skript (läuft synchron im <head>, also VOR dem GTM-Loader):
  * 1. dataLayer + gtag() bereitstellen
  * 2. Consent Mode v2 Default: alles "denied" (wait_for_update 500 ms)
- * 3. Bereits gespeicherte Auswahl (Wiederkehrer) sofort per "update" anwenden
+ * 3. url_passthrough: Klick-IDs (gclid, dclid, wbraid …) werden bei verweigerter Einwilligung
+ *    über die URL an Folgeseiten weitergegeben statt in Cookies gespeichert (Advanced Consent Mode).
+ * 4. Bereits gespeicherte Auswahl (Wiederkehrer) sofort per "update" anwenden
  *
  * Bewusst ES5 und ohne Abhängigkeiten, damit es klein bleibt und überall läuft.
  * Die Lese-Logik entspricht readConsent() in lib/consent.ts.
@@ -14,6 +16,7 @@ window.dataLayer=window.dataLayer||[];
 function gtag(){window.dataLayer.push(arguments);}
 window.gtag=gtag;
 gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',wait_for_update:500});
+gtag('set','url_passthrough',true);
 var c=null;
 try{
 var raw=localStorage.getItem(${JSON.stringify(CONSENT_KEY)});

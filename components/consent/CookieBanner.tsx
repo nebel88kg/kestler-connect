@@ -6,10 +6,13 @@ import { usePathname } from "next/navigation";
 import { applyConsent, OPEN_CONSENT_EVENT, readConsent, type ConsentChoice } from "@/lib/consent";
 
 const btnBase =
-  "inline-flex min-h-11 items-center justify-center rounded-full border-2 border-navy px-4 py-2 text-center text-sm font-semibold transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent-dark";
-/** „Alle akzeptieren“ und „Nur notwendige“ nutzen exakt dieselbe Gestaltung (gleichwertige Auffälligkeit). */
+  "inline-flex min-h-11 items-center justify-center rounded-full border-2 border-navy px-3 py-1.5 text-center text-sm font-semibold sm:px-4 sm:py-2 transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent-dark";
+/** „Alle akzeptieren“ und „Nur notwendige“ nutzen exakt dieselbe Gestaltung (gleichwertige Auffälligkeit), auch mobil. */
 const btnEqual = `${btnBase} bg-navy text-white hover:bg-navy-light`;
 const btnSecondary = `${btnBase} bg-white text-navy hover:bg-gray-100`;
+/** „Einstellungen“ mobil als schlanker Textlink (spart eine Button-Zeile), ab sm wie bisher als Button. */
+const btnSettingsLink =
+  "inline-flex min-h-9 items-center justify-center text-xs font-semibold text-navy underline underline-offset-2 hover:text-accent-dark focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent-dark sm:min-h-11 sm:rounded-full sm:border-2 sm:border-navy sm:bg-white sm:px-4 sm:py-2 sm:text-sm sm:no-underline sm:hover:bg-gray-100";
 
 function Toggle({
   id,
@@ -153,12 +156,12 @@ export function CookieBanner() {
           close();
         }
       }}
-      className={`fixed inset-x-3 z-50 max-h-[70dvh] overflow-y-auto rounded-2xl border border-navy/15 bg-white p-4 text-anthracite shadow-2xl outline-none sm:inset-x-auto sm:left-4 sm:w-full sm:max-w-lg sm:p-5 ${position}`}
+      className={`fixed inset-x-2 z-50 max-h-[60dvh] overflow-y-auto rounded-2xl border border-navy/15 bg-white p-3 text-anthracite shadow-2xl outline-none sm:inset-x-auto sm:left-4 sm:w-full sm:max-w-lg sm:p-5 ${position}`}
     >
-      <h2 id={titleId} className="text-base font-bold text-navy">
+      <h2 id={titleId} className="text-sm font-bold text-navy sm:text-base">
         Cookies und Datenschutz
       </h2>
-      <p id={descId} className="mt-2 text-sm leading-relaxed text-gray-600">
+      <p id={descId} className="mt-1 text-xs leading-snug text-gray-600 sm:mt-2 sm:text-sm sm:leading-relaxed">
         Wir nutzen den Google Tag Manager, um unsere Website zu analysieren (Google Analytics) und Werbung zu
         messen (Google Ads). Das passiert nur mit Ihrer Einwilligung, die Sie jederzeit ändern oder widerrufen
         können. Details finden Sie in unserer{" "}
@@ -196,7 +199,7 @@ export function CookieBanner() {
         </div>
       )}
 
-      <div className="mt-4 grid grid-cols-2 gap-2 sm:grid-cols-3">
+      <div className="mt-3 grid grid-cols-2 gap-2 sm:mt-4 sm:grid-cols-3">
         <button type="button" className={btnEqual} onClick={() => save({ analytics: true, marketing: true })}>
           Alle akzeptieren
         </button>
@@ -214,7 +217,7 @@ export function CookieBanner() {
         ) : (
           <button
             type="button"
-            className={`${btnSecondary} col-span-2 sm:col-span-1`}
+            className={`${btnSettingsLink} col-span-2 sm:col-span-1`}
             aria-expanded={false}
             onClick={() => setShowSettings(true)}
           >
