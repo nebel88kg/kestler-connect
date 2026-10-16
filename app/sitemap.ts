@@ -30,9 +30,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...new Set([...staticPages, ...contentUrls, ...referenzUrls, ...blogUrls, ...locationUrls]),
   ];
 
+  // Blogartikel: echtes Veröffentlichungsdatum statt Build-Zeitpunkt.
+  const blogDates = new Map(blogPosts.map((p) => [`/blog/${p.slug}`, p.date]));
+  const now = new Date();
+
   return allUrls.map((path) => ({
     url: `${baseUrl}${path}`,
-    lastModified: new Date(),
+    lastModified: blogDates.has(path) ? new Date(blogDates.get(path)!) : now,
     changeFrequency: path === "/" ? "weekly" : "monthly",
     priority: path === "/" ? 1 : path.split("/").length <= 2 ? 0.8 : 0.6,
   }));
