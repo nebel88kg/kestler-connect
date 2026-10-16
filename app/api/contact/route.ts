@@ -4,6 +4,31 @@ import { getConfirmationRecipient, sendConfirmationEmail } from "@/lib/confirmat
 
 const EMAIL_PATTERN = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
+/** Zusätzlicher Empfänger aller Website-Anfragen, falls CONTACT_CC nicht gesetzt ist. */
+const DEFAULT_CONTACT_CC = "nebel@kestler-connect.de";
+
+/**
+ * CC-Empfänger der internen Anfrage-Mail.
+ * - CONTACT_CC nicht gesetzt → Default nebel@kestler-connect.de (keine neue Vercel-Variable nötig)
+ * - CONTACT_CC="a@x.de, b@y.de" → diese Adressen
+ * - CONTACT_CC="" (leer gesetzt) → kein CC
+ * Ungültige Adressen und Dubletten zu den To-Empfängern werden verworfen.
+ */
+function getContactCc(toList: string[]): string[] {
+  const raw = process.env.CONTACT_CC ?? DEFAULT_CONTACT_CC;
+  const to = new Set(toList.map((address) => address.toLowerCase()));
+  const seen = new Set<string>();
+  return raw
+    .split(/[,;]/)
+    .map((address) => address.trim())
+    .filter((address) => {
+      const key = address.toLowerCase();
+      if (!EMAIL_PATTERN.test(address) || to.has(key) || seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    });
+}
+
 function getResendClient() {
   const apiKey = process.env.RESEND_API_KEY;
   if (!apiKey) {
@@ -69,9 +94,12 @@ export async function POST(request: Request) {
       return NextResponse.json({ error: "E-Mail nicht konfiguriert" }, { status: 503 });
     }
 
+    const cc = getContactCc([to]);
+
     const { error } = await resend.emails.send({
       from,
       to: [to],
+      ...(cc.length > 0 ? { cc } : {}),
       replyTo: hasValidEmail ? email : undefined,
       subject: company ? `Neue Anfrage von ${name} (${company})` : `Neue Anfrage von ${name}`,
       text: [
