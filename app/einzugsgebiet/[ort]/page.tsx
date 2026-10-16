@@ -7,10 +7,10 @@ import { Breadcrumbs } from "@/components/seo/Breadcrumbs";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { Button } from "@/components/ui/Button";
 import { Accordion } from "@/components/ui/Accordion";
-import { MoreDetails } from "@/components/ui/MoreDetails";
 import { ContactForm } from "@/components/ui/ContactForm";
 import { ReviewBadge } from "@/components/ui/ReviewBadge";
 import { siteConfig } from "@/lib/navigation";
+import { blogPosts } from "@/content/blog";
 
 export function generateStaticParams() {
   return locations.map((location) => ({ ort: location.slug }));
@@ -26,8 +26,8 @@ export async function generateMetadata({
   if (!location) return {};
 
   return createMetadata({
-    title: `Online-Marketing-Agentur ${location.name} – Social Media, Ads & SEO`,
-    description: `Online-Marketing-Agentur für Unternehmen in ${location.name}: Social Media, Google Ads, Meta Ads, SEO und Webseiten von Kestler Connect aus Duisburg. Kostenloses Erstgespräch.`,
+    title: `Marketing-Agentur ${location.name} | Kestler Connect`,
+    description: `Online-Marketing für Unternehmen in ${location.name}: Social Media, Google Ads, Meta Ads, SEO & Webseiten aus Duisburg. Kostenloses Erstgespräch.`,
     path: `/einzugsgebiet/${location.slug}`,
   });
 }
@@ -105,8 +105,9 @@ export default async function LocationPage({ params }: { params: Promise<{ ort: 
           <div className="mx-auto max-w-3xl">
             <Accordion items={faq} defaultOpenIndex={null} />
           </div>
-          <MoreDetails summary="Weitere Orte im Einzugsgebiet" className="mx-auto mt-8 max-w-3xl">
-            <ul className="grid gap-2 sm:grid-cols-2">
+          <nav aria-label="Weitere Orte im Einzugsgebiet" className="mx-auto mt-10 max-w-3xl">
+            <h2 className="text-lg font-bold text-anthracite">Weitere Orte im Einzugsgebiet</h2>
+            <ul className="mt-3 grid gap-2 sm:grid-cols-2">
               <li>
                 <Link href="/marketing-agentur-duisburg" className="font-semibold text-accent-dark underline underline-offset-2">
                   Duisburg
@@ -128,7 +129,19 @@ export default async function LocationPage({ params }: { params: Promise<{ ort: 
                 </Link>
               </li>
             </ul>
-          </MoreDetails>
+          </nav>
+          <nav aria-label="Ratgeber" className="mx-auto mt-8 max-w-3xl">
+            <h2 className="text-lg font-bold text-anthracite">Ratgeber aus unserem Blog</h2>
+            <ul className="mt-3 space-y-2">
+              {blogPosts.slice(0, 3).map((post) => (
+                <li key={post.slug}>
+                  <Link href={`/blog/${post.slug}`} className="font-semibold text-accent-dark underline underline-offset-2">
+                    {post.title}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </nav>
         </div>
       </section>
 

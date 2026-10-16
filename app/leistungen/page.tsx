@@ -10,9 +10,9 @@ import { Breadcrumbs } from "@/components/seo/Breadcrumbs";
 import { Button } from "@/components/ui/Button";
 
 export const metadata: Metadata = createMetadata({
-  title: "Leistungen: Social Media, Google Ads, Meta Ads, SEO & Webseiten",
+  title: "Leistungen: Social Media, Ads, SEO & Webseiten",
   description:
-    "Leistungen der Online-Marketing-Agentur Kestler Connect aus Duisburg: Social Media, Google Ads, Meta Ads, SEO und Webseiten für Unternehmen im Ruhrgebiet und am Niederrhein.",
+    "Leistungen von Kestler Connect aus Duisburg: Social Media, Google Ads, Meta Ads, SEO und Webseiten für Unternehmen im Ruhrgebiet und am Niederrhein.",
   path: "/leistungen",
 });
 
