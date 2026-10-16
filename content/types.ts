@@ -72,34 +72,6 @@ export interface LandingPageRelatedHub {
 }
 
 /**
- * Befristete Aktion auf einer Conversion-Landingpage (z. B. Oktober-Aktion Social Media).
- * Klar abgegrenzt: Alles, was nur während der Aktion gilt, steht hier. Nach `endsAt` rendert die Seite
- * automatisch wieder die Dauer-Inhalte aus `conversion`/`process`/`faq` und `meta.description`
- * (Server-Check bei Build/ISR, siehe lib/promo.ts, plus Client-Check in components/landing/TimeLimitedPromo.tsx).
- * Zum endgültigen Entfernen genügt es, das Feld `promo` im Content zu löschen.
- */
-export interface LandingPagePromo {
-  /** Ende der Aktion als ISO-Zeitpunkt MIT Zeitzone, z. B. "2026-10-31T23:59:59+01:00" */
-  endsAt: string;
-  /** Hervorgehobene Zeile im Hero über dem CTA (mobil max. 2 Zeilen) */
-  text: string;
-  /** Optional: Meta-Description, solange die Aktion läuft */
-  metaDescription?: string;
-  /** Optional: ersetzt conversion.ctaLabel */
-  ctaLabel?: string;
-  /** Optional: ersetzt conversion.formTitle */
-  formTitle?: string;
-  /** Optional: ersetzt conversion.heroPoints */
-  heroPoints?: string[];
-  /** Optional: ersetzt conversion.offer */
-  offer?: LandingPageConversion["offer"];
-  /** Optional: ersetzt page.process */
-  process?: LandingPageProcessStep[];
-  /** Optional: wird vor page.faq gestellt (inkl. FAQ-Schema) */
-  faq?: LandingPageFAQ[];
-}
-
-/**
  * Konfiguration der schlanken Conversion-Landingpage (Google-Ads-Traffic).
  * Ist `conversion` gesetzt, rendert `ConversionLandingTemplate` statt des Standard-Templates.
  */
@@ -143,8 +115,6 @@ export interface LandingPageConversion {
   scope?: { title: string; intro?: string; items: string[] };
   /** Typische Probleme sichtbar statt im Aufklapper */
   showProblemsInline?: boolean;
-  /** Optionale, befristete Aktion mit Enddatum (siehe LandingPagePromo) */
-  promo?: LandingPagePromo;
 }
 
 export interface LandingPage {

@@ -6,7 +6,6 @@ export const socialMediaHub: LandingPage = {
   category: "social-media",
   meta: {
     title: "Social Media Agentur für Handwerk, Vereine & KMU",
-    // Dauerversion. Während der Oktober-Aktion gilt conversion.promo.metaDescription.
     description:
       "Social Media Agentur für Handwerk, Vereine, Gastronomie & KMU: Strategie, Content & Betreuung für Instagram, TikTok & Facebook. Kostenloses Strategiegespräch.",
     keywords: [
@@ -40,18 +39,17 @@ export const socialMediaHub: LandingPage = {
       "Strategie, Redaktionsplan und Content aus einer Hand",
       "Fester Ansprechpartner statt anonymer Agenturprozesse",
     ],
-    ctaLabel: "Kostenloses Strategiegespräch anfragen",
-    formTitle: "Jetzt kostenlos anfragen",
+    ctaLabel: "Kostenloses Strategiegespräch",
+    formTitle: "Jetzt kostenloses Strategiegespräch sichern",
     formTopicPlaceholder: "z. B. Handwerk, Verein, Gastronomie – oder Ihr Anliegen",
     offer: {
-      title: "Kostenloses Strategiegespräch + Leitfaden: Das bekommen Sie",
+      title: "Kostenloses Strategiegespräch: Das bekommen Sie",
       intro:
         "Ich schaue mir Ihre Kanäle und Ziele an und sage Ihnen ehrlich, was funktioniert und was nicht – ohne Verkaufsdruck.",
       items: [
         "Einschätzung: Was passt zu Ihrem Betrieb und Ihrer Zielgruppe?",
         "Konkrete nächste Schritte",
         "Ehrliche Budgetorientierung",
-        "Auf Ihren Betrieb abgestimmter Social-Media-Leitfaden – nach dem Gespräch",
       ],
       closing: "Absolut unverbindlich – danach entscheiden Sie frei, ob und wie es weitergeht.",
     },
@@ -81,64 +79,6 @@ export const socialMediaHub: LandingPage = {
     },
     showProblemsInline: true,
 
-    /*
-     * ── OKTOBER-AKTION (befristet bis 31.10.2026) ──────────────────────────────────────────
-     * Alles in diesem Block gilt nur bis `endsAt`. Danach rendert die Seite automatisch die
-     * Dauer-Inhalte oben (ctaLabel, formTitle, heroPoints, offer, process, faq, meta.description).
-     * Endgültig entfernen: diesen kompletten `promo`-Block löschen – sonst ist nichts zu ändern.
-     * Gleichzeitig Anzeigen/Assets mit „kostenlose Analyse … Sie zahlen nichts“ pausieren.
-     */
-    promo: {
-      endsAt: "2026-10-31T23:59:59+01:00",
-      text: "Nur im Oktober: kostenlose Analyse Ihres Social-Media-Auftritts – Sie zahlen nichts. Gültig bis 31.10.2026.",
-      metaDescription:
-        "Social Media Agentur für Handwerk, Vereine, Gastronomie & KMU: Strategie, Content & Betreuung. Im Oktober: kostenlose Analyse Ihres Auftritts – unverbindlich.",
-      ctaLabel: "Kostenlose Analyse anfragen",
-      formTitle: "Jetzt kostenlose Analyse sichern",
-      heroPoints: [
-        "Kostenlose Analyse + Strategiegespräch – unverbindlich",
-        "Strategie, Redaktionsplan und Content aus einer Hand",
-        "Fester Ansprechpartner statt anonymer Agenturprozesse",
-      ],
-      offer: {
-        title: "Kostenlose Analyse Ihres Social-Media-Auftritts: Das bekommen Sie",
-        intro:
-          "Ich schaue mir Ihre Kanäle und Ziele an und sage Ihnen ehrlich, was funktioniert und was nicht – ohne Verkaufsdruck.",
-        items: [
-          "Analyse Ihrer aktuellen Social-Media-Kanäle",
-          "Einschätzung: Was passt zu Ihrem Betrieb und Ihrer Zielgruppe?",
-          "Kostenloses Strategiegespräch mit konkreten nächsten Schritten",
-          "Ehrliche Budgetorientierung",
-          "Auf Ihren Betrieb abgestimmter Social-Media-Leitfaden – nach dem Gespräch",
-        ],
-        closing: "Sie zahlen nichts und gehen keine Verpflichtung ein – danach entscheiden Sie frei.",
-      },
-      process: [
-        {
-          step: 1,
-          title: "Kostenlose Analyse",
-          description: "Ich schaue mir Ihre Kanäle, Ihre Zielgruppe und Ihre Ziele an.",
-        },
-        {
-          step: 2,
-          title: "Strategiegespräch",
-          description: "Wir besprechen Ergebnisse, Kanäle, Formate und nächste Schritte. Unverbindlich.",
-        },
-        {
-          step: 3,
-          title: "Umsetzung & Betreuung",
-          description: "Redaktionsplan, Content-Produktion und Veröffentlichung. Was funktioniert, wird ausgebaut.",
-        },
-      ],
-      faq: [
-        {
-          question: "Was beinhaltet die kostenlose Analyse?",
-          answer:
-            "Ich schaue mir Ihre Social-Media-Kanäle und Ziele an. Im Strategiegespräch bekommen Sie eine ehrliche Einschätzung und konkrete nächste Schritte. Sie zahlen nichts, und es ist unverbindlich. Das Angebot gilt bis 31.10.2026.",
-        },
-      ],
-    },
-    // ── Ende OKTOBER-AKTION ─────────────────────────────────────────────────────────────────
   },
   intro: {
     title: "Was macht eine Social Media Agentur für Sie?",
@@ -214,7 +154,7 @@ export const socialMediaHub: LandingPage = {
       icon: "users",
     },
   ],
-  // Dauerversion (3 Schritte). Während der Oktober-Aktion gilt conversion.promo.process.
+  // Ablauf in 3 Schritten
   process: [
     { step: 1, title: "Kennenlernen", description: "Wir klären Ausgangslage, Ziele und Zielgruppe." },
     {
@@ -244,7 +184,7 @@ export const socialMediaHub: LandingPage = {
     {
       question: "Wie läuft das kostenlose Strategiegespräch ab?",
       answer:
-        "Wir sprechen über Ihre Ausgangslage und Ziele. Sie bekommen eine ehrliche Einschätzung, konkrete nächste Schritte und eine Budgetorientierung. Den auf Ihren Betrieb abgestimmten Social-Media-Leitfaden erhalten Sie nach dem Gespräch. Alles ist unverbindlich.",
+        "Wir sprechen über Ihre Ausgangslage und Ziele. Sie bekommen eine ehrliche Einschätzung, konkrete nächste Schritte und eine Budgetorientierung. Alles ist unverbindlich.",
     },
     {
       question: "Für welche Branchen arbeiten Sie?",
