@@ -15,8 +15,10 @@ import { googleAdsAgenturDuisburg } from "./google-ads-agentur-duisburg";
 import { socialMediaFuerPflegedienste } from "./social-media-fuer-pflegedienste";
 import { socialMediaFuerGastronomie } from "./social-media-fuer-gastronomie";
 import { socialMediaFuerHandwerksbetriebe } from "./social-media-fuer-handwerksbetriebe";
+import { socialMediaRedaktionsplan } from "./social-media-redaktionsplan";
 
 export const blogPosts: BlogPost[] = [
+  socialMediaRedaktionsplan,
   socialMediaFuerHandwerksbetriebe,
   socialMediaFuerGastronomie,
   socialMediaFuerPflegedienste,
