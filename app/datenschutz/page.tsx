@@ -69,7 +69,7 @@ export default function DatenschutzPage() {
               Über den Tag Manager setzen wir – abhängig von Ihrer Einwilligung – Google Analytics (Reichweitenmessung, z. B. besuchte Seiten, Klicks auf Telefon, WhatsApp oder Kontaktanfragen) und Google Ads (Conversion-Messung, ggf. Remarketing) ein. Dabei können Cookies und ähnliche Technologien verwendet und Daten wie IP-Adresse, Geräte- und Browserinformationen sowie Nutzungsdaten an Google übermittelt werden.
             </p>
             <p className="mt-4 leading-relaxed">
-              Wir verwenden den Google Consent Mode (Version 2). Alle Einwilligungskategorien (Analyse: analytics_storage; Marketing: ad_storage, ad_user_data, ad_personalization) sind standardmäßig auf „verweigert“ gesetzt und werden erst nach Ihrer Zustimmung auf „erteilt“ gesetzt. Solange Sie nicht eingewilligt haben, werden keine Analyse- oder Werbe-Cookies gesetzt. Google-Tags können in diesem Fall jedoch anonymisierte, nicht cookie-basierte Signale (sogenannte Pings, z. B. Zeitpunkt, Browser- und Seiteninformationen) an Google senden, die für aggregierte Messungen und Modellierungen verwendet werden.
+              Wir verwenden den Google Consent Mode (Version 2). Alle Einwilligungskategorien (Analyse: analytics_storage; Marketing: ad_storage, ad_user_data, ad_personalization) sind standardmäßig auf „verweigert“ gesetzt und werden erst nach Ihrer Zustimmung auf „erteilt“ gesetzt. Solange Sie nicht eingewilligt haben, werden keine Analyse- oder Werbe-Cookies gesetzt. Google-Tags können in diesem Fall jedoch anonymisierte, nicht cookie-basierte Signale (sogenannte Pings, z. B. Zeitpunkt, Browser- und Seiteninformationen) an Google senden, die für aggregierte Messungen und Modellierungen verwendet werden. Zusätzlich ist die Funktion „URL-Passthrough“ aktiv: Kommen Sie über eine Google-Anzeige auf unsere Website, kann die Klick-Kennung der Anzeige (z. B. „gclid“) ohne Cookies in der Adresszeile an weitere Seiten unserer Website weitergegeben werden, damit eine Anfrage der Anzeige zugeordnet werden kann.
             </p>
             <p className="mt-4 leading-relaxed">
               Rechtsgrundlage ist Ihre Einwilligung (Art. 6 Abs. 1 lit. a DSGVO, § 25 Abs. 1 TDDDG). Eine Übermittlung von Daten in die USA kann nicht ausgeschlossen werden; Google ist nach dem EU-US Data Privacy Framework zertifiziert. Weitere Informationen finden Sie in der Datenschutzerklärung von Google unter https://policies.google.com/privacy.
@@ -84,6 +84,16 @@ export default function DatenschutzPage() {
             </p>
             <p className="mt-4 leading-relaxed">
               Rechtsgrundlage ist unser berechtigtes Interesse an einer bedarfsgerechten Gestaltung und technischen Optimierung unserer Website (Art. 6 Abs. 1 lit. f DSGVO). Da keine Informationen auf Ihrem Endgerät gespeichert oder aus ihm ausgelesen werden, ist hierfür keine Einwilligung über den Cookie-Banner erforderlich. Sie können der Verarbeitung jederzeit mit Wirkung für die Zukunft widersprechen, indem Sie uns über die im Impressum genannten Kontaktdaten kontaktieren. Weitere Informationen finden Sie in der Datenschutzerklärung von Vercel unter https://vercel.com/legal/privacy-policy.
+            </p>
+          </section>
+
+          <section id="google-maps">
+            <h2 className="text-xl font-bold text-anthracite">8. Google Maps (Karte auf der Kontaktseite)</h2>
+            <p className="mt-4 leading-relaxed">
+              Auf unserer Kontaktseite können Sie eine Karte von Google Maps (Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland) anzeigen lassen. Beim Seitenaufruf wird die Karte nicht geladen; Sie sehen zunächst nur eine Vorschau ohne Verbindung zu Google. Erst wenn Sie auf „Karte laden“ klicken, wird die Karte von Google-Servern abgerufen. Dabei werden insbesondere Ihre IP-Adresse sowie Geräte- und Browserinformationen an Google übertragen; Google kann dabei Cookies setzen.
+            </p>
+            <p className="mt-4 leading-relaxed">
+              Rechtsgrundlage ist Ihre Einwilligung durch den Klick auf „Karte laden“ (Art. 6 Abs. 1 lit. a DSGVO, § 25 Abs. 1 TDDDG). Die Einwilligung gilt nur für diesen Aufruf; beim nächsten Seitenaufruf wird die Karte wieder erst nach erneutem Klick geladen. Eine Übermittlung in die USA kann nicht ausgeschlossen werden; Google ist nach dem EU-US Data Privacy Framework zertifiziert. Die Links „Route planen“ und „Bei Google ansehen“ öffnen Google Maps in einem neuen Tab; erst dann gelten die Datenschutzbestimmungen von Google: https://policies.google.com/privacy.
             </p>
           </section>
         </div>

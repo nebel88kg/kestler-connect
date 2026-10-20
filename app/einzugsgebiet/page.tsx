@@ -12,9 +12,9 @@ import { ContactForm } from "@/components/ui/ContactForm";
 import { siteConfig } from "@/lib/navigation";
 
 export const metadata: Metadata = createMetadata({
-  title: "Online-Marketing-Agentur im Ruhrgebiet & am Niederrhein – Einzugsgebiet",
+  title: "Einzugsgebiet: Marketing im Ruhrgebiet & Niederrhein",
   description:
-    "Kestler Connect aus Duisburg betreut Unternehmen im Ruhrgebiet und am Niederrhein: Duisburg, Moers, Krefeld, Oberhausen, Essen, Mülheim, Düsseldorf und Umgebung.",
+    "Kestler Connect aus Duisburg betreut Unternehmen im Ruhrgebiet und am Niederrhein: Duisburg, Moers, Krefeld, Oberhausen, Essen, Mülheim und Umgebung.",
   path: "/einzugsgebiet",
 });
 
