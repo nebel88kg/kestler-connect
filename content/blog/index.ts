@@ -15,8 +15,14 @@ import { googleAdsAgenturDuisburg } from "./google-ads-agentur-duisburg";
 import { socialMediaFuerPflegedienste } from "./social-media-fuer-pflegedienste";
 import { socialMediaFuerGastronomie } from "./social-media-fuer-gastronomie";
 import { socialMediaFuerHandwerksbetriebe } from "./social-media-fuer-handwerksbetriebe";
+import { socialMediaMarketingDuisburg } from "./social-media-marketing-duisburg";
+import { localSeoDuisburg } from "./local-seo-duisburg";
+import { websiteErstellenLassenDuisburg } from "./website-erstellen-lassen-duisburg";
 
 export const blogPosts: BlogPost[] = [
+  websiteErstellenLassenDuisburg,
+  localSeoDuisburg,
+  socialMediaMarketingDuisburg,
   socialMediaFuerHandwerksbetriebe,
   socialMediaFuerGastronomie,
   socialMediaFuerPflegedienste,
