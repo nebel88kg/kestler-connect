@@ -19,8 +19,10 @@ import { socialMediaMarketingDuisburg } from "./social-media-marketing-duisburg"
 import { localSeoDuisburg } from "./local-seo-duisburg";
 import { websiteErstellenLassenDuisburg } from "./website-erstellen-lassen-duisburg";
 import { socialMediaRedaktionsplan } from "./social-media-redaktionsplan";
+import { linkedinFuerUnternehmen } from "./linkedin-fuer-unternehmen";
 
 export const blogPosts: BlogPost[] = [
+  linkedinFuerUnternehmen,
   socialMediaRedaktionsplan,
   websiteErstellenLassenDuisburg,
   localSeoDuisburg,
