@@ -117,6 +117,6 @@ Das hängt von Branche, Wettbewerb und Region ab. Sinnvoll ist, mit einem defini
 
 **Für wen lohnt sich das?**
 
-Für lokale und regionale Unternehmen mit klarem Angebot und ausreichendem Auftragswert – Dienstleister, Praxen, Handel vor Ort, Gastronomie und viele KMU im Ruhrgebiet.
+Für lokale und regionale Unternehmen mit klarem Angebot und ausreichendem Auftragswert – Dienstleister, Praxen, Handel vor Ort, Gastronomie und viele weitere Branchen im Ruhrgebiet.
   `.trim(),
 };

@@ -7,7 +7,7 @@ export const workshopsHub: LandingPage = {
   meta: {
     title: "Marketing Workshops Duisburg | Startup & Sponsoring | Kestler Connect",
     description:
-      "Kompakte Marketing-Workshops in Duisburg: für Startups, lokale Unternehmen und Vereine – klare Strategie ohne großes Monatsbudget.",
+      "Kompakte Marketing-Workshops in Duisburg: für Startups sowie lokale und regionale Unternehmen – klare Strategie ohne großes Monatsbudget.",
     keywords: [
       "marketing workshop",
       "startup marketing workshop",
@@ -19,7 +19,7 @@ export const workshopsHub: LandingPage = {
   hero: {
     headline: "Marketing Workshops Duisburg – Klarheit in wenigen Stunden",
     subheadline:
-      "Kompakte Formate für Startups, lokale Unternehmen und Vereine – Strategie und nächste Schritte ohne großes Monatsbudget.",
+      "Kompakte Formate für Startups sowie lokale und regionale Unternehmen – Strategie und nächste Schritte ohne großes Monatsbudget.",
   },
   intro: {
     title: "Warum ein Workshop statt sofortiger Betreuung?",
@@ -31,7 +31,7 @@ export const workshopsHub: LandingPage = {
   audience: {
     title: "Für wen eignen sich die Workshops?",
     paragraphs: [
-      "Für Gründer, lokale Betriebe und Vereine, die Marketing verstehen und priorisieren wollen – bevor Budget in Zufallsmaßnahmen fließt.",
+      "Für Gründer sowie lokale und regionale Unternehmen, die Marketing verstehen und priorisieren wollen – bevor Budget in Zufallsmaßnahmen fließt.",
     ],
     points: [
       "Startups und junge Marken",

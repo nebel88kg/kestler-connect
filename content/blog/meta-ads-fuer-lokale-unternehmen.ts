@@ -13,7 +13,7 @@ export const metaAdsFuerLokaleUnternehmen: BlogPost = {
   category: "Meta Ads",
   readTime: "10 Min.",
   content: `
-Viele regionale und lokale Unternehmen kennen Google Ads – und fragen sich trotzdem: Brauchen wir auch Werbung auf Facebook und Instagram? Die kurze Antwort lautet oft ja. Nicht als Ersatz für Suchanzeigen, sondern als Ergänzung, wenn Sichtbarkeit, Angebote, Events oder neue Zielgruppen im Einzugsgebiet zählen.
+Viele lokale und regionale Unternehmen kennen Google Ads – und fragen sich trotzdem: Brauchen wir auch Werbung auf Facebook und Instagram? Die kurze Antwort lautet oft ja. Nicht als Ersatz für Suchanzeigen, sondern als Ergänzung, wenn Sichtbarkeit, Angebote, Events oder neue Zielgruppen im Einzugsgebiet zählen.
 
 In diesem Beitrag erklären wir praxisnah, was Meta Ads sind, wann sie für lokale Unternehmen in Duisburg und im Ruhrgebiet sinnvoll sind und worauf Sie bei Targeting, Creatives und Website achten sollten.
 
