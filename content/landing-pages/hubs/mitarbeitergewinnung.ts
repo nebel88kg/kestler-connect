@@ -35,10 +35,10 @@ export const mitarbeitergewinnungHub: LandingPage = {
   audience: {
     title: "Für wen eignet sich Social Recruiting?",
     paragraphs: [
-      "Für regionale und lokale Unternehmen mit Fachkräftebedarf, die Bewerber in Duisburg, Moers und Umgebung ansprechen und als Arbeitgeber sichtbar werden wollen.",
+      "Für lokale und regionale Unternehmen mit Fachkräftebedarf, die Bewerber in Duisburg, Moers und Umgebung ansprechen und als Arbeitgeber sichtbar werden wollen.",
     ],
     points: [
-      "Regionale und lokale Unternehmen mit Fachkräftebedarf",
+      "Lokale und regionale Unternehmen mit Fachkräftebedarf",
       "Dienstleister, Handel und Betriebe vor Ort",
       "Unternehmen mit mehreren offenen Stellen",
       "Arbeitgeber, die ihr Profil professionalisieren wollen",
@@ -200,7 +200,7 @@ export const mitarbeitergewinnungHub: LandingPage = {
     {
       question: "Für welche Branchen?",
       answer:
-        "Für regionale und lokale Unternehmen mit Fachkräftebedarf – Dienstleistung, Handel, Produktion und verwandte Branchen; branchenübergreifend anpassbar.",
+        "Für lokale und regionale Unternehmen mit Fachkräftebedarf – Dienstleistung, Handel, Produktion und verwandte Branchen; branchenübergreifend anpassbar.",
     },
     {
       question: "Könnt ihr Stellenanzeigen formulieren?",

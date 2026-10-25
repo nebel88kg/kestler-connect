@@ -22,7 +22,7 @@ export const webseitenHub: LandingPage = {
   hero: {
     headline: "Website erstellen lassen in Duisburg, Ruhrgebiet & Niederrhein – klar, schnell, anfrageorientiert",
     subheadline:
-      "Webdesign und Homepages für regionale und lokale Unternehmen – damit Besucher und Ads zu Anfragen werden.",
+      "Webdesign und Homepages für lokale und regionale Unternehmen – damit Besucher und Ads zu Anfragen werden.",
   },
   intro: {
     title: "Warum eine starke Website entscheidend ist",
@@ -37,7 +37,7 @@ export const webseitenHub: LandingPage = {
       "Für Unternehmen mit veralteter Seite, schwacher Conversion oder ohne professionellen Online-Auftritt – besonders wenn Ads oder SEO geplant sind.",
     ],
     points: [
-      "Lokale Dienstleister und KMU",
+      "Lokale und regionale Unternehmen",
       "Unternehmen mit Ads-Plänen",
       "Betriebe ohne mobile-freundliche Seite",
       "Anbieter mit klaren Leistungsangeboten",

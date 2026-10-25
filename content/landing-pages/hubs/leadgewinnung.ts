@@ -35,7 +35,7 @@ export const leadgewinnungHub: LandingPage = {
   audience: {
     title: "Für wen eignet sich Leadgewinnung?",
     paragraphs: [
-      "Für regionale und lokale Unternehmen mit klarem Angebot und Kapazität, Anfragen zeitnah zu bearbeiten – besonders stark in Duisburg, Moers und Umgebung.",
+      "Für lokale und regionale Unternehmen mit klarem Angebot und Kapazität, Anfragen zeitnah zu bearbeiten – besonders stark in Duisburg, Moers und Umgebung.",
     ],
     points: [
       "Dienstleister mit planbarem Auftragswert",
