@@ -28,7 +28,7 @@ export default function LeistungenPage() {
             Leistungen der Online-Marketing-Agentur
           </h1>
           <p className="mt-4 max-w-2xl text-base text-gray-200 sm:text-lg">
-            Fünf Kernleistungen für mehr Sichtbarkeit und Anfragen – für regionale und lokale Unternehmen in Duisburg,
+            Fünf Kernleistungen für mehr Sichtbarkeit und Anfragen – für lokale und regionale Unternehmen in Duisburg,
             im Ruhrgebiet und am Niederrhein.
           </p>
         </div>

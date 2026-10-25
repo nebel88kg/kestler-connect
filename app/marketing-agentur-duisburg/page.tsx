@@ -58,11 +58,10 @@ const services = [
 ];
 
 const audiences = [
-  "Lokale Unternehmen und Geschäfte vor Ort",
-  "Handwerksbetriebe",
+  "Lokale und regionale Unternehmen",
+  "Geschäfte und Handel vor Ort",
   "Dienstleister",
-  "Vereine",
-  "Kleine und mittelständische Unternehmen (KMU)",
+  "Betriebe ohne eigene Marketingabteilung",
 ];
 
 const cities = [
@@ -160,7 +159,7 @@ export default function MarketingAgenturDuisburgPage() {
             </h1>
             <p className="mt-4 text-base leading-relaxed text-gray-300 sm:mt-6 sm:text-lg lg:text-xl">
               Kestler Connect ist eine Online-Marketing-Agentur aus
-              Duisburg für regionale und lokale Unternehmen in Duisburg, im Ruhrgebiet und am Niederrhein.
+              Duisburg für lokale und regionale Unternehmen in Duisburg, im Ruhrgebiet und am Niederrhein.
             </p>
             <p className="mt-3 text-base leading-relaxed text-gray-400 sm:text-lg">
               Schwerpunkte: Social Media Marketing, Google Ads, Meta Ads, SEO und Webseiten

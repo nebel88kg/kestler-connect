@@ -8,7 +8,7 @@ export const homeFaq: HomeFaqItem[] = [
   {
     question: "Was macht eine Online-Marketing-Agentur wie Kestler Connect?",
     answer:
-      "Kestler Connect ist eine Online-Marketing-Agentur aus Duisburg. Wir unterstützen regionale und lokale Unternehmen bei Social Media, Google Ads, Meta Ads, SEO und Webseiten – von der Strategie über die Umsetzung bis zur Auswertung.",
+      "Kestler Connect ist eine Online-Marketing-Agentur aus Duisburg. Wir unterstützen lokale und regionale Unternehmen bei Social Media, Google Ads, Meta Ads, SEO und Webseiten – von der Strategie über die Umsetzung bis zur Auswertung.",
   },
   {
     question: "Für welche Region arbeiten Sie?",
