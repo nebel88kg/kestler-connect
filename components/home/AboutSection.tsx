@@ -17,7 +17,7 @@ export function AboutSection() {
               Kestler Connect – Online-Marketing-Agentur aus Duisburg
             </h2>
             <p className="mt-4 text-base leading-relaxed text-gray-600 sm:text-lg">
-              Wir helfen regionalen und lokalen Unternehmen in Duisburg, im Ruhrgebiet und am Niederrhein
+              Wir helfen lokalen und regionalen Unternehmen in Duisburg, im Ruhrgebiet und am Niederrhein
               zu mehr Sichtbarkeit und Anfragen – mit{" "}
               <Link href="/leistungen/social-media" className={linkClass}>
                 Social Media

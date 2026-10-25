@@ -7,7 +7,7 @@ export const localSeo: LandingPage = {
   meta: {
     title: "Local SEO – Lokal gefunden werden",
     description:
-      "Local SEO für lokale Unternehmen und Handwerk: Google Unternehmensprofil, Google Maps und lokale Suchanfragen gezielt verbessern.",
+      "Local SEO für lokale und regionale Unternehmen: Google Unternehmensprofil, Google Maps und lokale Suchanfragen gezielt verbessern.",
     keywords: ["local seo", "lokale seo", "google maps optimierung"],
   },
   hero: {

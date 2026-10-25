@@ -62,7 +62,7 @@ export function Footer() {
               Verbindungen, die Wachstum schaffen.
             </p>
             <p className="mt-3 max-w-sm text-sm leading-relaxed text-gray-300">
-              Online-Marketing-Agentur aus Duisburg für regionale und lokale Unternehmen im Ruhrgebiet und am
+              Online-Marketing-Agentur aus Duisburg für lokale und regionale Unternehmen im Ruhrgebiet und am
               Niederrhein – Social Media, Google Ads, Meta Ads, SEO und Webseiten.
             </p>
             <div className="mt-6 space-y-2 text-sm text-gray-300">
