@@ -28,7 +28,7 @@ export function normalizeSiteUrl(raw: string | undefined): string {
 export const siteConfig = {
   name: "Kestler Connect",
   description:
-    "Online-Marketing-Agentur aus Duisburg für regionale und lokale Unternehmen im Ruhrgebiet und am Niederrhein – Social Media, Google Ads, Meta Ads, SEO und Webseiten.",
+    "Online-Marketing-Agentur aus Duisburg für lokale und regionale Unternehmen im Ruhrgebiet und am Niederrhein – Social Media, Google Ads, Meta Ads, SEO und Webseiten.",
   url: normalizeSiteUrl(process.env.NEXT_PUBLIC_SITE_URL),
   phone: process.env.NEXT_PUBLIC_PHONE || "+49 175 2665058",
   whatsapp: process.env.NEXT_PUBLIC_WHATSAPP || "491752665058",
@@ -178,7 +178,7 @@ export const leistungenNav: NavItem = {
     {
       title: "Webseiten",
       href: "/leistungen/webseiten",
-      description: "Website erstellen lassen – Webdesign Duisburg für regionale und lokale Unternehmen.",
+      description: "Website erstellen lassen – Webdesign Duisburg für lokale und regionale Unternehmen.",
       children: [
         {
           title: "Social Media Agentur",
@@ -236,7 +236,7 @@ export const leistungenHubContent: Record<string, HubPageContent> = {
     title: "Meta Ads",
     href: "/leistungen/meta-ads",
     description:
-      "Meta Ads Agentur Duisburg: Facebook- und Instagram-Anzeigen für Leads, Reichweite und Markenbekanntheit – gezielt für regionale und lokale Unternehmen.",
+      "Meta Ads Agentur Duisburg: Facebook- und Instagram-Anzeigen für Leads, Reichweite und Markenbekanntheit – gezielt für lokale und regionale Unternehmen.",
     highlights: [
       "Lead-Formulare direkt in Meta",
       "Präzises Targeting nach Region und Interesse",
@@ -248,7 +248,7 @@ export const leistungenHubContent: Record<string, HubPageContent> = {
     title: "Social Media Agentur",
     href: "/leistungen/social-media",
     description:
-      "Social-Media-Agentur Duisburg: Content, Reels und Betreuung für regionale und lokale Unternehmen – professionell und regelmäßig sichtbar.",
+      "Social-Media-Agentur Duisburg: Content, Reels und Betreuung für lokale und regionale Unternehmen – professionell und regelmäßig sichtbar.",
     highlights: [
       "Redaktionsplan und Content-Produktion",
       "Reels und Kurzvideos für Reichweite",
@@ -272,7 +272,7 @@ export const leistungenHubContent: Record<string, HubPageContent> = {
     title: "Webseiten",
     href: "/leistungen/webseiten",
     description:
-      "Website erstellen lassen in Duisburg: modernes Webdesign und Homepages für regionale und lokale Unternehmen – conversion-stark und kampagnen-ready.",
+      "Website erstellen lassen in Duisburg: modernes Webdesign und Homepages für lokale und regionale Unternehmen – conversion-stark und kampagnen-ready.",
     highlights: [
       "Webdesign Duisburg mit Fokus auf Anfragen",
       "Homepages für lokale und regionale Betriebe",

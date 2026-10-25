@@ -22,7 +22,7 @@ const inter = Inter({
 });
 
 const agencyDescription =
-  "Online-Marketing-Agentur aus Duisburg: Social Media, Google Ads, Meta Ads, SEO und Webseiten für regionale und lokale Unternehmen in Duisburg, im Ruhrgebiet und am Niederrhein.";
+  "Online-Marketing-Agentur aus Duisburg: Social Media, Google Ads, Meta Ads, SEO und Webseiten für lokale und regionale Unternehmen in Duisburg, im Ruhrgebiet und am Niederrhein.";
 
 export const metadata: Metadata = createMetadata({
   title: "Online-Marketing-Agentur Duisburg | Kestler Connect",
@@ -100,6 +100,7 @@ const organizationSchema = {
     "SEO",
     "Local SEO",
     "Website-Erstellung",
+    "Marketing für lokale und regionale Unternehmen",
   ],
   founder: {
     "@type": "Person",

@@ -5,17 +5,17 @@ export const socialMediaHub: LandingPage = {
   path: "/leistungen/social-media",
   category: "social-media",
   meta: {
-    title: "Social Media Agentur für Handwerk, Vereine & KMU",
+    title: "Social Media Agentur für lokale und regionale Unternehmen",
     description:
-      "Social Media Agentur für Handwerk, Vereine, Gastronomie & KMU: Strategie, Content & Betreuung für Instagram, TikTok & Facebook. Kostenloses Strategiegespräch.",
+      "Social Media Agentur für lokale und regionale Unternehmen: Strategie, Content & Betreuung für Instagram, TikTok & Facebook. Kostenloses Strategiegespräch.",
     keywords: [
       "social media agentur",
       "social media betreuung",
       "social media strategie unternehmen",
       "social media content erstellen lassen",
-      "social media für handwerker",
-      "social media für vereine",
-      "social media gastronomie",
+      "social media für lokale unternehmen",
+      "social media für regionale unternehmen",
+      "social media agentur lokale unternehmen",
       "social media agentur duisburg",
       "social media agentur krefeld",
       "social media agentur oberhausen",
@@ -26,7 +26,7 @@ export const socialMediaHub: LandingPage = {
     ],
   },
   hero: {
-    headline: "Social Media Agentur für Handwerk, Vereine & KMU",
+    headline: "Social Media Agentur für lokale und regionale Unternehmen",
     subheadline:
       "Strategie, Content und Betreuung für Instagram, TikTok & Facebook – damit Ihr Betrieb regelmäßig sichtbar ist und aus Reichweite Anfragen werden. Mit festem Ansprechpartner aus Duisburg, für Ruhrgebiet & Niederrhein.",
   },
@@ -41,7 +41,7 @@ export const socialMediaHub: LandingPage = {
     ],
     ctaLabel: "Kostenloses Strategiegespräch",
     formTitle: "Jetzt kostenloses Strategiegespräch sichern",
-    formTopicPlaceholder: "z. B. Handwerk, Verein, Gastronomie – oder Ihr Anliegen",
+    formTopicPlaceholder: "z. B. Ihre Branche, Ihr Ziel – oder Ihr Anliegen",
     offer: {
       title: "Kostenloses Strategiegespräch: Das bekommen Sie",
       intro:
@@ -88,15 +88,15 @@ export const socialMediaHub: LandingPage = {
     ],
   },
   audience: {
-    title: "Social Media für Handwerk, Vereine, Gastronomie & KMU",
+    title: "Social Media für lokale und regionale Unternehmen",
     paragraphs: [
-      "Für Betriebe und Organisationen, die online professionell wirken wollen, aber im Alltag keine Zeit für regelmäßigen Content haben.",
+      "Für lokale und regionale Unternehmen, die online professionell wirken wollen, aber im Alltag keine Zeit für regelmäßigen Content haben – branchenübergreifend, z. B. Handwerk, Gastronomie, Pflege, Dienstleistung oder Handel.",
     ],
     points: [
-      "Handwerksbetriebe – Projekte zeigen, Vertrauen aufbauen, Fachkräfte ansprechen",
-      "Vereine – Mitglieder, Sponsoren und Veranstaltungen sichtbar machen",
-      "Gastronomie – Gerichte, Events und Atmosphäre zeigen",
-      "KMU, Dienstleister und Handel vor Ort",
+      "Projekte, Leistungen und Team zeigen – Vertrauen aufbauen",
+      "Angebote, Aktionen und Veranstaltungen sichtbar machen",
+      "Regelmäßig präsent sein, ohne eigenes Social-Media-Team",
+      "Dienstleister und Handel vor Ort",
       "Betriebe, die neue Mitarbeitende gewinnen wollen",
     ],
   },
@@ -189,7 +189,7 @@ export const socialMediaHub: LandingPage = {
     {
       question: "Für welche Branchen arbeiten Sie?",
       answer:
-        "Für Handwerksbetriebe, Vereine, Gastronomie und KMU aus Dienstleistung und Handel – vor allem in Duisburg, im Ruhrgebiet und am Niederrhein.",
+        "Für lokale und regionale Unternehmen – branchenübergreifend, z. B. Handwerk, Gastronomie, Pflege, Dienstleistung oder Handel. Vor allem in Duisburg, im Ruhrgebiet und am Niederrhein.",
     },
     {
       question: "Welche Kanäle betreuen Sie?",
