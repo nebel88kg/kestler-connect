@@ -147,6 +147,6 @@ Nicht immer. Wichtig ist, dass die Zielseite zum Angebot in der Anzeige passt un
 
 **Für welche Unternehmen in Duisburg und Umgebung eignet sich das?**
 
-Für regionale und lokale Unternehmen, die über ihre Website Anfragen, Termine oder Bewerbungen gewinnen möchten – zum Beispiel Pflegedienste, Handwerksbetriebe, Gastronomie, Dienstleister und Vereine.
+Für lokale und regionale Unternehmen, die über ihre Website Anfragen, Termine oder Bewerbungen gewinnen möchten – zum Beispiel Pflegedienste, Handwerksbetriebe, Gastronomie, Dienstleister und Vereine.
   `.trim(),
 };

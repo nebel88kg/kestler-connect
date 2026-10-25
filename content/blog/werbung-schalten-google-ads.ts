@@ -94,7 +94,7 @@ SEA ersetzt nicht jedes Format. Es ergänzt [Performance Marketing](/leistungen/
 
 Professionelle Betreuung bedeutet vor allem: Struktur, Messung und laufende Optimierung – nicht „Anzeige online stellen und fertig“.
 
-## Praktischer Einstieg für KMU vor Ort
+## Praktischer Einstieg für lokale und regionale Unternehmen
 
 1. Drei Kernleistungen und Ihr Einzugsgebiet notieren
 2. Website-Kontaktwege prüfen (Telefon, Formular, mobile Nutzbarkeit)
