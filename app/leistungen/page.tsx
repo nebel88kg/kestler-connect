@@ -70,6 +70,33 @@ export default function LeistungenPage() {
         )}
 
         <ScrollReveal className="mt-16">
+          <h2 className="text-xl font-bold text-anthracite sm:text-2xl">Orte &amp; Ratgeber</h2>
+          <p className="mt-2 text-gray-600">Eigene Seiten für die Region und weiterführende Artikel.</p>
+          <ul className="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+            {[
+              { title: "Marketing-Agentur Duisburg", href: "/marketing-agentur-duisburg" },
+              { title: "Marketing-Agentur Krefeld", href: "/marketing-agentur-krefeld" },
+              { title: "Marketing-Agentur Moers", href: "/marketing-agentur-moers" },
+              { title: "Local SEO", href: "/leistungen/seo/local-seo" },
+              { title: "Google Ads für Handwerker", href: "/leistungen/google-ads/google-ads-fuer-handwerker" },
+              { title: "Blog: Local SEO Duisburg", href: "/blog/local-seo-duisburg" },
+              { title: "Blog: Social Media Marketing Duisburg", href: "/blog/social-media-marketing-duisburg" },
+              { title: "Blog: Google Ads Agentur Duisburg", href: "/blog/google-ads-agentur-duisburg" },
+              { title: "Einzugsgebiet", href: "/einzugsgebiet" },
+            ].map((item) => (
+              <li key={item.href}>
+                <Link
+                  href={item.href}
+                  className="font-semibold text-anthracite underline-offset-2 hover:text-accent-dark hover:underline"
+                >
+                  {item.title} →
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </ScrollReveal>
+
+        <ScrollReveal className="mt-16">
           <div className="rounded-2xl border border-navy/10 bg-navy/[0.03] px-6 py-10 text-center sm:px-10">
             <h2 className="text-xl font-bold text-navy sm:text-2xl">Nicht sicher, womit Sie starten sollen?</h2>
             <p className="mx-auto mt-3 max-w-xl text-gray-700">
@@ -77,7 +104,7 @@ export default function LeistungenPage() {
               unverbindlich.
             </p>
             <Button href="/kontakt" size="lg" className="mt-6">
-              Kostenloses Erstgespräch
+              Kostenloses Strategiegespräch
             </Button>
             <p className="mt-4 text-sm">
               <Link href="/einzugsgebiet" className="font-semibold text-accent-dark underline underline-offset-2">
