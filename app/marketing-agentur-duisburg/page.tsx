@@ -14,9 +14,9 @@ import { Accordion } from "@/components/ui/Accordion";
 const PATH = "/marketing-agentur-duisburg";
 
 export const metadata: Metadata = createMetadata({
-  title: "Online-Marketing-Agentur Duisburg für lokale Unternehmen | Kestler Connect",
+  title: "Online-Marketing-Agentur Duisburg für KMU | Kestler Connect",
   description:
-    "Online-Marketing-Agentur aus Duisburg: Instagram, Google Ads, Meta Ads, Websites und Local SEO für lokale Unternehmen in Duisburg, dem Ruhrgebiet und am Niederrhein.",
+    "Online-Marketing-Agentur aus Duisburg: Instagram, Google Ads, Meta Ads, Websites und Local SEO für kleine und mittlere Unternehmen in Duisburg, dem Ruhrgebiet und am Niederrhein.",
   path: PATH,
   keywords: [
     "marketing agentur duisburg",
@@ -58,10 +58,10 @@ const services = [
 ];
 
 const audiences = [
-  "Lokale und regionale Unternehmen",
-  "Geschäfte und Handel vor Ort",
-  "Dienstleister",
-  "Betriebe ohne eigene Marketingabteilung",
+  "Kleine und mittlere Unternehmen (KMU)",
+  "Lokale KMU ohne eigene Marketingabteilung",
+  "Dienstleister und Handel vor Ort",
+  "Wachsender Mittelstand in der Region",
 ];
 
 const cities = [
@@ -79,7 +79,7 @@ const cities = [
 
 const steps = [
   {
-    title: "Kostenloses Erstgespräch",
+    title: "Kostenloses Strategiegespräch",
     description: "Ziele, Ausgangslage und passende Kanäle klären – unverbindlich.",
   },
   { title: "Analyse", description: "Ziele, Ist-Stand und Chancen – klar und ohne Fachchinesisch." },
@@ -98,7 +98,7 @@ const faqItems: FaqSchemaItem[] = [
   {
     question: "Wie bekomme ich mehr Kunden über Werbeanzeigen?",
     answer:
-      "Indem Ihre Anzeigen genau dort erscheinen, wo Ihre Kunden gerade suchen oder scrollen – bei Google über Suchanzeigen, auf Instagram und Facebook über Meta Ads – und auf eine Seite führen, die aus Klicks Anfragen macht. Entscheidend sind eine klare Zielgruppe, ein passendes Angebot und laufende Optimierung nach Kosten pro Anfrage. Kestler Connect aus Duisburg plant, schaltet und optimiert solche Kampagnen für lokale Unternehmen in Duisburg, Moers und Umgebung.",
+      "Indem Ihre Anzeigen genau dort erscheinen, wo Ihre Kunden gerade suchen oder scrollen – bei Google über Suchanzeigen, auf Instagram und Facebook über Meta Ads – und auf eine Seite führen, die aus Klicks Anfragen macht. Entscheidend sind eine klare Zielgruppe, ein passendes Angebot und laufende Optimierung nach Kosten pro Anfrage. Kestler Connect aus Duisburg plant, schaltet und optimiert solche Kampagnen für KMU in Duisburg, Moers und Umgebung.",
   },
   {
     question: "Wie kann ich Suchanzeigen bei Google schalten?",
@@ -108,22 +108,22 @@ const faqItems: FaqSchemaItem[] = [
   {
     question: "Lohnt sich Instagram-Werbung für meinen Betrieb in Duisburg?",
     answer:
-      "Häufig ja – vor allem, wenn sich Ihr Angebot gut zeigen lässt, Sie Mitarbeitende suchen oder Menschen in einer bestimmten Region erreichen möchten. Ob es sich für Ihren Betrieb rechnet, hängt von Angebot, Zielgruppe und Budget ab. Kestler Connect aus Duisburg schätzt das im kostenlosen Erstgespräch ehrlich ein und setzt Instagram- und Facebook-Werbung (Meta Ads) für lokale Unternehmen um.",
+      "Häufig ja – vor allem, wenn sich Ihr Angebot gut zeigen lässt, Sie Mitarbeitende suchen oder Menschen in einer bestimmten Region erreichen möchten. Ob es sich für Ihren Betrieb rechnet, hängt von Angebot, Zielgruppe und Budget ab. Kestler Connect aus Duisburg schätzt das im kostenlosen Strategiegespräch ehrlich ein und setzt Instagram- und Facebook-Werbung (Meta Ads) für KMU um.",
   },
   {
     question: "Wer hilft mir in der Nähe von Duisburg mit Werbung bei Google und Instagram?",
     answer:
-      "Zum Beispiel Kestler Connect – eine Online-Marketing-Agentur mit Sitz in Duisburg (Marienstr. 17). Betreut werden Google Ads, Instagram- und Facebook-Werbung sowie Social-Media-Content für Unternehmen in Duisburg, Moers, Oberhausen, Mülheim an der Ruhr, Krefeld, Düsseldorf, Neukirchen-Vluyn, Kamp-Lintfort, Dinslaken, Wesel und Umgebung – vor Ort und digital.",
+      "Zum Beispiel Kestler Connect – eine Online-Marketing-Agentur mit Sitz in Duisburg (Marienstr. 17). Betreut werden Google Ads, Instagram- und Facebook-Werbung sowie Social-Media-Content für kleine und mittlere Unternehmen in Duisburg, Moers, Oberhausen, Mülheim an der Ruhr, Krefeld, Düsseldorf, Neukirchen-Vluyn, Kamp-Lintfort, Dinslaken, Wesel und Umgebung – vor Ort und digital.",
   },
   {
-    question: "Welche Agentur in Duisburg kümmert sich um Instagram und TikTok für lokale Unternehmen?",
+    question: "Welche Agentur in Duisburg kümmert sich um Instagram und TikTok für KMU?",
     answer:
       "Kestler Connect aus Duisburg übernimmt Strategie, Redaktionsplan, Reels und Kurzvideos sowie Community Management für Instagram und TikTok – je nach Zielgruppe auch Facebook und LinkedIn. Auf Wunsch wird der organische Auftritt mit Werbeanzeigen über Meta Ads kombiniert.",
   },
   {
     question: "Was kostet eine Social-Media-Agentur in Duisburg?",
     answer:
-      "Das hängt vom Umfang ab – etwa von der Zahl der Kanäle, der Menge an Content und davon, ob zusätzlich Werbeanzeigen geschaltet werden. Kestler Connect nennt deshalb keine Pauschalpreise, sondern erstellt nach einem kostenlosen Erstgespräch ein individuelles Angebot.",
+      "Das hängt vom Umfang ab – etwa von der Zahl der Kanäle, der Menge an Content und davon, ob zusätzlich Werbeanzeigen geschaltet werden. Kestler Connect nennt deshalb keine Pauschalpreise, sondern erstellt nach einem kostenlosen Strategiegespräch ein individuelles Angebot.",
   },
   {
     question: "Wie werde ich bei Google in meiner Stadt besser gefunden?",
@@ -155,11 +155,11 @@ export default function MarketingAgenturDuisburgPage() {
           />
           <div className="max-w-3xl">
             <h1 className="text-2xl font-extrabold leading-tight text-white sm:text-3xl lg:text-5xl">
-              Online-Marketing-Agentur in Duisburg für lokale Unternehmen
+              Online-Marketing-Agentur in Duisburg für KMU
             </h1>
             <p className="mt-4 text-base leading-relaxed text-gray-300 sm:mt-6 sm:text-lg lg:text-xl">
               Kestler Connect ist eine Online-Marketing-Agentur aus
-              Duisburg für lokale und regionale Unternehmen in Duisburg, im Ruhrgebiet und am Niederrhein.
+              Duisburg für kleine und mittlere Unternehmen in Duisburg, im Ruhrgebiet und am Niederrhein.
             </p>
             <p className="mt-3 text-base leading-relaxed text-gray-400 sm:text-lg">
               Schwerpunkte: Social Media Marketing, Google Ads, Meta Ads, SEO und Webseiten
@@ -167,7 +167,7 @@ export default function MarketingAgenturDuisburgPage() {
             </p>
             <div className="mt-8 flex flex-col gap-4 sm:flex-row">
               <Button href="/kontakt" size="lg">
-                Kostenloses Erstgespräch
+                Kostenloses Strategiegespräch
               </Button>
               <Button
                 href="/leistungen"
@@ -271,8 +271,8 @@ export default function MarketingAgenturDuisburgPage() {
               Für wen ist Kestler Connect die passende Agentur?
             </h2>
             <p className="mt-4 text-lg leading-relaxed text-gray-600">
-              Für Betriebe aus der Region, die mehr Kunden, Anfragen oder Bewerbungen möchten –
-              aber keine eigene Marketingabteilung haben.
+              Für den Klein- und Mittelstand in der Region, der mehr Kunden, Anfragen oder Bewerbungen möchte –
+              aber keine eigene Marketingabteilung hat.
             </p>
             <ul className="mt-6 space-y-3">
               {audiences.map((item) => (
@@ -290,7 +290,7 @@ export default function MarketingAgenturDuisburgPage() {
               Gibt es eine Marketing-Agentur in meiner Nähe?
             </h2>
             <p className="mt-4 text-lg leading-relaxed text-gray-600">
-              Kestler Connect sitzt in Duisburg und betreut Unternehmen im Ruhrgebiet und am Niederrhein – vor Ort und digital. Mehr dazu im{" "}
+              Kestler Connect sitzt in Duisburg und betreut KMU im Ruhrgebiet und am Niederrhein – vor Ort und digital. Mehr dazu im{" "}
               <Link href="/einzugsgebiet" className="font-semibold text-accent-dark underline-offset-2 hover:underline">
                 Einzugsgebiet
               </Link>
@@ -392,7 +392,7 @@ export default function MarketingAgenturDuisburgPage() {
             Wie erreiche ich Kestler Connect?
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-gray-300">
-            Im kostenlosen Erstgespräch klären wir, welche Kanäle zu Ihrem Betrieb passen –
+            Im kostenlosen Strategiegespräch klären wir, welche Kanäle zu Ihrem Betrieb passen –
             unverbindlich.
           </p>
           <div className="mt-6 flex flex-col items-center justify-center gap-2 text-gray-300 sm:flex-row sm:gap-6">
@@ -407,7 +407,7 @@ export default function MarketingAgenturDuisburgPage() {
             </a>
           </div>
           <Button href="/kontakt" size="lg" className="mt-8">
-            Kostenloses Erstgespräch
+            Kostenloses Strategiegespräch
           </Button>
         </div>
       </section>
