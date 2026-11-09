@@ -14,10 +14,10 @@ import { Accordion } from "@/components/ui/Accordion";
 const PATH = "/marketing-agentur-duisburg";
 
 export const metadata: Metadata = createMetadata({
-  title: "Online-Marketing-Agentur Duisburg | Kestler Connect",
+  title: "Online-Marketing-Agentur Duisburg für KMU | Kestler Connect",
   absoluteTitle: true,
   description:
-    "Online-Marketing-Agentur Duisburg: Social Media, Google Ads, Meta Ads und SEO für kleine und mittlere Unternehmen. Kostenloses Strategiegespräch.",
+    "Online-Marketing-Agentur aus Duisburg: Instagram, Google Ads, Meta Ads, Websites und Local SEO für kleine und mittlere Unternehmen in Duisburg, dem Ruhrgebiet und am Niederrhein.",
   path: PATH,
   keywords: [
     "online marketing duisburg",
@@ -63,6 +63,7 @@ const services = [
 const audiences = [
   "Kleine und mittlere Unternehmen (KMU)",
   "Lokale KMU ohne eigene Marketingabteilung",
+  "Dienstleister und Handel vor Ort",
   "Wachsender Mittelstand in der Region",
 ];
 
@@ -115,7 +116,7 @@ const faqItems: FaqSchemaItem[] = [
   {
     question: "Wer hilft mir in der Nähe von Duisburg mit Werbung bei Google und Instagram?",
     answer:
-      "Zum Beispiel Kestler Connect – eine Online-Marketing-Agentur mit Sitz in Duisburg (Marienstr. 17). Betreut werden Google Ads, Instagram- und Facebook-Werbung sowie Social-Media-Content für Unternehmen in Duisburg, Moers, Oberhausen, Mülheim an der Ruhr, Krefeld, Düsseldorf, Neukirchen-Vluyn, Kamp-Lintfort, Dinslaken, Wesel und Umgebung – vor Ort und digital.",
+      "Zum Beispiel Kestler Connect – eine Online-Marketing-Agentur mit Sitz in Duisburg (Marienstr. 17). Betreut werden Google Ads, Instagram- und Facebook-Werbung sowie Social-Media-Content für kleine und mittlere Unternehmen in Duisburg, Moers, Oberhausen, Mülheim an der Ruhr, Krefeld, Düsseldorf, Neukirchen-Vluyn, Kamp-Lintfort, Dinslaken, Wesel und Umgebung – vor Ort und digital.",
   },
   {
     question: "Welche Agentur in Duisburg kümmert sich um Instagram und TikTok für KMU?",
@@ -273,8 +274,8 @@ export default function MarketingAgenturDuisburgPage() {
               Für wen ist Kestler Connect die passende Agentur?
             </h2>
             <p className="mt-4 text-lg leading-relaxed text-gray-600">
-              Für Betriebe aus der Region, die mehr Kunden, Anfragen oder Bewerbungen möchten –
-              aber keine eigene Marketingabteilung haben.
+              Für den Klein- und Mittelstand in der Region, der mehr Kunden, Anfragen oder Bewerbungen möchte –
+              aber keine eigene Marketingabteilung hat.
             </p>
             <ul className="mt-6 space-y-3">
               {audiences.map((item) => (
@@ -292,7 +293,7 @@ export default function MarketingAgenturDuisburgPage() {
               Gibt es eine Marketing-Agentur in meiner Nähe?
             </h2>
             <p className="mt-4 text-lg leading-relaxed text-gray-600">
-              Kestler Connect sitzt in Duisburg und betreut Unternehmen im Ruhrgebiet und am Niederrhein – vor Ort und digital. Mehr dazu im{" "}
+              Kestler Connect sitzt in Duisburg und betreut kleine und mittlere Unternehmen im Ruhrgebiet und am Niederrhein – vor Ort und digital. Mehr dazu im{" "}
               <Link href="/einzugsgebiet" className="font-semibold text-accent-dark underline-offset-2 hover:underline">
                 Einzugsgebiet
               </Link>
