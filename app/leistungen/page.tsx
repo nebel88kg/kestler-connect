@@ -12,7 +12,7 @@ import { Button } from "@/components/ui/Button";
 export const metadata: Metadata = createMetadata({
   title: "Leistungen: Social Media, Ads, SEO & Webseiten",
   description:
-    "Leistungen von Kestler Connect aus Duisburg: Social Media, Google Ads, Meta Ads, SEO und Webseiten für Unternehmen im Ruhrgebiet und am Niederrhein.",
+    "Leistungen von Kestler Connect aus Duisburg: Social Media, Google Ads, Meta Ads, SEO und Webseiten für KMU im Ruhrgebiet und am Niederrhein.",
   path: "/leistungen",
 });
 
@@ -28,7 +28,7 @@ export default function LeistungenPage() {
             Leistungen der Online-Marketing-Agentur
           </h1>
           <p className="mt-4 max-w-2xl text-base text-gray-200 sm:text-lg">
-            Fünf Kernleistungen für mehr Sichtbarkeit und Anfragen – für lokale und regionale Unternehmen in Duisburg,
+            Fünf Kernleistungen für mehr Sichtbarkeit und Anfragen – für kleine und mittlere Unternehmen in Duisburg,
             im Ruhrgebiet und am Niederrhein.
           </p>
         </div>
@@ -77,7 +77,7 @@ export default function LeistungenPage() {
               unverbindlich.
             </p>
             <Button href="/kontakt" size="lg" className="mt-6">
-              Kostenloses Erstgespräch
+              Kostenloses Strategiegespräch
             </Button>
             <p className="mt-4 text-sm">
               <Link href="/einzugsgebiet" className="font-semibold text-accent-dark underline underline-offset-2">
