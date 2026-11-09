@@ -28,7 +28,7 @@ export function normalizeSiteUrl(raw: string | undefined): string {
 export const siteConfig = {
   name: "Kestler Connect",
   description:
-    "Online-Marketing-Agentur aus Duisburg für regionale und lokale Unternehmen im Ruhrgebiet und am Niederrhein – Social Media, Google Ads, Meta Ads, SEO und Webseiten.",
+    "Online-Marketing-Agentur aus Duisburg für kleine und mittlere Unternehmen (KMU) im Ruhrgebiet und am Niederrhein – Social Media, Google Ads, Meta Ads, SEO und Webseiten.",
   url: normalizeSiteUrl(process.env.NEXT_PUBLIC_SITE_URL),
   phone: process.env.NEXT_PUBLIC_PHONE || "+49 175 2665058",
   whatsapp: process.env.NEXT_PUBLIC_WHATSAPP || "491752665058",
@@ -121,25 +121,11 @@ export const leistungenNav: NavItem = {
       title: "Google Ads",
       href: "/leistungen/google-ads",
       description: "Suchanzeigen mit messbaren Anfragen und klarem ROI.",
-      children: [
-        {
-          title: "Google Ads für Handwerker",
-          href: "/leistungen/google-ads/google-ads-fuer-handwerker",
-          description: "Mehr Aufträge für Handwerksbetriebe über Google.",
-        },
-      ],
     },
     {
       title: "Meta Ads",
       href: "/leistungen/meta-ads",
       description: "Facebook- und Instagram-Kampagnen für Leads und Reichweite.",
-      children: [
-        {
-          title: "Mitgliedergewinnung Golfclubs",
-          href: "/leistungen/meta-ads/mitgliedergewinnung-golfclubs",
-          description: "Neue Mitglieder für Golfclubs gewinnen.",
-        },
-      ],
     },
     {
       title: "Social Media Agentur",
@@ -161,24 +147,19 @@ export const leistungenNav: NavItem = {
     {
       title: "Workshops",
       href: "/leistungen/workshops",
-      description: "Kompakte Marketing-Workshops für lokale Unternehmen und Startups.",
+      description: "Kompakte Marketing-Workshops für KMU und Startups.",
       children: [
         {
           title: "Marketing-Workshop für Startups",
           href: "/leistungen/workshops/marketing-workshop-startups",
           description: "In 5–6 Stunden Klarheit und Handwerkszeug für den Start.",
         },
-        {
-          title: "Marketing & Sponsoring für Vereine",
-          href: "/leistungen/workshops/marketing-sponsoring-vereine",
-          description: "Praxis-Workshop zu Sichtbarkeit, Mitgliedern und Sponsoren.",
-        },
       ],
     },
     {
       title: "Webseiten",
       href: "/leistungen/webseiten",
-      description: "Website erstellen lassen – Webdesign Duisburg für regionale und lokale Unternehmen.",
+      description: "Website erstellen lassen – Webdesign Duisburg für KMU und den Mittelstand.",
       children: [
         {
           title: "Social Media Agentur",
@@ -236,7 +217,7 @@ export const leistungenHubContent: Record<string, HubPageContent> = {
     title: "Meta Ads",
     href: "/leistungen/meta-ads",
     description:
-      "Meta Ads Agentur Duisburg: Facebook- und Instagram-Anzeigen für Leads, Reichweite und Markenbekanntheit – gezielt für regionale und lokale Unternehmen.",
+      "Meta Ads Agentur Duisburg: Facebook- und Instagram-Anzeigen für Leads, Reichweite und Markenbekanntheit – gezielt für KMU und den Mittelstand.",
     highlights: [
       "Lead-Formulare direkt in Meta",
       "Präzises Targeting nach Region und Interesse",
@@ -248,7 +229,7 @@ export const leistungenHubContent: Record<string, HubPageContent> = {
     title: "Social Media Agentur",
     href: "/leistungen/social-media",
     description:
-      "Social-Media-Agentur Duisburg: Content, Reels und Betreuung für regionale und lokale Unternehmen – professionell und regelmäßig sichtbar.",
+      "Social-Media-Agentur Duisburg: Content, Reels und Betreuung für kleine und mittlere Unternehmen – professionell und regelmäßig sichtbar.",
     highlights: [
       "Redaktionsplan und Content-Produktion",
       "Reels und Kurzvideos für Reichweite",
@@ -264,7 +245,7 @@ export const leistungenHubContent: Record<string, HubPageContent> = {
     highlights: [
       "5–6 Stunden praxisnah und ergebnisorientiert",
       "Ideal für Startups und junge Unternehmen",
-      "Eigene Formate für Vereine zu Marketing und Sponsoring",
+      "Passend für KMU ohne Marketing-Team",
       "Sofort anwendbares Handwerkszeug statt Theorie",
     ],
   },
@@ -272,10 +253,10 @@ export const leistungenHubContent: Record<string, HubPageContent> = {
     title: "Webseiten",
     href: "/leistungen/webseiten",
     description:
-      "Website erstellen lassen in Duisburg: modernes Webdesign und Homepages für regionale und lokale Unternehmen – conversion-stark und kampagnen-ready.",
+      "Website erstellen lassen in Duisburg: modernes Webdesign und Homepages für KMU – conversion-stark und kampagnen-ready.",
     highlights: [
       "Webdesign Duisburg mit Fokus auf Anfragen",
-      "Homepages für lokale und regionale Betriebe",
+      "Homepages für lokale KMU",
       "Landingpages für Kampagnen",
       "Mobile-first und schnell ladend",
       "Klare Pakete: Basic, Standard, Premium",
@@ -331,7 +312,7 @@ export const leistungenMenuItems: NavItem[] = [
   {
     title: "Workshops",
     href: "/leistungen/workshops",
-    description: "Kompakte Workshops für lokale Unternehmen und Startups.",
+    description: "Kompakte Workshops für KMU und Startups.",
   },
   {
     title: "Webseiten",
