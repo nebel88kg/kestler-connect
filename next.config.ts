@@ -18,6 +18,22 @@ const nextConfig: NextConfig = {
         destination: "/marketing-agentur-duisburg",
         permanent: true,
       },
+      // Nischenseiten Handwerker / Vereine / Golfclubs → passende Hubs (Zielgruppe: KMU).
+      {
+        source: "/leistungen/google-ads/google-ads-fuer-handwerker",
+        destination: "/leistungen/google-ads",
+        permanent: true,
+      },
+      {
+        source: "/leistungen/meta-ads/mitgliedergewinnung-golfclubs",
+        destination: "/leistungen/meta-ads",
+        permanent: true,
+      },
+      {
+        source: "/leistungen/workshops/marketing-sponsoring-vereine",
+        destination: "/leistungen/workshops",
+        permanent: true,
+      },
     ];
   },
 };
