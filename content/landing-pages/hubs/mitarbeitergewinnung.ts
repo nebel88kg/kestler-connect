@@ -7,7 +7,7 @@ export const mitarbeitergewinnungHub: LandingPage = {
   meta: {
     title: "Mitarbeiter finden Duisburg | Social Recruiting | Kestler Connect",
     description:
-      "Mitarbeitergewinnung in Duisburg, im Ruhrgebiet und am Niederrhein: Social Recruiting und Recruiting Ads auf Instagram, TikTok und Meta – für regionale Betriebe mit Fachkräftebedarf.",
+      "Mitarbeitergewinnung in Duisburg, im Ruhrgebiet und am Niederrhein: Social Recruiting und Recruiting Ads auf Instagram, TikTok und Meta – für KMU mit Fachkräftebedarf.",
     keywords: [
       "mitarbeiter finden duisburg",
       "social recruiting",
@@ -23,7 +23,7 @@ export const mitarbeitergewinnungHub: LandingPage = {
   hero: {
     headline: "Mitarbeiter finden in Duisburg, Ruhrgebiet & Niederrhein – passende Bewerber statt Zufallstreffer",
     subheadline:
-      "Social Recruiting und Recruiting Ads für regionale Betriebe – sichtbar als Arbeitgeber, gezielt über Instagram, TikTok und Google.",
+      "Social Recruiting und Recruiting Ads für KMU – sichtbar als Arbeitgeber, gezielt über Instagram, TikTok und Google.",
   },
   intro: {
     title: "Mitarbeiter gewinnen über Instagram, TikTok und Ads",
@@ -35,11 +35,11 @@ export const mitarbeitergewinnungHub: LandingPage = {
   audience: {
     title: "Für wen eignet sich Social Recruiting?",
     paragraphs: [
-      "Für lokale und regionale Unternehmen mit Fachkräftebedarf, die Bewerber in Duisburg, Moers und Umgebung ansprechen und als Arbeitgeber sichtbar werden wollen.",
+      "Für kleine und mittlere Unternehmen mit Fachkräftebedarf, die Bewerber in Duisburg, Moers und Umgebung ansprechen und als Arbeitgeber sichtbar werden wollen.",
     ],
     points: [
-      "Lokale und regionale Unternehmen mit Fachkräftebedarf",
-      "Dienstleister, Handel und Betriebe vor Ort",
+      "KMU mit Fachkräftebedarf",
+      "Dienstleister und Handel vor Ort",
       "Unternehmen mit mehreren offenen Stellen",
       "Arbeitgeber, die ihr Profil professionalisieren wollen",
       "Teams ohne große HR-Marketing-Kapazität",
@@ -200,7 +200,7 @@ export const mitarbeitergewinnungHub: LandingPage = {
     {
       question: "Für welche Branchen?",
       answer:
-        "Für lokale und regionale Unternehmen mit Fachkräftebedarf – Dienstleistung, Handel, Produktion und verwandte Branchen; branchenübergreifend anpassbar.",
+        "Für kleine und mittlere Unternehmen mit Fachkräftebedarf – Dienstleistung, Handel, Produktion und verwandte Branchen; branchenübergreifend anpassbar.",
     },
     {
       question: "Könnt ihr Stellenanzeigen formulieren?",

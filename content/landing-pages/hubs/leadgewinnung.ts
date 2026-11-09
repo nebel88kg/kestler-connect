@@ -23,7 +23,7 @@ export const leadgewinnungHub: LandingPage = {
   hero: {
     headline: "Mehr Anfragen, mehr Kunden – Leadgewinnung in Duisburg, Ruhrgebiet & Niederrhein",
     subheadline:
-      "Anfragen generieren statt auf Zufall hoffen: Google Ads, Meta Ads und conversion-starke Seiten für regionale Unternehmen.",
+      "Anfragen generieren statt auf Zufall hoffen: Google Ads, Meta Ads und conversion-starke Seiten für KMU.",
   },
   intro: {
     title: "Was bedeutet Leadgewinnung?",
@@ -35,12 +35,12 @@ export const leadgewinnungHub: LandingPage = {
   audience: {
     title: "Für wen eignet sich Leadgewinnung?",
     paragraphs: [
-      "Für lokale und regionale Unternehmen mit klarem Angebot und Kapazität, Anfragen zeitnah zu bearbeiten – besonders stark in Duisburg, Moers und Umgebung.",
+      "Für kleine und mittlere Unternehmen mit klarem Angebot und Kapazität, Anfragen zeitnah zu bearbeiten – besonders stark in Duisburg, Moers und Umgebung.",
     ],
     points: [
       "Dienstleister mit planbarem Auftragswert",
       "Anbieter von Kursen, Terminen oder Beratungen",
-      "Lokale Betriebe mit Einzugsgebiet",
+      "Lokale KMU mit Einzugsgebiet",
       "Teams, die Ads und Follow-up verbinden wollen",
       "Unternehmen mit bisher unklaren Kosten pro Lead",
     ],
@@ -205,7 +205,7 @@ export const leadgewinnungHub: LandingPage = {
     {
       question: "Was kostet ein Lead?",
       answer:
-        "Stark branchenabhängig. Wir machen Kosten transparent und optimieren auf brauchbare Anfragen – ohne Pauschalpreise; die Einschätzung klären wir im Erstgespräch.",
+        "Stark branchenabhängig. Wir machen Kosten transparent und optimieren auf brauchbare Anfragen – ohne Pauschalpreise; die Einschätzung klären wir im Strategiegespräch.",
     },
     {
       question: "Brauche ich eine Landingpage?",

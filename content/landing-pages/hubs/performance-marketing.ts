@@ -21,7 +21,7 @@ export const performanceMarketingHub: LandingPage = {
   hero: {
     headline: "Performance Marketing Duisburg, Ruhrgebiet & Niederrhein – messbare Anfragen",
     subheadline:
-      "Google Ads, Meta Ads und Leadgewinnung aus einer Hand – für regionale Unternehmen in Duisburg, Moers und dem Ruhrgebiet.",
+      "Google Ads, Meta Ads und Leadgewinnung aus einer Hand – für KMU in Duisburg, Moers und dem Ruhrgebiet.",
   },
   intro: {
     title: "Was ist Performance Marketing?",
@@ -33,12 +33,12 @@ export const performanceMarketingHub: LandingPage = {
   audience: {
     title: "Für wen eignet sich Performance Marketing?",
     paragraphs: [
-      "Für Unternehmen in Duisburg, Moers und Umgebung, deren Wachstum an planbaren Anfragen hängt – und die wissen wollen, welcher Kanal wirklich Aufträge bringt.",
+      "Für kleine und mittlere Unternehmen in Duisburg, Moers und Umgebung, deren Wachstum an planbaren Anfragen hängt – und die wissen wollen, welcher Kanal wirklich Aufträge bringt.",
     ],
     points: [
-      "Lokale und regionale Unternehmen mit klarem Einzugsgebiet",
+      "KMU mit klarem Einzugsgebiet",
       "Lokale Dienstleister und Handel in Duisburg und Moers",
-      "Betriebe mit Event-, Kurs- oder Mitgliederzielen",
+      "Betriebe mit Event-, Kurs- oder Terminzielen",
       "Unternehmen, die Leads und Mitarbeiter parallel gewinnen wollen",
       "Teams, die Google, Meta und Landingpages verzahnen wollen",
     ],
@@ -183,7 +183,7 @@ export const performanceMarketingHub: LandingPage = {
     {
       question: "Ab welchem Budget lohnt sich Performance Marketing?",
       answer:
-        "Für lokale Unternehmen richten wir Media-Budget und Betreuung nach Wettbewerb und Zielen aus. Im Erstgespräch prüfen wir, ob es sich rechnet.",
+        "Für KMU richten wir Media-Budget und Betreuung nach Wettbewerb und Zielen aus. Im Strategiegespräch prüfen wir, ob es sich rechnet.",
     },
     {
       question: "Arbeitet ihr auch für Unternehmen in Moers?",
