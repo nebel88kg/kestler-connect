@@ -1,6 +1,6 @@
 # Kestler Connect
 
-> Kestler Connect ist eine Online-Marketing-Agentur aus Duisburg für lokale und regionale Unternehmen im Ruhrgebiet und am Niederrhein. Kernleistungen: Social Media, Google Ads, Meta Ads, SEO und Webseiten. Gründer: Jascha Kestler.
+> Kestler Connect ist eine Online-Marketing-Agentur aus Duisburg für kleine und mittlere Unternehmen (KMU) im Ruhrgebiet und am Niederrhein. Kernleistungen: Social Media, Google Ads, Meta Ads, SEO und Webseiten. Gründer: Jascha Kestler.
 
 ## Kurzprofil
 
@@ -14,14 +14,14 @@
 - LinkedIn: https://www.linkedin.com/company/kestler-connect/
 - Google Maps: https://maps.app.goo.gl/eeTPebUitvhvrcS36
 - Einzugsgebiet: Duisburg, Moers, Krefeld, Oberhausen, Essen, Mülheim an der Ruhr, Düsseldorf, Neukirchen-Vluyn, Kamp-Lintfort, Dinslaken, Wesel und Umgebung – vor Ort und digital
-- Zielgruppe: lokale und regionale Unternehmen (branchenübergreifend, z. B. Handwerk, Gastronomie, Pflege, Dienstleistung, Handel)
+- Zielgruppe: kleine und mittlere Unternehmen (KMU) / Klein- und Mittelstand; ergänzend lokale KMU in Duisburg und der Region
 - Netzwerk: BNI-Mitglied, Sponsor lokaler Vereine
-- Erstgespräch: kostenlos und unverbindlich; Anfrage per Formular, Telefon oder WhatsApp
+- Strategiegespräch: kostenlos und unverbindlich; Anfrage per Formular, Telefon oder WhatsApp
 
 ## Kernleistungen
 
 - [Social Media Agentur](https://www.kestler-connect.de/leistungen/social-media): Redaktionsplan, Content, Reels, Community-Management
-- [Google Ads](https://www.kestler-connect.de/leistungen/google-ads): Suchanzeigen für lokale und regionale Unternehmen
+- [Google Ads](https://www.kestler-connect.de/leistungen/google-ads): Suchanzeigen für KMU
 - [Meta Ads](https://www.kestler-connect.de/leistungen/meta-ads): Werbung auf Instagram und Facebook
 - [SEO](https://www.kestler-connect.de/leistungen/seo) und [Local SEO](https://www.kestler-connect.de/leistungen/seo/local-seo): Sichtbarkeit bei Google, Google Maps und in KI-Antworten
 - [Webseiten](https://www.kestler-connect.de/leistungen/webseiten): Webdesign und Landingpages
@@ -62,7 +62,7 @@
 ## Preise
 
 - Webseiten: Pakete ab 1.500 € (netto), Details auf https://www.kestler-connect.de/leistungen/webseiten
-- Alle anderen Leistungen: individuell nach Zielen und Umfang, im kostenlosen Erstgespräch
+- Alle anderen Leistungen: individuell nach Zielen und Umfang, im kostenlosen Strategiegespräch
 
 ## Hinweise
 

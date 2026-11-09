@@ -5,17 +5,17 @@ export const socialMediaHub: LandingPage = {
   path: "/leistungen/social-media",
   category: "social-media",
   meta: {
-    title: "Social Media Agentur für lokale und regionale Unternehmen",
+    title: "Social Media Agentur für KMU",
     description:
-      "Social Media Agentur für lokale und regionale Unternehmen: Strategie, Content & Betreuung für Instagram, TikTok & Facebook. Kostenloses Strategiegespräch.",
+      "Social Media Agentur für kleine und mittlere Unternehmen (KMU): Strategie, Content und Betreuung für Instagram, TikTok und Facebook. Kostenloses Strategiegespräch.",
     keywords: [
       "social media agentur",
       "social media betreuung",
       "social media strategie unternehmen",
       "social media content erstellen lassen",
-      "social media für lokale unternehmen",
-      "social media für regionale unternehmen",
-      "social media agentur lokale unternehmen",
+      "social media für kmu",
+      "social media mittelstand",
+      "social media agentur kmu",
       "social media agentur duisburg",
       "social media agentur krefeld",
       "social media agentur oberhausen",
@@ -26,9 +26,9 @@ export const socialMediaHub: LandingPage = {
     ],
   },
   hero: {
-    headline: "Social Media Agentur für lokale und regionale Unternehmen",
+    headline: "Social Media Agentur für kleine und mittlere Unternehmen",
     subheadline:
-      "Strategie, Content und Betreuung für Instagram, TikTok & Facebook – damit Ihr Betrieb regelmäßig sichtbar ist und aus Reichweite Anfragen werden. Mit festem Ansprechpartner aus Duisburg, für Ruhrgebiet & Niederrhein.",
+      "Strategie, Content und Betreuung für Instagram, TikTok & Facebook – damit Ihr Betrieb regelmäßig sichtbar ist und aus Reichweite Anfragen werden. Mit festem Ansprechpartner aus Duisburg, für KMU im Ruhrgebiet und am Niederrhein.",
   },
   conversion: {
     // Formular im Hero (Ads-Landingpage). Foto + Raffelberg-Zitat stehen weiter unten im Proof-Block.
@@ -88,22 +88,22 @@ export const socialMediaHub: LandingPage = {
     ],
   },
   audience: {
-    title: "Social Media für lokale und regionale Unternehmen",
+    title: "Social Media für den Klein- und Mittelstand",
     paragraphs: [
-      "Für lokale und regionale Unternehmen, die online professionell wirken wollen, aber im Alltag keine Zeit für regelmäßigen Content haben – branchenübergreifend, z. B. Handwerk, Gastronomie, Pflege, Dienstleistung oder Handel.",
+      "Für kleine und mittlere Unternehmen (KMU) in Duisburg und der Region, die online professionell wirken wollen, aber im Alltag keine Zeit für regelmäßigen Content haben – branchenübergreifend, z. B. Dienstleistung, Handel, Gastronomie oder Pflege.",
     ],
     points: [
       "Projekte, Leistungen und Team zeigen – Vertrauen aufbauen",
-      "Angebote, Aktionen und Veranstaltungen sichtbar machen",
+      "Angebote, Aktionen und Neuigkeiten sichtbar machen",
       "Regelmäßig präsent sein, ohne eigenes Social-Media-Team",
-      "Dienstleister und Handel vor Ort",
+      "Lokale KMU aus Dienstleistung und Handel",
       "Betriebe, die neue Mitarbeitende gewinnen wollen",
     ],
   },
   serviceArea: {
     title: "Aus Duisburg – für Ruhrgebiet & Niederrhein",
     paragraphs: [
-      "Kestler Connect sitzt in Duisburg. Als Social Media Agentur betreuen wir Betriebe vor Ort und digital – mit Shootings und Terminen in Duisburg, Moers, Krefeld, Oberhausen, Mülheim an der Ruhr, Dinslaken und Umgebung.",
+      "Kestler Connect sitzt in Duisburg. Als Social Media Agentur betreuen wir KMU vor Ort und digital – mit Shootings und Terminen in Duisburg, Moers, Krefeld, Oberhausen, Mülheim an der Ruhr, Dinslaken und Umgebung.",
     ],
     points: ["Duisburg", "Moers", "Krefeld", "Oberhausen", "Mülheim an der Ruhr", "Dinslaken"],
   },
@@ -189,7 +189,7 @@ export const socialMediaHub: LandingPage = {
     {
       question: "Für welche Branchen arbeiten Sie?",
       answer:
-        "Für lokale und regionale Unternehmen – branchenübergreifend, z. B. Handwerk, Gastronomie, Pflege, Dienstleistung oder Handel. Vor allem in Duisburg, im Ruhrgebiet und am Niederrhein.",
+        "Für kleine und mittlere Unternehmen (KMU) – branchenübergreifend, z. B. Dienstleistung, Handel, Gastronomie oder Pflege. Schwerpunkt sind lokale KMU in Duisburg, im Ruhrgebiet und am Niederrhein.",
     },
     {
       question: "Welche Kanäle betreuen Sie?",
