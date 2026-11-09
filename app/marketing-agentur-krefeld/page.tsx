@@ -16,7 +16,7 @@ export const metadata: Metadata = createMetadata({
   title: "Marketing-Agentur Krefeld | Kestler Connect",
   absoluteTitle: true,
   description:
-    "Online-Marketing-Agentur für Krefeld: Social Media, Google Ads, Meta Ads und SEO für lokale und regionale Unternehmen. Kostenloses Strategiegespräch.",
+    "Online-Marketing-Agentur für Krefeld: Social Media, Google Ads, Meta Ads und SEO für kleine und mittlere Unternehmen. Kostenloses Strategiegespräch.",
   path: PATH,
   keywords: [
     "marketing agentur krefeld",
@@ -85,7 +85,7 @@ const faqItems: FaqSchemaItem[] = [
   {
     question: "Gibt es eine Online-Marketing-Agentur für Unternehmen in Krefeld?",
     answer:
-      "Ja. Kestler Connect sitzt in Duisburg (Marienstr. 17) und betreut lokale und regionale Unternehmen in Krefeld und am Niederrhein – vor Ort und digital.",
+      "Ja. Kestler Connect sitzt in Duisburg (Marienstr. 17) und betreut kleine und mittlere Unternehmen in Krefeld und am Niederrhein – vor Ort und digital.",
   },
   {
     question: "Welche Leistungen kann ich für Krefeld anfragen?",
@@ -129,7 +129,7 @@ export default function MarketingAgenturKrefeldPage() {
               Online-Marketing-Agentur für Krefeld
             </h1>
             <p className="mt-4 text-base leading-relaxed text-gray-300 sm:mt-6 sm:text-lg lg:text-xl">
-              Kestler Connect unterstützt lokale und regionale Unternehmen in Krefeld und am Niederrhein – mit Social
+              Kestler Connect unterstützt kleine und mittlere Unternehmen in Krefeld und am Niederrhein – mit Social
               Media, Google Ads, Meta Ads und SEO.
             </p>
             <p className="mt-3 text-base leading-relaxed text-gray-400 sm:text-lg">
@@ -168,7 +168,7 @@ export default function MarketingAgenturKrefeldPage() {
           <dl className="mt-8 grid gap-4 sm:grid-cols-2">
             <div className="rounded-xl border border-accent/20 bg-accent-light/30 p-4">
               <dt className="text-sm font-semibold uppercase tracking-wide text-accent-dark">Fokus</dt>
-              <dd className="mt-1 text-anthracite">Lokale und regionale Unternehmen</dd>
+              <dd className="mt-1 text-anthracite">Kleine und mittlere Unternehmen (KMU)</dd>
             </div>
             <div className="rounded-xl border border-accent/20 bg-accent-light/30 p-4">
               <dt className="text-sm font-semibold uppercase tracking-wide text-accent-dark">Sitz</dt>
@@ -227,12 +227,12 @@ export default function MarketingAgenturKrefeldPage() {
           <div>
             <h2 className="text-2xl font-bold text-anthracite lg:text-3xl">Für wen ist das gedacht?</h2>
             <p className="mt-4 text-lg leading-relaxed text-gray-600">
-              Für lokale und regionale Unternehmen in Krefeld, die mehr Anfragen, Kunden oder Bewerbungen möchten – und
-              dafür Social Media, Ads oder SEO brauchen.
+              Für KMU in Krefeld, die mehr Anfragen, Kunden oder Bewerbungen möchten – und dafür Social Media, Ads oder
+              SEO brauchen.
             </p>
             <ul className="mt-6 space-y-3">
               {[
-                "Lokale und regionale Unternehmen vor Ort",
+                "Kleine und mittlere Unternehmen vor Ort",
                 "Dienstleister und Betriebe mit regionalem Kundenkreis",
                 "Unternehmen ohne eigene Marketingabteilung",
               ].map((item) => (
