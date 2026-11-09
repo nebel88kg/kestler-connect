@@ -556,39 +556,64 @@ export function ConversionLandingTemplate({ page }: { page: LandingPage }) {
         </section>
       )}
 
-      {/* Weiterführende Links – nur ganz unten, eingeklappt */}
-      <section className="py-8 sm:py-10">
+      {/* Weiterführende Links – sichtbar für Indexierung (Hubs, Orte, Blog) */}
+      <section className="section-padding bg-gray-50">
         <div className="container-custom max-w-4xl">
-          <MoreDetails summary="Weiterführende Informationen">
-            <ul className="flex flex-wrap gap-3">
-              <li>
+          <h2 className="text-xl font-bold text-anthracite sm:text-2xl">Weiterführende Informationen</h2>
+          <ul className="mt-6 flex flex-wrap gap-3">
+            <li>
+              <Link
+                href="/referenzen/golfclub-raffelberg"
+                className="inline-flex rounded-full border border-accent/30 bg-accent-light/40 px-4 py-2 text-sm font-semibold text-navy transition-colors hover:bg-accent"
+              >
+                Referenz Golfclub Raffelberg
+              </Link>
+            </li>
+            {otherLinks.map((link) => (
+              <li key={link.href}>
                 <Link
-                  href="/referenzen/golfclub-raffelberg"
+                  href={link.href}
                   className="inline-flex rounded-full border border-accent/30 bg-accent-light/40 px-4 py-2 text-sm font-semibold text-navy transition-colors hover:bg-accent"
                 >
-                  Referenz Golfclub Raffelberg
+                  {link.title}
                 </Link>
               </li>
-              {otherLinks.map((link) => (
-                <li key={link.href}>
-                  <Link
-                    href={link.href}
-                    className="inline-flex rounded-full border border-accent/30 bg-accent-light/40 px-4 py-2 text-sm font-semibold text-navy transition-colors hover:bg-accent"
-                  >
-                    {link.title}
-                  </Link>
-                </li>
-              ))}
-              <li>
+            ))}
+            {(page.relatedHubs ?? []).map((hub) => (
+              <li key={hub.href}>
                 <Link
-                  href="/einzugsgebiet"
+                  href={hub.href}
                   className="inline-flex rounded-full border border-accent/30 bg-accent-light/40 px-4 py-2 text-sm font-semibold text-navy transition-colors hover:bg-accent"
                 >
-                  Einzugsgebiet
+                  {hub.title}
                 </Link>
               </li>
-            </ul>
-          </MoreDetails>
+            ))}
+            <li>
+              <Link
+                href="/marketing-agentur-krefeld"
+                className="inline-flex rounded-full border border-accent/30 bg-accent-light/40 px-4 py-2 text-sm font-semibold text-navy transition-colors hover:bg-accent"
+              >
+                Marketing-Agentur Krefeld
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/marketing-agentur-moers"
+                className="inline-flex rounded-full border border-accent/30 bg-accent-light/40 px-4 py-2 text-sm font-semibold text-navy transition-colors hover:bg-accent"
+              >
+                Marketing-Agentur Moers
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/einzugsgebiet"
+                className="inline-flex rounded-full border border-accent/30 bg-accent-light/40 px-4 py-2 text-sm font-semibold text-navy transition-colors hover:bg-accent"
+              >
+                Einzugsgebiet
+              </Link>
+            </li>
+          </ul>
         </div>
       </section>
     </>
