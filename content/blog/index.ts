@@ -20,8 +20,24 @@ import { localSeoDuisburg } from "./local-seo-duisburg";
 import { websiteErstellenLassenDuisburg } from "./website-erstellen-lassen-duisburg";
 import { socialMediaRedaktionsplan } from "./social-media-redaktionsplan";
 import { linkedinFuerUnternehmen } from "./linkedin-fuer-unternehmen";
+import { socialMediaFuerEinzelhandel } from "./social-media-fuer-einzelhandel";
+import { landingpageFuerWerbeanzeigen } from "./landingpage-fuer-werbeanzeigen";
+import { facebookFuerUnternehmen } from "./facebook-fuer-unternehmen";
+import { googleBewertungenBekommen } from "./google-bewertungen-bekommen";
+import { instagramProfilOptimieren } from "./instagram-profil-optimieren";
+import { kiImSocialMediaMarketing } from "./ki-im-social-media-marketing";
+import { googleAdsOderMetaAds } from "./google-ads-oder-meta-ads";
+import { pflegekraefteGewinnenSocialMedia } from "./pflegekraefte-gewinnen-social-media";
 
 export const blogPosts: BlogPost[] = [
+  pflegekraefteGewinnenSocialMedia,
+  googleAdsOderMetaAds,
+  kiImSocialMediaMarketing,
+  instagramProfilOptimieren,
+  googleBewertungenBekommen,
+  facebookFuerUnternehmen,
+  landingpageFuerWerbeanzeigen,
+  socialMediaFuerEinzelhandel,
   linkedinFuerUnternehmen,
   socialMediaRedaktionsplan,
   websiteErstellenLassenDuisburg,
