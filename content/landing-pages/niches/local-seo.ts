@@ -5,13 +5,20 @@ export const localSeo: LandingPage = {
   path: "/leistungen/seo/local-seo",
   category: "seo",
   meta: {
-    title: "Local SEO – Lokal gefunden werden",
+    title: "Local SEO Duisburg – lokal gefunden werden",
+    absoluteTitle: true,
     description:
-      "Local SEO für lokale Unternehmen und Handwerk: Google Unternehmensprofil, Google Maps und lokale Suchanfragen gezielt verbessern.",
-    keywords: ["local seo", "lokale seo", "google maps optimierung"],
+      "Local SEO Duisburg: Google-Unternehmensprofil, Google Maps und lokale Suchen für lokale und regionale Unternehmen. Kostenloses Strategiegespräch.",
+    keywords: [
+      "local seo",
+      "lokales seo duisburg",
+      "lokale seo",
+      "google maps optimierung",
+      "local seo duisburg",
+    ],
   },
   hero: {
-    headline: "Local SEO – Werden Sie in Ihrer Region gefunden",
+    headline: "Local SEO Duisburg – werden Sie in Ihrer Region gefunden",
     subheadline:
       "Wenn jemand in Ihrer Stadt sucht, sollen Sie sichtbar sein – Local SEO für Google und Maps.",
   },
@@ -49,6 +56,23 @@ export const localSeo: LandingPage = {
     { step: 4, title: "Bewertungen", description: "System für mehr Google-Bewertungen aufbauen." },
     { step: 5, title: "Monitoring", description: "Rankings und Sichtbarkeit kontinuierlich überwachen." },
   ],
+  relatedHubs: [
+    {
+      title: "Blog: Local SEO Duisburg",
+      href: "/blog/local-seo-duisburg",
+      description: "Ratgeber zu lokaler Sichtbarkeit.",
+    },
+    {
+      title: "SEO Agentur Duisburg",
+      href: "/leistungen/seo",
+      description: "Überblick SEO und Local SEO.",
+    },
+    {
+      title: "Bei Google und KI gefunden werden",
+      href: "/blog/bei-google-und-ki-gefunden-werden",
+      description: "Sichtbarkeit in Suche und KI-Antworten.",
+    },
+  ],
   faq: [
     {
       question: "Wie lange dauert Local SEO?",
@@ -62,6 +86,6 @@ export const localSeo: LandingPage = {
         "Local SEO zielt auf organische Sichtbarkeit und braucht Zeit. Google Ads schaltet bezahlte Anzeigen und kann schneller Sichtbarkeit bringen – gegen laufende Werbekosten.",
     },
     { question: "Optimiert ihr auch Google Business Profile?", answer: "Ja, das Google Business Profil ist ein zentraler Bestandteil unserer Local-SEO-Strategie." },
-    { question: "Für welche Branchen eignet sich Local SEO?", answer: "Für Unternehmen mit lokalem Kundenkreis, zum Beispiel Handwerk, Gastronomie, Praxen, Kanzleien und Golfclubs." },
+    { question: "Für welche Branchen eignet sich Local SEO?", answer: "Für lokale und regionale Unternehmen mit Kundenkreis vor Ort – etwa Dienstleister, Praxen, Gastronomie und Betriebe mit regionalem Angebot." },
   ],
 };

@@ -14,17 +14,20 @@ import { Accordion } from "@/components/ui/Accordion";
 const PATH = "/marketing-agentur-duisburg";
 
 export const metadata: Metadata = createMetadata({
-  title: "Online-Marketing-Agentur Duisburg für lokale Unternehmen | Kestler Connect",
+  title: "Online-Marketing-Agentur Duisburg | Kestler Connect",
+  absoluteTitle: true,
   description:
-    "Online-Marketing-Agentur aus Duisburg: Instagram, Google Ads, Meta Ads, Websites und Local SEO für lokale Unternehmen in Duisburg, dem Ruhrgebiet und am Niederrhein.",
+    "Online-Marketing-Agentur Duisburg: Social Media, Google Ads, Meta Ads und SEO für lokale und regionale Unternehmen. Kostenloses Strategiegespräch.",
   path: PATH,
   keywords: [
+    "online marketing duisburg",
     "marketing agentur duisburg",
     "werbeagentur duisburg",
     "social media agentur duisburg",
     "google ads agentur duisburg",
     "instagram werbung duisburg",
     "marketing agentur moers",
+    "marketing agentur krefeld",
   ],
 });
 
@@ -58,29 +61,27 @@ const services = [
 ];
 
 const audiences = [
-  "Lokale Unternehmen und Geschäfte vor Ort",
-  "Handwerksbetriebe",
-  "Dienstleister",
-  "Vereine",
-  "Kleine und mittelständische Unternehmen (KMU)",
+  "Lokale und regionale Unternehmen vor Ort",
+  "Dienstleister und Betriebe mit regionalem Kundenkreis",
+  "Unternehmen ohne eigene Marketingabteilung",
 ];
 
-const cities = [
-  "Duisburg",
-  "Moers",
-  "Oberhausen",
-  "Mülheim an der Ruhr",
-  "Krefeld",
-  "Düsseldorf",
-  "Neukirchen-Vluyn",
-  "Kamp-Lintfort",
-  "Dinslaken",
-  "Wesel",
+const cities: { name: string; href?: string }[] = [
+  { name: "Duisburg" },
+  { name: "Moers", href: "/marketing-agentur-moers" },
+  { name: "Krefeld", href: "/marketing-agentur-krefeld" },
+  { name: "Oberhausen", href: "/einzugsgebiet/oberhausen" },
+  { name: "Mülheim an der Ruhr", href: "/einzugsgebiet/muelheim-an-der-ruhr" },
+  { name: "Düsseldorf", href: "/einzugsgebiet/duesseldorf" },
+  { name: "Essen", href: "/einzugsgebiet/essen" },
+  { name: "Neukirchen-Vluyn" },
+  { name: "Kamp-Lintfort" },
+  { name: "Dinslaken" },
 ];
 
 const steps = [
   {
-    title: "Kostenloses Erstgespräch",
+    title: "Kostenloses Strategiegespräch",
     description: "Ziele, Ausgangslage und passende Kanäle klären – unverbindlich.",
   },
   { title: "Analyse", description: "Ziele, Ist-Stand und Chancen – klar und ohne Fachchinesisch." },
@@ -168,7 +169,7 @@ export default function MarketingAgenturDuisburgPage() {
             </p>
             <div className="mt-8 flex flex-col gap-4 sm:flex-row">
               <Button href="/kontakt" size="lg">
-                Kostenloses Erstgespräch
+                Kostenloses Strategiegespräch
               </Button>
               <Button
                 href="/leistungen"
@@ -300,10 +301,16 @@ export default function MarketingAgenturDuisburgPage() {
             <ul className="mt-6 grid grid-cols-2 gap-3">
               {cities.map((city) => (
                 <li
-                  key={city}
+                  key={city.name}
                   className="rounded-xl border border-accent/20 bg-accent-light/30 px-4 py-3 text-anthracite"
                 >
-                  {city}
+                  {city.href ? (
+                    <Link href={city.href} className="font-semibold text-accent-dark underline-offset-2 hover:underline">
+                      {city.name}
+                    </Link>
+                  ) : (
+                    city.name
+                  )}
                 </li>
               ))}
             </ul>
@@ -378,6 +385,34 @@ export default function MarketingAgenturDuisburgPage() {
 
       <section className="section-padding bg-gray-50">
         <div className="container-custom">
+          <h2 className="text-2xl font-bold text-anthracite lg:text-4xl">Ratgeber aus dem Blog</h2>
+          <p className="mt-4 max-w-3xl text-lg leading-relaxed text-gray-600">
+            Vertiefende Artikel zu den Themen, nach denen in Duisburg häufig gesucht wird.
+          </p>
+          <ul className="mt-6 grid gap-3 sm:grid-cols-2">
+            {[
+              { title: "Google Ads Agentur Duisburg", href: "/blog/google-ads-agentur-duisburg" },
+              { title: "Social Media Marketing Duisburg", href: "/blog/social-media-marketing-duisburg" },
+              { title: "Local SEO Duisburg", href: "/blog/local-seo-duisburg" },
+              { title: "Performance Marketing Duisburg", href: "/blog/performance-marketing-duisburg" },
+              { title: "Meta Ads für lokale Unternehmen", href: "/blog/meta-ads-fuer-lokale-unternehmen" },
+              {
+                title: "Local SEO Leistung",
+                href: "/leistungen/seo/local-seo",
+              },
+            ].map((item) => (
+              <li key={item.href}>
+                <Link href={item.href} className="font-semibold text-accent-dark underline underline-offset-2">
+                  {item.title}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+
+      <section className="section-padding">
+        <div className="container-custom">
           <h2 className="mb-12 text-center text-2xl font-bold text-anthracite lg:text-4xl">
             Häufige Fragen – kurz beantwortet
           </h2>
@@ -408,7 +443,7 @@ export default function MarketingAgenturDuisburgPage() {
             </a>
           </div>
           <Button href="/kontakt" size="lg" className="mt-8">
-            Kostenloses Erstgespräch
+            Kostenloses Strategiegespräch
           </Button>
         </div>
       </section>

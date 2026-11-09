@@ -5,9 +5,10 @@ export const socialMediaHub: LandingPage = {
   path: "/leistungen/social-media",
   category: "social-media",
   meta: {
-    title: "Social Media Agentur für Handwerk, Vereine & KMU",
+    title: "Social Media Agentur Duisburg | Kestler Connect",
+    absoluteTitle: true,
     description:
-      "Social Media Agentur für Handwerk, Vereine, Gastronomie & KMU: Strategie, Content & Betreuung für Instagram, TikTok & Facebook. Kostenloses Strategiegespräch.",
+      "Social Media Agentur Duisburg: Strategie, Content und Betreuung für Instagram & TikTok – für lokale und regionale Unternehmen. Strategiegespräch.",
     keywords: [
       "social media agentur",
       "social media betreuung",
@@ -173,6 +174,28 @@ export const socialMediaHub: LandingPage = {
       title: "Golfclub Raffelberg",
       slug: "golfclub-raffelberg",
       excerpt: "Social Media professionalisiert – mit Reels, Strategie und mehr Reichweite.",
+    },
+  ],
+  relatedHubs: [
+    {
+      title: "Blog: Social Media Marketing Duisburg",
+      href: "/blog/social-media-marketing-duisburg",
+      description: "Ratgeber zu Social Media vor Ort.",
+    },
+    {
+      title: "Was macht eine Social Media Agentur?",
+      href: "/blog/was-macht-eine-social-media-agentur",
+      description: "Überblick über Aufgaben und Nutzen.",
+    },
+    {
+      title: "Marketing-Agentur Moers",
+      href: "/marketing-agentur-moers",
+      description: "Social Media und Ads für Moers.",
+    },
+    {
+      title: "Marketing-Agentur Krefeld",
+      href: "/marketing-agentur-krefeld",
+      description: "Social Media und Ads für Krefeld.",
     },
   ],
   faq: [
