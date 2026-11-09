@@ -27,12 +27,12 @@ export function HeroSection() {
               <span className="block">aus Duisburg</span>
             </h1>
             <p className="mt-3 max-w-xl text-sm leading-relaxed text-gray-200 sm:mt-4 sm:text-base">
-              Mehr Sichtbarkeit und mehr Anfragen für lokale und regionale Unternehmen in Duisburg, im
+              Mehr Sichtbarkeit und mehr Anfragen für kleine und mittlere Unternehmen in Duisburg, im
               Ruhrgebiet und am Niederrhein.
             </p>
             <div className="mt-8 flex w-full flex-col gap-3 sm:mt-10 sm:w-auto sm:flex-row sm:gap-4 lg:mt-12">
               <Button href="/kontakt" size="md" className="w-full sm:w-auto">
-                Kostenloses Erstgespräch
+                Kostenloses Strategiegespräch
               </Button>
               <Button
                 href="/referenzen"

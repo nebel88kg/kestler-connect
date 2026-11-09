@@ -7,7 +7,7 @@ export const localSeo: LandingPage = {
   meta: {
     title: "Local SEO – Lokal gefunden werden",
     description:
-      "Local SEO für lokale und regionale Unternehmen: Google Unternehmensprofil, Google Maps und lokale Suchanfragen gezielt verbessern.",
+      "Local SEO für kleine und mittlere Unternehmen: Google Unternehmensprofil, Google Maps und lokale Suchanfragen gezielt verbessern.",
     keywords: ["local seo", "lokale seo", "google maps optimierung"],
   },
   hero: {
@@ -62,6 +62,10 @@ export const localSeo: LandingPage = {
         "Local SEO zielt auf organische Sichtbarkeit und braucht Zeit. Google Ads schaltet bezahlte Anzeigen und kann schneller Sichtbarkeit bringen – gegen laufende Werbekosten.",
     },
     { question: "Optimiert ihr auch Google Business Profile?", answer: "Ja, das Google Business Profil ist ein zentraler Bestandteil unserer Local-SEO-Strategie." },
-    { question: "Für welche Branchen eignet sich Local SEO?", answer: "Für Unternehmen mit lokalem Kundenkreis, zum Beispiel Handwerk, Gastronomie, Praxen, Kanzleien und Golfclubs." },
+    {
+      question: "Für welche Branchen eignet sich Local SEO?",
+      answer:
+        "Für kleine und mittlere Unternehmen mit lokalem Kundenkreis – zum Beispiel Dienstleistung, Handel, Gastronomie oder Praxen.",
+    },
   ],
 };
