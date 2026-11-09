@@ -4,19 +4,19 @@ export const mehrAnfragenBekommen: BlogPost = {
   slug: "mehr-anfragen-bekommen",
   title: "Mehr Anfragen bekommen: So gewinnen regionale Unternehmen online neue Kunden",
   excerpt:
-    "Wie bekommen Sie mehr Anfragen und mehr Kunden online? Praxisnah für lokale Unternehmen in Duisburg, Moers und im Ruhrgebiet – von Website über Ads bis Leadgewinnung.",
+    "Wie bekommen Sie mehr Anfragen und mehr Kunden online? Praxisnah für KMU in Duisburg, Moers und im Ruhrgebiet – von Website über Ads bis Leadgewinnung.",
   metaTitle: "Mehr Anfragen bekommen | Online-Kunden für lokale Unternehmen",
   metaDescription:
-    "Mehr Anfragen und mehr Kunden online gewinnen: klare Schritte für regionale Unternehmen – Website, Google Ads, Meta Ads und Leadgewinnung aus Duisburg.",
+    "Mehr Anfragen und mehr Kunden online gewinnen: klare Schritte für kleine und mittlere Unternehmen – Website, Google Ads, Meta Ads und Leadgewinnung aus Duisburg.",
   date: "2026-09-24",
   category: "Leadgewinnung",
   readTime: "9 Min.",
   content: `
-Viele regionale Unternehmen in Duisburg, Moers und im Ruhrgebiet kennen das Gefühl: Die Leistung stimmt, die Kunden sind zufrieden – aber neue Anfragen kommen unregelmäßig. Mundpropaganda und Bestandskunden tragen das Geschäft, doch planbares Wachstum fehlt.
+Viele KMU in Duisburg, Moers und im Ruhrgebiet kennen das Gefühl: Die Leistung stimmt, die Kunden sind zufrieden – aber neue Anfragen kommen unregelmäßig. Mundpropaganda und Bestandskunden tragen das Geschäft, doch planbares Wachstum fehlt.
 
 Die Frage „Wie bekomme ich mehr Anfragen?“ lässt sich online beantworten. Nicht mit Tricks oder erfundenen Erfolgsversprechen, sondern mit einem klaren System aus Sichtbarkeit, Vertrauen und Kontaktwegen.
 
-In diesem Beitrag zeigen wir, wie lokale Unternehmen mehr Anfragen und mehr Kunden online gewinnen – und welche Kanäle sich sinnvoll ergänzen.
+In diesem Beitrag zeigen wir, wie kleine und mittlere Unternehmen mehr Anfragen und mehr Kunden online gewinnen – und welche Kanäle sich sinnvoll ergänzen.
 
 ## Warum Anfragen online oft ausbleiben
 
@@ -73,7 +73,7 @@ Eine leistungsbezogene Seite konvertiert oft besser als die gesamte Homepage. Nu
 
 Vergleichen Sie Kosten pro Anfrage, nicht nur Klicks. Was teuer und unqualifiziert ist, drosseln Sie. Was Anfragen bringt, skalieren Sie behutsam.
 
-## Was lokale Unternehmen oft falsch machen
+## Was KMU oft falsch machen
 
 - Zu breite Keywords („Marketing“, „Beratung“) ohne Ortsbezug
 - Ads ohne Tracking – niemand weiß, was wirkt
@@ -97,7 +97,7 @@ Mehr zum Zusammenspiel lesen Sie unter [Leadgewinnung](/leistungen/leadgewinnung
 
 ## Fazit
 
-Mehr Anfragen bekommen Sie online, wenn Auffindbarkeit, Vertrauen und Kontaktwege zusammenspielen. Für regionale Unternehmen in Duisburg, Moers und im Ruhrgebiet heißt das: lokale Kampagnen, eine anfragenstarke Website und messbare Leadprozesse – statt Hoffen auf Zufall.
+Mehr Anfragen bekommen Sie online, wenn Auffindbarkeit, Vertrauen und Kontaktwege zusammenspielen. Für KMU in Duisburg, Moers und im Ruhrgebiet heißt das: lokale Kampagnen, eine anfragenstarke Website und messbare Leadprozesse – statt Hoffen auf Zufall.
 
 Wenn Sie prüfen möchten, welcher Hebel bei Ihnen am meisten bringt, sprechen Sie uns an. Im [Kontakt](/kontakt) klären wir unverbindlich Ist-Zustand, Region und nächste Schritte.
 
@@ -117,6 +117,6 @@ Das hängt von Branche, Wettbewerb und Region ab. Sinnvoll ist, mit einem defini
 
 **Für wen lohnt sich das?**
 
-Für lokale und regionale Unternehmen mit klarem Angebot und ausreichendem Auftragswert – Dienstleister, Praxen, Handel vor Ort, Gastronomie und viele weitere Branchen im Ruhrgebiet.
+Für kleine und mittlere Unternehmen mit klarem Angebot und ausreichendem Auftragswert – Dienstleister, Praxen, Handel vor Ort, Gastronomie und viele weitere Branchen im Ruhrgebiet.
   `.trim(),
 };
