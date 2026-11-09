@@ -368,6 +368,8 @@ export const footerNav: NavSection[] = [
     items: [
       { title: "Über uns", href: "/ueber-uns" },
       { title: "Marketing-Agentur Duisburg", href: "/marketing-agentur-duisburg" },
+      { title: "Marketing-Agentur Krefeld", href: "/marketing-agentur-krefeld" },
+      { title: "Marketing-Agentur Moers", href: "/marketing-agentur-moers" },
       { title: "Referenzen", href: "/referenzen" },
       { title: "Blog", href: "/blog" },
       { title: "Kontakt", href: "/kontakt" },
