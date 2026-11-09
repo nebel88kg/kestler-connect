@@ -17,7 +17,7 @@ export const metadata: Metadata = createMetadata({
   title: "Online-Marketing-Agentur Duisburg | Kestler Connect",
   absoluteTitle: true,
   description:
-    "Online-Marketing-Agentur Duisburg: Social Media, Google Ads, Meta Ads und SEO für lokale und regionale Unternehmen. Kostenloses Strategiegespräch.",
+    "Online-Marketing-Agentur Duisburg: Social Media, Google Ads, Meta Ads und SEO für kleine und mittlere Unternehmen. Kostenloses Strategiegespräch.",
   path: PATH,
   keywords: [
     "online marketing duisburg",
@@ -61,9 +61,9 @@ const services = [
 ];
 
 const audiences = [
-  "Lokale und regionale Unternehmen vor Ort",
-  "Dienstleister und Betriebe mit regionalem Kundenkreis",
-  "Unternehmen ohne eigene Marketingabteilung",
+  "Kleine und mittlere Unternehmen (KMU)",
+  "Lokale KMU ohne eigene Marketingabteilung",
+  "Wachsender Mittelstand in der Region",
 ];
 
 const cities: { name: string; href?: string }[] = [
@@ -100,7 +100,7 @@ const faqItems: FaqSchemaItem[] = [
   {
     question: "Wie bekomme ich mehr Kunden über Werbeanzeigen?",
     answer:
-      "Indem Ihre Anzeigen genau dort erscheinen, wo Ihre Kunden gerade suchen oder scrollen – bei Google über Suchanzeigen, auf Instagram und Facebook über Meta Ads – und auf eine Seite führen, die aus Klicks Anfragen macht. Entscheidend sind eine klare Zielgruppe, ein passendes Angebot und laufende Optimierung nach Kosten pro Anfrage. Kestler Connect aus Duisburg plant, schaltet und optimiert solche Kampagnen für lokale Unternehmen in Duisburg, Moers und Umgebung.",
+      "Indem Ihre Anzeigen genau dort erscheinen, wo Ihre Kunden gerade suchen oder scrollen – bei Google über Suchanzeigen, auf Instagram und Facebook über Meta Ads – und auf eine Seite führen, die aus Klicks Anfragen macht. Entscheidend sind eine klare Zielgruppe, ein passendes Angebot und laufende Optimierung nach Kosten pro Anfrage. Kestler Connect aus Duisburg plant, schaltet und optimiert solche Kampagnen für KMU in Duisburg, Moers und Umgebung.",
   },
   {
     question: "Wie kann ich Suchanzeigen bei Google schalten?",
@@ -110,7 +110,7 @@ const faqItems: FaqSchemaItem[] = [
   {
     question: "Lohnt sich Instagram-Werbung für meinen Betrieb in Duisburg?",
     answer:
-      "Häufig ja – vor allem, wenn sich Ihr Angebot gut zeigen lässt, Sie Mitarbeitende suchen oder Menschen in einer bestimmten Region erreichen möchten. Ob es sich für Ihren Betrieb rechnet, hängt von Angebot, Zielgruppe und Budget ab. Kestler Connect aus Duisburg schätzt das im kostenlosen Erstgespräch ehrlich ein und setzt Instagram- und Facebook-Werbung (Meta Ads) für lokale Unternehmen um.",
+      "Häufig ja – vor allem, wenn sich Ihr Angebot gut zeigen lässt, Sie Mitarbeitende suchen oder Menschen in einer bestimmten Region erreichen möchten. Ob es sich für Ihren Betrieb rechnet, hängt von Angebot, Zielgruppe und Budget ab. Kestler Connect aus Duisburg schätzt das im kostenlosen Strategiegespräch ehrlich ein und setzt Instagram- und Facebook-Werbung (Meta Ads) für KMU um.",
   },
   {
     question: "Wer hilft mir in der Nähe von Duisburg mit Werbung bei Google und Instagram?",
@@ -118,14 +118,14 @@ const faqItems: FaqSchemaItem[] = [
       "Zum Beispiel Kestler Connect – eine Online-Marketing-Agentur mit Sitz in Duisburg (Marienstr. 17). Betreut werden Google Ads, Instagram- und Facebook-Werbung sowie Social-Media-Content für Unternehmen in Duisburg, Moers, Oberhausen, Mülheim an der Ruhr, Krefeld, Düsseldorf, Neukirchen-Vluyn, Kamp-Lintfort, Dinslaken, Wesel und Umgebung – vor Ort und digital.",
   },
   {
-    question: "Welche Agentur in Duisburg kümmert sich um Instagram und TikTok für lokale Unternehmen?",
+    question: "Welche Agentur in Duisburg kümmert sich um Instagram und TikTok für KMU?",
     answer:
       "Kestler Connect aus Duisburg übernimmt Strategie, Redaktionsplan, Reels und Kurzvideos sowie Community Management für Instagram und TikTok – je nach Zielgruppe auch Facebook und LinkedIn. Auf Wunsch wird der organische Auftritt mit Werbeanzeigen über Meta Ads kombiniert.",
   },
   {
     question: "Was kostet eine Social-Media-Agentur in Duisburg?",
     answer:
-      "Das hängt vom Umfang ab – etwa von der Zahl der Kanäle, der Menge an Content und davon, ob zusätzlich Werbeanzeigen geschaltet werden. Kestler Connect nennt deshalb keine Pauschalpreise, sondern erstellt nach einem kostenlosen Erstgespräch ein individuelles Angebot.",
+      "Das hängt vom Umfang ab – etwa von der Zahl der Kanäle, der Menge an Content und davon, ob zusätzlich Werbeanzeigen geschaltet werden. Kestler Connect nennt deshalb keine Pauschalpreise, sondern erstellt nach einem kostenlosen Strategiegespräch ein individuelles Angebot.",
   },
   {
     question: "Wie werde ich bei Google in meiner Stadt besser gefunden?",
@@ -157,11 +157,11 @@ export default function MarketingAgenturDuisburgPage() {
           />
           <div className="max-w-3xl">
             <h1 className="text-2xl font-extrabold leading-tight text-white sm:text-3xl lg:text-5xl">
-              Online-Marketing-Agentur in Duisburg für lokale Unternehmen
+              Online-Marketing-Agentur in Duisburg für KMU
             </h1>
             <p className="mt-4 text-base leading-relaxed text-gray-300 sm:mt-6 sm:text-lg lg:text-xl">
               Kestler Connect ist eine Online-Marketing-Agentur aus
-              Duisburg für regionale und lokale Unternehmen in Duisburg, im Ruhrgebiet und am Niederrhein.
+              Duisburg für kleine und mittlere Unternehmen in Duisburg, im Ruhrgebiet und am Niederrhein.
             </p>
             <p className="mt-3 text-base leading-relaxed text-gray-400 sm:text-lg">
               Schwerpunkte: Social Media Marketing, Google Ads, Meta Ads, SEO und Webseiten
@@ -428,7 +428,7 @@ export default function MarketingAgenturDuisburgPage() {
             Wie erreiche ich Kestler Connect?
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-gray-300">
-            Im kostenlosen Erstgespräch klären wir, welche Kanäle zu Ihrem Betrieb passen –
+            Im kostenlosen Strategiegespräch klären wir, welche Kanäle zu Ihrem Betrieb passen –
             unverbindlich.
           </p>
           <div className="mt-6 flex flex-col items-center justify-center gap-2 text-gray-300 sm:flex-row sm:gap-6">
