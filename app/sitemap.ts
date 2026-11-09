@@ -12,6 +12,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/",
     "/leistungen",
     "/marketing-agentur-duisburg",
+    "/marketing-agentur-krefeld",
+    "/marketing-agentur-moers",
     "/einzugsgebiet",
     "/referenzen",
     "/ueber-uns",

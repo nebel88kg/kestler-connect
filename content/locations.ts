@@ -5,18 +5,11 @@ export interface Location {
   context: string;
 }
 
-/** Orte mit eigener, schlanker Seite unter /einzugsgebiet/[slug]. Duisburg hat /marketing-agentur-duisburg. */
+/**
+ * Orte mit schlanker Seite unter /einzugsgebiet/[slug].
+ * Duisburg, Krefeld und Moers haben eigene Marketing-Agentur-Seiten.
+ */
 export const locations: Location[] = [
-  {
-    slug: "moers",
-    name: "Moers",
-    context: "Moers liegt im Kreis Wesel am linken Niederrhein und grenzt an Duisburg.",
-  },
-  {
-    slug: "krefeld",
-    name: "Krefeld",
-    context: "Krefeld liegt am Niederrhein in direkter Nachbarschaft zu Duisburg und Düsseldorf.",
-  },
   {
     slug: "oberhausen",
     name: "Oberhausen",
