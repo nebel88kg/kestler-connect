@@ -172,7 +172,7 @@ const ctaBySlug: Record<
     title: "Jetzt mehr Kunden über Google gewinnen",
     text: "Wir planen, richten ein und optimieren Ihre Google Ads Kampagnen – transparent, datenbasiert und auf Ihre Ziele abgestimmt.",
     href: "/kontakt",
-    button: "Kostenloses Erstgespräch",
+    button: "Kostenloses Strategiegespräch",
   },
 };
 
@@ -189,7 +189,7 @@ export default async function BlogPostPage({
     title: "Fragen zu diesem Thema?",
     text: "Wir beraten Sie gerne persönlich.",
     href: "/kontakt",
-    button: "Kostenloses Erstgespräch",
+    button: "Kostenloses Strategiegespräch",
   };
 
   const blogPostingSchema = {

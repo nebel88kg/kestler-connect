@@ -45,7 +45,7 @@ const faq = [
   {
     question: "Müssen wir uns vor Ort treffen?",
     answer:
-      "Nicht zwingend. Vieles läuft digital; Termine vor Ort sind je nach Bedarf möglich. Das klären wir im Erstgespräch.",
+      "Nicht zwingend. Vieles läuft digital; Termine vor Ort sind je nach Bedarf möglich. Das klären wir im Strategiegespräch.",
   },
   {
     question: "Was ist, wenn mein Ort nicht aufgeführt ist?",

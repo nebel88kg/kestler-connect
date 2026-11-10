@@ -27,7 +27,7 @@ export async function generateMetadata({
 
   return createMetadata({
     title: `Marketing-Agentur ${location.name} | Kestler Connect`,
-    description: `Online-Marketing für Unternehmen in ${location.name}: Social Media, Google Ads, Meta Ads, SEO & Webseiten aus Duisburg. Kostenloses Erstgespräch.`,
+    description: `Online-Marketing für Unternehmen in ${location.name}: Social Media, Google Ads, Meta Ads, SEO & Webseiten aus Duisburg. Kostenloses Strategiegespräch.`,
     path: `/einzugsgebiet/${location.slug}`,
   });
 }
@@ -66,7 +66,7 @@ export default async function LocationPage({ params }: { params: Promise<{ ort: 
             </p>
             <div className="mt-8 flex flex-col gap-4 sm:flex-row">
               <Button href="#kontakt" size="lg">
-                Kostenloses Erstgespräch
+                Kostenloses Strategiegespräch
               </Button>
             </div>
             <p className="mt-4 text-sm text-gray-200">
@@ -93,7 +93,7 @@ export default async function LocationPage({ params }: { params: Promise<{ ort: 
           </div>
           <div className="mt-10">
             <Button href="#kontakt" size="lg">
-              Kostenloses Erstgespräch
+              Kostenloses Strategiegespräch
             </Button>
           </div>
         </div>
@@ -159,7 +159,7 @@ export default async function LocationPage({ params }: { params: Promise<{ ort: 
         <div className="container-custom">
           <div className="grid items-start gap-12 lg:grid-cols-2">
             <div>
-              <h2 className="text-2xl font-extrabold text-white lg:text-4xl">Kostenloses Erstgespräch anfragen</h2>
+              <h2 className="text-2xl font-extrabold text-white lg:text-4xl">Kostenloses Strategiegespräch anfragen</h2>
               <p className="mt-4 text-gray-200">Wir melden uns zeitnah. Kostenlos und unverbindlich.</p>
               <div className="mt-6">
                 <ReviewBadge tone="dark" />

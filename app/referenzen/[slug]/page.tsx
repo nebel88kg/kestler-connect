@@ -154,7 +154,7 @@ export default async function ReferenzDetailPage({
                   Lassen Sie uns in einem kostenlosen Gespräch herausfinden, was für Sie möglich ist.
                 </p>
                 <Button href="/kontakt" className="mt-6 w-full">
-                  Kostenloses Erstgespräch
+                  Kostenloses Strategiegespräch
                 </Button>
               </div>
             </ScrollReveal>
