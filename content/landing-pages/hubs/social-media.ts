@@ -5,7 +5,7 @@ export const socialMediaHub: LandingPage = {
   path: "/leistungen/social-media",
   category: "social-media",
   meta: {
-    title: "Social Media Agentur für KMU",
+    title: "Social Media Agentur Duisburg",
     description:
       "Social Media Agentur für kleine und mittlere Unternehmen (KMU): Strategie, Content und Betreuung für Instagram, TikTok und Facebook. Kostenloses Strategiegespräch.",
     keywords: [
@@ -26,7 +26,7 @@ export const socialMediaHub: LandingPage = {
     ],
   },
   hero: {
-    headline: "Social Media Agentur für kleine und mittlere Unternehmen",
+    headline: "Social Media Agentur Duisburg für kleine und mittlere Unternehmen",
     subheadline:
       "Strategie, Content und Betreuung für Instagram, TikTok & Facebook – damit Ihr Betrieb regelmäßig sichtbar ist und aus Reichweite Anfragen werden. Mit festem Ansprechpartner aus Duisburg, für KMU im Ruhrgebiet und am Niederrhein.",
   },
