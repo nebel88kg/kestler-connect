@@ -28,22 +28,21 @@ const nextConfig: NextConfig = {
         destination: "/marketing-agentur-moers",
         permanent: true,
       },
-      // Leistung × Ort: Keyword-URLs auf die jeweiligen Leistungsseiten.
-      // Duisburg zeigt auf die Hubs (Title/H1 bereits mit Duisburg).
-      // Moers und Krefeld zeigen auf die eigenen Ortsseiten.
+      // Leistung × Ort: Keyword-URLs auf die jeweiligen Ortsseiten.
+      // Duisburg zeigt – wie die anderen Orte – auf /leistungen/{kanal}/{ort}.
       {
         source: "/social-media-agentur-duisburg",
-        destination: "/leistungen/social-media",
+        destination: "/leistungen/social-media/duisburg",
         statusCode: 301,
       },
       {
         source: "/meta-ads-agentur-duisburg",
-        destination: "/leistungen/meta-ads",
+        destination: "/leistungen/meta-ads/duisburg",
         statusCode: 301,
       },
       {
         source: "/google-ads-agentur-duisburg",
-        destination: "/leistungen/google-ads",
+        destination: "/leistungen/google-ads/duisburg",
         statusCode: 301,
       },
       {

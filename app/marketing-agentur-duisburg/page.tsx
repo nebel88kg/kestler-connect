@@ -34,18 +34,18 @@ export const metadata: Metadata = createMetadata({
 const services = [
   {
     title: "Social Media Marketing",
-    href: "/leistungen/social-media",
+    href: "/leistungen/social-media/duisburg",
     description:
       "Instagram, TikTok, Facebook und LinkedIn: Content, Reels, Videos und Community Management.",
   },
   {
     title: "Google Ads",
-    href: "/leistungen/google-ads",
+    href: "/leistungen/google-ads/duisburg",
     description: "Suchanzeigen, die erscheinen, wenn Kunden in Ihrer Region nach Ihrer Leistung suchen.",
   },
   {
     title: "Meta Ads (Instagram & Facebook)",
-    href: "/leistungen/meta-ads",
+    href: "/leistungen/meta-ads/duisburg",
     description: "Werbung auf Instagram und Facebook – gezielt nach Region und Interessen.",
   },
   {

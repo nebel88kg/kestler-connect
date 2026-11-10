@@ -41,6 +41,7 @@ export function getLocation(slug: string): Location | undefined {
 
 /** Orte mit eigenen Leistungs-Ortsseiten unter /leistungen/{kanal}/{slug}. */
 export const cityServiceLocations = [
+  { slug: "duisburg", name: "Duisburg" },
   { slug: "moers", name: "Moers" },
   { slug: "krefeld", name: "Krefeld" },
   { slug: "oberhausen", name: "Oberhausen" },
