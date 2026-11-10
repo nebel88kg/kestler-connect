@@ -150,6 +150,21 @@ export const metaAdsHub: LandingPage = {
       description: "Instagram- und Facebook-Anzeigen für Unternehmen in Krefeld.",
     },
     {
+      title: "Meta Ads Agentur Oberhausen",
+      href: "/leistungen/meta-ads/oberhausen",
+      description: "Instagram- und Facebook-Anzeigen für Unternehmen in Oberhausen.",
+    },
+    {
+      title: "Meta Ads Agentur Mülheim an der Ruhr",
+      href: "/leistungen/meta-ads/muelheim-an-der-ruhr",
+      description: "Instagram- und Facebook-Anzeigen für Unternehmen in Mülheim.",
+    },
+    {
+      title: "Meta Ads Agentur Dinslaken",
+      href: "/leistungen/meta-ads/dinslaken",
+      description: "Instagram- und Facebook-Anzeigen für Unternehmen in Dinslaken.",
+    },
+    {
       title: "Marketing-Agentur Moers",
       href: "/marketing-agentur-moers",
       description: "Online-Marketing für Unternehmen in Moers.",

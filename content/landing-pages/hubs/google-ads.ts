@@ -158,6 +158,21 @@ export const googleAdsHub: LandingPage = {
       description: "Suchanzeigen für Unternehmen in Krefeld.",
     },
     {
+      title: "Google Ads Agentur Oberhausen",
+      href: "/leistungen/google-ads/oberhausen",
+      description: "Suchanzeigen für Unternehmen in Oberhausen.",
+    },
+    {
+      title: "Google Ads Agentur Mülheim an der Ruhr",
+      href: "/leistungen/google-ads/muelheim-an-der-ruhr",
+      description: "Suchanzeigen für Unternehmen in Mülheim.",
+    },
+    {
+      title: "Google Ads Agentur Dinslaken",
+      href: "/leistungen/google-ads/dinslaken",
+      description: "Suchanzeigen für Unternehmen in Dinslaken.",
+    },
+    {
       title: "Marketing-Agentur Krefeld",
       href: "/marketing-agentur-krefeld",
       description: "Online-Marketing für Unternehmen in Krefeld.",

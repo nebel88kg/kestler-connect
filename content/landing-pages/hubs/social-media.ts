@@ -197,6 +197,21 @@ export const socialMediaHub: LandingPage = {
       description: "Betreuung und Content für Unternehmen in Krefeld.",
     },
     {
+      title: "Social Media Agentur Oberhausen",
+      href: "/leistungen/social-media/oberhausen",
+      description: "Betreuung und Content für Unternehmen in Oberhausen.",
+    },
+    {
+      title: "Social Media Agentur Mülheim an der Ruhr",
+      href: "/leistungen/social-media/muelheim-an-der-ruhr",
+      description: "Betreuung und Content für Unternehmen in Mülheim.",
+    },
+    {
+      title: "Social Media Agentur Dinslaken",
+      href: "/leistungen/social-media/dinslaken",
+      description: "Betreuung und Content für Unternehmen in Dinslaken.",
+    },
+    {
       title: "Marketing-Agentur Moers",
       href: "/marketing-agentur-moers",
       description: "Social Media und Ads für Moers.",

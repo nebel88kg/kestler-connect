@@ -107,8 +107,29 @@ export default function EinzugsgebietPage() {
 
           <MoreDetails summary="Weitere Orte im Einzugsgebiet" className="mt-8 max-w-3xl">
             <p>
-              Auch für Unternehmen in {otherPlaces.join(", ")} und Umgebung sind wir ansprechbar. Schreiben Sie uns
-              einfach – wir prüfen gern, wie wir helfen können.
+              Auch für Unternehmen in {otherPlaces.join(", ")} und Umgebung sind wir ansprechbar. Für Dinslaken
+              finden Sie eigene Seiten zur{" "}
+              <Link
+                href="/leistungen/social-media/dinslaken"
+                className="font-semibold text-accent-dark underline underline-offset-2"
+              >
+                Social Media Agentur Dinslaken
+              </Link>
+              , zur{" "}
+              <Link
+                href="/leistungen/google-ads/dinslaken"
+                className="font-semibold text-accent-dark underline underline-offset-2"
+              >
+                Google Ads Agentur Dinslaken
+              </Link>{" "}
+              und zur{" "}
+              <Link
+                href="/leistungen/meta-ads/dinslaken"
+                className="font-semibold text-accent-dark underline underline-offset-2"
+              >
+                Meta Ads Agentur Dinslaken
+              </Link>
+              . Schreiben Sie uns einfach – wir prüfen gern, wie wir helfen können.
             </p>
           </MoreDetails>
         </div>
