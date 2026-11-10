@@ -5,9 +5,9 @@ export const socialMediaHub: LandingPage = {
   path: "/leistungen/social-media",
   category: "social-media",
   meta: {
-    title: "Social Media Agentur Duisburg",
+    title: "Social Media Agentur Duisburg – 5,0 ★ bei Google",
     description:
-      "Social Media Agentur für kleine und mittlere Unternehmen (KMU): Strategie, Content und Betreuung für Instagram, TikTok und Facebook. Kostenloses Strategiegespräch.",
+      "Social Media Agentur Duisburg für KMU: Strategie, Content und Betreuung für Instagram, TikTok und Facebook. 5,0 von 5 Sternen bei Google. Kostenloses Strategiegespräch.",
     keywords: [
       "social media agentur",
       "social media betreuung",
