@@ -18,7 +18,7 @@ export function SectionCTA({
           <h2 className="text-xl font-bold text-white sm:text-2xl">{title}</h2>
           <p className="text-gray-300">{text}</p>
           <Button href="/kontakt" size="lg">
-            Kostenloses Erstgespräch
+            Kostenloses Strategiegespräch
           </Button>
           <a
             href={`tel:${siteConfig.phone.replace(/\s/g, "")}`}

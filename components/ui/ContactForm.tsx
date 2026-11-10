@@ -190,7 +190,7 @@ export function ContactForm({ className, source = "website", compact = false }: 
       )}
 
       <Button type="submit" size="lg" className="w-full" disabled={status === "loading"}>
-        {status === "loading" ? "Wird gesendet..." : "Kostenloses Erstgespräch anfragen"}
+        {status === "loading" ? "Wird gesendet..." : "Kostenloses Strategiegespräch anfragen"}
       </Button>
       <p className="text-xs leading-relaxed text-gray-600">
         Kostenlos und unverbindlich. Wir melden uns zeitnah. Ihre Angaben verwenden wir nur zur Bearbeitung Ihrer

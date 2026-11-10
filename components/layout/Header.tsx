@@ -128,7 +128,7 @@ export function Header() {
 
             <div className="flex items-center gap-3">
               <Button href="/kontakt" size="sm" className="hidden sm:inline-flex">
-                Kostenloses Erstgespräch
+                Kostenloses Strategiegespräch
               </Button>
               <button
                 type="button"

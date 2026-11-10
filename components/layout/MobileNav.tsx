@@ -155,7 +155,7 @@ export function MobileNav({ isOpen, onClose }: MobileNavProps) {
 
         <div className="shrink-0 space-y-2 border-t border-gray-100 p-4">
           <Button href="/kontakt" className="w-full" size="md" onClick={onClose}>
-            Kostenloses Erstgespräch
+            Kostenloses Strategiegespräch
           </Button>
           <div className="grid grid-cols-2 gap-2">
             <a
