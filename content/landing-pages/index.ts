@@ -21,6 +21,8 @@ import { socialMediaEssen } from "./cities/social-media-essen";
 import { socialMediaDuesseldorf } from "./cities/social-media-duesseldorf";
 import { googleAdsEssen } from "./cities/google-ads-essen";
 import { googleAdsDuesseldorf } from "./cities/google-ads-duesseldorf";
+import { metaAdsEssen } from "./cities/meta-ads-essen";
+import { metaAdsDuesseldorf } from "./cities/meta-ads-duesseldorf";
 
 export { leadgewinnungHub as leadgewinnung } from "./hubs";
 export { mitarbeitergewinnungHub as mitarbeitergewinnung } from "./hubs";
@@ -58,4 +60,6 @@ export const fullLandingPages: LandingPage[] = [
   socialMediaDuesseldorf,
   googleAdsEssen,
   googleAdsDuesseldorf,
+  metaAdsEssen,
+  metaAdsDuesseldorf,
 ];
