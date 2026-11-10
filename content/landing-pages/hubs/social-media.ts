@@ -5,9 +5,9 @@ export const socialMediaHub: LandingPage = {
   path: "/leistungen/social-media",
   category: "social-media",
   meta: {
-    title: "Social Media Agentur Duisburg – 5,0 ★ bei Google",
+    title: "Social Media Agentur für KMU – 5,0 ★ bei Google",
     description:
-      "Social Media Agentur Duisburg für KMU: Strategie, Content und Betreuung für Instagram, TikTok und Facebook. 5,0 von 5 Sternen bei Google. Kostenloses Strategiegespräch.",
+      "Social Media Agentur für KMU: Strategie, Content und Betreuung für Instagram, TikTok und Facebook. Sitz in Duisburg, im Ruhrgebiet und am Niederrhein. 5,0 von 5 Sternen bei Google. Kostenloses Strategiegespräch.",
     keywords: [
       "social media agentur",
       "social media betreuung",
@@ -26,7 +26,7 @@ export const socialMediaHub: LandingPage = {
     ],
   },
   hero: {
-    headline: "Social Media Agentur Duisburg für kleine und mittlere Unternehmen",
+    headline: "Social Media Agentur für kleine und mittlere Unternehmen",
     subheadline:
       "Strategie, Content und Betreuung für Instagram, TikTok & Facebook – damit Ihr Betrieb regelmäßig sichtbar ist und aus Reichweite Anfragen werden. Mit festem Ansprechpartner aus Duisburg, für KMU im Ruhrgebiet und am Niederrhein.",
   },
@@ -185,6 +185,11 @@ export const socialMediaHub: LandingPage = {
       title: "Was macht eine Social Media Agentur?",
       href: "/blog/was-macht-eine-social-media-agentur",
       description: "Überblick über Aufgaben und Nutzen.",
+    },
+    {
+      title: "Social Media Agentur Duisburg",
+      href: "/leistungen/social-media/duisburg",
+      description: "Betreuung und Content für Unternehmen in Duisburg, mit Sitz vor Ort.",
     },
     {
       title: "Social Media Agentur Moers",

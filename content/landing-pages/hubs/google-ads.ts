@@ -5,10 +5,10 @@ export const googleAdsHub: LandingPage = {
   path: "/leistungen/google-ads",
   category: "google-ads",
   meta: {
-    title: "Google Ads Agentur Duisburg – mehr Anfragen",
+    title: "Google Ads Agentur – mehr Anfragen",
     absoluteTitle: true,
     description:
-      "Google Ads Agentur Duisburg: Suchanzeigen mit Tracking und Optimierung für lokale Unternehmen. Kostenloses Strategiegespräch.",
+      "Google Ads Agentur: Suchanzeigen mit Tracking und Optimierung für lokale Unternehmen im Ruhrgebiet und am Niederrhein. Kostenloses Strategiegespräch.",
     keywords: [
       "google ads duisburg",
       "google ads moers",
@@ -26,7 +26,7 @@ export const googleAdsHub: LandingPage = {
     ],
   },
   hero: {
-    headline: "Google Ads Agentur Duisburg: Mehr Anfragen statt teurer Klicks",
+    headline: "Google Ads Agentur: Mehr Anfragen statt teurer Klicks",
     subheadline: "Wir richten Ihre Kampagnen ein, tracken jede Anfrage und optimieren laufend.",
   },
   conversion: {
@@ -146,6 +146,11 @@ export const googleAdsHub: LandingPage = {
       title: "Blog: Google Ads Agentur Duisburg",
       href: "/blog/google-ads-agentur-duisburg",
       description: "Ratgeber zu Google Ads vor Ort.",
+    },
+    {
+      title: "Google Ads Agentur Duisburg",
+      href: "/leistungen/google-ads/duisburg",
+      description: "Suchanzeigen für Unternehmen in Duisburg, betreut vor Ort.",
     },
     {
       title: "Google Ads Agentur Moers",

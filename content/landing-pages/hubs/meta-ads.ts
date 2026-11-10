@@ -7,10 +7,10 @@ export const metaAdsHub: LandingPage = {
   meta: {
     // 60 Zeichen, ohne angehängten Markennamen (absoluteTitle) – Suchanfragen laut Search Console:
     // "instagram ads agentur", "facebook werbung agentur", "meta agentur".
-    title: "Instagram Ads Agentur Duisburg | Facebook Werbung Ruhrgebiet",
+    title: "Instagram Ads Agentur | Facebook Werbung im Ruhrgebiet",
     absoluteTitle: true,
     description:
-      "Instagram Ads Agentur in Duisburg: Facebook Werbung & Meta Ads für Unternehmen im Ruhrgebiet – regional und messbar. Kostenloses Strategiegespräch sichern.",
+      "Instagram Ads Agentur: Facebook Werbung und Meta Ads für Unternehmen im Ruhrgebiet – regional und messbar, betreut aus Duisburg. Kostenloses Strategiegespräch.",
     keywords: [
       "instagram ads agentur",
       "instagram ads agentur duisburg",
@@ -27,9 +27,9 @@ export const metaAdsHub: LandingPage = {
     ],
   },
   hero: {
-    headline: "Meta Ads Agentur Duisburg: Instagram Ads & Facebook Werbung, die Anfragen bringt",
+    headline: "Meta Ads Agentur: Instagram Ads & Facebook Werbung, die Anfragen bringt",
     subheadline:
-      "Wir bauen Ihre Instagram- und Facebook-Kampagnen, messen jede Anfrage und optimieren laufend – für Unternehmen in Duisburg und im Ruhrgebiet.",
+      "Wir bauen Ihre Instagram- und Facebook-Kampagnen, messen jede Anfrage und optimieren laufend – für Unternehmen im Ruhrgebiet und am Niederrhein, betreut aus Duisburg.",
   },
   conversion: {
     openSections: true,
@@ -139,6 +139,11 @@ export const metaAdsHub: LandingPage = {
     },
   ],
   relatedHubs: [
+    {
+      title: "Meta Ads Agentur Duisburg",
+      href: "/leistungen/meta-ads/duisburg",
+      description: "Instagram- und Facebook-Anzeigen für Unternehmen in Duisburg, betreut vor Ort.",
+    },
     {
       title: "Meta Ads Agentur Moers",
       href: "/leistungen/meta-ads/moers",
