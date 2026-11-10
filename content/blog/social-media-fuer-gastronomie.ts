@@ -115,7 +115,7 @@ Immer mehr Menschen fragen auch KI-Tools wie ChatGPT nach Empfehlungen in ihrer 
 
 Social Media hilft Restaurants, Cafés und Imbissen, neue Gäste zu erreichen, Stammgäste zu halten und als Arbeitgeber sichtbar zu werden. Entscheidend sind echte Bilder, ein einfacher Plan und ein gepflegtes Google-Profil. Sie müssen nicht überall sein, aber dort, wo Sie sind, sollten Sie regelmäßig und ansprechbar sein.
 
-Wenn Sie wissen möchten, wie Social Media für Ihren Betrieb in Duisburg, im Ruhrgebiet oder am Niederrhein aussehen kann, sprechen Sie uns an. Im kostenlosen und unverbindlichen Erstgespräch schauen wir gemeinsam auf Ihre Ausgangslage. Hier geht es direkt zum [Kontakt](/kontakt).
+Wenn Sie wissen möchten, wie Social Media für Ihren Betrieb in Duisburg, im Ruhrgebiet oder am Niederrhein aussehen kann, sprechen Sie uns an. Im kostenlosen und unverbindlichen Strategiegespräch schauen wir gemeinsam auf Ihre Ausgangslage. Hier geht es direkt zum [Kontakt](/kontakt).
 
 ## Häufig gestellte Fragen (FAQ)
 
@@ -137,6 +137,6 @@ Nur, wenn sie zugestimmt haben. Achten Sie darauf, dass Gäste im Hintergrund ni
 
 **Lohnen sich Anzeigen für ein kleines Lokal?**
 
-Das hängt von Ihrem Ziel ab. Für Eröffnungen, Aktionen oder den Mittagstisch können Anzeigen in einem kleinen Umkreis sinnvoll sein. Wir schauen im Erstgespräch gemeinsam, ob und wie das für Ihren Betrieb passt.
+Das hängt von Ihrem Ziel ab. Für Eröffnungen, Aktionen oder den Mittagstisch können Anzeigen in einem kleinen Umkreis sinnvoll sein. Wir schauen im Strategiegespräch gemeinsam, ob und wie das für Ihren Betrieb passt.
   `.trim(),
 };

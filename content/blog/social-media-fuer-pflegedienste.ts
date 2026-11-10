@@ -114,7 +114,7 @@ Social Media ergänzt das: Wer Ihr Profil findet, sieht Menschen statt nur einer
 
 Social Media hilft Pflegediensten, Vertrauen bei Angehörigen aufzubauen und als Arbeitgeber sichtbar zu werden. Entscheidend sind echte Einblicke, ein einfacher Plan und konsequenter Datenschutz. Sie müssen nicht überall sein, aber dort, wo Sie sind, sollten Sie regelmäßig und ansprechbar sein.
 
-Wenn Sie wissen möchten, wie Social Media für Ihren Pflegedienst in Duisburg, im Ruhrgebiet oder am Niederrhein aussehen kann, sprechen Sie uns an. Im kostenlosen und unverbindlichen Erstgespräch schauen wir gemeinsam auf Ihre Ausgangslage. Hier geht es direkt zum [Kontakt](/kontakt).
+Wenn Sie wissen möchten, wie Social Media für Ihren Pflegedienst in Duisburg, im Ruhrgebiet oder am Niederrhein aussehen kann, sprechen Sie uns an. Im kostenlosen und unverbindlichen Strategiegespräch schauen wir gemeinsam auf Ihre Ausgangslage. Hier geht es direkt zum [Kontakt](/kontakt).
 
 ## Häufig gestellte Fragen (FAQ)
 

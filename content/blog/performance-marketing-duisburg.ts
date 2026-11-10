@@ -81,7 +81,6 @@ Grundsätzlich profitieren Betriebe, die Anfragen, Termine oder Leads in einem r
 - Handel und Standorte mit Filialbezug
 - Gesundheits-, Bildungs- und Freizeitangebote
 - Gastronomie und Events
-- Handwerk und Bau – vor allem bei klaren Leistungsangeboten oder saisonalen Themen
 
 Entscheidend ist weniger die Branche als die Ausgangslage: Gibt es ein klares Angebot? Eine erreichbare Zielgruppe vor Ort? Eine Website oder Landingpage, auf der Anfragen entstehen können? Wenn ja, lässt sich Performance Marketing sinnvoll aufsetzen.
 

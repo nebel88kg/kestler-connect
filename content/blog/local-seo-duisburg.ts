@@ -45,12 +45,10 @@ Wer nur auf Anzeigen setzt, zahlt für jeden Klick. Local SEO baut dauerhafte Au
 
 Local SEO eignet sich für Betriebe mit einem klaren regionalen Radius. Typische Beispiele:
 
-- Pflegedienste und Gesundheitsangebote
-- Handwerk und Bau
+- Pflegedienste, Praxen und Gesundheitsangebote
 - Gastronomie, Cafés und Hotels
 - Handel und Standorte mit Kundenverkehr
 - Dienstleister und Beratungen vor Ort
-- Vereine und regionale Organisationen mit Öffnungszeiten oder Veranstaltungen
 
 Entscheidend ist weniger die Branche als die Frage: Suchen Menschen in Ihrer Nähe nach dem, was Sie anbieten?
 
@@ -140,7 +138,7 @@ Wie die Kanäle zusammenspielen, erklärt auch der Beitrag [Performance Marketin
 
 Local SEO hilft lokalen Unternehmen in Duisburg und Umgebung, bei Google und Google Maps gefunden zu werden – mit einem gepflegten Unternehmensprofil, konsistenten Daten, einer klaren Website und echten Bewertungen. Es ist die Grundlage, auf der Ads und Social Media besser wirken.
 
-Wenn Sie wissen möchten, wie Local SEO für Ihren Betrieb in Duisburg, im Ruhrgebiet oder am Niederrhein aussehen kann, sprechen Sie uns an. Im kostenlosen und unverbindlichen Erstgespräch schauen wir auf Profil, Website und Einzugsgebiet. Hier geht es direkt zum [Kontakt](/kontakt).
+Wenn Sie wissen möchten, wie Local SEO für Ihren Betrieb in Duisburg, im Ruhrgebiet oder am Niederrhein aussehen kann, sprechen Sie uns an. Im kostenlosen und unverbindlichen Strategiegespräch schauen wir auf Profil, Website und Einzugsgebiet. Hier geht es direkt zum [Kontakt](/kontakt).
 
 ## Häufig gestellte Fragen (FAQ)
 
