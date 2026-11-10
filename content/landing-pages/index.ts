@@ -3,6 +3,9 @@ import { hubLandingPages } from "./hubs";
 import { localSeo } from "./niches/local-seo";
 import { marketingWorkshopStartups } from "./niches/marketing-workshop-startups";
 import { socialMediaMoers } from "./cities/social-media-moers";
+import { socialMediaKrefeld } from "./cities/social-media-krefeld";
+import { googleAdsMoers } from "./cities/google-ads-moers";
+import { googleAdsKrefeld } from "./cities/google-ads-krefeld";
 
 export { leadgewinnungHub as leadgewinnung } from "./hubs";
 export { mitarbeitergewinnungHub as mitarbeitergewinnung } from "./hubs";
@@ -22,4 +25,7 @@ export const fullLandingPages: LandingPage[] = [
   localSeo,
   marketingWorkshopStartups,
   socialMediaMoers,
+  socialMediaKrefeld,
+  googleAdsMoers,
+  googleAdsKrefeld,
 ];
