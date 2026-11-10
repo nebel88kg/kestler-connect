@@ -10,7 +10,7 @@ import { Button } from "@/components/ui/Button";
 export const metadata: Metadata = createMetadata({
   title: "Über uns – Online-Marketing-Agentur Duisburg",
   description:
-    "Kestler Connect ist eine Online-Marketing-Agentur aus Duisburg für regionale und lokale Unternehmen – Social Media Marketing, Google Ads, Meta Ads und Website-Erstellung.",
+    "Kestler Connect ist eine Online-Marketing-Agentur aus Duisburg für kleine und mittlere Unternehmen – Social Media Marketing, Google Ads, Meta Ads und Website-Erstellung.",
   path: "/ueber-uns",
 });
 
@@ -18,9 +18,9 @@ const storySections = [
   {
     title: "Wer bin ich?",
     paragraphs: [
-      "Ich bin Jascha Kestler – Gründer von Kestler Connect, einer Online-Marketing-Agentur aus Duisburg für regionale und lokale Unternehmen.",
+      "Ich bin Jascha Kestler – Gründer von Kestler Connect, einer Online-Marketing-Agentur aus Duisburg für kleine und mittlere Unternehmen.",
       "Mein Weg führte vom Handwerk über Sport, Sponsoring und Events bis in die Welt des digitalen Marketings. Genau diese Mischung prägt heute meine Arbeit: bodenständig, direkt und immer mit Blick auf das, was am Ende wirklich zählt – nachhaltiges Wachstum.",
-      "Ob lokaler Betrieb, regionales Unternehmen oder wachsender Mittelstand: Durch Erfahrungen in unterschiedlichen Branchen weiß ich, dass erfolgreiche Vermarktung mit echten Beziehungen beginnt. Denn hinter jeder Marke und jedem Unternehmen stehen Menschen.",
+      "Ob lokales KMU oder wachsender Mittelstand: Durch Erfahrungen in unterschiedlichen Branchen weiß ich, dass erfolgreiche Vermarktung mit echten Beziehungen beginnt. Denn hinter jeder Marke und jedem Unternehmen stehen Menschen.",
     ],
   },
   {
@@ -34,9 +34,9 @@ const storySections = [
   {
     title: "Unsere Mission",
     paragraphs: [
-      "Wir wollen mit kleinen und mittelständischen Unternehmen zusammenwachsen – vom ersten Impuls bis zur Skalierung.",
+      "Wir wollen mit dem Klein- und Mittelstand zusammenwachsen – vom ersten Impuls bis zur Skalierung.",
       "Manche Betriebe brauchen einen klaren Start: Sichtbarkeit, Struktur und die richtigen Kanäle. Andere sind bereit, das zu skalieren, was bereits funktioniert. Beides begleiten wir partnerschaftlich, praxisnah und mit dem Tempo, das zu Ihrem Unternehmen passt.",
-      "Ob lokaler Dienstleister, regionaler Betrieb oder wachsender Mittelstand: Unser Ziel ist nachhaltiges Wachstum – nicht kurzfristige Reichweite um jeden Preis.",
+      "Ob lokales KMU oder wachsender Mittelstand: Unser Ziel ist nachhaltiges Wachstum – nicht kurzfristige Reichweite um jeden Preis.",
     ],
   },
   {
@@ -49,7 +49,7 @@ const storySections = [
   {
     title: "Privat",
     paragraphs: [
-      "Wenn ich nicht gerade an neuen Projekten arbeite, findet man mich meistens auf dem Golfplatz, beim Fußball, auf dem Padel-Court oder bei Veranstaltungen rund um Vereine und Netzwerke. Als Duisburger und langjähriger MSV-Fan bin ich meiner Region bis heute eng verbunden.",
+      "Wenn ich nicht gerade an neuen Projekten arbeite, findet man mich meistens auf dem Golfplatz, beim Fußball, auf dem Padel-Court oder bei Veranstaltungen rund um Sport und Netzwerke. Als Duisburger und langjähriger MSV-Fan bin ich meiner Region bis heute eng verbunden.",
       "Denn egal ob im Sport, im Business oder im Alltag: Die besten Dinge entstehen durch starke Verbindungen. Und genau solche Verbindungen schaffen Wachstum.",
     ],
   },
@@ -71,7 +71,7 @@ export default function UeberUnsPage() {
           <Breadcrumbs items={[{ label: "Startseite", href: "/" }, { label: "Über uns" }]} variant="dark" />
           <h1 className="text-3xl font-extrabold text-white lg:text-5xl">Über mich</h1>
           <p className="mt-4 max-w-2xl text-lg text-gray-300">
-            Online-Marketing aus Duisburg – für regionale und lokale
+            Online-Marketing aus Duisburg – für kleine und mittlere
             Unternehmen im Ruhrgebiet und am Niederrhein. Persönlich, erreichbar, lokal vernetzt.
           </p>
         </div>
@@ -156,7 +156,7 @@ export default function UeberUnsPage() {
           <div className="mt-16 rounded-2xl border border-accent/20 bg-white p-8 lg:p-10">
             <h2 className="text-2xl font-bold text-anthracite">Unsere Leistungen</h2>
             <p className="mt-3 max-w-2xl text-gray-600">
-              Persönlich betreut aus Duisburg – für Unternehmen in Duisburg, dem Ruhrgebiet und am Niederrhein.{" "}
+              Persönlich betreut aus Duisburg – für KMU in Duisburg, dem Ruhrgebiet und am Niederrhein.{" "}
               <Link href="/einzugsgebiet" className="font-semibold text-accent-dark hover:underline">
                 Zum Einzugsgebiet
               </Link>
@@ -184,7 +184,7 @@ export default function UeberUnsPage() {
               Lassen Sie uns in einem unverbindlichen Gespräch herausfinden, wie ich Ihnen helfen kann.
             </p>
             <Button href="/kontakt" size="lg" className="mt-6">
-              Kostenloses Erstgespräch
+              Kostenloses Strategiegespräch
             </Button>
           </div>
         </ScrollReveal>

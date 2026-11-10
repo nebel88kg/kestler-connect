@@ -22,12 +22,12 @@ const inter = Inter({
 });
 
 const agencyDescription =
-  "Online-Marketing-Agentur aus Duisburg: Social Media, Google Ads, Meta Ads, SEO und Webseiten für regionale und lokale Unternehmen in Duisburg, im Ruhrgebiet und am Niederrhein.";
+  "Online-Marketing-Agentur aus Duisburg: Social Media, Google Ads, Meta Ads, SEO und Webseiten für kleine und mittlere Unternehmen (KMU) in Duisburg, im Ruhrgebiet und am Niederrhein.";
 
 export const metadata: Metadata = createMetadata({
   title: "Online-Marketing-Agentur Duisburg | Kestler Connect",
   description:
-    "Online-Marketing-Agentur aus Duisburg: Social Media, Google Ads, Meta Ads, SEO & Webseiten für Ruhrgebiet & Niederrhein. Kostenloses Erstgespräch.",
+    "Online-Marketing-Agentur aus Duisburg: Social Media, Google Ads, Meta Ads, SEO & Webseiten für KMU im Ruhrgebiet & am Niederrhein. Kostenloses Strategiegespräch.",
   path: "/",
 });
 
@@ -100,6 +100,8 @@ const organizationSchema = {
     "SEO",
     "Local SEO",
     "Website-Erstellung",
+    "Marketing für kleine und mittlere Unternehmen",
+    "Marketing für KMU",
   ],
   founder: {
     "@type": "Person",
