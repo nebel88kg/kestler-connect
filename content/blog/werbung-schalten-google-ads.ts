@@ -37,6 +37,8 @@ Besonders sinnvoll, wenn:
 
 Weniger sinnvoll ist es, wenn das Angebot unklar ist, niemand Anfragen bearbeitet oder die Website keinen klaren Kontaktweg bietet.
 
+Wir richten Kampagnen für Unternehmen in [Duisburg](/marketing-agentur-duisburg) und Umgebung ein, etwa als [Google Ads Agentur in Moers](/marketing-agentur-moers) oder für Betriebe in [Krefeld](/marketing-agentur-krefeld).
+
 ## So funktioniert Google Werbung in der Praxis
 
 ### 1. Keywords und Suchintention
@@ -71,7 +73,7 @@ Sie legen Tages- oder Monatsbudgets fest und können pausieren oder anpassen. Es
 
 Viele lokale Betriebe starten mit einem Testbudget und optimieren auf Kosten pro Anfrage. Agenturkosten kommen hinzu, wenn Setup und Betreuung extern laufen.
 
-Ehrliche Kosteneinschätzung und typische Spannbreiten: siehe auch unseren Beitrag zu Google-Ads-Kosten und die Seite [Google Ads](/leistungen/google-ads).
+Ehrliche Kosteneinschätzung und typische Spannbreiten: siehe auch unseren Beitrag [Was kostet Google Ads?](/blog/was-kostet-google-ads) und die Seite [Google Ads](/leistungen/google-ads).
 
 ## Google Ads vs. andere Werbung
 

@@ -48,6 +48,8 @@ Auf Facebook und Instagram scrollen Menschen durch ihren Feed. Mit Meta Ads zeig
 - **Gastronomie:** Meta Ads für Aktionen, Events und neue Gäste aus der Umgebung
 - **Dienstleister und Beratung:** Google Ads für Suchanfragen mit klarer Absicht, Meta Ads für Vertrauen und Wiedererkennung
 
+Wir betreuen beide Kanäle für Unternehmen in [Duisburg](/marketing-agentur-duisburg), [Moers](/marketing-agentur-moers) und [Krefeld](/marketing-agentur-krefeld).
+
 ## Wann beides zusammen sinnvoll ist
 
 In vielen Fällen ergänzen sich beide Kanäle. Ein Beispiel für den Ablauf: Eine Person sieht Ihre Anzeige auf Instagram, merkt sich den Namen und sucht später bei Google nach Ihnen. Oder sie besucht Ihre Website über Google und sieht Sie danach erneut im Feed.
@@ -79,7 +81,7 @@ Stellen Sie sich drei Fragen:
 2. **Muss ich erst Aufmerksamkeit oder Bekanntheit schaffen?** Dann spricht viel für Meta Ads.
 3. **Suche ich Kunden oder Mitarbeitende?** Für Recruiting sind Meta Ads oft die bessere Wahl.
 
-Wenn Sie mehr Hintergrund möchten, lesen Sie auch unsere Beiträge zu [Performance Marketing in Duisburg](/blog/performance-marketing-duisburg) und [Meta Ads für lokale Unternehmen](/blog/meta-ads-fuer-lokale-unternehmen).
+Wenn Sie mehr Hintergrund möchten, lesen Sie auch unsere Beiträge zu [Performance Marketing in Duisburg](/blog/performance-marketing-duisburg) und [Meta Ads für lokale Unternehmen](/blog/meta-ads-fuer-lokale-unternehmen). Wie eine gute Zielseite für Anzeigen aufgebaut ist, zeigt der Beitrag [Landingpage für Werbeanzeigen](/blog/landingpage-fuer-werbeanzeigen).
 
 ## Fazit
 

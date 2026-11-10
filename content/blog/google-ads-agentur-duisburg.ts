@@ -38,6 +38,8 @@ Gute Betreuung ist mehr als „Anzeigen schalten“. Typische Aufgaben:
 
 Viele Unternehmen arbeiten in einem klaren Einzugsgebiet: Duisburg, Moers, Oberhausen, Mülheim, Krefeld, Düsseldorf oder im Ruhrgebiet und am Niederrhein. Google Ads lässt sich genau darauf begrenzen – nach Stadt, Postleitzahl oder Radius.
 
+Wir betreuen Google-Ads-Kampagnen für Unternehmen in [Duisburg](/marketing-agentur-duisburg) und der Region, zum Beispiel als [Google Ads Agentur für Moers](/marketing-agentur-moers) und für Betriebe in [Krefeld](/marketing-agentur-krefeld).
+
 Eine Agentur aus der Region kennt typische Suchbegriffe, Wettbewerber und Kundenwege vor Ort. Wichtiger als die Postleitzahl der Agentur sind aber Transparenz, saubere Messung und ein persönlicher Ansprechpartner.
 
 ## Google Ads selbst machen oder mit Agentur?
@@ -107,7 +109,7 @@ Google Ads ist kein einmaliges Setup. Die Ergebnisse entstehen durch laufende Pf
 
 Google Ads erreicht Menschen, die bereits suchen. Wer zusätzlich Aufmerksamkeit aufbauen möchte, kann [Meta Ads](/leistungen/meta-ads) auf Facebook und Instagram ergänzen. Für langfristige Sichtbarkeit in der Suche sorgt [SEO](/leistungen/seo). Eine gepflegte Präsenz auf [Social Media](/leistungen/social-media) stärkt zusätzlich das Vertrauen.
 
-Mehr zum Thema finden Sie auch in unseren Beiträgen [Warum Google Ads für Unternehmen sinnvoll sind](/blog/google-ads-vorteile) und [Werbung schalten mit Google Ads](/blog/werbung-schalten-google-ads).
+Mehr zum Thema finden Sie auch in unseren Beiträgen [Warum Google Ads für Unternehmen sinnvoll sind](/blog/google-ads-vorteile) und [Werbung schalten mit Google Ads](/blog/werbung-schalten-google-ads). Ob Google Ads oder Meta Ads besser zu Ihrem Ziel passt, klärt der Beitrag [Google Ads oder Meta Ads?](/blog/google-ads-oder-meta-ads). Worauf es bei der Zielseite ankommt, lesen Sie unter [Landingpage für Werbeanzeigen](/blog/landingpage-fuer-werbeanzeigen).
 
 ## Wie sieht es mit den Kosten aus?
 
