@@ -8,17 +8,17 @@ export const homeFaq: HomeFaqItem[] = [
   {
     question: "Was macht eine Online-Marketing-Agentur wie Kestler Connect?",
     answer:
-      "Kestler Connect ist eine Online-Marketing-Agentur aus Duisburg. Wir unterstützen regionale und lokale Unternehmen bei Social Media, Google Ads, Meta Ads, SEO und Webseiten – von der Strategie über die Umsetzung bis zur Auswertung.",
+      "Kestler Connect ist eine Online-Marketing-Agentur aus Duisburg. Wir unterstützen kleine und mittlere Unternehmen (KMU) bei Social Media, Google Ads, Meta Ads, SEO und Webseiten – von der Strategie über die Umsetzung bis zur Auswertung.",
   },
   {
     question: "Für welche Region arbeiten Sie?",
     answer:
-      "Unser Sitz ist Duisburg. Wir betreuen Unternehmen im Ruhrgebiet und am Niederrhein, zum Beispiel in Moers, Krefeld, Oberhausen, Essen, Mülheim an der Ruhr und Düsseldorf – vor Ort und digital. Mehr unter [Einzugsgebiet](/einzugsgebiet).",
+      "Unser Sitz ist Duisburg. Wir betreuen KMU im Ruhrgebiet und am Niederrhein, zum Beispiel in Moers, Krefeld, Oberhausen, Essen, Mülheim an der Ruhr und Düsseldorf – vor Ort und digital. Mehr unter [Einzugsgebiet](/einzugsgebiet).",
   },
   {
     question: "Google Ads oder Meta Ads – was eignet sich?",
     answer:
-      "Google Ads trifft aktive Suche – ideal für planbare Anfragen. Meta Ads erzeugen Sichtbarkeit und Leads auf Facebook und Instagram. Viele Betriebe kombinieren beides; den Mix klären wir im Erstgespräch.",
+      "Google Ads trifft aktive Suche – ideal für planbare Anfragen. Meta Ads erzeugen Sichtbarkeit und Leads auf Facebook und Instagram. Viele Betriebe kombinieren beides; den Mix klären wir im Strategiegespräch.",
   },
   {
     question: "Social Media oder Ads zuerst?",
@@ -28,12 +28,12 @@ export const homeFaq: HomeFaqItem[] = [
   {
     question: "Was kostet Online-Marketing?",
     answer:
-      "Die Investition hängt von Kanälen, Zielen und Umfang ab. Im kostenlosen Erstgespräch erhalten Sie eine transparente Einschätzung.",
+      "Die Investition hängt von Kanälen, Zielen und Umfang ab. Im kostenlosen Strategiegespräch erhalten Sie eine transparente Einschätzung.",
   },
   {
     question: "Ab welchem Budget lohnen sich Google Ads?",
     answer:
-      "Ob und mit welchem Media-Budget Google Ads für Sie sinnvoll sind, klären wir im Erstgespräch – abhängig von Branche, Wettbewerb und Zielgebiet.",
+      "Ob und mit welchem Media-Budget Google Ads für Sie sinnvoll sind, klären wir im Strategiegespräch – abhängig von Branche, Wettbewerb und Zielgebiet.",
   },
   {
     question: "Wie lange dauert SEO?",
@@ -48,7 +48,7 @@ export const homeFaq: HomeFaqItem[] = [
   {
     question: "Wie läuft die Zusammenarbeit ab?",
     answer:
-      "Nach dem kostenlosen Erstgespräch folgt eine klare Strategie. Sie haben einen festen Ansprechpartner und erhalten nachvollziehbare Reports.",
+      "Nach dem kostenlosen Strategiegespräch folgt eine klare Strategie. Sie haben einen festen Ansprechpartner und erhalten nachvollziehbare Reports.",
   },
   {
     question: "Wie erreiche ich Sie am schnellsten?",
