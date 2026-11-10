@@ -40,7 +40,44 @@ export function getLocation(slug: string): Location | undefined {
 }
 
 /** Orte mit eigenen Leistungs-Ortsseiten unter /leistungen/{kanal}/{slug}. */
-export const cityServiceSlugs = new Set(["oberhausen", "muelheim-an-der-ruhr", "dinslaken"]);
+export const cityServiceLocations = [
+  { slug: "moers", name: "Moers" },
+  { slug: "krefeld", name: "Krefeld" },
+  { slug: "oberhausen", name: "Oberhausen" },
+  { slug: "muelheim-an-der-ruhr", name: "Mülheim an der Ruhr" },
+  { slug: "dinslaken", name: "Dinslaken" },
+  { slug: "essen", name: "Essen" },
+  { slug: "duesseldorf", name: "Düsseldorf" },
+] as const;
+
+export const cityServiceSlugs = new Set<string>(cityServiceLocations.map((city) => city.slug));
+
+export const cityServiceCategories = ["social-media", "google-ads", "meta-ads"] as const;
+
+export function cityServiceLabel(category: string): string {
+  switch (category) {
+    case "social-media":
+      return "Social Media Agentur";
+    case "google-ads":
+      return "Google Ads Agentur";
+    case "meta-ads":
+      return "Meta Ads Agentur";
+    default:
+      return "Agentur";
+  }
+}
+
+export function getSiblingCityServiceLinks(category: string, currentSlug?: string) {
+  if (!(cityServiceCategories as readonly string[]).includes(category)) {
+    return [];
+  }
+  return cityServiceLocations
+    .filter((city) => city.slug !== currentSlug)
+    .map((city) => ({
+      name: city.name,
+      href: `/leistungen/${category}/${city.slug}`,
+    }));
+}
 
 export function locationServices(name: string, slug?: string): { question: string; answer: string }[] {
   const socialHref = slug && cityServiceSlugs.has(slug) ? `/leistungen/social-media/${slug}` : "/leistungen/social-media";

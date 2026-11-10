@@ -145,6 +145,8 @@ export function createBreadcrumbsFromPath(path: string): BreadcrumbItem[] {
     oberhausen: "Oberhausen",
     dinslaken: "Dinslaken",
     "muelheim-an-der-ruhr": "Mülheim an der Ruhr",
+    essen: "Essen",
+    duesseldorf: "Düsseldorf",
   };
 
   for (const segment of segments) {

@@ -136,6 +136,51 @@ const nextConfig: NextConfig = {
         destination: "/leistungen/google-ads/dinslaken",
         statusCode: 301,
       },
+      {
+        source: "/social-media-agentur-essen",
+        destination: "/leistungen/social-media/essen",
+        statusCode: 301,
+      },
+      {
+        source: "/meta-ads-agentur-essen",
+        destination: "/leistungen/meta-ads/essen",
+        statusCode: 301,
+      },
+      {
+        source: "/google-ads-agentur-essen",
+        destination: "/leistungen/google-ads/essen",
+        statusCode: 301,
+      },
+      {
+        source: "/social-media-agentur-duesseldorf",
+        destination: "/leistungen/social-media/duesseldorf",
+        statusCode: 301,
+      },
+      {
+        source: "/meta-ads-agentur-duesseldorf",
+        destination: "/leistungen/meta-ads/duesseldorf",
+        statusCode: 301,
+      },
+      {
+        source: "/google-ads-agentur-duesseldorf",
+        destination: "/leistungen/google-ads/duesseldorf",
+        statusCode: 301,
+      },
+      {
+        source: "/social-media-agentur-dusseldorf",
+        destination: "/leistungen/social-media/duesseldorf",
+        statusCode: 301,
+      },
+      {
+        source: "/meta-ads-agentur-dusseldorf",
+        destination: "/leistungen/meta-ads/duesseldorf",
+        statusCode: 301,
+      },
+      {
+        source: "/google-ads-agentur-dusseldorf",
+        destination: "/leistungen/google-ads/duesseldorf",
+        statusCode: 301,
+      },
       // Nischenseiten Handwerker / Vereine / Golfclubs → passende Hubs (Zielgruppe: KMU).
       {
         source: "/leistungen/google-ads/google-ads-fuer-handwerker",

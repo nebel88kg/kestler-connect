@@ -15,6 +15,7 @@ import { Breadcrumbs } from "@/components/seo/Breadcrumbs";
 import { createBreadcrumbsFromPath, createFaqSchema } from "@/lib/seo";
 import { renderInline } from "@/lib/inlineMarkdown";
 import { siteConfig } from "@/lib/navigation";
+import { cityServiceLabel, getSiblingCityServiceLinks } from "@/content/locations";
 import { googleBusiness } from "@/lib/googleBusiness";
 import { raffelbergLogo } from "@/lib/clientLogos";
 import { getTestimonialAttribution, raffelbergTestimonial } from "@/content/testimonials";
@@ -118,6 +119,7 @@ export function ConversionLandingTemplate({ page }: { page: LandingPage }) {
   const tel = siteConfig.phone.replace(/\s/g, "");
   const waHref = `https://wa.me/${siteConfig.whatsapp}`;
   const faqSchema = createFaqSchema(page.faq);
+  const siblingCities = getSiblingCityServiceLinks(page.category, page.slug);
   const reviews = googleBusiness.reviewPreviews.filter((review) => c.proof.reviewAuthors.includes(review.author));
   const attribution = getTestimonialAttribution(raffelbergTestimonial);
   const attributionText = `${attribution.primary}${attribution.secondary ? `, ${attribution.secondary}` : ""}`;
@@ -618,6 +620,23 @@ export function ConversionLandingTemplate({ page }: { page: LandingPage }) {
               </Link>
             </li>
           </ul>
+          {siblingCities.length > 0 && (
+            <p className="mt-6 text-sm leading-relaxed text-gray-700">
+              {cityServiceLabel(page.category)} auch in:{" "}
+              {siblingCities.map((city, index) => (
+                <span key={city.href}>
+                  {index > 0 && ", "}
+                  <Link
+                    href={city.href}
+                    className="font-semibold text-accent-dark underline-offset-2 hover:underline"
+                  >
+                    {city.name}
+                  </Link>
+                </span>
+              ))}
+              .
+            </p>
+          )}
         </div>
       </section>
     </>
