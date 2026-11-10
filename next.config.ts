@@ -44,6 +44,27 @@ const nextConfig: NextConfig = {
         destination: "/leistungen/workshops",
         permanent: true,
       },
+      // Ältere Branchen-Blogartikel (Handwerk / Vereine) offline – URLs bleiben per 301.
+      {
+        source: "/blog/social-media-fuer-handwerksbetriebe",
+        destination: "/leistungen/social-media",
+        permanent: true,
+      },
+      {
+        source: "/blog/mitarbeitergewinnung-im-handwerk",
+        destination: "/leistungen/mitarbeitergewinnung",
+        permanent: true,
+      },
+      {
+        source: "/blog/social-media-fuer-vereine",
+        destination: "/leistungen/social-media",
+        permanent: true,
+      },
+      {
+        source: "/blog/sponsoren-finden",
+        destination: "/leistungen/workshops",
+        permanent: true,
+      },
     ];
   },
 };
