@@ -8,6 +8,9 @@ import { googleAdsMoers } from "./cities/google-ads-moers";
 import { googleAdsKrefeld } from "./cities/google-ads-krefeld";
 import { metaAdsMoers } from "./cities/meta-ads-moers";
 import { metaAdsKrefeld } from "./cities/meta-ads-krefeld";
+import { socialMediaOberhausen } from "./cities/social-media-oberhausen";
+import { socialMediaMuelheim } from "./cities/social-media-muelheim-an-der-ruhr";
+import { socialMediaDinslaken } from "./cities/social-media-dinslaken";
 
 export { leadgewinnungHub as leadgewinnung } from "./hubs";
 export { mitarbeitergewinnungHub as mitarbeitergewinnung } from "./hubs";
@@ -32,4 +35,7 @@ export const fullLandingPages: LandingPage[] = [
   googleAdsKrefeld,
   metaAdsMoers,
   metaAdsKrefeld,
+  socialMediaOberhausen,
+  socialMediaMuelheim,
+  socialMediaDinslaken,
 ];
