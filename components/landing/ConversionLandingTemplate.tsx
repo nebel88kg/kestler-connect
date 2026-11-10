@@ -11,7 +11,8 @@ import { ScrollReveal } from "@/components/ui/ScrollReveal";
 import { TrackedContactLink } from "@/components/ui/TrackedContactLink";
 import { FounderPhoto } from "@/components/landing/FounderPhoto";
 import { JsonLd } from "@/components/seo/JsonLd";
-import { createFaqSchema } from "@/lib/seo";
+import { Breadcrumbs } from "@/components/seo/Breadcrumbs";
+import { createBreadcrumbsFromPath, createFaqSchema } from "@/lib/seo";
 import { renderInline } from "@/lib/inlineMarkdown";
 import { siteConfig } from "@/lib/navigation";
 import { googleBusiness } from "@/lib/googleBusiness";
@@ -134,6 +135,9 @@ export function ConversionLandingTemplate({ page }: { page: LandingPage }) {
       {/* 1. Above the fold: H1, Subline, CTA + (Mini-Formular ODER Foto/Zitat) */}
       <section className="page-hero bg-navy">
         <div className="container-custom">
+          {page.path.split("/").filter(Boolean).length >= 3 && (
+            <Breadcrumbs items={createBreadcrumbsFromPath(page.path)} variant="dark" />
+          )}
           <div
             className={`grid gap-8 lg:grid-cols-[1.1fr_0.9fr] lg:gap-14 ${proofLayout ? "items-center" : "items-start"}`}
           >

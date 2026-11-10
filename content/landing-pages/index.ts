@@ -2,6 +2,7 @@ import type { LandingPage } from "../types";
 import { hubLandingPages } from "./hubs";
 import { localSeo } from "./niches/local-seo";
 import { marketingWorkshopStartups } from "./niches/marketing-workshop-startups";
+import { socialMediaMoers } from "./cities/social-media-moers";
 
 export { leadgewinnungHub as leadgewinnung } from "./hubs";
 export { mitarbeitergewinnungHub as mitarbeitergewinnung } from "./hubs";
@@ -20,4 +21,5 @@ export const fullLandingPages: LandingPage[] = [
   ...hubLandingPages,
   localSeo,
   marketingWorkshopStartups,
+  socialMediaMoers,
 ];
