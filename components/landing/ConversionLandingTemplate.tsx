@@ -27,7 +27,7 @@ const PROCESS_COLS: Record<number, string> = {
 };
 
 const BUDGET_NOTE =
-  "Budget und Betreuung richten sich nach Ziel, Branche und Umfang – im kostenlosen Erstgespräch bekommen Sie eine ehrliche Budgetorientierung.";
+  "Budget und Betreuung richten sich nach Ziel, Branche und Umfang – im kostenlosen Strategiegespräch bekommen Sie eine ehrliche Budgetorientierung.";
 
 const conversionLinks = [
   { title: "Google Ads", href: "/leistungen/google-ads" },
@@ -426,7 +426,7 @@ export function ConversionLandingTemplate({ page }: { page: LandingPage }) {
                       </div>
                     </div>
                     <p className="mt-4 text-sm leading-relaxed text-gray-700">
-                      Ihr fester Ansprechpartner: Im Erstgespräch sprechen Sie direkt mit mir – ohne Umweg über anonyme
+                      Ihr fester Ansprechpartner: Im Strategiegespräch sprechen Sie direkt mit mir – ohne Umweg über anonyme
                       Agenturprozesse.
                     </p>
                   </Card>

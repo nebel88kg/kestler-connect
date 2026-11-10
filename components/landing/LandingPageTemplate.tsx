@@ -76,7 +76,7 @@ function TextSection({
   );
 }
 
-function MidCTA({ label = "Kostenloses Erstgespräch" }: { label?: string }) {
+function MidCTA({ label = "Kostenloses Strategiegespräch" }: { label?: string }) {
   return (
     <div className="mt-10 flex justify-center">
       <Button href="#kontakt" size="lg">
@@ -114,7 +114,7 @@ export function LandingPageTemplate({ page }: LandingPageTemplateProps) {
             </p>
             <div className="mt-8 flex flex-col gap-4 sm:flex-row">
               <Button href="#kontakt" size="lg">
-                Kostenloses Erstgespräch
+                Kostenloses Strategiegespräch
               </Button>
               {page.showWebsitePricing && (
                 <Button
@@ -386,7 +386,7 @@ export function LandingPageTemplate({ page }: LandingPageTemplateProps) {
           <div className="grid items-start gap-12 lg:grid-cols-2">
             <ScrollReveal>
               <h2 className="text-2xl font-extrabold text-white lg:text-4xl">
-                Kostenloses Erstgespräch anfragen
+                Kostenloses Strategiegespräch anfragen
               </h2>
               <p className="mt-4 text-gray-200">
                 Schreiben Sie uns kurz, worum es geht – wir melden uns zeitnah. Kostenlos und unverbindlich.
