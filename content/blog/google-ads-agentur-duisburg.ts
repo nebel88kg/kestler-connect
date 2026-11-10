@@ -38,7 +38,7 @@ Gute Betreuung ist mehr als „Anzeigen schalten“. Typische Aufgaben:
 
 Viele Unternehmen arbeiten in einem klaren Einzugsgebiet: Duisburg, Moers, Oberhausen, Mülheim, Krefeld, Düsseldorf oder im Ruhrgebiet und am Niederrhein. Google Ads lässt sich genau darauf begrenzen – nach Stadt, Postleitzahl oder Radius.
 
-Wir betreuen Google-Ads-Kampagnen für Unternehmen in [Duisburg](/marketing-agentur-duisburg) und der Region, zum Beispiel als [Google Ads Agentur für Moers](/marketing-agentur-moers) und für Betriebe in [Krefeld](/marketing-agentur-krefeld).
+Wir betreuen Google-Ads-Kampagnen für Unternehmen in [Duisburg](/marketing-agentur-duisburg) und der Region, zum Beispiel als [Google Ads Agentur für Moers](/leistungen/google-ads/moers) und als [Google Ads Agentur für Krefeld](/leistungen/google-ads/krefeld).
 
 Eine Agentur aus der Region kennt typische Suchbegriffe, Wettbewerber und Kundenwege vor Ort. Wichtiger als die Postleitzahl der Agentur sind aber Transparenz, saubere Messung und ein persönlicher Ansprechpartner.
 

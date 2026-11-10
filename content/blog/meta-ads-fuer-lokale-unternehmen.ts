@@ -61,7 +61,7 @@ Ein großer Vorteil von Meta Ads für lokale Unternehmen ist die geografische St
 
 Zusätzlich lassen sich Interessen, Alter, Sprache und – je nach Kampagnenziel – Lookalike- oder Remarketing-Zielgruppen nutzen. So bleibt das Budget dort, wo Ihre potenziellen Kunden tatsächlich sind – statt bundesweit zu streuen.
 
-Für Kestler Connect in Duisburg ist genau dieses lokale Denken Standard: Kampagnen für das Ruhrgebiet und NRW, abgestimmt auf Einzugsgebiet und Angebot. Das gilt auch für unsere Arbeit als [Meta Ads Agentur für Moers](/marketing-agentur-moers) und für Unternehmen in [Krefeld](/marketing-agentur-krefeld).
+Für Kestler Connect in Duisburg ist genau dieses lokale Denken Standard: Kampagnen für das Ruhrgebiet und NRW, abgestimmt auf Einzugsgebiet und Angebot. Das gilt auch für unsere Arbeit als [Meta Ads Agentur für Moers](/leistungen/meta-ads/moers) und als [Meta Ads Agentur für Krefeld](/leistungen/meta-ads/krefeld).
 
 ## Creatives entscheiden mit
 

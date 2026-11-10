@@ -37,7 +37,7 @@ Besonders sinnvoll, wenn:
 
 Weniger sinnvoll ist es, wenn das Angebot unklar ist, niemand Anfragen bearbeitet oder die Website keinen klaren Kontaktweg bietet.
 
-Wir richten Kampagnen für Unternehmen in [Duisburg](/marketing-agentur-duisburg) und Umgebung ein, etwa als [Google Ads Agentur in Moers](/marketing-agentur-moers) oder für Betriebe in [Krefeld](/marketing-agentur-krefeld).
+Wir richten Kampagnen für Unternehmen in [Duisburg](/marketing-agentur-duisburg) und Umgebung ein, etwa als [Google Ads Agentur in Moers](/leistungen/google-ads/moers) oder als [Google Ads Agentur in Krefeld](/leistungen/google-ads/krefeld).
 
 ## So funktioniert Google Werbung in der Praxis
 
