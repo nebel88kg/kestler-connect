@@ -72,7 +72,7 @@ TikTok kann für die Ansprache jüngerer Pflegekräfte und Auszubildender intere
 
 ## Pflegekräfte gewinnen mit Social Media
 
-Organische Beiträge bauen Ihre Arbeitgebermarke auf. Wenn Stellen schnell besetzt werden sollen, helfen zusätzlich bezahlte Anzeigen. Mit [Meta Ads](/leistungen/meta-ads) erreichen Sie Pflegekräfte auf Facebook und Instagram gezielt in Ihrer Region, auch wenn sie gerade nicht aktiv suchen.
+Organische Beiträge bauen Ihre Arbeitgebermarke auf. Wenn Stellen schnell besetzt werden sollen, helfen zusätzlich bezahlte Anzeigen. Mit [Meta Ads](/leistungen/meta-ads) erreichen Sie Pflegekräfte auf Facebook und Instagram gezielt in Ihrer Region, auch wenn sie gerade nicht aktiv suchen. Ausführlicher beschreiben wir das im Beitrag [Pflegekräfte gewinnen mit Social Media](/blog/pflegekraefte-gewinnen-social-media).
 
 Damit daraus Bewerbungen werden, braucht es:
 

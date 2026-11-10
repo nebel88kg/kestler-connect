@@ -24,6 +24,8 @@ Ziel ist nicht „möglichst viele Posts“, sondern ein professioneller, wieder
 
 Bei Kestler Connect in Duisburg ist genau das unser Schwerpunkt: Wir sind primär [Social-Media-Agentur](/leistungen/social-media) und verbinden Content bei Bedarf mit [Performance Marketing](/leistungen/performance-marketing) und [Website-Erstellung](/leistungen/webseiten).
 
+Wir arbeiten für Unternehmen aus Duisburg und Umgebung, zum Beispiel als [Social Media Agentur in Moers](/marketing-agentur-moers) oder für Betriebe in [Krefeld](/marketing-agentur-krefeld).
+
 ## Warum Unternehmen eine Social Media Agentur beauftragen
 
 Im Alltag fehlt vielen Betrieben schlicht die Zeit. Posts entstehen dann sporadisch, oft unter Zeitdruck – oder gar nicht. Das wirkt nach außen unfertig, auch wenn die eigentliche Leistung im Betrieb hervorragend ist.
@@ -65,7 +67,7 @@ Veröffentlichung, Timing und grundlegende Community-Impulse gehören zur Betreu
 
 ### 5. Abstimmung mit Ads und Website
 
-Social Media wirkt am stärksten im Zusammenspiel. Motive aus dem Redaktionsplan lassen sich für Meta Ads nutzen. Eine klare [Website](/leistungen/webseiten) macht aus Profilbesuchen und Klicks eher Anfragen.
+Social Media wirkt am stärksten im Zusammenspiel. Motive aus dem Redaktionsplan lassen sich für Meta Ads nutzen. Eine klare [Website](/leistungen/webseiten) macht aus Profilbesuchen und Klicks eher Anfragen. Wie KI dabei unterstützen kann, lesen Sie im Beitrag [KI im Social Media Marketing](/blog/ki-im-social-media-marketing).
 
 Deshalb denken wir Betreuung nicht isoliert, sondern als Teil Ihres Marketing-Systems – inklusive [Performance Marketing](/leistungen/performance-marketing), wenn planbare Anfragen das Ziel sind.
 

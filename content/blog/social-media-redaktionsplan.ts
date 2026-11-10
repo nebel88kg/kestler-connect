@@ -61,7 +61,7 @@ Ein oder zwei Hauptziele reichen. Sie entscheiden, welche Themen und Formate in 
 
 Sie müssen nicht überall sein. Wählen Sie die Kanäle, auf denen Ihre Zielgruppe unterwegs ist und die Sie regelmäßig pflegen können. Für viele regionale Betriebe sind Instagram und Facebook ein guter Start, im B2B-Bereich oft LinkedIn. Ihr Google-Unternehmensprofil ist kein soziales Netzwerk, sollte aber im Plan mitlaufen, zum Beispiel mit aktuellen Fotos und Beiträgen.
 
-Welche Formate auf Instagram und TikTok gut funktionieren, lesen Sie im Beitrag [Instagram und TikTok für Unternehmen](/blog/instagram-tiktok-fuer-unternehmen).
+Welche Formate auf Instagram und TikTok gut funktionieren, lesen Sie im Beitrag [Instagram und TikTok für Unternehmen](/blog/instagram-tiktok-fuer-unternehmen). Für Facebook und LinkedIn finden Sie eigene Leitfäden: [Facebook für Unternehmen](/blog/facebook-fuer-unternehmen) und [LinkedIn für Unternehmen](/blog/linkedin-fuer-unternehmen).
 
 ### 3. Content-Säulen definieren
 
@@ -125,7 +125,7 @@ Die besten Themen liegen meist im eigenen Alltag:
 - Tipps, die Ihren Kunden Zeit, Ärger oder Geld sparen
 - Ihr Engagement in der Region
 
-Ein gemeinsamer Ordner, in dem das Team Fotos und Ideen sammelt, macht die Planung deutlich leichter. Wie das in einzelnen Branchen aussieht, zeigen unsere Beiträge zu [Social Media für Gastronomie](/blog/social-media-fuer-gastronomie) und [Social Media für Pflegedienste](/blog/social-media-fuer-pflegedienste).
+Ein gemeinsamer Ordner, in dem das Team Fotos und Ideen sammelt, macht die Planung deutlich leichter. Wie das in einzelnen Branchen aussieht, zeigen unsere Beiträge zu [Social Media für Gastronomie](/blog/social-media-fuer-gastronomie), [Social Media für Pflegedienste](/blog/social-media-fuer-pflegedienste) und [Social Media für den Einzelhandel](/blog/social-media-fuer-einzelhandel). Wie KI bei Ideen und Texten hilft, lesen Sie unter [KI im Social Media Marketing](/blog/ki-im-social-media-marketing).
 
 ## Redaktionsplan und Anzeigen zusammendenken
 

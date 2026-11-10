@@ -30,6 +30,8 @@ Für lokale Unternehmen heißt das: regional denken, regelmäßig liefern und So
 
 Duisburg, Moers, Oberhausen, Mülheim, Essen und der Niederrhein sind dicht besiedelt. Kundinnen und Kunden suchen oft lokal – und entscheiden sich für Anbieter, die greifbar und vertrauenswürdig wirken.
 
+Wir betreuen Unternehmen in der ganzen Region: als [Marketing-Agentur in Duisburg](/marketing-agentur-duisburg), als [Social Media Agentur in Moers](/marketing-agentur-moers) und für Betriebe in [Krefeld](/marketing-agentur-krefeld).
+
 Genau dort setzt Social Media an:
 
 - Sie zeigen Gesichter statt nur einer Adresse
@@ -56,6 +58,7 @@ Vertiefende Branchenbeiträge:
 
 - [Social Media für Pflegedienste](/blog/social-media-fuer-pflegedienste)
 - [Social Media für Gastronomie](/blog/social-media-fuer-gastronomie)
+- [Social Media für den Einzelhandel](/blog/social-media-fuer-einzelhandel)
 
 ## Die wichtigsten Bausteine
 
@@ -72,7 +75,7 @@ Für viele lokale Unternehmen reichen ein bis zwei Plattformen:
 - **LinkedIn:** sinnvoll bei B2B, Recruiting und Fachthemen
 - **TikTok:** möglich, wenn kurze Videos zu Angebot und Kapazität passen
 
-Mehr dazu auch im Beitrag [Instagram und TikTok für Unternehmen](/blog/instagram-tiktok-fuer-unternehmen).
+Mehr dazu auch im Beitrag [Instagram und TikTok für Unternehmen](/blog/instagram-tiktok-fuer-unternehmen). Wie Sie Ihr bestehendes Profil verbessern, lesen Sie im Beitrag [Instagram-Profil optimieren](/blog/instagram-profil-optimieren).
 
 ### 3. Inhalte, die regional und echt wirken
 
