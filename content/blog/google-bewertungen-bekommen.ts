@@ -14,7 +14,7 @@ export const googleBewertungenBekommen: BlogPost = {
   category: "SEO",
   readTime: "6 Min.",
   content: `
-Bevor jemand bei einem Pflegedienst anruft, einen Handwerker beauftragt oder einen Tisch reserviert, schaut er fast immer kurz auf die Google-Bewertungen. Viele zufriedene Kundinnen und Kunden würden gern eine Bewertung schreiben, sie werden nur nie danach gefragt.
+Bevor jemand bei einem Pflegedienst anruft, eine Praxis aufsucht oder einen Tisch reserviert, schaut er fast immer kurz auf die Google-Bewertungen. Viele zufriedene Kundinnen und Kunden würden gern eine Bewertung schreiben, sie werden nur nie danach gefragt.
 
 In diesem Beitrag erfahren Sie, wie Sie im Alltag mehr echte Bewertungen bekommen, wie Sie auf Lob und Kritik antworten und welche Fehler Sie vermeiden sollten.
 
@@ -35,7 +35,7 @@ Bewertungen sind ein wichtiger Baustein von Local SEO. Einen Überblick über al
 
 Am besten fragen Sie, wenn die Zufriedenheit am größten ist:
 
-- **Handwerk:** direkt nach der Abnahme, wenn der Kunde das Ergebnis sieht
+- **Einzelhandel:** nach einem guten Kauf oder einer Beratung im Laden
 - **Pflege:** nach einem guten Gespräch mit Angehörigen oder nach den ersten Wochen der Versorgung, natürlich mit Fingerspitzengefühl
 - **Gastronomie:** beim Bezahlen, wenn Gäste sich für den Abend bedanken
 - **Dienstleister:** nach einem abgeschlossenen Projekt oder einem positiven Feedback per Mail

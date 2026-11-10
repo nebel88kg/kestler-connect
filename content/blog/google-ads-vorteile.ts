@@ -13,7 +13,7 @@ export const googleAdsVorteile: BlogPost = {
   category: "Google Ads",
   readTime: "11 Min.",
   content: `
-Wer heute ein Produkt oder eine Dienstleistung sucht, greift fast immer zuerst zum Smartphone und öffnet Google. Ob Handwerker, Steuerberater, Zahnarzt, Marketingagentur oder Restaurant – die Suche beginnt online. Genau hier setzt Google Ads an.
+Wer heute ein Produkt oder eine Dienstleistung sucht, greift fast immer zuerst zum Smartphone und öffnet Google. Ob Steuerberater, Zahnarzt, Pflegedienst oder Restaurant – die Suche beginnt online. Genau hier setzt Google Ads an.
 
 Mit Google Ads erreichen Sie potenzielle Kunden genau in dem Moment, in dem sie bereits nach Ihrer Leistung suchen. Dadurch gehört Google Ads zu den effektivsten und messbarsten Marketingmaßnahmen überhaupt.
 
@@ -108,7 +108,7 @@ Grundsätzlich profitieren nahezu alle Unternehmen von Suchmaschinenwerbung.
 
 Besonders erfolgreich sind:
 
-- Handwerksbetriebe
+- Pflegedienste
 - Marketingagenturen
 - Immobilienmakler
 - Ärzte

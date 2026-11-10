@@ -28,7 +28,7 @@ Wenn Sie Ihre Social-Media-Kanäle nicht selbst betreuen möchten, finden Sie un
 
 ### Unternehmen mit Geschäftskunden
 
-Dienstleister, Handwerksbetriebe mit Gewerbekunden, Zulieferer, Beratungen und Agenturen treffen auf LinkedIn genau die Menschen, die über Aufträge entscheiden: Inhaber, Einkäufer, Projektleiter und Geschäftsführer aus der Region.
+Dienstleister, Zulieferer, Beratungen und Agenturen treffen auf LinkedIn genau die Menschen, die über Aufträge entscheiden: Inhaber, Einkäufer, Projektleiter und Geschäftsführer aus der Region.
 
 ### Betriebe, die Fachkräfte suchen
 
@@ -123,9 +123,9 @@ Sie ist sinnvoll als offizielle Visitenkarte, etwa für Stellenangebote und dami
 
 So oft, wie Sie es dauerhaft schaffen. Für viele Unternehmer ist ein Beitrag pro Woche ein guter Start. Ergänzend lohnt es sich, regelmäßig bei anderen zu kommentieren.
 
-**Ist LinkedIn auch für Handwerksbetriebe interessant?**
+**Ist LinkedIn auch für kleine Dienstleister und Praxen interessant?**
 
-Ja, besonders wenn Sie für Gewerbekunden, Hausverwaltungen oder öffentliche Auftraggeber arbeiten oder Fachkräfte suchen. Für Privatkunden sind Instagram, Facebook und Ihr Google-Unternehmensprofil meist wichtiger. Mehr dazu auf unserer Seite [Social Media](/leistungen/social-media).
+Ja, besonders wenn Sie Geschäftskunden, Partner oder Fachkräfte erreichen möchten. Für Privatkunden sind Instagram, Facebook und Ihr Google-Unternehmensprofil meist wichtiger. Mehr dazu auf unserer Seite [Social Media](/leistungen/social-media).
 
 **Kann ich LinkedIn-Beiträge auch auf Instagram oder Facebook verwenden?**
 

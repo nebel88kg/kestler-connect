@@ -26,7 +26,7 @@ In diesem Beitrag zeigen wir die Unterschiede kurz und praxisnah, damit Sie die 
 
 ### Google Ads: Wer sucht, wird fündig
 
-Jemand tippt „Elektriker Duisburg“ oder „Pflegedienst Moers“ in Google. Diese Person hat ein konkretes Anliegen. Mit Google Ads erscheinen Sie genau in diesem Moment. Das passt besonders gut, wenn:
+Jemand tippt „Steuerberater Duisburg“ oder „Pflegedienst Moers“ in Google. Diese Person hat ein konkretes Anliegen. Mit Google Ads erscheinen Sie genau in diesem Moment. Das passt besonders gut, wenn:
 
 - Ihre Leistung aktiv gesucht wird
 - Kunden kurzfristig handeln (Notdienst, Reparatur, Termin)
@@ -36,14 +36,14 @@ Jemand tippt „Elektriker Duisburg“ oder „Pflegedienst Moers“ in Google. 
 
 Auf Facebook und Instagram scrollen Menschen durch ihren Feed. Mit Meta Ads zeigen Sie Ihr Angebot Personen in einem festgelegten Gebiet, zum Beispiel im Umkreis Ihres Standorts. Das passt besonders gut, wenn:
 
-- Ihr Angebot visuell überzeugt (Gastronomie, Events, Handwerk mit Vorher-nachher)
+- Ihr Angebot visuell überzeugt (Gastronomie, Events oder Praxen mit anschaulichen Einblicken)
 - Sie Bekanntheit in der Region aufbauen wollen
 - Sie Personal suchen und Menschen ansprechen möchten, die nicht aktiv nach Jobs schauen
 - Sie Website-Besucher erneut ansprechen wollen (Retargeting)
 
 ## Typische Einsatzfälle aus der Region
 
-- **Handwerk:** Google Ads für konkrete Aufträge, Meta Ads für Mitarbeitergewinnung und Referenzprojekte
+- **Einzelhandel:** Google Ads für konkrete Produktsuchen, Meta Ads für Aktionen und Laufkundschaft aus der Umgebung
 - **Pflege:** Meta Ads vor allem für Recruiting, Google Ads für Angehörige, die einen Dienst suchen
 - **Gastronomie:** Meta Ads für Aktionen, Events und neue Gäste aus der Umgebung
 - **Dienstleister und Beratung:** Google Ads für Suchanfragen mit klarer Absicht, Meta Ads für Vertrauen und Wiedererkennung
