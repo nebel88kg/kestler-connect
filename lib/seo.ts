@@ -104,6 +104,8 @@ export function createBreadcrumbsFromPath(path: string): BreadcrumbItem[] {
     leadgewinnung: "Leadgewinnung",
     mitarbeitergewinnung: "Mitarbeitergewinnung",
     "marketing-agentur-duisburg": "Marketing-Agentur Duisburg",
+    "marketing-agentur-krefeld": "Marketing-Agentur Krefeld",
+    "marketing-agentur-moers": "Marketing-Agentur Moers",
     einzugsgebiet: "Einzugsgebiet",
   };
 
