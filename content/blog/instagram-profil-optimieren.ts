@@ -36,7 +36,7 @@ Der Benutzername (@name) sollte kurz, leicht zu merken und möglichst gleich wie
 
 ### Profilname
 
-Der Profilname ist das fett gedruckte Feld über der Bio und wird bei der Suche in Instagram berücksichtigt. Nutzen Sie ihn für Ihren Firmennamen und, wenn Platz ist, für Leistung und Ort, zum Beispiel „Malerbetrieb Muster | Duisburg“. So werden Sie eher gefunden, wenn jemand nach Ihrer Leistung in Ihrer Stadt sucht.
+Der Profilname ist das fett gedruckte Feld über der Bio und wird bei der Suche in Instagram berücksichtigt. Nutzen Sie ihn für Ihren Firmennamen und, wenn Platz ist, für Leistung und Ort, zum Beispiel „Muster GmbH | Duisburg“. So werden Sie eher gefunden, wenn jemand nach Ihrer Leistung in Ihrer Stadt sucht.
 
 ## 3. Profilbild
 
@@ -83,9 +83,9 @@ Besucher sehen zuerst die obersten Beiträge. Pinnen Sie bis zu drei Beiträge a
 
 Im Profil sollte schnell erkennbar sein, in welchen Stadtteilen Sie versorgen und wie Angehörige und Bewerberinnen Sie erreichen. Ein Highlight für Jobs ist oft besonders wichtig. Mehr dazu im Beitrag [Social Media für Pflegedienste](/blog/social-media-fuer-pflegedienste).
 
-### Handwerk
+### Kleine und mittlere Unternehmen
 
-Leistungen, Einzugsgebiet und Projektbilder stehen im Vordergrund. Ein Highlight mit Arbeiten aus der Region schafft Vertrauen. Mehr dazu im Beitrag [Social Media für Handwerksbetriebe](/leistungen/social-media).
+Leistungen, Einzugsgebiet und Projektbilder stehen im Vordergrund. Ein Highlight mit Arbeiten aus der Region schafft Vertrauen. Mehr dazu auf unserer Seite [Social Media](/leistungen/social-media).
 
 ### Gastronomie
 

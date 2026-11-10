@@ -28,19 +28,19 @@ Wenn Sie Ihren Auftritt nicht selbst betreuen möchten, finden Sie unser Angebot
 
 ### Betriebe mit erwachsener, lokaler Zielgruppe
 
-Wer Kunden in seinem Stadtteil oder Einzugsgebiet erreichen möchte, etwa in Duisburg, Moers, Oberhausen oder Dinslaken, trifft auf Facebook häufig genau diese Menschen: Hausbesitzer, Eltern, Angehörige oder Vereinsmitglieder.
+Wer Kunden in seinem Stadtteil oder Einzugsgebiet erreichen möchte, etwa in Duisburg, Moers, Oberhausen oder Dinslaken, trifft auf Facebook häufig genau diese Menschen: Hausbesitzer, Eltern oder Angehörige.
 
-### Pflege, Handwerk und Gastronomie
+### Pflege, Gastronomie und lokale KMU
 
-Pflegedienste erreichen auf Facebook oft Angehörige, die eine Versorgung organisieren. Handwerksbetriebe zeigen Projekte aus der Region. Restaurants und Cafés informieren über Aktionen, Öffnungszeiten und Veranstaltungen. Wie das in den einzelnen Branchen konkret aussieht, lesen Sie in unseren Beiträgen zu [Social Media für Pflegedienste](/blog/social-media-fuer-pflegedienste), [Social Media für Handwerksbetriebe](/leistungen/social-media) und [Social Media für Gastronomie](/blog/social-media-fuer-gastronomie).
+Pflegedienste erreichen auf Facebook oft Angehörige, die eine Versorgung organisieren. Restaurants und Cafés informieren über Aktionen, Öffnungszeiten und Veranstaltungen. Kleine und mittlere Unternehmen zeigen typische Projekte und Einblicke aus dem Arbeitsalltag in der Region. Wie das in einzelnen Branchen konkret aussieht, lesen Sie in unseren Beiträgen zu [Social Media für Pflegedienste](/blog/social-media-fuer-pflegedienste) und [Social Media für Gastronomie](/blog/social-media-fuer-gastronomie). Für den allgemeinen Auftritt finden Sie unser Angebot unter [Social Media](/leistungen/social-media).
 
 ### Unternehmen, die Mitarbeitende suchen
 
-Facebook eignet sich gut, um Stellen in der Region sichtbar zu machen, auch bei Menschen, die gerade nicht aktiv suchen. Mehr dazu lesen Sie im Beitrag [Mitarbeitergewinnung im Handwerk](/leistungen/mitarbeitergewinnung).
+Facebook eignet sich gut, um Stellen in der Region sichtbar zu machen, auch bei Menschen, die gerade nicht aktiv suchen. Mehr dazu lesen Sie auf unserer Seite [Mitarbeitergewinnung](/leistungen/mitarbeitergewinnung).
 
-### Vereine und lokale Initiativen
+### Kleine und mittlere Unternehmen in der Region
 
-Für Vereine sind Facebook-Seiten und Veranstaltungen ein einfacher Weg, Mitglieder, Eltern und Unterstützer auf dem Laufenden zu halten. Tipps dazu finden Sie unter [Social Media für Vereine](/leistungen/social-media).
+Für lokale KMU sind Facebook-Seiten und Hinweise auf Aktionen oder Veranstaltungen ein einfacher Weg, Kundinnen und Kunden sowie Interessenten auf dem Laufenden zu halten. Tipps dazu finden Sie unter [Social Media](/leistungen/social-media).
 
 ## Ihre Facebook-Unternehmensseite richtig einrichten
 
