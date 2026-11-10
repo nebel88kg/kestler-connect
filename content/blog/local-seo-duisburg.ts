@@ -30,6 +30,8 @@ Mehr zu unserem SEO-Angebot finden Sie unter [SEO](/leistungen/seo) und speziell
 
 Duisburg, Moers, Oberhausen, Mülheim, Dinslaken und der Niederrhein sind dicht besiedelt. Viele Angebote sind vergleichbar – und die Entscheidung fällt oft zwischen den Betrieben, die online klar und erreichbar wirken.
 
+Wie wir in den einzelnen Städten arbeiten, lesen Sie auf den Seiten [Marketing-Agentur Duisburg](/marketing-agentur-duisburg), [Marketing-Agentur Moers](/marketing-agentur-moers) und [Marketing-Agentur Krefeld](/marketing-agentur-krefeld).
+
 Local SEO hilft Ihnen dabei:
 
 - in der lokalen Suche und auf der Karte sichtbar zu sein
@@ -66,6 +68,8 @@ Ihr Google-Unternehmensprofil (früher Google My Business) ist oft der erste Ein
 - Link zur Website und, wo sinnvoll, zur Termin- oder Kontaktseite
 
 Unterschiedliche Angaben auf Profil, Website und Social Media verwirren Kundinnen und Kunden – und schwächen lokale Signale.
+
+Wie Sie mehr echte Bewertungen für Ihr Profil sammeln, lesen Sie im Beitrag [Google-Bewertungen bekommen](/blog/google-bewertungen-bekommen).
 
 ### 2. NAP-Konsistenz: Name, Adresse, Telefon
 

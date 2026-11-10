@@ -114,6 +114,12 @@ export function ServicesGrid() {
             >
               Für welche Orte wir arbeiten →
             </Link>
+            <Link
+              href="/leistungen"
+              className="text-sm font-semibold text-accent-dark underline underline-offset-2 hover:text-navy"
+            >
+              Alle Leistungen im Überblick →
+            </Link>
           </div>
         </ScrollReveal>
       </div>
