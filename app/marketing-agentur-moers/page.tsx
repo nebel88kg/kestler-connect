@@ -163,8 +163,10 @@ export default function MarketingAgenturMoersPage() {
         <div className="container-custom">
           <h2 className="text-2xl font-bold text-anthracite lg:text-4xl">Online-Marketing aus der Region für Moers</h2>
           <p className="mt-4 max-w-3xl text-lg leading-relaxed text-gray-600">
-            Moers liegt im Kreis Wesel am linken Niederrhein und grenzt an Duisburg. Für KMU hier lohnen sich Social
-            Media und Ads mit klarem regionalem Fokus.
+            Moers liegt im Kreis Wesel am linken Niederrhein und grenzt an Duisburg. Für kleine und mittlere
+            Unternehmen hier lohnen sich Social Media und Anzeigen mit klarem regionalem Fokus: sichtbar in der Stadt,
+            verständlich im Auftritt und mit Kanälen, die zu Ihrem Alltag passen. Nicht jedes Unternehmen braucht
+            denselben Mix – entscheidend ist, wo Ihre Kundinnen und Kunden suchen, scrollen oder Empfehlungen prüfen.
           </p>
           <dl className="mt-8 grid gap-4 sm:grid-cols-2">
             <div className="rounded-xl border border-accent/20 bg-accent-light/30 p-4">
@@ -224,12 +226,61 @@ export default function MarketingAgenturMoersPage() {
       </section>
 
       <section className="section-padding">
+        <div className="container-custom max-w-3xl">
+          <h2 className="text-2xl font-bold text-anthracite lg:text-4xl">
+            Moers, die Stadtteile und das unmittelbare Umfeld
+          </h2>
+          <p className="mt-4 text-lg leading-relaxed text-gray-600">
+            Moers gehört zum Kreis Wesel und liegt am linken Niederrhein, direkt neben Duisburg. Viele Betriebe
+            erreichen Kundinnen und Kunden in der Innenstadt, in Asberg, Meerbeck, Kapellen, Repelen oder Schwafheim –
+            und häufig auch in Kamp-Lintfort, Neukirchen-Vluyn, Rheinberg sowie in Duisburg-Homberg und Rheinhausen.
+          </p>
+          <p className="mt-4 text-lg leading-relaxed text-gray-600">
+            Genau deshalb sollte Online-Marketing hier regional gedacht werden. Wer in Moers sucht oder Empfehlungen
+            prüft, will erkennen, dass Sie vor Ort erreichbar sind. Pauschale Kampagnen für das ganze Ruhrgebiet
+            verfehlen diesen Bezug oft. Wir arbeiten aus Duisburg (Marienstr. 17); Termine in Moers sind möglich, die
+            laufende Betreuung kann digital erfolgen.
+          </p>
+          <h2 className="mt-12 text-2xl font-bold text-anthracite lg:text-4xl">
+            Social Media, Google Ads und Meta Ads für Moers
+          </h2>
+          <p className="mt-4 text-lg leading-relaxed text-gray-600">
+            Drei Wege ergänzen sich häufig, müssen aber nicht alle gleichzeitig starten. Unter{" "}
+            <Link href="/leistungen/social-media/moers" className="font-semibold text-accent-dark underline underline-offset-2">
+              Social Media Agentur Moers
+            </Link>{" "}
+            finden Sie, wie wir Auftritte auf Instagram und TikTok regelmäßig betreuen – mit Plan, Content und einem
+            festen Ansprechpartner. Das eignet sich, wenn Sie sichtbar bleiben wollen, ohne den Alltag selbst mit
+            Beiträgen zu füllen.
+          </p>
+          <p className="mt-4 text-lg leading-relaxed text-gray-600">
+            Wenn Menschen bereits nach Ihrer Leistung suchen, sind oft{" "}
+            <Link href="/leistungen/google-ads/moers" className="font-semibold text-accent-dark underline underline-offset-2">
+              Google Ads für Moers
+            </Link>{" "}
+            der direktere Weg: Suchanzeigen, regional begrenzt, mit nachvollziehbarem Tracking. Wer zusätzlich Menschen
+            erreichen will, bevor sie suchen, schaut auf{" "}
+            <Link href="/leistungen/meta-ads/moers" className="font-semibold text-accent-dark underline underline-offset-2">
+              Meta Ads Agentur Moers
+            </Link>
+            : Instagram- und Facebook-Anzeigen für ein festgelegtes Gebiet in Moers und im Umland.
+          </p>
+          <p className="mt-4 text-lg leading-relaxed text-gray-600">
+            Welche Kombination sinnvoll ist, hängt von Angebot, Zielgruppe und Ausgangslage ab. Im kostenlosen
+            Strategiegespräch ordnen wir das ehrlich ein. SEO, Local SEO und Webseiten können dazukommen – Garantien
+            für Platzierungen geben wir nicht, und wir erfinden keine Fallzahlen.
+          </p>
+        </div>
+      </section>
+
+      <section className="section-padding bg-white">
         <div className="container-custom grid gap-12 lg:grid-cols-2">
           <div>
             <h2 className="text-2xl font-bold text-anthracite lg:text-3xl">Für wen ist das gedacht?</h2>
             <p className="mt-4 text-lg leading-relaxed text-gray-600">
-              Für Betriebe in Moers, die online gefunden werden und Anfragen gewinnen wollen – mit Social Media, Google
-              Ads, Meta Ads oder SEO.
+              Für kleine und mittlere Unternehmen in Moers, die online gefunden werden und Anfragen gewinnen wollen.
+              Typisch sind Dienstleister, Praxen, Pflegedienste, Einzelhandel oder Gastronomie mit einem klaren
+              regionalen Kundenkreis – und ohne eigene Marketingabteilung.
             </p>
             <ul className="mt-6 space-y-3">
               {[
@@ -249,7 +300,9 @@ export default function MarketingAgenturMoersPage() {
           <div>
             <h2 className="text-2xl font-bold text-anthracite lg:text-3xl">Weitere Orte in der Region</h2>
             <p className="mt-4 text-lg leading-relaxed text-gray-600">
-              Wir betreuen auch Betriebe in Duisburg, Krefeld und dem weiteren Einzugsgebiet.
+              Wir betreuen auch Betriebe in Duisburg, Krefeld und dem weiteren Einzugsgebiet – einschließlich Oberhausen,
+            Mülheim an der Ruhr und Dinslaken, für die es ebenfalls eigene Leistungsseiten gibt. Die Übersicht aller
+            Orte finden Sie über den Link unten.
             </p>
             <ul className="mt-6 space-y-2">
               <li>
@@ -275,6 +328,41 @@ export default function MarketingAgenturMoersPage() {
               </li>
             </ul>
           </div>
+        </div>
+      </section>
+
+      <section className="section-padding">
+        <div className="container-custom max-w-3xl">
+          <h2 className="text-2xl font-bold text-anthracite lg:text-4xl">
+            Wie die Zusammenarbeit für Betriebe in Moers typischerweise startet
+          </h2>
+          <p className="mt-4 text-lg leading-relaxed text-gray-600">
+            Der Einstieg ist das kostenlose Strategiegespräch. Wir sprechen über Ihr Angebot, Ihre bisherigen Kanäle
+            und Ihr Einzugsgebiet in Moers. Sie erhalten eine ehrliche Einschätzung, konkrete nächste Schritte und eine
+            Budgetorientierung – unverbindlich und ohne automatische Fortsetzung.
+          </p>
+          <p className="mt-4 text-lg leading-relaxed text-gray-600">
+            Wenn Sie sich für eine Betreuung entscheiden, klären wir Ziele und Zuständigkeiten schriftlich nachvollziehbar.
+            Sie haben einen festen Ansprechpartner. Ergebnisse hängen von Angebot, Wettbewerb und Ausgangslage ab; wir
+            versprechen keine festen Anfragezahlen und bezeichnen uns nicht als „die beste Agentur“. Öffentliche
+            Google-Bewertungen zu Kestler Connect liegen bei 5,0 von 5 Sternen und sind nachprüfbar.
+          </p>
+          <h2 className="mt-12 text-2xl font-bold text-anthracite lg:text-3xl">
+            Was in Moers oft zusätzlich sinnvoll ist
+          </h2>
+          <p className="mt-4 text-lg leading-relaxed text-gray-600">
+            Neben Social Media und Anzeigen lohnt sich für viele Betriebe ein gepflegtes Google-Unternehmensprofil und
+            eine Website, die nach dem Klick zu einer Anfrage führt. Suchen wie „Leistung + Moers“ bleiben sonst oft
+            ungenutzt. Local SEO und Webseiten können wir ebenfalls übernehmen; die Pakete für Webseiten beginnen ab
+            1.500 € (netto). Was zuerst Priorität hat, hängt von Ihrer Ausgangslage ab – nicht von einem festen Paket
+            für alle.
+          </p>
+          <p className="mt-4 text-lg leading-relaxed text-gray-600">
+            Wenn Sie unsicher sind, welcher Kanal der richtige Einstieg ist, reichen die drei Leistungsseiten oben als
+            Vertiefung: Social Media für den laufenden Auftritt, Google Ads für die aktive Suche, Meta Ads für
+            Aufmerksamkeit im Feed. Im Gespräch bringen wir das auf eine Reihenfolge, die zu Ihrem Betrieb in Moers
+            passt.
+          </p>
         </div>
       </section>
 

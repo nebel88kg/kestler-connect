@@ -162,8 +162,11 @@ export default function MarketingAgenturKrefeldPage() {
         <div className="container-custom">
           <h2 className="text-2xl font-bold text-anthracite lg:text-4xl">Warum Kestler Connect für Krefeld?</h2>
           <p className="mt-4 max-w-3xl text-lg leading-relaxed text-gray-600">
-            Krefeld liegt am Niederrhein, nah an Duisburg und Düsseldorf. Viele Betriebe brauchen Sichtbarkeit vor Ort –
-            ohne eigene Marketingabteilung. Genau dafür sind wir da.
+                        Krefeld liegt am Niederrhein, nah an Duisburg und Düsseldorf. Viele Betriebe brauchen Sichtbarkeit vor Ort –
+            ohne eigene Marketingabteilung. Genau dafür sind wir da: mit einem festen Ansprechpartner, klaren nächsten
+            Schritten und Kanälen, die zu Ihrem regionalen Kundenkreis passen. Ob Social Media, Suchanzeigen oder beides
+            zusammen sinnvoll ist, klären wir im kostenlosen Strategiegespräch – ehrlich und unverbindlich.
+
           </p>
           <dl className="mt-8 grid gap-4 sm:grid-cols-2">
             <div className="rounded-xl border border-accent/20 bg-accent-light/30 p-4">
@@ -206,7 +209,9 @@ export default function MarketingAgenturKrefeldPage() {
         <div className="container-custom">
           <h2 className="text-2xl font-bold text-anthracite lg:text-4xl">Leistungen für Unternehmen in Krefeld</h2>
           <p className="mt-4 max-w-3xl text-lg leading-relaxed text-gray-600">
-            Von organischem Social Media bis zu messbaren Anzeigen – abgestimmt auf Ihre Ziele.
+            Von organischem Social Media bis zu messbaren Anzeigen – abgestimmt auf Ihre Ziele in Krefeld. Die Karten
+            unten führen zu den vertiefenden Seiten, unter anderem zur Social Media Agentur, zu Google Ads und zu Meta
+            Ads speziell für Krefeld. SEO und Webseiten bleiben verfügbar, wenn die Grundlage zuerst stimmen muss.
           </p>
           <div className="mt-8 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
             {services.map((service) => (
@@ -223,12 +228,58 @@ export default function MarketingAgenturKrefeldPage() {
       </section>
 
       <section className="section-padding">
+        <div className="container-custom max-w-3xl">
+          <h2 className="text-2xl font-bold text-anthracite lg:text-4xl">
+            Krefeld: Innenstadt, Stadtteile und Nachbarorte
+          </h2>
+          <p className="mt-4 text-lg leading-relaxed text-gray-600">
+            Krefeld ist eine eigenständige Großstadt am Niederrhein mit einem klaren Zentrum und Stadtteilen wie Hüls,
+            Uerdingen, Fischeln, Bockum, Oppum und Linn. Viele Unternehmen erreichen ihre Kundinnen und Kunden nicht
+            nur in der Stadt selbst, sondern auch in Meerbusch, Willich, Kempen, Tönisvorst und Duisburg.
+          </p>
+          <p className="mt-4 text-lg leading-relaxed text-gray-600">
+            Ein Auftritt, der nur allgemein „NRW“ sagt, bleibt dort oft blass. Wer in Krefeld sucht, vergleicht oder
+            Empfehlungen prüft, achtet darauf, ob Sie vor Ort greifbar sind. Kestler Connect sitzt in Duisburg; die
+            Entfernung ist kurz, Abstimmung kann vor Ort oder digital stattfinden.
+          </p>
+          <h2 className="mt-12 text-2xl font-bold text-anthracite lg:text-4xl">
+            Drei Leistungsseiten für Krefeld
+          </h2>
+          <p className="mt-4 text-lg leading-relaxed text-gray-600">
+            Für den organischen Auftritt auf Instagram und TikTok gibt es die eigene Seite{" "}
+            <Link href="/leistungen/social-media/krefeld" className="font-semibold text-accent-dark underline underline-offset-2">
+              Social Media Agentur Krefeld
+            </Link>
+            : Strategie, Redaktionsplan, Content und laufende Betreuung, abgestimmt auf Ihr Angebot in der Stadt.
+          </p>
+          <p className="mt-4 text-lg leading-relaxed text-gray-600">
+            Wenn bereits gesucht wird, führt der Weg oft über{" "}
+            <Link href="/leistungen/google-ads/krefeld" className="font-semibold text-accent-dark underline underline-offset-2">
+              Google Ads Agentur Krefeld
+            </Link>
+            . Suchanzeigen lassen sich auf Krefeld und Ihr echtes Einzugsgebiet begrenzen und mit Tracking von Anrufen
+            oder Formularen auswerten. Aufmerksamkeit vor der Suche entsteht eher über{" "}
+            <Link href="/leistungen/meta-ads/krefeld" className="font-semibold text-accent-dark underline underline-offset-2">
+              Meta Ads Agentur Krefeld
+            </Link>
+            – Instagram- und Facebook-Anzeigen für ein festgelegtes Gebiet.
+          </p>
+          <p className="mt-4 text-lg leading-relaxed text-gray-600">
+            Nicht jedes Unternehmen braucht alle drei Kanäle gleichzeitig. Im kostenlosen Strategiegespräch klären wir,
+            womit ein sinnvoller Start aussieht. SEO und Webseiten können ergänzen; für Suchplatzierungen geben wir
+            keine Garantien.
+          </p>
+        </div>
+      </section>
+
+      <section className="section-padding bg-white">
         <div className="container-custom grid gap-12 lg:grid-cols-2">
           <div>
             <h2 className="text-2xl font-bold text-anthracite lg:text-3xl">Für wen ist das gedacht?</h2>
             <p className="mt-4 text-lg leading-relaxed text-gray-600">
-              Für KMU in Krefeld, die mehr Anfragen, Kunden oder Bewerbungen möchten – und dafür Social Media, Ads oder
-              SEO brauchen.
+              Für kleine und mittlere Unternehmen in Krefeld, die mehr Anfragen oder Sichtbarkeit in der Stadt und im
+              Umland möchten. Typisch sind Dienstleister, Praxen, Pflegedienste, Einzelhandel oder Gastronomie – Betriebe
+              mit regionalem Kundenkreis und ohne eigene Marketingabteilung.
             </p>
             <ul className="mt-6 space-y-3">
               {[
@@ -248,7 +299,9 @@ export default function MarketingAgenturKrefeldPage() {
           <div>
             <h2 className="text-2xl font-bold text-anthracite lg:text-3xl">Weitere Orte in der Region</h2>
             <p className="mt-4 text-lg leading-relaxed text-gray-600">
-              Wir betreuen auch Betriebe in Duisburg, Moers und dem weiteren Einzugsgebiet.
+              Wir betreuen auch Betriebe in Duisburg, Moers und dem weiteren Einzugsgebiet. Für Oberhausen, Mülheim an
+            der Ruhr und Dinslaken gibt es ebenfalls eigene Seiten zu Social Media, Google Ads und Meta Ads. Die
+            Übersicht finden Sie über den Link zum Einzugsgebiet.
             </p>
             <ul className="mt-6 space-y-2">
               <li>
@@ -274,6 +327,41 @@ export default function MarketingAgenturKrefeldPage() {
               </li>
             </ul>
           </div>
+        </div>
+      </section>
+
+      <section className="section-padding">
+        <div className="container-custom max-w-3xl">
+          <h2 className="text-2xl font-bold text-anthracite lg:text-4xl">
+            Zusammenarbeit aus Duisburg – für Unternehmen in Krefeld
+          </h2>
+          <p className="mt-4 text-lg leading-relaxed text-gray-600">
+            Der erste Schritt ist das kostenlose Strategiegespräch. Wir hören zu, schauen uns Ihren bisherigen Auftritt
+            an und sagen Ihnen, welche Kanäle für Krefeld und Ihr Umland sinnvoll erscheinen. Sie bekommen nächste
+            Schritte und eine Budgetorientierung. Das Gespräch ist unverbindlich; es folgt daraus keine automatische
+            Zusammenarbeit.
+          </p>
+          <p className="mt-4 text-lg leading-relaxed text-gray-600">
+            In der Betreuung haben Sie einen festen Ansprechpartner statt wechselnder Zuständigkeiten. Wir arbeiten
+            nachvollziehbar: Sie sehen, was geplant, veröffentlicht oder geschaltet wird. Wir geben keine Garantien für
+            Platzierungen oder eine bestimmte Zahl an Anfragen und werben nicht mit dem Satz, die beste Agentur zu
+            sein. Die öffentlichen Google-Bewertungen von 5,0 Sternen können Sie selbst prüfen.
+          </p>
+          <h2 className="mt-12 text-2xl font-bold text-anthracite lg:text-3xl">
+            Website und Local SEO als Grundlage
+          </h2>
+          <p className="mt-4 text-lg leading-relaxed text-gray-600">
+            Anzeigen und Social Media wirken besser, wenn die Seite und das Google-Profil nach dem Klick überzeugen.
+            Für viele Unternehmen in Krefeld gehört deshalb auch Local SEO dazu: ein gepflegtes Unternehmensprofil,
+            nachvollziehbare Angaben und Inhalte, die zu Suchen wie „Leistung + Krefeld“ passen. Webseiten und
+            Landingpages bieten wir ab 1.500 € (netto) an.
+          </p>
+          <p className="mt-4 text-lg leading-relaxed text-gray-600">
+            Die Reihenfolge ergibt sich aus Ihrer Situation. Manche starten mit Suchanzeigen, andere mit einem
+            sauberen Auftritt in den sozialen Kanälen. Die Seiten zur Social Media Agentur, zur Google Ads Agentur und
+            zur Meta Ads Agentur in Krefeld beschreiben die jeweiligen Wege im Detail – das Strategiegespräch hilft,
+            sie richtig zu gewichten.
+          </p>
         </div>
       </section>
 
