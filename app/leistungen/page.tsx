@@ -78,7 +78,7 @@ export default function LeistungenPage() {
               { title: "Marketing-Agentur Krefeld", href: "/marketing-agentur-krefeld" },
               { title: "Marketing-Agentur Moers", href: "/marketing-agentur-moers" },
               { title: "Local SEO", href: "/leistungen/seo/local-seo" },
-              { title: "Google Ads für Handwerker", href: "/leistungen/google-ads/google-ads-fuer-handwerker" },
+              { title: "Google Ads", href: "/leistungen/google-ads" },
               { title: "Blog: Local SEO Duisburg", href: "/blog/local-seo-duisburg" },
               { title: "Blog: Social Media Marketing Duisburg", href: "/blog/social-media-marketing-duisburg" },
               { title: "Blog: Google Ads Agentur Duisburg", href: "/blog/google-ads-agentur-duisburg" },

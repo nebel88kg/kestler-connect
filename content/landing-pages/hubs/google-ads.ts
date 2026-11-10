@@ -148,11 +148,6 @@ export const googleAdsHub: LandingPage = {
       description: "Ratgeber zu Google Ads vor Ort.",
     },
     {
-      title: "Google Ads für Handwerker",
-      href: "/leistungen/google-ads/google-ads-fuer-handwerker",
-      description: "Suchanzeigen für Handwerksbetriebe.",
-    },
-    {
       title: "Marketing-Agentur Krefeld",
       href: "/marketing-agentur-krefeld",
       description: "Online-Marketing für Unternehmen in Krefeld.",

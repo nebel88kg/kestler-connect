@@ -168,18 +168,6 @@ const ctaBySlug: Record<
     href: "/leistungen/social-media",
     button: "Zur Social Media Agentur",
   },
-  "social-media-fuer-vereine": {
-    title: "Workshop zu Marketing & Sponsoring?",
-    text: "In einem kompakten Workshop erarbeiten wir Sichtbarkeit, Mitgliedergewinnung und Sponsoren-Ansprache für Ihren Verein.",
-    href: "/leistungen/workshops/marketing-sponsoring-vereine",
-    button: "Zum Vereins-Workshop",
-  },
-  "sponsoren-finden": {
-    title: "Jetzt Sponsoren professionell gewinnen",
-    text: "Von der Website über SEO bis Social Media und Google Ads – wir helfen Ihnen, für Sponsoren attraktiv zu werden.",
-    href: "/kontakt",
-    button: "Kostenloses Erstgespräch",
-  },
   "google-ads-vorteile": {
     title: "Jetzt mehr Kunden über Google gewinnen",
     text: "Wir planen, richten ein und optimieren Ihre Google Ads Kampagnen – transparent, datenbasiert und auf Ihre Ziele abgestimmt.",
