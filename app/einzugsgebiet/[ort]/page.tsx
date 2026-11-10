@@ -113,6 +113,16 @@ export default async function LocationPage({ params }: { params: Promise<{ ort: 
                   Duisburg
                 </Link>
               </li>
+              <li>
+                <Link href="/marketing-agentur-krefeld" className="font-semibold text-accent-dark underline underline-offset-2">
+                  Krefeld
+                </Link>
+              </li>
+              <li>
+                <Link href="/marketing-agentur-moers" className="font-semibold text-accent-dark underline underline-offset-2">
+                  Moers
+                </Link>
+              </li>
               {others.map((item) => (
                 <li key={item.slug}>
                   <Link
@@ -133,7 +143,7 @@ export default async function LocationPage({ params }: { params: Promise<{ ort: 
           <nav aria-label="Ratgeber" className="mx-auto mt-8 max-w-3xl">
             <h2 className="text-lg font-bold text-anthracite">Ratgeber aus unserem Blog</h2>
             <ul className="mt-3 space-y-2">
-              {blogPosts.slice(0, 3).map((post) => (
+              {blogPosts.slice(0, 5).map((post) => (
                 <li key={post.slug}>
                   <Link href={`/blog/${post.slug}`} className="font-semibold text-accent-dark underline underline-offset-2">
                     {post.title}
