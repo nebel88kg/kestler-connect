@@ -148,6 +148,16 @@ export const googleAdsHub: LandingPage = {
       description: "Ratgeber zu Google Ads vor Ort.",
     },
     {
+      title: "Google Ads Agentur Moers",
+      href: "/leistungen/google-ads/moers",
+      description: "Suchanzeigen für Unternehmen in Moers.",
+    },
+    {
+      title: "Google Ads Agentur Krefeld",
+      href: "/leistungen/google-ads/krefeld",
+      description: "Suchanzeigen für Unternehmen in Krefeld.",
+    },
+    {
       title: "Marketing-Agentur Krefeld",
       href: "/marketing-agentur-krefeld",
       description: "Online-Marketing für Unternehmen in Krefeld.",

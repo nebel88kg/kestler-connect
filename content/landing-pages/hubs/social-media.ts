@@ -187,6 +187,16 @@ export const socialMediaHub: LandingPage = {
       description: "Überblick über Aufgaben und Nutzen.",
     },
     {
+      title: "Social Media Agentur Moers",
+      href: "/leistungen/social-media/moers",
+      description: "Betreuung und Content für Unternehmen in Moers.",
+    },
+    {
+      title: "Social Media Agentur Krefeld",
+      href: "/leistungen/social-media/krefeld",
+      description: "Betreuung und Content für Unternehmen in Krefeld.",
+    },
+    {
       title: "Marketing-Agentur Moers",
       href: "/marketing-agentur-moers",
       description: "Social Media und Ads für Moers.",

@@ -32,7 +32,7 @@ export const metadata: Metadata = createMetadata({
 const services = [
   {
     title: "Social Media Marketing",
-    href: "/leistungen/social-media",
+    href: "/leistungen/social-media/moers",
     description:
       "Instagram, TikTok und Facebook: Content, Reels und Betreuung für Betriebe in Moers und am Niederrhein.",
   },
@@ -43,12 +43,12 @@ const services = [
   },
   {
     title: "Google Ads",
-    href: "/leistungen/google-ads",
+    href: "/leistungen/google-ads/moers",
     description: "Suchanzeigen, wenn Kundinnen und Kunden in Moers nach Ihrer Leistung suchen.",
   },
   {
     title: "Meta Ads (Instagram & Facebook)",
-    href: "/leistungen/meta-ads",
+    href: "/leistungen/meta-ads/moers",
     description: "Werbung auf Instagram und Facebook – gezielt nach Region und Interessen.",
   },
   {
