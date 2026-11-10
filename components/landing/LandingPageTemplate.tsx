@@ -304,10 +304,11 @@ export function LandingPageTemplate({ page }: LandingPageTemplateProps) {
 
       {(relatedHubs.length > 0 || related.length > 0) && (
         <section className="section-padding">
-          <div className="container-custom max-w-4xl space-y-4">
+          <div className="container-custom max-w-4xl space-y-10">
             {related.length > 0 && (
-              <MoreDetails summary="Vertiefen: Schwerpunkte zu dieser Leistung">
-                <div className="grid gap-3 md:grid-cols-2">
+              <div>
+                <h2 className="text-xl font-bold text-anthracite sm:text-2xl">Vertiefen: Schwerpunkte</h2>
+                <div className="mt-4 grid gap-3 md:grid-cols-2">
                   {related.map((child) => (
                     <Link
                       key={child.href}
@@ -322,11 +323,12 @@ export function LandingPageTemplate({ page }: LandingPageTemplateProps) {
                     </Link>
                   ))}
                 </div>
-              </MoreDetails>
+              </div>
             )}
             {relatedHubs.length > 0 && (
-              <MoreDetails summary="Passende Ergänzungen">
-                <div className="grid gap-3 md:grid-cols-2">
+              <div>
+                <h2 className="text-xl font-bold text-anthracite sm:text-2xl">Passende Ergänzungen</h2>
+                <div className="mt-4 grid gap-3 md:grid-cols-2">
                   {relatedHubs.map((hub) => (
                     <Link
                       key={hub.href}
@@ -341,7 +343,7 @@ export function LandingPageTemplate({ page }: LandingPageTemplateProps) {
                     </Link>
                   ))}
                 </div>
-              </MoreDetails>
+              </div>
             )}
           </div>
         </section>

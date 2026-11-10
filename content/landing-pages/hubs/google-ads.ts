@@ -5,10 +5,10 @@ export const googleAdsHub: LandingPage = {
   path: "/leistungen/google-ads",
   category: "google-ads",
   meta: {
-    title: "Google Ads Agentur Duisburg: Anfragen statt teurer Klicks",
+    title: "Google Ads Agentur Duisburg – mehr Anfragen",
     absoluteTitle: true,
     description:
-      "Google Ads Agentur in Duisburg: Wir richten Ihre Kampagnen ein, tracken jede Anfrage und optimieren laufend. Kostenloses 30-Minuten-Erstgespräch mit Einschätzung.",
+      "Google Ads Agentur Duisburg: Suchanzeigen mit Tracking und Optimierung für lokale Unternehmen. Kostenloses Strategiegespräch.",
     keywords: [
       "google ads duisburg",
       "google ads moers",
@@ -134,6 +134,28 @@ export const googleAdsHub: LandingPage = {
       title: "Golfclub Raffelberg",
       slug: "golfclub-raffelberg",
       excerpt: "Google Ads und Meta Ads für Kurse und Firmenfeiern.",
+    },
+  ],
+  relatedHubs: [
+    {
+      title: "Local SEO Duisburg",
+      href: "/leistungen/seo/local-seo",
+      description: "Lokal bei Google und Maps gefunden werden.",
+    },
+    {
+      title: "Blog: Google Ads Agentur Duisburg",
+      href: "/blog/google-ads-agentur-duisburg",
+      description: "Ratgeber zu Google Ads vor Ort.",
+    },
+    {
+      title: "Google Ads für Handwerker",
+      href: "/leistungen/google-ads/google-ads-fuer-handwerker",
+      description: "Suchanzeigen für Handwerksbetriebe.",
+    },
+    {
+      title: "Marketing-Agentur Krefeld",
+      href: "/marketing-agentur-krefeld",
+      description: "Online-Marketing für Unternehmen in Krefeld.",
     },
   ],
   faq: [
