@@ -28,6 +28,24 @@ const nextConfig: NextConfig = {
         destination: "/marketing-agentur-moers",
         permanent: true,
       },
+      // Leistung × Duisburg: exakte Such-URLs auf die bestehenden Leistungsseiten
+      // (H1/Title dort bereits mit Duisburg), damit keine zweite Kopie entsteht.
+      // Bewusst keine Redirects für Moers/Krefeld – dort entstehen eigene Seiten.
+      {
+        source: "/social-media-agentur-duisburg",
+        destination: "/leistungen/social-media",
+        statusCode: 301,
+      },
+      {
+        source: "/meta-ads-agentur-duisburg",
+        destination: "/leistungen/meta-ads",
+        statusCode: 301,
+      },
+      {
+        source: "/google-ads-agentur-duisburg",
+        destination: "/leistungen/google-ads",
+        statusCode: 301,
+      },
       // Nischenseiten Handwerker / Vereine / Golfclubs → passende Hubs (Zielgruppe: KMU).
       {
         source: "/leistungen/google-ads/google-ads-fuer-handwerker",
