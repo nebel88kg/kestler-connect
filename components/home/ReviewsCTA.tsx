@@ -22,7 +22,7 @@ export function ReviewsCTA() {
             </p>
             <div className="mt-6 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
               <Button href="/kontakt" size="md">
-                Kostenloses Erstgespräch
+                Kostenloses Strategiegespräch
               </Button>
               <Button href={googleBusiness.mapsUrl} external variant="outline" size="md">
                 Alle Google-Bewertungen

@@ -20,7 +20,7 @@ const trustPoints = [
     description: "Standort Duisburg, BNI-Mitglied und aktiv im lokalen Umfeld.",
   },
   {
-    title: "Kostenloses Erstgespräch",
+    title: "Kostenloses Strategiegespräch",
     description: "Unverbindlich prüfen, ob Social Media, Ads oder SEO für Sie Sinn ergeben.",
   },
 ];

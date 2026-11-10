@@ -106,7 +106,7 @@ export function ServicesGrid() {
 
           <div className="mt-8 flex flex-col items-center gap-3 text-center">
             <Button href="/kontakt" size="md">
-              Kostenloses Erstgespräch
+              Kostenloses Strategiegespräch
             </Button>
             <Link
               href="/einzugsgebiet"

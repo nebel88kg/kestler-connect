@@ -14,7 +14,7 @@ export function ContactCTA() {
               Jetzt starten
             </p>
             <h2 className="text-2xl font-extrabold text-white sm:text-3xl lg:text-5xl">
-              Kostenloses Erstgespräch anfragen
+              Kostenloses Strategiegespräch anfragen
             </h2>
             <p className="mt-4 text-lg text-gray-300">
               Schildern Sie uns kurz Ihr Vorhaben – wir melden uns zeitnah, unverbindlich und ohne Verpflichtung.
