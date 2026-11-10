@@ -84,6 +84,41 @@ export interface BreadcrumbItem {
   href?: string;
 }
 
+/** Absoluten Kanonikallink für JSON-LD bilden (www, ohne Slash am Ende außer Startseite). */
+export function toAbsoluteUrl(href: string): string {
+  if (/^https?:\/\//i.test(href)) {
+    return href;
+  }
+  const path = href.startsWith("/") ? href : `/${href}`;
+  if (path === "/") {
+    return `${siteConfig.url}/`;
+  }
+  return `${siteConfig.url}${path.replace(/\/+$/, "")}`;
+}
+
+/**
+ * BreadcrumbList-JSON-LD zu den sichtbaren Breadcrumb-Einträgen.
+ * Namen entsprechen den Labels, URLs sind absolut. Einträge ohne href
+ * (letzter sichtbarer Crumb auf manchen Seiten) erhalten nur Name und Position.
+ */
+export function createBreadcrumbSchema(items: BreadcrumbItem[]): Record<string, unknown> {
+  return {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: items.map((item, index) => {
+      const entry: Record<string, unknown> = {
+        "@type": "ListItem",
+        position: index + 1,
+        name: item.label,
+      };
+      if (item.href) {
+        entry.item = toAbsoluteUrl(item.href);
+      }
+      return entry;
+    }),
+  };
+}
+
 export function createBreadcrumbsFromPath(path: string): BreadcrumbItem[] {
   const segments = path.split("/").filter(Boolean);
   const breadcrumbs: BreadcrumbItem[] = [{ label: "Startseite", href: "/" }];
