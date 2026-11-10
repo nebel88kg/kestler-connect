@@ -7,7 +7,7 @@ export const webseitenHub: LandingPage = {
   meta: {
     title: "Website erstellen lassen Duisburg | Webdesign Moers | Kestler Connect",
     description:
-      "Website erstellen lassen in Duisburg, im Ruhrgebiet und am Niederrhein: Webdesign und Homepage erstellen lassen für regionale Unternehmen – conversion-stark und ads-ready.",
+      "Website erstellen lassen in Duisburg, im Ruhrgebiet und am Niederrhein: Webdesign und Homepage erstellen lassen für KMU – conversion-stark und ads-ready.",
     keywords: [
       "website erstellen lassen duisburg",
       "webdesign duisburg",
@@ -22,7 +22,7 @@ export const webseitenHub: LandingPage = {
   hero: {
     headline: "Website erstellen lassen in Duisburg, Ruhrgebiet & Niederrhein – klar, schnell, anfrageorientiert",
     subheadline:
-      "Webdesign und Homepages für regionale und lokale Unternehmen – damit Besucher und Ads zu Anfragen werden.",
+      "Webdesign und Homepages für kleine und mittlere Unternehmen – damit Besucher und Ads zu Anfragen werden.",
   },
   intro: {
     title: "Warum eine starke Website entscheidend ist",
@@ -34,10 +34,10 @@ export const webseitenHub: LandingPage = {
   audience: {
     title: "Für wen eignet sich eine neue Website?",
     paragraphs: [
-      "Für Unternehmen mit veralteter Seite, schwacher Conversion oder ohne professionellen Online-Auftritt – besonders wenn Ads oder SEO geplant sind.",
+      "Für KMU mit veralteter Seite, schwacher Conversion oder ohne professionellen Online-Auftritt – besonders wenn Ads oder SEO geplant sind.",
     ],
     points: [
-      "Lokale Dienstleister und KMU",
+      "Kleine und mittlere Unternehmen",
       "Unternehmen mit Ads-Plänen",
       "Betriebe ohne mobile-freundliche Seite",
       "Anbieter mit klaren Leistungsangeboten",

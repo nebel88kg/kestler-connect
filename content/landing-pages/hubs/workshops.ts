@@ -5,21 +5,21 @@ export const workshopsHub: LandingPage = {
   path: "/leistungen/workshops",
   category: "workshops",
   meta: {
-    title: "Marketing Workshops Duisburg | Startup & Sponsoring | Kestler Connect",
+    title: "Marketing Workshops Duisburg | Startup & KMU | Kestler Connect",
     description:
-      "Kompakte Marketing-Workshops in Duisburg: für Startups, lokale Unternehmen und Vereine – klare Strategie ohne großes Monatsbudget.",
+      "Kompakte Marketing-Workshops in Duisburg: für Startups sowie kleine und mittlere Unternehmen – klare Strategie ohne großes Monatsbudget.",
     keywords: [
       "marketing workshop",
       "startup marketing workshop",
       "marketing schulung duisburg",
-      "sponsoring workshop",
       "social media workshop",
+      "marketing workshop kmu",
     ],
   },
   hero: {
     headline: "Marketing Workshops Duisburg – Klarheit in wenigen Stunden",
     subheadline:
-      "Kompakte Formate für Startups, lokale Unternehmen und Vereine – Strategie und nächste Schritte ohne großes Monatsbudget.",
+      "Kompakte Formate für Startups sowie kleine und mittlere Unternehmen – Strategie und nächste Schritte ohne großes Monatsbudget.",
   },
   intro: {
     title: "Warum ein Workshop statt sofortiger Betreuung?",
@@ -31,14 +31,14 @@ export const workshopsHub: LandingPage = {
   audience: {
     title: "Für wen eignen sich die Workshops?",
     paragraphs: [
-      "Für Gründer, lokale Betriebe und Vereine, die Marketing verstehen und priorisieren wollen – bevor Budget in Zufallsmaßnahmen fließt.",
+      "Für Gründer sowie KMU, die Marketing verstehen und priorisieren wollen – bevor Budget in Zufallsmaßnahmen fließt.",
     ],
     points: [
       "Startups und junge Marken",
-      "Lokale Unternehmen ohne Marketing-Team",
-      "Vereine mit Sponsoring-Fragen",
-      "Betriebe vor dem ersten Ads-Budget",
+      "Kleine und mittlere Unternehmen ohne Marketing-Team",
+      "Lokale KMU vor dem ersten Ads-Budget",
       "Teams, die intern mehr Klarheit brauchen",
+      "Betriebe mit begrenztem Monatsbudget",
     ],
   },
   problem: {
@@ -47,7 +47,7 @@ export const workshopsHub: LandingPage = {
       "Zu viele Kanäle, keine Priorität",
       "Unklar, ob Social, Ads oder Website zuerst",
       "Budgetangst ohne Plan",
-      "Sponsoring ohne klare Gegenleistung",
+      "Maßnahmen ohne klare Gegenleistung oder Ziel",
       "Umsetzung bleibt im Alltag liegen",
     ],
   },
@@ -83,8 +83,8 @@ export const workshopsHub: LandingPage = {
       icon: "users",
     },
     {
-      title: "Sponsoring-Option",
-      description: "Eigene Formate für Vereine und Partnerschaften.",
+      title: "Sofort anwendbar",
+      description: "Handwerkszeug statt Theorie – direkt umsetzbar.",
       icon: "social",
     },
   ],
@@ -143,9 +143,9 @@ export const workshopsHub: LandingPage = {
         "Nein. Sie können selbst umsetzen oder optional Betreuung, Ads oder Website beauftragen.",
     },
     {
-      question: "Was ist der Sponsoring-Workshop?",
+      question: "Eignet sich ein Workshop auch für etablierte KMU?",
       answer:
-        "Ein Format für Vereine und Organisationen, die Partnerschaften und Gegenleistungen klarer aufstellen wollen.",
+        "Ja. Viele kleine und mittlere Unternehmen nutzen den Workshop, um Kanäle und Budget zu priorisieren – bevor sie in laufende Betreuung starten.",
     },
     {
       question: "Online oder vor Ort?",
