@@ -23,6 +23,9 @@ import { googleAdsEssen } from "./cities/google-ads-essen";
 import { googleAdsDuesseldorf } from "./cities/google-ads-duesseldorf";
 import { metaAdsEssen } from "./cities/meta-ads-essen";
 import { metaAdsDuesseldorf } from "./cities/meta-ads-duesseldorf";
+import { socialMediaDuisburg } from "./cities/social-media-duisburg";
+import { googleAdsDuisburg } from "./cities/google-ads-duisburg";
+import { metaAdsDuisburg } from "./cities/meta-ads-duisburg";
 
 export { leadgewinnungHub as leadgewinnung } from "./hubs";
 export { mitarbeitergewinnungHub as mitarbeitergewinnung } from "./hubs";
@@ -62,4 +65,7 @@ export const fullLandingPages: LandingPage[] = [
   googleAdsDuesseldorf,
   metaAdsEssen,
   metaAdsDuesseldorf,
+  socialMediaDuisburg,
+  googleAdsDuisburg,
+  metaAdsDuisburg,
 ];
