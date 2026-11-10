@@ -45,12 +45,10 @@ Wer nur auf eine Website setzt, verliert oft den Kontakt zwischen den Suchmoment
 
 Grundsätzlich profitieren Betriebe mit einem klaren regionalen Einzugsgebiet. Typische Beispiele:
 
-- Pflegedienste und Gesundheitsangebote
-- Handwerk und Bau
+- Pflegedienste, Praxen und Gesundheitsangebote
 - Gastronomie, Hotels und Events
 - Handel und Standorte mit Filialbezug
 - Dienstleister und Beratungen
-- Vereine und regionale Organisationen
 
 Nicht jede Branche braucht denselben Kanal. Entscheidend ist, wo Ihre Kundinnen, Kunden oder Bewerberinnen und Bewerber tatsächlich unterwegs sind – und ob Sie dort regelmäßig und glaubwürdig auftreten können.
 
@@ -131,7 +129,7 @@ Wie diese Bausteine zusammenspielen, lesen Sie auch unter [Performance Marketing
 
 Social Media Marketing in Duisburg ist kein Trend-Thema, sondern ein Werkzeug für lokale Sichtbarkeit. Wer Kanäle bewusst wählt, echte Inhalte liefert und Social Media mit Website, Google und ggf. Ads verbindet, baut Vertrauen auf – und macht Anfragen wahrscheinlicher.
 
-Wenn Sie prüfen möchten, wie Social Media Marketing für Ihr Unternehmen in Duisburg, im Ruhrgebiet oder am Niederrhein aussehen kann, sprechen Sie uns an. Im kostenlosen und unverbindlichen Erstgespräch schauen wir auf Ziel, Einzugsgebiet und Ist-Zustand. Hier geht es direkt zum [Kontakt](/kontakt).
+Wenn Sie prüfen möchten, wie Social Media Marketing für Ihr Unternehmen in Duisburg, im Ruhrgebiet oder am Niederrhein aussehen kann, sprechen Sie uns an. Im kostenlosen und unverbindlichen Strategiegespräch schauen wir auf Ziel, Einzugsgebiet und Ist-Zustand. Hier geht es direkt zum [Kontakt](/kontakt).
 
 ## Häufig gestellte Fragen (FAQ)
 

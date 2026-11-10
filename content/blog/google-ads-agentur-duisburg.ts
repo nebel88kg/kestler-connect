@@ -87,7 +87,7 @@ Kurze Wege helfen. Sie wissen, wen Sie fragen, und bekommen eine ehrliche Antwor
 
 ## So läuft die Zusammenarbeit typischerweise ab
 
-1. **Erstgespräch:** Ziel, Region und Ausgangslage klären
+1. **Strategiegespräch:** Ziel, Region und Ausgangslage klären
 2. **Analyse:** Website, bestehende Kampagnen und Wettbewerb prüfen
 3. **Aufbau:** Kampagnen, Anzeigen und Tracking einrichten
 4. **Start:** Kampagne live schalten und beobachten
@@ -119,7 +119,7 @@ Es gibt zwei Kostenblöcke: das Werbebudget, das an Google geht, und die Betreuu
 
 Eine Google Ads Agentur in Duisburg lohnt sich, wenn Sie regionale Suchnachfrage in Anfragen verwandeln möchten und dafür Struktur, Messung und laufende Pflege brauchen. Achten Sie auf klare Ziele, ein eigenes Konto, saubere Messung und einen Ansprechpartner, der verständlich berichtet.
 
-Wenn Sie wissen möchten, ob Google Ads zu Ihrem Unternehmen passt, sprechen Sie uns an. Im kostenlosen und unverbindlichen Erstgespräch schauen wir gemeinsam auf Ihre Ausgangslage und empfehlen den nächsten Schritt. Hier geht es direkt zum [Kontakt](/kontakt).
+Wenn Sie wissen möchten, ob Google Ads zu Ihrem Unternehmen passt, sprechen Sie uns an. Im kostenlosen und unverbindlichen Strategiegespräch schauen wir gemeinsam auf Ihre Ausgangslage und empfehlen den nächsten Schritt. Hier geht es direkt zum [Kontakt](/kontakt).
 
 ## Häufig gestellte Fragen (FAQ)
 
@@ -137,7 +137,7 @@ Ja. Das funktioniert, wenn Ihr Angebot klar ist und jemand regelmäßig Zeit fü
 
 **Brauche ich nur Google Ads oder auch Meta Ads?**
 
-Google Ads erreicht Menschen mit Suchabsicht. Meta Ads schafft Aufmerksamkeit bei Menschen, die gerade nicht suchen. Viele Unternehmen nutzen beides. Was zuerst sinnvoll ist, klären wir im Erstgespräch.
+Google Ads erreicht Menschen mit Suchabsicht. Meta Ads schafft Aufmerksamkeit bei Menschen, die gerade nicht suchen. Viele Unternehmen nutzen beides. Was zuerst sinnvoll ist, klären wir im Strategiegespräch.
 
 **Wie schnell zeigen sich Ergebnisse?**
 

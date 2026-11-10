@@ -21,7 +21,7 @@ Das Media-Budget bestimmen Sie selbst. Wie viel sinnvoll ist, hängt von Branche
 
 ### Agenturkosten
 
-Professionelle Betreuung kalkulieren wir individuell nach Umfang und Kampagnenzahl — im Erstgespräch erhalten Sie eine klare Einschätzung ohne Pauschalversprechen.
+Professionelle Betreuung kalkulieren wir individuell nach Umfang und Kampagnenzahl — im Strategiegespräch erhalten Sie eine klare Einschätzung ohne Pauschalversprechen.
 
 ## Was beeinflusst die Kosten?
 
@@ -39,8 +39,8 @@ Google Ads lohnt sich, wenn:
 
 ## Fazit
 
-Gesamtkosten aus Media-Budget und Betreuung hängen stark von Branche und Wettbewerb ab. Ob sich der Einsatz rechnet, prüfen wir gemeinsam anhand Ihres Auftragswerts — unverbindlich im Erstgespräch.
+Gesamtkosten aus Media-Budget und Betreuung hängen stark von Branche und Wettbewerb ab. Ob sich der Einsatz rechnet, prüfen wir gemeinsam anhand Ihres Auftragswerts — unverbindlich im Strategiegespräch.
 
-**Möchten Sie wissen, was Google Ads für Ihr Unternehmen kostet?** Buchen Sie ein kostenloses Erstgespräch mit Kestler Connect.
+**Möchten Sie wissen, was Google Ads für Ihr Unternehmen kostet?** Buchen Sie ein kostenloses Strategiegespräch mit Kestler Connect.
   `.trim(),
 };
