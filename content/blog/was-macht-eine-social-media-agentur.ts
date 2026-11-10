@@ -24,7 +24,7 @@ Ziel ist nicht „möglichst viele Posts“, sondern ein professioneller, wieder
 
 Bei Kestler Connect in Duisburg ist genau das unser Schwerpunkt: Wir sind primär [Social-Media-Agentur](/leistungen/social-media) und verbinden Content bei Bedarf mit [Performance Marketing](/leistungen/performance-marketing) und [Website-Erstellung](/leistungen/webseiten).
 
-Wir arbeiten für Unternehmen aus Duisburg und Umgebung, zum Beispiel als [Social Media Agentur in Moers](/marketing-agentur-moers) oder für Betriebe in [Krefeld](/marketing-agentur-krefeld).
+Wir arbeiten für Unternehmen aus Duisburg und Umgebung, zum Beispiel als [Social Media Agentur in Moers](/leistungen/social-media/moers) oder als [Social Media Agentur in Krefeld](/leistungen/social-media/krefeld).
 
 ## Warum Unternehmen eine Social Media Agentur beauftragen
 

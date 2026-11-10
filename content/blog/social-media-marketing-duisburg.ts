@@ -30,7 +30,7 @@ Für lokale Unternehmen heißt das: regional denken, regelmäßig liefern und So
 
 Duisburg, Moers, Oberhausen, Mülheim, Essen und der Niederrhein sind dicht besiedelt. Kundinnen und Kunden suchen oft lokal – und entscheiden sich für Anbieter, die greifbar und vertrauenswürdig wirken.
 
-Wir betreuen Unternehmen in der ganzen Region: als [Marketing-Agentur in Duisburg](/marketing-agentur-duisburg), als [Social Media Agentur in Moers](/marketing-agentur-moers) und für Betriebe in [Krefeld](/marketing-agentur-krefeld).
+Wir betreuen Unternehmen in der ganzen Region: als [Marketing-Agentur in Duisburg](/marketing-agentur-duisburg), als [Social Media Agentur in Moers](/leistungen/social-media/moers) und als [Social Media Agentur in Krefeld](/leistungen/social-media/krefeld).
 
 Genau dort setzt Social Media an:
 

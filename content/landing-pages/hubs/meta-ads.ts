@@ -138,6 +138,28 @@ export const metaAdsHub: LandingPage = {
       excerpt: "Meta Ads und Google Ads für Kurse und Mitgliedergewinnung.",
     },
   ],
+  relatedHubs: [
+    {
+      title: "Meta Ads Agentur Moers",
+      href: "/leistungen/meta-ads/moers",
+      description: "Instagram- und Facebook-Anzeigen für Unternehmen in Moers.",
+    },
+    {
+      title: "Meta Ads Agentur Krefeld",
+      href: "/leistungen/meta-ads/krefeld",
+      description: "Instagram- und Facebook-Anzeigen für Unternehmen in Krefeld.",
+    },
+    {
+      title: "Marketing-Agentur Moers",
+      href: "/marketing-agentur-moers",
+      description: "Online-Marketing für Unternehmen in Moers.",
+    },
+    {
+      title: "Marketing-Agentur Krefeld",
+      href: "/marketing-agentur-krefeld",
+      description: "Online-Marketing für Unternehmen in Krefeld.",
+    },
+  ],
   faq: [
     {
       question: "Wie läuft das kostenlose 30-Minuten-Strategiegespräch ab?",
