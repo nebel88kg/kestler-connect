@@ -32,7 +32,7 @@ Dienstleister, Handwerksbetriebe mit Gewerbekunden, Zulieferer, Beratungen und A
 
 ### Betriebe, die Fachkräfte suchen
 
-Viele Fach- und Führungskräfte schauen sich auf LinkedIn an, wie ein Arbeitgeber auftritt. Einblicke ins Team, in Projekte und in den Arbeitsalltag machen Ihr Unternehmen greifbar, lange bevor eine Stellenanzeige erscheint. Mehr zum Thema lesen Sie im Beitrag [Mitarbeitergewinnung im Handwerk](/blog/mitarbeitergewinnung-im-handwerk).
+Viele Fach- und Führungskräfte schauen sich auf LinkedIn an, wie ein Arbeitgeber auftritt. Einblicke ins Team, in Projekte und in den Arbeitsalltag machen Ihr Unternehmen greifbar, lange bevor eine Stellenanzeige erscheint. Mehr zum Thema lesen Sie auf unserer Seite [Mitarbeitergewinnung](/leistungen/mitarbeitergewinnung).
 
 ### Pflege, Gesundheit und soziale Einrichtungen
 
@@ -125,7 +125,7 @@ So oft, wie Sie es dauerhaft schaffen. Für viele Unternehmer ist ein Beitrag pr
 
 **Ist LinkedIn auch für Handwerksbetriebe interessant?**
 
-Ja, besonders wenn Sie für Gewerbekunden, Hausverwaltungen oder öffentliche Auftraggeber arbeiten oder Fachkräfte suchen. Für Privatkunden sind Instagram, Facebook und Ihr Google-Unternehmensprofil meist wichtiger. Mehr dazu im Beitrag [Social Media für Handwerksbetriebe](/blog/social-media-fuer-handwerksbetriebe).
+Ja, besonders wenn Sie für Gewerbekunden, Hausverwaltungen oder öffentliche Auftraggeber arbeiten oder Fachkräfte suchen. Für Privatkunden sind Instagram, Facebook und Ihr Google-Unternehmensprofil meist wichtiger. Mehr dazu auf unserer Seite [Social Media](/leistungen/social-media).
 
 **Kann ich LinkedIn-Beiträge auch auf Instagram oder Facebook verwenden?**
 

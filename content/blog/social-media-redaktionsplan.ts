@@ -125,7 +125,7 @@ Die besten Themen liegen meist im eigenen Alltag:
 - Tipps, die Ihren Kunden Zeit, Ärger oder Geld sparen
 - Ihr Engagement in der Region
 
-Ein gemeinsamer Ordner, in dem das Team Fotos und Ideen sammelt, macht die Planung deutlich leichter. Wie das in einzelnen Branchen aussieht, zeigen unsere Beiträge zu [Social Media für Handwerksbetriebe](/blog/social-media-fuer-handwerksbetriebe), [Social Media für Gastronomie](/blog/social-media-fuer-gastronomie) und [Social Media für Pflegedienste](/blog/social-media-fuer-pflegedienste).
+Ein gemeinsamer Ordner, in dem das Team Fotos und Ideen sammelt, macht die Planung deutlich leichter. Wie das in einzelnen Branchen aussieht, zeigen unsere Beiträge zu [Social Media für Gastronomie](/blog/social-media-fuer-gastronomie) und [Social Media für Pflegedienste](/blog/social-media-fuer-pflegedienste).
 
 ## Redaktionsplan und Anzeigen zusammendenken
 

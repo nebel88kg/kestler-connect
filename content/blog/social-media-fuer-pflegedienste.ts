@@ -81,7 +81,7 @@ Damit daraus Bewerbungen werden, braucht es:
 - einen einfachen Bewerbungsweg, zum Beispiel ein kurzes Formular ohne Lebenslauf-Pflicht
 - schnelle Rückmeldung auf jede Bewerbung
 
-Mehr zum Thema finden Sie auf unserer Seite [Mitarbeitergewinnung](/leistungen/mitarbeitergewinnung) und im Beitrag [Mitarbeitergewinnung im Handwerk](/blog/mitarbeitergewinnung-im-handwerk). Viele Ansätze lassen sich gut auf die Pflege übertragen.
+Mehr zum Thema finden Sie auf unserer Seite [Mitarbeitergewinnung](/leistungen/mitarbeitergewinnung). Viele Ansätze lassen sich gut auf die Pflege übertragen.
 
 ## Mit wenig Zeit regelmäßig sichtbar bleiben
 

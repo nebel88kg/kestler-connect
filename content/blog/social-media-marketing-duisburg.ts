@@ -55,9 +55,7 @@ Nicht jede Branche braucht denselben Kanal. Entscheidend ist, wo Ihre Kundinnen,
 Vertiefende Branchenbeiträge:
 
 - [Social Media für Pflegedienste](/blog/social-media-fuer-pflegedienste)
-- [Social Media für Handwerksbetriebe](/blog/social-media-fuer-handwerksbetriebe)
 - [Social Media für Gastronomie](/blog/social-media-fuer-gastronomie)
-- [Social Media für Vereine](/blog/social-media-fuer-vereine)
 
 ## Die wichtigsten Bausteine
 
