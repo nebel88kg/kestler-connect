@@ -39,19 +39,25 @@ export function getLocation(slug: string): Location | undefined {
   return locations.find((location) => location.slug === slug);
 }
 
-export function locationServices(name: string): { question: string; answer: string }[] {
+/** Orte mit eigenen Leistungs-Ortsseiten unter /leistungen/{kanal}/{slug}. */
+export const cityServiceSlugs = new Set(["oberhausen", "muelheim-an-der-ruhr", "dinslaken"]);
+
+export function locationServices(name: string, slug?: string): { question: string; answer: string }[] {
+  const socialHref = slug && cityServiceSlugs.has(slug) ? `/leistungen/social-media/${slug}` : "/leistungen/social-media";
+  const googleHref = slug && cityServiceSlugs.has(slug) ? `/leistungen/google-ads/${slug}` : "/leistungen/google-ads";
+  const metaHref = slug && cityServiceSlugs.has(slug) ? `/leistungen/meta-ads/${slug}` : "/leistungen/meta-ads";
   return [
     {
       question: `Social Media Agentur für ${name}`,
-      answer: `Redaktionsplan, Content, Reels und Community-Management für Unternehmen in ${name}, damit Ihr Auftritt regelmäßig und professionell wirkt. [Mehr zu Social Media](/leistungen/social-media)`,
+      answer: `Redaktionsplan, Content, Reels und Community-Management für Unternehmen in ${name}, damit Ihr Auftritt regelmäßig und professionell wirkt. [Mehr zu Social Media](${socialHref})`,
     },
     {
       question: `Google Ads für ${name}`,
-      answer: `Suchanzeigen, die erscheinen, wenn Menschen in ${name} und Umgebung nach Ihrer Leistung suchen – mit Tracking von Anrufen und Formularen. [Mehr zu Google Ads](/leistungen/google-ads)`,
+      answer: `Suchanzeigen, die erscheinen, wenn Menschen in ${name} und Umgebung nach Ihrer Leistung suchen – mit Tracking von Anrufen und Formularen. [Mehr zu Google Ads](${googleHref})`,
     },
     {
       question: `Meta Ads (Instagram & Facebook) für ${name}`,
-      answer: `Anzeigen auf Instagram und Facebook, regional ausgespielt, für Reichweite und Anfragen. [Mehr zu Meta Ads](/leistungen/meta-ads)`,
+      answer: `Anzeigen auf Instagram und Facebook, regional ausgespielt, für Reichweite und Anfragen. [Mehr zu Meta Ads](${metaHref})`,
     },
     {
       question: `SEO & Local SEO für ${name}`,

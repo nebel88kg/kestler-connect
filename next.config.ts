@@ -76,6 +76,66 @@ const nextConfig: NextConfig = {
         destination: "/leistungen/google-ads/krefeld",
         statusCode: 301,
       },
+      {
+        source: "/social-media-agentur-oberhausen",
+        destination: "/leistungen/social-media/oberhausen",
+        statusCode: 301,
+      },
+      {
+        source: "/meta-ads-agentur-oberhausen",
+        destination: "/leistungen/meta-ads/oberhausen",
+        statusCode: 301,
+      },
+      {
+        source: "/google-ads-agentur-oberhausen",
+        destination: "/leistungen/google-ads/oberhausen",
+        statusCode: 301,
+      },
+      {
+        source: "/social-media-agentur-muelheim-an-der-ruhr",
+        destination: "/leistungen/social-media/muelheim-an-der-ruhr",
+        statusCode: 301,
+      },
+      {
+        source: "/meta-ads-agentur-muelheim-an-der-ruhr",
+        destination: "/leistungen/meta-ads/muelheim-an-der-ruhr",
+        statusCode: 301,
+      },
+      {
+        source: "/google-ads-agentur-muelheim-an-der-ruhr",
+        destination: "/leistungen/google-ads/muelheim-an-der-ruhr",
+        statusCode: 301,
+      },
+      {
+        source: "/social-media-agentur-muelheim",
+        destination: "/leistungen/social-media/muelheim-an-der-ruhr",
+        statusCode: 301,
+      },
+      {
+        source: "/meta-ads-agentur-muelheim",
+        destination: "/leistungen/meta-ads/muelheim-an-der-ruhr",
+        statusCode: 301,
+      },
+      {
+        source: "/google-ads-agentur-muelheim",
+        destination: "/leistungen/google-ads/muelheim-an-der-ruhr",
+        statusCode: 301,
+      },
+      {
+        source: "/social-media-agentur-dinslaken",
+        destination: "/leistungen/social-media/dinslaken",
+        statusCode: 301,
+      },
+      {
+        source: "/meta-ads-agentur-dinslaken",
+        destination: "/leistungen/meta-ads/dinslaken",
+        statusCode: 301,
+      },
+      {
+        source: "/google-ads-agentur-dinslaken",
+        destination: "/leistungen/google-ads/dinslaken",
+        statusCode: 301,
+      },
       // Nischenseiten Handwerker / Vereine / Golfclubs → passende Hubs (Zielgruppe: KMU).
       {
         source: "/leistungen/google-ads/google-ads-fuer-handwerker",

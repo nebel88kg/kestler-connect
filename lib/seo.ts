@@ -142,6 +142,9 @@ export function createBreadcrumbsFromPath(path: string): BreadcrumbItem[] {
     "marketing-agentur-krefeld": "Marketing-Agentur Krefeld",
     "marketing-agentur-moers": "Marketing-Agentur Moers",
     einzugsgebiet: "Einzugsgebiet",
+    oberhausen: "Oberhausen",
+    dinslaken: "Dinslaken",
+    "muelheim-an-der-ruhr": "Mülheim an der Ruhr",
   };
 
   for (const segment of segments) {

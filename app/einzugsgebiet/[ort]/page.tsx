@@ -38,7 +38,7 @@ export default async function LocationPage({ params }: { params: Promise<{ ort: 
   if (!location) notFound();
 
   const faq = locationFaq(location.name);
-  const services = locationServices(location.name);
+  const services = locationServices(location.name, location.slug);
   const tel = siteConfig.phone.replace(/\s/g, "");
   const others = locations.filter((item) => item.slug !== location.slug);
 
