@@ -5,24 +5,24 @@ export const websiteErstellenLassenDuisburg: BlogPost = {
   title:
     "Website erstellen lassen in Duisburg: Worauf lokale Unternehmen achten sollten",
   excerpt:
-    "Eine Website soll gefunden werden und Anfragen bringen – nicht nur gut aussehen. Worauf regionale Unternehmen in Duisburg, im Ruhrgebiet und am Niederrhein achten sollten, bevor sie eine Website erstellen lassen.",
+    "Eine Website soll gefunden werden und Anfragen bringen – nicht nur gut aussehen. Worauf KMU in Duisburg, im Ruhrgebiet und am Niederrhein achten sollten, bevor sie eine Website erstellen lassen.",
   metaTitle:
     "Website erstellen lassen Duisburg | Worauf lokale Unternehmen achten sollten",
   metaDescription:
-    "Website erstellen lassen in Duisburg: Aufbau, Inhalte, Local SEO, Tracking und Anbindung an Google Ads, Meta Ads und Social Media – praxisnah erklärt für lokale Unternehmen.",
+    "Website erstellen lassen in Duisburg: Aufbau, Inhalte, Local SEO, Tracking und Anbindung an Google Ads, Meta Ads und Social Media – praxisnah erklärt für KMU.",
   date: "2026-10-16",
   category: "Webseiten",
   readTime: "8 Min.",
   content: `
-Viele lokale Unternehmen in Duisburg und Umgebung haben eine Website – aber nur wenige bekommen darüber regelmäßig Anfragen. Oft ist die Seite veraltet, auf dem Smartphone schwer zu bedienen oder erklärt nicht klar, was der Betrieb eigentlich anbietet.
+Viele kleine und mittlere Unternehmen in Duisburg und Umgebung haben eine Website – aber nur wenige bekommen darüber regelmäßig Anfragen. Oft ist die Seite veraltet, auf dem Smartphone schwer zu bedienen oder erklärt nicht klar, was der Betrieb eigentlich anbietet.
 
 Wer eine Website erstellen lassen möchte, sollte deshalb nicht zuerst über Farben und Schriften sprechen, sondern über Ziele: Wer soll die Seite finden? Was sollen Besucher dort tun? Und wie passt die Website zu Google, Social Media und Anzeigen?
 
-In diesem Beitrag zeigen wir, worauf es bei einer Website für regionale Unternehmen in Duisburg, im Ruhrgebiet und am Niederrhein ankommt.
+In diesem Beitrag zeigen wir, worauf es bei einer Website für KMU in Duisburg, im Ruhrgebiet und am Niederrhein ankommt.
 
-## Kurzantwort: Was macht eine gute Website für lokale Unternehmen aus?
+## Kurzantwort: Was macht eine gute Website für KMU aus?
 
-Eine gute Website für lokale Unternehmen erklärt in wenigen Sekunden, was Sie anbieten und für wen. Sie funktioniert auf dem Smartphone, lädt schnell, zeigt Vertrauen und macht den nächsten Schritt leicht – anrufen, Formular ausfüllen oder Termin anfragen.
+Eine gute Website für kleine und mittlere Unternehmen erklärt in wenigen Sekunden, was Sie anbieten und für wen. Sie funktioniert auf dem Smartphone, lädt schnell, zeigt Vertrauen und macht den nächsten Schritt leicht – anrufen, Formular ausfüllen oder Termin anfragen.
 
 Dazu kommt eine saubere technische Basis, damit Google und KI-Tools wie ChatGPT Ihre Inhalte verstehen und Ihr Unternehmen bei passenden Suchanfragen zeigen können. Mehr zu unserem Vorgehen finden Sie auf der Seite [Website erstellen lassen](/leistungen/webseiten).
 
@@ -111,7 +111,7 @@ So sehen Sie, welche Seiten und Kanäle Anfragen bringen, und können gezielt na
 
 ## Worauf Sie bei der Auswahl einer Agentur achten sollten
 
-Fragen Sie nicht nur nach dem Design, sondern auch danach, wie die Website Anfragen bringen soll. Hilfreiche Fragen im Erstgespräch:
+Fragen Sie nicht nur nach dem Design, sondern auch danach, wie die Website Anfragen bringen soll. Hilfreiche Fragen im Strategiegespräch:
 
 - Wie wird die Seite für lokale Suchanfragen aufgebaut?
 - Wer schreibt die Texte?
@@ -147,6 +147,6 @@ Nicht immer. Wichtig ist, dass die Zielseite zum Angebot in der Anzeige passt un
 
 **Für welche Unternehmen in Duisburg und Umgebung eignet sich das?**
 
-Für regionale und lokale Unternehmen, die über ihre Website Anfragen, Termine oder Bewerbungen gewinnen möchten – zum Beispiel Pflegedienste, Handwerksbetriebe, Gastronomie, Dienstleister und Vereine.
+Für kleine und mittlere Unternehmen, die über ihre Website Anfragen, Termine oder Bewerbungen gewinnen möchten – zum Beispiel Pflegedienste, Dienstleister, Gastronomie und Handel vor Ort.
   `.trim(),
 };
