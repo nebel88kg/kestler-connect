@@ -212,6 +212,16 @@ export const socialMediaHub: LandingPage = {
       description: "Betreuung und Content für Unternehmen in Dinslaken.",
     },
     {
+      title: "Social Media Agentur Essen",
+      href: "/leistungen/social-media/essen",
+      description: "Betreuung und Content für Unternehmen in Essen.",
+    },
+    {
+      title: "Social Media Agentur Düsseldorf",
+      href: "/leistungen/social-media/duesseldorf",
+      description: "Betreuung und Content für Unternehmen in Düsseldorf.",
+    },
+    {
       title: "Marketing-Agentur Moers",
       href: "/marketing-agentur-moers",
       description: "Social Media und Ads für Moers.",

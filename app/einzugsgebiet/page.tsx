@@ -129,7 +129,49 @@ export default function EinzugsgebietPage() {
               >
                 Meta Ads Agentur Dinslaken
               </Link>
-              . Schreiben Sie uns einfach – wir prüfen gern, wie wir helfen können.
+              . Ebenso gibt es eigene Seiten für Essen (
+              <Link
+                href="/leistungen/social-media/essen"
+                className="font-semibold text-accent-dark underline underline-offset-2"
+              >
+                Social Media
+              </Link>
+              ,{" "}
+              <Link
+                href="/leistungen/google-ads/essen"
+                className="font-semibold text-accent-dark underline underline-offset-2"
+              >
+                Google Ads
+              </Link>
+              ,{" "}
+              <Link
+                href="/leistungen/meta-ads/essen"
+                className="font-semibold text-accent-dark underline underline-offset-2"
+              >
+                Meta Ads
+              </Link>
+              ) und Düsseldorf (
+              <Link
+                href="/leistungen/social-media/duesseldorf"
+                className="font-semibold text-accent-dark underline underline-offset-2"
+              >
+                Social Media
+              </Link>
+              ,{" "}
+              <Link
+                href="/leistungen/google-ads/duesseldorf"
+                className="font-semibold text-accent-dark underline underline-offset-2"
+              >
+                Google Ads
+              </Link>
+              ,{" "}
+              <Link
+                href="/leistungen/meta-ads/duesseldorf"
+                className="font-semibold text-accent-dark underline underline-offset-2"
+              >
+                Meta Ads
+              </Link>
+              ). Schreiben Sie uns einfach – wir prüfen gern, wie wir helfen können.
             </p>
           </MoreDetails>
         </div>

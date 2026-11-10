@@ -173,6 +173,16 @@ export const googleAdsHub: LandingPage = {
       description: "Suchanzeigen für Unternehmen in Dinslaken.",
     },
     {
+      title: "Google Ads Agentur Essen",
+      href: "/leistungen/google-ads/essen",
+      description: "Suchanzeigen für Unternehmen in Essen.",
+    },
+    {
+      title: "Google Ads Agentur Düsseldorf",
+      href: "/leistungen/google-ads/duesseldorf",
+      description: "Suchanzeigen für Unternehmen in Düsseldorf.",
+    },
+    {
       title: "Marketing-Agentur Krefeld",
       href: "/marketing-agentur-krefeld",
       description: "Online-Marketing für Unternehmen in Krefeld.",

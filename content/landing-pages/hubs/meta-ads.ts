@@ -165,6 +165,16 @@ export const metaAdsHub: LandingPage = {
       description: "Instagram- und Facebook-Anzeigen für Unternehmen in Dinslaken.",
     },
     {
+      title: "Meta Ads Agentur Essen",
+      href: "/leistungen/meta-ads/essen",
+      description: "Instagram- und Facebook-Anzeigen für Unternehmen in Essen.",
+    },
+    {
+      title: "Meta Ads Agentur Düsseldorf",
+      href: "/leistungen/meta-ads/duesseldorf",
+      description: "Instagram- und Facebook-Anzeigen für Unternehmen in Düsseldorf.",
+    },
+    {
       title: "Marketing-Agentur Moers",
       href: "/marketing-agentur-moers",
       description: "Online-Marketing für Unternehmen in Moers.",
