@@ -14,15 +14,33 @@ import { siteConfig } from "@/lib/navigation";
 export const metadata: Metadata = createMetadata({
   title: "Einzugsgebiet: Marketing im Ruhrgebiet & Niederrhein",
   description:
-    "Kestler Connect aus Duisburg betreut Unternehmen im Ruhrgebiet und am Niederrhein: Duisburg, Moers, Krefeld, Oberhausen, Essen, Mülheim und Umgebung.",
+    "Kestler Connect aus Duisburg betreut lokale und regionale Unternehmen im Ruhrgebiet und am Niederrhein: Duisburg, Moers, Krefeld, Oberhausen, Essen, Mülheim und Umgebung.",
   path: "/einzugsgebiet",
 });
+
+const hubPlaces = [
+  {
+    name: "Duisburg",
+    href: "/marketing-agentur-duisburg",
+    description: "Unser Standort – Marketing-Agentur Duisburg.",
+  },
+  {
+    name: "Krefeld",
+    href: "/marketing-agentur-krefeld",
+    description: "Social Media, Google Ads und Meta Ads für Krefeld.",
+  },
+  {
+    name: "Moers",
+    href: "/marketing-agentur-moers",
+    description: "Online-Marketing für Unternehmen in Moers.",
+  },
+];
 
 const faq = [
   {
     question: "Für welche Orte arbeitet Kestler Connect?",
     answer:
-      "Sitz ist Duisburg. Wir betreuen Unternehmen im Ruhrgebiet und am Niederrhein, unter anderem in Duisburg, Moers, Krefeld, Oberhausen, Essen, Mülheim an der Ruhr und Düsseldorf sowie in Neukirchen-Vluyn, Kamp-Lintfort, Dinslaken und Wesel.",
+      "Sitz ist Duisburg. Wir betreuen lokale und regionale Unternehmen im Ruhrgebiet und am Niederrhein, unter anderem in Duisburg, Moers, Krefeld, Oberhausen, Essen, Mülheim an der Ruhr und Düsseldorf sowie in Neukirchen-Vluyn, Kamp-Lintfort, Dinslaken und Wesel.",
   },
   {
     question: "Müssen wir uns vor Ort treffen?",
@@ -48,12 +66,12 @@ export default function EinzugsgebietPage() {
               Online-Marketing-Agentur für das Ruhrgebiet und den Niederrhein
             </h1>
             <p className="mt-4 text-base leading-relaxed text-gray-200 sm:text-lg">
-              Kestler Connect sitzt in Duisburg und betreut Unternehmen in der Region – Social Media, Google Ads,
-              Meta Ads, SEO und Webseiten, vor Ort und digital.
+              Kestler Connect sitzt in Duisburg und betreut lokale und regionale Unternehmen in der Region – Social
+              Media, Google Ads, Meta Ads, SEO und Webseiten, vor Ort und digital.
             </p>
             <div className="mt-8">
               <Button href="#kontakt" size="lg">
-                Kostenloses Erstgespräch
+                Kostenloses Strategiegespräch
               </Button>
             </div>
           </div>
@@ -67,13 +85,15 @@ export default function EinzugsgebietPage() {
             Wählen Sie Ihren Ort für eine kurze Übersicht – oder fragen Sie direkt an.
           </p>
           <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            <Link href="/marketing-agentur-duisburg">
-              <Card className="h-full">
-                <h3 className="text-lg font-bold text-anthracite">Duisburg</h3>
-                <p className="mt-2 text-sm text-gray-600">Unser Standort – Marketing-Agentur Duisburg.</p>
-                <p className="mt-3 text-sm font-semibold text-accent-dark">Zur Seite →</p>
-              </Card>
-            </Link>
+            {hubPlaces.map((place) => (
+              <Link key={place.href} href={place.href}>
+                <Card className="h-full">
+                  <h3 className="text-lg font-bold text-anthracite">{place.name}</h3>
+                  <p className="mt-2 text-sm text-gray-600">{place.description}</p>
+                  <p className="mt-3 text-sm font-semibold text-accent-dark">Zur Seite →</p>
+                </Card>
+              </Link>
+            ))}
             {locations.map((location) => (
               <Link key={location.slug} href={`/einzugsgebiet/${location.slug}`}>
                 <Card className="h-full">
@@ -107,7 +127,7 @@ export default function EinzugsgebietPage() {
         <div className="container-custom">
           <div className="grid items-start gap-12 lg:grid-cols-2">
             <div>
-              <h2 className="text-2xl font-extrabold text-white lg:text-4xl">Kostenloses Erstgespräch anfragen</h2>
+              <h2 className="text-2xl font-extrabold text-white lg:text-4xl">Kostenloses Strategiegespräch anfragen</h2>
               <p className="mt-4 text-gray-200">
                 Wir melden uns zeitnah. Oder direkt:{" "}
                 <a
