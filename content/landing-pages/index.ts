@@ -6,6 +6,8 @@ import { socialMediaMoers } from "./cities/social-media-moers";
 import { socialMediaKrefeld } from "./cities/social-media-krefeld";
 import { googleAdsMoers } from "./cities/google-ads-moers";
 import { googleAdsKrefeld } from "./cities/google-ads-krefeld";
+import { metaAdsMoers } from "./cities/meta-ads-moers";
+import { metaAdsKrefeld } from "./cities/meta-ads-krefeld";
 
 export { leadgewinnungHub as leadgewinnung } from "./hubs";
 export { mitarbeitergewinnungHub as mitarbeitergewinnung } from "./hubs";
@@ -28,4 +30,6 @@ export const fullLandingPages: LandingPage[] = [
   socialMediaKrefeld,
   googleAdsMoers,
   googleAdsKrefeld,
+  metaAdsMoers,
+  metaAdsKrefeld,
 ];
