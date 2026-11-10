@@ -41,7 +41,7 @@ export const siteConfig = {
   },
   /** Verifizierte Social-Media-Profile – nur bestätigte Profile eintragen. */
   social: {
-    instagram: "https://www.instagram.com/kestler_connect/",
+    instagram: "https://www.instagram.com/kestler.cnt/",
   },
 };
 
