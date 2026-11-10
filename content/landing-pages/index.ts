@@ -14,6 +14,9 @@ import { socialMediaDinslaken } from "./cities/social-media-dinslaken";
 import { googleAdsOberhausen } from "./cities/google-ads-oberhausen";
 import { googleAdsMuelheim } from "./cities/google-ads-muelheim-an-der-ruhr";
 import { googleAdsDinslaken } from "./cities/google-ads-dinslaken";
+import { metaAdsOberhausen } from "./cities/meta-ads-oberhausen";
+import { metaAdsMuelheim } from "./cities/meta-ads-muelheim-an-der-ruhr";
+import { metaAdsDinslaken } from "./cities/meta-ads-dinslaken";
 
 export { leadgewinnungHub as leadgewinnung } from "./hubs";
 export { mitarbeitergewinnungHub as mitarbeitergewinnung } from "./hubs";
@@ -44,4 +47,7 @@ export const fullLandingPages: LandingPage[] = [
   googleAdsOberhausen,
   googleAdsMuelheim,
   googleAdsDinslaken,
+  metaAdsOberhausen,
+  metaAdsMuelheim,
+  metaAdsDinslaken,
 ];
