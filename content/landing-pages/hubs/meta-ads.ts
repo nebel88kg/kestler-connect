@@ -38,11 +38,11 @@ export const metaAdsHub: LandingPage = {
       "Anzeigen, die zu Ihrer Marke passen",
       "Wir messen Anfragen und optimieren laufend",
     ],
-    ctaLabel: "Kostenloses Erstgespräch sichern",
-    formTitle: "Kostenloses Erstgespräch sichern",
+    ctaLabel: "Kostenloses Strategiegespräch sichern",
+    formTitle: "Kostenloses Strategiegespräch sichern",
     formTopicPlaceholder: "z. B. Ihre Branche oder Ihr Anliegen",
     offer: {
-      title: "Kostenloses 30-Minuten-Erstgespräch + Einschätzung",
+      title: "Kostenloses 30-Minuten-Strategiegespräch + Einschätzung",
       intro: "Wir klären, ob und wie Meta Ads für Ihr Unternehmen sinnvoll sind – ehrlich und ohne Verkaufsdruck.",
       items: [
         "Einschätzung Ihrer Ausgangslage",
@@ -140,19 +140,19 @@ export const metaAdsHub: LandingPage = {
   ],
   faq: [
     {
-      question: "Wie läuft das kostenlose 30-Minuten-Erstgespräch ab?",
+      question: "Wie läuft das kostenlose 30-Minuten-Strategiegespräch ab?",
       answer:
         "Wir besprechen Ihre Ausgangslage und Ziele. Sie erhalten eine ehrliche Einschätzung, die nächsten Schritte und eine Budgetorientierung. Alles ist unverbindlich – danach entscheiden Sie frei.",
     },
     {
       question: "Was kostet die Betreuung?",
       answer:
-        "Budget und Betreuung richten sich nach Ziel, Branche und Umfang – im kostenlosen Erstgespräch bekommen Sie eine ehrliche Budgetorientierung.",
+        "Budget und Betreuung richten sich nach Ziel, Branche und Umfang – im kostenlosen Strategiegespräch bekommen Sie eine ehrliche Budgetorientierung.",
     },
     {
       question: "Meta Ads oder Google Ads?",
       answer:
-        "Meta erzeugt Aufmerksamkeit, Google trifft aktive Suche. Oft ist die Kombination am stärksten. Im Erstgespräch klären wir, was zu Ihnen passt.",
+        "Meta erzeugt Aufmerksamkeit, Google trifft aktive Suche. Oft ist die Kombination am stärksten. Im Strategiegespräch klären wir, was zu Ihnen passt.",
     },
     {
       question: "Brauche ich ein professionelles Profil?",

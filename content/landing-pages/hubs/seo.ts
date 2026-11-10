@@ -7,7 +7,7 @@ export const seoHub: LandingPage = {
   meta: {
     title: "SEO Agentur Duisburg, Ruhrgebiet & Niederrhein",
     description:
-      "SEO Agentur in Duisburg: Local SEO und Sichtbarkeit bei Google und Google Maps für Unternehmen im Ruhrgebiet & am Niederrhein. Kostenloses Erstgespräch.",
+      "SEO Agentur in Duisburg: Local SEO und Sichtbarkeit bei Google und Google Maps für Unternehmen im Ruhrgebiet & am Niederrhein. Kostenloses Strategiegespräch.",
     keywords: [
       "seo agentur duisburg",
       "seo duisburg",
@@ -32,11 +32,11 @@ export const seoHub: LandingPage = {
       "Klare Leistungsseiten und saubere Technik",
       "Fester Ansprechpartner",
     ],
-    ctaLabel: "Kostenloses Erstgespräch sichern",
-    formTitle: "Kostenloses Erstgespräch sichern",
+    ctaLabel: "Kostenloses Strategiegespräch sichern",
+    formTitle: "Kostenloses Strategiegespräch sichern",
     formTopicPlaceholder: "z. B. Ihre Branche oder Ihr Anliegen",
     offer: {
-      title: "Kostenloses Erstgespräch + Einschätzung",
+      title: "Kostenloses Strategiegespräch + Einschätzung",
       intro: "Wir schauen gemeinsam, wie gut Sie bei Google und Google Maps heute gefunden werden – ehrlich und ohne Verkaufsdruck.",
       items: [
         "Einschätzung Ihrer Ausgangslage: Website, Google-Unternehmensprofil, Wettbewerb",
@@ -147,14 +147,14 @@ export const seoHub: LandingPage = {
   ],
   faq: [
     {
-      question: "Wie läuft das kostenlose Erstgespräch ab?",
+      question: "Wie läuft das kostenlose Strategiegespräch ab?",
       answer:
         "Wir besprechen Ihre Ausgangslage und Ziele. Sie erhalten eine ehrliche Einschätzung, die nächsten Schritte und eine Budgetorientierung. Alles ist unverbindlich – danach entscheiden Sie frei.",
     },
     {
       question: "Was kostet SEO?",
       answer:
-        "Budget und Betreuung richten sich nach Ziel, Branche und Umfang – im kostenlosen Erstgespräch bekommen Sie eine ehrliche Budgetorientierung.",
+        "Budget und Betreuung richten sich nach Ziel, Branche und Umfang – im kostenlosen Strategiegespräch bekommen Sie eine ehrliche Budgetorientierung.",
     },
     {
       question: "Wie lange dauert SEO?",
@@ -169,7 +169,7 @@ export const seoHub: LandingPage = {
     {
       question: "SEO oder Google Ads?",
       answer:
-        "Anzeigen wirken schnell, SEO wirkt langfristig. Viele nutzen beides. Im Erstgespräch klären wir, was zu Ihnen passt.",
+        "Anzeigen wirken schnell, SEO wirkt langfristig. Viele nutzen beides. Im Strategiegespräch klären wir, was zu Ihnen passt.",
     },
     {
       question: "Was ist Local SEO?",

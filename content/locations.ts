@@ -72,7 +72,7 @@ export function locationFaq(name: string): { question: string; answer: string }[
     },
     {
       question: `Welche Leistungen kann ich für ${name} anfragen?`,
-      answer: `Social Media, Google Ads, Meta Ads, SEO und Webseiten. Welche Kombination sinnvoll ist, klären wir im kostenlosen Erstgespräch.`,
+      answer: `Social Media, Google Ads, Meta Ads, SEO und Webseiten. Welche Kombination sinnvoll ist, klären wir im kostenlosen Strategiegespräch.`,
     },
     {
       question: `Wie starte ich die Zusammenarbeit?`,

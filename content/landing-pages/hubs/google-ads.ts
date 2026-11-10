@@ -36,11 +36,11 @@ export const googleAdsHub: LandingPage = {
       "Wir messen Anrufe und Formulare – nicht nur Klicks",
       "Fester Ansprechpartner und laufende Optimierung",
     ],
-    ctaLabel: "Kostenloses Erstgespräch sichern",
-    formTitle: "Kostenloses Erstgespräch sichern",
+    ctaLabel: "Kostenloses Strategiegespräch sichern",
+    formTitle: "Kostenloses Strategiegespräch sichern",
     formTopicPlaceholder: "z. B. Ihre Branche oder Ihr Anliegen",
     offer: {
-      title: "Kostenloses 30-Minuten-Erstgespräch + Einschätzung",
+      title: "Kostenloses 30-Minuten-Strategiegespräch + Einschätzung",
       intro: "Wir klären, ob und wie Google Ads für Ihr Unternehmen sinnvoll sind – ehrlich und ohne Verkaufsdruck.",
       items: [
         "Einschätzung Ihrer Ausgangslage",
@@ -155,14 +155,14 @@ export const googleAdsHub: LandingPage = {
   ],
   faq: [
     {
-      question: "Wie läuft das kostenlose 30-Minuten-Erstgespräch ab?",
+      question: "Wie läuft das kostenlose 30-Minuten-Strategiegespräch ab?",
       answer:
         "Wir besprechen Ihre Ausgangslage und Ziele. Sie erhalten eine ehrliche Einschätzung, die nächsten Schritte und eine Budgetorientierung. Alles ist unverbindlich – danach entscheiden Sie frei.",
     },
     {
       question: "Was kostet die Betreuung?",
       answer:
-        "Budget und Betreuung richten sich nach Ziel, Branche und Umfang – im kostenlosen Erstgespräch bekommen Sie eine ehrliche Budgetorientierung.",
+        "Budget und Betreuung richten sich nach Ziel, Branche und Umfang – im kostenlosen Strategiegespräch bekommen Sie eine ehrliche Budgetorientierung.",
     },
     {
       question: "Wie schnell kommen Anfragen?",
@@ -172,7 +172,7 @@ export const googleAdsHub: LandingPage = {
     {
       question: "Google Ads oder SEO?",
       answer:
-        "Google Ads bringt schnell Sichtbarkeit, SEO wirkt langfristig. Viele kombinieren beides. Im Erstgespräch klären wir, was zu Ihnen passt.",
+        "Google Ads bringt schnell Sichtbarkeit, SEO wirkt langfristig. Viele kombinieren beides. Im Strategiegespräch klären wir, was zu Ihnen passt.",
     },
     {
       question: "Brauche ich eine eigene Seite für die Anzeigen?",
