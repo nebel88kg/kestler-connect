@@ -6,6 +6,7 @@ import {
   raffelbergLogo,
   startupSchoolLogo,
   buddysDuisburgLogo,
+  malermeisterKleinauLogo,
 } from "@/lib/clientLogos";
 
 type SliderLogo = {
@@ -21,6 +22,7 @@ const logos: SliderLogo[] = [
   raffelbergLogo,
   startupSchoolLogo,
   buddysDuisburgLogo,
+  malermeisterKleinauLogo,
 ];
 
 export function LogoSlider() {

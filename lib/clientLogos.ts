@@ -4,3 +4,4 @@ export { raffelbergLogo } from "./logos/raffelberg";
 export { startupSchoolLogo } from "./logos/start-up-school";
 export { bniLogo } from "./logos/bni";
 export { buddysDuisburgLogo } from "./logos/buddys-duisburg";
+export { malermeisterKleinauLogo } from "./logos/malermeister-kleinau";
