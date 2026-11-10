@@ -32,15 +32,15 @@ Wer Kunden in seinem Stadtteil oder Einzugsgebiet erreichen möchte, etwa in Dui
 
 ### Pflege, Handwerk und Gastronomie
 
-Pflegedienste erreichen auf Facebook oft Angehörige, die eine Versorgung organisieren. Handwerksbetriebe zeigen Projekte aus der Region. Restaurants und Cafés informieren über Aktionen, Öffnungszeiten und Veranstaltungen. Wie das in den einzelnen Branchen konkret aussieht, lesen Sie in unseren Beiträgen zu [Social Media für Pflegedienste](/blog/social-media-fuer-pflegedienste), [Social Media für Handwerksbetriebe](/blog/social-media-fuer-handwerksbetriebe) und [Social Media für Gastronomie](/blog/social-media-fuer-gastronomie).
+Pflegedienste erreichen auf Facebook oft Angehörige, die eine Versorgung organisieren. Handwerksbetriebe zeigen Projekte aus der Region. Restaurants und Cafés informieren über Aktionen, Öffnungszeiten und Veranstaltungen. Wie das in den einzelnen Branchen konkret aussieht, lesen Sie in unseren Beiträgen zu [Social Media für Pflegedienste](/blog/social-media-fuer-pflegedienste), [Social Media für Handwerksbetriebe](/leistungen/social-media) und [Social Media für Gastronomie](/blog/social-media-fuer-gastronomie).
 
 ### Unternehmen, die Mitarbeitende suchen
 
-Facebook eignet sich gut, um Stellen in der Region sichtbar zu machen, auch bei Menschen, die gerade nicht aktiv suchen. Mehr dazu lesen Sie im Beitrag [Mitarbeitergewinnung im Handwerk](/blog/mitarbeitergewinnung-im-handwerk).
+Facebook eignet sich gut, um Stellen in der Region sichtbar zu machen, auch bei Menschen, die gerade nicht aktiv suchen. Mehr dazu lesen Sie im Beitrag [Mitarbeitergewinnung im Handwerk](/leistungen/mitarbeitergewinnung).
 
 ### Vereine und lokale Initiativen
 
-Für Vereine sind Facebook-Seiten und Veranstaltungen ein einfacher Weg, Mitglieder, Eltern und Unterstützer auf dem Laufenden zu halten. Tipps dazu finden Sie unter [Social Media für Vereine](/blog/social-media-fuer-vereine).
+Für Vereine sind Facebook-Seiten und Veranstaltungen ein einfacher Weg, Mitglieder, Eltern und Unterstützer auf dem Laufenden zu halten. Tipps dazu finden Sie unter [Social Media für Vereine](/leistungen/social-media).
 
 ## Ihre Facebook-Unternehmensseite richtig einrichten
 

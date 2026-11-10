@@ -85,7 +85,7 @@ Im Profil sollte schnell erkennbar sein, in welchen Stadtteilen Sie versorgen un
 
 ### Handwerk
 
-Leistungen, Einzugsgebiet und Projektbilder stehen im Vordergrund. Ein Highlight mit Arbeiten aus der Region schafft Vertrauen. Mehr dazu im Beitrag [Social Media für Handwerksbetriebe](/blog/social-media-fuer-handwerksbetriebe).
+Leistungen, Einzugsgebiet und Projektbilder stehen im Vordergrund. Ein Highlight mit Arbeiten aus der Region schafft Vertrauen. Mehr dazu im Beitrag [Social Media für Handwerksbetriebe](/leistungen/social-media).
 
 ### Gastronomie
 
