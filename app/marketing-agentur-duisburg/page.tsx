@@ -9,7 +9,6 @@ import { Breadcrumbs } from "@/components/seo/Breadcrumbs";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { Button } from "@/components/ui/Button";
 import { Card } from "@/components/ui/Card";
-import { Accordion } from "@/components/ui/Accordion";
 
 const PATH = "/marketing-agentur-duisburg";
 
@@ -414,12 +413,17 @@ export default function MarketingAgenturDuisburgPage() {
 
       <section className="section-padding">
         <div className="container-custom">
-          <h2 className="mb-12 text-center text-2xl font-bold text-anthracite lg:text-4xl">
+          <h2 className="mb-8 text-center text-2xl font-bold text-anthracite lg:text-4xl">
             Häufige Fragen – kurz beantwortet
           </h2>
-          <div className="mx-auto max-w-3xl">
-            <Accordion items={faqItems} headingLevel="h3" />
-          </div>
+          <dl className="mx-auto max-w-3xl space-y-6">
+            {faqItems.map((item) => (
+              <div key={item.question}>
+                <dt className="font-bold text-anthracite">{item.question}</dt>
+                <dd className="mt-1 leading-relaxed text-gray-700">{item.answer}</dd>
+              </div>
+            ))}
+          </dl>
         </div>
       </section>
 

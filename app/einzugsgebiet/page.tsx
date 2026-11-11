@@ -6,8 +6,6 @@ import { Breadcrumbs } from "@/components/seo/Breadcrumbs";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { Button } from "@/components/ui/Button";
 import { Card } from "@/components/ui/Card";
-import { Accordion } from "@/components/ui/Accordion";
-import { MoreDetails } from "@/components/ui/MoreDetails";
 import { ContactForm } from "@/components/ui/ContactForm";
 import { siteConfig } from "@/lib/navigation";
 
@@ -105,8 +103,9 @@ export default function EinzugsgebietPage() {
             ))}
           </div>
 
-          <MoreDetails summary="Weitere Orte im Einzugsgebiet" className="mt-8 max-w-3xl">
-            <p>
+          <div className="mt-8 max-w-3xl">
+            <h3 className="text-lg font-bold text-anthracite">Weitere Orte im Einzugsgebiet</h3>
+            <p className="mt-3 leading-relaxed text-gray-700">
               Auch für Unternehmen in {otherPlaces.join(", ")} und Umgebung sind wir ansprechbar. Für Dinslaken
               finden Sie eigene Seiten zur{" "}
               <Link
@@ -173,16 +172,21 @@ export default function EinzugsgebietPage() {
               </Link>
               ). Schreiben Sie uns einfach – wir prüfen gern, wie wir helfen können.
             </p>
-          </MoreDetails>
+          </div>
         </div>
       </section>
 
       <section className="section-padding bg-gray-50">
         <div className="container-custom">
           <h2 className="mb-8 text-center text-2xl font-bold text-anthracite lg:text-4xl">Häufige Fragen</h2>
-          <div className="mx-auto max-w-3xl">
-            <Accordion items={faq} />
-          </div>
+          <dl className="mx-auto max-w-3xl space-y-6">
+            {faq.map((item) => (
+              <div key={item.question}>
+                <dt className="font-bold text-anthracite">{item.question}</dt>
+                <dd className="mt-1 leading-relaxed text-gray-700">{item.answer}</dd>
+              </div>
+            ))}
+          </dl>
         </div>
       </section>
 

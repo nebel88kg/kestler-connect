@@ -6,11 +6,11 @@ import { getLocation, locations, locationFaq, locationServices } from "@/content
 import { Breadcrumbs } from "@/components/seo/Breadcrumbs";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { Button } from "@/components/ui/Button";
-import { Accordion } from "@/components/ui/Accordion";
 import { ContactForm } from "@/components/ui/ContactForm";
 import { ReviewBadge } from "@/components/ui/ReviewBadge";
 import { siteConfig } from "@/lib/navigation";
 import { blogPosts } from "@/content/blog";
+import { renderInline } from "@/lib/inlineMarkdown";
 
 export function generateStaticParams() {
   return locations.map((location) => ({ ort: location.slug }));
@@ -88,9 +88,14 @@ export default async function LocationPage({ params }: { params: Promise<{ ort: 
             {location.context} Wir unterstützen Unternehmen in {location.name} dabei, online sichtbarer zu werden und
             mehr passende Anfragen zu erhalten.
           </p>
-          <div className="mt-8 max-w-3xl">
-            <Accordion items={services} defaultOpenIndex={null} headingLevel="h3" />
-          </div>
+          <dl className="mt-8 max-w-3xl space-y-6">
+            {services.map((item) => (
+              <div key={item.question}>
+                <dt className="font-bold text-anthracite">{item.question}</dt>
+                <dd className="mt-1 leading-relaxed text-gray-700">{renderInline(item.answer)}</dd>
+              </div>
+            ))}
+          </dl>
           <div className="mt-10">
             <Button href="#kontakt" size="lg">
               Kostenloses Strategiegespräch
@@ -102,9 +107,14 @@ export default async function LocationPage({ params }: { params: Promise<{ ort: 
       <section className="section-padding bg-gray-50">
         <div className="container-custom">
           <h2 className="mb-8 text-center text-2xl font-bold text-anthracite lg:text-4xl">Häufige Fragen</h2>
-          <div className="mx-auto max-w-3xl">
-            <Accordion items={faq} defaultOpenIndex={null} />
-          </div>
+          <dl className="mx-auto max-w-3xl space-y-6">
+            {faq.map((item) => (
+              <div key={item.question}>
+                <dt className="font-bold text-anthracite">{item.question}</dt>
+                <dd className="mt-1 leading-relaxed text-gray-700">{item.answer}</dd>
+              </div>
+            ))}
+          </dl>
           <nav aria-label="Weitere Orte im Einzugsgebiet" className="mx-auto mt-10 max-w-3xl">
             <h2 className="text-lg font-bold text-anthracite">Weitere Orte im Einzugsgebiet</h2>
             <ul className="mt-3 grid gap-2 sm:grid-cols-2">
