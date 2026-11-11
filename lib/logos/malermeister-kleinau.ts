@@ -1,6 +1,6 @@
-/** Client logo – static public asset (SVG wrapper with original malermeister-kleinau.jpg embedded) */
+/** Client logo – transparent PNG */
 export const malermeisterKleinauLogo = {
-  src: "/images/logos/malermeister-kleinau.svg" as const,
+  src: "/images/logos/malermeister-kleinau.png" as const,
   alt: "Malermeister Kleinau",
-  file: "/images/logos/malermeister-kleinau.svg",
+  file: "/images/logos/malermeister-kleinau.png",
 };

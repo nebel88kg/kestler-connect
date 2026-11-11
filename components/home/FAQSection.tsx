@@ -17,11 +17,11 @@ export function FAQSection() {
     <section className="section-padding">
       <div className="container-custom">
         <ScrollReveal>
-          <div className="mb-10 text-center sm:mb-14">
-            <h2 className="text-2xl font-extrabold text-anthracite sm:text-3xl lg:text-5xl">
+          <div className="mb-6 sm:mb-8">
+            <h2 className="font-display text-4xl text-navy sm:text-5xl lg:text-6xl">
               Häufige Fragen
             </h2>
-            <p className="mx-auto mt-4 max-w-2xl text-lg text-gray-600">
+            <p className="mt-4 max-w-md text-base text-gray-600">
               Kurze Antworten auf die wichtigsten Fragen.
             </p>
           </div>
@@ -29,7 +29,7 @@ export function FAQSection() {
 
         <ScrollReveal delay={0.1}>
           <div className="mx-auto max-w-3xl">
-            <Accordion items={visibleItems} />
+            <Accordion items={visibleItems} variant="plain" />
 
             {hiddenItems.length > 0 && (
               <>
@@ -44,7 +44,7 @@ export function FAQSection() {
                 >
                   <div className="min-h-0 overflow-hidden">
                     <div className="mt-3">
-                      <Accordion items={hiddenItems} defaultOpenIndex={null} />
+                      <Accordion items={hiddenItems} defaultOpenIndex={null} variant="plain" />
                     </div>
                   </div>
                 </div>

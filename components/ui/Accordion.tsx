@@ -17,6 +17,8 @@ interface AccordionProps {
   defaultOpenIndex?: number | null;
   /** Optional: Frage zusätzlich als Überschrift auszeichnen (z. B. "h3"). */
   headingLevel?: "h2" | "h3" | "h4";
+  /** "plain" = Trennlinien statt Karten (Startseite). */
+  variant?: "card" | "plain";
 }
 
 /**
@@ -29,6 +31,7 @@ export function Accordion({
   className,
   defaultOpenIndex = 0,
   headingLevel,
+  variant = "card",
 }: AccordionProps) {
   const [openIndex, setOpenIndex] = useState<number | null>(defaultOpenIndex);
   const baseId = useId();
@@ -44,7 +47,10 @@ export function Accordion({
           <button
             type="button"
             id={buttonId}
-            className="flex min-h-12 w-full items-center justify-between gap-3 px-4 py-4 text-left text-sm font-semibold text-anthracite transition-colors hover:bg-gray-50 sm:px-6 sm:text-base"
+            className={cn(
+              "flex min-h-12 w-full items-center justify-between gap-3 text-left text-sm font-medium text-navy transition-colors sm:text-base",
+              variant === "plain" ? "px-0 py-5 hover:text-accent-dark" : "px-4 py-4 font-semibold hover:bg-gray-50 sm:px-6"
+            )}
             onClick={() => setOpenIndex(isOpen ? null : index)}
             aria-expanded={isOpen}
             aria-controls={panelId}
@@ -66,7 +72,11 @@ export function Accordion({
         return (
           <div
             key={index}
-            className="overflow-hidden rounded-2xl border border-gray-200 bg-white"
+            className={
+              variant === "plain"
+                ? "border-b border-navy/10"
+                : "overflow-hidden rounded-2xl border border-gray-200 bg-white"
+            }
           >
             {Heading ? <Heading className="m-0">{button}</Heading> : button}
             <div
@@ -80,7 +90,12 @@ export function Accordion({
               )}
             >
               <div className="min-h-0 overflow-hidden">
-                <div className="border-t border-gray-100 px-4 py-4 text-sm leading-relaxed text-gray-600 sm:px-6 sm:py-5 sm:text-base">
+                <div
+                  className={cn(
+                    "text-sm leading-relaxed text-gray-600 sm:text-base",
+                    variant === "plain" ? "pb-6" : "border-t border-gray-100 px-4 py-4 sm:px-6 sm:py-5"
+                  )}
+                >
                   {renderInline(item.answer)}
                 </div>
               </div>

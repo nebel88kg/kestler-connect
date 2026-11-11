@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Inter_Tight } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import "./globals.css";
@@ -18,6 +18,12 @@ import { linkedinUrl } from "@/lib/profiles";
 const inter = Inter({
   subsets: ["latin"],
   variable: "--font-inter",
+  display: "swap",
+});
+
+const interTight = Inter_Tight({
+  subsets: ["latin"],
+  variable: "--font-tight",
   display: "swap",
 });
 
@@ -120,7 +126,7 @@ export default function RootLayout({
         {/* Consent Mode v2: Default "denied" synchron im <head>, garantiert VOR dem GTM-Loader. */}
         <script dangerouslySetInnerHTML={{ __html: consentInitScript }} />
       </head>
-      <body className={`${inter.variable} font-sans`}>
+      <body className={`${inter.variable} ${interTight.variable} font-sans`}>
         {/* Im DOM vor dem Header (Tab-Reihenfolge), visuell fixiert unten. */}
         <CookieBanner />
         <GoogleTagManager />
