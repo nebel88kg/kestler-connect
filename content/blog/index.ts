@@ -24,8 +24,10 @@ import { instagramProfilOptimieren } from "./instagram-profil-optimieren";
 import { kiImSocialMediaMarketing } from "./ki-im-social-media-marketing";
 import { googleAdsOderMetaAds } from "./google-ads-oder-meta-ads";
 import { pflegekraefteGewinnenSocialMedia } from "./pflegekraefte-gewinnen-social-media";
+import { besteSocialMediaAgenturDuisburg } from "./beste-social-media-agentur-duisburg";
 
 export const blogPosts: BlogPost[] = [
+  besteSocialMediaAgenturDuisburg,
   pflegekraefteGewinnenSocialMedia,
   googleAdsOderMetaAds,
   kiImSocialMediaMarketing,
