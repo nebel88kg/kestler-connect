@@ -159,7 +159,7 @@ function ProjectSlide({
   );
 
   const className = cn(
-    "relative block w-[min(64vw,300px)] shrink-0 origin-center text-left transition-transform duration-500 ease-out",
+    "relative block w-[40vw] shrink-0 origin-center text-left transition-transform duration-500 ease-out sm:w-[min(64vw,300px)]",
     active && "z-20 -translate-y-3 scale-[1.05]"
   );
 
@@ -358,9 +358,12 @@ export function CaseStudiesSection() {
   const play = inView && !reduced && !watching;
 
   return (
-    <section ref={sectionRef} className="section-padding overflow-hidden rounded-[4rem] bg-navy">
+    <section
+      ref={sectionRef}
+      className="overflow-hidden rounded-[2rem] bg-navy pt-24 pb-20 sm:rounded-[4rem] sm:py-16 lg:py-28"
+    >
       <div className="container-custom">
-        <div className="mb-10 flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
+        <div className="mb-4 flex flex-col gap-10 sm:mb-8 lg:mb-10 lg:flex-row lg:items-end lg:justify-between lg:gap-4">
           <h2 className="font-display text-4xl text-white sm:text-5xl lg:text-6xl">Unsere Arbeit</h2>
           <p className="max-w-sm text-base leading-snug text-white/70">
             Echte Ergebnisse für echte Unternehmen – Dämmstoffe, Maler, Bildung und Golf.
@@ -368,7 +371,7 @@ export function CaseStudiesSection() {
         </div>
       </div>
 
-      <div className="case-viewport overflow-hidden py-8">
+      <div className="case-viewport overflow-hidden py-3 lg:py-8">
         <div ref={trackRef} className="case-marquee flex w-max will-change-transform">
           <div className="flex gap-5 pr-5">
             {slides.map((project) => (
@@ -399,7 +402,7 @@ export function CaseStudiesSection() {
         </div>
       </div>
 
-      <div className="mt-10 flex justify-center px-4 sm:mt-14">
+      <div className="mt-16 mb-4 flex justify-center px-4 sm:mt-14 sm:mb-0">
         <Button
           href="/referenzen"
           size="md"

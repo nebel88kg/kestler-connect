@@ -49,8 +49,53 @@ const moreServices = [
 
 export function ServicesGrid() {
   const [open, setOpen] = useState(0);
+  const listRef = useRef<HTMLDivElement>(null);
   const pointRef = useRef({ x: 0, y: 0 });
   const movedRef = useRef(true);
+
+  useEffect(() => {
+    const media = window.matchMedia("(max-width: 767px)");
+    let frame = 0;
+    const update = () => {
+      frame = 0;
+      if (!media.matches) return;
+      const list = listRef.current;
+      if (!list) return;
+      const rows = [...list.querySelectorAll<HTMLElement>(":scope > a")];
+      if (!rows.length) return;
+      const mid = window.innerHeight / 2;
+      let closest = 0;
+      let closestDistance = Number.POSITIVE_INFINITY;
+      rows.forEach((row, index) => {
+        const rect = row.getBoundingClientRect();
+        const distance = Math.abs(rect.top + rect.height / 2 - mid);
+        if (distance < closestDistance) {
+          closestDistance = distance;
+          closest = index;
+        }
+      });
+      setOpen((current) => (current === closest ? current : closest));
+    };
+    const onScroll = () => {
+      if (!media.matches || frame) return;
+      frame = requestAnimationFrame(update);
+    };
+    const onChange = () => {
+      if (media.matches) update();
+      else setOpen(0);
+    };
+
+    if (media.matches) update();
+    media.addEventListener("change", onChange);
+    window.addEventListener("scroll", onScroll, { passive: true });
+    window.addEventListener("resize", onScroll);
+    return () => {
+      media.removeEventListener("change", onChange);
+      window.removeEventListener("scroll", onScroll);
+      window.removeEventListener("resize", onScroll);
+      if (frame) cancelAnimationFrame(frame);
+    };
+  }, []);
 
   useEffect(() => {
     const onMove = (event: PointerEvent) => {
@@ -105,7 +150,10 @@ export function ServicesGrid() {
           </div>
         </ScrollReveal>
 
-        <div className="grid grid-cols-[minmax(0,9.5rem)_minmax(0,1fr)_auto] [overflow-anchor:none] sm:grid-cols-[max-content_minmax(0,1fr)_auto]">
+        <div
+          ref={listRef}
+          className="grid grid-cols-[minmax(0,1fr)_auto] [overflow-anchor:none] lg:grid-cols-[max-content_minmax(0,1fr)_auto]"
+        >
           {coreServices.map((service, index) => {
             const isOpen = open === index;
             return (
@@ -123,7 +171,7 @@ export function ServicesGrid() {
                 onPointerMove={(event) => placeGlow(event, isOpen)}
                 onPointerLeave={hideGlow}
                 className={cn(
-                  "relative col-span-3 grid grid-cols-subgrid items-center gap-x-4 border-b border-navy/10 py-6 transition-colors duration-500 sm:gap-x-8 sm:py-8",
+                  "relative col-span-2 grid grid-cols-subgrid items-center gap-x-4 border-b border-navy/10 py-6 transition-colors duration-500 sm:gap-x-8 sm:py-8 lg:col-span-3",
                   isOpen && "border-transparent text-white"
                 )}
               >
@@ -143,13 +191,13 @@ export function ServicesGrid() {
                 </div>
                 <h3
                   className={cn(
-                    "relative z-10 pl-3 text-left font-display text-2xl transition-colors duration-500 sm:pl-6 sm:text-4xl sm:whitespace-nowrap",
+                    "relative z-10 col-start-1 row-start-1 pl-3 text-left font-display text-2xl transition-colors duration-500 sm:pl-6 sm:text-4xl lg:whitespace-nowrap",
                     isOpen ? "text-white" : "text-navy"
                   )}
                 >
                   {service.title}
                 </h3>
-                <div className="relative z-10 min-w-0">
+                <div className="relative z-10 col-span-2 row-start-2 min-w-0 lg:col-span-1 lg:col-start-2 lg:row-start-1">
                   <div
                     className={cn(
                       "grid transition-[grid-template-rows,opacity] duration-500 ease-out",
@@ -157,10 +205,10 @@ export function ServicesGrid() {
                     )}
                   >
                     <div className="min-h-0 overflow-hidden">
-                      <p className="text-sm leading-relaxed text-white/75 sm:text-base">
+                      <p className="px-3 pt-3 text-sm leading-relaxed text-white/75 sm:px-6 sm:text-base lg:px-0 lg:pt-0">
                         {service.description}
                       </p>
-                      <ul className="mt-3 space-y-1.5 sm:mt-4">
+                      <ul className="mt-4 hidden space-y-1.5 lg:block">
                         {service.items.map((item) => (
                           <li key={item} className="text-sm text-white/90">
                             {item}
@@ -173,7 +221,7 @@ export function ServicesGrid() {
                 <span
                   aria-hidden="true"
                   className={cn(
-                    "relative z-10 mr-3 flex h-11 w-11 shrink-0 items-center justify-center rounded-full border transition-colors duration-500 sm:mr-6 sm:h-12 sm:w-12",
+                    "relative z-10 col-start-2 row-start-1 mr-3 flex h-11 w-11 shrink-0 items-center justify-center self-center rounded-full border transition-colors duration-500 sm:mr-6 sm:h-12 sm:w-12 lg:col-start-3",
                     isOpen
                       ? "border-white bg-white text-navy"
                       : "border-navy/20 text-navy"

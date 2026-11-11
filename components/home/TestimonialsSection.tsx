@@ -32,7 +32,7 @@ function TestimonialCard({
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
       className={cn(
-        "relative w-[min(84vw,25rem)] shrink-0 rounded-[1.75rem] bg-navy px-8 pt-20 pb-20 text-white shadow-[0_22px_50px_-28px_rgba(18,26,38,0.7)] transition-[transform,box-shadow,background-color] duration-500 ease-out",
+        "relative w-[25rem] shrink-0 rounded-[1.75rem] bg-navy px-8 pt-20 pb-20 text-white shadow-[0_22px_50px_-28px_rgba(18,26,38,0.7)] transition-[transform,box-shadow,background-color] duration-500 ease-out max-md:[zoom:0.55] md:w-[min(84vw,25rem)]",
         hovered && "z-20 bg-navy-light shadow-[0_34px_70px_-24px_rgba(18,26,38,0.8)]"
       )}
       style={{
@@ -48,7 +48,7 @@ function TestimonialCard({
         <span className="font-serif text-7xl leading-none">“</span>
       </span>
       <blockquote className="relative z-10 pr-6">
-        <p className="text-base leading-snug sm:text-lg">{text}</p>
+        <p className="text-lg leading-snug">{text}</p>
       </blockquote>
       {hasMore && (
         <button
