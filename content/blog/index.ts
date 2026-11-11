@@ -25,8 +25,10 @@ import { kiImSocialMediaMarketing } from "./ki-im-social-media-marketing";
 import { googleAdsOderMetaAds } from "./google-ads-oder-meta-ads";
 import { pflegekraefteGewinnenSocialMedia } from "./pflegekraefte-gewinnen-social-media";
 import { besteSocialMediaAgenturDuisburg } from "./beste-social-media-agentur-duisburg";
+import { besteMetaAdsAgentur } from "./beste-meta-ads-agentur";
 
 export const blogPosts: BlogPost[] = [
+  besteMetaAdsAgentur,
   besteSocialMediaAgenturDuisburg,
   pflegekraefteGewinnenSocialMedia,
   googleAdsOderMetaAds,
