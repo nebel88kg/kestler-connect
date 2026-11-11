@@ -1,6 +1,6 @@
-/** Client logo – static public asset (SVG wrapper with original secpro.png embedded) */
+/** Client logo – transparent PNG */
 export const secproLogo = {
-  src: "/images/logos/secpro.svg" as const,
+  src: "/images/logos/secpro.png" as const,
   alt: "SecPro Bildungszentrum",
-  file: "/images/logos/secpro.svg",
+  file: "/images/logos/secpro.png",
 };

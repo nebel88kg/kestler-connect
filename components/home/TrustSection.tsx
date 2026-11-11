@@ -27,26 +27,21 @@ const trustPoints = [
 
 export function TrustSection() {
   return (
-    <section className="section-padding bg-gray-50">
-      <div className="container-custom">
-        <ScrollReveal>
-          <p className="mb-8 text-center text-sm font-semibold uppercase tracking-[0.15em] text-accent-dark">
-            Bereits erfolgreich zusammengearbeitet mit
-          </p>
-          <LogoSlider />
-        </ScrollReveal>
+    <section className="section-padding overflow-hidden bg-paper">
+      <ScrollReveal>
+        <p className="container-custom mb-8 text-center text-sm font-semibold uppercase tracking-[0.15em] text-accent-dark">
+          Bereits erfolgreich zusammengearbeitet mit
+        </p>
+        <LogoSlider />
+      </ScrollReveal>
 
+      <div className="container-custom">
         <ScrollReveal delay={0.15}>
-          <h2 className="mt-14 text-center text-xl font-extrabold text-navy sm:text-2xl">
-            Warum Kestler Connect
-          </h2>
-          <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+          <h2 className="mt-16 font-display text-3xl text-navy sm:text-4xl">Warum Kestler Connect</h2>
+          <div className="mt-8 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
             {trustPoints.map((point) => (
-              <div
-                key={point.title}
-                className="rounded-xl border border-accent/20 bg-white p-5 text-center sm:text-left"
-              >
-                <h3 className="text-sm font-bold text-navy sm:text-base">{point.title}</h3>
+              <div key={point.title} className="border-t border-navy/15 pt-4">
+                <h3 className="font-display text-xl text-navy">{point.title}</h3>
                 <p className="mt-2 text-sm leading-relaxed text-gray-600">{point.description}</p>
               </div>
             ))}

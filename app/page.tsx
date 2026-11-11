@@ -22,9 +22,9 @@ export default function HomePage() {
       <TrustSection />
       <AboutSection />
       <ServicesGrid />
+      <CaseStudiesSection />
       <ProcessSection />
       <TestimonialsSection />
-      <CaseStudiesSection />
       <SectionCTA />
       <LocalRootsSection />
       <FAQSection />

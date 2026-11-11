@@ -170,6 +170,8 @@ export interface ReferenzCase {
   title: string;
   client: string;
   industry: string;
+  /** 9:16-Clip mit Ton, etwa 20–60 Sekunden. In der Slideshow stumm, nach Klick mit Ton. */
+  video?: string;
   excerpt: string;
   situation: string;
   measures: string[];

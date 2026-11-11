@@ -13,7 +13,7 @@ export function AboutSection() {
             <p className="mb-3 text-sm font-semibold uppercase tracking-[0.15em] text-accent-dark">
               Wer wir sind
             </p>
-            <h2 className="text-2xl font-extrabold text-navy sm:text-3xl lg:text-5xl">
+            <h2 className="font-display text-4xl text-navy sm:text-5xl">
               Kestler Connect – Online-Marketing-Agentur aus Duisburg
             </h2>
             <p className="mt-4 text-base leading-relaxed text-gray-600 sm:text-lg">

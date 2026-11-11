@@ -1,7 +1,10 @@
+"use client";
+
+import { useEffect, useRef, useState, type PointerEvent as ReactPointerEvent } from "react";
 import Link from "next/link";
-import { Card } from "@/components/ui/Card";
 import { ScrollReveal } from "@/components/ui/ScrollReveal";
 import { Button } from "@/components/ui/Button";
+import { cn } from "@/lib/utils";
 
 /** Kernleistungen in der Reihenfolge der Priorität. */
 const coreServices = [
@@ -45,83 +48,224 @@ const moreServices = [
 ];
 
 export function ServicesGrid() {
+  const [open, setOpen] = useState(0);
+  const listRef = useRef<HTMLDivElement>(null);
+  const pointRef = useRef({ x: 0, y: 0 });
+  const movedRef = useRef(true);
+
+  useEffect(() => {
+    const media = window.matchMedia("(max-width: 767px)");
+    let frame = 0;
+    const update = () => {
+      frame = 0;
+      if (!media.matches) return;
+      const list = listRef.current;
+      if (!list) return;
+      const rows = [...list.querySelectorAll<HTMLElement>(":scope > a")];
+      if (!rows.length) return;
+      const mid = window.innerHeight / 2;
+      let closest = 0;
+      let closestDistance = Number.POSITIVE_INFINITY;
+      rows.forEach((row, index) => {
+        const rect = row.getBoundingClientRect();
+        const distance = Math.abs(rect.top + rect.height / 2 - mid);
+        if (distance < closestDistance) {
+          closestDistance = distance;
+          closest = index;
+        }
+      });
+      setOpen((current) => (current === closest ? current : closest));
+    };
+    const onScroll = () => {
+      if (!media.matches || frame) return;
+      frame = requestAnimationFrame(update);
+    };
+    const onChange = () => {
+      if (media.matches) update();
+      else setOpen(0);
+    };
+
+    if (media.matches) update();
+    media.addEventListener("change", onChange);
+    window.addEventListener("scroll", onScroll, { passive: true });
+    window.addEventListener("resize", onScroll);
+    return () => {
+      media.removeEventListener("change", onChange);
+      window.removeEventListener("scroll", onScroll);
+      window.removeEventListener("resize", onScroll);
+      if (frame) cancelAnimationFrame(frame);
+    };
+  }, []);
+
+  useEffect(() => {
+    const onMove = (event: PointerEvent) => {
+      if (event.pointerType !== "mouse") return;
+      const dx = event.clientX - pointRef.current.x;
+      const dy = event.clientY - pointRef.current.y;
+      if (Math.hypot(dx, dy) < 4) return;
+      pointRef.current = { x: event.clientX, y: event.clientY };
+      movedRef.current = true;
+    };
+    window.addEventListener("pointermove", onMove);
+    return () => window.removeEventListener("pointermove", onMove);
+  }, []);
+
+  const openFromPointer = (index: number, x: number, y: number) => {
+    // Aufklappen verschiebt die Liste und löst pointerenter aus, ohne dass die Maus sich bewegt.
+    if (!movedRef.current) return;
+    movedRef.current = false;
+    pointRef.current = { x, y };
+    setOpen(index);
+  };
+
+  const placeGlow = (event: ReactPointerEvent<HTMLElement>, active: boolean) => {
+    if (event.pointerType !== "mouse") return;
+    const glow = event.currentTarget.querySelector<HTMLElement>("[data-cursor-glow]");
+    if (!glow) return;
+    const rect = event.currentTarget.getBoundingClientRect();
+    const x = event.clientX - rect.left;
+    const y = event.clientY - rect.top;
+    const color = active ? "rgba(255, 244, 220, 0.18)" : "rgba(196, 160, 82, 0.14)";
+    glow.style.opacity = "1";
+    glow.style.background = `radial-gradient(280px circle at ${x}px ${y}px, ${color}, transparent 68%)`;
+  };
+
+  const hideGlow = (event: ReactPointerEvent<HTMLElement>) => {
+    const glow = event.currentTarget.querySelector<HTMLElement>("[data-cursor-glow]");
+    if (glow) glow.style.opacity = "0";
+  };
+
   return (
-    <section className="section-padding">
+    <section className="section-padding bg-paper">
       <div className="container-custom">
         <ScrollReveal>
-          <div className="mb-10 text-center sm:mb-14">
-            <p className="mb-3 text-sm font-semibold uppercase tracking-[0.15em] text-accent-dark">
-              Leistungen
-            </p>
-            <h2 className="text-2xl font-extrabold text-navy sm:text-3xl lg:text-5xl">Unsere Leistungen</h2>
-            <p className="mx-auto mt-3 max-w-2xl text-base text-gray-600 sm:mt-4 sm:text-lg">
+          <div className="mb-10 flex flex-col gap-4 sm:mb-14 lg:flex-row lg:items-end lg:justify-between">
+            <h2 className="font-display text-4xl text-navy sm:text-5xl lg:text-6xl">
+              Unsere Leistungen
+            </h2>
+            <p className="max-w-sm text-base leading-snug text-gray-600">
               Fünf Kernleistungen, die zusammenspielen – für Unternehmen in Duisburg, im Ruhrgebiet und am
               Niederrhein.
             </p>
           </div>
         </ScrollReveal>
 
-        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-          {coreServices.map((service, i) => (
-            <ScrollReveal key={service.title} delay={i * 0.06}>
-              <Link href={service.href} className="block h-full">
-                <Card className="h-full border-navy/10">
-                  <h3 className="text-lg font-bold text-navy">{service.title}</h3>
-                  <p className="mt-2 text-gray-600">{service.description}</p>
-                  <ul className="mt-4 space-y-2">
-                    {service.items.map((item) => (
-                      <li key={item} className="flex items-center gap-2 text-sm text-navy">
-                        <span className="text-accent-dark" aria-hidden="true">
-                          ✓
-                        </span>
-                        {item}
-                      </li>
-                    ))}
-                  </ul>
-                  <p className="mt-4 text-sm font-semibold text-accent-dark">Mehr erfahren →</p>
-                </Card>
+        <div
+          ref={listRef}
+          className="grid grid-cols-[minmax(0,1fr)_auto] [overflow-anchor:none] lg:grid-cols-[max-content_minmax(0,1fr)_auto]"
+        >
+          {coreServices.map((service, index) => {
+            const isOpen = open === index;
+            return (
+              <Link
+                key={service.title}
+                href={service.href}
+                aria-expanded={isOpen}
+                onPointerEnter={(event) => {
+                  // Nur echte Mauszeiger. Auf Touch öffnet der Klick die Seite.
+                  if (event.pointerType !== "mouse") return;
+                  const active = movedRef.current || open === index;
+                  openFromPointer(index, event.clientX, event.clientY);
+                  placeGlow(event, active);
+                }}
+                onPointerMove={(event) => placeGlow(event, isOpen)}
+                onPointerLeave={hideGlow}
+                className={cn(
+                  "relative col-span-2 grid grid-cols-subgrid items-center gap-x-4 border-b border-navy/10 py-6 transition-colors duration-500 sm:gap-x-8 sm:py-8 lg:col-span-3",
+                  isOpen && "border-transparent text-white"
+                )}
+              >
+                <div
+                  aria-hidden="true"
+                  className={cn(
+                    "pointer-events-none absolute inset-0 rounded-3xl transition-colors duration-500",
+                    isOpen ? "bg-navy" : "bg-transparent"
+                  )}
+                />
+                <div className="pointer-events-none absolute inset-0 overflow-hidden rounded-3xl">
+                  <div
+                    data-cursor-glow
+                    aria-hidden="true"
+                    className="absolute inset-0 opacity-0 transition-opacity duration-300"
+                  />
+                </div>
+                <h3
+                  className={cn(
+                    "relative z-10 col-start-1 row-start-1 pl-3 text-left font-display text-2xl transition-colors duration-500 sm:pl-6 sm:text-4xl lg:whitespace-nowrap",
+                    isOpen ? "text-white" : "text-navy"
+                  )}
+                >
+                  {service.title}
+                </h3>
+                <div className="relative z-10 col-span-2 row-start-2 min-w-0 lg:col-span-1 lg:col-start-2 lg:row-start-1">
+                  <div
+                    className={cn(
+                      "grid transition-[grid-template-rows,opacity] duration-500 ease-out",
+                      isOpen ? "grid-rows-[1fr] opacity-100" : "pointer-events-none grid-rows-[0fr] opacity-0"
+                    )}
+                  >
+                    <div className="min-h-0 overflow-hidden">
+                      <p className="px-3 pt-3 text-sm leading-relaxed text-white/75 sm:px-6 sm:text-base lg:px-0 lg:pt-0">
+                        {service.description}
+                      </p>
+                      <ul className="mt-4 hidden space-y-1.5 lg:block">
+                        {service.items.map((item) => (
+                          <li key={item} className="text-sm text-white/90">
+                            {item}
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <span
+                  aria-hidden="true"
+                  className={cn(
+                    "relative z-10 col-start-2 row-start-1 mr-3 flex h-11 w-11 shrink-0 items-center justify-center self-center rounded-full border transition-colors duration-500 sm:mr-6 sm:h-12 sm:w-12 lg:col-start-3",
+                    isOpen
+                      ? "border-white bg-white text-navy"
+                      : "border-navy/20 text-navy"
+                  )}
+                >
+                  <svg
+                    viewBox="0 0 24 24"
+                    className="h-5 w-5"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="1.75"
+                  >
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M7 17 17 7" />
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M7 7h10v10" />
+                  </svg>
+                </span>
               </Link>
-            </ScrollReveal>
+            );
+          })}
+        </div>
+
+        <div className="mt-10 flex flex-wrap gap-x-6 gap-y-3">
+          {moreServices.map((item) => (
+            <Link
+              key={item.href}
+              href={item.href}
+              className="text-sm font-medium text-navy underline-offset-4 hover:underline"
+            >
+              {item.title}
+            </Link>
           ))}
         </div>
 
-        <ScrollReveal delay={0.1}>
-          <details className="group mx-auto mt-8 max-w-3xl rounded-2xl border border-gray-200 bg-white">
-            <summary className="flex cursor-pointer list-none items-center justify-between px-5 py-4 text-sm font-semibold text-navy sm:text-base">
-              Weitere Leistungen
-              <span aria-hidden="true" className="text-xl text-accent-dark transition-transform group-open:rotate-45">
-                +
-              </span>
-            </summary>
-            <ul className="grid gap-2 border-t border-gray-100 px-5 py-4 sm:grid-cols-2">
-              {moreServices.map((item) => (
-                <li key={item.href}>
-                  <Link href={item.href} className="text-sm font-medium text-navy underline-offset-2 hover:text-accent-dark hover:underline">
-                    {item.title} →
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </details>
-
-          <div className="mt-8 flex flex-col items-center gap-3 text-center">
-            <Button href="/kontakt" size="md">
-              Kostenloses Strategiegespräch
-            </Button>
-            <Link
-              href="/einzugsgebiet"
-              className="text-sm font-semibold text-accent-dark underline underline-offset-2 hover:text-navy"
-            >
-              Für welche Orte wir arbeiten →
-            </Link>
-            <Link
-              href="/leistungen"
-              className="text-sm font-semibold text-accent-dark underline underline-offset-2 hover:text-navy"
-            >
-              Alle Leistungen im Überblick →
-            </Link>
-          </div>
-        </ScrollReveal>
+        <div className="mt-10 flex flex-col items-start gap-3 sm:flex-row sm:items-center">
+          <Button href="/kontakt" size="md">
+            Kostenloses Strategiegespräch
+          </Button>
+          <Link href="/einzugsgebiet" className="text-sm font-medium text-navy underline-offset-4 hover:underline">
+            Für welche Orte wir arbeiten
+          </Link>
+          <Link href="/leistungen" className="text-sm font-medium text-navy underline-offset-4 hover:underline">
+            Alle Leistungen
+          </Link>
+        </div>
       </div>
     </section>
   );

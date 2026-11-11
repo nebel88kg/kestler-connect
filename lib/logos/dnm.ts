@@ -1,6 +1,6 @@
-/** Client logo – static public asset (SVG wrapper with original dnm.png embedded) */
+/** Client logo – transparent PNG */
 export const dnmLogo = {
-  src: "/images/logos/dnm.svg" as const,
+  src: "/images/logos/dnm.png" as const,
   alt: "DnM – Dämmstoffe nach Maß GmbH",
-  file: "/images/logos/dnm.svg",
+  file: "/images/logos/dnm.png",
 };

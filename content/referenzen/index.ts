@@ -7,6 +7,7 @@ export const referenzen: ReferenzCase[] = [
     title: "DnM – Dämmstoffe nach Maß",
     client: "DnM – Dämmstoffe nach Maß",
     industry: "Dämmstoffe",
+    video: "/videos/references/dnm.mp4",
     excerpt:
       "Social-Media-Videos, Leitfaden für LinkedIn und Instagram, SEO und SEA: laut Kundenaussage ist DnM heute bei Google auf Seite 1 zu finden und hat so bereits neue Kunden gewonnen.",
     situation:
@@ -34,6 +35,7 @@ export const referenzen: ReferenzCase[] = [
     title: "SecPro Bildungszentrum",
     client: "SecPro Bildungszentrum",
     industry: "Bildung",
+    video: "/videos/references/secpro-bildungszentrum.mp4",
     excerpt:
       "Social-Media-Betreuung und Meta Ads für ein Bildungszentrum – sichtbarer, greifbarer, anfrageorientierter.",
     situation:
@@ -59,6 +61,7 @@ export const referenzen: ReferenzCase[] = [
     title: "Golfclub Raffelberg",
     client: "Golfclub Raffelberg",
     industry: "Golf",
+    video: "/videos/references/golfclub-raffelberg.mp4",
     excerpt:
       "Professioneller Social-Media-Auftritt und erfolgreiche Mitgliedergewinnung durch Meta Ads und Google Ads.",
     situation:

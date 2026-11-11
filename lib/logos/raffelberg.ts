@@ -1,6 +1,6 @@
-/** Client logo – static public asset (SVG wrapper with original raffelberg.png embedded) */
+/** Client logo – transparent PNG */
 export const raffelbergLogo = {
-  src: "/images/logos/raffelberg.svg" as const,
+  src: "/images/logos/raffelberg.png" as const,
   alt: "Golfclub Raffelberg",
-  file: "/images/logos/raffelberg.svg",
+  file: "/images/logos/raffelberg.png",
 };
