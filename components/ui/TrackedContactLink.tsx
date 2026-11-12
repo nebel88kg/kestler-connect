@@ -11,7 +11,7 @@ interface TrackedContactLinkProps {
   children: ReactNode;
 }
 
-/** Telefon-/WhatsApp-Link mit denselben dataLayer-Events wie die StickyContactBar. */
+/** Telefon-/WhatsApp-Link mit dataLayer-Events für Klicks. */
 export function TrackedContactLink({ kind, href, placement, className, children }: TrackedContactLinkProps) {
   const external = kind === "whatsapp";
   return (

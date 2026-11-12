@@ -7,6 +7,7 @@ import {
   startupSpaceLogo,
   buddysDuisburgLogo,
   malermeisterKleinauLogo,
+  signalFairsichertLogo,
 } from "@/lib/clientLogos";
 import { cn } from "@/lib/utils";
 
@@ -24,6 +25,7 @@ const logos: SliderLogo[] = [
   startupSpaceLogo,
   buddysDuisburgLogo,
   malermeisterKleinauLogo,
+  signalFairsichertLogo,
 ];
 
 export function LogoSlider() {

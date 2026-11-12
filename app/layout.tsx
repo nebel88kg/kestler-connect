@@ -5,7 +5,6 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 import "./globals.css";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
-import { StickyContactBar } from "@/components/layout/StickyContactBar";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { GoogleTagManager } from "@/components/analytics/GoogleTagManager";
 import { CookieBanner } from "@/components/consent/CookieBanner";
@@ -134,7 +133,6 @@ export default function RootLayout({
         <Header />
         <main>{children}</main>
         <Footer />
-        <StickyContactBar />
         {/* Vercel Web Analytics + Speed Insights: cookieless, ohne personenbezogene Daten -> bewusst nicht an den Cookie-Banner (lib/consent.ts) gekoppelt. Siehe /datenschutz. */}
         <Analytics />
         <SpeedInsights />

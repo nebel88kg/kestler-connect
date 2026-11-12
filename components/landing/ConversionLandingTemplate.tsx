@@ -254,7 +254,7 @@ export function ConversionLandingTemplate({ page }: { page: LandingPage }) {
                       .
                     </p>
                   </div>
-                  {/* Einziges Formular der Seite; id="anfrage" bedient auch die mobile StickyContactBar. */}
+                  {/* Einziges Formular der Seite. */}
                   <div id="anfrage" className="scroll-mt-20 rounded-2xl bg-white p-5 shadow-sm sm:p-6">
                     <h3 className="text-xl font-bold text-anthracite">{c.formTitle}</h3>
                     <p className="mb-4 mt-1 text-sm text-gray-600">Nur drei Angaben – wir melden uns zeitnah.</p>

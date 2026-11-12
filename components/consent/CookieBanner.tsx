@@ -136,11 +136,7 @@ export function CookieBanner() {
   const isLegalPage = pathname === "/datenschutz" || pathname === "/impressum";
   if (!open || (isLegalPage && !manual)) return null;
 
-  // Auf Mobilgeräten über der fixierten Kontaktleiste (ca. 65 px + Safe-Area) positionieren.
-  const hasStickyBar = pathname !== "/kontakt";
-  const position = hasStickyBar
-    ? "bottom-[calc(4.75rem_+_env(safe-area-inset-bottom,0px))] lg:bottom-4"
-    : "bottom-[max(0.75rem,env(safe-area-inset-bottom,0px))] lg:bottom-4";
+  const position = "bottom-[max(0.75rem,env(safe-area-inset-bottom,0px))] lg:bottom-4";
 
   return (
     <div

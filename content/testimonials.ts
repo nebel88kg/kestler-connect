@@ -1,5 +1,10 @@
 import type { Testimonial } from "./types";
-import { dnmLogo, raffelbergLogo } from "../lib/clientLogos";
+import {
+  buddysDuisburgLogo,
+  dnmLogo,
+  raffelbergLogo,
+  signalFairsichertLogo,
+} from "../lib/clientLogos";
 
 /**
  * Freigegebene Kundenstimmen – Zitate immer wörtlich übernehmen.
@@ -26,8 +31,29 @@ export const raffelbergTestimonial: Testimonial = {
   referenzSlug: "golfclub-raffelberg",
 };
 
+export const buddysTestimonial: Testimonial = {
+  name: "Simone",
+  company: "Buddy's Duisburg",
+  quote:
+    "Wir sind super zufrieden mit der Zusammenarbeit! Die beiden Jungs sind ein junges, sympathisches Team mit richtig coolen und modernen Ideen. Die Zusammenarbeit ist locker, unkompliziert und macht Spaß. Sie kümmern sich um unsere Videos und den Social-Media-Auftritt. Dabei bringen sie immer wieder kreative Ideen ein. Besonders gut gefällt uns, dass sie sich Gedanken machen und genau schauen, was zu unserer Branche und Zielgruppe passt. Man merkt, dass die beiden mit Leidenschaft dabei sind. Wir können sie absolut weiterempfehlen!",
+  logo: { src: buddysDuisburgLogo.src, alt: buddysDuisburgLogo.alt },
+};
+
+export const signalIdunaTestimonial: Testimonial = {
+  name: "Kai Murek",
+  company: "Signal Iduna",
+  quote:
+    "Haben gerade die Zusammenarbeit begonnen und ich bin sehr zufrieden👌🏻 Kreative Ideen, schnelle und faire Umsetzung. Weiter so. Klare Empfehlung!",
+  logo: { src: signalFairsichertLogo.src, alt: signalFairsichertLogo.alt },
+};
+
 /** Reihenfolge = Reihenfolge auf der Startseite */
-export const testimonials: Testimonial[] = [dnmTestimonial, raffelbergTestimonial];
+export const testimonials: Testimonial[] = [
+  dnmTestimonial,
+  raffelbergTestimonial,
+  signalIdunaTestimonial,
+  buddysTestimonial,
+];
 
 /** Angabe unter dem Zitat: mit Name → Name + "Rolle, Firma"; ohne Name → Firma (+ ggf. Rolle). */
 export function getTestimonialAttribution(t: Testimonial): { primary: string; secondary?: string } {
